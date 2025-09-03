@@ -56,18 +56,13 @@ def process_m3u_data():
     
     # 3. 获取EPG数据
     epg_data = fetch_url(CONFIG["snow_epg_json"], "EPG信息")
+    epg_channels = []
     if epg_data:
-        epg_channels = json.loads(epg_data)
-        # 创建EPG映射表（标准化名称->channel_id和channel_name）
-        epg_map = {}
-        for channel in epg_channels:
-            norm_name = normalize_channel_name(channel["channel_name"])
-            epg_map[norm_name] = {
-                "channel_id": channel["channel_id"],
-                "channel_name": channel["channel_name"]
-            }
+        try:
+            epg_channels = json.loads(epg_data)
+        except:
+            print("解析EPG数据失败")
     else:
-        epg_map = {}
         print("警告: 无法获取EPG数据，将跳过EPG匹配")
     
     # 4. 获取所有logo数据
@@ -109,12 +104,14 @@ def process_m3u_data():
         channel_name, channel_url = parts
         norm_channel_name = normalize_channel_name(channel_name)
         
-        # 匹配EPG信息
+        # 按照EPG数据从上往下匹配
         tvg_id = ""
         tvg_name = ""
-        if norm_channel_name in epg_map:
-            tvg_id = epg_map[norm_channel_name]["channel_id"]
-            tvg_name = epg_map[norm_channel_name]["channel_name"]
+        for channel in epg_channels:
+            if normalize_channel_name(channel["channel_name"]) == norm_channel_name:
+                tvg_id = channel["channel_id"]
+                tvg_name = channel["channel_name"]
+                break
         
         # 匹配Logo
         tvg_logo = ""
