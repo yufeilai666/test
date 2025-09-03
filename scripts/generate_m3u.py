@@ -39,28 +39,54 @@ def fetch_url(url, description="数据", encoding=None, referer=None, user_agent
         response = requests.get(url, headers=headers, timeout=15)
         response.raise_for_status()
         
+        # 获取原始字节数据
+        content_bytes = response.content
+        
         # 如果指定了编码，使用指定编码
         if encoding:
-            response.encoding = encoding
-            return response.text
+            try:
+                return content_bytes.decode(encoding)
+            except UnicodeDecodeError:
+                print(f"使用指定编码 {encoding} 解码失败，尝试自动检测")
         
-        # 如果没有指定编码，尝试自动检测
-        content = response.content
-        detected_encoding = chardet.detect(content)['encoding']
+        # 尝试自动检测编码
+        detected = chardet.detect(content_bytes)
+        if detected['confidence'] > 0.7:
+            try:
+                return content_bytes.decode(detected['encoding'])
+            except UnicodeDecodeError:
+                print(f"使用检测到的编码 {detected['encoding']} 解码失败，尝试其他编码")
         
-        # 常见中文编码处理
-        if detected_encoding:
-            if detected_encoding.lower() in ['gbk', 'gb2312', 'gb18030']:
-                response.encoding = detected_encoding
-            else:
-                response.encoding = 'utf-8'
-        else:
-            response.encoding = 'utf-8'  # 默认使用UTF-8
+        # 尝试常见的中文编码
+        encodings_to_try = ['utf-8', 'gbk', 'gb2312', 'gb18030', 'big5', 'latin-1']
+        
+        for enc in encodings_to_try:
+            try:
+                return content_bytes.decode(enc)
+            except UnicodeDecodeError:
+                continue
+        
+        # 如果所有尝试都失败，使用 UTF-8 并忽略错误
+        return content_bytes.decode('utf-8', errors='ignore')
             
-        return response.text
     except Exception as e:
         print(f"获取{description}失败: {e}")
         return None
+
+def fix_unicode_escape(text):
+    """修复Unicode转义序列"""
+    if not text:
+        return text
+    
+    # 检查是否包含Unicode转义序列
+    if '\\u' in text:
+        try:
+            # 尝试将Unicode转义序列转换为实际字符
+            return text.encode('utf-8').decode('unicode_escape')
+        except:
+            pass
+    
+    return text
 
 def normalize_channel_name(name):
     """标准化频道名称（转简体并小写）"""
@@ -73,20 +99,12 @@ def process_single_source(output_filename, source_config, epg_map, logo_sources)
     list_url = source_config["url"]
     user_agent = source_config.get("user_agent")
     referer = source_config.get("referer")
-    
-    # 获取频道列表数据
-    # 对于已知的编码问题源，使用特定编码
-    if "xtvantsc.xyz" in list_url:
-        encoding = "gbk"
-    else:
-        encoding = None
+    encoding = source_config.get("encoding")  # 从配置中获取编码
     
     # 如果配置中没有提供 referer，使用默认逻辑
     if referer is None:
         # 为特定域名设置特定的 Referer
-        if "xtvantsc.xyz" in list_url:
-            referer = "https://xtvantsc.xyz/"
-        elif "catvod.com" in list_url:
+        if "catvod.com" in list_url:
             referer = "https://live.catvod.com/"
     
     list_data = fetch_url(list_url, f"频道列表({output_filename})", encoding, referer, user_agent)
@@ -116,11 +134,8 @@ def process_single_source(output_filename, source_config, epg_map, logo_sources)
         # 检查是否是分组行 (支持多种格式)
         if line.endswith(",#genre#") or line.endswith(",genre") or re.search(r",#?\w*genre\w*#?$", line):
             current_group = re.sub(r",#?\w*genre\w*#?$", "", line)
-            # 尝试修复可能的编码问题
-            try:
-                current_group = current_group.encode('raw_unicode_escape').decode('gbk')
-            except:
-                pass  # 如果修复失败，保持原样
+            # 尝试修复Unicode转义序列
+            current_group = fix_unicode_escape(current_group)
             print(f"检测到分组: {current_group} (第{line_count}行)")
             continue
             
@@ -142,11 +157,8 @@ def process_single_source(output_filename, source_config, epg_map, logo_sources)
         channel_name = channel_name.strip()
         channel_url = channel_url.strip()
         
-        # 尝试修复可能的编码问题
-        try:
-            channel_name = channel_name.encode('raw_unicode_escape').decode('gbk')
-        except:
-            pass  # 如果修复失败，保持原样
+        # 尝试修复Unicode转义序列
+        channel_name = fix_unicode_escape(channel_name)
         
         # 跳过无效的频道行
         if not channel_name or not channel_url:
