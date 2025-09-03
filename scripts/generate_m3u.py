@@ -2,19 +2,36 @@ import requests
 import json
 import re
 import os
+import time
+import random
 import chardet  # 用于检测编码
 from zhconv import convert  # 用于简繁转换
 
 # 默认请求头
 DEFAULT_HEADERS = {
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-    "Accept-Encoding": "gzip, deflate",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+    "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
 }
 
-def fetch_url(url, description="数据", encoding=None, referer=None, user_agent=None):
+# 常见的浏览器 User-Agent 列表
+BROWSER_USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+]
+
+def fetch_url(url, description="数据", encoding=None, referer=None, user_agent=None, max_retries=3):
     """通用URL请求函数"""
     headers = DEFAULT_HEADERS.copy()
     
@@ -22,7 +39,7 @@ def fetch_url(url, description="数据", encoding=None, referer=None, user_agent
     if user_agent:
         headers["User-Agent"] = user_agent
     else:
-        headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        headers["User-Agent"] = random.choice(BROWSER_USER_AGENTS)
     
     # 添加 Referer 头（如果提供）
     if referer is not None:  # 注意：空字符串也是有效值
@@ -35,43 +52,61 @@ def fetch_url(url, description="数据", encoding=None, referer=None, user_agent
         except:
             pass
     
-    try:
-        response = requests.get(url, headers=headers, timeout=15)
-        response.raise_for_status()
-        
-        # 获取原始字节数据
-        content_bytes = response.content
-        
-        # 如果指定了编码，使用指定编码
-        if encoding:
-            try:
-                return content_bytes.decode(encoding)
-            except UnicodeDecodeError:
-                print(f"使用指定编码 {encoding} 解码失败，尝试自动检测")
-        
-        # 尝试自动检测编码
-        detected = chardet.detect(content_bytes)
-        if detected['confidence'] > 0.7:
-            try:
-                return content_bytes.decode(detected['encoding'])
-            except UnicodeDecodeError:
-                print(f"使用检测到的编码 {detected['encoding']} 解码失败，尝试其他编码")
-        
-        # 尝试常见的中文编码
-        encodings_to_try = ['utf-8', 'gbk', 'gb2312', 'gb18030', 'big5', 'latin-1']
-        
-        for enc in encodings_to_try:
-            try:
-                return content_bytes.decode(enc)
-            except UnicodeDecodeError:
-                continue
-        
-        # 如果所有尝试都失败，使用 UTF-8 并忽略错误
-        return content_bytes.decode('utf-8', errors='ignore')
+    # 添加其他可能的请求头
+    headers["DNT"] = "1"
+    headers["Sec-GPC"] = "1"
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=15)
+            response.raise_for_status()
             
-    except Exception as e:
-        print(f"获取{description}失败: {e}")
-        return None
+            # 获取原始字节数据
+            content_bytes = response.content
+            
+            # 如果指定了编码，使用指定编码
+            if encoding:
+                try:
+                    return content_bytes.decode(encoding)
+                except UnicodeDecodeError:
+                    print(f"使用指定编码 {encoding} 解码失败，尝试自动检测")
+            
+            # 尝试自动检测编码
+            detected = chardet.detect(content_bytes)
+            if detected['confidence'] > 0.7:
+                try:
+                    return content_bytes.decode(detected['encoding'])
+                except UnicodeDecodeError:
+                    print(f"使用检测到的编码 {detected['encoding']} 解码失败，尝试其他编码")
+            
+            # 尝试常见的中文编码
+            encodings_to_try = ['utf-8', 'gbk', 'gb2312', 'gb18030', 'big5', 'latin-1']
+            
+            for enc in encodings_to_try:
+                try:
+                    return content_bytes.decode(enc)
+                except UnicodeDecodeError:
+                    continue
+            
+            # 如果所有尝试都失败，使用 UTF-8 并忽略错误
+            return content_bytes.decode('utf-8', errors='ignore')
+                
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                wait_time = (2 ** attempt) + random.random()  # 指数退避策略
+                print(f"获取{description}失败 (尝试 {attempt + 1}/{max_retries}): {e}. 等待 {wait_time:.2f} 秒后重试...")
+                time.sleep(wait_time)
+                
+                # 每次重试时更换 User-Agent
+                headers["User-Agent"] = random.choice(BROWSER_USER_AGENTS)
+            else:
+                print(f"获取{description}失败: {e}")
+                return None
+        except Exception as e:
+            print(f"获取{description}失败: {e}")
+            return None
+    
+    return None
 
 def fix_unicode_escape(text):
     """修复Unicode转义序列"""
@@ -94,25 +129,17 @@ def normalize_channel_name(name):
         return ""
     return convert(name.lower(), 'zh-cn')
 
-def process_single_source(output_filename, source_config, epg_map, logo_sources):
+def process_single_source(output_filename, source_config, epg_channels, logo_sources):
     """处理单个直播源"""
     list_url = source_config["url"]
     user_agent = source_config.get("user_agent")
     referer = source_config.get("referer")
     encoding = source_config.get("encoding")  # 从配置中获取编码
     
-    # 如果配置中没有提供 referer，使用默认逻辑
-    if referer is None:
-        # 为特定域名设置特定的 Referer
-        if "catvod.com" in list_url:
-            referer = "https://live.catvod.com/"
+    # 对于特别难以访问的源，增加重试次数
+    max_retries = 5 if "catvod.com" in list_url else 3
     
-    list_data = fetch_url(list_url, f"频道列表({output_filename})", encoding, referer, user_agent)
-    
-    if not list_data:
-        # 如果第一次请求失败，尝试不使用 Referer 重试
-        print(f"第一次请求失败，尝试不使用 Referer 重试...")
-        list_data = fetch_url(list_url, f"频道列表({output_filename})", encoding, None, user_agent)
+    list_data = fetch_url(list_url, f"频道列表({output_filename})", encoding, referer, user_agent, max_retries)
     
     if not list_data:
         return False
@@ -167,15 +194,20 @@ def process_single_source(output_filename, source_config, epg_map, logo_sources)
             
         norm_channel_name = normalize_channel_name(channel_name)
         
-        # 匹配EPG信息
+        # 匹配EPG信息 - 按顺序查找，找到第一个匹配的
         tvg_id = ""
         tvg_name = ""
-        if norm_channel_name in epg_map:
-            tvg_id = epg_map[norm_channel_name]["channel_id"]
-            tvg_name = epg_map[norm_channel_name]["channel_name"]
-        
-        # 匹配Logo
         tvg_logo = ""
+        
+        # 按顺序遍历EPG频道列表
+        for epg_channel in epg_channels:
+            epg_norm_name = normalize_channel_name(epg_channel["channel_name"])
+            if epg_norm_name == norm_channel_name:
+                tvg_id = epg_channel["channel_id"]
+                tvg_name = epg_channel["channel_name"]
+                break
+        
+        # 匹配Logo - 按顺序查找，找到第一个匹配的
         for logo_map in logo_sources:
             if norm_channel_name in logo_map:
                 tvg_logo = logo_map[norm_channel_name]
@@ -229,21 +261,26 @@ def main():
     
     # 2. 获取EPG数据
     epg_data = fetch_url(snow_epg_json, "EPG信息")
-    epg_map = {}
+    epg_channels = []
     if epg_data:
         try:
             epg_channels = json.loads(epg_data)
-            # 创建EPG映射表（标准化名称->channel_id和channel_name）
+            # 统计原始EPG频道数量（不忽略大小写）
+            original_count = len(epg_channels)
+            
+            # 创建标准化名称到原始频道的映射（用于统计）
+            norm_name_count = {}
             for channel in epg_channels:
                 norm_name = normalize_channel_name(channel["channel_name"])
-                epg_map[norm_name] = {
-                    "channel_id": channel["channel_id"],
-                    "channel_name": channel["channel_name"]
-                }
-            print(f"成功加载EPG数据，包含 {len(epg_map)} 个频道")
+                norm_name_count[norm_name] = norm_name_count.get(norm_name, 0) + 1
+            
+            # 统计去重后的EPG频道数量
+            unique_count = len(norm_name_count)
+            
+            print(f"成功加载EPG数据，包含 {original_count} 个频道（{unique_count} 个唯一频道）")
         except Exception as e:
             print(f"解析EPG数据失败: {e}")
-            epg_map = {}
+            epg_channels = []
     else:
         print("警告: 无法获取EPG数据，将跳过EPG匹配")
     
@@ -271,7 +308,7 @@ def main():
     for output_filename, source_config in live_urls.items():
         print(f"\n开始处理: {output_filename} (源: {source_config['url']})")
         try:
-            success = process_single_source(output_filename, source_config, epg_map, logo_sources)
+            success = process_single_source(output_filename, source_config, epg_channels, logo_sources)
             if success:
                 success_count += 1
         except Exception as e:
