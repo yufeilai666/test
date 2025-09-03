@@ -31,7 +31,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install requests zhconv
+        pip install requests zhconv chardet
 
     - name: Run TV12 M3U generation script
       continue-on-error: true  # 即使此步骤失败，也继续执行后续步骤
