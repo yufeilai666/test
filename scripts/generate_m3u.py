@@ -2,17 +2,61 @@ import requests
 import json
 import re
 import os
+import chardet  # 用于检测编码
 from zhconv import convert  # 用于简繁转换
 
-# 设置常量
-USER_AGENT = "AptvPlayer/2.7.4"
+# 默认请求头
+DEFAULT_HEADERS = {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+}
 
-def fetch_url(url, description="数据"):
+def fetch_url(url, description="数据", encoding=None, referer=None, user_agent=None):
     """通用URL请求函数"""
-    headers = {"User-Agent": USER_AGENT}
+    headers = DEFAULT_HEADERS.copy()
+    
+    # 设置 User-Agent
+    if user_agent:
+        headers["User-Agent"] = user_agent
+    else:
+        headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    
+    # 添加 Referer 头（如果提供）
+    if referer is not None:  # 注意：空字符串也是有效值
+        headers["Referer"] = referer
+    else:
+        # 如果没有提供 Referer，使用 URL 的域名作为默认 Referer
+        try:
+            domain = re.search(r'https?://([^/]+)', url).group(1)
+            headers["Referer"] = f"https://{domain}/"
+        except:
+            pass
+    
     try:
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=15)
         response.raise_for_status()
+        
+        # 如果指定了编码，使用指定编码
+        if encoding:
+            response.encoding = encoding
+            return response.text
+        
+        # 如果没有指定编码，尝试自动检测
+        content = response.content
+        detected_encoding = chardet.detect(content)['encoding']
+        
+        # 常见中文编码处理
+        if detected_encoding:
+            if detected_encoding.lower() in ['gbk', 'gb2312', 'gb18030']:
+                response.encoding = detected_encoding
+            else:
+                response.encoding = 'utf-8'
+        else:
+            response.encoding = 'utf-8'  # 默认使用UTF-8
+            
         return response.text
     except Exception as e:
         print(f"获取{description}失败: {e}")
@@ -24,10 +68,34 @@ def normalize_channel_name(name):
         return ""
     return convert(name.lower(), 'zh-cn')
 
-def process_single_source(output_filename, list_url, epg_map, logo_sources):
+def process_single_source(output_filename, source_config, epg_map, logo_sources):
     """处理单个直播源"""
+    list_url = source_config["url"]
+    user_agent = source_config.get("user_agent")
+    referer = source_config.get("referer")
+    
     # 获取频道列表数据
-    list_data = fetch_url(list_url, f"频道列表({output_filename})")
+    # 对于已知的编码问题源，使用特定编码
+    if "xtvantsc.xyz" in list_url:
+        encoding = "gbk"
+    else:
+        encoding = None
+    
+    # 如果配置中没有提供 referer，使用默认逻辑
+    if referer is None:
+        # 为特定域名设置特定的 Referer
+        if "xtvantsc.xyz" in list_url:
+            referer = "https://xtvantsc.xyz/"
+        elif "catvod.com" in list_url:
+            referer = "https://live.catvod.com/"
+    
+    list_data = fetch_url(list_url, f"频道列表({output_filename})", encoding, referer, user_agent)
+    
+    if not list_data:
+        # 如果第一次请求失败，尝试不使用 Referer 重试
+        print(f"第一次请求失败，尝试不使用 Referer 重试...")
+        list_data = fetch_url(list_url, f"频道列表({output_filename})", encoding, None, user_agent)
+    
     if not list_data:
         return False
     
@@ -48,6 +116,11 @@ def process_single_source(output_filename, list_url, epg_map, logo_sources):
         # 检查是否是分组行 (支持多种格式)
         if line.endswith(",#genre#") or line.endswith(",genre") or re.search(r",#?\w*genre\w*#?$", line):
             current_group = re.sub(r",#?\w*genre\w*#?$", "", line)
+            # 尝试修复可能的编码问题
+            try:
+                current_group = current_group.encode('raw_unicode_escape').decode('gbk')
+            except:
+                pass  # 如果修复失败，保持原样
             print(f"检测到分组: {current_group} (第{line_count}行)")
             continue
             
@@ -68,6 +141,12 @@ def process_single_source(output_filename, list_url, epg_map, logo_sources):
         channel_name, channel_url = parts
         channel_name = channel_name.strip()
         channel_url = channel_url.strip()
+        
+        # 尝试修复可能的编码问题
+        try:
+            channel_name = channel_name.encode('raw_unicode_escape').decode('gbk')
+        except:
+            pass  # 如果修复失败，保持原样
         
         # 跳过无效的频道行
         if not channel_name or not channel_url:
@@ -177,10 +256,10 @@ def main():
     
     # 4. 处理每个直播源
     success_count = 0
-    for output_filename, list_url in live_urls.items():
-        print(f"\n开始处理: {output_filename} (源: {list_url})")
+    for output_filename, source_config in live_urls.items():
+        print(f"\n开始处理: {output_filename} (源: {source_config['url']})")
         try:
-            success = process_single_source(output_filename, list_url, epg_map, logo_sources)
+            success = process_single_source(output_filename, source_config, epg_map, logo_sources)
             if success:
                 success_count += 1
         except Exception as e:
@@ -201,6 +280,12 @@ if __name__ == "__main__":
         import requests
     except ImportError:
         print("请先安装requests库: pip install requests")
+        exit(1)
+        
+    try:
+        import chardet
+    except ImportError:
+        print("请先安装chardet库: pip install chardet")
         exit(1)
         
     success = main()
