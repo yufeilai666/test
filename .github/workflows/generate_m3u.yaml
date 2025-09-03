@@ -1,0 +1,55 @@
+name: Generate and Deploy TV12 M3U
+
+on:
+  schedule:
+    # 每4个小时自动运行一次（UTC时间）
+    - cron: '0 0/4 * * *'
+  # 允许手动触发工作流
+  workflow_dispatch:
+  # 当脚本文件有更改时也触发
+  push:
+    paths:
+      - 'scripts/generate_tv12_m3u.py'
+
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install requests zhconv
+
+    - name: Run M3U generation script
+      run: |
+        cd scripts
+        python generate_tv12_m3u.py
+
+    - name: Move M3U file to root directory
+      run: |
+        mv scripts/tv12.m3u tv12.m3u
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # 检查文件是否有变化
+        git add tv12.m3u
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-generated TV12 M3U file [skip ci]"
+          git push origin HEAD:main
+        else
+          echo "No changes to commit"
+        fi
