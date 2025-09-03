@@ -4,7 +4,8 @@
     "167.m3u": {
       "url": "http://xtvantsc.xyz/167.txt",
       "user_agent": "AptvPlayer/2.7.4",
-      "referer": ""
+      "referer": "",
+      "encoding": ""
     },
     "catvod_smart.m3u": {
       "url": "https://live.catvod.com/smart.php",
