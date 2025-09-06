@@ -7,10 +7,17 @@
       "referer": "",
       "encoding": ""
     },
-    "catvod_smart.m3u": {
-      "url": "https://live.catvod.com/smart.php",
-      "user_agent": "catvod.com",
-      "referer": "https://live.catvod.com/"
+    "167_2.m3u": {
+      "url": "https://files.catbox.moe/hppkqj.txt",
+      "user_agent": "AptvPlayer/2.7.4",
+      "referer": "",
+      "encoding": ""
+    },
+    "167_3.m3u": {
+      "url": "https://files.catbox.moe/h0tjh7.txt",
+      "user_agent": "AptvPlayer/2.7.4",
+      "referer": "",
+      "encoding": ""
     },
     "lzo_live.m3u": {
       "url": "http://lzo.xh.sd/tvbox/live.txt",
