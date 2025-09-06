@@ -157,7 +157,7 @@ http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
 #EXTINF:-1 group-title="刘公子港湾",香港34
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
-#EXTINF:-1 group-title="刘公子港湾",香港面包
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/香港面包.png" group-title="刘公子港湾",香港面包
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/动物星球.png" group-title="刘公子港湾",动物星球
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
