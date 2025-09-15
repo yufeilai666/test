@@ -4,7 +4,7 @@ import re
 from zhconv import convert  # 用于简繁转换
 
 # 设置常量
-USER_AGENT = "AptvPlayer/2.7.4"
+USER_AGENT = "Mozilla/5.0 (Linux; Android 10; BLA-AL00 Build/HUAWEIBLA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.196 Mobile Safari/537.36"
 CONFIG = {
     "snow_epg_json": "https://raw.githubusercontent.com/yufeilai666/tvepg/main/snow_epg.json",
     "base_url": {
