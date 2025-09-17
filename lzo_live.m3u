@@ -23,7 +23,7 @@ http://203.205.191.53/qctv.fengshows.cn/live/0701pin72.flv
 http://203.205.191.53/qctv.fengshows.cn/live/0701pin72.m3u8
 #EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/凤凰中文.png" group-title="刘公子港湾",凤凰中文
 http://203.205.191.53/qctv.fengshows.cn/live/0701pcc72.m3u8
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="刘公子港湾",中天新聞台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="刘公子港湾",中天新聞台
 http://bxtv.3a.ink/api.php?id=ztxw#http://bxtv.3a.ink/mytv/fp2.php?id=ztxw#http://tv.1l.osfs.top/Smart.php?id=ctinews
 #EXTINF:-1 tvg-id="Love Nature HD" tvg-name="Love Nature HD" group-title="刘公子港湾",Love Nature HD
 https://live.tvfix.org/live/lovenature/index.m3u8
@@ -59,7 +59,7 @@ https://live.tvfix.org/live/cctv1hd/index.m3u8
 https://live.tvfix.org/live/rockac/index.m3u8
 #EXTINF:-1 group-title="刘公子港湾",18台赛马频道
 https://live.tvfix.org/live/c18/index.m3u8
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",tvbs新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",tvbs新闻
 https://live.tvfix.org/live/tvbsnews/1/v4000000/index.m3u8
 #EXTINF:-1 tvg-id="中國電影頻道" tvg-name="中國電影頻道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/中国电影频道.png" group-title="刘公子港湾",中国电影频道
 https://live.tvfix.org/live/cmc/index.m3u8
@@ -137,17 +137,17 @@ http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
 http://iot-mqqt.111yao.cn:8080/live/diyp_starmovies.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/鳳凰電影.png" group-title="刘公子港湾",凤凰电影
 http://iot-mqqt.111yao.cn:8080/live/diyp_fhdy.m3u8
-#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華電影.png" group-title="刘公子港湾",龙华电影
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華電影.png" group-title="刘公子港湾",龙华电影
 https://cdn8.163189.xyz/live/lhdy/stream.m3u8
-#EXTINF:-1 tvg-id="龍華經典" tvg-name="龍華經典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華經典.png" group-title="刘公子港湾",龙华经典
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華經典.png" group-title="刘公子港湾",龙华经典
 https://cdn8.163189.xyz/live/lhjd/stream.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龙华卡通.png" group-title="刘公子港湾",龙华卡通
 https://cdn8.163189.xyz/live/lhkt/stream.m3u8
-#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華偶像.png" group-title="刘公子港湾",龙华偶像
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華偶像.png" group-title="刘公子港湾",龙华偶像
 https://cdn8.163189.xyz/live/lhox/stream.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龙华日韩.png" group-title="刘公子港湾",龙华日韩
 https://cdn8.163189.xyz/live/lhrh/stream.m3u8
-#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龙华戏剧.png" group-title="刘公子港湾",龙华戏剧
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龙华戏剧.png" group-title="刘公子港湾",龙华戏剧
 https://cdn8.163189.xyz/live/lhxj/stream.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/莲花卫视.png" group-title="刘公子港湾",莲花卫视
 http://anren.live/HK/BiIOU11uLA.m3u8
@@ -161,13 +161,13 @@ https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPla
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/动物星球.png" group-title="刘公子港湾",动物星球
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台视.png" group-title="刘公子港湾",台视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台视.png" group-title="刘公子港湾",台视
 rtmp://f13h.mine.nu/sat/tv071
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/中视.png" group-title="刘公子港湾",中视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/中视.png" group-title="刘公子港湾",中视
 rtmp://f13h.mine.nu/sat/tv091
-#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/华视.png" group-title="刘公子港湾",华视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/华视.png" group-title="刘公子港湾",华视
 rtmp://f13h.mine.nu/sat/tv111
-#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/民視.png" group-title="刘公子港湾",民视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/民視.png" group-title="刘公子港湾",民视
 rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/緯來體育.png" group-title="刘公子港湾",纬来体育
 rtmp://f13h.mine.nu/sat/tv721
@@ -189,15 +189,15 @@ rtmp://f13h.mine.nu/sat/tv731
 rtmp://f13h.mine.nu/sat/tv741
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/探索.png" group-title="刘公子港湾",探索
 http://61.221.215.25:8800/hls/1/index.m3u8
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/动漫.png" group-title="刘公子港湾",动漫
 http://61.221.215.25:8800/hls/40/index.m3u8
-#EXTINF:-1 tvg-id="八大戲劇台" tvg-name="八大戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/八大戲劇台.png" group-title="刘公子港湾",八大戏剧台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/八大戲劇台.png" group-title="刘公子港湾",八大戏剧台
 http://61.221.215.25:8800/hls/39/index.m3u8
-#EXTINF:-1 tvg-id="三立戲劇台" tvg-name="三立戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/三立戲劇台.png" group-title="刘公子港湾",三立戏剧台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/三立戲劇台.png" group-title="刘公子港湾",三立戏剧台
 http://61.221.215.25:8800/hls/41/index.m3u8
-#EXTINF:-1 tvg-id="AMC電影" tvg-name="AMC電影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/AMC電影.png" group-title="刘公子港湾",AMC电影
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/AMC電影.png" group-title="刘公子港湾",AMC电影
 http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/中天娛樂.png" group-title="刘公子港湾",中天娱乐
 http://61.221.215.25:8800/hls/47/index.m3u8
@@ -215,13 +215,13 @@ http://61.221.215.25:8800/hls/55/index.m3u8
 http://61.221.215.25:8800/hls/57/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="刘公子港湾",民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
 http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 #EXTINF:-1 group-title="刘公子港湾",TVBS a频道
 http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
 http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/长城精品.png" group-title="刘公子港湾",长城精品
 http://38.64.72.148/hls/modn/list/4008/chunklist0.m3u8
@@ -229,7 +229,7 @@ http://38.64.72.148/hls/modn/list/4008/chunklist0.m3u8
 http://38.64.72.148/hls/modn/list/4011/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="刘公子港湾",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
 http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
 #EXTINF:-1 group-title="刘公子港湾",ETRV中国
 http://38.64.72.148/hls/modn/list/2003/chunklist0.m3u8
@@ -241,11 +241,11 @@ http://38.64.72.148/hls/modn/list/2015/chunklist0.m3u8
 http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="刘公子港湾",民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
 http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 group-title="刘公子港湾",华语电视2
 http://38.64.72.148/hls/modn/list/4002/chunklist0.m3u8
@@ -275,19 +275,19 @@ https://sib.sld.tw/Smart.php?id=ctizhonghe
 https://sib.sld.tw/Smart.php?id=ctiasia_twn
 #EXTINF:-1 group-title="刘公子台灣",台视 TTV HD
 https://sib.sld.tw/Smart.php?id=ttv_taiwan
-#EXTINF:-1 tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台视新闻台.png" group-title="刘公子台灣",台视新闻台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台视新闻台.png" group-title="刘公子台灣",台视新闻台
 https://sib.sld.tw/Smart.php?id=ttvnews_twn
-#EXTINF:-1 tvg-id="台視綜合台" tvg-name="台視綜合台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台视综合台.png" group-title="刘公子台灣",台视综合台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台视综合台.png" group-title="刘公子台灣",台视综合台
 https://sib.sld.tw/Smart.php?id=ttvzhonghe_twn
 #EXTINF:-1 group-title="刘公子台灣",中视 HD
 https://sib.sld.tw/Smart.php?id=zhongshihd_twn
-#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视新闻台.png" group-title="刘公子台灣",中视新闻台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视新闻台.png" group-title="刘公子台灣",中视新闻台
 https://sib.sld.tw/Smart.php?id=zhongshinews_twn
 #EXTINF:-1 group-title="刘公子台灣",民视 HD
 https://sib.sld.tw/Smart.php?id=ftvhd_taiwan
 #EXTINF:-1 group-title="刘公子台灣",民视新闻台 FTV News
 https://sib.sld.tw/Smart.php?id=ftvnew_taiwan
-#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/民視台灣台.png" group-title="刘公子台灣",民视台湾台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/民視台灣台.png" group-title="刘公子台灣",民视台湾台
 https://sib.sld.tw/Smart.php?id=ftvtaiwan_twn
 #EXTINF:-1 group-title="刘公子台灣",华视 CTS HD
 https://sib.sld.tw/Smart.php?id=ctshd_twn
@@ -309,11 +309,11 @@ https://sib.sld.tw/Smart.php?id=hbohits_twn
 https://sib.sld.tw/Smart.php?id=hollywoodmovies_twn
 #EXTINF:-1 group-title="刘公子台灣",三立台湾 Sanli Taiwan
 https://sib.sld.tw/Smart.php?id=sanlitaiwan
-#EXTINF:-1 tvg-id="三立戲劇台" tvg-name="三立戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/三立戲劇台.png" group-title="刘公子台灣",三立戏剧台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/三立戲劇台.png" group-title="刘公子台灣",三立戏剧台
 https://sib.sld.tw/Smart.php?id=sanlixiju_twn
 #EXTINF:-1 group-title="刘公子台灣",三立综合 Sanli Metro
 https://sib.sld.tw/Smart.php?id=sanlizhonghe
-#EXTINF:-1 tvg-id="三立都會台" tvg-name="三立都會台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/三立都会台.png" group-title="刘公子台灣",三立都会台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/三立都会台.png" group-title="刘公子台灣",三立都会台
 https://sib.sld.tw/Smart.php?id=sanlidouhui
 #EXTINF:-1 group-title="刘公子台灣",东森新闻 ETTV News
 https://sib.sld.tw/Smart.php?id=ettvnews
@@ -329,19 +329,19 @@ https://sib.sld.tw/Smart.php?id=ettvsuper
 https://sib.sld.tw/Smart.php?id=ettvcaijing_twn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经.png" group-title="刘公子台灣",寰宇财经
 https://sib.sld.tw/Smart.php?id=huanyutaiwan_twn
-#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/寰宇新聞台.png" group-title="刘公子台灣",寰宇新闻台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/寰宇新聞台.png" group-title="刘公子台灣",寰宇新闻台
 https://sib.sld.tw/Smart.php?id=huanyuxinwen_twn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/大爱1台.png" group-title="刘公子台灣",大爱1台
 https://sib.sld.tw/Smart.php?id=daai_twn
-#EXTINF:-1 tvg-id="非凡新聞台" tvg-name="非凡新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/非凡新闻台.png" group-title="刘公子台灣",非凡新闻台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/非凡新闻台.png" group-title="刘公子台灣",非凡新闻台
 https://sib.sld.tw/Smart.php?id=feifannews_twn
 #EXTINF:-1 group-title="刘公子台灣",龙华戏剧 Lunghua Drama
 https://sib.sld.tw/Smart.php?id=lunghuaxiju_twn
-#EXTINF:-1 tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华戏剧台.png" group-title="刘公子台灣",龙华戏剧台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华戏剧台.png" group-title="刘公子台灣",龙华戏剧台
 https://sib.sld.tw/Smart.php?id=lunghuaxiju_twn
-#EXTINF:-1 tvg-id="龍華經典台" tvg-name="龍華經典台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龍華經典台.png" group-title="刘公子台灣",龙华经典台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龍華經典台.png" group-title="刘公子台灣",龙华经典台
 https://sib.sld.tw/Smart.php?id=lunghuajingdian_twn
-#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華偶像.png" group-title="刘公子台灣",龙华偶像
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華偶像.png" group-title="刘公子台灣",龙华偶像
 https://sib.sld.tw/Smart.php?id=lunghuaidol_twn
 #EXTINF:-1 group-title="刘公子台灣",AXN Taiwan
 https://sib.sld.tw/Smart.php?id=axn_twn
@@ -349,13 +349,13 @@ https://sib.sld.tw/Smart.php?id=axn_twn
 https://sib.sld.tw/Smart.php?id=jingtianintl_twn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/年代新闻.png" group-title="刘公子台灣",年代新闻
 https://sib.sld.tw/Smart.php?id=niandainews_twn
-#EXTINF:-1 tvg-id="緯來日本台" tvg-name="緯來日本台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/纬来日本台.png" group-title="刘公子台灣",纬来日本台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/纬来日本台.png" group-title="刘公子台灣",纬来日本台
 https://sib.sld.tw/Smart.php?id=videolandjapan
-#EXTINF:-1 tvg-id="緯來電影台" tvg-name="緯來電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/纬来电影台.png" group-title="刘公子台灣",纬来电影台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/纬来电影台.png" group-title="刘公子台灣",纬来电影台
 https://sib.sld.tw/Smart.php?id=videolandmovie_twn
-#EXTINF:-1 tvg-id="緯來體育台" tvg-name="緯來體育台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/緯來體育台.png" group-title="刘公子台灣",纬来体育台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/緯來體育台.png" group-title="刘公子台灣",纬来体育台
 https://sib.sld.tw/Smart.php?id=videolandsport
-#EXTINF:-1 tvg-id="緯來綜合台" tvg-name="緯來綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/纬来综合台.png" group-title="刘公子台灣",纬来综合台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/纬来综合台.png" group-title="刘公子台灣",纬来综合台
 https://sib.sld.tw/Smart.php?id=videolandzonghe
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/緯來育樂.png" group-title="刘公子台灣",纬来育乐
 https://sib.sld.tw/Smart.php?id=videolandyule
@@ -367,7 +367,7 @@ https://sib.sld.tw/Smart.php?id=goods_twn
 https://sib.sld.tw/Smart.php?id=catchplay_twn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲美食.png" group-title="刘公子台灣",亚洲美食
 https://sib.sld.tw/Smart.php?id=afc_twn
-#EXTINF:-1 tvg-id="美食星球" tvg-name="美食星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/美食星球.png" group-title="刘公子台灣",美食星球
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/美食星球.png" group-title="刘公子台灣",美食星球
 https://sib.sld.tw/Smart.php?id=foodplanet_twn
 #EXTINF:-1 group-title="刘公子台灣",亚洲旅游 TLC Asia
 https://sib.sld.tw/Smart.php?id=tlc_twn
@@ -389,13 +389,13 @@ https://sib.sld.tw/Smart.php?id=ettvwestern
 https://sib.sld.tw/Smart.php?id=lunghuawestern_twn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/博斯无限.png" group-title="刘公子台灣",博斯无限
 https://sib.sld.tw/Smart.php?id=bosiunlimited_twn
-#EXTINF:-1 tvg-id="MTV Live" tvg-name="MTV Live" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="刘公子台灣",MTV Live
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="刘公子台灣",MTV Live
 https://sib.sld.tw/Smart.php?id=mtvhd_twn
 #EXTINF:-1 group-title="刘公子台灣",龙详时代
 https://sib.sld.tw/Smart.php?id=lungxiangtime_twn
 #EXTINF:-1 group-title="刘公子台灣",EYETV 旅游
 https://sib.sld.tw/Smart.php?id=eyetvtravel_twn
-#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/靖天卡通台.png" group-title="刘公子台灣",靖天卡通台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/靖天卡通台.png" group-title="刘公子台灣",靖天卡通台
 https://sib.sld.tw/Smart.php?id=jingtiancartoon_twn
 #EXTINF:-1 group-title="刘公子台灣",EYETV 戏剧
 https://sib.sld.tw/Smart.php?id=eyetvxiju_twn
@@ -407,17 +407,17 @@ https://sib.sld.tw/Smart.php?id=yoyo_twn
 https://sib.sld.tw/Smart.php?id=weishimovie_twn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/美亞電影.png" group-title="刘公子台灣",美亚电影
 https://sib.sld.tw/Smart.php?id=meiyamovie_twn
-#EXTINF:-1 tvg-id="愛爾達影劇台" tvg-name="愛爾達影劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达影剧台.png" group-title="刘公子台灣",爱尔达影剧台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达影剧台.png" group-title="刘公子台灣",爱尔达影剧台
 https://sib.sld.tw/Smart.php?id=eltayingju_twn
-#EXTINF:-1 tvg-id="愛爾達綜合台" tvg-name="愛爾達綜合台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达综合台.png" group-title="刘公子台灣",爱尔达综合台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达综合台.png" group-title="刘公子台灣",爱尔达综合台
 https://sib.sld.tw/Smart.php?id=eltazonghe_twn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/星衛電影.png" group-title="刘公子台灣",星卫电影
 https://sib.sld.tw/Smart.php?id=xingwei_movie
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/愛爾達影劇.png" group-title="刘公子台灣",爱尔达影剧
 https://sib.sld.tw/Smart.php?id=eltayingju_twn
-#EXTINF:-1 tvg-id="愛爾達體育2台" tvg-name="愛爾達體育2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/愛爾達體育2台.png" group-title="刘公子台灣",爱尔达体育2台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/愛爾達體育2台.png" group-title="刘公子台灣",爱尔达体育2台
 https://sib.sld.tw/Smart.php?id=eltasport2_twn
-#EXTINF:-1 tvg-id="愛爾達體育3台" tvg-name="愛爾達體育3台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育3台.png" group-title="刘公子台灣",爱尔达体育3台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育3台.png" group-title="刘公子台灣",爱尔达体育3台
 https://sib.sld.tw/Smart.php?id=eltasport3_twn
 #EXTINF:-1 group-title="刘公子台灣",AFC 亚洲旅游台
 https://sib.sld.tw/Smart.php?id=asiatravel_twn
@@ -3383,7 +3383,7 @@ http://live.urren.net:80/live/69c70e830fb9e5e2b6a59481365ea41c.flv
 http://live.urren.net:80/live/c135e0e7ccf978fd32bfde2e1848929c.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/惊艳.png" group-title="松蕉系列",惊艳
 http://live.urren.net:80/live/6bd51d389bc5ed3fd460bb316156a936.flv
-#EXTINF:-1 tvg-id="K頻道" tvg-name="K頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/K频道.png" group-title="松蕉系列",k频道
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/K频道.png" group-title="松蕉系列",k频道
 http://live.urren.net:80/live/c07e7399f939f4d44ee0c4ff57e8d7f4.flv
 #EXTINF:-1 group-title="松蕉系列",潘多拉
 http://live.urren.net:80/live/21dc2da2c62171e65c9ec87f83993694.flv
