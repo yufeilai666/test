@@ -35,7 +35,7 @@ https://live.tvfix.org/live/inews/index.m3u8
 https://live.tvfix.org/live/mydy/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS亚洲台.png" group-title="刘公子港湾",TVBS亚洲台
 https://live.tvfix.org/live/tvbs/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/娱乐新闻台.png" group-title="刘公子港湾",娱乐新闻台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/娛樂新聞台.png" group-title="刘公子港湾",娱乐新闻台
 https://live.tvfix.org/live/enews/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/无线新闻.png" group-title="刘公子港湾",无线新闻
 https://live.tvfix.org/live/inews/3/v4000000/index.m3u8
@@ -139,15 +139,15 @@ http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
 http://iot-mqqt.111yao.cn:8080/live/diyp_starmovies.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/鳳凰電影.png" group-title="刘公子港湾",凤凰电影
 http://iot-mqqt.111yao.cn:8080/live/diyp_fhdy.m3u8
-#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華電影.png" group-title="刘公子港湾",龙华电影
+#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龙华电影.png" group-title="刘公子港湾",龙华电影
 https://cdn8.163189.xyz/live/lhdy/stream.m3u8
-#EXTINF:-1 tvg-id="龍華經典" tvg-name="龍華經典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華經典.png" group-title="刘公子港湾",龙华经典
+#EXTINF:-1 tvg-id="龍華經典" tvg-name="龍華經典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龙华经典.png" group-title="刘公子港湾",龙华经典
 https://cdn8.163189.xyz/live/lhjd/stream.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龙华卡通.png" group-title="刘公子港湾",龙华卡通
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華卡通.png" group-title="刘公子港湾",龙华卡通
 https://cdn8.163189.xyz/live/lhkt/stream.m3u8
 #EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華偶像.png" group-title="刘公子港湾",龙华偶像
 https://cdn8.163189.xyz/live/lhox/stream.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龙华日韩.png" group-title="刘公子港湾",龙华日韩
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龍華日韓.png" group-title="刘公子港湾",龙华日韩
 https://cdn8.163189.xyz/live/lhrh/stream.m3u8
 #EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/龙华戏剧.png" group-title="刘公子港湾",龙华戏剧
 https://cdn8.163189.xyz/live/lhxj/stream.m3u8
@@ -163,13 +163,13 @@ https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPla
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/动物星球.png" group-title="刘公子港湾",动物星球
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台视.png" group-title="刘公子港湾",台视
+#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/台視.png" group-title="刘公子港湾",台视
 rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/中视.png" group-title="刘公子港湾",中视
 rtmp://f13h.mine.nu/sat/tv091
 #EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/华视.png" group-title="刘公子港湾",华视
 rtmp://f13h.mine.nu/sat/tv111
-#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/民視.png" group-title="刘公子港湾",民视
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/民视.png" group-title="刘公子港湾",民视
 rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/tvepg/main/logo/緯來體育.png" group-title="刘公子港湾",纬来体育
 rtmp://f13h.mine.nu/sat/tv721
