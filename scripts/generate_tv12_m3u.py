@@ -4,18 +4,18 @@ import re
 from zhconv import convert  # 用于简繁转换
 
 # 设置常量
-USER_AGENT = "Mozilla/5.0 (Linux; Android 10; BLA-AL00 Build/HUAWEIBLA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.196 Mobile Safari/537.36"
+USER_AGENT = "AptvPlayer/2.7.4"
 CONFIG = {
-    "snow_epg_json": "https://raw.githubusercontent.com/yufeilai666/tvepg/main/snow_epg.json",
+    "snow_epg_json": "https://raw.githubusercontent.com/yufeilai666/myepg/main/snow_epg.json",
     "base_url": {
       "tv12.m3u": "https://2099.tv12.xyz",
       "tv1288.m3u": "https://2099.tv1288.xyz"
       },
     "logo_json": [
-        "https://raw.githubusercontent.com/yufeilai666/tvepg/logo_info/logo.json",
-        "https://raw.githubusercontent.com/yufeilai666/tvepg/logo_info/logo_112114.json",
-        "https://raw.githubusercontent.com/yufeilai666/tvepg/logo_info/logo_taksssss.json",
-        "https://raw.githubusercontent.com/yufeilai666/tvepg/logo_info/logo_fanmingming.json"
+        "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo.json",
+        "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo_112114.json",
+        "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo_taksssss.json",
+        "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo_fanmingming.json"
     ]
 }
 
