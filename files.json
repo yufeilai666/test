@@ -1,23 +1,16 @@
 {
-  "snow_epg_json": "https://raw.githubusercontent.com/yufeilai666/tvepg/main/snow_epg.json",
+  "snow_epg_json": "https://raw.githubusercontent.com/yufeilai666/myepg/main/snow_epg.json",
   "live_url": {
     "167.m3u": {
       "url": "http://xtvantsc.xyz/167.txt",
       "user_agent": "AptvPlayer/2.7.4",
-      "referer": "",
+      "referer": ""
       "encoding": ""
     },
-    "167_2.m3u": {
-      "url": "https://files.catbox.moe/hppkqj.txt",
-      "user_agent": "AptvPlayer/2.7.4",
-      "referer": "",
-      "encoding": ""
-    },
-    "167_3.m3u": {
-      "url": "https://files.catbox.moe/h0tjh7.txt",
-      "user_agent": "AptvPlayer/2.7.4",
-      "referer": "",
-      "encoding": ""
+    "catvod_smart.m3u": {
+      "url": "https://live.catvod.com/smart.php",
+      "user_agent": "catvod.com",
+      "referer": "https://live.catvod.com/"
     },
     "lzo_live.m3u": {
       "url": "http://lzo.xh.sd/tvbox/live.txt",
@@ -31,9 +24,9 @@
     }
   },
   "logo_json": [
-    "https://raw.githubusercontent.com/yufeilai666/tvepg/logo_info/logo.json",
-    "https://raw.githubusercontent.com/yufeilai666/tvepg/logo_info/logo_112114.json",
-    "https://raw.githubusercontent.com/yufeilai666/tvepg/logo_info/logo_taksssss.json",
-    "https://raw.githubusercontent.com/yufeilai666/tvepg/logo_info/logo_fanmingming.json"
+    "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo.json",
+    "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo_112114.json",
+    "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo_taksssss.json",
+    "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo_fanmingming.json"
   ]
 }
