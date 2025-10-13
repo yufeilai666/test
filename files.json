@@ -21,6 +21,16 @@
       "url": "http://xtvantsc.xyz/litv_ts.php",
       "user_agent": "AptvPlayer/2.7.4",
       "referer": ""
+    },
+    "tv12.m3u": {
+      "url": "https://2099.tv12.xyz/list.txt",
+      "user_agent": "AptvPlayer/2.7.4",
+      "referer": ""
+    },
+    "tv1288.m3u": {
+      "url": "https://2099.tv1288.xyz/list.txt",
+      "user_agent": "AptvPlayer/2.7.4",
+      "referer": ""
     }
   },
   "logo_json": [
