@@ -64,6 +64,14 @@ def fetch_url(url, description="数据", encoding=None, referer=None, user_agent
             # 获取原始字节数据
             content_bytes = response.content
             
+            # 检查内容是否为二进制乱码（非文本）
+            if len(content_bytes) > 100:
+                # 计算可打印字符的比例
+                printable_count = sum(1 for byte in content_bytes[:100] if 32 <= byte <= 126 or byte in [9, 10, 13])
+                if printable_count < 50:  # 如果可打印字符少于50%，可能是二进制数据
+                    print(f"警告: {description} 可能包含二进制数据或已加密 (可打印字符比例: {printable_count}%)")
+                    return None
+            
             # 如果指定了编码，使用指定编码
             if encoding:
                 try:
@@ -129,6 +137,22 @@ def normalize_channel_name(name):
         return ""
     return convert(name.lower(), 'zh-cn')
 
+def is_valid_m3u_line(line):
+    """检查是否为有效的M3U格式行"""
+    line = line.strip()
+    if not line:
+        return False
+    
+    # 有效的行应该包含逗号分隔的频道名称和URL，或者是分组行
+    if line.endswith(",#genre#") or line.endswith(",genre") or re.search(r",#?\w*genre\w*#?$", line):
+        return True
+    
+    # 检查是否是频道行（名称,URL格式）
+    if re.search(r'^[^,]+,[^,]+$', line):
+        return True
+    
+    return False
+
 def process_single_source(output_filename, source_config, epg_channels, logo_sources):
     """处理单个直播源"""
     list_url = source_config["url"]
@@ -142,6 +166,16 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
     list_data = fetch_url(list_url, f"频道列表({output_filename})", encoding, referer, user_agent, max_retries)
     
     if not list_data:
+        print(f"错误: 无法获取 {output_filename} 的数据")
+        return False
+    
+    # 检查数据质量 - 计算有效行的比例
+    lines = list_data.splitlines()
+    valid_lines = [line for line in lines if is_valid_m3u_line(line)]
+    valid_ratio = len(valid_lines) / len(lines) if lines else 0
+    
+    if valid_ratio < 0.1:  # 如果有效行比例低于10%，认为数据质量太差
+        print(f"警告: {output_filename} 的数据质量太差 (有效行比例: {valid_ratio:.1%})，跳过处理")
         return False
     
     # 解析列表数据并生成M3U
@@ -149,6 +183,7 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
     m3u_lines = ["#EXTM3U"]
     line_count = 0
     valid_channel_count = 0
+    skipped_lines = 0
     
     for line in list_data.splitlines():
         line = line.strip()
@@ -177,7 +212,9 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
                     break
         
         if not parts or len(parts) < 2:
-            print(f"警告: 无法解析第{line_count}行: {line}")
+            skipped_lines += 1
+            if skipped_lines <= 5:  # 只显示前5个解析失败的例子
+                print(f"警告: 无法解析第{line_count}行: {line[:100]}...")  # 只显示前100个字符
             continue
             
         channel_name, channel_url = parts
@@ -189,7 +226,12 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
         
         # 跳过无效的频道行
         if not channel_name or not channel_url:
-            print(f"警告: 跳过无效的频道行(第{line_count}行): {line}")
+            skipped_lines += 1
+            continue
+            
+        # 检查URL是否以常见协议开头
+        if not re.match(r'^(http|https|rtmp|rtsp|mms)://', channel_url, re.IGNORECASE):
+            skipped_lines += 1
             continue
             
         norm_channel_name = normalize_channel_name(channel_name)
@@ -228,6 +270,9 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
         m3u_lines.append(f'#EXTINF:-1 {attrs},{channel_name}')
         m3u_lines.append(channel_url)
         valid_channel_count += 1
+    
+    if skipped_lines > 0:
+        print(f"跳过了 {skipped_lines} 个无效行")
     
     # 写入文件
     if valid_channel_count > 0:
