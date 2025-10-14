@@ -23,12 +23,12 @@ DEFAULT_HEADERS = {
 
 # 常见的浏览器 User-Agent 列表
 BROWSER_USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
 ]
 
 def fetch_url(url, description="数据", encoding=None, referer=None, user_agent=None, max_retries=3):
@@ -39,6 +39,7 @@ def fetch_url(url, description="数据", encoding=None, referer=None, user_agent
     if user_agent:
         headers["User-Agent"] = user_agent
     else:
+        # 使用更现代的浏览器 User-Agent
         headers["User-Agent"] = random.choice(BROWSER_USER_AGENTS)
     
     # 添加 Referer 头（如果提供）
@@ -58,32 +59,55 @@ def fetch_url(url, description="数据", encoding=None, referer=None, user_agent
     
     for attempt in range(max_retries):
         try:
+            # 对于特定域名，使用更真实的浏览器头
+            if "tv12.xyz" in url or "tv1288.xyz" in url:
+                # 使用更完整的浏览器头
+                browser_headers = {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Upgrade-Insecure-Requests": "1",
+                }
+                headers.update(browser_headers)
+            
             response = requests.get(url, headers=headers, timeout=15)
             response.raise_for_status()
             
             # 获取原始字节数据
             content_bytes = response.content
             
-            # 检查内容是否为二进制乱码（非文本）
-            if len(content_bytes) > 100:
-                # 计算可打印字符的比例
-                printable_count = sum(1 for byte in content_bytes[:100] if 32 <= byte <= 126 or byte in [9, 10, 13])
-                if printable_count < 50:  # 如果可打印字符少于50%，可能是二进制数据
-                    print(f"警告: {description} 可能包含二进制数据或已加密 (可打印字符比例: {printable_count}%)")
-                    return None
-            
-            # 如果指定了编码，使用指定编码
+            # 首先尝试使用指定的编码
             if encoding:
                 try:
                     return content_bytes.decode(encoding)
                 except UnicodeDecodeError:
                     print(f"使用指定编码 {encoding} 解码失败，尝试自动检测")
             
+            # 对于tv12和tv1288源，尝试多种编码
+            if "tv12.xyz" in url or "tv1288.xyz" in url:
+                encodings_to_try = ['utf-8', 'gbk', 'gb2312', 'gb18030', 'big5', 'latin-1', 'iso-8859-1']
+                for enc in encodings_to_try:
+                    try:
+                        decoded_content = content_bytes.decode(enc)
+                        # 检查解码后的内容是否包含可读字符
+                        if any(keyword in decoded_content for keyword in ['CCTV', '卫视', 'http', '#genre#']):
+                            print(f"成功使用编码 {enc} 解码 {description}")
+                            return decoded_content
+                    except UnicodeDecodeError:
+                        continue
+            
             # 尝试自动检测编码
             detected = chardet.detect(content_bytes)
-            if detected['confidence'] > 0.7:
+            if detected['confidence'] > 0.6:  # 降低置信度阈值
                 try:
-                    return content_bytes.decode(detected['encoding'])
+                    decoded_content = content_bytes.decode(detected['encoding'])
+                    # 验证解码结果
+                    if any(keyword in decoded_content for keyword in ['CCTV', '卫视', 'http', '#genre#']):
+                        print(f"使用检测到的编码 {detected['encoding']} (置信度: {detected['confidence']:.2f})")
+                        return decoded_content
                 except UnicodeDecodeError:
                     print(f"使用检测到的编码 {detected['encoding']} 解码失败，尝试其他编码")
             
@@ -92,12 +116,17 @@ def fetch_url(url, description="数据", encoding=None, referer=None, user_agent
             
             for enc in encodings_to_try:
                 try:
-                    return content_bytes.decode(enc)
+                    decoded_content = content_bytes.decode(enc)
+                    # 验证解码结果是否包含预期的内容
+                    if any(keyword in decoded_content for keyword in ['CCTV', '卫视', 'http', '#genre#']):
+                        print(f"成功使用编码 {enc} 解码 {description}")
+                        return decoded_content
                 except UnicodeDecodeError:
                     continue
             
-            # 如果所有尝试都失败，使用 UTF-8 并忽略错误
-            return content_bytes.decode('utf-8', errors='ignore')
+            # 如果所有尝试都失败，返回原始字节的字符串表示（用于调试）
+            print(f"所有编码尝试失败，返回原始内容的前1000字符用于调试")
+            return str(content_bytes[:1000])
                 
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
@@ -163,20 +192,45 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
     # 对于特别难以访问的源，增加重试次数
     max_retries = 5 if "catvod.com" in list_url else 3
     
+    print(f"正在获取: {list_url}")
     list_data = fetch_url(list_url, f"频道列表({output_filename})", encoding, referer, user_agent, max_retries)
     
     if not list_data:
         print(f"错误: 无法获取 {output_filename} 的数据")
         return False
     
+    # 检查数据是否看起来像二进制数据
+    if list_data.startswith("b'") or "\\x" in list_data[:100]:
+        print(f"警告: {output_filename} 的数据可能仍然是二进制格式")
+        # 尝试直接处理原始字节数据
+        try:
+            response = requests.get(list_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
+            raw_bytes = response.content
+            
+            # 尝试多种编码
+            for enc in ['utf-8', 'gbk', 'gb2312', 'gb18030']:
+                try:
+                    list_data = raw_bytes.decode(enc)
+                    if any(keyword in list_data for keyword in ['CCTV', '卫视', 'http']):
+                        print(f"通过直接请求并使用 {enc} 编码成功解码")
+                        break
+                except:
+                    continue
+        except Exception as e:
+            print(f"直接请求也失败: {e}")
+            return False
+    
     # 检查数据质量 - 计算有效行的比例
     lines = list_data.splitlines()
     valid_lines = [line for line in lines if is_valid_m3u_line(line)]
     valid_ratio = len(valid_lines) / len(lines) if lines else 0
     
-    if valid_ratio < 0.1:  # 如果有效行比例低于10%，认为数据质量太差
-        print(f"警告: {output_filename} 的数据质量太差 (有效行比例: {valid_ratio:.1%})，跳过处理")
-        return False
+    print(f"数据统计: 总行数: {len(lines)}, 有效行: {len(valid_lines)}, 有效比例: {valid_ratio:.1%}")
+    
+    if valid_ratio < 0.1 and len(valid_lines) < 10:  # 如果有效行比例低于10%且有效行少于10个
+        print(f"警告: {output_filename} 的数据质量太差，跳过处理")
+        # 但仍然尝试处理，可能会有一些有效频道
+        # return False
     
     # 解析列表数据并生成M3U
     current_group = "默认分组"
@@ -213,8 +267,10 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
         
         if not parts or len(parts) < 2:
             skipped_lines += 1
-            if skipped_lines <= 5:  # 只显示前5个解析失败的例子
-                print(f"警告: 无法解析第{line_count}行: {line[:100]}...")  # 只显示前100个字符
+            if skipped_lines <= 3:  # 只显示前3个解析失败的例子
+                # 显示行的前50个字符，避免输出过长
+                display_line = line[:50] + "..." if len(line) > 50 else line
+                print(f"警告: 无法解析第{line_count}行: {display_line}")
             continue
             
         channel_name, channel_url = parts
