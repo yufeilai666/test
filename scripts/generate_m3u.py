@@ -398,8 +398,10 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
             continue
             
         # 检查URL是否以常见协议开头
-        if not re.match(r'^(http|https|rtmp|rtsp|mms)://', channel_url, re.IGNORECASE):
+        if not re.match(r'^(http|https|rtmp|rtsp|mms|p3p|p2p|P2p|tvbus|mitv)://', channel_url, re.IGNORECASE):
             skipped_lines += 1
+            if skipped_lines <= 5:  # 只显示前5个被跳过的URL例子
+                print(f"跳过不支持的协议: {channel_url[:50]}...")
             continue
             
         # 清洗频道名称（只对直播源数据进行清洗）
