@@ -1,0 +1,122 @@
+name: 1 Generate and Deploy TV M3U Files
+
+on:
+  schedule:
+    # 每4个小时自动运行一次（UTC时间）
+    - cron: '0 */4 * * *'
+  # 允许手动触发工作流
+  workflow_dispatch:
+  # 当脚本文件或配置文件有更改时也触发
+  push:
+    paths:
+      - 'scripts/generate_tv12_m3u.py'
+      - 'scripts/generate_m3u.py'
+      - 'files.json'
+
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install requests zhconv chardet
+
+    - name: Run TV12 M3U generation script
+      continue-on-error: true  # 即使此步骤失败，也继续执行后续步骤
+      id: run_tv12_script
+      run: |
+        cd scripts
+        if python generate_tv12_m3u.py; then
+          echo "::set-output name=status::success"
+          echo "TV12脚本执行成功"
+        else
+          echo "::set-output name=status::failed"
+          echo "TV12脚本执行失败，但继续执行其他脚本"
+        fi
+
+    - name: Run general M3U generation script
+      continue-on-error: true  # 即使此步骤失败，也继续执行后续步骤
+      id: run_general_script
+      run: |
+        cd scripts
+        if python generate_m3u.py; then
+          echo "::set-output name=status::success"
+          echo "通用脚本执行成功"
+        else
+          echo "::set-output name=status::failed"
+          echo "通用脚本执行失败，但继续执行后续步骤"
+        fi
+
+    - name: List generated M3U files
+      run: |
+        echo "Generated M3U files:"
+        ls -la *.m3u 2>/dev/null || echo "No M3U files found in root directory"
+        ls -la scripts/*.m3u 2>/dev/null || echo "No M3U files found in scripts directory"
+
+    - name: Move M3U files to root directory
+      run: |
+        # 移动所有在scripts目录中生成的M3U文件到根目录
+        if ls scripts/*.m3u 1> /dev/null 2>&1; then
+          mv scripts/*.m3u ./
+        fi
+        
+        # 检查根目录是否已经有M3U文件
+        echo "M3U files in root directory after moving:"
+        ls -la *.m3u 2>/dev/null || echo "No M3U files in root directory"
+
+    - name: Check if any script succeeded
+      id: check_success
+      run: |
+        tv12_status="${{ steps.run_tv12_script.outputs.status }}"
+        general_status="${{ steps.run_general_script.outputs.status }}"
+        
+        if [ "$tv12_status" = "success" ] || [ "$general_status" = "success" ]; then
+          echo "::set-output name=has_success::true"
+          echo "至少有一个脚本执行成功"
+        else
+          echo "::set-output name=has_success::false"
+          echo "所有脚本都执行失败"
+        fi
+
+    - name: Commit and push if changed
+      if: steps.check_success.outputs.has_success == 'true'
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # 检查所有M3U文件是否有变化
+        git add *.m3u
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-generated TV M3U files [skip ci]"
+          git push origin HEAD:main
+          echo "Changes pushed to repository"
+        else
+          echo "No changes to commit"
+        fi
+
+    - name: Show summary
+      run: |
+        echo "=== WORKFLOW SUMMARY ==="
+        echo "TV12脚本状态: ${{ steps.run_tv12_script.outputs.status }}"
+        echo "通用脚本状态: ${{ steps.run_general_script.outputs.status }}"
+        echo "生成的M3U文件:"
+        ls -la *.m3u 2>/dev/null || echo "No M3U files generated"
+        echo "========================"
+
+    - name: Fail if all scripts failed
+      if: steps.check_success.outputs.has_success == 'false'
+      run: |
+        echo "所有脚本都执行失败，工作流标记为失败"
+        exit 1
