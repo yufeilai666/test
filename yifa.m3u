@@ -651,15 +651,15 @@ https://hn.bfvvs.com/play/NbW28moa/index.m3u8
 https://v13.yuglf.com/202508/09/72E1NKiAGU22/video/index.m3u8
 #EXTINF:-1 group-title="抗战80周年",东极岛-1
 https://v11.gggread.com/wjv11/202508/09/6h1cDP7Yey83/video/index.m3u8
-#EXTINF:-1 group-title="抗战80周年",731
+#EXTINF:-1 group-title="抗战80周年",731(1)
 https://v13.yuglf.com/202509/19/L7aFnqeb9w22/video/index.m3u8
-#EXTINF:-1 group-title="抗战80周年",731
+#EXTINF:-1 group-title="抗战80周年",731(2)
 https://super.ffzy-online6.com/20250919/35838_ffbc3910/2000k/hls/mixed.m3u8
-#EXTINF:-1 group-title="抗战80周年",731
+#EXTINF:-1 group-title="抗战80周年",731(3)
 https://hn.bfvvs.com/play/Qe1m9m3e/index.m3u8
-#EXTINF:-1 group-title="抗战80周年",731
+#EXTINF:-1 group-title="抗战80周年",731(4)
 https://v10.qrssuv.com/wjv10/202509/19/mfaM79xStN82/video/index.m3u8
-#EXTINF:-1 group-title="抗战80周年",731
+#EXTINF:-1 group-title="抗战80周年",731(5)
 https://bfikuncdn.com/20250919/qf8hkGfZ/6456kb/hls/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视新闻.png" group-title="80周大阅兵",央视新闻
 http://live.iill.top/douyin/cctvnews
@@ -747,7 +747,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fct4
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速港台2",明珠台
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
-#EXTINF:-1 group-title="极速港台2",翡翠台北美版
+#EXTINF:-1 group-title="极速港台2",翡翠台北美版(TVB J1)
 http://php.jdshipin.com/TVOD/iptv.php?id=j1
 #EXTINF:-1 group-title="极速港台2",TVB J1
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbj1
@@ -1121,7 +1121,7 @@ http://t.061899.xyz/tl/js/js.php?id=tvbmzt
 http://t.061899.xyz/tl/js/js.php?id=xgyxxwt
 #EXTINF:-1 group-title="极速0618",香港有线18台
 http://t.061899.xyz/tl/js/js.php?id=18xgyxt
-#EXTINF:-1 group-title="极速0618",香港有线18台
+#EXTINF:-1 group-title="极速0618",香港有线18台(备)
 http://t.061899.xyz/tl/js/js.php?id=18xgyxtb
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Now直播台.png" group-title="极速0618",NOW直播台
 http://t.061899.xyz/tl/js/js.php?id=nowzbt
@@ -1861,9 +1861,9 @@ http://go.bkpcp.top/mg/gdty
 http://go.bkpcp.top/mg/gdms
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="广东酒店",广东新闻
 http://go.bkpcp.top/mg/gdxw
-#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="广东酒店",广东民生
+#EXTINF:-1 group-title="广东酒店",广东民生(晚7点)
 http://live.iill.top/douyin/gdtvdvxc
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="广东酒店",广东珠江
+#EXTINF:-1 group-title="广东酒店",广东珠江(晚6点)
 http://live.iill.top/douyin/gdtvzjpd
 #EXTINF:-1 group-title="广东酒店",-汕尾综合
 https://iswtv.swrtv.com/live/xwzhpd.m3u8
@@ -3285,17 +3285,17 @@ rtsp://10.15.250.13/PLTV/88888888/224/3221226747/1000010000000006000000000675879
 rtsp://10.15.250.13/PLTV/88888888/224/3221226653/10000100000000060000000003014578_0.smil
 #EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="辽宁联通(内)",CCTV5+
 rtsp://10.15.250.13/PLTV/88888888/224/3221226743/10000100000000060000000006603048_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN-英语新闻
+#EXTINF:-1 group-title="辽宁联通(内)",CGTN英语新闻
 rtsp://10.15.250.13/PLTV/88888888/224/3221226756/10000100000000060000000006569861_0.smil
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN-纪录.png" group-title="辽宁联通(内)",CGTN-纪录
+#EXTINF:-1 group-title="辽宁联通(内)",CGTN纪录(国际版)
 rtsp://10.15.250.13/PLTV/88888888/224/3221226758/10000100000000060000000006569863_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN-俄语国际
+#EXTINF:-1 group-title="辽宁联通(内)",CGTN俄语国际
 rtsp://10.15.250.13/PLTV/88888888/224/3221226739/10000100000000060000000006582732_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN-西班牙语国际
+#EXTINF:-1 group-title="辽宁联通(内)",CGTN西班牙语国际
 rtsp://10.15.250.13/PLTV/88888888/224/3221226735/10000100000000060000000006582714_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN-阿拉伯语国际
+#EXTINF:-1 group-title="辽宁联通(内)",CGTN阿拉伯语国际
 rtsp://10.15.250.13/PLTV/88888888/224/3221226760/10000100000000060000000006582737_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN-法语国际
+#EXTINF:-1 group-title="辽宁联通(内)",CGTN法语国际
 rtsp://10.15.250.13/PLTV/88888888/224/3221226737/10000100000000060000000006582717_0.smil
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="辽宁联通(内)",辽宁卫视
 rtsp://10.15.250.13/PLTV/88888888/224/3221226511/10000100000000060000000000394610_0.smil
@@ -3433,7 +3433,7 @@ rtsp://10.15.250.13/PLTV/88888888/224/3221226521/1000010000000006000000000042543
 rtsp://10.15.250.13/PLTV/88888888/224/3221226741/10000100000000060000000006582740_0.smil
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="辽宁联通(内)",CCTV4美洲
 rtsp://10.15.250.13/PLTV/88888888/224/3221226762/10000100000000060000000006582745_0.smil
-#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="辽宁联通(内)",西藏卫视
+#EXTINF:-1 group-title="辽宁联通(内)",西藏卫视（藏语）
 rtsp://10.15.250.13/PLTV/88888888/224/3221226920/404264083.smil
 #EXTINF:-1 group-title="辽宁联通(内)",安多藏语综合
 rtsp://10.15.250.13/PLTV/88888888/224/3221226909/404268565.smil
@@ -3537,9 +3537,9 @@ rtsp://10.15.250.13/PLTV/88888888/224/0/3221226091/000000000jdg.smil
 rtsp://10.15.250.13/PLTV/88888888/224/3221226619/10000100000000060000000001377018_0.smil
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱生活.png" group-title="辽宁联通(内)",爱生活
 rtsp://10.15.250.13/PLTV/88888888/224/3221226598/10000100000000060000000000554121_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",IPTV3＋
+#EXTINF:-1 group-title="辽宁联通(内)",IPTV3＋(轮播)
 rtsp://10.15.250.13/PLTV/88888888/224/3221226752/10000100000000060000000006522263_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",IPTV5＋
+#EXTINF:-1 group-title="辽宁联通(内)",IPTV5＋(轮播)
 rtsp://10.15.250.13/PLTV/88888888/224/3221226490/10000100000000060000000000246848_0.smil
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱上4k.png" group-title="辽宁联通(内)",爱上4K
 rtsp://10.15.250.13/PLTV/88888888/224/3221226750/10000100000000060000000006519923_0.smil
@@ -3583,7 +3583,7 @@ http://10.255.128.136/PLTV/88888888/224/3221225676/10000100000000060000000000000
 http://10.255.128.136/PLTV/88888888/224/3221225644/10000100000000060000000000000181_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="辽宁电信(内)",CCTV15
 http://10.255.128.136/PLTV/88888888/224/3221225678/10000100000000060000000000000215_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="辽宁电信(内)",CCTV16
+#EXTINF:-1 group-title="辽宁电信(内)",CCTV16 4K奥林匹克频道
 http://10.255.128.136/PLTV/88888888/224/3221226219/10000100000000060000000000712172_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="辽宁电信(内)",CCTV17
 http://10.255.128.136/PLTV/88888888/224/3221225639/10000100000000060000000000000176_0.smil/index.m3u8?fmt=ts2hls
@@ -3675,7 +3675,7 @@ http://10.255.128.136/PLTV/88888888/224/3221225709/10000100000000060000000000000
 http://10.255.128.136/PLTV/88888888/224/3221225722/10000100000000060000000000000259_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="辽宁电信(内)",西藏卫视
 http://10.255.128.136/PLTV/88888888/224/3221225728/10000100000000060000000000000265_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="辽宁电信(内)",西藏卫视
+#EXTINF:-1 group-title="辽宁电信(内)",西藏卫视（藏语）
 http://10.255.128.136/PLTV/88888888/224/3221226269/10000100000000060000000000863663_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="辽宁电信(内)",新疆卫视
 http://10.255.128.136/PLTV/88888888/224/3221225726/10000100000000060000000000000263_0.smil/index.m3u8?fmt=ts2hls
@@ -3775,17 +3775,17 @@ http://10.255.128.136/PLTV/88888888/224/3221225754/10000100000000060000000000000
 http://10.255.128.136/PLTV/88888888/224/3221225798/10000100000000060000000000000424_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="辽宁电信(内)",央视文化精品频道
 http://10.255.128.136/PLTV/88888888/224/3221225758/10000100000000060000000000000295_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN-阿拉伯语国际频道
+#EXTINF:-1 group-title="辽宁电信(内)",CGTN阿拉伯语国际频道
 http://10.255.128.136/PLTV/88888888/224/3221226260/10000100000000060000000000801394_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN-俄语国际频道
+#EXTINF:-1 group-title="辽宁电信(内)",CGTN俄语国际频道
 http://10.255.128.136/PLTV/88888888/224/3221226279/10000100000000060000000000801397_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN-法语国际频道
+#EXTINF:-1 group-title="辽宁电信(内)",CGTN法语国际频道
 http://10.255.128.136/PLTV/88888888/224/3221226275/10000100000000060000000000801393_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN-纪录频道
+#EXTINF:-1 group-title="辽宁电信(内)",CGTN纪录频道（国际版）
 http://10.255.128.136/PLTV/88888888/224/3221225792/10000100000000060000000000000361_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN-西班牙语国际频道
+#EXTINF:-1 group-title="辽宁电信(内)",CGTN西班牙语国际频道
 http://10.255.128.136/PLTV/88888888/224/3221226249/10000100000000060000000000801388_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN-英语新闻频道
+#EXTINF:-1 group-title="辽宁电信(内)",CGTN英语新闻频道
 http://10.255.128.136/PLTV/88888888/224/3221225791/10000100000000060000000000000360_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="辽宁电信(内)",丹东生活频道
 http://10.255.128.136/PLTV/88888888/224/3221225839/10000100000000060000000000411751_0.smil/index.m3u8?fmt=ts2hls
@@ -3821,7 +3821,7 @@ http://10.255.128.136/PLTV/88888888/224/3221226274/10000100000000060000000000947
 http://10.255.128.136/PLTV/88888888/224/3221226283/10000100000000060000000000801403_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="辽宁电信(内)",辽宁宜家购物频道
 http://10.255.128.136/PLTV/88888888/224/3221226291/10000100000000060000000000801425_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="辽宁电信(内)",CCTV4
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="辽宁电信(内)",CCTV4K
 http://10.255.128.136/PLTV/88888888/224/3221226293/10000100000000060000000001081237_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/优购物.png" group-title="辽宁电信(内)",优购物
 http://10.255.128.136/PLTV/88888888/224/3221226296/10000100000000060000000001081155_0.smil/index.m3u8?fmt=ts2hls
@@ -3843,7 +3843,7 @@ http://ott.mobaibox.com/PLTV/3/224/3221228516/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221227626/index.m3u8
 #EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="江苏移动(内)",CCTV8
 http://ott.mobaibox.com/PLTV/3/224/3221228578/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="江苏移动(内)",CCTV4
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="江苏移动(内)",CCTV4K
 http://ott.mobaibox.com/PLTV/3/224/224/3221228228/index.m3u8
 #EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="江苏移动(内)",CCTV9
 http://ott.mobaibox.com/PLTV/3/224/3221227614/index.m3u8
@@ -3865,7 +3865,7 @@ http://ott.mobaibox.com/PLTV/3/224/3221228168/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221227592/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视4K.png" group-title="江苏移动(内)",北京卫视4K
 http://ott.mobaibox.com/PLTV/4/224/3221227896/index.m3u8
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="江苏移动(内)",CCTV8
+#EXTINF:-1 tvg-id="cctv8k" tvg-name="cctv8k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8K.png" group-title="江苏移动(内)",CCTV8K
 http://ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/纯享4K.png" group-title="江苏移动(内)",纯享4K
 http://ott.mobaibox.com/PLTV/3/224/3221228242/index.m3u8
@@ -4337,7 +4337,7 @@ rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch15111016003483433803.
 rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch11122400365842237336.rsc/70037_Uni.sdp
 #EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="山东联通(内)",CCTV17
 rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch19073116233495000222.rsc/85717_Uni.sdp
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="山东联通(内)",CCTV4
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="山东联通(内)",CCTV4K
 rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch23122814382128126762.rsc/99912_Uni.sdp
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视4K.png" group-title="山东联通(内)",北京卫视4K
 rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch25032514071097767315.rsc/102825_Uni.sdp
@@ -5043,7 +5043,7 @@ http://tvgslb.hn.chinamobile.com:8089/180000001002/00000001000000000031000000068
 http://tvgslb.hn.chinamobile.com:8089/180000001002/00000001000000000064000000308827/main.m3u8?stbid=
 #EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="湖南移动(内)",CCTV16
 http://tvgslb.hn.chinamobile.com:8089/180000001002/00000001000000000085000000178450/main.m3u8?stbid=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="湖南移动(内)",CCTV4
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="湖南移动(内)",CCTV4K
 http://tvgslb.hn.chinamobile.com:8089/180000001002/32023092211020848462000290559536/main.m3u8?stbid=
 #EXTINF:-1 group-title="湖南移动(内)",活动直播2
 http://tvgslb.hn.chinamobile.com:8089/180000001002/00000001000000000022000000100549/main.m3u8?stbid=
@@ -5081,7 +5081,7 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001338/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001248/index.m3u8
 #EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="上海移动(内)",CCTV17
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001241/index.m3u8
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="上海移动(内)",CCTV16
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV16-4K.png" group-title="上海移动(内)",CCTV16-4K
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001258/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn英语.png" group-title="上海移动(内)",CGTN英语
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001058/index.m3u8
@@ -5745,7 +5745,7 @@ http://m.061899.xyz/mg/xzws
 http://m.061899.xyz/mg/btws
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="咪咕央视2",吉林卫视
 http://m.061899.xyz/mg/jlws
-#EXTINF:-1 group-title="咪咕央视2",内蒙古视
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="咪咕央视2",内蒙古卫视
 http://m.061899.xyz/mg/nmgws
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="咪咕央视2",黑龙江卫视
 http://m.061899.xyz/mg/hljws
@@ -8497,35 +8497,35 @@ http://cfss.cc/cdn/hy/21059581.m3u8
 http://cfss.cc/cdn/hy/11342435.m3u8
 #EXTINF:-1 group-title="虎牙轮播",永夜星河
 http://cfss.cc/cdn/hy/23734169.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_武侠
+#EXTINF:-1 group-title="虎牙轮播",电影 武侠
 http://cfss.cc/cdn/hy/11342427.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_玄幻
+#EXTINF:-1 group-title="虎牙轮播",电影 玄幻
 http://cfss.cc/cdn/hy/11342414.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_国产
+#EXTINF:-1 group-title="虎牙轮播",电影 国产
 http://cfss.cc/cdn/hy/11352973.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_洪金宝
+#EXTINF:-1 group-title="虎牙轮播",电影 洪金宝
 http://cfss.cc/cdn/hy/11279251.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_斯坦森
+#EXTINF:-1 group-title="虎牙轮播",电影 斯坦森
 http://cfss.cc/cdn/hy/21059588.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_功夫片
+#EXTINF:-1 group-title="虎牙轮播",电影 功夫片
 http://cfss.cc/cdn/hy/11352941.m3u8
-#EXTINF:-1 group-title="虎牙轮播",剧集_老三国
+#EXTINF:-1 group-title="虎牙轮播",剧集 老三国
 http://cfss.cc/cdn/hy/11602081.m3u8
 #EXTINF:-1 group-title="虎牙轮播",猫和老鼠动漫
 http://cfss.cc/cdn/hy/11352879.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_不挤影院
+#EXTINF:-1 group-title="虎牙轮播",电影 不挤影院
 http://cfss.cc/cdn/hy/11352897.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_许氏三杰
+#EXTINF:-1 group-title="虎牙轮播",电影 许氏三杰
 http://cfss.cc/cdn/hy/11602033.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_高分动作
+#EXTINF:-1 group-title="虎牙轮播",电影 高分动作
 http://cfss.cc/cdn/hy/11352884.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_欢笑影院
+#EXTINF:-1 group-title="虎牙轮播",电影 欢笑影院
 http://cfss.cc/cdn/hy/11352894.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_国产悬疑
+#EXTINF:-1 group-title="虎牙轮播",电影 国产悬疑
 http://cfss.cc/cdn/hy/11342395.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_黑帮斗争
+#EXTINF:-1 group-title="虎牙轮播",电影 黑帮斗争
 http://cfss.cc/cdn/hy/11342419.m3u8
-#EXTINF:-1 group-title="虎牙轮播",电影_喜乐影院
+#EXTINF:-1 group-title="虎牙轮播",电影 喜乐影院
 http://cfss.cc/cdn/hy/21059580.m3u8
 #EXTINF:-1 group-title="虎牙轮播",亮剑
 http://cfss.cc/cdn/hy/30080238.m3u8
@@ -11507,7 +11507,7 @@ http://tv.ximix.us/yy/1354931585
 http://tv.ximix.us/yy/1354926542
 #EXTINF:-1 group-title="YY轮播",电影
 http://tv.ximix.us/yy/37454459
-#EXTINF:-1 group-title="YY轮播",军旅剧
+#EXTINF:-1 group-title="YY轮播",军旅剧（回忆经典）
 http://tv.ximix.us/yy/1356306672
 #EXTINF:-1 group-title="YY轮播",伪装者
 http://tv.ximix.us/yy/1382851593
@@ -12097,7 +12097,7 @@ http://tv.ximix.us/yy/1354936231
 http://tv.ximix.us/yy/1354936181
 #EXTINF:-1 group-title="YY轮播",妖神记之黑狱篇
 http://tv.ximix.us/yy/1382745173
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/天龙八部.png" group-title="YY轮播",天龙八部
+#EXTINF:-1 group-title="YY轮播",天龙八部（国语版）
 http://tv.ximix.us/yy/1382736855
 #EXTINF:-1 group-title="YY轮播",宇宙护卫队--国漫
 http://tv.ximix.us/yy/1382736837
@@ -12111,7 +12111,7 @@ http://tv.ximix.us/yy/1354932409
 http://tv.ximix.us/yy/1382736868
 #EXTINF:-1 group-title="YY轮播",冰河追凶：极寒之地的真相
 http://tv.ximix.us/yy/1382736841
-#EXTINF:-1 group-title="YY轮播",最后的武士
+#EXTINF:-1 group-title="YY轮播",最后的武士（普通话）
 http://tv.ximix.us/yy/1382851148
 #EXTINF:-1 group-title="YY轮播",港剧里的生活哲学-好日子
 http://tv.ximix.us/yy/1354936217
@@ -19597,17 +19597,17 @@ http://bfaskbwerve.com/20221002/PYTRu7RD/index.m3u8
 http://krevonix.com/20250730/zLnjXkxp/index.m3u8
 #EXTINF:-1 group-title="私密频道2_169169",铁锁17
 http://krevonix.com/20240520/xYrik8ak/index.m3u8
-#EXTINF:-1 group-title="私密频道2_169169",铜锁1
+#EXTINF:-1 group-title="私密频道2_169169",铜锁1(EXO解码)
 https://eu-v.cdn10.com/33451253.mp4?verify=1760624492-Eh6srTWDV41RDflE7VPIAAbrps9eJBmk%2FjHy3FgbbI8%3D
-#EXTINF:-1 group-title="私密频道2_169169",铜锁2
+#EXTINF:-1 group-title="私密频道2_169169",铜锁2(EXO解码)
 https://eu-v.cdn10.com/105718366.mp4?verify=1760624567-6uFmSpQ2xABpsEX%2Fe6cvDvobI5tI0yCSrhy1R2qsfzM%3D
-#EXTINF:-1 group-title="私密频道2_169169",铜锁3
+#EXTINF:-1 group-title="私密频道2_169169",铜锁3(EXO解码)
 https://eu-v.cdn10.com/67238429.mp4?verify=1760624721-pZ2CnuLdacmZHoipkrzjR48EEpFJcWFm7Gm0gSYeDl4%3D
-#EXTINF:-1 group-title="私密频道2_169169",铜锁4
+#EXTINF:-1 group-title="私密频道2_169169",铜锁4(EXO解码)
 https://eu-v.cdn10.com/63781853.mp4?verify=1760624865-tdeP16uWP%2Fskce2R0yhA4TUfLDrmmHiLwQM5uPC8E6I%3D
-#EXTINF:-1 group-title="私密频道2_169169",铜锁5
+#EXTINF:-1 group-title="私密频道2_169169",铜锁5(EXO解码)
 https://eu-v.cdn10.com/61084187.mp4?verify=1760624884-HeDhapu2M9jg3eir5J7BBC6GpMedo4TosJW6jiA7jEc%3D
-#EXTINF:-1 group-title="私密频道2_169169",铜锁6
+#EXTINF:-1 group-title="私密频道2_169169",铜锁6(EXO解码)
 https://eu-v.cdn10.com/78210882.mp4?verify=1760624911-TtF0ls9sF7CA%2BEvwAZ%2FojJvHonqpv%2BcYUduCs6xAsIg%3D
-#EXTINF:-1 group-title="私密频道2_169169",铜锁7
+#EXTINF:-1 group-title="私密频道2_169169",铜锁7(EXO解码)
 https://eu-v.cdn10.com/74237472.mp4?verify=1760625129-wF%2Bqqwyv8amaCEEOpn1VqQBLb3AlabN2aG2VxZdIjpo%3D
