@@ -38,11 +38,10 @@ def clean_channel_name(name):
     
     original_name = name
     
-    # 第一步：处理括号及括号内的内容（新增规则）
-    name = re.sub(r'\s*\([^)]*\)', '', name)  # 去掉括号及括号内的内容
-    name = re.sub(r'\s*（[^）]*）', '', name)  # 处理全角括号
+    # 预处理：将下划线替换为空格，以便后续规则匹配
+    name = name.replace('_', ' ')
     
-    # 第二步：处理HD、UHD、超高清、高清等
+    # 第一步：处理HD、UHD、超高清、FHD等
     # 去掉HD相关格式
     name = re.sub(r'\s*-\s*HD\s*$', '', name, flags=re.IGNORECASE)
     name = re.sub(r'\s*HD\s*$', '', name, flags=re.IGNORECASE)
@@ -51,11 +50,14 @@ def clean_channel_name(name):
     name = re.sub(r'\s*UHD\s*', '', name, flags=re.IGNORECASE)
     name = re.sub(r'\s*超高清\s*', '', name, flags=re.IGNORECASE)
     
+    # 新增：清洗掉FHD
+    name = re.sub(r'\s*FHD\s*', '', name, flags=re.IGNORECASE)
+    
     # 去掉高清（可能有空格也可能没有）
     name = re.sub(r'\s*高清\s*$', '', name, flags=re.IGNORECASE)
     name = re.sub(r'高清\s*$', '', name, flags=re.IGNORECASE)
     
-    # 第三步：处理CCTV5+相关规则
+    # 第二步：处理CCTV5+相关规则
     # CCTV5+的各种变体
     name = re.sub(r'CCTV-?5\s*[PPLUS\+⁺＋]', 'CCTV5+', name, flags=re.IGNORECASE)
     name = re.sub(r'CCTV5\s*[PPLUS\+⁺＋]', 'CCTV5+', name, flags=re.IGNORECASE)
@@ -66,17 +68,18 @@ def clean_channel_name(name):
     # CCTV5＋清洗为CCTV5+
     name = re.sub(r'CCTV5＋', 'CCTV5+', name)
     
-    # 第四步：处理CCTV16 4K相关规则
+    # 第三步：处理CCTV16 4K相关规则
     # CCTV164K替换为CCTV16-4K
     name = re.sub(r'CCTV164K', 'CCTV16-4K', name, flags=re.IGNORECASE)
     
     # CCTV16奥林匹克4K相关清洗为CCTV16-4K
-    name = re.sub(r'CCTV16奥林匹克.*4K.*', 'CCTV16-4K', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV-?16\s*奥林匹克.*4K.*', 'CCTV16-4K', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV16\s*奥林匹克.*4K.*', 'CCTV16-4K', name, flags=re.IGNORECASE)
     
     # CCTV16-4K不清洗（但确保格式正确）
     name = re.sub(r'CCTV16-4K', 'CCTV16-4K', name, flags=re.IGNORECASE)
     
-    # 第五步：处理CCTV4国际频道相关规则
+    # 第四步：处理CCTV4国际频道相关规则
     # CCTV4欧洲、美洲、亚洲的各种英文和中文变体
     # 欧洲相关
     name = re.sub(r'CCTV-?4\s*(EUO|Europe|Europe|EUO|OZ)', 'CCTV4欧洲', name, flags=re.IGNORECASE)
@@ -98,34 +101,35 @@ def clean_channel_name(name):
     name = re.sub(r'CCTV4-欧洲', 'CCTV4欧洲', name)
     name = re.sub(r'CCTV4-亚洲', 'CCTV4亚洲', name)
     
-    # 第六步：处理CCTV4K相关规则
-    # 去掉CCTV4K后面的括号数字
-    name = re.sub(r'CCTV4K\(\d+\)', 'CCTV4K', name, flags=re.IGNORECASE)
-    
-    # CCTV-4K/8K/16K去掉横线
+    # 第五步：处理CCTV4K相关规则
+    # CCTV-4K/8K/16K去掉横线，但保留K
     name = re.sub(r'CCTV-4K', 'CCTV4K', name, flags=re.IGNORECASE)
     name = re.sub(r'CCTV-8K', 'CCTV8K', name, flags=re.IGNORECASE)
     name = re.sub(r'CCTV-16K', 'CCTV16K', name, flags=re.IGNORECASE)
     
-    # 第七步：处理其他CCTV频道的横线（但保留CCTV16-4K）
-    # 注意：这个规则要在CCTV16-4K处理后执行
+    # 第六步：处理其他CCTV频道的横线（但保留CCTV4K/8K/16K和CCTV16-4K）
+    # 注意：这个规则要在4K频道处理后执行
     name = re.sub(r'CCTV-(\d+[^K]?)', r'CCTV\1', name)
     
-    # 第八步：处理CCTV一位数频道中的0（第一次需求中的规则4）
+    # 第七步：处理CCTV一位数频道中的0（第一次需求中的规则4）
     # 去掉CCTV一位数频道中的0，但保留两位数频道
     # 匹配CCTV后面跟着0和1-9的数字，或者0和1-9的数字后面有+
     name = re.sub(r'CCTV0(\d)(?!\d)', r'CCTV\1', name, flags=re.IGNORECASE)
     name = re.sub(r'CCTV0(\d)\+', r'CCTV\1+', name, flags=re.IGNORECASE)
     
-    # 第九步：处理地区前缀和竖线（第一次需求中的规则5）
+    # 第八步：处理地区前缀和竖线（第一次需求中的规则5）
     name = re.sub(r'^[^|]+\|', '', name)
     
-    # 第十步：处理CCTV频道的主要部分（第一次需求中的规则8）
+    # 第九步：处理CCTV频道的主要部分（第一次需求中的规则8）
     # 只保留CCTV频道的主要部分
     # 匹配CCTV后面跟着数字和可能的+，然后可能有空格和其他字符
     cctv_match = re.search(r'(CCTV\d+\+?)\s*.*', name, re.IGNORECASE)
-    if cctv_match and not any(keyword in name for keyword in ['欧洲', '美洲', '亚洲', '香港']):
+    if cctv_match and not any(keyword in name for keyword in ['欧洲', '美洲', '亚洲', '香港', '4K', '8K', '16K']):
         name = cctv_match.group(1)
+    
+    # 第十步：处理CGTN相关规则（修正）
+    # 处理CGTN-、CGTN -等变体，保留后面的内容
+    name = re.sub(r'CGTN\s*-\s*', 'CGTN', name)
     
     # 第十一步：特殊频道处理
     # Channel V国际娱乐台HD清洗为Channel V
@@ -133,6 +137,8 @@ def clean_channel_name(name):
     
     # "黑龙江视"修正为"黑龙江卫视"（第一次需求中的规则9）
     name = re.sub(r'黑龙江视', '黑龙江卫视', name)
+    # "内蒙古视"修正为"内蒙古卫视"
+    name = re.sub(r'内蒙古视', '内蒙古卫视', name)
     
     # 去除首尾空格
     name = name.strip()
@@ -398,7 +404,7 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
             continue
             
         # 检查URL是否以常见协议开头
-        if not re.match(r'^(http|https|rtmp|rtsp|mms|p3p|p2p|P2p|tvbus|mitv)://', channel_url, re.IGNORECASE):
+        if not re.match(r'^(http|https|rtmp|rtsp|mms|p3p|p2p|P2p|tvbus|mitv|video)://', channel_url, re.IGNORECASE):
             skipped_lines += 1
             if skipped_lines <= 5:  # 只显示前5个被跳过的URL例子
                 print(f"跳过不支持的协议: {channel_url[:50]}...")
