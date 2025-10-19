@@ -27,7 +27,7 @@ http://203.205.191.53/qctv.fengshows.cn/live/0701pin72.m3u8
 http://203.205.191.53/qctv.fengshows.cn/live/0701pcc72.m3u8
 #EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="刘公子港湾",中天新聞台
 http://bxtv.3a.ink/api.php?id=ztxw#http://bxtv.3a.ink/mytv/fp2.php?id=ztxw#http://tv.1l.osfs.top/Smart.php?id=ctinews
-#EXTINF:-1 tvg-id="Love Nature HD" tvg-name="Love Nature HD" group-title="刘公子港湾",Love Nature HD
+#EXTINF:-1 tvg-id="Love Nature HD" tvg-name="Love Nature HD" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Love Nature.png" group-title="刘公子港湾",Love Nature
 https://live.tvfix.org/live/lovenature/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="刘公子港湾",无线新闻台
 https://live.tvfix.org/live/inews/index.m3u8
@@ -55,7 +55,7 @@ https://live.tvfix.org/live/fwxg/index.m3u8
 https://live.tvfix.org/live/fwzx/index.m3u8
 #EXTINF:-1 group-title="刘公子港湾",凤凰咨询
 https://live.tvfix.org/live/fwzx/1/v4000000/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",CCTV-1高清
+#EXTINF:-1 tvg-id="CCTV-1香港" tvg-name="CCTV-1香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="刘公子港湾",CCTV1
 https://live.tvfix.org/live/cctv1hd/index.m3u8
 #EXTINF:-1 tvg-id="ROCK Action" tvg-name="ROCK Action" group-title="刘公子港湾",ROCK Action
 https://live.tvfix.org/live/rockac/index.m3u8
@@ -65,9 +65,9 @@ https://live.tvfix.org/live/c18/index.m3u8
 https://live.tvfix.org/live/tvbsnews/1/v4000000/index.m3u8
 #EXTINF:-1 tvg-id="中國電影頻道" tvg-name="中國電影頻道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中國電影頻道.png" group-title="刘公子港湾",中国电影频道
 https://live.tvfix.org/live/cmc/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东方卫视高清.png" group-title="刘公子港湾",东方卫视高清
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="刘公子港湾",东方卫视
 https://live.tvfix.org/live/dfhd/index.m3u8
-#EXTINF:-1 tvg-id="FashionBox" tvg-name="FashionBox" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/FASHIONBOX.png" group-title="刘公子港湾",FashionBox
+#EXTINF:-1 tvg-id="FashionBox" tvg-name="FashionBox" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/FASHIONBOXHD.png" group-title="刘公子港湾",FashionBox
 https://live.tvfix.org/live/fashion/index.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="刘公子港湾",翡翠台
 https://live.tvfix.org/live/jade/3/v700000/index.m3u8
@@ -89,7 +89,7 @@ https://live.tvfix.org/live/popc/index.m3u8
 https://live.tvfix.org/live/axn/index.m3u8
 #EXTINF:-1 tvg-id="Global Trekker" tvg-name="Global Trekker" group-title="刘公子港湾",Global Trekker
 https://live.tvfix.org/live/trekker/index.m3u8
-#EXTINF:-1 tvg-id="Mezzo Live HD" tvg-name="Mezzo Live HD" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Mezzo Live HD.png" group-title="刘公子港湾",Mezzo Live HD
+#EXTINF:-1 tvg-id="Mezzo Live HD" tvg-name="Mezzo Live HD" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Mezzo Live HD.png" group-title="刘公子港湾",Mezzo Live
 https://live.tvfix.org/live/mezzon/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰香港.png" group-title="刘公子港湾",凤凰香港
 https://live.tvfix.org/live/fwxg/2/v4000000/index.m3u8
@@ -105,7 +105,7 @@ https://live.tvfix.org/live/enews/1/v4000000/index.m3u8
 https://live.tvfix.org/live/fhzx/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰香港.png" group-title="刘公子港湾",凤凰香港
 https://live.tvfix.org/live/fhxg/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",CGTN纪录高清
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn纪录.png" group-title="刘公子港湾",CGTN纪录
 https://live.tvfix.org/live/cgtndochd/index.m3u8
 #EXTINF:-1 group-title="刘公子港湾",无线亚洲
 https://live.tvfix.org/live/tvbs/2/v4000000/index.m3u8
@@ -113,7 +113,7 @@ https://live.tvfix.org/live/tvbs/2/v4000000/index.m3u8
 https://live.tvfix.org/live/niko/index.m3u8
 #EXTINF:-1 tvg-id="SUPER Kids Channel" tvg-name="SUPER Kids Channel" group-title="刘公子港湾",SUPER Kids Channel
 https://live.tvfix.org/live/kid/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",CGTN高清
+#EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="刘公子港湾",CGTN
 https://live.tvfix.org/live/cgtnhd/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="刘公子港湾",明珠台
 https://live.tvfix.org/live/pearl/1/v4000000/index.m3u8
@@ -215,7 +215,7 @@ http://61.221.215.25:8800/hls/56/index.m3u8
 http://61.221.215.25:8800/hls/55/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="刘公子港湾",动物星球
 http://61.221.215.25:8800/hls/57/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="刘公子港湾",民视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻HD.png" group-title="刘公子港湾",民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
@@ -229,7 +229,7 @@ http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 http://38.64.72.148/hls/modn/list/4008/chunklist0.m3u8
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="刘公子港湾",大湾区卫视
 http://38.64.72.148/hls/modn/list/4011/chunklist0.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="刘公子港湾",民视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻HD.png" group-title="刘公子港湾",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
 #EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
 http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
@@ -241,7 +241,7 @@ http://38.64.72.148/hls/modn/list/2013/chunklist0.m3u8
 http://38.64.72.148/hls/modn/list/2015/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森美洲.png" group-title="刘公子港湾",东森美洲
 http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="刘公子港湾",民视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻HD.png" group-title="刘公子港湾",民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 #EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
 http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8
@@ -259,21 +259,21 @@ https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 rtmp://zhibo.hkstv.tv/livestream/mutfysrq#http://www.hkstv.tv/player/flash/SewisePlayer.swf?autoStart=true&programId=mutfysrq&type=m3u8&serverPath=http://lives.hkstv.tv:5080/api/player/&server=live&volume=1&url=live://lives.hkstv.tv:5080/mutfysrq/hls#http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8#http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0#http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱自然.png" group-title="刘公子港湾",爱自然
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 group-title="🛰央卫视IPV4",CCTV01
+#EXTINF:-1 tvg-id="CCTV-1香港" tvg-name="CCTV-1香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🛰央卫视IPV4",CCTV1
 http://120.76.248.139/live/bfgd/4200000201.m3u8
-#EXTINF:-1 group-title="🛰央卫视IPV4",CCTV02
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="🛰央卫视IPV4",CCTV2
 http://120.76.248.139/live/bfgd/4200000061.m3u8
-#EXTINF:-1 group-title="🛰央卫视IPV4",CCTV03
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="🛰央卫视IPV4",CCTV3
 http://120.76.248.139/live/bfgd/4200000062.m3u8
-#EXTINF:-1 group-title="🛰央卫视IPV4",CCTV04
+#EXTINF:-1 tvg-id="CCTV-4香港" tvg-name="CCTV-4香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4欧洲.png" group-title="🛰央卫视IPV4",CCTV4
 http://120.76.248.139/live/bfgd/4200000063.m3u8
-#EXTINF:-1 group-title="🛰央卫视IPV4",CCTV05
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="🛰央卫视IPV4",CCTV5
 http://120.76.248.139/live/bfgd/4200000064.m3u8
 #EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="🛰央卫视IPV4",CCTV5+
 http://120.76.248.139/live/bfgd/4200000246.m3u8
 #EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="🛰央卫视IPV4",CCTV7
 http://120.76.248.139/live/bfgd/4200000127.m3u8
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="🛰央卫视IPV4",CCTV8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8K.png" group-title="🛰央卫视IPV4",CCTV8
 http://120.76.248.139/live/bfgd/4200000066.m3u8
 #EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="🛰央卫视IPV4",CCTV9
 http://120.76.248.139/live/bfgd/4200000128.m3u8
@@ -335,7 +335,7 @@ http://120.76.248.139/live/bfgd/4200000119.m3u8
 http://120.76.248.139/live/bfgd/4200000512.m3u8
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="🛰央卫视IPV4",吉林卫视
 http://120.76.248.139/live/bfgd/4200000097.m3u8
-#EXTINF:-1 group-title="🛰央卫视IPV4",黑龙江视
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="🛰央卫视IPV4",黑龙江卫视
 http://120.76.248.139/live/bfgd/4200000095.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南都市频道.png" group-title="📡湖南频道",湖南都市频道
 http://php.jdshipin.com:8880/iptv.php?id=hnds
@@ -663,7 +663,7 @@ http://suining-tv-hls.cm.jstv.com/suining-tv/suiningzh.m3u8?zjiangsd#http://3739
 http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd#http://live.xysrmt.cn/xwzh/sd/live.m3u8
 #EXTINF:-1 group-title="📡江苏频道",无锡教育电视台
 https://tv.wxjy.com.cn:9001/tvwebstream/tv_channel_1359/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/无锡新闻综合频道.png" group-title="📡江苏频道",无锡新闻综合频道
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/无锡新闻综合频道高清.png" group-title="📡江苏频道",无锡新闻综合频道
 http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd#http://stream.thmz.com/wxtv1/sd/live.m3u8?_upt=4ba3ab191698644028#http://stream.thmz.com/wxtv1/playlist.m3u8#http://stream.thmz.com/wxtv1/playlist.m3u8?_upt=156143371706166361
 #EXTINF:-1 group-title="📡江苏频道",无锡都市资讯频道
 http://stream.thmz.com/wxtv3/sd/live.m3u8?_upt=978cd8731706199708#http://stream.thmz.com/wxtv3/sd/live.m3u8?zjiangsd#http://stream.thmz.com/wxtv3/playlist.m3u8#http://stream.thmz.com/wxtv3/playlist.m3u8?_upt=1758133b1706166861
@@ -943,13 +943,13 @@ http://tvfile.swrmt.com:80/nmip-media/channellive/channel100064/playlist.m3u8
 https://play.wtqrm.com:443/qtwz/wtqzb.m3u8?auth_key=1663323505-0-0-01843919c015a267038d6e00fd1e1519
 #EXTINF:-1 group-title="📡四川频道",岳池新闻综合
 http://liveyc.cmc.yuechirmt.cn:80/live/yctv.m3u8?auth_key=1714112398-0-0-d9a6bd74623c01c1c2f9576fe51e8b7b
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川乡村.png" group-title="📡四川频道",四川乡村
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川乡村高清.png" group-title="📡四川频道",四川乡村
 http://api2.52tb.xyz/info?id=606&token=20230405tndmhg
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川影视.png" group-title="📡四川频道",四川影视
 http://api2.52tb.xyz/info?id=601&token=20230405tndmhg
 #EXTINF:-1 group-title="📡四川频道",文化旅游
 http://api2.52tb.xyz/info?id=603&token=20230405tndmhg
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川新闻.png" group-title="📡四川频道",四川新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川新闻高清.png" group-title="📡四川频道",四川新闻
 http://api2.52tb.xyz/info?id=602&token=20230405tndmhg
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川科教.png" group-title="📡四川频道",四川科教
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
@@ -2435,39 +2435,39 @@ https://vd2.bdstatic.com/mda-mkn56h2g8ux3dtxq/sc/cae_h264/1637642599802363137/md
 http://gcw.bdcdn.shoujiduoduo.com/201805/0748-641.mp4
 #EXTINF:-1 group-title="🎶DJ音乐",车载DJ视频6
 https://vdse.bdstatic.com//7e9d2da860d4ac39c0ea86502360d6fe.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",好歌分享《精选6首伤感DJ舞曲》HD
+#EXTINF:-1 group-title="🎶DJ音乐",好歌分享《精选6首伤感DJ舞曲》
 https://vdse.bdstatic.com//0c87c8977d0a33498fe7362d3c60c22c.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",2021爆红《6首女生版伤感DJ》HD
+#EXTINF:-1 group-title="🎶DJ音乐",2021爆红《6首女生版伤感DJ》
 https://vdse.bdstatic.com//2e77709380ad7e6163e80c4d5c179689.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",美人热舞洗脑DJ舞曲HD
+#EXTINF:-1 group-title="🎶DJ音乐",美人热舞洗脑DJ舞曲
 https://vdse.bdstatic.com//3700f6b78ceaf0f4a5313f4d68c95b72.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",2021五首女声伤感DJ情歌精品HD
+#EXTINF:-1 group-title="🎶DJ音乐",2021五首女声伤感DJ情歌精品
 https://vdse.bdstatic.com//c92e81328ef6d13ba7d44e6eb80f9f1e.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",情歌DJ《怎么可以如此冷血》《为爱受尽相思罪》HD
+#EXTINF:-1 group-title="🎶DJ音乐",情歌DJ《怎么可以如此冷血》《为爱受尽相思罪》
 https://vdse.bdstatic.com//61e318ea76e984f2bedb66f1ed1583be.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",DJ劲爆舞曲《在我心里有个你》《东南西北风》《一万个对不起》等HD
+#EXTINF:-1 group-title="🎶DJ音乐",DJ劲爆舞曲《在我心里有个你》《东南西北风》《一万个对不起》等
 https://vdse.bdstatic.com//8343b02f5e7465d4c5b07e54403438b8.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",DJ情歌串烧《痴情恋歌》《红颜知己》《事与愿违》《缘分相遇》HD
+#EXTINF:-1 group-title="🎶DJ音乐",DJ情歌串烧《痴情恋歌》《红颜知己》《事与愿违》《缘分相遇》
 https://vdse.bdstatic.com//904548e7bec804905906557ed2752017.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",动听DJ情歌《红颜知己》《今夜为你醉》《别忘了我在等你》等HD
+#EXTINF:-1 group-title="🎶DJ音乐",动听DJ情歌《红颜知己》《今夜为你醉》《别忘了我在等你》等
 https://vdse.bdstatic.com//92d49c2aebc0bbbe08149b8e08e4a443.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",DJ伤感好听《红颜知己》《事与愿违》《缘分相遇》《知情念歌》HD
+#EXTINF:-1 group-title="🎶DJ音乐",DJ伤感好听《红颜知己》《事与愿违》《缘分相遇》《知情念歌》
 https://vdse.bdstatic.com//1a7b05ab4eab2d68a679e442f4d80fab.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",DJ情歌《昨夜的我又梦到了你》《心上的人儿你在哪》等HD
+#EXTINF:-1 group-title="🎶DJ音乐",DJ情歌《昨夜的我又梦到了你》《心上的人儿你在哪》等
 https://vdse.bdstatic.com//09b76fc9762763350288fb96047ec820.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",《给我一把爱情火》《无情风雨无情的你》《昨夜的我又梦到了你》HD
+#EXTINF:-1 group-title="🎶DJ音乐",《给我一把爱情火》《无情风雨无情的你》《昨夜的我又梦到了你》
 https://vdse.bdstatic.com//63a770491e7bae0ebe661452c27eaf33.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",《来生再去拥抱你》《梨花飞情人泪》《落雨的秋》《梦醉荷塘》HD
+#EXTINF:-1 group-title="🎶DJ音乐",《来生再去拥抱你》《梨花飞情人泪》《落雨的秋》《梦醉荷塘》
 https://vdse.bdstatic.com//d5e3237c7ef186217ea1c9b24d58e2ae.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",宇宁《千里江山（大型纪录片《紫禁城》主题歌HD
+#EXTINF:-1 group-title="🎶DJ音乐",宇宁《千里江山（大型纪录片《紫禁城》主题歌
 https://vdse.bdstatic.com//688046e42c39cf6585106f945e2798e7.mov
-#EXTINF:-1 group-title="🎶DJ音乐",2021最佳伤感情歌HD
+#EXTINF:-1 group-title="🎶DJ音乐",2021最佳伤感情歌
 https://vdse.bdstatic.com//59c5abc138bf1da5585bb765c530137e.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",2021伤感洗脑神曲HD
+#EXTINF:-1 group-title="🎶DJ音乐",2021伤感洗脑神曲
 https://vdse.bdstatic.com//8ad29ca92a901b9992431cf0c5266101.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",2021最好听情歌HD
+#EXTINF:-1 group-title="🎶DJ音乐",2021最好听情歌
 https://vdse.bdstatic.com//e668900af1d683c1f8762c1184d516d3.mp4
-#EXTINF:-1 group-title="🎶DJ音乐",经典粤语歌曲《上海滩》《铁血丹心》《神情神话》《沧海一声笑》HD
+#EXTINF:-1 group-title="🎶DJ音乐",经典粤语歌曲《上海滩》《铁血丹心》《神情神话》《沧海一声笑》
 https://vdse.bdstatic.com//f9cda7e70273c267b61a3d0c969d2033.mp4
 #EXTINF:-1 group-title="🎶DJ音乐",苍天不负有情人
 https://vd3.bdstatic.com/mda-jm5iqyuj8bapffdb/hd/mda-jm5iqyuj8bapffdb.mp4
