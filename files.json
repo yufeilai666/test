@@ -38,5 +38,10 @@
     "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo_112114.json",
     "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo_taksssss.json",
     "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo_fanmingming.json"
-  ]
+  ],
+  "epg_url": {
+    "51zmt_all.xml.gz": "http://epg.51zmt.top:8000/e.xml.gz",
+    "51zmt_yangwei.xml.gz": "http://epg.51zmt.top:8000/cc.xml.gz",
+    "51zmt_difang.xml.gz": "http://epg.51zmt.top:8000/difang.xml.gz"
+  }
 }
