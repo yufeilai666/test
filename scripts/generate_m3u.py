@@ -275,9 +275,8 @@ def normalize_channel_name(name):
     """标准化频道名称（转简体并小写）"""
     if not name:
         return ""
-    # 先清洗频道名称
-    cleaned_name = clean_channel_name(name)
-    return convert(cleaned_name.lower(), 'zh-cn')
+    # 只做简繁转换和小写，不进行清洗
+    return convert(name.lower(), 'zh-cn')
 
 def is_valid_m3u_line(line):
     """检查是否为有效的M3U格式行"""
@@ -403,7 +402,7 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
             skipped_lines += 1
             continue
             
-        # 清洗频道名称（在标准化之前）
+        # 清洗频道名称（只对直播源数据进行清洗）
         cleaned_channel_name = clean_channel_name(channel_name)
         norm_channel_name = normalize_channel_name(cleaned_channel_name)
         
