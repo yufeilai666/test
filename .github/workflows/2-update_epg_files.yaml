@@ -108,14 +108,17 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        # 检查是否有文件变动
-        if git diff --quiet; then
+        # 检查是否有新文件或文件变动
+        git add -A
+        if git diff-index --quiet HEAD --; then
           echo "changes=false" >> $GITHUB_OUTPUT
           echo "ℹ️ 没有检测到文件变动"
         else
           echo "changes=true" >> $GITHUB_OUTPUT
           echo "☑️ 检测到文件变动"
           git status
+          echo "📁 EPG目录内容:"
+          ls -la epg/
         fi
         
     - name: Get Beijing time
