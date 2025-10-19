@@ -102,23 +102,31 @@ jobs:
         
         python download_epg.py
         
+    - name: Clean up temporary script
+      run: rm -f download_epg.py
+        
     - name: Check for changes
       id: check_changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        # 检查是否有新文件或文件变动
-        git add -A
-        if git diff-index --quiet HEAD --; then
+        echo "📁 EPG目录内容:"
+        ls -la epg/
+        
+        # 更直接的方法：先添加epg目录到暂存区，然后检查是否有变化
+        git add epg/
+        
+        # 检查暂存区与HEAD之间是否有差异
+        if git diff --staged --quiet; then
           echo "changes=false" >> $GITHUB_OUTPUT
-          echo "ℹ️ 没有检测到文件变动"
+          echo "ℹ️ 没有检测到EPG文件变动"
+          # 重置暂存区，因为我们没有实际变化
+          git reset
         else
           echo "changes=true" >> $GITHUB_OUTPUT
-          echo "☑️ 检测到文件变动"
-          git status
-          echo "📁 EPG目录内容:"
-          ls -la epg/
+          echo "☑️ 检测到EPG文件变动"
+          git status epg/
         fi
         
     - name: Get Beijing time
@@ -136,6 +144,5 @@ jobs:
     - name: Commit and push if changes
       if: steps.check_changes.outputs.changes == 'true'
       run: |
-        git add epg/
         git commit -m "🔄 自动更新EPG文件 [${{ steps.beijing_time.outputs.beijing_time }}]"
         git push
