@@ -31,6 +31,48 @@ BROWSER_USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
 ]
 
+def clean_channel_name(name):
+    """清洗频道名称，应用所有指定的规则"""
+    if not name:
+        return name
+    
+    original_name = name
+    # 1-2. 去掉HD（不区分大小写）
+    name = re.sub(r'HD$', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'HD\s*$', '', name, flags=re.IGNORECASE)
+    
+    # 3. 去掉CCTV频道中的"-"
+    name = re.sub(r'CCTV-(\d+[\+]?)', r'CCTV\1', name, flags=re.IGNORECASE)
+    
+    # 4. 去掉CCTV一位数频道中的0，但保留两位数频道
+    # 匹配CCTV后面跟着0和1-9的数字，或者0和1-9的数字后面有+
+    name = re.sub(r'CCTV0(\d)(?!\d)', r'CCTV\1', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV0(\d)\+', r'CCTV\1+', name, flags=re.IGNORECASE)
+    
+    # 5. 去掉地区前缀和竖线
+    name = re.sub(r'^[^|]+\|', '', name)
+    
+    # 6-7. 去掉"高清"（可能有空格也可能没有）
+    name = re.sub(r'\s*高清\s*$', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'高清\s*$', '', name, flags=re.IGNORECASE)
+    
+    # 8. 只保留CCTV频道的主要部分
+    # 匹配CCTV后面跟着数字和可能的+，然后可能有空格和其他字符
+    cctv_match = re.search(r'(CCTV\d+\+?)\s*.*', name, re.IGNORECASE)
+    if cctv_match:
+        name = cctv_match.group(1)
+    
+    # 9. 修正"黑龙江视"为"黑龙江卫视"
+    name = re.sub(r'黑龙江视', '黑龙江卫视', name)
+    
+    # 去除首尾空格
+    name = name.strip()
+    
+    if name != original_name:
+        print(f"频道名称清洗: '{original_name}' -> '{name}'")
+    
+    return name
+
 def fetch_url(url, description="数据", encoding=None, referer=None, user_agent=None, max_retries=3):
     """通用URL请求函数"""
     headers = DEFAULT_HEADERS.copy()
@@ -164,7 +206,9 @@ def normalize_channel_name(name):
     """标准化频道名称（转简体并小写）"""
     if not name:
         return ""
-    return convert(name.lower(), 'zh-cn')
+    # 先清洗频道名称
+    cleaned_name = clean_channel_name(name)
+    return convert(cleaned_name.lower(), 'zh-cn')
 
 def is_valid_m3u_line(line):
     """检查是否为有效的M3U格式行"""
@@ -290,7 +334,9 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
             skipped_lines += 1
             continue
             
-        norm_channel_name = normalize_channel_name(channel_name)
+        # 清洗频道名称（在标准化之前）
+        cleaned_channel_name = clean_channel_name(channel_name)
+        norm_channel_name = normalize_channel_name(cleaned_channel_name)
         
         # 匹配EPG信息 - 按顺序查找，找到第一个匹配的
         tvg_id = ""
@@ -323,7 +369,7 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
             attr_parts.append(f'group-title="{current_group}"')
         
         attrs = " ".join(attr_parts)
-        m3u_lines.append(f'#EXTINF:-1 {attrs},{channel_name}')
+        m3u_lines.append(f'#EXTINF:-1 {attrs},{cleaned_channel_name}')
         m3u_lines.append(channel_url)
         valid_channel_count += 1
     
