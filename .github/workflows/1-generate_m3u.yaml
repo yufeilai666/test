@@ -39,10 +39,10 @@ jobs:
       run: |
         cd scripts
         if python generate_tv12_m3u.py; then
-          echo "::set-output name=status::success"
+          echo "status=success" >> $GITHUB_OUTPUT
           echo "TV12脚本执行成功"
         else
-          echo "::set-output name=status::failed"
+          echo "status=failed" >> $GITHUB_OUTPUT
           echo "TV12脚本执行失败，但继续执行其他脚本"
         fi
 
@@ -52,10 +52,10 @@ jobs:
       run: |
         cd scripts
         if python generate_m3u.py; then
-          echo "::set-output name=status::success"
+          echo "status=success" >> $GITHUB_OUTPUT
           echo "通用脚本执行成功"
         else
-          echo "::set-output name=status::failed"
+          echo "status=failed" >> $GITHUB_OUTPUT
           echo "通用脚本执行失败，但继续执行后续步骤"
         fi
 
@@ -83,10 +83,10 @@ jobs:
         general_status="${{ steps.run_general_script.outputs.status }}"
         
         if [ "$tv12_status" = "success" ] || [ "$general_status" = "success" ]; then
-          echo "::set-output name=has_success::true"
+          echo "has_success=true" >> $GITHUB_OUTPUT
           echo "至少有一个脚本执行成功"
         else
-          echo "::set-output name=has_success::false"
+          echo "has_success=false" >> $GITHUB_OUTPUT
           echo "所有脚本都执行失败"
         fi
 
