@@ -58,6 +58,7 @@ jobs:
             
             for attempt in range(max_retries):
                 try:
+                    print("*"*36)
                     print(f"🚀 正在下载: {filename} (尝试 {attempt + 1}/{max_retries})")
                     
                     # 设置请求头
