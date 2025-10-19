@@ -42,6 +42,7 @@
   "epg_url": {
     "51zmt_all.xml.gz": "http://epg.51zmt.top:8000/e.xml.gz",
     "51zmt_yangwei.xml.gz": "http://epg.51zmt.top:8000/cc.xml.gz",
-    "51zmt_difang.xml.gz": "http://epg.51zmt.top:8000/difang.xml.gz"
+    "51zmt_difang.xml.gz": "http://epg.51zmt.top:8000/difang.xml.gz",
+    "51zmt_gat.xml.gz": "http://epg.51zmt.top:8000/gat.xml.gz"
   }
 }
