@@ -93,10 +93,10 @@ def clean_channel_name(name):
     name = re.sub(r'CCTV-?4.*欧洲.*', 'CCTV4欧洲', name, flags=re.IGNORECASE)
     name = re.sub(r'CCTV-?4.*中文国际.*欧洲.*', 'CCTV4欧洲', name, flags=re.IGNORECASE)
     
-    # 美洲相关
+    # 美洲相关 - 修复bug：添加对"北美"的识别
     name = re.sub(r'CCTV-?4\s*(AME|America|America|AME|MZ)', 'CCTV4美洲', name, flags=re.IGNORECASE)
-    name = re.sub(r'CCTV-?4.*美洲.*', 'CCTV4美洲', name, flags=re.IGNORECASE)
-    name = re.sub(r'CCTV-?4.*中文国际.*美洲.*', 'CCTV4美洲', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV-?4.*(美洲|北美).*', 'CCTV4美洲', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV-?4.*中文国际.*(美洲|北美).*', 'CCTV4美洲', name, flags=re.IGNORECASE)
     
     # 亚洲相关
     name = re.sub(r'CCTV-?4\s*(Asia|Asia|YZ)', 'CCTV4亚洲', name, flags=re.IGNORECASE)
@@ -131,12 +131,21 @@ def clean_channel_name(name):
     # 只保留CCTV频道的主要部分
     # 匹配CCTV后面跟着数字和可能的+，然后可能有空格和其他字符
     cctv_match = re.search(r'(CCTV\d+\+?)\s*.*', name, re.IGNORECASE)
-    if cctv_match and not any(keyword in name for keyword in ['欧洲', '美洲', '亚洲', '香港', '4K', '8K', '16K']):
+    if cctv_match and not any(keyword in name for keyword in ['欧洲', '美洲', '北美', '亚洲', '香港', '4K', '8K', '16K']):
         name = cctv_match.group(1)
     
     # 第十步：处理CGTN相关规则（重新组织顺序，从具体到一般）
     # 处理CGTN-、CGTN -等变体，保留后面的内容
     name = re.sub(r'CGTN\s*-\s*', 'CGTN', name)
+    
+    # 新增：先处理带有"8M1080"后缀的CGTN频道（放在最前面，因为它们是最具体的）
+    name = re.sub(r'CGTN西语\s*8M1080', 'CGTN西班牙语', name)
+    name = re.sub(r'CGTN阿语\s*8M1080', 'CGTN阿拉伯语', name)
+    name = re.sub(r'CGTN俄语\s*8M1080', 'CGTN俄语', name)
+    name = re.sub(r'CGTN法语\s*8M1080', 'CGTN法语', name)
+    name = re.sub(r'CGTN英语\s*8M1080', 'CGTN', name)
+    name = re.sub(r'CGTN\s*8M1080', 'CGTN', name)
+    name = re.sub(r'CGTN纪录\s*8M1080', 'CGTN纪录', name)
     
     # 处理CGTN多语言频道（按照从具体到一般的顺序）
     # 英语相关频道（从具体到一般）
@@ -173,11 +182,23 @@ def clean_channel_name(name):
     name = re.sub(r'CGTN阿语', 'CGTN阿拉伯语', name)
     
     # 第十一步：特殊频道处理
-    # Channel V国际娱乐台HD清洗为Channel V
+    # 处理Channel V的各种变体（按照从具体到一般的顺序）
+    name = re.sub(r'Channel V\s*国际娱乐台.*', 'Channel V', name, flags=re.IGNORECASE)
     name = re.sub(r'Channel V国际娱乐台.*', 'Channel V', name, flags=re.IGNORECASE)
+    name = re.sub(r'Channel V\s*国际娱乐.*', 'Channel V', name, flags=re.IGNORECASE)
+    name = re.sub(r'Channel V国际娱乐.*', 'Channel V', name, flags=re.IGNORECASE)
+    name = re.sub(r'Channel V\s*娱乐台.*', 'Channel V', name, flags=re.IGNORECASE)
+    name = re.sub(r'Channel V娱乐台.*', 'Channel V', name, flags=re.IGNORECASE)
+    name = re.sub(r'Channel V\s*国际.*', 'Channel V', name, flags=re.IGNORECASE)
+    name = re.sub(r'Channel V国际.*', 'Channel V', name, flags=re.IGNORECASE)
+    name = re.sub(r'Channel V\s*娱乐.*', 'Channel V', name, flags=re.IGNORECASE)
+    name = re.sub(r'Channel V娱乐.*', 'Channel V', name, flags=re.IGNORECASE)
     
     # "黑龙江视"修正为"黑龙江卫视"（第一次需求中的规则9）
     name = re.sub(r'黑龙江视', '黑龙江卫视', name)
+    
+    # 新增："内蒙古视"修正为"内蒙古卫视"
+    name = re.sub(r'内蒙古视', '内蒙古卫视', name)
     
     # 去除首尾空格
     name = name.strip()
