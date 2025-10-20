@@ -41,7 +41,7 @@ def clean_channel_name(name):
     # 预处理：将下划线替换为空格，以便后续规则匹配
     name = name.replace('_', ' ')
     
-    # 第一步：处理UHD、FHD、HD、超高清、高清等（调整顺序）
+    # 第一步：处理UHD、FHD、HD、超高清、高清、标清等（调整顺序）
     # 先处理FHD和UHD，避免被HD规则影响
     name = re.sub(r'\s*FHD\s*', '', name, flags=re.IGNORECASE)
     name = re.sub(r'\s*UHD\s*', '', name, flags=re.IGNORECASE)
@@ -56,6 +56,13 @@ def clean_channel_name(name):
     # 去掉高清（可能有空格也可能没有）
     name = re.sub(r'\s*高清\s*$', '', name, flags=re.IGNORECASE)
     name = re.sub(r'高清\s*$', '', name, flags=re.IGNORECASE)
+    
+    # 35. 清洗掉"标清"
+    name = re.sub(r'\s*标清\s*', '', name, flags=re.IGNORECASE)
+    
+    # 42. 清洗掉"频标"，"频高"
+    name = re.sub(r'\s*频标\s*', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\s*频高\s*', '', name, flags=re.IGNORECASE)
     
     # 第二步：处理CCTV5+相关规则
     # CCTV5+的各种变体
@@ -134,7 +141,36 @@ def clean_channel_name(name):
     if cctv_match and not any(keyword in name for keyword in ['欧洲', '美洲', '北美', '亚洲', '香港', '4K', '8K', '16K']):
         name = cctv_match.group(1)
     
-    # 第十步：处理CGTN相关规则（重新组织顺序，从具体到一般）
+    # 第十步：处理CCTV专业频道规则（17-28）
+    # 按照从具体到一般的顺序
+    name = re.sub(r'CCTV\s*-\s*兵器科技', 'CCTV兵器科技', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*第一剧场', 'CCTV第一剧场', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*电视指南', 'CCTV电视指南', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*风云剧场', 'CCTV风云剧场', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*风云音乐', 'CCTV风云音乐', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*风云足球', 'CCTV风云足球', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*高尔夫网球', 'CCTV高尔夫网球', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*怀旧剧场', 'CCTV怀旧剧场', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*女性时尚', 'CCTV女性时尚', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*世界地理', 'CCTV世界地理', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*卫生健康', 'CCTV卫生健康', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*央视台球', 'CCTV央视台球', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*-\s*央视文化精品', 'CCTV央视文化精品', name, flags=re.IGNORECASE)
+    
+    # 第十一步：处理中央新影相关频道（30-32）
+    name = re.sub(r'中央新影\s*-\s*发现之旅', '发现之旅', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV发现之旅', '发现之旅', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV-发现之旅', '发现之旅', name, flags=re.IGNORECASE)
+    
+    name = re.sub(r'中央新影\s*-\s*老故事', '老故事', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV老故事', '老故事', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV-老故事', '老故事', name, flags=re.IGNORECASE)
+    
+    name = re.sub(r'中央新影\s*-\s*中学生', '中学生', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV中学生', '中学生', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV-中学生', '中学生', name, flags=re.IGNORECASE)
+    
+    # 第十二步：处理CGTN相关规则（重新组织顺序，从具体到一般）
     # 处理CGTN-、CGTN -等变体，保留后面的内容
     name = re.sub(r'CGTN\s*-\s*', 'CGTN', name)
     
@@ -155,34 +191,145 @@ def clean_channel_name(name):
     name = re.sub(r'CGTN英语', 'CGTN', name)
     
     # 西班牙语相关频道（从具体到一般）
-    name = re.sub(r'CGTN西班牙语国际频道', 'CGTN西班牙语', name)
-    name = re.sub(r'CGTN西班牙语国际', 'CGTN西班牙语', name)
-    name = re.sub(r'CGTN西班牙语频道', 'CGTN西班牙语', name)
-    name = re.sub(r'CGTN西语', 'CGTN西班牙语', name)
+    name = re.sub(r'CGTN西班牙语国际频道', 'CCTV西班牙语', name)
+    name = re.sub(r'CGTN西班牙语国际', 'CCTV西班牙语', name)
+    name = re.sub(r'CGTN西班牙语频道', 'CCTV西班牙语', name)
+    name = re.sub(r'CGTN西语', 'CCTV西班牙语', name)
+    
+    # 法语相关频道（从具体到一般）
+    name = re.sub(r'CGTN法语国际频道', 'CCTV法语', name)
+    name = re.sub(r'CGTN法语国际', 'CCTV法语', name)
+    name = re.sub(r'CGTN法语频道', 'CCTV法语', name)
+    
+    # 俄语相关频道（从具体到一般）
+    name = re.sub(r'CGTN俄语国际频道', 'CCTV俄语', name)
+    name = re.sub(r'CGTN俄语国际', 'CCTV俄语', name)
+    name = re.sub(r'CGTN俄语频道', 'CCTV俄语', name)
+    
+    # 阿拉伯语相关频道（从具体到一般）
+    name = re.sub(r'CGTN阿拉伯语国际频道', 'CCTV阿拉伯语', name)
+    name = re.sub(r'CGTN阿拉伯语国际', 'CCTV阿拉伯语', name)
+    name = re.sub(r'CGTN阿拉伯语频道', 'CCTV阿拉伯语', name)
+    name = re.sub(r'CGTN阿语', 'CCTV阿拉伯语', name)
     
     # 纪录相关频道（从具体到一般）
     name = re.sub(r'CGTN纪录频道（国际版）', 'CGTN纪录', name)
     name = re.sub(r'CGTN纪录\(国际版\)', 'CGTN纪录', name)
     name = re.sub(r'CGTN纪录频道', 'CGTN纪录', name)
     
-    # 法语相关频道（从具体到一般）
-    name = re.sub(r'CGTN法语国际频道', 'CGTN法语', name)
-    name = re.sub(r'CGTN法语国际', 'CGTN法语', name)
-    name = re.sub(r'CGTN法语频道', 'CGTN法语', name)
+    # 12. "CGTN俄罗斯语"修正为"CGTN俄语"
+    name = re.sub(r'CGTN俄罗斯语', 'CGTN俄语', name, flags=re.IGNORECASE)
     
-    # 俄语相关频道（从具体到一般）
-    name = re.sub(r'CGTN俄语国际频道', 'CGTN俄语', name)
-    name = re.sub(r'CGTN俄语国际', 'CGTN俄语', name)
-    name = re.sub(r'CGTN俄语频道', 'CGTN俄语', name)
+    # 43. "CGTN纪实"修正为"CGTN纪录"
+    name = re.sub(r'CGTN纪实', 'CGTN纪录', name, flags=re.IGNORECASE)
     
-    # 阿拉伯语相关频道（从具体到一般）
-    name = re.sub(r'CGTN阿拉伯语国际频道', 'CGTN阿拉伯语', name)
-    name = re.sub(r'CGTN阿拉伯语国际', 'CGTN阿拉伯语', name)
-    name = re.sub(r'CGTN阿拉伯语频道', 'CGTN阿拉伯语', name)
-    name = re.sub(r'CGTN阿语', 'CGTN阿拉伯语', name)
+    # 第十三步：处理CCTV错误命名修正为CGTN的规则（2-5）
+    name = re.sub(r'CCTV西班牙语', 'CGTN西班牙语', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*西班牙语', 'CGTN西班牙语', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV西语', 'CGTN西班牙语', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*西语', 'CGTN西班牙语', name, flags=re.IGNORECASE)
     
-    # 第十一步：特殊频道处理
-    # 处理Channel V的各种变体（按照从具体到一般的顺序）
+    name = re.sub(r'CCTV法语', 'CGTN法语', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*法语', 'CGTN法语', name, flags=re.IGNORECASE)
+    
+    name = re.sub(r'CCTV阿拉伯语', 'CGTN阿拉伯语', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*阿拉伯语', 'CGTN阿拉伯语', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV阿语', 'CGTN阿拉伯语', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*阿语', 'CGTN阿拉伯语', name, flags=re.IGNORECASE)
+    
+    name = re.sub(r'CCTV俄语', 'CGTN俄语', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV\s*俄语', 'CGTN俄语', name, flags=re.IGNORECASE)
+    
+    # 第十四步：处理CCTV国际频道简写（7-9）
+    name = re.sub(r'cctv美洲', 'CCTV4美洲', name, flags=re.IGNORECASE)
+    name = re.sub(r'cctv\s*美洲', 'CCTV4美洲', name, flags=re.IGNORECASE)
+    
+    name = re.sub(r'cctv欧洲', 'CCTV4欧洲', name, flags=re.IGNORECASE)
+    name = re.sub(r'cctv\s*欧洲', 'CCTV4欧洲', name, flags=re.IGNORECASE)
+    
+    name = re.sub(r'cctv亚洲', 'CCTV4亚洲', name, flags=re.IGNORECASE)
+    name = re.sub(r'cctv\s*亚洲', 'CCTV4亚洲', name, flags=re.IGNORECASE)
+    
+    # 第十五步：处理中国教育电视台规则（13-16）
+    name = re.sub(r'中国教育1', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育\s*1', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV1', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'cetv01', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*1', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*01', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-1', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-01', '中国教育1台', name, flags=re.IGNORECASE)
+    
+    name = re.sub(r'中国教育2', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育\s*2', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV2', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'cetv02', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*2', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*02', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-2', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-02', '中国教育2台', name, flags=re.IGNORECASE)
+    
+    name = re.sub(r'中国教育3', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育\s*3', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV3', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'cetv03', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*3', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*03', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-3', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-03', '中国教育3台', name, flags=re.IGNORECASE)
+    
+    name = re.sub(r'中国教育4', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育\s*4', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV4', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'cetv04', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*4', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*04', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-4', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-04', '中国教育4台', name, flags=re.IGNORECASE)
+    
+    # 第十六步：处理地方卫视修正规则（6,10,11,33,36,37,38,39,40,41,43）
+    # 6. "东方卫视x"修正为"东方卫视"
+    name = re.sub(r'东方卫视x', '东方卫视', name, flags=re.IGNORECASE)
+    
+    # 10. "旅游卫视"修正为"海南卫视"
+    name = re.sub(r'旅游卫视', '海南卫视', name, flags=re.IGNORECASE)
+    
+    # 11. "上海卫视","上海东方卫视","上视东方卫视"修正为"东方卫视"
+    name = re.sub(r'上海卫视', '东方卫视', name, flags=re.IGNORECASE)
+    name = re.sub(r'上海东方卫视', '东方卫视', name, flags=re.IGNORECASE)
+    name = re.sub(r'上视东方卫视', '东方卫视', name, flags=re.IGNORECASE)
+    
+    # 33. "南方卫视","广东湾区"修正为"大湾区卫视"
+    name = re.sub(r'南方卫视', '大湾区卫视', name, flags=re.IGNORECASE)
+    name = re.sub(r'广东湾区', '大湾区卫视', name, flags=re.IGNORECASE)
+    
+    # 36. "福建东南卫视"修正为"东南卫视"
+    name = re.sub(r'福建东南卫视', '东南卫视', name, flags=re.IGNORECASE)
+    
+    # 37. "炫动卡通"修正为"哈哈炫动"
+    name = re.sub(r'炫动卡通', '哈哈炫动', name, flags=re.IGNORECASE)
+    
+    # 38. "生态环境频道"修正为"生态环境"
+    name = re.sub(r'生态环境频道', '生态环境', name, flags=re.IGNORECASE)
+    
+    # 39. "东方纪实"修正为"新纪实"
+    name = re.sub(r'东方纪实', '新纪实', name, flags=re.IGNORECASE)
+    
+    # 40. "北京体育"修正为"北京体育休闲"
+    name = re.sub(r'北京体育', '北京体育休闲', name, flags=re.IGNORECASE)
+    
+    # 41. "北京纪实"修正为"北京纪实科教"
+    name = re.sub(r'北京纪实', '北京纪实科教', name, flags=re.IGNORECASE)
+    
+    # 43. "广东经济"修正为"广东经济科教"
+    name = re.sub(r'广东经济', '广东经济科教', name, flags=re.IGNORECASE)
+    
+    # 第十七步：处理特殊频道
+    # 34. "卡酷动画","北京少儿"修正为"卡酷少儿"
+    name = re.sub(r'卡酷动画', '卡酷少儿', name, flags=re.IGNORECASE)
+    name = re.sub(r'北京少儿', '卡酷少儿', name, flags=re.IGNORECASE)
+    
+    # 第十八步：处理Channel V的各种变体（按照从具体到一般的顺序）
     name = re.sub(r'Channel V\s*国际娱乐台.*', 'Channel V', name, flags=re.IGNORECASE)
     name = re.sub(r'Channel V国际娱乐台.*', 'Channel V', name, flags=re.IGNORECASE)
     name = re.sub(r'Channel V\s*国际娱乐.*', 'Channel V', name, flags=re.IGNORECASE)
