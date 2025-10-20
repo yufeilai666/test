@@ -41,17 +41,17 @@ def clean_channel_name(name):
     # 预处理：将下划线替换为空格，以便后续规则匹配
     name = name.replace('_', ' ')
     
-    # 第一步：处理HD、UHD、超高清、FHD等
+    # 第一步：处理UHD、FHD、HD、超高清、高清等（调整顺序）
+    # 先处理FHD和UHD，避免被HD规则影响
+    name = re.sub(r'\s*FHD\s*', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\s*UHD\s*', '', name, flags=re.IGNORECASE)
+    
+    # 清理掉超高清
+    name = re.sub(r'\s*超高清\s*', '', name, flags=re.IGNORECASE)
+    
     # 去掉HD相关格式
     name = re.sub(r'\s*-\s*HD\s*$', '', name, flags=re.IGNORECASE)
     name = re.sub(r'\s*HD\s*$', '', name, flags=re.IGNORECASE)
-    
-    # 清理掉UHD，超高清
-    name = re.sub(r'\s*UHD\s*', '', name, flags=re.IGNORECASE)
-    name = re.sub(r'\s*超高清\s*', '', name, flags=re.IGNORECASE)
-    
-    # 新增：清洗掉FHD
-    name = re.sub(r'\s*FHD\s*', '', name, flags=re.IGNORECASE)
     
     # 去掉高清（可能有空格也可能没有）
     name = re.sub(r'\s*高清\s*$', '', name, flags=re.IGNORECASE)
@@ -75,6 +75,13 @@ def clean_channel_name(name):
     # CCTV16奥林匹克4K相关清洗为CCTV16-4K
     name = re.sub(r'CCTV-?16\s*奥林匹克.*4K.*', 'CCTV16-4K', name, flags=re.IGNORECASE)
     name = re.sub(r'CCTV16\s*奥林匹克.*4K.*', 'CCTV16-4K', name, flags=re.IGNORECASE)
+    
+    # 处理CCTV-16 4K奥林匹克频道等变体
+    name = re.sub(r'CCTV-?16\s*4K\s*奥林匹克.*', 'CCTV16-4K', name, flags=re.IGNORECASE)
+    name = re.sub(r'CCTV16\s*4K\s*奥林匹克.*', 'CCTV16-4K', name, flags=re.IGNORECASE)
+    
+    # 修复bug：处理CCTV16 4k(试看)等变体
+    name = re.sub(r'CCTV-?16\s*4k\s*.*', 'CCTV16-4K', name, flags=re.IGNORECASE)
     
     # CCTV16-4K不清洗（但确保格式正确）
     name = re.sub(r'CCTV16-4K', 'CCTV16-4K', name, flags=re.IGNORECASE)
@@ -127,9 +134,43 @@ def clean_channel_name(name):
     if cctv_match and not any(keyword in name for keyword in ['欧洲', '美洲', '亚洲', '香港', '4K', '8K', '16K']):
         name = cctv_match.group(1)
     
-    # 第十步：处理CGTN相关规则（修正）
+    # 第十步：处理CGTN相关规则（重新组织顺序，从具体到一般）
     # 处理CGTN-、CGTN -等变体，保留后面的内容
     name = re.sub(r'CGTN\s*-\s*', 'CGTN', name)
+    
+    # 处理CGTN多语言频道（按照从具体到一般的顺序）
+    # 英语相关频道（从具体到一般）
+    name = re.sub(r'CGTN英语新闻频道', 'CGTN', name)
+    name = re.sub(r'CGTN英语新闻', 'CGTN', name)
+    name = re.sub(r'CGTN英语频道', 'CGTN', name)
+    name = re.sub(r'CGTN英语', 'CGTN', name)
+    
+    # 西班牙语相关频道（从具体到一般）
+    name = re.sub(r'CGTN西班牙语国际频道', 'CGTN西班牙语', name)
+    name = re.sub(r'CGTN西班牙语国际', 'CGTN西班牙语', name)
+    name = re.sub(r'CGTN西班牙语频道', 'CGTN西班牙语', name)
+    name = re.sub(r'CGTN西语', 'CGTN西班牙语', name)
+    
+    # 纪录相关频道（从具体到一般）
+    name = re.sub(r'CGTN纪录频道（国际版）', 'CGTN纪录', name)
+    name = re.sub(r'CGTN纪录\(国际版\)', 'CGTN纪录', name)
+    name = re.sub(r'CGTN纪录频道', 'CGTN纪录', name)
+    
+    # 法语相关频道（从具体到一般）
+    name = re.sub(r'CGTN法语国际频道', 'CGTN法语', name)
+    name = re.sub(r'CGTN法语国际', 'CGTN法语', name)
+    name = re.sub(r'CGTN法语频道', 'CGTN法语', name)
+    
+    # 俄语相关频道（从具体到一般）
+    name = re.sub(r'CGTN俄语国际频道', 'CGTN俄语', name)
+    name = re.sub(r'CGTN俄语国际', 'CGTN俄语', name)
+    name = re.sub(r'CGTN俄语频道', 'CGTN俄语', name)
+    
+    # 阿拉伯语相关频道（从具体到一般）
+    name = re.sub(r'CGTN阿拉伯语国际频道', 'CGTN阿拉伯语', name)
+    name = re.sub(r'CGTN阿拉伯语国际', 'CGTN阿拉伯语', name)
+    name = re.sub(r'CGTN阿拉伯语频道', 'CGTN阿拉伯语', name)
+    name = re.sub(r'CGTN阿语', 'CGTN阿拉伯语', name)
     
     # 第十一步：特殊频道处理
     # Channel V国际娱乐台HD清洗为Channel V
@@ -137,8 +178,6 @@ def clean_channel_name(name):
     
     # "黑龙江视"修正为"黑龙江卫视"（第一次需求中的规则9）
     name = re.sub(r'黑龙江视', '黑龙江卫视', name)
-    # "内蒙古视"修正为"内蒙古卫视"
-    name = re.sub(r'内蒙古视', '内蒙古卫视', name)
     
     # 去除首尾空格
     name = name.strip()
