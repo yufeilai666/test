@@ -3285,17 +3285,17 @@ rtsp://10.15.250.13/PLTV/88888888/224/3221226747/1000010000000006000000000675879
 rtsp://10.15.250.13/PLTV/88888888/224/3221226653/10000100000000060000000003014578_0.smil
 #EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="辽宁联通(内)",CCTV5+
 rtsp://10.15.250.13/PLTV/88888888/224/3221226743/10000100000000060000000006603048_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN英语新闻
+#EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="辽宁联通(内)",CGTN
 rtsp://10.15.250.13/PLTV/88888888/224/3221226756/10000100000000060000000006569861_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN纪录(国际版)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn纪录.png" group-title="辽宁联通(内)",CGTN纪录
 rtsp://10.15.250.13/PLTV/88888888/224/3221226758/10000100000000060000000006569863_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN俄语国际
+#EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="辽宁联通(内)",CGTN俄语
 rtsp://10.15.250.13/PLTV/88888888/224/3221226739/10000100000000060000000006582732_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN西班牙语国际
+#EXTINF:-1 tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN西班牙语.png" group-title="辽宁联通(内)",CGTN西班牙语
 rtsp://10.15.250.13/PLTV/88888888/224/3221226735/10000100000000060000000006582714_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN阿拉伯语国际
+#EXTINF:-1 tvg-id="cgtn阿拉伯语" tvg-name="cgtn阿拉伯语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN阿拉伯语.png" group-title="辽宁联通(内)",CGTN阿拉伯语
 rtsp://10.15.250.13/PLTV/88888888/224/3221226760/10000100000000060000000006582737_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",CGTN法语国际
+#EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="辽宁联通(内)",CGTN法语
 rtsp://10.15.250.13/PLTV/88888888/224/3221226737/10000100000000060000000006582717_0.smil
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="辽宁联通(内)",辽宁卫视
 rtsp://10.15.250.13/PLTV/88888888/224/3221226511/10000100000000060000000000394610_0.smil
@@ -3583,7 +3583,7 @@ http://10.255.128.136/PLTV/88888888/224/3221225676/10000100000000060000000000000
 http://10.255.128.136/PLTV/88888888/224/3221225644/10000100000000060000000000000181_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="辽宁电信(内)",CCTV15
 http://10.255.128.136/PLTV/88888888/224/3221225678/10000100000000060000000000000215_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CCTV16 4K奥林匹克频道
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV16-4K.png" group-title="辽宁电信(内)",CCTV16-4K
 http://10.255.128.136/PLTV/88888888/224/3221226219/10000100000000060000000000712172_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="辽宁电信(内)",CCTV17
 http://10.255.128.136/PLTV/88888888/224/3221225639/10000100000000060000000000000176_0.smil/index.m3u8?fmt=ts2hls
@@ -3775,17 +3775,17 @@ http://10.255.128.136/PLTV/88888888/224/3221225754/10000100000000060000000000000
 http://10.255.128.136/PLTV/88888888/224/3221225798/10000100000000060000000000000424_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="辽宁电信(内)",央视文化精品频道
 http://10.255.128.136/PLTV/88888888/224/3221225758/10000100000000060000000000000295_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN阿拉伯语国际频道
+#EXTINF:-1 tvg-id="cgtn阿拉伯语" tvg-name="cgtn阿拉伯语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN阿拉伯语.png" group-title="辽宁电信(内)",CGTN阿拉伯语
 http://10.255.128.136/PLTV/88888888/224/3221226260/10000100000000060000000000801394_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN俄语国际频道
+#EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="辽宁电信(内)",CGTN俄语
 http://10.255.128.136/PLTV/88888888/224/3221226279/10000100000000060000000000801397_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN法语国际频道
+#EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="辽宁电信(内)",CGTN法语
 http://10.255.128.136/PLTV/88888888/224/3221226275/10000100000000060000000000801393_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN纪录频道（国际版）
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn纪录.png" group-title="辽宁电信(内)",CGTN纪录
 http://10.255.128.136/PLTV/88888888/224/3221225792/10000100000000060000000000000361_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN西班牙语国际频道
+#EXTINF:-1 tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN西班牙语.png" group-title="辽宁电信(内)",CGTN西班牙语
 http://10.255.128.136/PLTV/88888888/224/3221226249/10000100000000060000000000801388_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",CGTN英语新闻频道
+#EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="辽宁电信(内)",CGTN
 http://10.255.128.136/PLTV/88888888/224/3221225791/10000100000000060000000000000360_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="辽宁电信(内)",丹东生活频道
 http://10.255.128.136/PLTV/88888888/224/3221225839/10000100000000060000000000411751_0.smil/index.m3u8?fmt=ts2hls
@@ -4393,11 +4393,11 @@ rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch18120514102191199606.
 rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch15050914501799552135.rsc/70003_Uni.sdp
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn纪录.png" group-title="山东联通(内)",CGTN纪录
 rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch21062215405197977873.rsc/91702_Uni.sdp
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn西语.png" group-title="山东联通(内)",CGTN西语
+#EXTINF:-1 tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN西班牙语.png" group-title="山东联通(内)",CGTN西班牙语
 rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch21062215411249555526.rsc/91514_Uni.sdp
 #EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="山东联通(内)",CGTN法语
 rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch21062215412921826390.rsc/91584_Uni.sdp
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn阿语.png" group-title="山东联通(内)",CGTN阿语
+#EXTINF:-1 tvg-id="cgtn阿拉伯语" tvg-name="cgtn阿拉伯语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN阿拉伯语.png" group-title="山东联通(内)",CGTN阿拉伯语
 rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch21062215414116185265.rsc/91594_Uni.sdp
 #EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="山东联通(内)",CGTN俄语
 rtsp://112.245.125.42:1554/iptv/import/Tvod/iptv/001/001/ch21062215415309865050.rsc/91606_Uni.sdp
@@ -5041,7 +5041,7 @@ http://tvgslb.hn.chinamobile.com:8089/180000001002/32023031709181220216556910725
 http://tvgslb.hn.chinamobile.com:8089/180000001002/00000001000000000031000000068476/main.m3u8?stbid=
 #EXTINF:-1 group-title="湖南移动(内)",湖南卫视超清
 http://tvgslb.hn.chinamobile.com:8089/180000001002/00000001000000000064000000308827/main.m3u8?stbid=
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="湖南移动(内)",CCTV16
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV16-4K.png" group-title="湖南移动(内)",CCTV16-4K
 http://tvgslb.hn.chinamobile.com:8089/180000001002/00000001000000000085000000178450/main.m3u8?stbid=
 #EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="湖南移动(内)",CCTV4K
 http://tvgslb.hn.chinamobile.com:8089/180000001002/32023092211020848462000290559536/main.m3u8?stbid=
@@ -5083,7 +5083,7 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001248/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001241/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV16-4K.png" group-title="上海移动(内)",CCTV16-4K
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001258/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn英语.png" group-title="上海移动(内)",CGTN英语
+#EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="上海移动(内)",CGTN
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001058/index.m3u8
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="上海移动(内)",北京卫视
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001029/index.m3u8
@@ -5745,7 +5745,7 @@ http://m.061899.xyz/mg/xzws
 http://m.061899.xyz/mg/btws
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="咪咕央视2",吉林卫视
 http://m.061899.xyz/mg/jlws
-#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="咪咕央视2",内蒙古卫视
+#EXTINF:-1 group-title="咪咕央视2",内蒙古视
 http://m.061899.xyz/mg/nmgws
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="咪咕央视2",黑龙江卫视
 http://m.061899.xyz/mg/hljws
