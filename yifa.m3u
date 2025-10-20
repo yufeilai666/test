@@ -4551,7 +4551,7 @@ rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch15090914573308932938.
 rtsp://112.245.125.42:1554/iptv/import/Tvod/iptv/001/001/ch15090915023023311866.rsc/69969_Uni.sdp
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/古装剧场.png" group-title="山东联通(内)",古装剧场
 rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch15090915062673403232.rsc/70072_Uni.sdp
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典剧场.png" group-title="山东联通(内)",经典剧场
+#EXTINF:-1 tvg-id="經典劇場" tvg-name="經典劇場" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典剧场.png" group-title="山东联通(内)",经典剧场
 rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch15090915512437000823.rsc/70022_Uni.sdp
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/武侠剧场.png" group-title="山东联通(内)",武侠剧场
 rtsp://112.245.125.42:1554/iptv/import/Tvod/iptv/001/001/ch15090915591653040173.rsc/69952_Uni.sdp
@@ -12077,7 +12077,7 @@ http://tv.ximix.us/yy/1354932427
 http://tv.ximix.us/yy/1382736916
 #EXTINF:-1 group-title="YY轮播",缺宅男女-精彩港剧
 http://tv.ximix.us/yy/1382745088
-#EXTINF:-1 group-title="YY轮播",以家人之名
+#EXTINF:-1 tvg-id="以家人之名" tvg-name="以家人之名" group-title="YY轮播",以家人之名
 http://tv.ximix.us/yy/1382736908
 #EXTINF:-1 group-title="YY轮播",小宝让你乐翻天：6到9集
 http://tv.ximix.us/yy/1354930971
