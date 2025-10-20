@@ -251,41 +251,41 @@ def clean_channel_name(name):
     name = re.sub(r'cctv\s*亚洲', 'CCTV4亚洲', name, flags=re.IGNORECASE)
     
     # 第十六步：处理中国教育电视台规则（13-16）
-    name = re.sub(r'中国教育1', '中国教育1台', name, flags=re.IGNORECASE)
-    name = re.sub(r'中国教育\s*1', '中国教育1台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV1', '中国教育1台', name, flags=re.IGNORECASE)
-    name = re.sub(r'cetv01', '中国教育1台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV\s*1', '中国教育1台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV\s*01', '中国教育1台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV-1', '中国教育1台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV-01', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育1\s*$', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育\s*1\s*$', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV1\s*$', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'cetv01\s*$', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*1\s*$', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*01\s*$', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-1\s*$', '中国教育1台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-01\s*$', '中国教育1台', name, flags=re.IGNORECASE)
     
-    name = re.sub(r'中国教育2', '中国教育2台', name, flags=re.IGNORECASE)
-    name = re.sub(r'中国教育\s*2', '中国教育2台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV2', '中国教育2台', name, flags=re.IGNORECASE)
-    name = re.sub(r'cetv02', '中国教育2台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV\s*2', '中国教育2台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV\s*02', '中国教育2台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV-2', '中国教育2台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV-02', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育2\s*$', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育\s*2\s*$', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV2\s*$', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'cetv02\s*$', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*2\s*$', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*02\s*$', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-2\s*$', '中国教育2台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-02\s*$', '中国教育2台', name, flags=re.IGNORECASE)
     
-    name = re.sub(r'中国教育3', '中国教育3台', name, flags=re.IGNORECASE)
-    name = re.sub(r'中国教育\s*3', '中国教育3台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV3', '中国教育3台', name, flags=re.IGNORECASE)
-    name = re.sub(r'cetv03', '中国教育3台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV\s*3', '中国教育3台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV\s*03', '中国教育3台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV-3', '中国教育3台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV-03', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育3\s*$', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育\s*3\s*$', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV3\s*$', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'cetv03\s*$', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*3\s*$', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*03\s*$', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-3\s*$', '中国教育3台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-03\s*$', '中国教育3台', name, flags=re.IGNORECASE)
     
-    name = re.sub(r'中国教育4', '中国教育4台', name, flags=re.IGNORECASE)
-    name = re.sub(r'中国教育\s*4', '中国教育4台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV4', '中国教育4台', name, flags=re.IGNORECASE)
-    name = re.sub(r'cetv04', '中国教育4台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV\s*4', '中国教育4台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV\s*04', '中国教育4台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV-4', '中国教育4台', name, flags=re.IGNORECASE)
-    name = re.sub(r'CETV-04', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育4\s*$', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'中国教育\s*4\s*$', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV4\s*$', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'cetv04\s*$', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*4\s*$', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV\s*04\s*$', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-4\s*$', '中国教育4台', name, flags=re.IGNORECASE)
+    name = re.sub(r'CETV-04\s*$', '中国教育4台', name, flags=re.IGNORECASE)
     
     # 第十七步：处理地方卫视修正规则（6,10,11,33,36,37,38,39,40,41,43）
     # 6. "东方卫视x"修正为"东方卫视"
@@ -316,13 +316,13 @@ def clean_channel_name(name):
     name = re.sub(r'东方纪实', '新纪实', name, flags=re.IGNORECASE)
     
     # 40. "北京体育"修正为"北京体育休闲"
-    name = re.sub(r'北京体育', '北京体育休闲', name, flags=re.IGNORECASE)
+    name = re.sub(r'北京体育\s*$', '北京体育休闲', name, flags=re.IGNORECASE)
     
     # 41. "北京纪实"修正为"北京纪实科教"
-    name = re.sub(r'北京纪实', '北京纪实科教', name, flags=re.IGNORECASE)
+    name = re.sub(r'北京纪实\s*$', '北京纪实科教', name, flags=re.IGNORECASE)
     
     # 43. "广东经济"修正为"广东经济科教"
-    name = re.sub(r'广东经济', '广东经济科教', name, flags=re.IGNORECASE)
+    name = re.sub(r'广东经济\s*$', '广东经济科教', name, flags=re.IGNORECASE)
     
     # 第十八步：处理特殊频道
     # 34. "卡酷动画","北京少儿"修正为"卡酷少儿"
