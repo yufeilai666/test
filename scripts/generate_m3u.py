@@ -43,8 +43,8 @@ def clean_channel_name(name):
     
     # 第一步：处理UHD、FHD、HD、超高清、高清、标清等（调整顺序）
     # 先处理FHD和UHD，避免被HD规则影响
-    name = re.sub(r'\s*FHD\s*', '', name, flags=re.IGNORECASE)
-    name = re.sub(r'\s*UHD\s*', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\s*FHD\s*$', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\s*UHD\s*$', '', name, flags=re.IGNORECASE)
     
     # 清理掉超高清
     name = re.sub(r'\s*超高清\s*', '', name, flags=re.IGNORECASE)
@@ -58,11 +58,11 @@ def clean_channel_name(name):
     name = re.sub(r'高清\s*$', '', name, flags=re.IGNORECASE)
     
     # 35. 清洗掉"标清"
-    name = re.sub(r'\s*标清\s*', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\s*标清\s*$', '', name, flags=re.IGNORECASE)
     
     # 42. 清洗掉"频标"，"频高"
-    name = re.sub(r'\s*频标\s*', '', name, flags=re.IGNORECASE)
-    name = re.sub(r'\s*频高\s*', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\s*频标\s*$', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\s*频高\s*$', '', name, flags=re.IGNORECASE)
     
     # 第三步：处理CCTV5+相关规则
     # CCTV5+的各种变体
