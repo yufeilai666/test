@@ -3727,7 +3727,7 @@ http://10.255.128.136/PLTV/88888888/224/3221225786/10000100000000060000000000000
 http://10.255.128.136/PLTV/88888888/224/3221226265/10000100000000060000000000863648_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="辽宁电信(内)",嘉佳卡通频道
 http://10.255.128.136/PLTV/88888888/224/3221225736/10000100000000060000000000000273_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",哈哈炫动频道
+#EXTINF:-1 tvg-id="哈哈炫动 (shanghai)" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/哈哈炫动.png" group-title="辽宁电信(内)",哈哈炫动
 http://10.255.128.136/PLTV/88888888/224/3221225734/10000100000000060000000000000271_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="辽宁电信(内)",家庭理财频道
 http://10.255.128.136/PLTV/88888888/224/3221225687/10000100000000060000000000000223_0.smil/index.m3u8?fmt=ts2hls
