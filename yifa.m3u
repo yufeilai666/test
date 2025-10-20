@@ -3189,13 +3189,13 @@ http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226159/index.m3u8
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226143/index.m3u8#http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226781/index.m3u8
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="辽宁移动(内)",江西卫视
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226142/index.m3u8
-#EXTINF:-1 group-title="辽宁移动(内)",教育卫视1
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="辽宁移动(内)",中国教育1台
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226732/index.m3u8#http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226171/index.m3u8
-#EXTINF:-1 group-title="辽宁移动(内)",教育卫视2
+#EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="辽宁移动(内)",中国教育2台
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226170/index.m3u8
-#EXTINF:-1 group-title="辽宁移动(内)",教育卫视3
+#EXTINF:-1 tvg-id="中国教育3台" tvg-name="中国教育3台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育3台.png" group-title="辽宁移动(内)",中国教育3台
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226950/index.m3u8
-#EXTINF:-1 group-title="辽宁移动(内)",教育卫视4
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="辽宁移动(内)",中国教育4台
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226940/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/康巴卫视.png" group-title="辽宁移动(内)",康巴卫视
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221227111/index.m3u8
