@@ -306,7 +306,8 @@ def clean_channel_name(name):
     # 36. "福建东南卫视"修正为"东南卫视"
     name = re.sub(r'福建东南卫视', '东南卫视', name, flags=re.IGNORECASE)
     
-    # 37. "炫动卡通"修正为"哈哈炫动"
+    # 37. "炫动卡通","炫动卡通频道"修正为"哈哈炫动"
+    name = re.sub(r'炫动卡通频道', '哈哈炫动', name, flags=re.IGNORECASE)
     name = re.sub(r'炫动卡通', '哈哈炫动', name, flags=re.IGNORECASE)
     
     # 38. "生态环境频道"修正为"生态环境"
