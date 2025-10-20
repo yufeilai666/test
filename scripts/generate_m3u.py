@@ -348,8 +348,8 @@ def clean_channel_name(name):
     name = re.sub(r'河北4K', '河北卫视4K', name, flags=re.IGNORECASE)
     name = re.sub(r'河北电视4K', '河北卫视4K', name, flags=re.IGNORECASE)
     
-    # 第二十步：删除开头只含有中文的"[]","〖〗","【】"以及它们的内容
-    name = re.sub(r'^\s*[\[〖【][\u4e00-\u9fa5]+[\]〗】]', '', name, flags=re.IGNORECASE)
+    # 第二十步：删除开头只含有中文的"[]","〖〗"以及它们的内容
+    name = re.sub(r'^\s*[\[〖][\u4e00-\u9fa5]+[\]〗]', '', name, flags=re.IGNORECASE)
     
     # 第二十一步：处理频道名字不完整
     # "黑龙江视"修正为"黑龙江卫视"（第一次需求中的规则9）
