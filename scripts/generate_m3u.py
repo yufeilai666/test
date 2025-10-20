@@ -632,11 +632,15 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
         tvg_name = ""
         tvg_logo = ""
         
-        # 新增：为EPG匹配创建一个临时名称，去掉末尾的4K相关字样
+        # 新增：为EPG匹配创建一个临时名称，去掉末尾的4K、8K和16K相关字样
         epg_norm_name = norm_channel_name
-        # 去掉末尾的4k相关字样（只用于EPG匹配）
+        # 去掉末尾的4k、8k和16k相关字样（只用于EPG匹配）
         epg_norm_name = re.sub(r'\s*-\s*4k\s*$', '', epg_norm_name, flags=re.IGNORECASE)
         epg_norm_name = re.sub(r'\s*4k\s*$', '', epg_norm_name, flags=re.IGNORECASE)
+        epg_norm_name = re.sub(r'\s*-\s*8k\s*$', '', epg_norm_name, flags=re.IGNORECASE)
+        epg_norm_name = re.sub(r'\s*8k\s*$', '', epg_norm_name, flags=re.IGNORECASE)
+        epg_norm_name = re.sub(r'\s*-\s*16k\s*$', '', epg_norm_name, flags=re.IGNORECASE)
+        epg_norm_name = re.sub(r'\s*16k\s*$', '', epg_norm_name, flags=re.IGNORECASE)
         
         # 按顺序遍历EPG频道列表，使用处理后的epg_norm_name进行匹配
         for epg_channel in epg_channels:
@@ -644,6 +648,10 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
             epg_channel_norm_name = normalize_channel_name(epg_channel["channel_name"])
             epg_channel_norm_name = re.sub(r'\s*-\s*4k\s*$', '', epg_channel_norm_name, flags=re.IGNORECASE)
             epg_channel_norm_name = re.sub(r'\s*4k\s*$', '', epg_channel_norm_name, flags=re.IGNORECASE)
+            epg_channel_norm_name = re.sub(r'\s*-\s*8k\s*$', '', epg_channel_norm_name, flags=re.IGNORECASE)
+            epg_channel_norm_name = re.sub(r'\s*8k\s*$', '', epg_channel_norm_name, flags=re.IGNORECASE)
+            epg_channel_norm_name = re.sub(r'\s*-\s*16k\s*$', '', epg_channel_norm_name, flags=re.IGNORECASE)
+            epg_channel_norm_name = re.sub(r'\s*16k\s*$', '', epg_channel_norm_name, flags=re.IGNORECASE)
             
             if epg_norm_name == epg_channel_norm_name:
                 tvg_id = epg_channel["channel_id"]
