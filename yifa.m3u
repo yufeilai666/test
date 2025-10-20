@@ -693,7 +693,7 @@ https://4k.11cn.dpdns.org/20.m3u8
 https://4k.11cn.dpdns.org/21.m3u8
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视4K.png" group-title="加入易發群",深圳卫视4K
 https://4k.11cn.dpdns.org/22.m3u8
-#EXTINF:-1 group-title="加入易發群",北京纪实科教科教8K
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教8K.png" group-title="加入易發群",北京纪实科教8K
 https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/苏州4K.png" group-title="加入易發群",苏州4K
 https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
@@ -1791,7 +1791,7 @@ http://tcl33.xrk.top:8086/hls/46/index.m3u8
 http://tcl33.xrk.top:8086/hls/42/index.m3u8
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="广东本地2",广东少儿
 http://tcl33.xrk.top:8086/hls/40/index.m3u8
-#EXTINF:-1 group-title="广东本地2",广东经济科教科教
+#EXTINF:-1 tvg-id="广东经济科教" tvg-name="广东经济科教" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东经济科教.png" group-title="广东本地2",广东经济科教
 https://pili-live-hls.kingsmedia.cn/metoo-live/ce834303bb1a4459a3ea8c4c01d3ae84.m3u8
 #EXTINF:-1 tvg-id="深圳都市" tvg-name="深圳都市" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳都市.png" group-title="广东本地2",深圳都市
 http://livepull-tcms.sztv.com.cn/live/dslive.m3u8
@@ -1961,9 +1961,9 @@ http://120.76.248.139/live/bfgd/4200000307.m3u8
 http://120.76.248.139/live/bfgd/4200000134.m3u8
 #EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="北方广电",CGTN俄语
 http://120.76.248.139/live/bfgd/4200000309.m3u8
-#EXTINF:-1 group-title="北方广电",中国教育1台台
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="北方广电",中国教育1台
 http://120.76.248.139/live/bfgd/4200000135.m3u8
-#EXTINF:-1 group-title="北方广电",中国教育2台台
+#EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="北方广电",中国教育2台
 http://120.76.248.139/live/bfgd/4200000492.m3u8
 #EXTINF:-1 group-title="北方广电",CHC华诚影视
 http://120.76.248.139/live/bfgd/4200000289.m3u8
@@ -1971,7 +1971,7 @@ http://120.76.248.139/live/bfgd/4200000289.m3u8
 http://120.76.248.139/live/bfgd/4200000096.m3u8
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="北方广电",北京卫视
 http://120.76.248.139/live/bfgd/4200000083.m3u8
-#EXTINF:-1 group-title="北方广电",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="北方广电",北京纪实科教
 http://120.76.248.139/live/bfgd/4200000113.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卡酷少儿.png" group-title="北方广电",北京卡酷少儿
 http://120.76.248.139/live/bfgd/4200000106.m3u8
@@ -2321,7 +2321,7 @@ http://ygbh.site/php/bfgd.php?id=111
 http://ygbh.site/php/bfgd.php?id=110
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东教育卫视.png" group-title="北方广电2",山东教育卫视
 http://ygbh.site/php/bfgd.php?id=112
-#EXTINF:-1 group-title="北方广电2",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="北方广电2",北京纪实科教
 http://ygbh.site/php/bfgd.php?id=113
 #EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="北方广电2",广西卫视
 http://ygbh.site/php/bfgd.php?id=116
@@ -2563,13 +2563,13 @@ http://111.29.9.33:6610/000000001000/5000000004000006211/index.m3u8?channel-id=b
 http://111.29.9.33:6610/000000001000/1000000002000031451/index.m3u8?channel-id=bestzb&Contentid=1000000002000031451&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="海南移动",新疆卫视
 http://111.29.9.33:6610/000000001000/1000000002000029441/index.m3u8?channel-id=bestzb&Contentid=1000000002000029441&livemode=1&stbId=3
-#EXTINF:-1 group-title="海南移动",中国教育1台台台
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="海南移动",中国教育1台
 http://111.29.9.33:6610/000000001000/5000000002000002652/index.m3u8?channel-id=bestzb&Contentid=5000000002000002652&livemode=1&stbId=3
-#EXTINF:-1 group-title="海南移动",中国教育4台台台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="海南移动",中国教育4台
 http://111.29.9.33:6610/000000001000/5000000011000031126/index.m3u8?channel-id=bestzb&Contentid=5000000011000031126&livemode=1&stbId=3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/超级電視剧.png" group-title="海南移动",超级电视剧
 http://111.29.9.33:6610/000000001000/1000000001000008139/index.m3u8?channel-id=bestzb&Contentid=1000000001000008139&livemode=1&stbId=3
-#EXTINF:-1 group-title="海南移动",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="海南移动",北京纪实科教
 http://111.29.9.33:6610/000000001000/1000000001000028380/index.m3u8?channel-id=bestzb&Contentid=1000000001000028380&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="欢笑剧场 (shanghai)" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/欢笑剧场4K.png" group-title="海南移动",欢笑剧场4K
 http://111.29.9.33:6610/000000001000/5000000002000009455/index.m3u8?channel-id=bestzb&Contentid=5000000002000009455&livemode=1&stbId=3
@@ -2625,7 +2625,7 @@ http://111.29.9.33:6610/000000001000/5000000011000031112/index.m3u8?channel-id=b
 http://120.87.4.5:80/PLTV/88888973/224/3221226174/10000100000000060000000001154677_0.smil/01.m3u8?fmt=ts2hls,83,01.m3u8,0,28893,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowks7JFSNmqxY+Vs2cx118+R:20181110091937,END&GuardEncType=2
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="广东联通(内)",广东体育
 http://112.89.121.23:80/PLTV/88888973/224/3221225750/10000100000000060000000000334588_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7840,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowknjg8NSqNVsWY2LwTOy6B9:20181110091937,END&GuardEncType=2
-#EXTINF:-1 group-title="广东联通(内)",广东经济科教科教
+#EXTINF:-1 tvg-id="广东经济科教" tvg-name="广东经济科教" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东经济科教.png" group-title="广东联通(内)",广东经济科教
 http://112.89.121.21:80/PLTV/88888973/224/3221225752/10000100000000060000000000334591_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7807,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowmoxHIkVT2YRc54nGjGZOvg:20181110091937,END&GuardEncType=2
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="广东联通(内)",CCTV1
 http://112.89.121.23:80/PLTV/88888973/224/3221225768/10000100000000060000000000337107_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7818,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowlhOLuRCiHgtW469LYGcBty:20181110091937,END&GuardEncType=2
@@ -2681,7 +2681,7 @@ http://112.89.121.21:80/PLTV/88888973/224/3221225719/100001000000000600000000003
 http://112.89.121.21:80/PLTV/88888973/224/3221225720/10000100000000060000000000334144_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2362,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowmqa9lv8pfII6A7oM+O1+jz:20181110091937,END&GuardEncType=2
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="广东联通(内)",广东体育
 http://112.89.121.24:80/PLTV/88888973/224/3221225721/10000100000000060000000000334146_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2421,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowlle84poqYwpqTFTEXsmGMO:20181110091937,END&GuardEncType=2
-#EXTINF:-1 group-title="广东联通(内)",广东经济科教科教
+#EXTINF:-1 tvg-id="广东经济科教" tvg-name="广东经济科教" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东经济科教.png" group-title="广东联通(内)",广东经济科教
 http://112.89.121.23:80/PLTV/88888973/224/3221225723/10000100000000060000000000334156_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2441,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowmyN/Purpl112KWxXhubChW:20181110091937,END&GuardEncType=2
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="广东联通(内)",大湾区卫视
 http://112.89.121.21:80/PLTV/88888973/224/3221225724/10000100000000060000000000334167_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2441,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowkQyJ1/QCjaDX1hkMu/sXTY:20181110091937,END&GuardEncType=2
@@ -2889,11 +2889,11 @@ http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226655/1.m3u8
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226664/1.m3u8
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="广东移动(内)",北京卫视
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226719/1.m3u8
-#EXTINF:-1 group-title="广东移动(内)",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="广东移动(内)",北京纪实科教
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226656/1.m3u8
-#EXTINF:-1 group-title="广东移动(内)",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="广东移动(内)",北京纪实科教
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226658/1.m3u8
-#EXTINF:-1 group-title="广东移动(内)",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="广东移动(内)",北京纪实科教
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226730/1.m3u8
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="广东移动(内)",四川卫视
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226659/1.m3u8
@@ -3079,7 +3079,7 @@ http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226816/index.m3u8#http://hwot
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226134/index.m3u8#http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226700/index.m3u8#http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226795/index.m3u8#http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221227313/index.m3u8
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="辽宁移动(内)",重庆卫视
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226737/index.m3u8#http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221227227/index.m3u8
-#EXTINF:-1 group-title="辽宁移动(内)",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="辽宁移动(内)",北京纪实科教
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226730/index.m3u8#http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221227294/index.m3u8
 #EXTINF:-1 tvg-id="家庭理财 (shanghai)" tvg-name="家庭理财" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/家庭理财.png" group-title="辽宁移动(内)",家庭理财
 http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221226754/index.m3u8
@@ -3401,7 +3401,7 @@ rtsp://10.15.250.13/PLTV/88888888/224/3221226465/1000010000000006000000000013382
 rtsp://10.15.250.13/PLTV/88888888/224/3221226472/10000100000000060000000000133821_0.smil
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/厦门卫视.png" group-title="辽宁联通(内)",厦门卫视
 rtsp://10.15.250.13/PLTV/88888888/224/3221226606/10000100000000060000000000599459_0.smil
-#EXTINF:-1 group-title="辽宁联通(内)",中国教育1台台
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="辽宁联通(内)",中国教育1台
 rtsp://10.15.250.13/PLTV/88888888/224/3221226617/10000100000000060000000001311702_0.smil
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="辽宁联通(内)",中国教育2台
 rtsp://10.15.250.13/PLTV/88888888/224/3221226665/10000100000000060000000003972227_0.smil
@@ -3697,7 +3697,7 @@ http://10.255.128.136/PLTV/88888888/224/3221226179/10000100000000060000000000602
 http://10.255.128.136/PLTV/88888888/224/3221226178/10000100000000060000000000602925_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="辽宁电信(内)",动漫秀场频道
 http://10.255.128.136/PLTV/88888888/224/3221226183/10000100000000060000000000602968_0.smil/index.m3u8?fmt=ts2hls
-#EXTINF:-1 group-title="辽宁电信(内)",北京纪实科教科教频道
+#EXTINF:-1 group-title="辽宁电信(内)",北京纪实科教频道
 http://10.255.128.136/PLTV/88888888/224/3221225655/10000100000000060000000000000192_0.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="茶频道" tvg-name="茶频道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/茶频道.png" group-title="辽宁电信(内)",茶频道
 http://10.255.128.136/PLTV/88888888/224/3221225831/10000100000000060000000000264072_0.smil/index.m3u8?fmt=ts2hls
@@ -3981,7 +3981,7 @@ http://ott.mobaibox.com/PLTV/3/224/3221227213/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221225931/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/南京少儿.png" group-title="江苏移动(内)",南京少儿
 http://ott.mobaibox.com/PLTV/4/224/3221227733/index.m3u8
-#EXTINF:-1 group-title="江苏移动(内)",北京纪实科教科教8K
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教8K.png" group-title="江苏移动(内)",北京纪实科教8K
 http://ott.mobaibox.com/PLTV/3/224/3221227699/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/精品體育.png" group-title="江苏移动(内)",精品体育
 http://ott.mobaibox.com/PLTV/3/224/3221227615/index.m3u8
@@ -4403,7 +4403,7 @@ rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch21062215414116185265.
 rtsp://112.245.125.42:1554/iptv/import/Tvod/iptv/001/001/ch21062215415309865050.rsc/91606_Uni.sdp
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="山东联通(内)",北京卫视
 rtsp://112.245.125.45:1554/iptv/import/Tvod/iptv/001/001/ch12051116365437815794.rsc/69968_Uni.sdp
-#EXTINF:-1 group-title="山东联通(内)",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="山东联通(内)",北京纪实科教
 rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch24020510150834566089.rsc/99953_Uni.sdp
 #EXTINF:-1 tvg-id="卡酷少儿 (shanghai)" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/卡酷少儿.png" group-title="山东联通(内)",卡酷少儿
 rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch10120118400576795406.rsc/69993_Uni.sdp
@@ -4495,11 +4495,11 @@ rtsp://112.245.125.42:1554/iptv/import/Tvod/iptv/001/001/ch17120418140581348001.
 rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch23072116063432685915.rsc/98595_Uni.sdp
 #EXTINF:-1 tvg-id="三沙卫视 (shanghai)" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三沙卫视.png" group-title="山东联通(内)",三沙卫视
 rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch19120615372589393337.rsc/89705_Uni.sdp
-#EXTINF:-1 group-title="山东联通(内)",中国教育1台台
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="山东联通(内)",中国教育1台
 rtsp://112.245.125.42:1554/iptv/import/Tvod/iptv/001/001/ch17120418204481298161.rsc/74278_Uni.sdp
-#EXTINF:-1 group-title="山东联通(内)",中国教育2台台
+#EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="山东联通(内)",中国教育2台
 rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch17120417211408620162.rsc/74298_Uni.sdp
-#EXTINF:-1 group-title="山东联通(内)",中国教育4台台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="山东联通(内)",中国教育4台
 rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch17120418055568047747.rsc/74289_Uni.sdp
 #EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四海钓鱼.png" group-title="山东联通(内)",四海钓鱼
 rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch22121315043920146188.rsc/96497_Uni.sdp
@@ -5399,11 +5399,11 @@ http://sc.rrs.169ol.com/PLTV/88888888/224/3221227587/index.m3u8
 http://sc.rrs.169ol.com/PLTV/88888888/224/3221227953/index.m3u8
 #EXTINF:-1 group-title="四川联通(内)",成都购物
 http://sc.rrs.169ol.com/PLTV/88888888/224/3221227920/index.m3u8
-#EXTINF:-1 group-title="四川联通(内)",中国教育1台台台
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="四川联通(内)",中国教育1台
 http://sc.rrs.169ol.com:80/PLTV/88888888/224/3221227339/index.m3u8
-#EXTINF:-1 group-title="四川联通(内)",中国教育2台台台
+#EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="四川联通(内)",中国教育2台
 http://sc.rrs.169ol.com:80/PLTV/88888888/224/3221227940/index.m3u8
-#EXTINF:-1 group-title="四川联通(内)",中国教育4台台台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="四川联通(内)",中国教育4台
 http://sc.rrs.169ol.com:80/PLTV/88888888/224/3221228104/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国交通.png" group-title="四川联通(内)",中国交通
 http://sc.rrs.169ol.com/PLTV/88888888/224/3221227499/index.m3u8
@@ -6845,19 +6845,19 @@ http://[2409:8087:5e08:25::4]:6610/000000001000/1000000006000280003/index.m3u8?c
 http://[2409:8087:5e08:25::4]:6610/000000001000/1000000006000280001/index.m3u8?channel-id=ystenlive&Contentid=1000000006000280001&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN西班牙语.png" group-title="易视腾V6",CGTN西班牙语
 http://[2409:8087:5e08:25::4]:6610/000000001000/1000000006000280002/index.m3u8?channel-id=ystenlive&Contentid=1000000006000280002&livemode=1&stbId=3
-#EXTINF:-1 group-title="易视腾V6",中国教育1台台台
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="易视腾V6",中国教育1台
 http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000027253/index.m3u8?channel-id=ystenlive&Contentid=1000000002000027253&livemode=1&stbId=3$4M%20SD
-#EXTINF:-1 group-title="易视腾V6",中国教育1台台台
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="易视腾V6",中国教育1台
 http://[2409:8087:5e08:25::4]:6610/000000001000/5000000002000002652/index.m3u8?channel-id=bestzb&Contentid=5000000002000002652&livemode=1&stbId=3$4M%20FHD
-#EXTINF:-1 group-title="易视腾V6",中国教育1台台台
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="易视腾V6",中国教育1台
 http://[2409:8087:5e08:25::4]:6610/000000001000/7106250793420582078/index.m3u8?channel-id=ystenlive&Contentid=7106250793420582078&livemode=1&stbId=3$SD
-#EXTINF:-1 group-title="易视腾V6",中国教育2台台台
+#EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="易视腾V6",中国教育2台
 http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000266004/index.m3u8?channel-id=ystenlive&Contentid=1000000005000266004&livemode=1&stbId=3
-#EXTINF:-1 group-title="易视腾V6",中国教育4台台台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="易视腾V6",中国教育4台
 http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000025333/index.m3u8?channel-id=ystenlive&Contentid=1000000005000025333&livemode=1&stbId=3$4M%20SD
-#EXTINF:-1 group-title="易视腾V6",中国教育4台台台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="易视腾V6",中国教育4台
 http://[2409:8087:5e08:25::4]:6610/000000001000/5000000006000012123/index.m3u8?channel-id=bestzb&Contentid=5000000006000012123&livemode=1&stbId=3$2.5M%20SD
-#EXTINF:-1 group-title="易视腾V6",中国教育4台台台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="易视腾V6",中国教育4台
 http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031126/index.m3u8?channel-id=bestzb&Contentid=5000000011000031126&livemode=1&stbId=3$FHD
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="易视腾V6",湖南卫视
 http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000009115/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009115&livemode=1&stbId=3$4M%20FHD
@@ -7219,13 +7219,13 @@ http://[2409:8087:5e08:25::4]:6610/000000001000/6516734029835465177/index.m3u8?c
 http://[2409:8087:5e08:25::4]:6610/000000001000/7820874641606664941/index.m3u8?channel-id=ystenlive&Contentid=7820874641606664941&livemode=1&stbId=3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/武搏世界.png" group-title="易视腾V6",武搏世界
 http://[2409:8087:5e08:25::4]:6610/000000001000/bokesen/index.m3u8?channel-id=ystenlive&Contentid=bokesen&livemode=1&stbId=3
-#EXTINF:-1 group-title="易视腾V6",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="易视腾V6",北京纪实科教
 http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000001910/index.m3u8?channel-id=ystenlive&Contentid=1000000001000001910&livemode=1&stbId=3$7.7M%20FHD
-#EXTINF:-1 group-title="易视腾V6",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="易视腾V6",北京纪实科教
 http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000028380/index.m3u8?channel-id=ystenlive&Contentid=1000000001000028380&livemode=1&stbId=3$4M%20FHD
-#EXTINF:-1 group-title="易视腾V6",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="易视腾V6",北京纪实科教
 http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265020/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265020&livemode=1&stbId=3
-#EXTINF:-1 group-title="易视腾V6",北京纪实科教科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="易视腾V6",北京纪实科教
 http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031204/index.m3u8?channel-id=bestzb&Contentid=5000000011000031204&livemode=1&stbId=3$FHD
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/纪实人文.png" group-title="易视腾V6",纪实人文
 http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000010606/index.m3u8?channel-id=ystenlive&Contentid=1000000001000010606&livemode=1&stbId=3$4M%20FHD
