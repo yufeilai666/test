@@ -48,7 +48,7 @@ jobs:
         epg_dir.mkdir(exist_ok=True)
         
         print(f"⬇️ 开始下载 {len(epg_urls)} 个EPG文件...")
-        print("="*36 + "\n")
+        print("="*36 + "\n\n")
         print("*"*36)
         
         success_count = 0
@@ -93,11 +93,11 @@ jobs:
                         fail_count += 1
                     else:
                         # 不是最后一次失败，等待后重试
-                        print(f"⏳️ 等待 {retry_delay} 秒后重试...")
+                        print(f"\n⏳️ 等待 {retry_delay} 秒后重试...")
                         time.sleep(retry_delay)
                         retry_delay *= 1.5  # 指数退避策略
         
-        print("\n" + "="*36)
+        print("\n\n" + "="*36)
         print(f"🎉 下载完成: 成功 {success_count} 个, 失败 {fail_count} 个")
         
         # 如果有失败的文件，以代码0退出（不中断工作流）
