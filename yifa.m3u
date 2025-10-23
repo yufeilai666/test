@@ -1807,10 +1807,6 @@ rtmp://116.63.53.136/live/gdzj
 rtmp://116.63.53.136/live/gdms
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="广东荔枝网",大湾区卫视
 rtmp://116.63.53.136/live/dwqws
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="广东荔枝网",广东体育
-http://bxtv.3a.ink/api.php?id=gdty
-#EXTINF:-1 group-title="广东荔枝网",广东珠江2
-http://bxtv.3a.ink/api.php?id=gdzj
 #EXTINF:-1 group-title="广东荔枝网",广东珠江3
 http://m.061899.xyz/mg/gdzj
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="广东荔枝网",广东新闻
@@ -8357,6 +8353,120 @@ http://38.75.136.137:98/gslb/dsdqpub/lbsswx.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/lbssdz.m3u8?auth=testpub
 #EXTINF:-1 group-title="央视频",邵氏喜剧
 http://38.75.136.137:98/gslb/dsdqpub/lbssxj.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="央视频2",CCTV1
+http://b.tvbox6.icu/tv/ysp.php?id=1
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="央视频2",CCTV2
+http://b.tvbox6.icu/tv/ysp.php?id=2
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="央视频2",CCTV3
+http://b.tvbox6.icu/tv/ysp.php?id=3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="央视频2",CCTV4
+http://b.tvbox6.icu/tv/ysp.php?id=4
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="央视频2",CCTV5
+http://b.tvbox6.icu/tv/ysp.php?id=5
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="央视频2",CCTV5+
+http://b.tvbox6.icu/tv/ysp.php?id=6
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="央视频2",CCTV6
+http://b.tvbox6.icu/tv/ysp.php?id=7
+#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="央视频2",CCTV7
+http://b.tvbox6.icu/tv/ysp.php?id=8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="央视频2",CCTV8
+http://b.tvbox6.icu/tv/ysp.php?id=9
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="央视频2",CCTV9
+http://b.tvbox6.icu/tv/ysp.php?id=10
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="央视频2",CCTV10
+http://b.tvbox6.icu/tv/ysp.php?id=11
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="央视频2",CCTV11
+http://b.tvbox6.icu/tv/ysp.php?id=12
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="央视频2",CCTV12
+http://b.tvbox6.icu/tv/ysp.php?id=13
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="央视频2",CCTV13
+http://b.tvbox6.icu/tv/ysp.php?id=14
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="央视频2",CCTV14
+http://b.tvbox6.icu/tv/ysp.php?id=15
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="央视频2",CCTV15
+http://b.tvbox6.icu/tv/ysp.php?id=16
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="央视频2",CCTV16
+http://b.tvbox6.icu/tv/ysp.php?id=17
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="央视频2",CCTV17
+http://b.tvbox6.icu/tv/ysp.php?id=18
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="央视频2",CCTV4K
+http://b.tvbox6.icu/tv/ysp.php?id=19
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8K.png" group-title="央视频2",CCTV8K
+http://b.tvbox6.icu/tv/ysp.php?id=20
+#EXTINF:-1 tvg-id="cctv第一剧场" tvg-name="cctv第一剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV第一剧场.png" group-title="央视频2",CCTV第一剧场
+http://b.tvbox6.icu/tv/ysp.php?id=21
+#EXTINF:-1 tvg-id="cctv风云剧场" tvg-name="cctv风云剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV风云剧场.png" group-title="央视频2",CCTV风云剧场
+http://b.tvbox6.icu/tv/ysp.php?id=22
+#EXTINF:-1 tvg-id="cctv怀旧剧场" tvg-name="cctv怀旧剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV怀旧剧场.png" group-title="央视频2",CCTV怀旧剧场
+http://b.tvbox6.icu/tv/ysp.php?id=23
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="央视频2",北京卫视
+http://b.tvbox6.icu/tv/ysp.php?id=33
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="央视频2",东方卫视
+http://b.tvbox6.icu/tv/ysp.php?id=34
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="央视频2",江苏卫视
+http://b.tvbox6.icu/tv/ysp.php?id=35
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="央视频2",浙江卫视
+http://b.tvbox6.icu/tv/ysp.php?id=36
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="央视频2",湖南卫视
+http://b.tvbox6.icu/tv/ysp.php?id=37
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="央视频2",湖北卫视
+http://b.tvbox6.icu/tv/ysp.php?id=38
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="央视频2",广东卫视
+http://b.tvbox6.icu/tv/ysp.php?id=39
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="央视频2",广西卫视
+http://b.tvbox6.icu/tv/ysp.php?id=40
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="央视频2",黑龙江卫视
+http://b.tvbox6.icu/tv/ysp.php?id=41
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="央视频2",海南卫视
+http://b.tvbox6.icu/tv/ysp.php?id=42
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="央视频2",重庆卫视
+http://b.tvbox6.icu/tv/ysp.php?id=43
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="央视频2",深圳卫视
+http://b.tvbox6.icu/tv/ysp.php?id=44
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="央视频2",四川卫视
+http://b.tvbox6.icu/tv/ysp.php?id=45
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="央视频2",河南卫视
+http://b.tvbox6.icu/tv/ysp.php?id=46
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="央视频2",东南卫视
+http://b.tvbox6.icu/tv/ysp.php?id=47
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="央视频2",贵州卫视
+http://b.tvbox6.icu/tv/ysp.php?id=48
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="央视频2",江西卫视
+http://b.tvbox6.icu/tv/ysp.php?id=49
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="央视频2",辽宁卫视
+http://b.tvbox6.icu/tv/ysp.php?id=50
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="央视频2",安徽卫视
+http://b.tvbox6.icu/tv/ysp.php?id=51
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="央视频2",河北卫视
+http://b.tvbox6.icu/tv/ysp.php?id=52
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="央视频2",山东卫视
+http://b.tvbox6.icu/tv/ysp.php?id=53
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="央视频2",天津卫视
+http://b.tvbox6.icu/tv/ysp.php?id=54
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="央视频2",吉林卫视
+http://b.tvbox6.icu/tv/ysp.php?id=55
+#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="央视频2",陕西卫视
+http://b.tvbox6.icu/tv/ysp.php?id=56
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="央视频2",甘肃卫视
+http://b.tvbox6.icu/tv/ysp.php?id=57
+#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="央视频2",宁夏卫视
+http://b.tvbox6.icu/tv/ysp.php?id=58
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="央视频2",内蒙古卫视
+http://b.tvbox6.icu/tv/ysp.php?id=59
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="央视频2",云南卫视
+http://b.tvbox6.icu/tv/ysp.php?id=60
+#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="央视频2",山西卫视
+http://b.tvbox6.icu/tv/ysp.php?id=61
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="央视频2",青海卫视
+http://b.tvbox6.icu/tv/ysp.php?id=62
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="央视频2",中国教育1台
+http://b.tvbox6.icu/tv/ysp.php?id=63
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="央视频2",新疆卫视
+http://b.tvbox6.icu/tv/ysp.php?id=64
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="央视频2",兵团卫视
+http://b.tvbox6.icu/tv/ysp.php?id=65
+#EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="央视频2",CGTN
+http://b.tvbox6.icu/tv/ysp.php?id=66
 #EXTINF:-1 group-title="虎牙轮播",名侦探柯南剧场版
 http://cfss.cc/cdn/hy/30080236.m3u8
 #EXTINF:-1 group-title="虎牙轮播",火影忍者
