@@ -32,8 +32,8 @@ name: 3 Generate EPG XML
 on:
   workflow_dispatch:  # 手动触发 - 可在GitHub Actions页面手动运行此工作流
   schedule:
-    # 定时触发 - 每天UTC时间3点40分（北京时间11点40分）自动运行
-    - cron: '40 3 * * *'
+    # 定时触发 - 每天UTC时间17点40分（北京时间凌晨1点40分）自动运行
+    - cron: '40 17 * * *'
 
 jobs:
   generate-epg:
