@@ -102,6 +102,7 @@ jobs:
         # 循环执行每个脚本
         for script in "${scripts[@]}"; do
           echo "🛠 正在执行脚本: $script"
+          echo "===================================="
           
           # 检查脚本在私有仓库中是否存在
           if [ ! -f "private_repo_temp/$script" ]; then
