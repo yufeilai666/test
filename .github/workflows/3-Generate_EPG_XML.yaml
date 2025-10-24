@@ -101,13 +101,14 @@ jobs:
         
         # 循环执行每个脚本
         for script in "${scripts[@]}"; do
-          echo "🛠 正在执行脚本: $script"
+          echo "::group::🛠 执行 $script"
           echo "===================================="
           
           # 检查脚本在私有仓库中是否存在
           if [ ! -f "private_repo_temp/$script" ]; then
             echo "⚠️ 警告: 脚本 $script 不存在，跳过"
             failed_scripts+=("$script (不存在)")
+            echo "::endgroup::"
             continue
           fi
           
@@ -121,6 +122,7 @@ jobs:
               echo "❌ 错误: PHP脚本 $script 执行失败"
               failed_scripts+=("$script")
               rm -f "$script"  # 清理脚本文件
+              echo "::endgroup::"
               continue
             }
           elif [[ "$script" == *.py ]]; then
@@ -129,6 +131,7 @@ jobs:
               echo "❌ 错误: Python脚本 $script 执行失败"
               failed_scripts+=("$script")
               rm -f "$script"  # 清理脚本文件
+              echo "::endgroup::"
               continue
             }
           fi
@@ -136,6 +139,7 @@ jobs:
           # 执行成功后删除脚本文件，不保留在仓库中
           rm -f "$script"
           echo "✅ 脚本 $script 执行成功"
+          echo "::endgroup::"
         done
         
         # 清理临时目录，不保留私有仓库的副本
