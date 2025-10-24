@@ -17,7 +17,7 @@ name: 3 Generate EPG XML
 #   - 可配置的脚本执行列表
 #
 # 触发条件:
-#   - 定时触发: 每日UTC 17:10（北京时间1:10）自动运行
+#   - 定时触发: 每日UTC 19:10（北京时间3:10）自动运行
 #   - 手动触发: 可在GitHub Actions页面手动执行
 #
 # 前置要求:
@@ -32,8 +32,8 @@ name: 3 Generate EPG XML
 on:
   workflow_dispatch:  # 手动触发 - 可在GitHub Actions页面手动运行此工作流
   schedule:
-    # 定时触发 - 每天UTC时间17点10分（北京时间凌晨1点10分）自动运行
-    - cron: '10 17 * * *'
+    # 定时触发 - 每天UTC时间19点10分（北京时间凌晨3点10分）自动运行
+    - cron: '10 19 * * *'
 
 jobs:
   generate-epg:
