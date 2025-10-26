@@ -638,7 +638,7 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
             continue
             
         # 检查URL是否以常见协议开头 - 添加p3p协议支持
-        if not re.match(r'^(http|https|rtmp|rtsp|mms|p3p)://', channel_url, re.IGNORECASE):
+        if not re.match(r'^(http|https|rtmp|rtsp|mms|p3p|P2p|p2p|mitv)://', channel_url, re.IGNORECASE):
             skipped_lines += 1
             if skipped_lines <= 5:  # 只显示前5个被跳过的URL例子
                 print(f"跳过不支持的协议: {channel_url[:50]}...")
