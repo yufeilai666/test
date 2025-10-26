@@ -709,7 +709,7 @@ http://php.jdshipin.com/smt.php?id=inews_twn
 http://cdn.163189.xyz/163189/now
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB星河.png" group-title="极速港台2",TVB星河
 http://php.jdshipin.com/smt.php?id=Xinhe
-#EXTINF:-1 tvg-id="86.myTV" tvg-name="千禧經典台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧經典台.png" group-title="极速港台2",千禧经典台
+#EXTINF:-1 tvg-id="千禧經典台" tvg-name="千禧經典台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧經典台.png" group-title="极速港台2",千禧经典台
 http://php.jdshipin.com/smt.php?id=Tvbclassic
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB娱乐新闻台.png" group-title="极速港台2",TVB娱乐新闻台
 http://php.jdshipin.com/smt.php?id=Tvbentertainment
@@ -881,7 +881,7 @@ https://yang-1989.eu.org/live/ViuTV
 https://yang-1989.eu.org/live/ViuTVsix
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台3",翡翠台
 https://yang-1989.eu.org/live/TVB-Jade
-#EXTINF:-1 tvg-id="505.myTV" tvg-name="tvN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/tvN.png" group-title="极速港台3",tvN
+#EXTINF:-1 tvg-id="tvN" tvg-name="tvN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/tvN.png" group-title="极速港台3",tvN
 https://yang-1989.eu.org/live/tvN
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="极速港台3",TVBPlus
 http://vallest.uk/livehttpplay?channel_id=30023
@@ -953,7 +953,7 @@ http://api.mg.itv888.cn:8080/hls/18c550eab1e/index.m3
 http://api.mg.itv888.cn:8080/hls/13d52dc29d5/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/viutv6.png" group-title="极速itv888",viutv6
 http://api.mg.itv888.cn:8080/hls/0408f039a12/index.m3u8
-#EXTINF:-1 tvg-id="18.myTV" tvg-name="myTV SUPER 18台" group-title="极速bxtv",myTV SUPER 18台
+#EXTINF:-1 tvg-id="myTV SUPER 18台" tvg-name="myTV SUPER 18台" group-title="极速bxtv",myTV SUPER 18台
 http://bxtv.3a.ink/api.php?id=18
 #EXTINF:-1 group-title="极速bxtv",TVB Plus
 http://bxtv.3a.ink/api.php?id=tvbp
@@ -961,13 +961,13 @@ http://bxtv.3a.ink/api.php?id=tvbp
 http://bxtv.3a.ink/api.php?id=mz
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速bxtv",無線新聞台
 http://bxtv.3a.ink/api.php?id=wxxw
-#EXTINF:-1 tvg-id="201.myTV" tvg-name="美亞電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美亞電影台.png" group-title="极速bxtv",美亞電影台
+#EXTINF:-1 tvg-id="美亞電影台" tvg-name="美亞電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美亞電影台.png" group-title="极速bxtv",美亞電影台
 http://bxtv.3a.ink/api.php?id=meiya
-#EXTINF:-1 tvg-id="206.myTV" tvg-name="PopC" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/POPC.png" group-title="极速bxtv",PopC
+#EXTINF:-1 tvg-id="PopC" tvg-name="PopC" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/POPC.png" group-title="极速bxtv",PopC
 http://bxtv.3a.ink/api.php?id=popc
 #EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速bxtv",VIUTV
 http://bxtv.3a.ink/api.php?id=viutv
-#EXTINF:-1 tvg-id="86.myTV" tvg-name="千禧經典台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧經典台.png" group-title="极速bxtv",千禧經典台
+#EXTINF:-1 tvg-id="千禧經典台" tvg-name="千禧經典台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧經典台.png" group-title="极速bxtv",千禧經典台
 http://bxtv.3a.ink/api.php?id=qxjd
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速bxtv",翡翠台
 http://bxtv.3a.ink/api.php?id=fct
@@ -1033,7 +1033,7 @@ http://j.s.bkpcp.top/js/fhzw
 http://j.s.bkpcp.top/js/fhzx
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="极速0618",鳳凰香港
 http://j.s.bkpcp.top/js/fhxg
-#EXTINF:-1 tvg-id="206.myTV" tvg-name="PopC" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/POPC.png" group-title="极速0618",PopC
+#EXTINF:-1 tvg-id="PopC" tvg-name="PopC" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/POPC.png" group-title="极速0618",PopC
 http://tl.061833.xyz/tl/popc
 #EXTINF:-1 tvg-id="鳳凰衛視中文台" tvg-name="鳳凰衛視中文台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視中文台.png" group-title="极速0618",凤凰卫视中文台
 http://t.061899.xyz/tl/js/js.php?id=fhwszwt
@@ -1323,15 +1323,15 @@ http://t.061899.xyz/tl/js/js.php?id=hgylt
 http://t.061899.xyz/tl/js/js.php?id=ginxtv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速0618",無綫新聞台
 http://tl.061833.xyz/tl/null-11
-#EXTINF:-1 tvg-id="204.myTV" tvg-name="中國電影頻道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国电影频道.png" group-title="极速0618",中國電影頻道
+#EXTINF:-1 tvg-id="中國電影頻道" tvg-name="中國電影頻道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国电影频道.png" group-title="极速0618",中國電影頻道
 http://tl.061833.xyz/tl/null-6
-#EXTINF:-1 tvg-id="87.myTV" tvg-name="亞洲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲劇台.png" group-title="极速0618",亞洲劇台
+#EXTINF:-1 tvg-id="亞洲劇台" tvg-name="亞洲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲劇台.png" group-title="极速0618",亞洲劇台
 http://tl.061833.xyz/tl/null-13
-#EXTINF:-1 tvg-id="86.myTV" tvg-name="千禧經典台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧經典台.png" group-title="极速0618",千禧經典台
+#EXTINF:-1 tvg-id="千禧經典台" tvg-name="千禧經典台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧經典台.png" group-title="极速0618",千禧經典台
 http://tl.061833.xyz/tl/null-3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="极速0618",天映经典
 http://tl.061833.xyz/tl/null-1
-#EXTINF:-1 tvg-id="98.myTV" tvg-name="戲曲台" group-title="极速0618",戲曲台
+#EXTINF:-1 tvg-id="戲曲台" tvg-name="戲曲台" group-title="极速0618",戲曲台
 http://tl.061833.xyz/tl/null-15
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速0618",明珠台
 http://tl.061833.xyz/tl/null-12
@@ -1339,27 +1339,27 @@ http://tl.061833.xyz/tl/null-12
 http://tl.061833.xyz/tl/null-7
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/功夫台.png" group-title="极速0618",功夫台
 http://tl.061833.xyz/tl/null-17
-#EXTINF:-1 tvg-id="200.myTV" tvg-name="粵語片台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/粵語片台.png" group-title="极速0618",粵語片台
+#EXTINF:-1 tvg-id="粵語片台" tvg-name="粵語片台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/粵語片台.png" group-title="极速0618",粵語片台
 http://tl.061833.xyz/tl/null-10
-#EXTINF:-1 tvg-id="201.myTV" tvg-name="美亞電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美亞電影台.png" group-title="极速0618",美亞電影台
+#EXTINF:-1 tvg-id="美亞電影台" tvg-name="美亞電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美亞電影台.png" group-title="极速0618",美亞電影台
 http://tl.061833.xyz/tl/null-5
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速0618",翡翠台
 http://tl.061833.xyz/tl/null
-#EXTINF:-1 tvg-id="89.myTV" tvg-name="華語劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/華語劇台.png" group-title="极速0618",華語劇台
+#EXTINF:-1 tvg-id="華語劇台" tvg-name="華語劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/華語劇台.png" group-title="极速0618",華語劇台
 http://tl.061833.xyz/tl/null-4
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黃金翡翠台.png" group-title="极速0618",黄金翡翠台
 http://tl.061833.xyz/tl/null-2
-#EXTINF:-1 tvg-id="90.myTV" tvg-name="黃金華劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黄金华剧台.png" group-title="极速0618",黄金华剧台
+#EXTINF:-1 tvg-id="黃金華劇台" tvg-name="黃金華劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黄金华剧台.png" group-title="极速0618",黄金华剧台
 http://tl.061833.xyz/tl/null-9
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="极速0618",TVBPlus
 http://tl.061833.xyz/tl/pluse
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/娛樂新聞台.png" group-title="极速0618",娛樂新聞台
 http://tl.061833.xyz/tl/null-14
-#EXTINF:-1 tvg-id="504.myTV" tvg-name="Animax" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ANIMAX.png" group-title="极速0618",Animax
+#EXTINF:-1 tvg-id="Animax" tvg-name="Animax" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ANIMAX.png" group-title="极速0618",Animax
 http://tl.061833.xyz/tl/animax
-#EXTINF:-1 tvg-id="502.myTV" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/AXN.png" group-title="极速0618",AXN
+#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/AXN.png" group-title="极速0618",AXN
 http://tl.061833.xyz/tl/axn
-#EXTINF:-1 tvg-id="304.myTV" tvg-name="KIX" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/KIX.png" group-title="极速0618",KIX
+#EXTINF:-1 tvg-id="KIX" tvg-name="KIX" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/KIX.png" group-title="极速0618",KIX
 http://tl.061833.xyz/tl/kix
 #EXTINF:-1 tvg-id="LOVENATURE" tvg-name="LOVENATURE" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/LoveNature.png" group-title="极速0618",LoveNature
 http://tl.061833.xyz/tl/lovenaturehd
@@ -1369,15 +1369,15 @@ http://tl.061833.xyz/tl/mytvsuper18
 http://tl.061833.xyz/tl/mytvsuperfree
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NickJr.png" group-title="极速0618",NickJr
 http://tl.061833.xyz/tl/nickjr
-#EXTINF:-1 tvg-id="104.myTV" tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NICKELODEON.png" group-title="极速0618",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NICKELODEON.png" group-title="极速0618",Nickelodeon
 http://tl.061833.xyz/tl/nickelodeon
 #EXTINF:-1 tvg-id="ROCKAction" tvg-name="ROCKAction" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ROCKACTION.png" group-title="极速0618",ROCKAction
 http://tl.061833.xyz/tl/rockaction
-#EXTINF:-1 tvg-id="501.myTV" tvg-name="ROCK綜藝娛樂" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ROCK綜藝娛樂.png" group-title="极速0618",ROCK綜藝娛樂
+#EXTINF:-1 tvg-id="ROCK綜藝娛樂" tvg-name="ROCK綜藝娛樂" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ROCK綜藝娛樂.png" group-title="极速0618",ROCK綜藝娛樂
 http://tl.061833.xyz/tl/rock
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SUPERKIDSCHANNEL.png" group-title="极速0618",SUPERKidsChannel
 http://tl.061833.xyz/tl/superkidschannel
-#EXTINF:-1 tvg-id="101.myTV" tvg-name="ZooMoo" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ZOOMOO.png" group-title="极速0618",ZooMoo
+#EXTINF:-1 tvg-id="ZooMoo" tvg-name="ZooMoo" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ZOOMOO.png" group-title="极速0618",ZooMoo
 http://tl.061833.xyz/tl/zoomoo
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY76.png" group-title="极速125",hoy76
 http://hls.168.us.kg/u/76/master.m3u8
