@@ -90,43 +90,31 @@ class TVScheduleConverter:
             
         return self.convert_to_beijing_time(et_time, date_str)
     
-    def get_tv_schedule_for_date(self, date_str):
+    def get_tv_schedule_for_date(self, date_str, debug_file):
         """获取指定日期的电视节目表"""
         # 将日期转换为Unix时间戳
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         timestamp = int(time.mktime(date_obj.timetuple()))
         
-        # 构建参数 - 使用正确的参数格式
-        param_shortcode = {
-            "style": "1",
-            "fullcontent_in": "modal", 
-            "show_image": "show",
-            "channel": "",
-            "slidesshow": "4",
-            "slidesscroll": "1", 
-            "start_on": "1",
-            "before_today": "1",
-            "after_today": "7",
-            "order": "DESC",
-            "orderby": "date",
-            "meta_key": "",
-            "meta_value": "",
-            "ID": "ex-1160"
-        }
+        # 使用您提供的参数格式
+        param_shortcode = '%7B%22style%22%3A%221%22%2C%22fullcontent_in%22%3A%22modal%22%2C%22show_image%22%3A%22show%22%2C%22channel%22%3A%22%22%2C%22slidesshow%22%3A%224%22%2C%22slidesscroll%22%3A%221%22%2C%22start_on%22%3A%221%22%2C%22before_today%22%3A%221%22%2C%22after_today%22%3A%227%22%2C%22order%22%3A%22DESC%22%2C%22orderby%22%3A%22date%22%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22ID%22%3A%22ex-1160%22%7D'
         
         params = {
             'action': 'extvs_get_schedule_simple',
-            'param_shortcode': json.dumps(param_shortcode),
+            'param_shortcode': param_shortcode,
             'date': timestamp,
-            'chanel': '节目表'  # 直接使用中文，requests会自动编码
+            'chanel': '%25e7%25af%2580%25e7%259b%25ae%25e8%25a1%25a8'  # 使用您提供的编码格式
         }
         
-        print(f"请求参数: {params}")
+        print(f"请求日期: {date_str}")
+        print(f"时间戳: {timestamp}")
         
         try:
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
                 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                'X-Requested-With': 'XMLHttpRequest',
+                'Accept': 'application/json, text/javascript, */*; q=0.01',
                 'Referer': 'https://lstimes.ca/'
             }
             
@@ -137,14 +125,24 @@ class TVScheduleConverter:
                 print(f"请求失败，状态码: {response.status_code}")
                 return []
                 
-            data = response.json()
-            print(f"响应数据键: {data.keys() if data else '无数据'}")
-            
+            # 尝试解析JSON响应
+            try:
+                data = response.json()
+                print(f"响应数据键: {data.keys() if data else '无数据'}")
+            except:
+                print(f"响应不是JSON格式: {response.text[:200]}")
+                return []
+                
             html_content = data.get('html', '')
             
-            # 保存HTML内容到文件以便调试
-            with open(f"debug_{date_str}.html", "w", encoding="utf-8") as f:
-                f.write(html_content)
+            # 将HTML内容追加到调试文件中
+            debug_file.write(f"\n\n{'='*50}\n")
+            debug_file.write(f"日期: {date_str}\n")
+            debug_file.write(f"时间戳: {timestamp}\n")
+            debug_file.write(f"HTML内容长度: {len(html_content)}\n")
+            debug_file.write(f"{'='*50}\n")
+            debug_file.write(html_content)
+            debug_file.flush()
             
             print(f"HTML内容长度: {len(html_content)}")
             
@@ -158,6 +156,11 @@ class TVScheduleConverter:
         """解析HTML节目表"""
         if not html_content or len(html_content) < 100:
             print(f"HTML内容为空或太短: {len(html_content)}")
+            return []
+            
+        # 检查是否包含"No matching records found"
+        if "No matching records found" in html_content:
+            print(f"日期 {date_str} 没有找到节目记录")
             return []
             
         soup = BeautifulSoup(html_content, 'html.parser')
@@ -359,15 +362,22 @@ class TVScheduleConverter:
         
         all_programs = []
         
-        # 先获取所有节目信息
-        for date_str in request_dates:
-            print(f"\n=== 获取 {date_str} 的节目表 ===")
-            programs = self.get_tv_schedule_for_date(date_str)
-            all_programs.extend(programs)
-            print(f"获取到 {len(programs)} 个节目")
+        # 创建一个调试文件，用于保存所有日期的HTML内容
+        with open("debug_all_dates.html", "w", encoding="utf-8") as debug_file:
+            debug_file.write("LS TIME 龙祥频道调试信息\n")
+            debug_file.write(f"生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            debug_file.write(f"请求日期范围: {request_dates[0]} 至 {request_dates[-1]}\n")
+            debug_file.write(f"输出日期范围: {output_dates[0]} 至 {output_dates[-1]}\n")
             
-            # 避免请求过于频繁
-            time.sleep(1)
+            # 先获取所有节目信息
+            for date_str in request_dates:
+                print(f"\n=== 获取 {date_str} 的节目表 ===")
+                programs = self.get_tv_schedule_for_date(date_str, debug_file)
+                all_programs.extend(programs)
+                print(f"获取到 {len(programs)} 个节目")
+                
+                # 避免请求过于频繁
+                time.sleep(1)
         
         print(f"\n总共获取 {len(all_programs)} 个节目")
         
