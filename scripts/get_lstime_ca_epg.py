@@ -96,20 +96,57 @@ class TVScheduleConverter:
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         timestamp = int(time.mktime(date_obj.timetuple()))
         
-        # 构建参数
-        params = {
-            'action': 'extvs_get_schedule_simple',
-            'param_shortcode': '{"style":"1","fullcontent_in":"modal","show_image":"show","channel":"","slidesshow":"4","slidesscroll":"1","start_on":"1","before_today":"1","after_today":"7","order":"DESC","orderby":"date","meta_key":"","meta_value":"","ID":"ex-1160"}',
-            'date': timestamp,
-            'chanel': urllib.parse.quote('节目表')
+        # 构建参数 - 使用正确的参数格式
+        param_shortcode = {
+            "style": "1",
+            "fullcontent_in": "modal", 
+            "show_image": "show",
+            "channel": "",
+            "slidesshow": "4",
+            "slidesscroll": "1", 
+            "start_on": "1",
+            "before_today": "1",
+            "after_today": "7",
+            "order": "DESC",
+            "orderby": "date",
+            "meta_key": "",
+            "meta_value": "",
+            "ID": "ex-1160"
         }
         
+        params = {
+            'action': 'extvs_get_schedule_simple',
+            'param_shortcode': json.dumps(param_shortcode),
+            'date': timestamp,
+            'chanel': '节目表'  # 直接使用中文，requests会自动编码
+        }
+        
+        print(f"请求参数: {params}")
+        
         try:
-            response = requests.post(self.api_url, data=params)
-            response.raise_for_status()
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                'Referer': 'https://lstimes.ca/'
+            }
             
+            response = requests.post(self.api_url, data=params, headers=headers, timeout=30)
+            print(f"响应状态码: {response.status_code}")
+            
+            if response.status_code != 200:
+                print(f"请求失败，状态码: {response.status_code}")
+                return []
+                
             data = response.json()
+            print(f"响应数据键: {data.keys() if data else '无数据'}")
+            
             html_content = data.get('html', '')
+            
+            # 保存HTML内容到文件以便调试
+            with open(f"debug_{date_str}.html", "w", encoding="utf-8") as f:
+                f.write(html_content)
+            
+            print(f"HTML内容长度: {len(html_content)}")
             
             return self.parse_html_schedule(html_content, date_str)
             
@@ -119,11 +156,16 @@ class TVScheduleConverter:
     
     def parse_html_schedule(self, html_content, date_str):
         """解析HTML节目表"""
+        if not html_content or len(html_content) < 100:
+            print(f"HTML内容为空或太短: {len(html_content)}")
+            return []
+            
         soup = BeautifulSoup(html_content, 'html.parser')
         programs = []
         
         # 查找所有节目行
         rows = soup.find_all('tr')
+        print(f"找到 {len(rows)} 行")
         
         for i, row in enumerate(rows):
             try:
@@ -240,7 +282,7 @@ class TVScheduleConverter:
         tv.set('generator-info-name', 'TV Schedule Converter')
         tv.set('generator-info-url', '')
         
-        # 添加频道信息
+        # 添加频道信息 - 修改为龙祥频道
         channel = ET.SubElement(tv, 'channel')
         channel.set('id', 'LS TIME 龙祥频道 (CA)')
         display_name = ET.SubElement(channel, 'display-name')
@@ -258,7 +300,7 @@ class TVScheduleConverter:
             end_str = program['end_time'].strftime('%Y%m%d%H%M%S %z')
             programme.set('start', start_str)
             programme.set('stop', end_str)
-            programme.set('channel', 'LS TIME 龙祥频道 (CA)')
+            programme.set('channel', 'LS TIME 龙祥频道 (CA)')  # 修改为龙祥频道
             
             # 标题
             title = ET.SubElement(programme, 'title')
@@ -319,7 +361,7 @@ class TVScheduleConverter:
         
         # 先获取所有节目信息
         for date_str in request_dates:
-            print(f"获取 {date_str} 的节目表...")
+            print(f"\n=== 获取 {date_str} 的节目表 ===")
             programs = self.get_tv_schedule_for_date(date_str)
             all_programs.extend(programs)
             print(f"获取到 {len(programs)} 个节目")
@@ -327,7 +369,33 @@ class TVScheduleConverter:
             # 避免请求过于频繁
             time.sleep(1)
         
-        print(f"总共获取 {len(all_programs)} 个节目")
+        print(f"\n总共获取 {len(all_programs)} 个节目")
+        
+        if not all_programs:
+            print("没有获取到任何节目数据，请检查网络连接和参数设置")
+            # 创建一个空的XML文件
+            tv = ET.Element('tv')
+            tv.set('source-info-name', 'lstimes.ca')
+            tv.set('generator-info-name', 'TV Schedule Converter')
+            tv.set('generator-info-url', '')
+            
+            # 添加频道信息 - 修改为龙祥频道
+            channel = ET.SubElement(tv, 'channel')
+            channel.set('id', 'LS TIME 龙祥频道 (CA)')
+            display_name = ET.SubElement(channel, 'display-name')
+            display_name.set('lang', 'zh')
+            display_name.text = '龙祥频道 (CA)'
+            icon = ET.SubElement(channel, 'icon')
+            icon.set('src', '')
+            
+            rough_string = ET.tostring(tv, encoding='utf-8')
+            reparsed = minidom.parseString(rough_string)
+            pretty_xml = reparsed.toprettyxml(indent="  ", encoding='utf-8')
+            
+            with open("lstime_ca.xml", 'wb') as f:
+                f.write(pretty_xml)
+            print("已创建空的 lstime_ca.xml 文件")
+            return
         
         # 计算结束时间（使用下一个节目的开始时间）
         all_programs = self.calculate_end_times(all_programs)
@@ -348,8 +416,8 @@ class TVScheduleConverter:
         reparsed = minidom.parseString(rough_string)
         pretty_xml = reparsed.toprettyxml(indent="  ", encoding='utf-8')
         
-        # 保存到文件
-        filename = f"lstime_ca.xml"
+        # 保存到文件 - 修改为lstime_ca.xml
+        filename = "lstime_ca.xml"
         with open(filename, 'wb') as f:
             f.write(pretty_xml)
         
