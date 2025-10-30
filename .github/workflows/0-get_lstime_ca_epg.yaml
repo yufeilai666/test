@@ -57,6 +57,7 @@ jobs:
       run: |
         if [ -f lstime_ca.xml ]; then
           mv lstime_ca.xml epg/
+          mv debug_*.html epg/
           echo "文件已移动到 epg 目录"
         else
           echo "错误：lstime_ca.xml 文件未生成"
@@ -98,6 +99,7 @@ jobs:
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
         git add epg/lstime_ca.xml
+        git add epg/debug_*.html
         git commit -m "Update EPG: lstime_ca节目单 $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
         echo "已提交变更"
 
