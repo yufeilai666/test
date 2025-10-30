@@ -1,0 +1,124 @@
+name: 0 get lstime ca epg
+
+on:
+  # schedule:
+    # 每天UTC时间2点22分运行 (北京时间10点22分)
+  #  - cron: '22 2 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  process-epg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    # 添加权限设置
+    permissions:
+      contents: write  # 允许工作流写入内容（推送更改）
+    
+    steps:
+    - name: Checkout repository (main branch)
+      uses: actions/checkout@v3
+      with:
+        ref: main
+        fetch-depth: 1
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Checkout epg_scripts branch
+      uses: actions/checkout@v3
+      with:
+        ref: epg_scripts
+        path: scripts
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 tmdbv3api
+
+    - name: Copy script from scripts branch
+      run: |
+        cp scripts/get_lstime_ca_epg.py ./
+
+    - name: Create epg directory if not exists
+      run: |
+        mkdir -p epg
+
+    - name: Run EPG processor
+      env:
+        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      run: python get_lstime_ca_epg.py
+
+    - name: Move generated file to epg directory
+      run: |
+        if [ -f lstime_ca.xml ]; then
+          mv lstime_ca.xml epg/
+          echo "文件已移动到 epg 目录"
+        else
+          echo "错误：lstime_ca.xml 文件未生成"
+          exit 1
+        fi
+
+    - name: Check if file exists in epg directory
+      id: file_check
+      run: |
+        if [ -f epg/lstime_ca.xml ]; then
+          echo "epg/lstime_ca.xml 文件已生成"
+          echo "file_exists=true" >> $GITHUB_OUTPUT
+        else
+          echo "错误：epg/lstime_ca.xml 文件未找到"
+          echo "file_exists=false" >> $GITHUB_OUTPUT
+          exit 1
+        fi
+
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+    - name: Check for changes in epg directory
+      id: check_changes
+      if: steps.file_check.outputs.file_exists == 'true'
+      run: |
+        # 只检查epg目录下的lstime_ca.xml文件
+        git status --porcelain epg/
+        if git status --porcelain epg/ | grep -q "lstime_ca.xml"; then
+          echo "检测到 epg/lstime_ca.xml 变更"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "没有检测到 epg/lstime_ca.xml 的变更"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Add and commit changes
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        git add epg/lstime_ca.xml
+        git commit -m "Update EPG: lstime_ca节目单 $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+        echo "已提交变更"
+
+    - name: Push changes
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        for i in {1..3}; do
+          if git push; then
+            echo "推送成功"
+            break
+          else
+            echo "推送失败，尝试 $i/3"
+            if [ $i -eq 3 ]; then
+              echo "推送失败，达到最大重试次数"
+              exit 1
+            fi
+            sleep 5
+          fi
+        done
+
+    - name: No changes message
+      if: steps.check_changes.outputs.has_changes == 'false'
+      run: |
+        echo "没有检测到文件变更，跳过提交和推送"
