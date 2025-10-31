@@ -101,7 +101,7 @@ class TVScheduleConverter:
         """将加拿大东部时间转换为北京时间"""
         try:
             # 解析加拿大东部时间（包含上午/下午）
-            time_parts = et_time_str.replace('东', '').strip()
+            time_parts = et_time_str.replace('東', '').strip()
             
             # 处理上午/下午
             if '上午' in time_parts:
@@ -129,18 +129,14 @@ class TVScheduleConverter:
     
     def parse_program_time(self, time_text, date_str):
         """解析节目时间文本"""
-        times = time_text.strip().split('\n')
-        et_time = None
-        
-        for t in times:
-            if '东' in t:
-                et_time = t.strip()
-                break
-                
-        if not et_time:
+        # 使用正则表达式提取东部时间
+        match = re.search(r'東(\d+:\d+)\s+(上午|下午)', time_text)
+        if match:
+            et_time = f"東{match.group(1)} {match.group(2)}"
+            return self.convert_to_beijing_time(et_time, date_str)
+        else:
+            print(f"无法解析时间: {time_text}")
             return None
-            
-        return self.convert_to_beijing_time(et_time, date_str)
     
     def get_tv_schedule_for_date(self, date_str, debug_file, page_params):
         """获取指定日期的电视节目表"""
@@ -253,26 +249,34 @@ class TVScheduleConverter:
                     sub_tt_elem = program_td.find('span', class_='sub-tt')
                     cast_host = sub_tt_elem.get_text(strip=True) if sub_tt_elem else ""
                     
-                    # 提取详细描述
+                    # 提取描述 - 从figure中的p标签获取
                     description = ""
-                    modal_content = program_td.find('div', class_='tvs-modal-content')
-                    if modal_content:
-                        desc_div = modal_content.find('div', class_='tvs_modal_des')
-                        if desc_div:
-                            # 获取描述文本
-                            desc_text = desc_div.get_text(strip=False)
-                            # 移除标题和演员信息
-                            lines = desc_text.split('\n')
-                            description_lines = []
-                            for line in lines:
-                                line = line.strip()
-                                if (line and 
-                                    title not in line and 
-                                    cast_host not in line and 
-                                    'md-date' not in line and
-                                    not line.startswith('2025-')):
-                                    description_lines.append(line)
-                            description = ' '.join(description_lines)
+                    figure_elem = program_td.find('figure', class_='extvs-simple-sch')
+                    if figure_elem:
+                        p_elem = figure_elem.find('p')
+                        if p_elem:
+                            description = p_elem.get_text(strip=True)
+                    
+                    # 如果没有从p标签获取到描述，尝试从modal中获取
+                    if not description:
+                        modal_content = program_td.find('div', class_='tvs-modal-content')
+                        if modal_content:
+                            desc_div = modal_content.find('div', class_='tvs_modal_des')
+                            if desc_div:
+                                # 获取描述文本
+                                desc_text = desc_div.get_text(strip=False)
+                                # 移除标题和演员信息
+                                lines = desc_text.split('\n')
+                                description_lines = []
+                                for line in lines:
+                                    line = line.strip()
+                                    if (line and 
+                                        title not in line and 
+                                        cast_host not in line and 
+                                        'md-date' not in line and
+                                        not line.startswith('2025-')):
+                                        description_lines.append(line)
+                                description = ' '.join(description_lines)
                 
                 # 提取图片
                 img_td = row.find('td', class_='extvs-table1-image')
