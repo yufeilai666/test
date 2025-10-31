@@ -109,16 +109,19 @@ class TVScheduleConverter:
             elif '下午' in time_parts:
                 time_parts = time_parts.replace('下午', 'PM')
             
-            # 提取时间部分
-            time_value = time_parts.split(' ')[0]
+            # 提取时间部分和AM/PM部分
+            parts = time_parts.split(' ')
+            time_value = parts[0]
+            am_pm = parts[1] if len(parts) > 1 else 'AM'
             
-            # 处理单数字小时的情况（如"3:00" -> "03:00"）
+            # 处理时间格式，确保小时部分没有前导零
             if ':' in time_value:
                 hour, minute = time_value.split(':')
-                if len(hour) == 1:
-                    time_value = f"0{hour}:{minute}"
+                # 移除前导零
+                hour = str(int(hour))
+                time_value = f"{hour}:{minute}"
             
-            et_datetime_str = f"{date_str} {time_value}"
+            et_datetime_str = f"{date_str} {time_value} {am_pm}"
             
             # 创建加拿大东部时间对象
             et_time = datetime.strptime(et_datetime_str, '%Y-%m-%d %I:%M %p')
@@ -130,7 +133,7 @@ class TVScheduleConverter:
             return beijing_time
             
         except Exception as e:
-            print(f"时间转换错误: {e}, 时间字符串: {et_time_str}")
+            print(f"时间转换错误: {e}, 时间字符串: {et_time_str}, 构建的字符串: {et_datetime_str}")
             return None
     
     def parse_program_time(self, time_text, date_str):
