@@ -112,6 +112,12 @@ class TVScheduleConverter:
             # 提取时间部分
             time_value = time_parts.split(' ')[0]
             
+            # 处理单数字小时的情况（如"3:00" -> "03:00"）
+            if ':' in time_value:
+                hour, minute = time_value.split(':')
+                if len(hour) == 1:
+                    time_value = f"0{hour}:{minute}"
+            
             et_datetime_str = f"{date_str} {time_value}"
             
             # 创建加拿大东部时间对象
