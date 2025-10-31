@@ -441,6 +441,22 @@ class TVScheduleConverter:
     
     def generate_tvml_xml(self, all_programs):
         """生成标准的电视节目单XML格式（TVML）"""
+        # 简繁体关键词映射
+        traditional_keywords = {
+            '新闻': ['新闻', '新聞'],
+            '娱乐': ['娱乐', '娛樂', '头条', '頭條'],
+            '旅游': ['旅行', '旅游', '旅遊'],
+            '犯罪': ['侦探', '偵探', '犯罪', '槍擊', '枪击', '开枪', '開槍', '槍殺', '枪杀', '抢劫', '搶劫'],
+            '爱情': ['爱情', '愛情', 'Love', 'love', '相愛', '相爱', '恋爱', '戀愛'],
+            '综艺': ['主持']
+        }
+
+        def contains_any(text, keywords):
+            """检查文本是否包含任意一个关键词（支持简繁体）"""
+            if not text:
+                return False
+            return any(keyword in text for keyword in keywords)
+
         # 创建根元素
         tv = ET.Element('tv')
         tv.set('generator-info-name', 'yufeilai666')
@@ -492,24 +508,25 @@ class TVScheduleConverter:
             writer = ET.SubElement(credits, 'writer')
             writer.text = 'yufeilai666'
             
-            # 分类（简单分类，可根据实际情况改进）
+            # 分类（使用简繁体关键词映射）
             category = ET.SubElement(programme, 'category')
             category.set('lang', 'zh')
-            # 根据标题简单分类
-            if '新闻' in program['title']:
-                category.text = '新闻'
-            elif '娱乐' in program['title'] or '头条' in program['title']:
-                category.text = '娱乐'
-            elif '旅行' in program['title'] or '旅行' in program['description']:
-                category.text = '旅游'
-            elif '侦探' in program['title'] or '侦探' in program['description']:
+            
+            # 使用简繁体关键词映射进行分类
+            if contains_any(program['title'], traditional_keywords['新闻']):
+                category.text = '新聞'
+            elif contains_any(program['title'], traditional_keywords['娱乐']):
+                category.text = '娛樂'
+            elif contains_any(program['title'], traditional_keywords['旅游']) or contains_any(program.get('description', ''), traditional_keywords['旅游']):
+                category.text = '旅遊'
+            elif contains_any(program['title'], traditional_keywords['犯罪']) or contains_any(program.get('description', ''), traditional_keywords['犯罪']):
                 category.text = '犯罪'
-            elif '爱情' in program['title'] or '爱情' in program['description']:
-                category.text = '爱情'
-            elif '主持' in program['cast_host']:
-                category.text = '综艺'
+            elif contains_any(program['title'], traditional_keywords['爱情']) or contains_any(program.get('description', ''), traditional_keywords['爱情']):
+                category.text = '愛情'
+            elif contains_any(program.get('cast_host', ''), traditional_keywords['综艺']):
+                category.text = '綜藝'
             else:
-                category.text = '电影'
+                category.text = '電影'
             
             # 图标
             if program['image_url']:
