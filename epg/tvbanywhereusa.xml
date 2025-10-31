@@ -1,2025 +1,2046 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "http://api.torrent-tv.ru/xmltv.dtd">
 <tv generator-info-name="秋哥綜合" generator-info-url="https://www.tdm.com.mo/c_tv/?ch=Satellite">
-<channel id="TVB翡翠娛樂台 (TVBe)"><display-name lang="zh">TVB翡翠娛樂台 (TVBe)</display-name></channel>
-<channel id="翡翠一台 (TVB1)"><display-name lang="zh">翡翠一台 (TVB1)</display-name></channel>
-<channel id="TVB無綫新聞台 (TVB News)"><display-name lang="zh">TVB無綫新聞台 (TVB News)</display-name></channel>
-<channel id="TVB翡翠劇集台 (TVB Drama)"><display-name lang="zh">TVB翡翠劇集台 (TVB Drama)</display-name></channel>
-<channel id="TVB翡翠綜合台 (TVBJ1)"><display-name lang="zh">TVB翡翠綜合台 (TVBJ1)</display-name></channel>
-<channel id="TVB明珠劇集台 (TVB Pearl Drama)"><display-name lang="zh">TVB明珠劇集台 (TVB Pearl Drama)</display-name></channel>
-<programme start="20251030080000 +0800" stop="20251030083000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">最強生命線</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030083000 +0800" stop="20251030090000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">今日有樓睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030090000 +0800" stop="20251030093000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030093000 +0800" stop="20251030100000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030100000 +0800" stop="20251030110000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">異空感應</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030110000 +0800" stop="20251030113000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030113000 +0800" stop="20251030120000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">今日有樓睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030120000 +0800" stop="20251030130000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">黃金劇場：又見消遙</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030130000 +0800" stop="20251030133000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">美食新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030133000 +0800" stop="20251030140000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">地球大神秘</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030140000 +0800" stop="20251030143000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030143000 +0800" stop="20251030150000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">最強生命線</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030150000 +0800" stop="20251030160000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">交易現場</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030160000 +0800" stop="20251030163000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">新聞透視</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030163000 +0800" stop="20251030170000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030170000 +0800" stop="20251030173000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030173000 +0800" stop="20251030180000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030180000 +0800" stop="20251030190000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">異空感應</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030190000 +0800" stop="20251030200000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">交易現場</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030200000 +0800" stop="20251030203000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030203000 +0800" stop="20251030210000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030210000 +0800" stop="20251030213000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">處境喜劇：畢打自己人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030213000 +0800" stop="20251030223000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030223000 +0800" stop="20251030230000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">今日有樓睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030230000 +0800" stop="20251031000000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">交易現場</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031000000 +0800" stop="20251031003000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031003000 +0800" stop="20251031010000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">Hands Up</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031010000 +0800" stop="20251031013000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">自駕德島</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031013000 +0800" stop="20251031020000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">星期日檔案</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031020000 +0800" stop="20251031023000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">關東．路駅十三</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031023000 +0800" stop="20251031030000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">肥媽李鼎打大佬</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031030000 +0800" stop="20251031033000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031033000 +0800" stop="20251031040000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">處境喜劇：畢打自己人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031040000 +0800" stop="20251031050000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">奇情谷</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031050000 +0800" stop="20251031053000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031053000 +0800" stop="20251031060000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031060000 +0800" stop="20251031063000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">Hands Up</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031063000 +0800" stop="20251031070000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031070000 +0800" stop="20251031080000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">黃金劇場：又見消遙</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031080000 +0800" stop="20251031083000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">自駕德島</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031083000 +0800" stop="20251031090000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">樓計專家</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031090000 +0800" stop="20251031093000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031093000 +0800" stop="20251031100000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031100000 +0800" stop="20251031110000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">異空感應</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031110000 +0800" stop="20251031113000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031113000 +0800" stop="20251031120000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">樓計專家</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031120000 +0800" stop="20251031130000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">黃金劇場：又見消遙</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031130000 +0800" stop="20251031140000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">奇情谷</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031140000 +0800" stop="20251031143000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031143000 +0800" stop="20251031150000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">自駕德島</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031150000 +0800" stop="20251031160000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">交易現場</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031160000 +0800" stop="20251031163000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">星期日檔案</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031163000 +0800" stop="20251031170000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031170000 +0800" stop="20251031173000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031173000 +0800" stop="20251031180000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031180000 +0800" stop="20251031190000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">異空感應</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031190000 +0800" stop="20251031200000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">交易現場</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031200000 +0800" stop="20251031203000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031203000 +0800" stop="20251031210000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031210000 +0800" stop="20251031213000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">處境喜劇：畢打自己人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031213000 +0800" stop="20251031223000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031223000 +0800" stop="20251031230000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">樓計專家</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031230000 +0800" stop="20251101000000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">交易現場</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101000000 +0800" stop="20251101003000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101003000 +0800" stop="20251101010000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">Hands Up</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101010000 +0800" stop="20251101013000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">全城一叮</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101013000 +0800" stop="20251101020000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">今晚乜都拗</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101020000 +0800" stop="20251101023000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">醫度講</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101023000 +0800" stop="20251101030000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">周末集結</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101030000 +0800" stop="20251101033000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101033000 +0800" stop="20251101040000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">處境喜劇：畢打自己人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101040000 +0800" stop="20251101050000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">直播靈接觸</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101050000 +0800" stop="20251101053000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101053000 +0800" stop="20251101060000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101060000 +0800" stop="20251101063000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">Hands Up</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101063000 +0800" stop="20251101070000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101070000 +0800" stop="20251101080000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">黃金劇場：又見消遙</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101080000 +0800" stop="20251101083000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">全城一叮</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101083000 +0800" stop="20251101090000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">今日有樓睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101090000 +0800" stop="20251101093000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101093000 +0800" stop="20251101100000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101100000 +0800" stop="20251101110000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">異空感應</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101110000 +0800" stop="20251101113000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101113000 +0800" stop="20251101120000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">今日有樓睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101120000 +0800" stop="20251101130000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">黃金劇場：又見消遙</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101130000 +0800" stop="20251101140000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">直播靈接觸</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101140000 +0800" stop="20251101143000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101143000 +0800" stop="20251101150000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">全城一叮</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101150000 +0800" stop="20251101153000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">拍檔廚房</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101153000 +0800" stop="20251101160000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">自駕德島</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101160000 +0800" stop="20251101163000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">今晚乜都拗</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101163000 +0800" stop="20251101170000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101170000 +0800" stop="20251101173000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101173000 +0800" stop="20251101180000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101180000 +0800" stop="20251101190000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">異空感應</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101190000 +0800" stop="20251101193000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">拍檔廚房</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101193000 +0800" stop="20251101200000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">自駕德島</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101200000 +0800" stop="20251101203000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101203000 +0800" stop="20251101210000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101210000 +0800" stop="20251101213000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">吃貨橫掃港深珠</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101213000 +0800" stop="20251101220000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">在家宴客50道菜</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101220000 +0800" stop="20251101223000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101223000 +0800" stop="20251101230000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">周末集結</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101230000 +0800" stop="20251101233000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">新聞透視</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101233000 +0800" stop="20251102000000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">家常便飯爭霸戰</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102000000 +0800" stop="20251102003000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102003000 +0800" stop="20251102010000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">Hands Up</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102010000 +0800" stop="20251102013000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">最強生命線</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102013000 +0800" stop="20251102020000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">拍檔廚房</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102020000 +0800" stop="20251102023000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">美食新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102023000 +0800" stop="20251102030000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">地球大神秘</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102030000 +0800" stop="20251102033000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">關東．路駅十三</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102033000 +0800" stop="20251102040000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">美食新聞報道 (港台篇)</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102040000 +0800" stop="20251102043000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">新聞透視</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102043000 +0800" stop="20251102053000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">奇情谷</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102053000 +0800" stop="20251102060000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">全城一叮</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102060000 +0800" stop="20251102063000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">Hands Up</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102063000 +0800" stop="20251102070000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
-<title lang="zh">香港國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030080000 +0800" stop="20251030090000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">黃金劇場:  巨塔之后</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030090000 +0800" stop="20251030100000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">金式森林</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030100000 +0800" stop="20251030103000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030103000 +0800" stop="20251030110000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030110000 +0800" stop="20251030113000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030113000 +0800" stop="20251030120000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">愛.回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030120000 +0800" stop="20251030130000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">巨塔之后</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030130000 +0800" stop="20251030140000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">金式森林</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030140000 +0800" stop="20251030143000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">攻你上大學</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030143000 +0800" stop="20251030150000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030150000 +0800" stop="20251030153000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030153000 +0800" stop="20251030160000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030160000 +0800" stop="20251030164500 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030164500 +0800" stop="20251030170000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">時事多面睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030170000 +0800" stop="20251030180000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">經典劇場: 你好，我的大夫</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030180000 +0800" stop="20251030183000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030183000 +0800" stop="20251030190000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030190000 +0800" stop="20251030194500 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030194500 +0800" stop="20251030200000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">時事多面睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030200000 +0800" stop="20251030203000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030203000 +0800" stop="20251030210000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際新聞及財經</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030210000 +0800" stop="20251030220000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">經典劇場: 你好，我的大夫</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030220000 +0800" stop="20251030223000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030223000 +0800" stop="20251030230000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">愛.回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030230000 +0800" stop="20251031000000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">巨塔之后</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031000000 +0800" stop="20251031010000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">金式森林</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031010000 +0800" stop="20251031013000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">攻你上大學</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031013000 +0800" stop="20251031020000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際新聞及財經</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031020000 +0800" stop="20251031023000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">樓計專家</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031023000 +0800" stop="20251031030000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031030000 +0800" stop="20251031033000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031033000 +0800" stop="20251031043000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">經典劇場: 你好，我的大夫</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031043000 +0800" stop="20251031051500 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031051500 +0800" stop="20251031054500 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">星期日檔案</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031054500 +0800" stop="20251031060000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">INFO / 時事多面睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031060000 +0800" stop="20251031063000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">攻你上大學</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031063000 +0800" stop="20251031070000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031070000 +0800" stop="20251031073000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">愛.回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031073000 +0800" stop="20251031080000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">樓計專家</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031080000 +0800" stop="20251031090000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">黃金劇場:  巨塔之后</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031090000 +0800" stop="20251031100000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">金式森林</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031100000 +0800" stop="20251031103000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031103000 +0800" stop="20251031110000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031110000 +0800" stop="20251031113000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031113000 +0800" stop="20251031120000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">愛.回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031120000 +0800" stop="20251031130000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">巨塔之后</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031130000 +0800" stop="20251031140000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">金式森林</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031140000 +0800" stop="20251031143000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">攻你上大學</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031143000 +0800" stop="20251031150000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031150000 +0800" stop="20251031153000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031153000 +0800" stop="20251031160000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031160000 +0800" stop="20251031164500 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031164500 +0800" stop="20251031170000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">時事多面睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031170000 +0800" stop="20251031180000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">經典劇場: 你好，我的大夫</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031180000 +0800" stop="20251031183000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031183000 +0800" stop="20251031190000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031190000 +0800" stop="20251031194500 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031194500 +0800" stop="20251031200000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">時事多面睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031200000 +0800" stop="20251031203000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031203000 +0800" stop="20251031210000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際新聞及財經</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031210000 +0800" stop="20251031220000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">經典劇場: 你好，我的大夫</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031220000 +0800" stop="20251031223000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031223000 +0800" stop="20251031230000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">愛.回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031230000 +0800" stop="20251101000000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">巨塔之后</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101000000 +0800" stop="20251101010000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">金式森林</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101010000 +0800" stop="20251101013000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">攻你上大學</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101013000 +0800" stop="20251101020000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際新聞及財經</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101020000 +0800" stop="20251101023000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">今日有樓睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101023000 +0800" stop="20251101030000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101030000 +0800" stop="20251101033000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101033000 +0800" stop="20251101043000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">經典劇場: 你好，我的大夫</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101043000 +0800" stop="20251101051500 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101051500 +0800" stop="20251101054500 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">地球大神秘</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101054500 +0800" stop="20251101060000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">INFO / 時事多面睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101060000 +0800" stop="20251101063000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">攻你上大學</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101063000 +0800" stop="20251101070000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101070000 +0800" stop="20251101073000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">愛.回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101073000 +0800" stop="20251101080000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">今日有樓睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101080000 +0800" stop="20251101090000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">黃金劇場:  巨塔之后</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101090000 +0800" stop="20251101100000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">金式森林</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101100000 +0800" stop="20251101103000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101103000 +0800" stop="20251101110000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101110000 +0800" stop="20251101113000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101113000 +0800" stop="20251101120000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">愛.回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101120000 +0800" stop="20251101130000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">巨塔之后</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101130000 +0800" stop="20251101140000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">金式森林</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101140000 +0800" stop="20251101143000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">攻你上大學</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101143000 +0800" stop="20251101150000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101150000 +0800" stop="20251101153000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101153000 +0800" stop="20251101160000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101160000 +0800" stop="20251101170000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101170000 +0800" stop="20251101180000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">經典劇場: 你好，我的大夫</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101180000 +0800" stop="20251101183000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101183000 +0800" stop="20251101190000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101190000 +0800" stop="20251101193000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">自然系女子日本旅行</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101193000 +0800" stop="20251101200000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">Hands Up</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101200000 +0800" stop="20251101203000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101203000 +0800" stop="20251101210000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101210000 +0800" stop="20251101220000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">週末劇場: 美麗戰場</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101220000 +0800" stop="20251101223000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101223000 +0800" stop="20251101230000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">數你條命</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101230000 +0800" stop="20251101233000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">不正常愛情研究所</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101233000 +0800" stop="20251102000000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">周六聊Teen谷</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102000000 +0800" stop="20251102010000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">翡翠黃金檔: 錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102010000 +0800" stop="20251102013000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">自然系女子日本旅行</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102013000 +0800" stop="20251102020000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">香港, 國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102020000 +0800" stop="20251102023000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">數你條命</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102023000 +0800" stop="20251102030000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">新聞透視</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102030000 +0800" stop="20251102033000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102033000 +0800" stop="20251102040000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102040000 +0800" stop="20251102050000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">飛常日誌</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102050000 +0800" stop="20251102053000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">不正常愛情研究所</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102053000 +0800" stop="20251102060000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">周六聊Teen谷(重播)</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102060000 +0800" stop="20251102063000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">開壇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102063000 +0800" stop="20251102070000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">數你條命</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102070000 +0800" stop="20251102073000 +0800" channel="翡翠一台 (TVB1)">
-<title lang="zh">美食新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030090000 +0800" stop="20251030120000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030120000 +0800" stop="20251030130000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030130000 +0800" stop="20251030160000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030160000 +0800" stop="20251030193000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030193000 +0800" stop="20251030203000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">無綫7:30 一小時新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030203000 +0800" stop="20251030230000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030230000 +0800" stop="20251031000000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031000000 +0800" stop="20251031060000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">深宵新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031060000 +0800" stop="20251031090000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">香港早晨</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031090000 +0800" stop="20251031120000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031120000 +0800" stop="20251031130000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031130000 +0800" stop="20251031160000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031160000 +0800" stop="20251031193000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031193000 +0800" stop="20251031203000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">無綫7:30 一小時新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031203000 +0800" stop="20251031230000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031230000 +0800" stop="20251101000000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101000000 +0800" stop="20251101060000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">深宵新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101060000 +0800" stop="20251101090000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">香港早晨</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101090000 +0800" stop="20251101120000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101120000 +0800" stop="20251101130000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101130000 +0800" stop="20251101160000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101160000 +0800" stop="20251101193000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101193000 +0800" stop="20251101203000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">無綫7:30 一小時新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101203000 +0800" stop="20251101230000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101230000 +0800" stop="20251102000000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102000000 +0800" stop="20251102060000 +0800" channel="TVB無綫新聞台 (TVB News)">
-<title lang="zh">深宵新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030080000 +0800" stop="20251030090000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030090000 +0800" stop="20251030100000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">無綫新經典：智能愛人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030100000 +0800" stop="20251030110000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">功夫劇場：中神通王重陽</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030110000 +0800" stop="20251030130000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">星河劇場：寵物情緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030130000 +0800" stop="20251030140000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030140000 +0800" stop="20251030150000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030150000 +0800" stop="20251030160000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">無綫新經典：智能愛人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030160000 +0800" stop="20251030170000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">功夫劇場：中神通王重陽</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030170000 +0800" stop="20251030190000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">星河劇場：寵物情緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030190000 +0800" stop="20251030210000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">粵語長片</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030210000 +0800" stop="20251030220000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">無綫新經典：智能愛人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030220000 +0800" stop="20251030230000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">功夫劇場：中神通王重陽</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030230000 +0800" stop="20251031010000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">星河劇場：寵物情緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031010000 +0800" stop="20251031030000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">粵語長片</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031030000 +0800" stop="20251031040000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">無綫新經典：智能愛人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031040000 +0800" stop="20251031050000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">功夫劇場：中神通王重陽</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031050000 +0800" stop="20251031070000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">星河劇場：寵物情緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031070000 +0800" stop="20251031080000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031080000 +0800" stop="20251031090000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031090000 +0800" stop="20251031100000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">無綫新經典：智能愛人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031100000 +0800" stop="20251031110000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">功夫劇場：中神通王重陽</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031110000 +0800" stop="20251031130000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">星河劇場：寵物情緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031130000 +0800" stop="20251031140000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031140000 +0800" stop="20251031150000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031150000 +0800" stop="20251031160000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">無綫新經典：智能愛人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031160000 +0800" stop="20251031170000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">功夫劇場：中神通王重陽</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031170000 +0800" stop="20251031190000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">星河劇場：寵物情緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031190000 +0800" stop="20251031210000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">粵語長片</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031210000 +0800" stop="20251031220000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">無綫新經典：智能愛人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031220000 +0800" stop="20251031230000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">功夫劇場：中神通王重陽</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031230000 +0800" stop="20251101010000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">星河劇場：寵物情緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101010000 +0800" stop="20251101030000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">粵語長片</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101030000 +0800" stop="20251101040000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">無綫新經典：智能愛人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101040000 +0800" stop="20251101050000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">功夫劇場：中神通王重陽</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101050000 +0800" stop="20251101070000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">星河劇場：寵物情緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101070000 +0800" stop="20251101080000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101080000 +0800" stop="20251101090000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101090000 +0800" stop="20251101100000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">無綫新經典：智能愛人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101100000 +0800" stop="20251101110000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">功夫劇場：中神通王重陽</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101110000 +0800" stop="20251101130000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">星河劇場：寵物情緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101130000 +0800" stop="20251101140000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101140000 +0800" stop="20251101150000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">十八年後的終極告白2.0</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101150000 +0800" stop="20251101160000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">無綫新經典：智能愛人</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101160000 +0800" stop="20251101170000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">功夫劇場：中神通王重陽</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101170000 +0800" stop="20251101190000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">星河劇場：寵物情緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101190000 +0800" stop="20251101210000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">粵語長片</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101210000 +0800" stop="20251101220000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">週末經典劇場：叛逃</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101220000 +0800" stop="20251101230000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">街坊財爺</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101230000 +0800" stop="20251102000000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">週末劇場：飛女正傳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102000000 +0800" stop="20251102010000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">週末古裝武俠劇場：雲海玉弓緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102010000 +0800" stop="20251102020000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">週末處境喜劇：同事三分親</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102020000 +0800" stop="20251102030000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">街坊財爺</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102030000 +0800" stop="20251102040000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">週末古裝武俠劇場：雲海玉弓緣</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102040000 +0800" stop="20251102050000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">週末經典劇場：叛逃</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102050000 +0800" stop="20251102060000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">週末劇場：飛女正傳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102060000 +0800" stop="20251102070000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
-<title lang="zh">街坊財爺</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030083000 +0800" stop="20251030090000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030090000 +0800" stop="20251030093000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">愛．回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030093000 +0800" stop="20251030100000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030100000 +0800" stop="20251030110000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">黃金劇場 : 生活在別處的我</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030110000 +0800" stop="20251030113000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">盲盒鐵路遊</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030113000 +0800" stop="20251030120000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030120000 +0800" stop="20251030122500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030122500 +0800" stop="20251030125000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030125000 +0800" stop="20251030134000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">精選劇場：飛常日誌</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030134000 +0800" stop="20251030143500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030143500 +0800" stop="20251030152500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">奪命提示</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030152500 +0800" stop="20251030155000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030155000 +0800" stop="20251030161500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">愛．回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030161500 +0800" stop="20251030170500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">翡翠劇場：家族榮耀</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030170500 +0800" stop="20251030173000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030173000 +0800" stop="20251030180000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">盲盒鐵路遊</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030180000 +0800" stop="20251030183000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030183000 +0800" stop="20251030190000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030190000 +0800" stop="20251030230500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">賽馬直擊</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030230500 +0800" stop="20251030233000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">愛．回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030233000 +0800" stop="20251031000000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031000000 +0800" stop="20251031003000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031003000 +0800" stop="20251031013000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">精選劇場：飛常日誌</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031013000 +0800" stop="20251031023000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031023000 +0800" stop="20251031024500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">Hands Up</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031024500 +0800" stop="20251031031500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031031500 +0800" stop="20251031041500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">生活在別處的我</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031041500 +0800" stop="20251031044500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">星期日檔案</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031044500 +0800" stop="20251031051500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">樓計專家</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031051500 +0800" stop="20251031054500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">盲盒鐵路遊</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031054500 +0800" stop="20251031060500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">INFO / 時事多面睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031060500 +0800" stop="20251031070000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">翡翠劇場：家族榮耀</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031070000 +0800" stop="20251031073000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031073000 +0800" stop="20251031083000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">奪命提示</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031083000 +0800" stop="20251031090000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031090000 +0800" stop="20251031093000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">愛．回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031093000 +0800" stop="20251031100000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031100000 +0800" stop="20251031110000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">黃金劇場 : 生活在別處的我</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031110000 +0800" stop="20251031113000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">盲盒鐵路遊</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031113000 +0800" stop="20251031120000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031120000 +0800" stop="20251031122500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031122500 +0800" stop="20251031125000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031125000 +0800" stop="20251031134000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">精選劇場：飛常日誌</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031134000 +0800" stop="20251031143500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031143500 +0800" stop="20251031152500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">奪命提示</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031152500 +0800" stop="20251031155000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031155000 +0800" stop="20251031161500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">愛．回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031161500 +0800" stop="20251031170500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">翡翠劇場：家族榮耀</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031170500 +0800" stop="20251031173000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031173000 +0800" stop="20251031180000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">盲盒鐵路遊</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031180000 +0800" stop="20251031183000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031183000 +0800" stop="20251031210000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031210000 +0800" stop="20251031213000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031213000 +0800" stop="20251031220000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">愛．回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031220000 +0800" stop="20251031223000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">盲盒鐵路遊</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031223000 +0800" stop="20251031233000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">奪命提示</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031233000 +0800" stop="20251101000000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101000000 +0800" stop="20251101003000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101003000 +0800" stop="20251101013000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">精選劇場：飛常日誌</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101013000 +0800" stop="20251101023000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101023000 +0800" stop="20251101024500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">Hands Up</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101024500 +0800" stop="20251101031500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101031500 +0800" stop="20251101041500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">生活在別處的我</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101041500 +0800" stop="20251101044500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">最強生命線</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101044500 +0800" stop="20251101051500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">今日有樓睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101051500 +0800" stop="20251101054500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">盲盒鐵路遊</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101054500 +0800" stop="20251101060500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">INFO / 時事多面睇</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101060500 +0800" stop="20251101070000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">翡翠劇場：家族榮耀</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101070000 +0800" stop="20251101073000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101073000 +0800" stop="20251101083000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">奪命提示</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101083000 +0800" stop="20251101090000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101090000 +0800" stop="20251101093000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">愛．回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101093000 +0800" stop="20251101100000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101100000 +0800" stop="20251101110000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">黃金劇場 : 生活在別處的我</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101110000 +0800" stop="20251101113000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">盲盒鐵路遊</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101113000 +0800" stop="20251101120000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101120000 +0800" stop="20251101122500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101122500 +0800" stop="20251101125000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">美加新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101125000 +0800" stop="20251101134000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">精選劇場：飛常日誌</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101134000 +0800" stop="20251101143500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">流行都市</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101143500 +0800" stop="20251101152500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">奪命提示</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101152500 +0800" stop="20251101155000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101155000 +0800" stop="20251101161500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">愛．回家之開心速遞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101161500 +0800" stop="20251101170500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">翡翠劇場：家族榮耀</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101170500 +0800" stop="20251101173000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港 國際午間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101173000 +0800" stop="20251101180000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">盲盒鐵路遊</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101180000 +0800" stop="20251101183000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101183000 +0800" stop="20251101210000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101210000 +0800" stop="20251101213000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101213000 +0800" stop="20251101220000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">新聞掏寶</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101220000 +0800" stop="20251101223000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">最強生命線</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101223000 +0800" stop="20251101230000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">美食新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101230000 +0800" stop="20251101233000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">旅行最緊要近</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101233000 +0800" stop="20251102000000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">娛樂新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102000000 +0800" stop="20251102003000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102003000 +0800" stop="20251102010000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">醫度講</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102010000 +0800" stop="20251102013000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">新聞透視</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102013000 +0800" stop="20251102020000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">關東．路駅十三</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102020000 +0800" stop="20251102030000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102030000 +0800" stop="20251102033000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">Hands Up</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102033000 +0800" stop="20251102040000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">最強生命線</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102040000 +0800" stop="20251102043000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">周六聊Teen谷</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102043000 +0800" stop="20251102050000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">旅行最緊要近</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102050000 +0800" stop="20251102053000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">美食新聞報道</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102053000 +0800" stop="20251102060000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港婚後事</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102060000 +0800" stop="20251102063000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">東張西望</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102063000 +0800" stop="20251102070000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">恩雨之聲</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102070000 +0800" stop="20251102073000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
-<title lang="zh">香港, 國際晚間新聞</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030081500 +0800" stop="20251030091000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030091000 +0800" stop="20251030100000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030100000 +0800" stop="20251030105000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">殺手</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030105000 +0800" stop="20251030114500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030114500 +0800" stop="20251030124000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030124000 +0800" stop="20251030133500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030133500 +0800" stop="20251030143000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030143000 +0800" stop="20251030152000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">神雕俠侶</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030152000 +0800" stop="20251030161500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030161500 +0800" stop="20251030171000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030171000 +0800" stop="20251030180000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030180000 +0800" stop="20251030185000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">殺手</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030185000 +0800" stop="20251030194500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030194500 +0800" stop="20251030204000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030204000 +0800" stop="20251030213500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030213500 +0800" stop="20251030223000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030223000 +0800" stop="20251030232000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">神雕俠侶</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251030232000 +0800" stop="20251031001500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031001500 +0800" stop="20251031011000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031011000 +0800" stop="20251031020000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031020000 +0800" stop="20251031025000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">殺手</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031025000 +0800" stop="20251031034500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031034500 +0800" stop="20251031044000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031044000 +0800" stop="20251031053500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031053500 +0800" stop="20251031063000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031063000 +0800" stop="20251031072000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">神雕俠侶</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031072000 +0800" stop="20251031081500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031081500 +0800" stop="20251031091000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031091000 +0800" stop="20251031100000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031100000 +0800" stop="20251031105000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">殺手</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031105000 +0800" stop="20251031114500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031114500 +0800" stop="20251031124000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031124000 +0800" stop="20251031133500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031133500 +0800" stop="20251031143000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031143000 +0800" stop="20251031152000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">神雕俠侶</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031152000 +0800" stop="20251031161500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031161500 +0800" stop="20251031171000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031171000 +0800" stop="20251031180000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031180000 +0800" stop="20251031185000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">殺手</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031185000 +0800" stop="20251031194500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031194500 +0800" stop="20251031204000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031204000 +0800" stop="20251031213500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031213500 +0800" stop="20251031223000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031223000 +0800" stop="20251031232000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">神雕俠侶</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251031232000 +0800" stop="20251101001500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101001500 +0800" stop="20251101011000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101011000 +0800" stop="20251101020000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101020000 +0800" stop="20251101025000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">殺手</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101025000 +0800" stop="20251101034500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101034500 +0800" stop="20251101044000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101044000 +0800" stop="20251101053500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101053500 +0800" stop="20251101063000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101063000 +0800" stop="20251101072000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">神雕俠侶</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101072000 +0800" stop="20251101081500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101081500 +0800" stop="20251101091000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101091000 +0800" stop="20251101100000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101100000 +0800" stop="20251101105000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">殺手</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101105000 +0800" stop="20251101114500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101114500 +0800" stop="20251101124000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101124000 +0800" stop="20251101133500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101133500 +0800" stop="20251101143000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101143000 +0800" stop="20251101152000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">神雕俠侶</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101152000 +0800" stop="20251101161500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101161500 +0800" stop="20251101171000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101171000 +0800" stop="20251101180000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101180000 +0800" stop="20251101185000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">殺手</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101185000 +0800" stop="20251101194500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101194500 +0800" stop="20251101204000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101204000 +0800" stop="20251101213500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101213500 +0800" stop="20251101223000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">樓奴</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101223000 +0800" stop="20251101232000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">神雕俠侶</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251101232000 +0800" stop="20251102001500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102001500 +0800" stop="20251102011000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">燕雲台</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102011000 +0800" stop="20251102020000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">錦心似玉</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102020000 +0800" stop="20251102025000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">殺手</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102025000 +0800" stop="20251102034500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102034500 +0800" stop="20251102044000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">金枝慾孽貳</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102044000 +0800" stop="20251102053500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">把關者們</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102053500 +0800" stop="20251102063000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">樓奴</title>
-<desc lang="zh"> </desc>
-</programme>
-<programme start="20251102063000 +0800" stop="20251102072000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
-<title lang="zh">神雕俠侶</title>
-<desc lang="zh"> </desc>
-</programme>
+  <channel id="TVB翡翠娛樂台 (TVBe)">
+    <display-name lang="zh">TVB翡翠娛樂台 (TVBe)</display-name>
+  </channel>
+  <channel id="翡翠一台 (TVB1)">
+    <display-name lang="zh">翡翠一台 (TVB1)</display-name>
+  </channel>
+  <channel id="TVB無綫新聞台 (TVB News)">
+    <display-name lang="zh">TVB無綫新聞台 (TVB News)</display-name>
+  </channel>
+  <channel id="TVB翡翠劇集台 (TVB Drama)">
+    <display-name lang="zh">TVB翡翠劇集台 (TVB Drama)</display-name>
+  </channel>
+  <channel id="TVB翡翠綜合台 (TVBJ1)">
+    <display-name lang="zh">TVB翡翠綜合台 (TVBJ1)</display-name>
+  </channel>
+  <channel id="TVB明珠劇集台 (TVB Pearl Drama)">
+    <display-name lang="zh">TVB明珠劇集台 (TVB Pearl Drama)</display-name>
+  </channel>
+  <programme start="20251031080000 +0800" stop="20251031083000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">自駕德島</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031083000 +0800" stop="20251031090000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">樓計專家</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031090000 +0800" stop="20251031093000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031093000 +0800" stop="20251031100000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031100000 +0800" stop="20251031110000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">異空感應</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031110000 +0800" stop="20251031113000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031113000 +0800" stop="20251031120000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">樓計專家</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031120000 +0800" stop="20251031130000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">黃金劇場：又見消遙</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031130000 +0800" stop="20251031140000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">奇情谷</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031140000 +0800" stop="20251031143000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031143000 +0800" stop="20251031150000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">自駕德島</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031150000 +0800" stop="20251031160000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">交易現場</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031160000 +0800" stop="20251031163000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">星期日檔案</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031163000 +0800" stop="20251031170000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031170000 +0800" stop="20251031173000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031173000 +0800" stop="20251031180000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031180000 +0800" stop="20251031190000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">異空感應</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031190000 +0800" stop="20251031200000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">交易現場</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031200000 +0800" stop="20251031203000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031203000 +0800" stop="20251031210000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031210000 +0800" stop="20251031213000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">處境喜劇：畢打自己人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031213000 +0800" stop="20251031223000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031223000 +0800" stop="20251031230000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">樓計專家</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031230000 +0800" stop="20251101000000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">交易現場</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101000000 +0800" stop="20251101003000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101003000 +0800" stop="20251101010000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101010000 +0800" stop="20251101013000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">全城一叮</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101013000 +0800" stop="20251101020000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">今晚乜都拗</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101020000 +0800" stop="20251101023000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">醫度講</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101023000 +0800" stop="20251101030000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">周末集結</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101030000 +0800" stop="20251101033000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101033000 +0800" stop="20251101040000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">處境喜劇：畢打自己人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101040000 +0800" stop="20251101050000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">直播靈接觸</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101050000 +0800" stop="20251101053000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101053000 +0800" stop="20251101060000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101060000 +0800" stop="20251101063000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101063000 +0800" stop="20251101070000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101070000 +0800" stop="20251101080000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">黃金劇場：又見消遙</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101080000 +0800" stop="20251101083000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">全城一叮</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101083000 +0800" stop="20251101090000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">今日有樓睇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101090000 +0800" stop="20251101093000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101093000 +0800" stop="20251101100000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101100000 +0800" stop="20251101110000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">異空感應</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101110000 +0800" stop="20251101113000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101113000 +0800" stop="20251101120000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">今日有樓睇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101120000 +0800" stop="20251101130000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">黃金劇場：又見消遙</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101130000 +0800" stop="20251101140000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">直播靈接觸</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101140000 +0800" stop="20251101143000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101143000 +0800" stop="20251101150000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">全城一叮</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101150000 +0800" stop="20251101153000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">拍檔廚房</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101153000 +0800" stop="20251101160000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">自駕德島</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101160000 +0800" stop="20251101163000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">今晚乜都拗</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101163000 +0800" stop="20251101170000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101170000 +0800" stop="20251101173000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101173000 +0800" stop="20251101180000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101180000 +0800" stop="20251101190000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">異空感應</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101190000 +0800" stop="20251101193000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">拍檔廚房</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101193000 +0800" stop="20251101200000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">自駕德島</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101200000 +0800" stop="20251101203000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101203000 +0800" stop="20251101210000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101210000 +0800" stop="20251101213000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">吃貨橫掃港深珠</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101213000 +0800" stop="20251101220000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">在家宴客50道菜</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101220000 +0800" stop="20251101223000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101223000 +0800" stop="20251101230000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">周末集結</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101230000 +0800" stop="20251101233000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">新聞透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101233000 +0800" stop="20251102000000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">家常便飯爭霸戰</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102000000 +0800" stop="20251102003000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102003000 +0800" stop="20251102010000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102010000 +0800" stop="20251102013000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">最強生命線</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102013000 +0800" stop="20251102020000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">拍檔廚房</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102020000 +0800" stop="20251102023000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">美食新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102023000 +0800" stop="20251102030000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">地球大神秘</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102030000 +0800" stop="20251102033000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">關東．路駅十三</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102033000 +0800" stop="20251102040000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">美食新聞報道 (港台篇)</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102040000 +0800" stop="20251102043000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">新聞透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102043000 +0800" stop="20251102053000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">奇情谷</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102053000 +0800" stop="20251102060000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">全城一叮</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102060000 +0800" stop="20251102063000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102063000 +0800" stop="20251102070000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102070000 +0800" stop="20251102080000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">女拳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102080000 +0800" stop="20251102090000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">女拳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102090000 +0800" stop="20251102093000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">新聞透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102093000 +0800" stop="20251102100000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">家常便飯爭霸戰</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102100000 +0800" stop="20251102103000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">醫度講</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102103000 +0800" stop="20251102110000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">自駕德島</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102110000 +0800" stop="20251102113000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102113000 +0800" stop="20251102120000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">周末集結</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102120000 +0800" stop="20251102123000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102123000 +0800" stop="20251102130000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">家常便飯爭霸戰</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102130000 +0800" stop="20251102140000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">女拳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102140000 +0800" stop="20251102150000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">女拳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102150000 +0800" stop="20251102154500 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">巾幗梟雄之懸崖</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102154500 +0800" stop="20251102190000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">異空感應</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102190000 +0800" stop="20251102200000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">好聲音夏日音樂會</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102200000 +0800" stop="20251102210000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">奇情谷</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102210000 +0800" stop="20251102213000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102213000 +0800" stop="20251102220000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102220000 +0800" stop="20251102223000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">美食新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102223000 +0800" stop="20251102230000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">地球大神秘</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102230000 +0800" stop="20251102233000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">香港國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102233000 +0800" stop="20251103000000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">肥媽李鼎打大佬</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103000000 +0800" stop="20251103003000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">講清講楚</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103003000 +0800" stop="20251103010000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">家常便飯爭霸戰</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103010000 +0800" stop="20251103013000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103013000 +0800" stop="20251103020000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103020000 +0800" stop="20251103023000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">今晚乜都拗</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103023000 +0800" stop="20251103030000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">醫度講</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103030000 +0800" stop="20251103033000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">周末集結</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103033000 +0800" stop="20251103040000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">吃貨橫掃港深珠</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103040000 +0800" stop="20251103050000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">直播靈接觸</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103050000 +0800" stop="20251103053000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">財經透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103053000 +0800" stop="20251103060000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">星期日檔案</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103060000 +0800" stop="20251103063000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">澳門25個第一</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103063000 +0800" stop="20251103070000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">路筆拾遺</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103070000 +0800" stop="20251103073000 +0800" channel="TVB翡翠娛樂台 (TVBe)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031080000 +0800" stop="20251031090000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">黃金劇場:  巨塔之后</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031090000 +0800" stop="20251031100000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">金式森林</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031100000 +0800" stop="20251031103000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031103000 +0800" stop="20251031110000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031110000 +0800" stop="20251031113000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031113000 +0800" stop="20251031120000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">愛.回家之開心速遞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031120000 +0800" stop="20251031130000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">巨塔之后</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031130000 +0800" stop="20251031140000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">金式森林</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031140000 +0800" stop="20251031143000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">攻你上大學</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031143000 +0800" stop="20251031150000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031150000 +0800" stop="20251031153000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031153000 +0800" stop="20251031160000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031160000 +0800" stop="20251031164500 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">流行都市</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031164500 +0800" stop="20251031170000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">時事多面睇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031170000 +0800" stop="20251031180000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">經典劇場: 你好，我的大夫</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031180000 +0800" stop="20251031183000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031183000 +0800" stop="20251031190000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031190000 +0800" stop="20251031194500 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">流行都市</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031194500 +0800" stop="20251031200000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">時事多面睇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031200000 +0800" stop="20251031203000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031203000 +0800" stop="20251031210000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際新聞及財經</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031210000 +0800" stop="20251031220000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">經典劇場: 你好，我的大夫</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031220000 +0800" stop="20251031223000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031223000 +0800" stop="20251031230000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">愛.回家之開心速遞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031230000 +0800" stop="20251101000000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">巨塔之后</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101000000 +0800" stop="20251101010000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">金式森林</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101010000 +0800" stop="20251101013000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">攻你上大學</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101013000 +0800" stop="20251101020000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際新聞及財經</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101020000 +0800" stop="20251101023000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">今日有樓睇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101023000 +0800" stop="20251101030000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101030000 +0800" stop="20251101033000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101033000 +0800" stop="20251101043000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">經典劇場: 你好，我的大夫</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101043000 +0800" stop="20251101051500 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">流行都市</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101051500 +0800" stop="20251101054500 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">地球大神秘</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101054500 +0800" stop="20251101060000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">INFO / 時事多面睇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101060000 +0800" stop="20251101063000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">攻你上大學</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101063000 +0800" stop="20251101070000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101070000 +0800" stop="20251101073000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">愛.回家之開心速遞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101073000 +0800" stop="20251101080000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">今日有樓睇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101080000 +0800" stop="20251101090000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">黃金劇場:  巨塔之后</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101090000 +0800" stop="20251101100000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">金式森林</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101100000 +0800" stop="20251101103000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101103000 +0800" stop="20251101110000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101110000 +0800" stop="20251101113000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101113000 +0800" stop="20251101120000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">愛.回家之開心速遞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101120000 +0800" stop="20251101130000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">巨塔之后</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101130000 +0800" stop="20251101140000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">金式森林</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101140000 +0800" stop="20251101143000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">攻你上大學</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101143000 +0800" stop="20251101150000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101150000 +0800" stop="20251101153000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101153000 +0800" stop="20251101160000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101160000 +0800" stop="20251101170000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">流行都市</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101170000 +0800" stop="20251101180000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">經典劇場: 你好，我的大夫</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101180000 +0800" stop="20251101183000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101183000 +0800" stop="20251101190000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101190000 +0800" stop="20251101193000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">自然系女子日本旅行</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101193000 +0800" stop="20251101200000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101200000 +0800" stop="20251101203000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101203000 +0800" stop="20251101210000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101210000 +0800" stop="20251101220000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">週末劇場: 美麗戰場</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101220000 +0800" stop="20251101223000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101223000 +0800" stop="20251101230000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">數你條命</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101230000 +0800" stop="20251101233000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">不正常愛情研究所</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101233000 +0800" stop="20251102000000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">周六聊Teen谷</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102000000 +0800" stop="20251102010000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">翡翠黃金檔: 錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102010000 +0800" stop="20251102013000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">自然系女子日本旅行</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102013000 +0800" stop="20251102020000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102020000 +0800" stop="20251102023000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">數你條命</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102023000 +0800" stop="20251102030000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">新聞透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102030000 +0800" stop="20251102033000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102033000 +0800" stop="20251102040000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102040000 +0800" stop="20251102050000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">飛常日誌</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102050000 +0800" stop="20251102053000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">不正常愛情研究所</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102053000 +0800" stop="20251102060000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">周六聊Teen谷(重播)</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102060000 +0800" stop="20251102063000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">開壇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102063000 +0800" stop="20251102070000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">數你條命</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102070000 +0800" stop="20251102073000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">美食新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102073000 +0800" stop="20251102080000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">港女野人奇異記</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102080000 +0800" stop="20251102083000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102083000 +0800" stop="20251102091500 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">友乜唔講得</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102091500 +0800" stop="20251102100000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">今晚有歌廳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102100000 +0800" stop="20251102103000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">新聞透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102103000 +0800" stop="20251102110000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102110000 +0800" stop="20251102113000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">自然系女子日本旅行</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102113000 +0800" stop="20251102120000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">美食新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102120000 +0800" stop="20251102123000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">港女野人奇異記</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102123000 +0800" stop="20251102131500 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">友乜唔講得</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102131500 +0800" stop="20251102140000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">今晚有歌廳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102140000 +0800" stop="20251102143000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">新聞透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102143000 +0800" stop="20251102150000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102150000 +0800" stop="20251102153000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102153000 +0800" stop="20251102160000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">數你條命</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102160000 +0800" stop="20251102170000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">翡翠黃金檔: 錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102170000 +0800" stop="20251102180000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">讓我們重新認識陳慧嫻</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102180000 +0800" stop="20251102183000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">不正常愛情研究所</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102183000 +0800" stop="20251102190000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">周六聊Teen谷(重播)</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102190000 +0800" stop="20251102193000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102193000 +0800" stop="20251102200000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102200000 +0800" stop="20251102203000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">關注關注組</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102203000 +0800" stop="20251102210000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102210000 +0800" stop="20251102213000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">新聞透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102213000 +0800" stop="20251102220000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102220000 +0800" stop="20251102230000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">週末劇場: 美麗戰場</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102230000 +0800" stop="20251102233000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102233000 +0800" stop="20251103000000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">還原神之食</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103000000 +0800" stop="20251103003000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">開壇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103003000 +0800" stop="20251103010000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">講清講楚</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103010000 +0800" stop="20251103020000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">翡翠黃金檔: 錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103020000 +0800" stop="20251103023000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">關注關注組</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103023000 +0800" stop="20251103030000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">香港, 國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103030000 +0800" stop="20251103033000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">自然系女子旅行</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103033000 +0800" stop="20251103040000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">財經透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103040000 +0800" stop="20251103043000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103043000 +0800" stop="20251103050000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103050000 +0800" stop="20251103060000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">飛常日誌</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103060000 +0800" stop="20251103063000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">獨嘉瞓過界指南</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103063000 +0800" stop="20251103070000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">星期日檔案</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103070000 +0800" stop="20251103073000 +0800" channel="翡翠一台 (TVB1)">
+    <title lang="zh">自然系女子旅行</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031090000 +0800" stop="20251031120000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031120000 +0800" stop="20251031130000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031130000 +0800" stop="20251031160000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031160000 +0800" stop="20251031193000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031193000 +0800" stop="20251031203000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">無綫7:30 一小時新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031203000 +0800" stop="20251031230000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031230000 +0800" stop="20251101000000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101000000 +0800" stop="20251101060000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">深宵新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101060000 +0800" stop="20251101090000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">香港早晨</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101090000 +0800" stop="20251101120000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101120000 +0800" stop="20251101130000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101130000 +0800" stop="20251101160000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101160000 +0800" stop="20251101193000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101193000 +0800" stop="20251101203000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">無綫7:30 一小時新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101203000 +0800" stop="20251101230000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101230000 +0800" stop="20251102000000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102000000 +0800" stop="20251102060000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">深宵新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102060000 +0800" stop="20251102090000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">晨早新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102090000 +0800" stop="20251102120000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102120000 +0800" stop="20251102130000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102130000 +0800" stop="20251102160000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102160000 +0800" stop="20251102193000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102193000 +0800" stop="20251102203000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">無綫7:30 一小時新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102203000 +0800" stop="20251102230000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102230000 +0800" stop="20251103000000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103000000 +0800" stop="20251103060000 +0800" channel="TVB無綫新聞台 (TVB News)">
+    <title lang="zh">深宵新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031080000 +0800" stop="20251031090000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">十八年後的終極告白2.0</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031090000 +0800" stop="20251031100000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：智能愛人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031100000 +0800" stop="20251031110000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">功夫劇場：中神通王重陽</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031110000 +0800" stop="20251031130000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">星河劇場：寵物情緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031130000 +0800" stop="20251031140000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">十八年後的終極告白2.0</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031140000 +0800" stop="20251031150000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">十八年後的終極告白2.0</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031150000 +0800" stop="20251031160000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：智能愛人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031160000 +0800" stop="20251031170000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">功夫劇場：中神通王重陽</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031170000 +0800" stop="20251031190000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">星河劇場：寵物情緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031190000 +0800" stop="20251031210000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">粵語長片</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031210000 +0800" stop="20251031220000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：智能愛人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031220000 +0800" stop="20251031230000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">功夫劇場：中神通王重陽</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031230000 +0800" stop="20251101010000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">星河劇場：寵物情緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101010000 +0800" stop="20251101030000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">粵語長片</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101030000 +0800" stop="20251101040000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：智能愛人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101040000 +0800" stop="20251101050000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">功夫劇場：中神通王重陽</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101050000 +0800" stop="20251101070000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">星河劇場：寵物情緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101070000 +0800" stop="20251101080000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">十八年後的終極告白2.0</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101080000 +0800" stop="20251101090000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">十八年後的終極告白2.0</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101090000 +0800" stop="20251101100000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：智能愛人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101100000 +0800" stop="20251101110000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">功夫劇場：中神通王重陽</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101110000 +0800" stop="20251101130000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">星河劇場：寵物情緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101130000 +0800" stop="20251101140000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">十八年後的終極告白2.0</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101140000 +0800" stop="20251101150000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">十八年後的終極告白2.0</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101150000 +0800" stop="20251101160000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：智能愛人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101160000 +0800" stop="20251101170000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">功夫劇場：中神通王重陽</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101170000 +0800" stop="20251101190000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">星河劇場：寵物情緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101190000 +0800" stop="20251101210000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">粵語長片</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101210000 +0800" stop="20251101220000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末經典劇場：叛逃</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101220000 +0800" stop="20251101230000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">街坊財爺</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101230000 +0800" stop="20251102000000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末劇場：飛女正傳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102000000 +0800" stop="20251102010000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末古裝武俠劇場：雲海玉弓緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102010000 +0800" stop="20251102020000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末處境喜劇：同事三分親</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102020000 +0800" stop="20251102030000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">街坊財爺</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102030000 +0800" stop="20251102040000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末古裝武俠劇場：雲海玉弓緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102040000 +0800" stop="20251102050000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末經典劇場：叛逃</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102050000 +0800" stop="20251102060000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末劇場：飛女正傳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102060000 +0800" stop="20251102070000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">街坊財爺</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102070000 +0800" stop="20251102080000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末處境喜劇：同事三分親</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102080000 +0800" stop="20251102090000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末古裝武俠劇場：雲海玉弓緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102090000 +0800" stop="20251102100000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末經典劇場：叛逃</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102100000 +0800" stop="20251102110000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末劇場：飛女正傳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102110000 +0800" stop="20251102120000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">街坊財爺</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102120000 +0800" stop="20251102130000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末處境喜劇：同事三分親</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102130000 +0800" stop="20251102140000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末古裝武俠劇場：雲海玉弓緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102140000 +0800" stop="20251102150000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末經典劇場：叛逃</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102150000 +0800" stop="20251102160000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：掌上明珠</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102160000 +0800" stop="20251102170000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：掌上明珠</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102170000 +0800" stop="20251102180000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：智能愛人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102180000 +0800" stop="20251102190000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：智能愛人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102190000 +0800" stop="20251102200000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">無綫新經典：智能愛人</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102200000 +0800" stop="20251102210000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末古裝武俠劇場：雲海玉弓緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102210000 +0800" stop="20251102220000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末處境喜劇：同事三分親</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102220000 +0800" stop="20251102230000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末經典劇場：叛逃</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102230000 +0800" stop="20251103000000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">街坊財爺</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103000000 +0800" stop="20251103010000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末劇場：飛女正傳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103010000 +0800" stop="20251103020000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末古裝武俠劇場：雲海玉弓緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103020000 +0800" stop="20251103030000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末處境喜劇：同事三分親</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103030000 +0800" stop="20251103040000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">街坊財爺</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103040000 +0800" stop="20251103050000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末古裝武俠劇場：雲海玉弓緣</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103050000 +0800" stop="20251103060000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末經典劇場：叛逃</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103060000 +0800" stop="20251103070000 +0800" channel="TVB翡翠劇集台 (TVB Drama)">
+    <title lang="zh">週末劇場：飛女正傳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031083000 +0800" stop="20251031090000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031090000 +0800" stop="20251031093000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">愛．回家之開心速遞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031093000 +0800" stop="20251031100000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031100000 +0800" stop="20251031110000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">黃金劇場 : 生活在別處的我</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031110000 +0800" stop="20251031113000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">盲盒鐵路遊</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031113000 +0800" stop="20251031120000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031120000 +0800" stop="20251031122500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031122500 +0800" stop="20251031125000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031125000 +0800" stop="20251031134000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">精選劇場：飛常日誌</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031134000 +0800" stop="20251031143500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">流行都市</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031143500 +0800" stop="20251031152500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">奪命提示</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031152500 +0800" stop="20251031155000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031155000 +0800" stop="20251031161500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">愛．回家之開心速遞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031161500 +0800" stop="20251031170500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">翡翠劇場：家族榮耀</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031170500 +0800" stop="20251031173000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031173000 +0800" stop="20251031180000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">盲盒鐵路遊</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031180000 +0800" stop="20251031183000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031183000 +0800" stop="20251031210000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031210000 +0800" stop="20251031213000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031213000 +0800" stop="20251031220000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">愛．回家之開心速遞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031220000 +0800" stop="20251031223000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">盲盒鐵路遊</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031223000 +0800" stop="20251031233000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">奪命提示</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031233000 +0800" stop="20251101000000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101000000 +0800" stop="20251101003000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101003000 +0800" stop="20251101013000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">精選劇場：飛常日誌</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101013000 +0800" stop="20251101023000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">流行都市</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101023000 +0800" stop="20251101024500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101024500 +0800" stop="20251101031500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101031500 +0800" stop="20251101041500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">生活在別處的我</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101041500 +0800" stop="20251101044500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">最強生命線</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101044500 +0800" stop="20251101051500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">今日有樓睇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101051500 +0800" stop="20251101054500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">盲盒鐵路遊</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101054500 +0800" stop="20251101060500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">INFO / 時事多面睇</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101060500 +0800" stop="20251101070000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">翡翠劇場：家族榮耀</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101070000 +0800" stop="20251101073000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101073000 +0800" stop="20251101083000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">奪命提示</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101083000 +0800" stop="20251101090000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101090000 +0800" stop="20251101093000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">愛．回家之開心速遞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101093000 +0800" stop="20251101100000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101100000 +0800" stop="20251101110000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">黃金劇場 : 生活在別處的我</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101110000 +0800" stop="20251101113000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">盲盒鐵路遊</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101113000 +0800" stop="20251101120000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101120000 +0800" stop="20251101122500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101122500 +0800" stop="20251101125000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">美加新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101125000 +0800" stop="20251101134000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">精選劇場：飛常日誌</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101134000 +0800" stop="20251101143500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">流行都市</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101143500 +0800" stop="20251101152500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">奪命提示</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101152500 +0800" stop="20251101155000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101155000 +0800" stop="20251101161500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">愛．回家之開心速遞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101161500 +0800" stop="20251101170500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">翡翠劇場：家族榮耀</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101170500 +0800" stop="20251101173000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101173000 +0800" stop="20251101180000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">盲盒鐵路遊</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101180000 +0800" stop="20251101183000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101183000 +0800" stop="20251101210000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101210000 +0800" stop="20251101213000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101213000 +0800" stop="20251101220000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">新聞掏寶</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101220000 +0800" stop="20251101223000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">最強生命線</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101223000 +0800" stop="20251101230000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">美食新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101230000 +0800" stop="20251101233000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">旅行最緊要近</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101233000 +0800" stop="20251102000000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102000000 +0800" stop="20251102003000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102003000 +0800" stop="20251102010000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">醫度講</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102010000 +0800" stop="20251102013000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">新聞透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102013000 +0800" stop="20251102020000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">關東．路駅十三</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102020000 +0800" stop="20251102030000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102030000 +0800" stop="20251102033000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102033000 +0800" stop="20251102040000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">最強生命線</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102040000 +0800" stop="20251102043000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">周六聊Teen谷</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102043000 +0800" stop="20251102050000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">旅行最緊要近</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102050000 +0800" stop="20251102053000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">美食新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102053000 +0800" stop="20251102060000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港婚後事</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102060000 +0800" stop="20251102063000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102063000 +0800" stop="20251102070000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">恩雨之聲</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102070000 +0800" stop="20251102073000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102073000 +0800" stop="20251102080000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102080000 +0800" stop="20251102083000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">新聞透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102083000 +0800" stop="20251102090000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">醫度講</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102090000 +0800" stop="20251102093000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">美食新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102093000 +0800" stop="20251102103000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">聲秀</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102103000 +0800" stop="20251102110000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">旅行最緊要近</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102110000 +0800" stop="20251102113000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">關東．路駅十三</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102113000 +0800" stop="20251102120000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102120000 +0800" stop="20251102122000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際晚間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102122000 +0800" stop="20251102180500 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">賽馬直擊</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102180500 +0800" stop="20251102183000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港 國際午間新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102183000 +0800" stop="20251102190000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">關東．路駅十三</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102190000 +0800" stop="20251102193000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102193000 +0800" stop="20251102220000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102220000 +0800" stop="20251102223000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102223000 +0800" stop="20251102230000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">新聞透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102230000 +0800" stop="20251102233000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">地球大神秘 (Sr.2)</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102233000 +0800" stop="20251103000000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">美食新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103000000 +0800" stop="20251103003000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">貝遊歐洲</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103003000 +0800" stop="20251103010000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103010000 +0800" stop="20251103013000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">香港, 國際新聞</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103013000 +0800" stop="20251103020000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">非洲潮什麼</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103020000 +0800" stop="20251103023000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">財經透視</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103023000 +0800" stop="20251103030000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">講清講楚</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103030000 +0800" stop="20251103040000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103040000 +0800" stop="20251103043000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">恩雨之聲</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103043000 +0800" stop="20251103050000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">Hands Up</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103050000 +0800" stop="20251103060000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">奇情谷</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103060000 +0800" stop="20251103063000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">美食新聞報道</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103063000 +0800" stop="20251103070000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">非洲潮什麼</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103070000 +0800" stop="20251103073000 +0800" channel="TVB翡翠綜合台 (TVBJ1)">
+    <title lang="zh">東張西望</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031081500 +0800" stop="20251031091000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031091000 +0800" stop="20251031100000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031100000 +0800" stop="20251031105000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">殺手</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031105000 +0800" stop="20251031114500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031114500 +0800" stop="20251031124000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031124000 +0800" stop="20251031133500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031133500 +0800" stop="20251031143000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031143000 +0800" stop="20251031152000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">神雕俠侶</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031152000 +0800" stop="20251031161500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031161500 +0800" stop="20251031171000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031171000 +0800" stop="20251031180000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031180000 +0800" stop="20251031185000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">殺手</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031185000 +0800" stop="20251031194500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031194500 +0800" stop="20251031204000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031204000 +0800" stop="20251031213500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031213500 +0800" stop="20251031223000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031223000 +0800" stop="20251031232000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">神雕俠侶</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251031232000 +0800" stop="20251101001500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101001500 +0800" stop="20251101011000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101011000 +0800" stop="20251101020000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101020000 +0800" stop="20251101025000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">殺手</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101025000 +0800" stop="20251101034500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101034500 +0800" stop="20251101044000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101044000 +0800" stop="20251101053500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101053500 +0800" stop="20251101063000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101063000 +0800" stop="20251101072000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">神雕俠侶</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101072000 +0800" stop="20251101081500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101081500 +0800" stop="20251101091000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101091000 +0800" stop="20251101100000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101100000 +0800" stop="20251101105000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">殺手</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101105000 +0800" stop="20251101114500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101114500 +0800" stop="20251101124000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101124000 +0800" stop="20251101133500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101133500 +0800" stop="20251101143000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101143000 +0800" stop="20251101152000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">神雕俠侶</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101152000 +0800" stop="20251101161500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101161500 +0800" stop="20251101171000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101171000 +0800" stop="20251101180000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101180000 +0800" stop="20251101185000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">殺手</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101185000 +0800" stop="20251101194500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101194500 +0800" stop="20251101204000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101204000 +0800" stop="20251101213500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101213500 +0800" stop="20251101223000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">樓奴</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101223000 +0800" stop="20251101232000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">神雕俠侶</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251101232000 +0800" stop="20251102001500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102001500 +0800" stop="20251102011000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102011000 +0800" stop="20251102020000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102020000 +0800" stop="20251102025000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">殺手</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102025000 +0800" stop="20251102034500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102034500 +0800" stop="20251102044000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102044000 +0800" stop="20251102053500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102053500 +0800" stop="20251102063000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">樓奴</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102063000 +0800" stop="20251102072000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">神雕俠侶</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102072000 +0800" stop="20251102081500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102081500 +0800" stop="20251102091000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102091000 +0800" stop="20251102100000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102100000 +0800" stop="20251102105000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">殺手</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102105000 +0800" stop="20251102114500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102114500 +0800" stop="20251102124000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102124000 +0800" stop="20251102133500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">把關者們</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102133500 +0800" stop="20251102143000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">樓奴</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102143000 +0800" stop="20251102152000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">神雕俠侶</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102152000 +0800" stop="20251102161500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102161500 +0800" stop="20251102171000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">燕雲台</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102171000 +0800" stop="20251102181000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">曙光</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102181000 +0800" stop="20251102190000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102190000 +0800" stop="20251102195000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">十二傳說</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102195000 +0800" stop="20251102204500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102204500 +0800" stop="20251102214000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102214000 +0800" stop="20251102223500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">樓奴</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102223500 +0800" stop="20251102233000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">樓奴</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251102233000 +0800" stop="20251103002000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">神雕俠侶</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103002000 +0800" stop="20251103011500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">法證先鋒III</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103011500 +0800" stop="20251103021000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">法證先鋒III</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103021000 +0800" stop="20251103030000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">錦心似玉</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103030000 +0800" stop="20251103035000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">十二傳說</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103035000 +0800" stop="20251103044500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103044500 +0800" stop="20251103054000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">金枝慾孽貳</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103054000 +0800" stop="20251103063500 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">樓奴</title>
+    <desc lang="zh"> </desc>
+  </programme>
+  <programme start="20251103063500 +0800" stop="20251103073000 +0800" channel="TVB明珠劇集台 (TVB Pearl Drama)">
+    <title lang="zh">樓奴</title>
+    <desc lang="zh"> </desc>
+  </programme>
+</tv>
