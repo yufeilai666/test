@@ -14,12 +14,21 @@ class TVScheduleConverter:
         # 时区定义
         self.beijing_tz = tz.gettz('Asia/Shanghai')
         self.et_tz = tz.gettz('America/Toronto')  # 东部时间
+        self.pt_tz = tz.gettz('America/Los_Angeles')  # 太平洋时间
         
         # 网站URL
         self.base_url = "https://lstimes.ca"
         self.schedule_url = "https://lstimes.ca/schedule"
         self.api_url = "https://lstimes.ca/wp-admin/admin-ajax.php"
         
+    def clean_description(self, desc_text):
+        """清理描述文本，直接过滤掉换行符"""
+        if not desc_text:
+            return ""
+        
+        # 直接移除所有换行符
+        return desc_text.replace('\n', '')
+    
     def get_page_params(self):
         """获取页面中的参数"""
         try:
@@ -97,11 +106,11 @@ class TVScheduleConverter:
         
         return dates
     
-    def convert_to_beijing_time(self, et_time_str, date_str):
-        """将加拿大东部时间转换为北京时间"""
+    def convert_to_beijing_time(self, time_str, date_str, timezone='et'):
+        """将加拿大时间转换为北京时间"""
         try:
-            # 解析加拿大东部时间（包含上午/下午）
-            time_parts = et_time_str.replace('東', '').strip()
+            # 解析时间字符串
+            time_parts = time_str.replace('東', '').replace('西', '').strip()
             
             # 处理上午/下午
             if '上午' in time_parts:
@@ -121,30 +130,70 @@ class TVScheduleConverter:
                 hour = str(int(hour))
                 time_value = f"{hour}:{minute}"
             
-            et_datetime_str = f"{date_str} {time_value} {am_pm}"
+            # 选择时区
+            if timezone == 'pt':
+                # 太平洋时间
+                tz_obj = self.pt_tz
+            else:
+                # 东部时间
+                tz_obj = self.et_tz
             
-            # 创建加拿大东部时间对象
-            et_time = datetime.strptime(et_datetime_str, '%Y-%m-%d %I:%M %p')
-            et_time = et_time.replace(tzinfo=self.et_tz)
+            datetime_str = f"{date_str} {time_value} {am_pm}"
             
-            # 转换为北京时间（ET+13小时=北京时间）
-            beijing_time = et_time.astimezone(self.beijing_tz)
+            # 创建时间对象
+            local_time = datetime.strptime(datetime_str, '%Y-%m-%d %I:%M %p')
+            local_time = local_time.replace(tzinfo=tz_obj)
+            
+            # 转换为北京时间
+            beijing_time = local_time.astimezone(self.beijing_tz)
             
             return beijing_time
             
         except Exception as e:
-            print(f"时间转换错误: {e}, 时间字符串: {et_time_str}, 构建的字符串: {et_datetime_str}")
+            print(f"时间转换错误: {e}, 时间字符串: {time_str}, 构建的字符串: {datetime_str}")
             return None
     
     def parse_program_time(self, time_text, date_str):
-        """解析节目时间文本"""
-        # 使用正则表达式提取东部时间
-        match = re.search(r'東(\d+:\d+)\s+(上午|下午)', time_text)
-        if match:
-            et_time = f"東{match.group(1)} {match.group(2)}"
-            return self.convert_to_beijing_time(et_time, date_str)
-        else:
-            print(f"无法解析时间: {time_text}")
+        """解析节目时间文本，处理跨越午夜的情况"""
+        try:
+            # 使用正则表达式提取东部时间和太平洋时间
+            et_match = re.search(r'東(\d+:\d+)\s+(上午|下午)', time_text)
+            pt_match = re.search(r'西(\d+:\d+)\s+(上午|下午)', time_text)
+            
+            if et_match and pt_match:
+                et_time_str = f"東{et_match.group(1)} {et_match.group(2)}"
+                pt_time_str = f"西{pt_match.group(1)} {pt_match.group(2)}"
+                
+                # 转换为北京时间
+                beijing_time_et = self.convert_to_beijing_time(et_time_str, date_str, 'et')
+                beijing_time_pt = self.convert_to_beijing_time(pt_time_str, date_str, 'pt')
+                
+                # 检查是否跨越午夜
+                if beijing_time_et and beijing_time_pt:
+                    # 如果两个时间相差超过12小时，说明跨越了午夜
+                    time_diff = abs((beijing_time_et - beijing_time_pt).total_seconds())
+                    if time_diff > 12 * 3600:
+                        # 使用太平洋时间来确定日期，因为太平洋时间更早
+                        return beijing_time_pt
+                    else:
+                        # 使用东部时间
+                        return beijing_time_et
+                elif beijing_time_et:
+                    return beijing_time_et
+                else:
+                    return beijing_time_pt
+            elif et_match:
+                et_time_str = f"東{et_match.group(1)} {et_match.group(2)}"
+                return self.convert_to_beijing_time(et_time_str, date_str, 'et')
+            elif pt_match:
+                pt_time_str = f"西{pt_match.group(1)} {pt_match.group(2)}"
+                return self.convert_to_beijing_time(pt_time_str, date_str, 'pt')
+            else:
+                print(f"无法解析时间: {time_text}")
+                return None
+                
+        except Exception as e:
+            print(f"解析节目时间错误: {e}, 时间文本: {time_text}")
             return None
     
     def get_tv_schedule_for_date(self, date_str, debug_file, page_params):
@@ -264,7 +313,7 @@ class TVScheduleConverter:
                     if figure_elem:
                         p_elem = figure_elem.find('p')
                         if p_elem:
-                            description = p_elem.get_text(strip=True)
+                            description = self.clean_description(p_elem.get_text(strip=False))
                     
                     # 如果没有从p标签获取到描述，尝试从modal中获取
                     if not description:
@@ -285,7 +334,7 @@ class TVScheduleConverter:
                                         'md-date' not in line and
                                         not line.startswith('2025-')):
                                         description_lines.append(line)
-                                description = ' '.join(description_lines)
+                                description = self.clean_description(''.join(description_lines))
                 
                 # 提取图片
                 img_td = row.find('td', class_='extvs-table1-image')
@@ -385,11 +434,19 @@ class TVScheduleConverter:
                 sub_title.set('lang', 'zh')
                 sub_title.text = program['cast_host']
             
-            # 描述
+            # 描述 - 如果没有描述，使用自闭合标签
             if program['description']:
                 desc = ET.SubElement(programme, 'desc')
                 desc.set('lang', 'zh')
                 desc.text = program['description']
+            else:
+                # 使用自闭合的desc标签
+                ET.SubElement(programme, 'desc', {'lang': 'zh'})
+            
+            # 添加credits元素，包含writer信息
+            credits = ET.SubElement(programme, 'credits')
+            writer = ET.SubElement(credits, 'writer')
+            writer.text = 'yufeilai666'
             
             # 分类（简单分类，可根据实际情况改进）
             category = ET.SubElement(programme, 'category')
