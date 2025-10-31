@@ -45,6 +45,71 @@ class TVScheduleConverter:
         
         return dates
     
+    def test_website_availability(self):
+        """测试网站是否可访问"""
+        try:
+            response = requests.get("https://lstimes.ca/", timeout=10)
+            print(f"网站状态码: {response.status_code}")
+            return response.status_code == 200
+        except Exception as e:
+            print(f"网站不可访问: {e}")
+            return False
+    
+    def test_api_endpoint(self):
+        """测试API端点是否可用"""
+        # 使用当前日期的时间戳
+        current_timestamp = int(time.time())
+        
+        # 尝试不同的参数组合
+        test_params = [
+            {
+                'action': 'extvs_get_schedule_simple',
+                'param_shortcode': '%7B%22style%22%3A%221%22%2C%22fullcontent_in%22%3A%22modal%22%2C%22show_image%22%3A%22show%22%2C%22channel%22%3A%22%22%2C%22slidesshow%22%3A%224%22%2C%22slidesscroll%22%3A%221%22%2C%22start_on%22%3A%221%22%2C%22before_today%22%3A%221%22%2C%22after_today%22%3A%227%22%2C%22order%22%3A%22DESC%22%2C%22orderby%22%3A%22date%22%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22ID%22%3A%22ex-1160%22%7D',
+                'date': current_timestamp,
+                'chanel': '%25e7%25af%2580%25e7%259b%25ae%25e8%25a1%25a8'
+            },
+            {
+                'action': 'extvs_get_schedule_simple',
+                'param_shortcode': '%7B%22style%22%3A%221%22%2C%22fullcontent_in%22%3A%22modal%22%2C%22show_image%22%3A%22show%22%2C%22channel%22%3A%22%22%2C%22slidesshow%22%3A%224%22%2C%22slidesscroll%22%3A%221%22%2C%22start_on%22%3A%221%22%2C%22before_today%22%3A%220%22%2C%22after_today%22%3A%220%22%2C%22order%22%3A%22DESC%22%2C%22orderby%22%3A%22date%22%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22ID%22%3A%22ex-1160%22%7D',
+                'date': current_timestamp,
+                'chanel': '%25e7%25af%2580%25e7%259b%25ae%25e8%25a1%25a8'
+            }
+        ]
+        
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            'X-Requested-With': 'XMLHttpRequest',
+            'Accept': 'application/json, text/javascript, */*; q=0.01',
+            'Referer': 'https://lstimes.ca/'
+        }
+        
+        for i, params in enumerate(test_params):
+            print(f"\n测试参数组合 {i+1}:")
+            try:
+                response = requests.post(self.api_url, data=params, headers=headers, timeout=30)
+                print(f"状态码: {response.status_code}")
+                
+                if response.status_code == 200:
+                    try:
+                        data = response.json()
+                        html_content = data.get('html', '')
+                        print(f"HTML内容长度: {len(html_content)}")
+                        
+                        if "No matching records found" in html_content:
+                            print("结果: 没有找到匹配的记录")
+                        else:
+                            print("结果: 可能找到了数据")
+                            # 保存测试结果
+                            with open(f"test_result_{i+1}.html", "w", encoding="utf-8") as f:
+                                f.write(html_content)
+                    except:
+                        print("响应不是JSON格式")
+                else:
+                    print(f"请求失败: {response.status_code}")
+            except Exception as e:
+                print(f"测试失败: {e}")
+    
     def convert_to_beijing_time(self, et_time_str, date_str):
         """将加拿大东部时间转换为北京时间"""
         try:
@@ -352,9 +417,19 @@ class TVScheduleConverter:
         """主执行函数"""
         print("开始获取电视节目表...")
         
+        # 测试网站可访问性
+        print("\n=== 测试网站可访问性 ===")
+        if not self.test_website_availability():
+            print("网站不可访问，请检查网络连接")
+            return
+        
+        # 测试API端点
+        print("\n=== 测试API端点 ===")
+        self.test_api_endpoint()
+        
         # 获取请求日期范围（昨天到未来8天，共9天）
         request_dates = self.get_request_dates()
-        print(f"请求日期范围: {request_dates[0]} 至 {request_dates[-1]}")
+        print(f"\n请求日期范围: {request_dates[0]} 至 {request_dates[-1]}")
         
         # 获取输出日期范围（今天到未来6天，共7天）
         output_dates = self.get_output_dates()
