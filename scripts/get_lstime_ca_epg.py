@@ -7,6 +7,7 @@ import time
 from bs4 import BeautifulSoup
 import urllib.parse
 from xml.dom import minidom
+import re
 
 class TVScheduleConverter:
     def __init__(self):
@@ -14,9 +15,60 @@ class TVScheduleConverter:
         self.beijing_tz = tz.gettz('Asia/Shanghai')
         self.et_tz = tz.gettz('America/Toronto')  # 东部时间
         
-        # API端点
+        # 网站URL
+        self.base_url = "https://lstimes.ca"
+        self.schedule_url = "https://lstimes.ca/schedule"
         self.api_url = "https://lstimes.ca/wp-admin/admin-ajax.php"
         
+    def get_page_params(self):
+        """获取页面中的参数"""
+        try:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+            
+            response = requests.get(self.schedule_url, headers=headers, timeout=30)
+            print(f"获取页面状态码: {response.status_code}")
+            
+            if response.status_code != 200:
+                print("无法获取页面")
+                return None
+                
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            # 查找包含参数的div
+            tv_div = soup.find('div', class_='ex-tvs-simple')
+            if not tv_div:
+                print("未找到节目表div")
+                return None
+                
+            # 获取param_shortcode
+            param_input = tv_div.find('input', {'id': 'param_shortcode'})
+            if not param_input:
+                print("未找到param_shortcode")
+                return None
+                
+            param_shortcode = param_input.get('value', '')
+            print(f"获取到param_shortcode: {param_shortcode}")
+            
+            # 获取chanel_selected
+            chanel_input = tv_div.find('input', {'name': 'chanel_selected'})
+            if not chanel_input:
+                print("未找到chanel_selected")
+                return None
+                
+            chanel_selected = chanel_input.get('value', '')
+            print(f"获取到chanel_selected: {chanel_selected}")
+            
+            return {
+                'param_shortcode': param_shortcode,
+                'chanel_selected': chanel_selected
+            }
+            
+        except Exception as e:
+            print(f"获取页面参数错误: {e}")
+            return None
+    
     def get_request_dates(self):
         """获取需要请求的日期范围（北京时间的昨天到未来8天，共9天）"""
         beijing_now = datetime.now(self.beijing_tz)
@@ -44,71 +96,6 @@ class TVScheduleConverter:
             current_date += timedelta(days=1)
         
         return dates
-    
-    def test_website_availability(self):
-        """测试网站是否可访问"""
-        try:
-            response = requests.get("https://lstimes.ca/", timeout=10)
-            print(f"网站状态码: {response.status_code}")
-            return response.status_code == 200
-        except Exception as e:
-            print(f"网站不可访问: {e}")
-            return False
-    
-    def test_api_endpoint(self):
-        """测试API端点是否可用"""
-        # 使用当前日期的时间戳
-        current_timestamp = int(time.time())
-        
-        # 尝试不同的参数组合
-        test_params = [
-            {
-                'action': 'extvs_get_schedule_simple',
-                'param_shortcode': '%7B%22style%22%3A%221%22%2C%22fullcontent_in%22%3A%22modal%22%2C%22show_image%22%3A%22show%22%2C%22channel%22%3A%22%22%2C%22slidesshow%22%3A%224%22%2C%22slidesscroll%22%3A%221%22%2C%22start_on%22%3A%221%22%2C%22before_today%22%3A%221%22%2C%22after_today%22%3A%227%22%2C%22order%22%3A%22DESC%22%2C%22orderby%22%3A%22date%22%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22ID%22%3A%22ex-1160%22%7D',
-                'date': current_timestamp,
-                'chanel': '%25e7%25af%2580%25e7%259b%25ae%25e8%25a1%25a8'
-            },
-            {
-                'action': 'extvs_get_schedule_simple',
-                'param_shortcode': '%7B%22style%22%3A%221%22%2C%22fullcontent_in%22%3A%22modal%22%2C%22show_image%22%3A%22show%22%2C%22channel%22%3A%22%22%2C%22slidesshow%22%3A%224%22%2C%22slidesscroll%22%3A%221%22%2C%22start_on%22%3A%221%22%2C%22before_today%22%3A%220%22%2C%22after_today%22%3A%220%22%2C%22order%22%3A%22DESC%22%2C%22orderby%22%3A%22date%22%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22ID%22%3A%22ex-1160%22%7D',
-                'date': current_timestamp,
-                'chanel': '%25e7%25af%2580%25e7%259b%25ae%25e8%25a1%25a8'
-            }
-        ]
-        
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            'X-Requested-With': 'XMLHttpRequest',
-            'Accept': 'application/json, text/javascript, */*; q=0.01',
-            'Referer': 'https://lstimes.ca/'
-        }
-        
-        for i, params in enumerate(test_params):
-            print(f"\n测试参数组合 {i+1}:")
-            try:
-                response = requests.post(self.api_url, data=params, headers=headers, timeout=30)
-                print(f"状态码: {response.status_code}")
-                
-                if response.status_code == 200:
-                    try:
-                        data = response.json()
-                        html_content = data.get('html', '')
-                        print(f"HTML内容长度: {len(html_content)}")
-                        
-                        if "No matching records found" in html_content:
-                            print("结果: 没有找到匹配的记录")
-                        else:
-                            print("结果: 可能找到了数据")
-                            # 保存测试结果
-                            with open(f"test_result_{i+1}.html", "w", encoding="utf-8") as f:
-                                f.write(html_content)
-                    except:
-                        print("响应不是JSON格式")
-                else:
-                    print(f"请求失败: {response.status_code}")
-            except Exception as e:
-                print(f"测试失败: {e}")
     
     def convert_to_beijing_time(self, et_time_str, date_str):
         """将加拿大东部时间转换为北京时间"""
@@ -155,20 +142,24 @@ class TVScheduleConverter:
             
         return self.convert_to_beijing_time(et_time, date_str)
     
-    def get_tv_schedule_for_date(self, date_str, debug_file):
+    def get_tv_schedule_for_date(self, date_str, debug_file, page_params):
         """获取指定日期的电视节目表"""
         # 将日期转换为Unix时间戳
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         timestamp = int(time.mktime(date_obj.timetuple()))
         
-        # 使用您提供的参数格式
-        param_shortcode = '%7B%22style%22%3A%221%22%2C%22fullcontent_in%22%3A%22modal%22%2C%22show_image%22%3A%22show%22%2C%22channel%22%3A%22%22%2C%22slidesshow%22%3A%224%22%2C%22slidesscroll%22%3A%221%22%2C%22start_on%22%3A%221%22%2C%22before_today%22%3A%221%22%2C%22after_today%22%3A%227%22%2C%22order%22%3A%22DESC%22%2C%22orderby%22%3A%22date%22%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22ID%22%3A%22ex-1160%22%7D'
+        # 使用从页面获取的参数
+        param_shortcode = page_params['param_shortcode']
+        chanel_selected = page_params['chanel_selected']
+        
+        # 对参数进行URL编码
+        param_shortcode_encoded = urllib.parse.quote(param_shortcode)
         
         params = {
             'action': 'extvs_get_schedule_simple',
-            'param_shortcode': param_shortcode,
+            'param_shortcode': param_shortcode_encoded,
             'date': timestamp,
-            'chanel': '%25e7%25af%2580%25e7%259b%25ae%25e8%25a1%25a8'  # 使用您提供的编码格式
+            'chanel': chanel_selected
         }
         
         print(f"请求日期: {date_str}")
@@ -180,7 +171,7 @@ class TVScheduleConverter:
                 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
                 'X-Requested-With': 'XMLHttpRequest',
                 'Accept': 'application/json, text/javascript, */*; q=0.01',
-                'Referer': 'https://lstimes.ca/'
+                'Referer': 'https://lstimes.ca/schedule'
             }
             
             response = requests.post(self.api_url, data=params, headers=headers, timeout=30)
@@ -417,19 +408,16 @@ class TVScheduleConverter:
         """主执行函数"""
         print("开始获取电视节目表...")
         
-        # 测试网站可访问性
-        print("\n=== 测试网站可访问性 ===")
-        if not self.test_website_availability():
-            print("网站不可访问，请检查网络连接")
+        # 首先获取页面参数
+        print("=== 获取页面参数 ===")
+        page_params = self.get_page_params()
+        if not page_params:
+            print("无法获取页面参数，无法继续")
             return
-        
-        # 测试API端点
-        print("\n=== 测试API端点 ===")
-        self.test_api_endpoint()
         
         # 获取请求日期范围（昨天到未来8天，共9天）
         request_dates = self.get_request_dates()
-        print(f"\n请求日期范围: {request_dates[0]} 至 {request_dates[-1]}")
+        print(f"请求日期范围: {request_dates[0]} 至 {request_dates[-1]}")
         
         # 获取输出日期范围（今天到未来6天，共7天）
         output_dates = self.get_output_dates()
@@ -447,7 +435,7 @@ class TVScheduleConverter:
             # 先获取所有节目信息
             for date_str in request_dates:
                 print(f"\n=== 获取 {date_str} 的节目表 ===")
-                programs = self.get_tv_schedule_for_date(date_str, debug_file)
+                programs = self.get_tv_schedule_for_date(date_str, debug_file, page_params)
                 all_programs.extend(programs)
                 print(f"获取到 {len(programs)} 个节目")
                 
