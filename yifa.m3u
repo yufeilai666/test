@@ -1125,7 +1125,7 @@ http://t.061899.xyz/tl/js/js.php?id=wltyt
 http://t.061899.xyz/tl/js/js.php?id=wlrbt
 #EXTINF:-1 tvg-id="緯來育樂台" tvg-name="緯來育樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/纬来育乐台.png" group-title="极速0618",纬来育乐台
 http://t.061899.xyz/tl/js/js.php?id=wlylt
-#EXTINF:-1 group-title="极速0618",DAZN 1
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" group-title="极速0618",DAZN 1
 http://t.061899.xyz/tl/js/js.php?id=1dazn
 #EXTINF:-1 tvg-id="DAZN 2" tvg-name="DAZN 2" group-title="极速0618",DAZN 2
 http://t.061899.xyz/tl/js/js.php?id=2dazn
