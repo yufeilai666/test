@@ -89,7 +89,7 @@ https://live.tvfix.org/live/popc/index.m3u8
 https://live.tvfix.org/live/axn/index.m3u8
 #EXTINF:-1 tvg-id="Global Trekker" tvg-name="Global Trekker" group-title="刘公子港湾",Global Trekker
 https://live.tvfix.org/live/trekker/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",Mezzo Live
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="刘公子港湾",Mezzo Live
 https://live.tvfix.org/live/mezzon/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="刘公子港湾",凤凰香港
 https://live.tvfix.org/live/fwxg/2/v4000000/index.m3u8
@@ -141,7 +141,7 @@ http://iot-mqqt.111yao.cn:8080/live/diyp_starmovies.m3u8
 http://iot-mqqt.111yao.cn:8080/live/diyp_fhdy.m3u8
 #EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="刘公子港湾",龙华电影
 https://cdn8.163189.xyz/live/lhdy/stream.m3u8
-#EXTINF:-1 tvg-id="龍華經典" tvg-name="龍華經典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="刘公子港湾",龙华经典
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="刘公子港湾",龙华经典
 https://cdn8.163189.xyz/live/lhjd/stream.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華卡通.png" group-title="刘公子港湾",龙华卡通
 https://cdn8.163189.xyz/live/lhkt/stream.m3u8
@@ -197,7 +197,7 @@ http://61.221.215.25:8800/hls/9/index.m3u8
 http://61.221.215.25:8800/hls/40/index.m3u8
 #EXTINF:-1 tvg-id="八大戲劇台" tvg-name="八大戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大戲劇台.png" group-title="刘公子港湾",八大戏剧台
 http://61.221.215.25:8800/hls/39/index.m3u8
-#EXTINF:-1 tvg-id="三立戲劇台" tvg-name="三立戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立戲劇台.png" group-title="刘公子港湾",三立戏剧台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立戲劇台.png" group-title="刘公子港湾",三立戏剧台
 http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1 tvg-id="AMC電影" tvg-name="AMC電影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/AMC電影.png" group-title="刘公子港湾",AMC电影
 http://61.221.215.25:8800/hls/43/index.m3u8

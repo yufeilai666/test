@@ -323,7 +323,7 @@ p3p://167.114.175.6:55331/6146901b0006875bea841df772893d7b
 p3p://167.114.175.6:55331/6027f40400042e0d8b002a1b0af27e77
 #EXTINF:-1 group-title="体育SP",Eleven 2
 p3p://167.114.175.6:55331/6025f1d0000440c783278efb13a4147e
-#EXTINF:-1 tvg-id="博斯網球" tvg-name="博斯網球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="体育SP",博斯网球
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="体育SP",博斯网球
 p3p://167.114.175.6:55331/6275f21d000aeb447fb1e83c30d60273
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育1.png" group-title="体育SP",爱尔达体育1
 p3p://167.114.175.6:55331/623a8d50000c965397b2d5b26c7b25bd
@@ -727,7 +727,7 @@ p3p://167.114.175.6:55331/5fe6fce400011e568d3deaf35a511da9
 p3p://167.114.175.6:55331/64be9bb50006c1b519c62cba356951a9
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CNBC.png" group-title="新闻News",CNBC
 p3p://167.114.175.6:55331/5fe7ed9d000bee7690ea4066318039ec
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
 p3p://167.114.175.6:55331/5fe7ee3900072cc790eca08f51983f0f
 #EXTINF:-1 group-title="新闻News",CNN us
 p3p://167.114.175.6:55331/62ca114100072864c847817e53ba1492
@@ -777,13 +777,13 @@ p3p://fccsen.dyndns.tv:29706/59bc7fe40002bfa9586064da5fe27f17
 p3p://fccsen.dyndns.tv:29706/59bc801000090e075861125817955ece
 #EXTINF:-1 group-title="新闻News",ABC news  au
 p3p://167.114.175.6:55331/616af6760009c76c78b2265b3bf645df
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
 p3p://fccsen.dyndns.tv:29706/5a7e6aa2000db3e039783dac0a1c0882
 #EXTINF:-1 group-title="新闻News",I24 News
 p3p://fccsen.dyndns.tv:29706/5a5170e800076ff389c911f013481fb8
 #EXTINF:-1 group-title="新闻News",FRANCE 24 Direct
 p3p://fccsen.dyndns.tv:29706/5a7f52b400093c5c3d02c2d5213a441e
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
 p3p://fccsen.dyndns.tv:29706/61e758680001022ae082a6d70c3062b9
 #EXTINF:-1 group-title="新闻News",CNBC Awaaz
 p3p://fccsen.dyndns.tv:29706/5c59a4b20000133a37961cd816a4385b
@@ -1017,7 +1017,7 @@ p3p://167.114.175.6:55331/621e1827000d7a3a288a84ae70c44b0d
 p3p://167.114.175.6:55331/621e16b0000ec4772884cc295a1614a8
 #EXTINF:-1 group-title="音悦台",Classica古典音乐
 p3p://167.114.175.6:55331/6452b4f1000c38e8744ac80744c33d67
-#EXTINF:-1 group-title="音悦台",Mezzo Live
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="音悦台",Mezzo Live
 p3p://167.114.175.6:55331/6452bcb000039d52746907f4476f5e7b
 #EXTINF:-1 tvg-id="CMusic" tvg-name="CMusic" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CMusic.png" group-title="音悦台",CMUSIC
 p3p://167.114.175.6:55331/64e368dc000e5b23a986c9d62f9604df
@@ -1061,7 +1061,7 @@ p3p://167.114.175.6:55331/607baafd000686b7d1feeaf057054684
 p3p://167.114.175.6:55331/607baae200022f97d1fe805b3340400e
 #EXTINF:-1 group-title="音悦台",黄家驹
 p3p://167.114.175.6:55331/607baabf00056b7ad1fdf877428f3508
-#EXTINF:-1 tvg-id="MTV Live" tvg-name="MTV Live" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="音悦台",MTV live
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="音悦台",MTV live
 p3p://fccsen.dyndns.tv:29706/59adf63f00089a1e1f96cf6523872643
 #EXTINF:-1 group-title="音悦台",Festival 4k
 p3p://167.114.175.6:55331/647c5502000692e116e32e9c46b45652
@@ -1529,7 +1529,7 @@ p3p://167.114.175.6:55331/6146901b0006875bea841df772893d7b
 p3p://167.114.175.6:55331/621dc4640002052a2743501031f65ed4
 #EXTINF:-1 tvg-id="Animax" tvg-name="Animax" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ANIMAX.png" group-title="台湾TW",Animax
 p3p://167.114.175.6:55331/61e0f9f0000ec6db45a9e87848424184
-#EXTINF:-1 tvg-id="HITS" tvg-name="HITS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HITS.png" group-title="台湾TW",HITS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HITS.png" group-title="台湾TW",HITS
 p3p://167.114.175.6:55331/6233e648000735057db6cf734adf440d
 #EXTINF:-1 group-title="台湾TW",星光电影台
 p3p://167.114.175.6:55331/663e86e0000d192b28244b354df449af
@@ -1537,7 +1537,7 @@ p3p://167.114.175.6:55331/663e86e0000d192b28244b354df449af
 p3p://167.114.175.6:55331/623bc4f4000da3919c742e942bdb3571
 #EXTINF:-1 tvg-id="BBC LIFESTYLE" tvg-name="BBC LIFESTYLE" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Lifestyle.png" group-title="台湾TW",BBC Lifestyle
 p3p://167.114.175.6:55331/64026f590000e9663abc652f25176282
-#EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="台湾TW",BBC earth
+#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="台湾TW",BBC earth
 p3p://167.114.175.6:55331/6444eb2e000921503e6ecfe873cd10b1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/尼克儿童.png" group-title="台湾TW",尼克儿童
 p3p://167.114.175.6:55331/6233e0ca0000ca8f7da159a76b755519
@@ -1595,7 +1595,7 @@ p3p://167.114.175.6:55331/63ebf4b70008a733e2edb2296e997eb6
 p3p://167.114.175.6:55331/609bb1b0000732744f174daa791d3b43
 #EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="台湾TW",龙华戏剧
 p3p://167.114.175.6:55331/6214c295000a5fa204149eb30d3c30b4
-#EXTINF:-1 tvg-id="龍華經典" tvg-name="龍華經典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="台湾TW",龙华经典
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="台湾TW",龙华经典
 p3p://167.114.175.6:55331/6223b9d8000ef67e3e8a2073190e36d5
 #EXTINF:-1 group-title="台湾TW",东风37
 p3p://167.114.175.6:55331/65e43760000a035494a8bab255152210
@@ -1651,7 +1651,7 @@ p3p://167.114.175.6:55331/5fe293b60007594a7c0310e05b6a27ac
 p3p://167.114.175.6:55331/61a57c52000cc2015d49e9e91be106b6
 #EXTINF:-1 tvg-id="靖天映畫" tvg-name="靖天映畫" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天映畫.png" group-title="台湾TW",靖天映画
 p3p://167.114.175.6:55331/6258eae500040fd80e4f0b2311754279
-#EXTINF:-1 tvg-id="博斯網球" tvg-name="博斯網球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="台湾TW",博斯网球
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="台湾TW",博斯网球
 p3p://167.114.175.6:55331/6275f21d000aeb447fb1e83c30d60273
 #EXTINF:-1 tvg-id="美食星球" tvg-name="美食星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美食星球.png" group-title="台湾TW",美食星球
 p3p://167.114.175.6:55331/62c9a5620009f165c6a22320701370b6
@@ -1669,7 +1669,7 @@ p3p://167.114.175.6:55331/621e14f2000381b7287dfb1557135ff8
 p3p://167.114.175.6:55331/6258f7e400070ac10e81d00831393e97
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天育乐.png" group-title="台湾TW",靖天育乐
 p3p://167.114.175.6:55331/6223be04000a57323e9a6b2919b21d76
-#EXTINF:-1 tvg-id="博斯魅力" tvg-name="博斯魅力" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯魅力.png" group-title="台湾TW",博斯魅力
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯魅力.png" group-title="台湾TW",博斯魅力
 p3p://167.114.175.6:55331/612ee43d000c84ea8e0dab707a8b2e0d
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MOMO綜合.png" group-title="台湾TW",Momo综合
 p3p://167.114.175.6:55331/621e17750005eaa02887cb6e61ea2a58
@@ -1679,7 +1679,7 @@ p3p://167.114.175.6:55331/64c0e1af000875f522a785c0570b06ae
 p3p://167.114.175.6:55331/621db24e000d4a9726fcacfd58c400a2
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/影迷纪实.png" group-title="台湾TW",影迷纪实
 p3p://167.114.175.6:55331/62c9a2fe00025fc4c698ca952e9711cb
-#EXTINF:-1 tvg-id="amc最愛電影" tvg-name="amc最愛電影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/amc最爱电影.png" group-title="台湾TW",Amc最爱电影
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/amc最爱电影.png" group-title="台湾TW",Amc最爱电影
 p3p://167.114.175.6:55331/625bbd49000d7c0d1954e42d45bc3182
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖洋戏剧.png" group-title="台湾TW",靖洋戏剧
 p3p://167.114.175.6:55331/626104d8000627c22df3f662158708fa
@@ -1703,7 +1703,7 @@ p3p://167.114.175.6:55331/623a8d8d0001570d97b3c11a65640b68
 p3p://167.114.175.6:55331/622e99e60004026169046fd918be6ed7
 #EXTINF:-1 group-title="台湾TW",爱尔达体育4
 p3p://167.114.175.6:55331/6561b7fc0008015996e9acc674481614
-#EXTINF:-1 tvg-id="歷史頻道" tvg-name="歷史頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/歷史頻道.png" group-title="台湾TW",历史频道
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/歷史頻道.png" group-title="台湾TW",历史频道
 p3p://167.114.175.6:55331/6233e1a30007e08d7da4ab21717b3e79
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/历史频道2.png" group-title="台湾TW",历史频道2
 p3p://167.114.175.6:55331/6233e2240002d3af7da6a1bf693a1ed5
@@ -1755,7 +1755,7 @@ p3p://167.114.175.6:55331/60c79e440000ec5bfaa9367854ba796d
 p3p://167.114.175.6:55331/64450b180002b23d3eeb784a0aa62e20
 #EXTINF:-1 tvg-id="公視戲劇" tvg-name="公視戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公视戏剧.png" group-title="台湾TW",公视戏剧
 p3p://167.114.175.6:55331/64450cdd000b67ea3ef2640f773a7ec7
-#EXTINF:-1 tvg-id="EVE" tvg-name="EVE" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/EVE.png" group-title="台湾TW",EVE
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/EVE.png" group-title="台湾TW",EVE
 p3p://167.114.175.6:55331/6445172e000920783f1aafee754f43e4
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HGTV.png" group-title="台湾TW",HGTV
 p3p://167.114.175.6:55331/644518fd0002d5953f21bedc56b6465f
@@ -1765,7 +1765,7 @@ p3p://167.114.175.6:55331/6484e089000a5e7a38440c1e1ace3b27
 p3p://167.114.175.6:55331/644f9623000a4051681a72d66bfc0191
 #EXTINF:-1 group-title="台湾TW",Classica古典音乐
 p3p://167.114.175.6:55331/6452b4f1000c38e8744ac80744c33d67
-#EXTINF:-1 group-title="台湾TW",Mezzo Live
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="台湾TW",Mezzo Live
 p3p://167.114.175.6:55331/6452bcb000039d52746907f4476f5e7b
 #EXTINF:-1 tvg-id="豬哥亮歌廳秀" tvg-name="豬哥亮歌廳秀" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/猪哥亮歌厅秀.png" group-title="台湾TW",猪哥亮歌厅秀
 p3p://167.114.175.6:55331/6452bbf2000d02457466242b0e5c5ea2
@@ -1961,7 +1961,7 @@ p3p://167.114.175.6:55331/5fe6fc1b000ac7f68d3adc447a2f6dff
 p3p://167.114.175.6:55331/5fe6fbc100001f378d3979f96c3c56d3
 #EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NICKELODEON.png" group-title="新马MS",Nickelodeon
 p3p://167.114.175.6:55331/5fe6f99b000795818d31176f38c42fc9
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新马MS",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新马MS",Bloomberg
 p3p://167.114.175.6:55331/5fe7ee3900072cc790eca08f51983f0f
 #EXTINF:-1 group-title="新马MS",History马来
 p3p://167.114.175.6:55331/5fe7e68e000270df90ceab575c346366
@@ -1993,7 +1993,7 @@ p3p://167.114.175.6:55331/656b06be00029e16bb452713093c6af9
 p3p://167.114.175.6:55331/64bd05ac0000680a139417f110dd4659
 #EXTINF:-1 group-title="新马MS",Astro Arenabola 2
 p3p://167.114.175.6:55331/64bd0692000e510013979df27f954b02
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新马MS",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新马MS",Bloomberg
 p3p://fccsen.dyndns.tv:29706/61e758680001022ae082a6d70c3062b9
 #EXTINF:-1 group-title="新马MS",Zee World
 p3p://fccsen.dyndns.tv:29706/614be3d6000446728143b55f3f6f422a
@@ -2771,7 +2771,7 @@ p3p://167.114.175.6:55331/603596760003c2bac041d59d04721471
 p3p://167.114.175.6:55331/603923a8000ef52bce2163d1528d1785
 #EXTINF:-1 group-title="美国USA",CNN us
 p3p://167.114.175.6:55331/62ca114100072864c847817e53ba1492
-#EXTINF:-1 tvg-id="MTV Live" tvg-name="MTV Live" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="美国USA",MTV live
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="美国USA",MTV live
 p3p://fccsen.dyndns.tv:29706/59adf63f00089a1e1f96cf6523872643
 #EXTINF:-1 tvg-id="CNN International" tvg-name="CNN International" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CNN International.png" group-title="美国USA",CNN International
 p3p://fccsen.dyndns.tv:29706/5a20bffb0002906acb96445d76975880
@@ -2897,7 +2897,7 @@ p3p://fccsen.dyndns.tv:29706/5a1494c00005157b9c0d78006afa26fc
 p3p://fccsen.dyndns.tv:29706/5a47c3d4000c210263fd0c6d196b47ad
 #EXTINF:-1 group-title="美国USA",USA Network
 p3p://fccsen.dyndns.tv:29706/5f36e55f000051e05f432b9823245870
-#EXTINF:-1 tvg-id="Travel Channel" tvg-name="Travel Channel" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Travel Channel.png" group-title="美国USA",Travel Channel
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Travel Channel.png" group-title="美国USA",Travel Channel
 p3p://fccsen.dyndns.tv:29706/5a20ac3a000aeb29cb491ca07e63492d
 #EXTINF:-1 group-title="美国USA",Tru TV
 p3p://fccsen.dyndns.tv:29706/5a3c724e0009e51e37c6a846152756c9
@@ -3295,7 +3295,7 @@ p3p://fccsen.dyndns.tv:29706/5eab9d25000950d447c768f86d8507f7
 p3p://fccsen.dyndns.tv:29706/5a83817900067ff64d59630f2a13081a
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mtv.png" group-title="加拿大CA",MTV
 p3p://fccsen.dyndns.tv:29706/615bdeb3000754d8bfaf92bb35ea5472
-#EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="加拿大CA",BBC Earth
+#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="加拿大CA",BBC Earth
 p3p://fccsen.dyndns.tv:29706/58ab8c030006e5da5aeb621b23617da7
 #EXTINF:-1 group-title="加拿大CA",ShowCase CA
 p3p://fccsen.dyndns.tv:29706/5a824ba300070904489f1748478d74dd
@@ -3477,7 +3477,7 @@ p3p://fccsen.dyndns.tv:29706/5da51e77000af0554668f4872a89003b
 p3p://fccsen.dyndns.tv:29706/5da88bb300039f0c53cba50744e74fe0
 #EXTINF:-1 group-title="英国UK",ABC news  au
 p3p://167.114.175.6:55331/616af6760009c76c78b2265b3bf645df
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="英国UK",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="英国UK",Bloomberg
 p3p://fccsen.dyndns.tv:29706/5a7e6aa2000db3e039783dac0a1c0882
 #EXTINF:-1 group-title="英国UK",HBO 1 EU
 p3p://fccsen.dyndns.tv:29706/5a7f5d8b0006c8863d2d1a0954875116
@@ -3485,7 +3485,7 @@ p3p://fccsen.dyndns.tv:29706/5a7f5d8b0006c8863d2d1a0954875116
 p3p://fccsen.dyndns.tv:29706/5a7f5df90002ac273d2ec6ad45e61251
 #EXTINF:-1 group-title="英国UK",HBO 3 EU
 p3p://fccsen.dyndns.tv:29706/5a7f5e14000964a73d2f31dd21593dab
-#EXTINF:-1 tvg-id="LUXE TV" tvg-name="LUXE TV" group-title="英国UK",Luxe TV
+#EXTINF:-1 group-title="英国UK",Luxe TV
 p3p://167.114.175.6:55331/6456af9600079b7483d5b18c11483d4c
 #EXTINF:-1 group-title="英国UK",Sport tv1
 p3p://167.114.175.6:55331/645c8ade0007014d9ab6429c783c1a24
