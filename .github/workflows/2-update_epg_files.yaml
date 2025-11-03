@@ -36,31 +36,34 @@ jobs:
         import os
         import time
         from pathlib import Path
-        
+        import concurrent.futures
+        from threading import Lock
+
         # 读取配置文件
         with open('files.json', 'r', encoding='utf-8') as f:
             config = json.load(f)
-        
+
         epg_urls = config.get('epg_url', {})
         epg_dir = Path('epg')
-        
+
         # 确保目录存在
         epg_dir.mkdir(exist_ok=True)
-        
-        print(f"⬇️ 开始下载 {len(epg_urls)} 个EPG文件...")
-        print("="*36 + "\n")
-        print("*"*36)
-        
+
+        # 创建锁用于线程安全的计数和打印
+        print_lock = Lock()
         success_count = 0
         fail_count = 0
-        
-        for filename, url in epg_urls.items():
+
+        def download_single_epg(item):
+            global success_count, fail_count
+            filename, url = item
             max_retries = 3
             retry_delay = 2  # 重试延迟秒数
             
             for attempt in range(max_retries):
                 try:
-                    print(f"🚀 正在下载: {filename} (尝试 {attempt + 1}/{max_retries})")
+                    with print_lock:
+                        print(f"🚀 正在下载: {filename} (尝试 {attempt + 1}/{max_retries})")
                     
                     # 设置请求头
                     headers = {
@@ -78,31 +81,53 @@ jobs:
                         f.write(response.content)
                     
                     file_size = len(response.content)
-                    print(f"✅ 成功下载: {filename} ({file_size} 字节)")
-                    print("*"*36)
-                    success_count += 1
-                    break  # 成功则跳出重试循环
+                    with print_lock:
+                        print(f"✅ 成功下载: {filename} ({file_size} 字节)")
+                        print("*"*36)
+                        success_count += 1
+                    return True  # 成功则跳出重试循环
                     
                 except Exception as e:
-                    print(f"⚠️ 下载失败 {filename} (尝试 {attempt + 1}/{max_retries}): {str(e)}")
+                    with print_lock:
+                        print(f"⚠️ 下载失败 {filename} (尝试 {attempt + 1}/{max_retries}): {str(e)}")
                     
                     # 如果是最后一次尝试仍然失败
                     if attempt == max_retries - 1:
-                        print(f"❌ 放弃下载 {filename}，已达到最大重试次数")
-                        print("*"*36)
-                        fail_count += 1
+                        with print_lock:
+                            print(f"❌ 放弃下载 {filename}，已达到最大重试次数")
+                            print("*"*36)
+                            fail_count += 1
+                        return False
                     else:
                         # 不是最后一次失败，等待后重试
-                        print(f"\n⏳️ 等待 {retry_delay} 秒后重试...")
+                        with print_lock:
+                            print(f"\n⏳️ 等待 {retry_delay} 秒后重试 {filename}...")
                         time.sleep(retry_delay)
                         retry_delay *= 1.5  # 指数退避策略
-        
+
+        print(f"⬇️ 开始下载 {len(epg_urls)} 个EPG文件...")
+        print("="*36 + "\n")
+        print("*"*36)
+
+        # 使用线程池并行下载，最大并发数为5
+        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+            # 提交所有下载任务
+            futures = {executor.submit(download_single_epg, item): item for item in epg_urls.items()}
+            
+            # 等待所有任务完成
+            for future in concurrent.futures.as_completed(futures):
+                filename = futures[future][0]
+                try:
+                    future.result()  # 获取结果，如果有异常会在这里抛出
+                except Exception as e:
+                    with print_lock:
+                        print(f"❌ 下载任务异常 {filename}: {str(e)}")
+
         print("\n" + "="*36)
         print(f"🎉 下载完成: 成功 {success_count} 个, 失败 {fail_count} 个")
-        
+
         # 如果有失败的文件，以代码0退出（不中断工作流）
         exit(0)
-        
         EOF
         
         python download_epg.py
