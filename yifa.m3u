@@ -1485,6 +1485,184 @@ http://iptv.4666888.xyz/iptv2A.php?id=爱奇艺
 http://iptv.4666888.xyz/iptv2A.php?id=TVBS台剧
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來戲劇.png" group-title="极速风云",纬来戏剧
 http://iptv.4666888.xyz/iptv2A.php?id=纬来戏剧
+#EXTINF:-1 group-title="斯玛特",华丽翡翠
+http://gotv.k.vu/api.php?id=Tvbjade
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="斯玛特",翡翠台
+http://gotv.k.vu/api.php?id=Jade_xue
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="斯玛特",翡翠台
+http://gotv.k.vu/api.php?id=jade_twn
+#EXTINF:-1 group-title="斯玛特",TVB Plus
+http://gotv.k.vu/api.php?id=j2_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="斯玛特",明珠台
+http://gotv.k.vu/api.php?id=pearl_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="斯玛特",无线新闻台
+http://gotv.k.vu/api.php?id=inews_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="斯玛特",凤凰香港
+http://gotv.k.vu/api.php?id=tvbcaijing_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/凤凰卫视.png" group-title="斯玛特",凤凰卫视
+http://gotv.k.vu/api.php?id=phoenixtv_hd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/viutv6.png" group-title="斯玛特",VIUTV6
+http://gotv.k.vu/api.php?id=viusix_twn
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="斯玛特",VIUTV
+http://gotv.k.vu/api.php?id=viu1_twn
+#EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB星河.png" group-title="斯玛特",TVB星河
+http://gotv.k.vu/api.php?id=Xinhe
+#EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB星河.png" group-title="斯玛特",TVB星河
+http://gotv.k.vu/api.php?id=tvbxinhe_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/RTHK32.png" group-title="斯玛特",RTHK32
+http://gotv.k.vu/api.php?id=rhk32_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/RTHK31.png" group-title="斯玛特",RTHK31
+http://gotv.k.vu/api.php?id=rhk31_twn
+#EXTINF:-1 group-title="斯玛特",HOY78台
+http://gotv.k.vu/api.php?id=hoycaijing_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧经典.png" group-title="斯玛特",千禧经典
+http://gotv.k.vu/api.php?id=Tvbclassic
+#EXTINF:-1 group-title="斯玛特",ASTRO AOD
+http://gotv.k.vu/api.php?id=Aodhd
+#EXTINF:-1 tvg-id="tvN" tvg-name="tvN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/tvN.png" group-title="斯玛特",TVN
+http://gotv.k.vu/api.php?id=TVN
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="斯玛特",纬来体育
+http://gotv.k.vu/api.php?id=videolandsport
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="斯玛特",纬来日本
+http://gotv.k.vu/api.php?id=videolandjapan
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="斯玛特",纬来电影
+http://gotv.k.vu/api.php?id=videolandmovie
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映頻道.png" group-title="斯玛特",天映频道
+http://gotv.k.vu/api.php?id=Celestial
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/探索亚洲.png" group-title="斯玛特",探索亚洲
+http://gotv.k.vu/api.php?id=discoverytwn_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/探索频道.png" group-title="斯玛特",探索频道
+http://gotv.k.vu/api.php?id=ba86fcd935
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/探索.png" group-title="斯玛特",探索
+http://gotv.k.vu/api.php?id=discoverych_twn
+#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="斯玛特",台视新闻
+http://gotv.k.vu/api.php?id=ttvnews_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/时尚频道.png" group-title="斯玛特",时尚频道
+http://gotv.k.vu/api.php?id=fashiontv_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天綜合.png" group-title="斯玛特",中天综合
+http://gotv.k.vu/api.php?id=ctizhonghe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天亞洲.png" group-title="斯玛特",中天亚洲
+http://gotv.k.vu/api.php?id=ctiasia_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天娛樂.png" group-title="斯玛特",中天娱乐
+http://gotv.k.vu/api.php?id=ctient
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="斯玛特",中天新闻
+http://gotv.k.vu/api.php?id=ctinews
+#EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视新闻.png" group-title="斯玛特",中视新闻
+http://gotv.k.vu/api.php?id=ca73a13c37
+#EXTINF:-1 tvg-id="亞洲旅遊台" tvg-name="亞洲旅遊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/亚洲旅游台.png" group-title="斯玛特",亚洲旅游台
+http://gotv.k.vu/api.php?id=asiatravel_twn
+#EXTINF:-1 tvg-id="三立綜合台" tvg-name="三立綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立綜合台.png" group-title="斯玛特",三立综合台
+http://gotv.k.vu/api.php?id=sanlizhonghe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/三立戲劇.png" group-title="斯玛特",三立戏剧
+http://gotv.k.vu/api.php?id=sanlixiju_twn
+#EXTINF:-1 tvg-id="三立台灣台" tvg-name="三立台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立台灣台.png" group-title="斯玛特",三立台湾台
+http://gotv.k.vu/api.php?id=sanlitaiwan
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/年代新闻.png" group-title="斯玛特",年代新闻
+http://gotv.k.vu/api.php?id=niandainews_twn
+#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视新闻台.png" group-title="斯玛特",民视新闻台
+http://gotv.k.vu/api.php?id=ftvnew_taiwan
+#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="斯玛特",民视台湾台
+http://gotv.k.vu/api.php?id=ftvtaiwan_twn
+#EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視第一台.png" group-title="斯玛特",民视第一台
+http://gotv.k.vu/api.php?id=lunghuajingdian_twn
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="斯玛特",民视
+http://gotv.k.vu/api.php?id=ftvhd_taiwan
+#EXTINF:-1 tvg-id="美亞電影台" tvg-name="美亞電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美亞電影台.png" group-title="斯玛特",美亚电影台
+http://gotv.k.vu/api.php?id=meiyamovie_twn
+#EXTINF:-1 tvg-id="美食星球" tvg-name="美食星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美食星球.png" group-title="斯玛特",美食星球
+http://gotv.k.vu/api.php?id=foodplanet_twn
+#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="斯玛特",龙祥时代
+http://gotv.k.vu/api.php?id=lungxiangtime_twn
+#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="斯玛特",龙祥时代
+http://gotv.k.vu/api.php?id=cb7a1fec69
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="斯玛特",龙华洋片
+http://gotv.k.vu/api.php?id=lunghuawestern_twn
+#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="斯玛特",龙华戏剧
+http://gotv.k.vu/api.php?id=lunghuaxiju_twn
+#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="斯玛特",龙华偶像
+http://gotv.k.vu/api.php?id=lunghuaidol_twn
+#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="斯玛特",龙华电影
+http://gotv.k.vu/api.php?id=xingwei_movie
+#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="斯玛特",龙华电影
+http://gotv.k.vu/api.php?id=xingwei_movie
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天卡通.png" group-title="斯玛特",靖天卡通
+http://gotv.k.vu/api.php?id=jingtiancartoon_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天國際台.png" group-title="斯玛特",靖天国际台
+http://gotv.k.vu/api.php?id=jingtianintl_twn
+#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台.png" group-title="斯玛特",寰宇新闻台
+http://gotv.k.vu/api.php?id=huanyuxinwen_twn
+#EXTINF:-1 group-title="斯玛特",华艺moc
+http://gotv.k.vu/api.php?id=weishichinese_twn
+#EXTINF:-1 group-title="斯玛特",华艺moc
+http://gotv.k.vu/api.php?id=weishichinese_twn
+#EXTINF:-1 group-title="斯玛特",华纳TV
+http://gotv.k.vu/api.php?id=WarnerTV
+#EXTINF:-1 tvg-id="好莱坞电影台" tvg-name="好莱坞电影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好莱坞电影台.png" group-title="斯玛特",好莱坞电影台
+http://gotv.k.vu/api.php?id=hollywoodmovies_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="斯玛特",非凡新闻
+http://gotv.k.vu/api.php?id=feifannews_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="斯玛特",动物星球
+http://gotv.k.vu/api.php?id=animalplanet_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="斯玛特",東森新闻
+http://gotv.k.vu/api.php?id=ettvnews
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森戲劇.png" group-title="斯玛特",東森戏剧
+http://gotv.k.vu/api.php?id=ettvdrama
+#EXTINF:-1 tvg-id="東森電影台" tvg-name="東森電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森電影台.png" group-title="斯玛特",東森电影台
+http://gotv.k.vu/api.php?id=ettvmovie
+#EXTINF:-1 tvg-id="東森綜合台" tvg-name="東森綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森综合台.png" group-title="斯玛特",东森综合台
+http://gotv.k.vu/api.php?id=ettvzhonghe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="斯玛特",东森洋片
+http://gotv.k.vu/api.php?id=ettvwestern
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="斯玛特",东森超视
+http://gotv.k.vu/api.php?id=ettvsuper
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森财经新闻.png" group-title="斯玛特",东森财经新闻
+http://gotv.k.vu/api.php?id=ettvcaijing_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/大爱.png" group-title="斯玛特",大爱
+http://gotv.k.vu/api.php?id=daai_twn
+#EXTINF:-1 group-title="斯玛特",博斯运动II
+http://gotv.k.vu/api.php?id=bosisport2_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="斯玛特",博斯网球
+http://gotv.k.vu/api.php?id=bositennis_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯魅力.png" group-title="斯玛特",博斯魅力
+http://gotv.k.vu/api.php?id=bosisport1_twn
+#EXTINF:-1 group-title="斯玛特",博斯高球II
+http://gotv.k.vu/api.php?id=bosigolf2_twn
+#EXTINF:-1 group-title="斯玛特",博斯高球I
+http://gotv.k.vu/api.php?id=bosigolf1_twn
+#EXTINF:-1 tvg-id="八大綜合台" tvg-name="八大綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大综合台.png" group-title="斯玛特",八大综合台
+http://gotv.k.vu/api.php?id=badazhonghe
+#EXTINF:-1 tvg-id="八大戲劇台" tvg-name="八大戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大戲劇台.png" group-title="斯玛特",八大戏剧台
+http://gotv.k.vu/api.php?id=badadrama
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大第1台.png" group-title="斯玛特",八大第1台
+http://gotv.k.vu/api.php?id=badafirst
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="斯玛特",公视
+http://gotv.k.vu/api.php?id=ctv_taiwan
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛奇藝.png" group-title="斯玛特",爱奇艺
+http://gotv.k.vu/api.php?id=Qiyi
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/WWE.png" group-title="斯玛特",WWE
+http://gotv.k.vu/api.php?id=Wwe
+#EXTINF:-1 tvg-id="TVBS新聞台" tvg-name="TVBS新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS新聞台.png" group-title="斯玛特",TVBS新闻台
+http://gotv.k.vu/api.php?id=tvbs_n
+#EXTINF:-1 tvg-id="TVBS歡樂台" tvg-name="TVBS歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS欢乐台.png" group-title="斯玛特",TVBS欢乐台
+http://gotv.k.vu/api.php?id=tvbshuanle_twn
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="斯玛特",TVBS
+http://gotv.k.vu/api.php?id=tvbs
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/EYE戏剧.png" group-title="斯玛特",EYE戏剧
+http://gotv.k.vu/api.php?id=eyetvxiju_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/EYE旅遊.png" group-title="斯玛特",EYE旅游
+http://gotv.k.vu/api.php?id=eyetvtravel_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTA综合.png" group-title="斯玛特",ELTA综合
+http://gotv.k.vu/api.php?id=eltazonghe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTA影剧.png" group-title="斯玛特",ELTA影剧
+http://gotv.k.vu/api.php?id=eltadrama_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ELTA體育1台.png" group-title="斯玛特",ELTA体育1台
+http://gotv.k.vu/api.php?id=eltasport1_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ELTA體育2台.png" group-title="斯玛特",ELTA体育2台
+http://gotv.k.vu/api.php?id=eltasport2_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ELTA體育3台.png" group-title="斯玛特",ELTA体育3台
+http://gotv.k.vu/api.php?id=eltasport3_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTA体育4台.png" group-title="斯玛特",ELTA体育4台
+http://gotv.k.vu/api.php?id=natgeowild_twn
 #EXTINF:-1 group-title="⚽️🏀直播",⚽️🏀波妞
 https://new-live.jnyyoa.com/notlive/1744267.m3u8
 #EXTINF:-1 group-title="⚽️🏀直播",⚽️🏀陆宝儿
