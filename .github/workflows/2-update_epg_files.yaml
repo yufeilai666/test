@@ -38,6 +38,8 @@ jobs:
         from pathlib import Path
         import concurrent.futures
         from threading import Lock
+        from datetime import datetime
+        import pytz
 
         # 读取配置文件
         with open('files.json', 'r', encoding='utf-8') as f:
@@ -53,6 +55,13 @@ jobs:
         print_lock = Lock()
         success_count = 0
         fail_count = 0
+        
+        def format_time():
+            # 设置北京时区
+            beijing_tz = pytz.timezone('Asia/Shanghai')
+            # 获取当前UTC时间并转换为北京时间
+            beijing_time = datetime.now(beijing_tz)
+            return beijing_time.strftime('%H:%M:%S')
 
         def download_single_epg(item):
             global success_count, fail_count
@@ -60,10 +69,15 @@ jobs:
             max_retries = 3
             retry_delay = 2  # 重试延迟秒数
             
+            # 为每个文件创建独立的日志缓冲区
+            log_buffer = []
+            
+            def add_log(message):
+                log_buffer.append(f"[{format_time()}] {message}")
+            
             for attempt in range(max_retries):
                 try:
-                    with print_lock:
-                        print(f"🚀 正在下载: {filename} (尝试 {attempt + 1}/{max_retries})")
+                    add_log(f"🚀 开始下载: {filename} (尝试 {attempt + 1}/{max_retries})")
                     
                     # 设置请求头
                     headers = {
@@ -81,33 +95,52 @@ jobs:
                         f.write(response.content)
                     
                     file_size = len(response.content)
+                    add_log(f"✅ 下载成功: {filename} ({file_size:,} 字节)")
+                    
+                    # 一次性输出这个文件的所有日志
                     with print_lock:
-                        print(f"✅ 成功下载: {filename} ({file_size} 字节)")
-                        print("*"*36)
+                        for log_line in log_buffer:
+                            print(log_line)
+                        print("─" * 36)
                         success_count += 1
                     return True  # 成功则跳出重试循环
                     
                 except Exception as e:
-                    with print_lock:
-                        print(f"⚠️ 下载失败 {filename} (尝试 {attempt + 1}/{max_retries}): {str(e)}")
+                    error_msg = str(e)
+                    if "Read timed out" in error_msg:
+                        error_msg = "连接超时"
+                    elif "Connection broken" in error_msg:
+                        error_msg = "连接中断"
+                    
+                    add_log(f"⚠️ 下载失败: {filename} (尝试 {attempt + 1}/{max_retries}) - {error_msg}")
                     
                     # 如果是最后一次尝试仍然失败
                     if attempt == max_retries - 1:
+                        add_log(f"❌ 放弃下载: {filename} (已达最大重试次数)")
+                        # 一次性输出这个文件的所有日志
                         with print_lock:
-                            print(f"❌ 放弃下载 {filename}，已达到最大重试次数")
-                            print("*"*36)
+                            for log_line in log_buffer:
+                                print(log_line)
+                            print("─" * 36)
                             fail_count += 1
                         return False
                     else:
                         # 不是最后一次失败，等待后重试
+                        add_log(f"⏳ 等待 {retry_delay} 秒后重试...")
+                        # 先输出当前日志
                         with print_lock:
-                            print(f"\n⏳️ 等待 {retry_delay} 秒后重试 {filename}...")
+                            for log_line in log_buffer:
+                                print(log_line)
+                        log_buffer = []  # 清空缓冲区，后续日志重新积累
                         time.sleep(retry_delay)
                         retry_delay *= 1.5  # 指数退避策略
 
-        print(f"⬇️ 开始下载 {len(epg_urls)} 个EPG文件...")
-        print("="*36 + "\n")
-        print("*"*36)
+        print("=" * 36)
+        print(f"📥 开始下载 EPG 文件")
+        print(f"📊 总计文件数: {len(epg_urls)}")
+        print(f"🕒 开始时间(UTC+8): {format_time()}")
+        print("=" * 36)
+        print("─" * 36)
 
         # 使用线程池并行下载，最大并发数为5
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
@@ -121,10 +154,15 @@ jobs:
                     future.result()  # 获取结果，如果有异常会在这里抛出
                 except Exception as e:
                     with print_lock:
-                        print(f"❌ 下载任务异常 {filename}: {str(e)}")
+                        print(f"[{format_time()}] ❌ 下载任务异常 {filename}: {str(e)}")
+                        print("─" * 36)
 
-        print("\n" + "="*36)
-        print(f"🎉 下载完成: 成功 {success_count} 个, 失败 {fail_count} 个")
+        print("=" * 36)
+        print(f"📊 下载完成报告")
+        print(f"✅ 成功: {success_count} 个文件")
+        print(f"❌ 失败: {fail_count} 个文件")
+        print(f"🕒 结束时间(UTC+8): {format_time()}")
+        print("=" * 36)
 
         # 如果有失败的文件，以代码0退出（不中断工作流）
         exit(0)
@@ -144,7 +182,7 @@ jobs:
         echo "📁 EPG目录内容:"
         ls -la epg/
         
-        # 更直接的方法：先添加epg目录到暂存区，然后检查是否有变化
+        # 更直接的方法：先添加epg目录到暂存区，然后检查是否有差异
         git add epg/
         
         # 检查暂存区与HEAD之间是否有差异
