@@ -55,7 +55,7 @@ jobs:
         print_lock = Lock()
         success_count = 0
         fail_count = 0
-        
+
         def format_time():
             # 设置北京时区
             beijing_tz = pytz.timezone('Asia/Shanghai')
@@ -69,12 +69,13 @@ jobs:
             max_retries = 3
             retry_delay = 2  # 重试延迟秒数
             
-            # 为每个文件创建独立的日志缓冲区
-            log_buffer = []
+            # 为每个文件创建独立的日志列表
+            all_logs = []
             
             def add_log(message):
-                log_buffer.append(f"[{format_time()}] {message}")
+                all_logs.append(f"[{format_time()}] {message}")
             
+            result = False
             for attempt in range(max_retries):
                 try:
                     add_log(f"🚀 开始下载: {filename} (尝试 {attempt + 1}/{max_retries})")
@@ -96,14 +97,8 @@ jobs:
                     
                     file_size = len(response.content)
                     add_log(f"✅ 下载成功: {filename} ({file_size:,} 字节)")
-                    
-                    # 一次性输出这个文件的所有日志
-                    with print_lock:
-                        for log_line in log_buffer:
-                            print(log_line)
-                        print("─" * 36)
-                        success_count += 1
-                    return True  # 成功则跳出重试循环
+                    result = True
+                    break  # 成功则跳出重试循环
                     
                 except Exception as e:
                     error_msg = str(e)
@@ -117,30 +112,32 @@ jobs:
                     # 如果是最后一次尝试仍然失败
                     if attempt == max_retries - 1:
                         add_log(f"❌ 放弃下载: {filename} (已达最大重试次数)")
-                        # 一次性输出这个文件的所有日志
-                        with print_lock:
-                            for log_line in log_buffer:
-                                print(log_line)
-                            print("─" * 36)
-                            fail_count += 1
-                        return False
+                        result = False
                     else:
                         # 不是最后一次失败，等待后重试
                         add_log(f"⏳ 等待 {retry_delay} 秒后重试...")
-                        # 先输出当前日志
-                        with print_lock:
-                            for log_line in log_buffer:
-                                print(log_line)
-                        log_buffer = []  # 清空缓冲区，后续日志重新积累
                         time.sleep(retry_delay)
                         retry_delay *= 1.5  # 指数退避策略
+            
+            # 一次性输出这个文件的所有日志
+            with print_lock:
+                for log_line in all_logs:
+                    print(log_line)
+                print("─" * 22)
+                
+                if result:
+                    success_count += 1
+                else:
+                    fail_count += 1
+            
+            return result
 
         print("=" * 36)
-        print(f"📥 开始下载 EPG 文件")
-        print(f"📊 总计文件数: {len(epg_urls)}")
+        print(f"📥 开始下载 EPG 文件…")
+        print(f"📊 总计文件数: {len(epg_urls)} 个")
         print(f"🕒 开始时间(UTC+8): {format_time()}")
         print("=" * 36)
-        print("─" * 36)
+        print("─" * 22)
 
         # 使用线程池并行下载，最大并发数为5
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
@@ -155,7 +152,7 @@ jobs:
                 except Exception as e:
                     with print_lock:
                         print(f"[{format_time()}] ❌ 下载任务异常 {filename}: {str(e)}")
-                        print("─" * 36)
+                        print("─" * 22)
 
         print("=" * 36)
         print(f"📊 下载完成报告")
