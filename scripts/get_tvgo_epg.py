@@ -1,6 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 from xml.dom import minidom
 import re
 import json
@@ -78,35 +78,50 @@ def extract_vue_data_from_html(html_content):
     从HTML内容中提取Vue组件的数据
     """
     try:
-        # 查找Vue实例中的数据部分
-        pattern = r"data\(\)\s*{\s*return\s*({.*?})\s*}\s*,\s*methods"
-        match = re.search(pattern, html_content, re.DOTALL)
+        # 查找包含scheduleList的JavaScript代码段
+        # 使用正则表达式匹配scheduleList数组
+        pattern = r"scheduleList\s*:\s*(\[[\s\S]*?\])"
+        match = re.search(pattern, html_content)
         
         if match:
-            data_str = match.group(1)
+            schedule_list_str = match.group(1)
             
-            # 处理JavaScript对象格式
+            # 清理JavaScript对象格式，转换为JSON格式
             # 将单引号替换为双引号
-            data_str = data_str.replace("'", '"')
+            schedule_list_str = schedule_list_str.replace("'", '"')
             
-            # 处理无引号的属性名
-            data_str = re.sub(r'(\w+):', r'"\1":', data_str)
+            # 处理JavaScript对象键（无引号）
+            schedule_list_str = re.sub(r'([{,])\s*([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', schedule_list_str)
             
             # 处理可能的尾随逗号
-            data_str = re.sub(r',\s*}', '}', data_str)
-            data_str = re.sub(r',\s*]', ']', data_str)
+            schedule_list_str = re.sub(r',\s*}', '}', schedule_list_str)
+            schedule_list_str = re.sub(r',\s*]', ']', schedule_list_str)
             
             # 解析JSON数据
-            data = json.loads(data_str)
+            schedule_data = json.loads(schedule_list_str)
+            return schedule_data
+        
+        # 如果上面的模式不匹配，尝试另一种模式
+        pattern2 = r"data\(\)\s*{\s*return\s*{[\s\S]*?scheduleList\s*:\s*(\[[\s\S]*?\])[\s\S]*?}"
+        match2 = re.search(pattern2, html_content)
+        
+        if match2:
+            schedule_list_str = match2.group(1)
+            schedule_list_str = schedule_list_str.replace("'", '"')
+            schedule_list_str = re.sub(r'([{,])\s*([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', schedule_list_str)
+            schedule_list_str = re.sub(r',\s*}', '}', schedule_list_str)
+            schedule_list_str = re.sub(r',\s*]', ']', schedule_list_str)
             
-            # 提取scheduleList
-            schedule_data = data.get('scheduleList', [])
+            schedule_data = json.loads(schedule_list_str)
             return schedule_data
         
         return None
         
     except Exception as e:
         print(f"提取Vue数据时发生错误: {e}")
+        # 打印部分提取的字符串用于调试
+        if 'match' in locals() and match:
+            print(f"提取的字符串前200字符: {match.group(1)[:200]}")
         return None
 
 def process_schedule_data(tv, channel_name, schedule_data):
@@ -133,7 +148,6 @@ def process_schedule_data(tv, channel_name, schedule_data):
             # 处理跨天情况 (当结束时间小于开始时间)
             if time_end < time_start:
                 # 将结束日期设为下一天
-                from datetime import datetime, timedelta
                 next_day = (datetime.strptime(date_str, '%Y-%m-%d') + timedelta(days=1)).strftime('%Y-%m-%d')
                 end_datetime = f"{next_day} {time_end}"
             
