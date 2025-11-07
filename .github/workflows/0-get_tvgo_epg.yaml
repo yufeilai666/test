@@ -57,7 +57,7 @@ jobs:
       run: |
         if [ -f tvgo.xml ]; then
           mv tvgo.xml epg/
-          mv debug_*.html epg/
+          # mv debug_*.html epg/
           echo "✅ 文件已移动到 epg 目录"
         else
           echo "❌ 错误：tvgo.xml 文件未生成"
