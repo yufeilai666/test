@@ -75,25 +75,19 @@ def get_tvgo_epg():
 
 def extract_vue_data_from_html(html_content):
     """
-    从HTML内容中提取Vue组件的数据
+    从HTML内容中提取Vue组件的数据 - 备用方法
     """
     try:
-        # 查找包含scheduleList的JavaScript代码段
-        # 使用正则表达式匹配scheduleList数组
-        pattern = r"scheduleList\s*:\s*(\[[\s\S]*?\])"
+        # 查找Vue实例创建代码
+        pattern = r"createApp\({[\s\S]*?data\(\) {[\s\S]*?return {[\s\S]*?scheduleList: (\[[\s\S]*?\])[\s\S]*?}}"
         match = re.search(pattern, html_content)
         
         if match:
             schedule_list_str = match.group(1)
             
             # 清理JavaScript对象格式，转换为JSON格式
-            # 将单引号替换为双引号
             schedule_list_str = schedule_list_str.replace("'", '"')
-            
-            # 处理JavaScript对象键（无引号）
             schedule_list_str = re.sub(r'([{,])\s*([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', schedule_list_str)
-            
-            # 处理可能的尾随逗号
             schedule_list_str = re.sub(r',\s*}', '}', schedule_list_str)
             schedule_list_str = re.sub(r',\s*]', ']', schedule_list_str)
             
@@ -101,27 +95,10 @@ def extract_vue_data_from_html(html_content):
             schedule_data = json.loads(schedule_list_str)
             return schedule_data
         
-        # 如果上面的模式不匹配，尝试另一种模式
-        pattern2 = r"data\(\)\s*{\s*return\s*{[\s\S]*?scheduleList\s*:\s*(\[[\s\S]*?\])[\s\S]*?}"
-        match2 = re.search(pattern2, html_content)
-        
-        if match2:
-            schedule_list_str = match2.group(1)
-            schedule_list_str = schedule_list_str.replace("'", '"')
-            schedule_list_str = re.sub(r'([{,])\s*([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', schedule_list_str)
-            schedule_list_str = re.sub(r',\s*}', '}', schedule_list_str)
-            schedule_list_str = re.sub(r',\s*]', ']', schedule_list_str)
-            
-            schedule_data = json.loads(schedule_list_str)
-            return schedule_data
-        
         return None
         
     except Exception as e:
         print(f"提取Vue数据时发生错误: {e}")
-        # 打印部分提取的字符串用于调试
-        if 'match' in locals() and match:
-            print(f"提取的字符串前200字符: {match.group(1)[:200]}")
         return None
 
 def process_schedule_data(tv, channel_name, schedule_data):
