@@ -36,7 +36,7 @@ def get_tvgo_epg():
             response.raise_for_status()
             
             # 从HTML中提取Vue数据
-            schedule_data = extract_vue_data_simple(response.text)
+            schedule_data = extract_vue_data_eval(response.text)
             
             if not schedule_data:
                 print(f"警告: 无法从频道 {channel['name']} 的HTML中提取数据")
@@ -73,12 +73,12 @@ def get_tvgo_epg():
     except Exception as e:
         print(f"写入XML文件时发生错误: {e}")
 
-def extract_vue_data_simple(html_content):
+def extract_vue_data_eval(html_content):
     """
-    使用简单直接的方法提取Vue数据
+    使用eval方法提取Vue数据（仅在安全环境下使用）
     """
     try:
-        # 查找scheduleList数组的开始和结束位置
+        # 查找scheduleList数组
         start_marker = 'scheduleList: ['
         start_idx = html_content.find(start_marker)
         if start_idx == -1:
@@ -106,31 +106,16 @@ def extract_vue_data_simple(html_content):
         # 提取数组字符串
         array_str = html_content[start_idx + len(start_marker) - 1:end_idx]
         
-        # 手动修复常见的JSON问题
-        # 1. 替换单引号为双引号
+        # 使用eval解析（注意：仅在可信环境下使用）
+        # 将单引号替换为双引号，使eval可以处理
         array_str = array_str.replace("'", '"')
         
-        # 2. 修复属性名（添加引号）
-        # 匹配模式：属性名后跟冒号
-        array_str = re.sub(r'([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)(\s*:)', r'\1"\2"\3', array_str)
+        # 使用eval解析
+        schedule_data = eval(array_str)
+        return schedule_data
         
-        # 3. 修复可能的尾随逗号
-        array_str = re.sub(r',\s*([}\]])', r'\1', array_str)
-        
-        # 4. 修复可能的JavaScript注释
-        array_str = re.sub(r'//.*?\n', '', array_str)
-        
-        # 尝试解析JSON
-        try:
-            schedule_data = json.loads(array_str)
-            return schedule_data
-        except json.JSONDecodeError as e:
-            print(f"JSON解析错误: {e}")
-            print(f"有问题的JSON片段: {array_str[e.pos-50:e.pos+50]}")
-            return None
-            
     except Exception as e:
-        print(f"提取Vue数据时发生错误: {e}")
+        print(f"使用eval提取Vue数据时发生错误: {e}")
         return None
 
 def process_schedule_data(tv, channel_name, schedule_data):
