@@ -99,7 +99,7 @@ jobs:
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
         git add epg/tvgo.xml
-        git add epg/debug_*.html
+        # git add epg/debug_*.html
         git commit -m "Update EPG: tvgo.xml节目单 $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
         echo "✅ 已提交变更"
 
