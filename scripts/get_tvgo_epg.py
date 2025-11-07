@@ -1,9 +1,9 @@
 import requests
-import json
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from xml.dom import minidom
 import re
+import json
 
 def get_tvgo_epg():
     # 频道信息 - 可以扩展为多个频道
@@ -18,13 +18,15 @@ def get_tvgo_epg():
     tv = ET.Element('tv')
     tv.set('generator-info-name', 'yufeilai666')
     tv.set('generator-info-url', 'https://github.com/yufeilai666')
+    tv.set('source-info-name', 'TVKing')
+    tv.set('source-info-url', 'https://tvking.funorange.com.tw')
     
     for channel in channels:
         # 构建EPG URL
         epg_url = f"https://tvking.funorange.com.tw/channel/{channel['id']}"
         
         try:
-            print(f"🌏 正在获取频道 {channel['name']} 的EPG数据...")
+            print(f"正在获取频道 {channel['name']} 的EPG数据...")
             
             # 发送请求获取网页HTML
             headers = {
@@ -37,7 +39,7 @@ def get_tvgo_epg():
             schedule_data = extract_vue_data_from_html(response.text)
             
             if not schedule_data:
-                print(f"⚠️ 警告: 无法从频道「{channel['name']}」的HTML中提取数据")
+                print(f"警告: 无法从频道 {channel['name']} 的HTML中提取数据")
                 continue
             
             # 添加频道信息到XML
@@ -51,12 +53,12 @@ def get_tvgo_epg():
             # 处理节目数据
             process_schedule_data(tv, channel['name'], schedule_data)
             
-            print(f"✅ 频道「{channel['name']}」处理完成")
+            print(f"频道 {channel['name']} 处理完成")
             
         except requests.RequestException as e:
-            print(f"❌ 请求频道「{channel['name']}」的EPG数据失败: {e}")
+            print(f"请求频道 {channel['name']} 的EPG数据失败: {e}")
         except Exception as e:
-            print(f"❌ 处理频道「{channel['name']}」数据时发生错误: {e}")
+            print(f"处理频道 {channel['name']} 数据时发生错误: {e}")
     
     # 生成格式化的XML
     try:
@@ -66,52 +68,40 @@ def get_tvgo_epg():
         with open('tvgo.xml', 'wb') as f:
             f.write(xml_str)
             
-        print(f"🎉 EPG数据已成功写入 tvgo.xml")
+        print(f"EPG数据已成功写入 tvgo.xml")
         
     except Exception as e:
-        print(f"❌ 写入XML文件时发生错误: {e}")
+        print(f"写入XML文件时发生错误: {e}")
 
 def extract_vue_data_from_html(html_content):
     """
     从HTML内容中提取Vue组件的数据
     """
     try:
-        # 查找包含scheduleList的JavaScript代码段
-        # 使用正则表达式匹配Vue数据对象
-        pattern = r"scheduleList\s*:\s*(\[.*?\])\s*,?\s*\w+"
+        # 查找Vue实例中的数据部分
+        pattern = r"data\(\)\s*{\s*return\s*({.*?})\s*}\s*,\s*methods"
         match = re.search(pattern, html_content, re.DOTALL)
         
         if match:
-            schedule_list_str = match.group(1)
-            # 清理JavaScript对象格式，转换为JSON格式
-            schedule_list_str = schedule_list_str.replace("'", '"')
-            # 处理JavaScript对象键（无引号）
-            schedule_list_str = re.sub(r'(\w+):', r'"\1":', schedule_list_str)
+            data_str = match.group(1)
+            
+            # 处理JavaScript对象格式
+            # 将单引号替换为双引号
+            data_str = data_str.replace("'", '"')
+            
+            # 处理无引号的属性名
+            data_str = re.sub(r'(\w+):', r'"\1":', data_str)
+            
             # 处理可能的尾随逗号
-            schedule_list_str = re.sub(r',\s*}', '}', schedule_list_str)
-            schedule_list_str = re.sub(r',\s*]', ']', schedule_list_str)
+            data_str = re.sub(r',\s*}', '}', data_str)
+            data_str = re.sub(r',\s*]', ']', data_str)
             
             # 解析JSON数据
-            schedule_data = json.loads(schedule_list_str)
+            data = json.loads(data_str)
+            
+            # 提取scheduleList
+            schedule_data = data.get('scheduleList', [])
             return schedule_data
-        
-        # 如果上面的模式不匹配，尝试另一种模式
-        pattern2 = r"data\s*\(\)\s*\{\s*return\s*\{([^}]+scheduleList[^}]+)\}\s*\}"
-        match2 = re.search(pattern2, html_content, re.DOTALL)
-        
-        if match2:
-            data_content = match2.group(1)
-            # 提取scheduleList部分
-            schedule_match = re.search(r'scheduleList\s*:\s*(\[.*?\])', data_content, re.DOTALL)
-            if schedule_match:
-                schedule_list_str = schedule_match.group(1)
-                schedule_list_str = schedule_list_str.replace("'", '"')
-                schedule_list_str = re.sub(r'(\w+):', r'"\1":', schedule_list_str)
-                schedule_list_str = re.sub(r',\s*}', '}', schedule_list_str)
-                schedule_list_str = re.sub(r',\s*]', ']', schedule_list_str)
-                
-                schedule_data = json.loads(schedule_list_str)
-                return schedule_data
         
         return None
         
@@ -139,6 +129,13 @@ def process_schedule_data(tv, channel_name, schedule_data):
             # 构建完整的开始和结束时间
             start_datetime = f"{date_str} {time_start}"
             end_datetime = f"{date_str} {time_end}"
+            
+            # 处理跨天情况 (当结束时间小于开始时间)
+            if time_end < time_start:
+                # 将结束日期设为下一天
+                from datetime import datetime, timedelta
+                next_day = (datetime.strptime(date_str, '%Y-%m-%d') + timedelta(days=1)).strftime('%Y-%m-%d')
+                end_datetime = f"{next_day} {time_end}"
             
             # 创建节目元素
             programme = ET.SubElement(tv, 'programme')
