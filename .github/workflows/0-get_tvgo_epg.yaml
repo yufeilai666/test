@@ -55,7 +55,7 @@ jobs:
 
     - name: Move generated file to epg directory
       run: |
-        if [ -f lstime_ca.xml ]; then
+        if [ -f tvgo.xml ]; then
           mv tvgo.xml epg/
           mv debug_*.html epg/
           echo "✅ 文件已移动到 epg 目录"
@@ -67,7 +67,7 @@ jobs:
     - name: Check if file exists in epg directory
       id: file_check
       run: |
-        if [ -f epg/lstime_ca.xml ]; then
+        if [ -f epg/tvgo.xml ]; then
           echo "✅ epg/tvgo.xml 文件已生成"
           echo "file_exists=true" >> $GITHUB_OUTPUT
         else
@@ -85,7 +85,7 @@ jobs:
       id: check_changes
       if: steps.file_check.outputs.file_exists == 'true'
       run: |
-        # 只检查epg目录下的lstime_ca.xml文件
+        # 只检查epg目录下的tvgo.xml文件
         git status --porcelain epg/
         if git status --porcelain epg/ | grep -q "tvgo.xml"; then
           echo "🛠 检测到 epg/tvgo.xml 变更"
@@ -98,7 +98,7 @@ jobs:
     - name: Add and commit changes
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
-        git add epg/lstime_ca.xml
+        git add epg/tvgo.xml
         git add epg/debug_*.html
         git commit -m "Update EPG: tvgo.xml节目单 $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
         echo "✅ 已提交变更"
