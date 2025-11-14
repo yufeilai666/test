@@ -1,0 +1,297 @@
+# 文件: .github/workflows/3-multi-script-epg-generator.yml
+# 功能: 弹性多脚本EPG生成器（支持PHP和Python）- 跨仓库版本
+# 描述:
+#   此工作流在公开仓库运行，但：
+#     1. 从私有仓库的epg_scripts分支获取脚本
+#     2. 在公开仓库中执行脚本生成EPG XML文件
+#     3. 将生成的XML文件推送回私有仓库
+#
+# 使用说明:
+#   1. 在公开仓库的secrets中配置:
+#      - PAT_TOKEN: 具有访问私有仓库权限的Personal Access Token
+#      - TMDB_API_KEY: TMDB API密钥
+#      - EPG_CONFIG: EPG配置信息
+#   2. 脚本文件存储在私有仓库的epg_scripts分支
+#   3. 生成的XML文件将推送回私有仓库的主分支
+
+name: 3 Resilient Multi-Script EPG Generator (Cross-Repository)
+
+# 触发条件配置
+on:
+  schedule:
+    - cron: '5 1,5,9,13,17,21 * * *'
+  workflow_dispatch:
+
+# 作业定义
+jobs:
+  generate-epg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    # 环境变量配置
+    env:
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      EPG_CONFIG: ${{ secrets.EPG_CONFIG }}
+      GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+      PRIVATE_REPO: "yufeilai666/tvepg"  # 私有仓库名称
+    
+    steps:
+    # 步骤1: 检出私有仓库的epg_scripts分支到临时目录
+    - name: Checkout private repo scripts branch
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ env.PRIVATE_REPO }}
+        ref: epg_scripts
+        path: ./epg-scripts-temp
+        token: ${{ secrets.PAT_TOKEN }}
+
+    # 步骤2: 检出私有仓库的主分支到另一个临时目录（用于推送）
+    - name: Checkout private repo main branch
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ env.PRIVATE_REPO }}
+        ref: main
+        path: ./private-repo
+        token: ${{ secrets.PAT_TOKEN }}
+
+    # 步骤3: 设置PHP环境
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+        extensions: dom, xmlreader, zlib, curl, pcntl
+
+    # 步骤4: 设置Python环境
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    # 步骤5: 安装Python依赖
+    - name: Install Python dependencies
+      run: |
+        cd ./epg-scripts-temp
+        pip install requests beautifulsoup4 tmdbv3api lxml aiohttp aiofiles
+        cd ..
+
+    # 步骤6: 在脚本目录中生成XML文件
+    - name: Generate XML Files in Scripts Directory
+      id: generate-step
+      env:
+        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+      run: |
+        # 切换到脚本目录
+        cd ./epg-scripts-temp
+        
+        # 定义要执行的脚本数组
+        scripts=(
+          "epg-generator.php"
+          "epg-fixer.php"
+        )
+        
+        # 存储失败脚本的数组
+        failed_scripts=()
+        
+        # 循环执行所有脚本
+        for script in "${scripts[@]}"; do
+          echo "::group::执行 $script"
+          echo "=== 开始执行: $script ==="
+          
+          # 检查脚本文件是否存在
+          if [ ! -f "$script" ]; then
+            echo "❌ 脚本文件不存在: $script"
+            failed_scripts+=("$script")
+            echo "::endgroup::"
+            continue
+          fi
+          
+          # 根据文件扩展名选择执行方式
+          script_extension="${script##*.}"
+          
+          set +e
+          
+          if [ "$script_extension" = "php" ]; then
+            output=$(php -f "$script" 2>&1)
+            exit_code=$?
+          elif [ "$script_extension" = "py" ]; then
+            output=$(python "$script" 2>&1)
+            exit_code=$?
+          else
+            echo "❌ 不支持的脚本类型: $script_extension"
+            failed_scripts+=("$script")
+            set -e
+            echo "::endgroup::"
+            continue
+          fi
+          
+          set -e
+          
+          # 打印脚本输出
+          echo "$output"
+          echo "::endgroup::"
+          
+          # 失败判定条件
+          if [ $exit_code -ne 0 ]; then
+            echo "❌ $script 执行失败 (退出码: $exit_code)"
+            failed_scripts+=("$script")
+          elif [ "$script" = "epg-fixer.php" ]; then
+            if echo "$output" | grep -q -E "(错误：EPG_CONFIG环境变量未设置|错误：无法解析EPG_CONFIG环境变量中的JSON数据|错误：EPG_CONFIG中未找到chuanliu.xml和cqunicom.xml配置|错误：未找到任何有效的EPG源配置|错误：必需扩展未启用)"; then
+              echo "❌ $script 环境变量配置错误"
+              failed_scripts+=("$script")
+            elif echo "$output" | grep -q -E "(Fatal error|致命错误|Uncaught Exception|未捕获的异常|无法加载XML内容|XML解析错误|下载失败|解压失败|保存失败)"; then
+              echo "❌ $script 执行过程中出现严重错误"
+              failed_scripts+=("$script")
+            elif echo "$output" | grep -q "处理状态: 完全失败"; then
+              echo "❌ $script 所有源处理失败"
+              failed_scripts+=("$script")
+            elif echo "$output" | grep -q "处理状态: 部分成功"; then
+              echo "⚠️ $script 部分成功（有失败源）"
+            else
+              echo "✅ $script 执行成功"
+            fi
+          elif echo "$output" | grep -q -E "(Fatal error|致命错误|Uncaught Exception|未捕获的异常|必需扩展未启用|无法加载XML内容|XML解析错误|下载失败|解压失败|保存失败|Traceback|Error|Exception)"; then
+            echo "❌ $script 输出中包含严重错误信息"
+            failed_scripts+=("$script")
+          elif echo "$output" | grep -q -E "(ERROR|错误:)" && echo "$output" | grep -q -E "(下载|解压|保存|处理|获取|连接)"; then
+            echo "❌ $script 输出中包含操作错误信息"
+            failed_scripts+=("$script")
+          else
+            echo "✅ $script 执行成功"
+          fi
+          
+          echo "==================================="
+        done
+        
+        # 将生成的XML文件复制到私有仓库目录
+        if ls *.xml 1> /dev/null 2>&1; then
+          echo "🛠 复制XML文件到私有仓库目录..."
+          cp -v *.xml ../private-repo/
+          echo "📝 复制的文件:"
+          ls -la *.xml
+        else
+          echo "⚠️ 未找到XML文件"
+        fi
+        
+        # 返回工作目录
+        cd ..
+        
+        # 如果有失败脚本，转换为逗号分隔字符串
+        if [ ${#failed_scripts[@]} -gt 0 ]; then
+          failed_list=$(IFS=','; echo "${failed_scripts[*]}")
+          echo "📄 失败脚本: $failed_list"
+          echo "failed_scripts=$failed_list" >> $GITHUB_OUTPUT
+        fi
+
+    # 步骤7: 列出私有仓库目录的变更文件
+    - name: List changed files in private repo
+      run: |
+        echo "📝 私有仓库目录的变更文件:"
+        cd ./private-repo
+        git status --porcelain
+        echo "🗞 当前目录的XML文件:"
+        ls -la *.xml 2>/dev/null || echo "⚠️ 无XML文件"
+        cd ..
+
+    # 步骤8: 提交和推送到私有仓库
+    - name: Commit and Push to Private Repository
+      if: always()
+      env:
+        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        PRIVATE_REPO: ${{ env.PRIVATE_REPO }}
+      run: |
+        # 进入私有仓库目录
+        cd ./private-repo
+        
+        # 配置Git用户信息
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        
+        # 设置带认证的远程URL（指向私有仓库）
+        git remote set-url origin https://x-access-token:$PAT_TOKEN@github.com/$PRIVATE_REPO.git
+        
+        # 添加所有XML文件变更
+        git add --all *.xml
+        
+        # 检查是否有实际变更
+        if git diff-index --quiet HEAD --; then
+          echo "ℹ️ 没有检测到XML文件变更，跳过提交"
+          exit 0
+        fi
+        
+        # 获取失败脚本信息
+        failed_scripts="${{ steps.generate-step.outputs.failed_scripts }}"
+        
+        # 构造提交信息
+        now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+        commit_msg="✅ 自动更新 EPG 文件: $now_time"
+        
+        # 如果有失败脚本，在提交信息中注明
+        if [ -n "$failed_scripts" ]; then
+          commit_msg+=" (⚠️ 部分失败: ${failed_scripts})"
+        fi
+        
+        # 提交变更
+        echo "ℹ️ 提交信息: $commit_msg"
+        git commit -m "$commit_msg"
+        
+        # 推送重试机制
+        max_retries=3
+        retry_delay=5
+        
+        for ((i=1; i<=max_retries; i++)); do
+          echo "ℹ️ 推送尝试 ($i/$max_retries)"
+          
+          # 先拉取最新变更避免冲突
+          git pull --rebase origin main
+          
+          # 尝试推送到私有仓库
+          if git push origin main; then
+            echo "✅ 推送到私有仓库成功"
+            
+            # 列出更新的文件
+            updated_files=$(git diff --name-only HEAD^ HEAD 2>/dev/null || git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "⚠️ 无法获取文件变更列表")
+            echo "📝 更新的文件:"
+            echo "$updated_files"
+            
+            break
+          fi
+          
+          if [ $i -eq $max_retries ]; then
+            echo "❌ 错误：推送到私有仓库失败，已达最大重试次数"
+            exit 1
+          fi
+          
+          echo "⚠️ 推送失败，${retry_delay}秒后重试..."
+          sleep $retry_delay
+        done
+
+    # 步骤9: 报告生成状态
+    - name: Report Generation Status
+      if: ${{ always() }}
+      run: |
+        failed_scripts="${{ steps.generate-step.outputs.failed_scripts }}"
+        
+        if [ -n "$failed_scripts" ]; then
+          IFS=',' read -ra failed_array <<< "$failed_scripts"
+          
+          echo "::group::❌ 失败脚本列表"
+          for script in "${failed_array[@]}"; do
+            echo "$script"
+          done
+          echo "::endgroup::"
+          
+          echo "::error::有 ${#failed_array[@]} 个脚本执行失败"
+          
+          # 检查是否至少有一个脚本成功生成了文件
+          if ls ./private-repo/*.xml 1> /dev/null 2>&1; then
+            echo "ℹ️ 有脚本失败，工作流标记为失败"
+            echo "ℹ️ 成功生成了部分EPG文件并已推送到私有仓库"
+          else
+            echo "❌ 所有脚本均失败，无EPG文件生成"
+          fi
+          
+          exit 1
+        else
+          echo "✅ 所有脚本执行成功"
+          echo "✅ EPG文件已成功推送到私有仓库"
+        fi
