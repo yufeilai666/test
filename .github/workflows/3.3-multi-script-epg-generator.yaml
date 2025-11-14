@@ -1,4 +1,4 @@
-# 文件: .github/workflows/3-multi-script-epg-generator.yml
+# 文件: .github/workflows/3.3-multi-script-epg-generator.yml
 # 功能: 弹性多脚本EPG生成器（支持PHP和Python）- 跨仓库版本
 # 描述:
 #   此工作流在公开仓库运行，但：
@@ -14,7 +14,7 @@
 #   2. 脚本文件存储在私有仓库的epg_scripts分支
 #   3. 生成的XML文件将推送回私有仓库的主分支
 
-name: 3 Resilient Multi-Script EPG Generator (Cross-Repository)
+name: 3.3 Resilient Multi-Script EPG Generator (Cross-Repository)
 
 # 触发条件配置
 on:
