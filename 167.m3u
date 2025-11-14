@@ -149,7 +149,7 @@ p3p://167.114.175.6:55331/66f1356e0005d8d3ecca2d7233da5500
 p3p://167.114.175.6:55331/655f9ff5000f136f8ebbd33f2f097512
 #EXTINF:-1 group-title="香港HK",NOW ZooMoo
 p3p://167.114.175.6:55331/65679bc200084412adeb40284be664e6
-#EXTINF:-1 tvg-id="LOVE NATURE" tvg-name="LOVE NATURE" group-title="香港HK",Love Nature 4k
+#EXTINF:-1 tvg-id="LOVE NATURE 4K" tvg-name="LOVE NATURE 4K" group-title="香港HK",Love Nature 4k
 p3p://167.114.175.6:55331/655fa9280009c6278edfc1176731425f
 #EXTINF:-1 group-title="香港HK",智慧跑马
 p3p://167.114.175.6:55331/66e860ba000b17abca4b7ac11c665324
@@ -3001,9 +3001,9 @@ http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_928.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Fashion One.png" group-title="美国USA",Fashion One
 p3p://167.114.175.6:55331/647f5e43000d386922bf563725b14f92
-#EXTINF:-1 tvg-id="LOVE NATURE" tvg-name="LOVE NATURE" group-title="美国USA",Love Nature 4k
+#EXTINF:-1 tvg-id="LOVE NATURE 4K" tvg-name="LOVE NATURE 4K" group-title="美国USA",Love Nature 4k
 p3p://167.114.175.6:55331/647f6116000240de22ca5ba304744102
-#EXTINF:-1 tvg-id="LOVE NATURE" tvg-name="LOVE NATURE" group-title="美国USA",Love Nature 4k
+#EXTINF:-1 tvg-id="LOVE NATURE 4K" tvg-name="LOVE NATURE 4K" group-title="美国USA",Love Nature 4k
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1 group-title="美国USA",HBO 1 US
 p3p://fccsen.dyndns.tv:29706/5a80a39f0007f7154226c7df693733ac
@@ -3255,7 +3255,7 @@ p3p://fccsen.dyndns.tv:29706/5dbc8a9400037b3ca1e73964363566a5
 p3p://fccsen.dyndns.tv:29706/5bdce61a00068daa9287a1f60e68584f
 #EXTINF:-1 group-title="加拿大CA",TLC CA
 p3p://fccsen.dyndns.tv:29706/58ab8bce0002005c5aea91d24ea15bfb
-#EXTINF:-1 tvg-id="LOVE NATURE" tvg-name="LOVE NATURE" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Love Nature.png" group-title="加拿大CA",Love Nature
+#EXTINF:-1 tvg-id="LOVE NATURE 4K" tvg-name="LOVE NATURE 4K" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Love Nature.png" group-title="加拿大CA",Love Nature
 p3p://fccsen.dyndns.tv:29706/5f5550330007d5fcd614522b5d6972f3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/SMITHSONIAN.png" group-title="加拿大CA",Smithsonian
 p3p://fccsen.dyndns.tv:29706/59e2ab3400085940ed794ecb7d945036
