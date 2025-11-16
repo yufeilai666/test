@@ -58,31 +58,30 @@ jobs:
       uses: shivammathur/setup-php@v2
       with:
         php-version: '8.1'  # 指定PHP 8.1版本
-
-    # 步骤4: 克隆私有仓库并获取脚本
-    - name: Clone private repository and get scripts
-      run: |
-        # 使用PAT_TOKEN安全地克隆私有仓库tvepg
-        git clone https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository_owner }}/tvepg.git private_repo_temp
-        cd private_repo_temp
-        # 切换到epg_scripts分支获取脚本文件
-        git checkout epg_scripts
-        cd ..
-
-    # 步骤5: 安装Python依赖包
+        
+    # 步骤4: 安装Python依赖包
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip  # 升级pip到最新版本
         # 安装Python脚本可能需要的库
         pip install requests beautifulsoup4 lxml pytz
 
-    # 步骤6: 安装PHP扩展
+    # 步骤5: 安装PHP扩展
     - name: Install PHP dependencies
       run: |
         # 更新包管理器
         sudo apt-get update
         # 安装PHP脚本可能需要的扩展
-        sudo apt-get install -y php-curl php-xml php-mbstring
+        sudo apt-get install -y php-curl php-xml php-mbstring        
+
+    # 步骤6: 直接检出私有仓库的epg_scripts分支
+    - name: Checkout private repository (epg_scripts branch)
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ github.repository_owner }}/tvepg  # 私有仓库
+        token: ${{ secrets.PAT_TOKEN }}  # 使用个人访问令牌
+        ref: epg_scripts  # 指定分支
+        path: private_repo_temp  # 检出到指定目录
 
     # 步骤7: 定义并执行脚本数组
     - name: Define and execute scripts
