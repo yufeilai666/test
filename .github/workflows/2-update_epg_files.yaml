@@ -67,7 +67,7 @@ jobs:
             global success_count, fail_count
             filename, url = item
             max_retries = 5  # 最大重试次数
-            retry_delay = 2  # 重试延迟秒数
+            retry_delay = 1.5  # 重试延迟秒数
             
             # 为每个文件创建独立的日志列表
             all_logs = []
@@ -117,7 +117,7 @@ jobs:
                         # 不是最后一次失败，等待后重试
                         add_log(f"⏳ 等待 {retry_delay} 秒后重试...")
                         time.sleep(retry_delay)
-                        retry_delay *= 1.5  # 指数退避策略
+                        retry_delay *= 1.2  # 指数退避策略
             
             # 一次性输出这个文件的所有日志
             with print_lock:
