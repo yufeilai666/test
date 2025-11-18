@@ -115,7 +115,7 @@ jobs:
                         result = False
                     else:
                         # 不是最后一次失败，等待后重试
-                        add_log(f"⏳ 等待 {retry_delay} 秒后重试...")
+                        add_log(f"⏳ 等待 {retry_delay:.2f} 秒后重试...")
                         time.sleep(retry_delay)
                         retry_delay *= 1.2  # 指数退避策略
             
