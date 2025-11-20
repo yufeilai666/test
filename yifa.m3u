@@ -1115,88 +1115,86 @@ http://hls.168.us.kg/u/332/master.m3u8
 http://hls.168.us.kg/u/333/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOWSPORTS.png" group-title="极速125",NowSports
 http://hls.168.us.kg/u/630/master.m3u8
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速风云",鳳凰中文
-http://iptv.4666888.xyz/iptv2A.php?id=鳳凰中文
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb翡翠.png" group-title="极速风云",TVB翡翠
-http://iptv.4666888.xyz/iptv2A.php?id=TVB翡翠
-#EXTINF:-1 group-title="极速风云",TVB翡翠(馬來)
-http://iptv.4666888.xyz/iptv2A.php?id=TVB翡翠(馬來)
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb明珠.png" group-title="极速风云",TVB明珠
-http://iptv.4666888.xyz/iptv2A.php?id=TVB明珠
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBJ1.png" group-title="极速风云",TVBJ1
-http://iptv.4666888.xyz/iptv2A.php?id=TVBJ1
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB1.png" group-title="极速风云",TVB1
-http://iptv.4666888.xyz/iptv2A.php?id=TVB1
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧经典.png" group-title="极速风云",千禧经典
-http://iptv.4666888.xyz/iptv2A.php?id=千禧经典
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY77.png" group-title="极速风云",HOY77
-http://iptv.4666888.xyz/iptv2A.php?id=HOY77
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY78.png" group-title="极速风云",HOY78
-http://iptv.4666888.xyz/iptv2A.php?id=HOY78
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/RTHK31.png" group-title="极速风云",RTHK31
-http://iptv.4666888.xyz/iptv2A.php?id=RTHK31
-#EXTINF:-1 group-title="极速风云",TVB娱乐新闻
-http://iptv.4666888.xyz/iptv2A.php?id=TVB娱乐新闻
-#EXTINF:-1 group-title="极速风云",MYTV黃金翡翠
-http://iptv.4666888.xyz/iptv2A.php?id=MYTV黃金翡翠
-#EXTINF:-1 group-title="极速风云",TVB翡翠劇集
-http://iptv.4666888.xyz/iptv2A.php?id=TVB翡翠劇集
-#EXTINF:-1 tvg-id="澳視澳門" tvg-name="澳視澳門" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/澳視澳門.png" group-title="极速风云",澳視澳門
-http://iptv.4666888.xyz/iptv2A.php?id=澳視澳門
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="极速风云",TVBS新聞
-http://iptv.4666888.xyz/iptv2A.php?id=TVBS新聞
-#EXTINF:-1 group-title="极速风云",非凡直播
-http://iptv.4666888.xyz/iptv2A.php?id=非凡直播
-#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="极速风云",民视
-http://iptv.4666888.xyz/iptv2A.php?id=民视
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="极速风云",緯來電影
-http://iptv.4666888.xyz/iptv2A.php?id=緯來電影
-#EXTINF:-1 group-title="极速风云",華藝中文
-http://iptv.4666888.xyz/iptv2A.php?id=華藝中文
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛奇藝.png" group-title="极速风云",爱奇艺
-http://iptv.4666888.xyz/iptv2A.php?id=爱奇艺
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台湾戏剧.png" group-title="极速风云",臺灣戲劇
-http://iptv.4666888.xyz/iptv2A.php?id=臺灣戲劇
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/EYE戏剧.png" group-title="极速风云",EYE戏剧
-http://iptv.4666888.xyz/iptv2A.php?id=EYE戏剧
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="极速风云",龍華洋片
-http://iptv.4666888.xyz/iptv2A.php?id=龍華洋片
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视综艺.png" group-title="极速风云",民視綜藝
-http://iptv.4666888.xyz/iptv2A.php?id=民視綜藝
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS精采.png" group-title="极速风云",TVBS精采
-http://iptv.4666888.xyz/iptv2A.php?id=TVBS精采
-#EXTINF:-1 group-title="极速风云",美亚电影(台)
-http://iptv.4666888.xyz/iptv2A.php?id=美亚电影(台)
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="极速风云",東森洋片
-http://iptv.4666888.xyz/iptv2A.php?id=東森洋片
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/爱尔达综合.png" group-title="极速风云",爱尔达综合
-http://iptv.4666888.xyz/iptv2A.php?id=爱尔达综合
-#EXTINF:-1 tvg-id="ROCK ACTION" tvg-name="ROCK ACTION" group-title="极速风云",ROCK Action
-http://iptv.4666888.xyz/iptv2A.php?id=ROCK_Action
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/JET综合.png" group-title="极速风云",JET综合
-http://iptv.4666888.xyz/iptv2A.php?id=JET综合
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八度空间.png" group-title="极速风云",八度空间
-http://iptv.4666888.xyz/iptv2A.php?id=八度空间
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视影剧.png" group-title="极速风云",民视影剧
-http://iptv.4666888.xyz/iptv2A.php?id=民视影剧
-#EXTINF:-1 tvg-id="經典電影台" tvg-name="經典電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典电影台.png" group-title="极速风云",經典電影台
-http://iptv.4666888.xyz/iptv2A.php?id=經典電影台
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="极速风云",中视经典
-http://iptv.4666888.xyz/iptv2A.php?id=中视经典
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天電影.png" group-title="极速风云",靖天電影
-http://iptv.4666888.xyz/iptv2A.php?id=靖天電影
 #EXTINF:-1 tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV.png" group-title="极速风云",SPOTV
-http://iptv.4666888.xyz/iptv2A.php?id=SPOTV
+http://iptv.4666888.xyz/iptv2A.php?id=2
 #EXTINF:-1 tvg-id="SPOTV2" tvg-name="SPOTV2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV2.png" group-title="极速风云",SPOTV2
-http://iptv.4666888.xyz/iptv2A.php?id=SPOTV2
+http://iptv.4666888.xyz/iptv2A.php?id=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ASTROFOOTBALL.png" group-title="极速风云",astroFootball
-http://iptv.4666888.xyz/iptv2A.php?id=astroFootball
+http://iptv.4666888.xyz/iptv2A.php?id=4
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TNTSPORTS3.png" group-title="极速风云",TntSports3
-http://iptv.4666888.xyz/iptv2A.php?id=TntSports3
+http://iptv.4666888.xyz/iptv2A.php?id=3
 #EXTINF:-1 group-title="极速风云",wwwe
-http://iptv.4666888.xyz/iptv2A.php?id=wwwe
+http://iptv.4666888.xyz/iptv2A.php?id=5
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯运动1.png" group-title="极速风云",博斯運動1
-http://iptv.4666888.xyz/iptv2A.php?id=博斯運動1
+http://iptv.4666888.xyz/iptv2A.php?id=6
+#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速风云",鳳凰中文
+http://iptv.4666888.xyz/iptv2A.php?id=27
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb翡翠.png" group-title="极速风云",TVB翡翠
+http://iptv.4666888.xyz/iptv2A.php?id=34
+#EXTINF:-1 group-title="极速风云",TVB翡翠(馬來)
+http://iptv.4666888.xyz/iptv2A.php?id=28
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb明珠.png" group-title="极速风云",TVB明珠
+http://iptv.4666888.xyz/iptv2A.php?id=29
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBJ1.png" group-title="极速风云",TVBJ1
+http://iptv.4666888.xyz/iptv2A.php?id=26
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB1.png" group-title="极速风云",TVB1
+http://iptv.4666888.xyz/iptv2A.php?id=25
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧经典.png" group-title="极速风云",千禧经典
+http://iptv.4666888.xyz/iptv2A.php?id=22
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY77.png" group-title="极速风云",HOY77
+http://iptv.4666888.xyz/iptv2A.php?id=35
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY78.png" group-title="极速风云",HOY78
+http://iptv.4666888.xyz/iptv2A.php?id=31
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/RTHK31.png" group-title="极速风云",RTHK31
+http://iptv.4666888.xyz/iptv2A.php?id=23
+#EXTINF:-1 group-title="极速风云",TVB娱乐新闻
+http://iptv.4666888.xyz/iptv2A.php?id=36
+#EXTINF:-1 group-title="极速风云",MYTV黃金翡翠
+http://iptv.4666888.xyz/iptv2A.php?id=32
+#EXTINF:-1 group-title="极速风云",TVB翡翠劇集
+http://iptv.4666888.xyz/iptv2A.php?id=33
+#EXTINF:-1 tvg-id="澳視澳門" tvg-name="澳視澳門" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/澳視澳門.png" group-title="极速风云",澳視澳門
+http://iptv.4666888.xyz/iptv2A.php?id=41
+#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="极速风云",TVBS新聞
+http://iptv.4666888.xyz/iptv2A.php?id=43
+#EXTINF:-1 group-title="极速风云",非凡直播
+http://iptv.4666888.xyz/iptv2A.php?id=44
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="极速风云",民视
+http://iptv.4666888.xyz/iptv2A.php?id=55
+#EXTINF:-1 group-title="极速风云",華藝中文
+http://iptv.4666888.xyz/iptv2A.php?id=37
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛奇藝.png" group-title="极速风云",爱奇艺
+http://iptv.4666888.xyz/iptv2A.php?id=21
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台湾戏剧.png" group-title="极速风云",臺灣戲劇
+http://iptv.4666888.xyz/iptv2A.php?id=42
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/EYE戏剧.png" group-title="极速风云",EYE戏剧
+http://iptv.4666888.xyz/iptv2A.php?id=56
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="极速风云",緯來電影
+http://iptv.4666888.xyz/iptv2A.php?id=40
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="极速风云",東森电影
+http://iptv.4666888.xyz/iptv2A.php?id=48
+#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="极速风云",龍華电影
+http://iptv.4666888.xyz/iptv2A.php?id=45
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视综艺.png" group-title="极速风云",民視綜藝
+http://iptv.4666888.xyz/iptv2A.php?id=46
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS精采.png" group-title="极速风云",TVBS精采
+http://iptv.4666888.xyz/iptv2A.php?id=47
+#EXTINF:-1 group-title="极速风云",美亚电影(台)
+http://iptv.4666888.xyz/iptv2A.php?id=30
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="极速风云",東森洋片
+http://iptv.4666888.xyz/iptv2A.php?id=45
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/爱尔达综合.png" group-title="极速风云",爱尔达综合
+http://iptv.4666888.xyz/iptv2A.php?id=49
+#EXTINF:-1 tvg-id="ROCK ACTION" tvg-name="ROCK ACTION" group-title="极速风云",ROCK Action
+http://iptv.4666888.xyz/iptv2A.php?id=50
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/JET综合.png" group-title="极速风云",JET综合
+http://iptv.4666888.xyz/iptv2A.php?id=51
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八度空间.png" group-title="极速风云",八度空间
+http://iptv.4666888.xyz/iptv2A.php?id=52
+#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="极速风云",BBC Earth
+http://iptv.4666888.xyz/iptv2A.php?id=53
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="极速风云",中视经典
+http://iptv.4666888.xyz/iptv2A.php?id=54
 #EXTINF:-1 group-title="斯玛特",华丽翡翠
 http://orz.jkun.cf/smt.php?id=Tvbjade
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="斯玛特",翡翠台
