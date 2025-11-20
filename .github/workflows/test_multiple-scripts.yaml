@@ -1,0 +1,196 @@
+name: test_multiple-scripts
+
+###############################################################################
+# EPG数据自动生成工作流
+# 
+# 功能概述:
+#   - 从私有仓库获取EPG生成脚本（PHP/Python）
+#   - 自动执行脚本生成XML格式的电子节目指南数据
+#   - 将生成的EPG数据推送到当前仓库的epg目录
+#
+# 主要特性:
+#   - 支持多语言多脚本（PHP 8.1 + Python 3.9）
+#   - 安全的私有仓库访问（使用PAT_TOKEN）
+#   - 自动错误处理和报告机制
+#   - 脚本执行后自动清理，不保留在公共仓库
+#   - 北京时间戳的提交信息
+#   - 可配置的脚本执行列表
+#
+# 触发条件:
+#   - 定时触发: 每日UTC 19:10（北京时间3:10）自动运行
+#   - 手动触发: 可在GitHub Actions页面手动执行
+#
+# 前置要求:
+#   - 在仓库Secrets中设置PAT_TOKEN，具有访问私有仓库的权限
+#   - 私有仓库tvepg的epg_scripts分支包含所需的EPG脚本
+#
+# 输出结果:
+#   - 生成的XML文件将保存在epg目录中
+#   - 详细的执行日志和错误报告
+###############################################################################
+
+on:
+  workflow_dispatch:  # 手动触发 - 可在GitHub Actions页面手动运行此工作流
+  schedule:
+    # 定时触发 - 每天UTC时间19点10分（北京时间凌晨3点10分）自动运行
+    - cron: '10 19 * * *'
+
+jobs:
+  generate-epg:
+    runs-on: ubuntu-latest  # 使用最新版Ubuntu系统作为运行环境
+    
+    steps:
+    # 步骤1: 检出当前仓库代码
+    - name: Checkout current repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.PAT_TOKEN }}  # 使用个人访问令牌进行认证
+        fetch-depth: 1  # 获取最新git历史记录
+
+    # 步骤2: 设置Python环境
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'  # 指定Python 3.9版本
+
+    # 步骤3: 设置PHP环境
+    - name: Set up PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'  # 指定PHP 8.1版本
+        
+    # 步骤4: 安装Python依赖包
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip  # 升级pip到最新版本
+        # 安装Python脚本可能需要的库
+        pip install requests beautifulsoup4 lxml pytz httpx
+
+    # 步骤5: 安装PHP扩展
+    - name: Install PHP dependencies
+      run: |
+        # 更新包管理器
+        sudo apt-get update
+        # 安装PHP脚本可能需要的扩展
+        sudo apt-get install -y php-curl php-xml php-mbstring        
+
+    # 步骤6: 直接检出私有仓库的epg_scripts分支
+    - name: Checkout private repository (epg_scripts branch)
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ github.repository_owner }}/tvepg  # 私有仓库
+        token: ${{ secrets.PAT_TOKEN }}  # 使用个人访问令牌
+        ref: epg_scripts  # 指定分支
+        path: private_repo_temp  # 检出到指定目录
+
+    # 步骤7: 定义并执行脚本数组
+    - name: Define and execute scripts
+      run: |
+        # 定义要获取并执行的脚本数组（PHP和Python）
+        # 可以轻松添加、移除或注释不需要的脚本
+        scripts=(
+          # "epganywhereusa.php"
+          # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）- 当前已禁用
+          # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
+          # "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本 - 当前启用
+          "get_mod_epg.py"
+        )
+        
+        # 存储失败脚本的数组，用于错误报告
+        failed_scripts=()
+        
+        # 循环执行每个脚本
+        for script in "${scripts[@]}"; do
+          echo "::group::🛠 执行 $script"
+          # echo "===================================="
+          
+          # 检查脚本在私有仓库中是否存在
+          if [ ! -f "private_repo_temp/$script" ]; then
+            echo "⚠️ 警告: 脚本 $script 不存在，跳过"
+            failed_scripts+=("$script (不存在)")
+            echo "::endgroup::"
+            continue
+          fi
+          
+          # 复制脚本从临时目录到当前工作目录
+          cp "private_repo_temp/$script" "./$script"
+          
+          # 根据文件扩展名选择执行方式
+          if [[ "$script" == *.php ]]; then
+            # 执行PHP脚本，如果失败则记录错误
+            php "$script" || {
+              echo "❌ 错误: PHP脚本 $script 执行失败"
+              failed_scripts+=("$script")
+              rm -f "$script"  # 清理脚本文件
+              echo "::endgroup::"
+              continue
+            }
+          elif [[ "$script" == *.py ]]; then
+            # 执行Python脚本，如果失败则记录错误
+            python "$script" || {
+              echo "❌ 错误: Python脚本 $script 执行失败"
+              failed_scripts+=("$script")
+              rm -f "$script"  # 清理脚本文件
+              echo "::endgroup::"
+              continue
+            }
+          fi
+          
+          # 执行成功后删除脚本文件，不保留在仓库中
+          rm -f "$script"
+          echo "✅ 脚本 $script 执行成功"
+          echo "::endgroup::"
+        done
+        
+        # 清理临时目录，不保留私有仓库的副本
+        rm -rf private_repo_temp
+        
+        # 报告所有脚本的执行结果
+        echo "=== 脚本执行结果 ==="
+        if [ ${#failed_scripts[@]} -eq 0 ]; then
+          echo "✅ 所有脚本执行成功!"
+        else
+          echo "ℹ️ 以下脚本执行失败:"
+          for failed in "${failed_scripts[@]}"; do
+            echo "  - $failed"
+          done
+          # 如果有脚本失败，退出状态为非零，使工作流标记为失败
+          exit 1
+        fi
+
+    # 步骤8: 创建epg目录（如果不存在）
+    - name: Create epg directory if not exists
+      run: |
+        mkdir -p epg  # 创建epg目录用于存放生成的XML文件
+
+    # 步骤9: 移动XML文件到epg目录
+    - name: Move XML files to epg directory
+      run: |
+        # 查找当前目录下所有XML和XML.GZ文件并移动到epg目录
+        # 支持常规XML文件和压缩的XML.GZ文件
+        find . -maxdepth 1 -name "*.xml" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到XML文件"
+        find . -maxdepth 1 -name "*.xml.gz" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到XML.GZ文件"
+
+    # 步骤10: 配置Git用户信息
+    - name: Configure Git
+      run: |
+        git config user.name "GitHub Actions"  # 设置提交者名称
+        git config user.email "actions@github.com"  # 设置提交者邮箱
+
+    # 步骤11: 获取北京时间并提交更改
+    - name: Get Beijing time and commit changes
+      run: |
+        # 设置时区为北京时间并获取格式化的时间字符串
+        BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
+        # 添加epg目录下的所有更改到暂存区
+        git add epg/
+        # 检查是否有实际更改需要提交
+        if git diff --staged --quiet; then
+          echo "ℹ️ 没有更改可提交"
+        else
+          # 提交更改，包含北京时间信息
+          git commit -m "🔄 Download EPG数据 [北京时间: $BEIJING_TIME]"
+          # 推送更改到远程仓库
+          git push
+          echo "✅ Push successful"
+        fi
