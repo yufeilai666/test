@@ -95,6 +95,7 @@ jobs:
           # "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本 - 当前启用
           "get_mod_epg.py"
           "get_bbcable_epg.py"
+          "get_kbro_epg.py"
         )
         
         # 存储失败脚本的数组，用于错误报告
