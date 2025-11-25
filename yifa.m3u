@@ -859,20 +859,40 @@ http://dungou.szius.com:8080/live/yifatv-ztxw01.flv
 http://dungou.szius.com:8080/live/yifatv-ztxw02.flv
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台3",翡翠台
 http://pull.spphj.com/live/tvbfct.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW紫金国际.png" group-title="极速港台3",Now紫金国际
-http://test-al-livepull.migucloud.com/live/hktv-kjfhslkdjngnlkdkgjdlkgjrkltjggrtlmaguidanow03kkhk.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW星影台.png" group-title="极速港台3",Now星影台
-http://test-al-livepull.migucloud.com/live/hktv-kjfhslkdjngnlkdkgjdlkgjrkltjggrtlmaguidanow01kkhk.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW爆谷台.png" group-title="极速港台3",Now爆谷台
-http://test-al-livepull.migucloud.com/live/hktv-kjfhslkdjngnlkdkgjdlkgjrkltjggrtlmaguidanow02kkhk.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW华剧台.png" group-title="极速港台3",Now华剧台
-http://test-al-livepull.migucloud.com/live/hktv-kjfhslkdjngnlkdkgjdlkgjrkltjggrtlmaguidanow04kkhk.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW剧集台.png" group-title="极速港台3",Now剧集台
-http://test-al-livepull.migucloud.com/live/hktv-kjfhslkdjngnlkdkgjdlkgjrkltjggrtlmaguidanow05kkhk.flv
+#EXTINF:-1 group-title="极速港台3",Plus综合
+http://rihou.cc:8/Plus综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="极速港台3",凤凰香港
+http://rihou.cc:8/凤凰香港
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="极速港台3",中天新闻
-http://test-al-livepull.migucloud.com/live/hktv-kjfhslkdjngnlkdkgjdlkgjrkltjggrtlmagztxwkks.flv
-#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="极速港台3",TVBS
-http://test-al-livepull.migucloud.com/live/hktv-kjfhslkdjngnlkdkgjdlkgjrkltjggrtlmagtvbskks.flv
+http://rihou.cc:8/中天新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="极速港台3",无线新闻
+http://rihou.cc:8/无线新闻
+#EXTINF:-1 group-title="极速港台3",无线翡翠
+http://rihou.cc:8/无线翡翠
+#EXTINF:-1 group-title="极速港台3",无线明珠
+http://rihou.cc:8/无线明珠
+#EXTINF:-1 group-title="极速港台3",Now星影
+http://rihou.cc:8/Now星影
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW爆谷.png" group-title="极速港台3",Now爆谷
+http://rihou.cc:8/Now爆谷
+#EXTINF:-1 group-title="极速港台3",Now英超
+http://rihou.cc:8/Now英超
+#EXTINF:-1 group-title="极速港台3",tvbs闽南
+http://rihou.cc:8/tvbs闽南
+#EXTINF:-1 group-title="极速港台3",tvbs新话
+http://rihou.cc:8/tvbs新话
+#EXTINF:-1 group-title="极速港台3",VIUTV粤
+http://rihou.cc:8/VIUTV粤
+#EXTINF:-1 group-title="极速港台3",VIUTV英
+http://rihou.cc:8/VIUTV英
+#EXTINF:-1 group-title="极速港台3",RTHK-31
+http://rihou.cc:8/RTHK-31
+#EXTINF:-1 group-title="极速港台3",RTHK-32
+http://rihou.cc:8/RTHK-32
+#EXTINF:-1 group-title="极速港台3",RTHK-33
+http://rihou.cc:8/RTHK-33
+#EXTINF:-1 group-title="极速港台3",RTHK-34
+http://rihou.cc:8/RTHK-34
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台3",翡翠台
 http://r.jdshipin.com/62WM7
 #EXTINF:-1 group-title="极速港台3",翡翠台2
