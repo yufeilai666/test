@@ -15,122 +15,40 @@ http://[2409:8087:2001:20:2800:0:df6e:eb19]:80/wh7f454c46tw2554338791_49940138/o
 http://[2409:8087:2001:20:2800:0:df6e:eb19]:80/wh7f454c46tw1934355864_2070028581/ott.mobaibox.com/PLTV/3/224/3221227530/index.m3u8
 #EXTINF:-1 group-title="功夫格斗",拳击
 http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000430/index.m3u8?
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="刘公子港湾",凤凰香港
-http://203.205.191.53/qctv.fengshows.cn/live/0701phk72.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="刘公子港湾",凤凰香港
-http://203.205.191.53/qctv.fengshows.cn/live/0701phk72.flv
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="刘公子港湾",凤凰资讯
-http://203.205.191.53/qctv.fengshows.cn/live/0701pin72.flv
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="刘公子港湾",凤凰资讯
-http://203.205.191.53/qctv.fengshows.cn/live/0701pin72.m3u8
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="刘公子港湾",凤凰中文
-http://203.205.191.53/qctv.fengshows.cn/live/0701pcc72.m3u8
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="刘公子港湾",中天新聞台
-http://bxtv.3a.ink/api.php?id=ztxw#http://bxtv.3a.ink/mytv/fp2.php?id=ztxw#http://tv.1l.osfs.top/Smart.php?id=ctinews
-#EXTINF:-1 tvg-id="LOVE NATURE 4K" tvg-name="LOVE NATURE 4K" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Love Nature.png" group-title="刘公子港湾",Love Nature
-https://live.tvfix.org/live/lovenature/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="刘公子港湾",无线新闻台
-https://live.tvfix.org/live/inews/index.m3u8
-#EXTINF:-1 tvg-id="美亞電影台" tvg-name="美亞電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美亞電影台.png" group-title="刘公子港湾",美亚电影台
-https://live.tvfix.org/live/mydy/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS亚洲台.png" group-title="刘公子港湾",TVBS亚洲台
-https://live.tvfix.org/live/tvbs/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/娛樂新聞台.png" group-title="刘公子港湾",娱乐新闻台
-https://live.tvfix.org/live/enews/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="刘公子港湾",无线新闻
-https://live.tvfix.org/live/inews/3/v4000000/index.m3u8
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="刘公子港湾",凤凰中文
-https://live.tvfix.org/live/fhzw/1/v4000000/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/美亞電影.png" group-title="刘公子港湾",美亚电影
-https://live.tvfix.org/live/mydy/1/v4000000/index.m3u8
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="刘公子港湾",翡翠台
-https://live.tvfix.org/live/jade/index.m3u8
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="刘公子港湾",凤凰中文
-https://live.tvfix.org/live/fhzw/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="刘公子港湾",天映经典
-https://live.tvfix.org/live/tyjd/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="刘公子港湾",凤凰香港
-https://live.tvfix.org/live/fwxg/index.m3u8
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="刘公子港湾",凤凰资讯
-https://live.tvfix.org/live/fwzx/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",凤凰咨询
-https://live.tvfix.org/live/fwzx/1/v4000000/index.m3u8
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="刘公子港湾",CCTV1
-https://live.tvfix.org/live/cctv1hd/index.m3u8
-#EXTINF:-1 tvg-id="ROCK ACTION" tvg-name="ROCK ACTION" group-title="刘公子港湾",ROCK Action
-https://live.tvfix.org/live/rockac/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",18台赛马频道
-https://live.tvfix.org/live/c18/index.m3u8
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",tvbs新闻
-https://live.tvfix.org/live/tvbsnews/1/v4000000/index.m3u8
-#EXTINF:-1 tvg-id="中國電影頻道" tvg-name="中國電影頻道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国电影频道.png" group-title="刘公子港湾",中国电影频道
-https://live.tvfix.org/live/cmc/index.m3u8
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="刘公子港湾",东方卫视
-https://live.tvfix.org/live/dfhd/index.m3u8
-#EXTINF:-1 tvg-id="FashionBox" tvg-name="FashionBox" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/FASHIONBOX.png" group-title="刘公子港湾",FashionBox
-https://live.tvfix.org/live/fashion/index.m3u8
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="刘公子港湾",翡翠台
-https://live.tvfix.org/live/jade/3/v700000/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="刘公子港湾",明珠台
-https://live.tvfix.org/live/pearl/index.m3u8
+#EXTINF:-1 tvg-id="myTV SUPER 18台" tvg-name="myTV SUPER 18台" group-title="刘公子港湾",myTV SUPER 18台
+http://bxtv.3a.ink/api.php?id=18
 #EXTINF:-1 group-title="刘公子港湾",TVB Plus
-https://live.tvfix.org/live/tvbplus/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",18赛马
-https://live.tvfix.org/live/c18/4/v200000/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="刘公子港湾",tvbplus
-https://live.tvfix.org/live/tvbplus/2/v4000000/index.m3u8
-#EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" group-title="刘公子港湾",Nick Jr
-https://live.tvfix.org/live/nickjr/index.m3u8
-#EXTINF:-1 tvg-id="PopC" tvg-name="PopC" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/POPC.png" group-title="刘公子港湾",popc
-https://live.tvfix.org/live/popc/2/v4000000/index.m3u8
-#EXTINF:-1 tvg-id="PopC" tvg-name="PopC" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/POPC.png" group-title="刘公子港湾",PopC
-https://live.tvfix.org/live/popc/index.m3u8
-#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/AXN.png" group-title="刘公子港湾",AXN
-https://live.tvfix.org/live/axn/index.m3u8
-#EXTINF:-1 tvg-id="Global Trekker" tvg-name="Global Trekker" group-title="刘公子港湾",Global Trekker
-https://live.tvfix.org/live/trekker/index.m3u8
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="刘公子港湾",Mezzo Live
-https://live.tvfix.org/live/mezzon/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="刘公子港湾",凤凰香港
-https://live.tvfix.org/live/fwxg/2/v4000000/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="刘公子港湾",天映经典
-https://live.tvfix.org/live/tyjd/1/v1000000/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",創世頻道
-https://live.tvfix.org/live/chuangshi/index.m3u8
-#EXTINF:-1 tvg-id="ROCK綜藝娛樂" tvg-name="ROCK綜藝娛樂" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ROCK綜藝娛樂.png" group-title="刘公子港湾",ROCK综艺娱乐
-https://live.tvfix.org/live/rockzy/index.m3u8
-#EXTINF:-1 tvg-id="娱乐新闻" tvg-name="娱乐新闻" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/娱乐新闻.png" group-title="刘公子港湾",娱乐新闻
-https://live.tvfix.org/live/enews/1/v4000000/index.m3u8
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="刘公子港湾",凤凰资讯
-https://live.tvfix.org/live/fhzx/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="刘公子港湾",凤凰香港
-https://live.tvfix.org/live/fhxg/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn纪录.png" group-title="刘公子港湾",CGTN纪录
-https://live.tvfix.org/live/cgtndochd/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",无线亚洲
-https://live.tvfix.org/live/tvbs/2/v4000000/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NICKELODEON.png" group-title="刘公子港湾",Nickelodeon
-https://live.tvfix.org/live/niko/index.m3u8
-#EXTINF:-1 tvg-id="SUPER Kids Channel" tvg-name="SUPER Kids Channel" group-title="刘公子港湾",SUPER Kids Channel
-https://live.tvfix.org/live/kid/index.m3u8
-#EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="刘公子港湾",CGTN
-https://live.tvfix.org/live/cgtnhd/index.m3u8
+http://bxtv.3a.ink/api.php?id=tvbp
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="刘公子港湾",明珠台
-https://live.tvfix.org/live/pearl/1/v4000000/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",28赛马
-https://live.tvfix.org/live/c28/2/v200000/index.m3u8
-#EXTINF:-1 tvg-id="ZooMoo" tvg-name="ZooMoo" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ZOOMOO.png" group-title="刘公子港湾",ZooMoo
-https://live.tvfix.org/live/zoo/index.m3u8
-#EXTINF:-1 tvg-id="KIX" tvg-name="KIX" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/KIX.png" group-title="刘公子港湾",KIX
-https://live.tvfix.org/live/kix/index.m3u8
-#EXTINF:-1 group-title="刘公子港湾",28台AI智慧赛马频道
-https://live.tvfix.org/live/c28/index.m3u8
+http://bxtv.3a.ink/api.php?id=mz
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="刘公子港湾",無線新聞台
+http://bxtv.3a.ink/api.php?id=wxxw
+#EXTINF:-1 tvg-id="美亞電影台" tvg-name="美亞電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美亞電影台.png" group-title="刘公子港湾",美亞電影台
+http://bxtv.3a.ink/api.php?id=meiya
+#EXTINF:-1 tvg-id="千禧經典台" tvg-name="千禧經典台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧經典台.png" group-title="刘公子港湾",千禧經典台
+http://bxtv.3a.ink/api.php?id=qxjd
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="刘公子港湾",翡翠台
+http://bxtv.3a.ink/api.php?id=fct
+#EXTINF:-1 tvg-id="鳳凰衛視中文台" tvg-name="鳳凰衛視中文台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視中文台.png" group-title="刘公子港湾",鳳凰衛視中文台
+http://bxtv.3a.ink/api.php?id=fhzw
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視資訊台.png" group-title="刘公子港湾",鳳凰衛視資訊台
+http://bxtv.3a.ink/api.php?id=fhzx
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視香港台.png" group-title="刘公子港湾",鳳凰衛視香港台
+http://bxtv.3a.ink/api.php?id=fhhk
+#EXTINF:-1 tvg-id="PopC" tvg-name="PopC" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/POPC.png" group-title="刘公子港湾",POPC
+http://bxtv.3a.ink/api.php?id=popc
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW爆谷台.png" group-title="刘公子港湾",NOW爆谷台
+http://bxtv.3a.ink/api.php?id=baogu
+#EXTINF:-1 tvg-id="Now爆谷星影台" tvg-name="Now爆谷星影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW爆谷星影台.png" group-title="刘公子港湾",NOW爆谷星影台
+http://bxtv.3a.ink/api.php?id=xingying
+#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="刘公子港湾",中天新聞台
+http://bxtv.3a.ink/api.php?id=ztxw
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="刘公子港湾",凤凰资讯
-http://203.205.191.53/qctv.fengshows.cn/live/0701pin72.m3u8
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="刘公子港湾",凤凰中文
-http://203.205.191.53/qctv.fengshows.cn/live/0701pcc72.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="刘公子港湾",凤凰香港
-http://203.205.191.53/qctv.fengshows.cn/live/0701phk72.m3u8
+https://zhong9527.dpdns.org/fhzx66666.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="刘公子港湾",中天新闻
+https://zhong9527.dpdns.org/zhongtian66666.m3u8
+#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="刘公子港湾",中天新聞台
+http://bxtv.3a.ink/api.php?id=ztxw#http://bxtv.3a.ink/mytv/fp2.php?id=ztxw
 #EXTINF:-1 group-title="刘公子港湾",香港开频道
 https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/星空衛視.png" group-title="刘公子港湾",星空卫视
@@ -139,22 +57,6 @@ http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
 http://iot-mqqt.111yao.cn:8080/live/diyp_starmovies.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰電影.png" group-title="刘公子港湾",凤凰电影
 http://iot-mqqt.111yao.cn:8080/live/diyp_fhdy.m3u8
-#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="刘公子港湾",龙华电影
-https://cdn8.163189.xyz/live/lhdy/stream.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="刘公子港湾",龙华经典
-https://cdn8.163189.xyz/live/lhjd/stream.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華卡通.png" group-title="刘公子港湾",龙华卡通
-https://cdn8.163189.xyz/live/lhkt/stream.m3u8
-#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="刘公子港湾",龙华偶像
-https://cdn8.163189.xyz/live/lhox/stream.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華日韓.png" group-title="刘公子港湾",龙华日韩
-https://cdn8.163189.xyz/live/lhrh/stream.m3u8
-#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="刘公子港湾",龙华戏剧
-https://cdn8.163189.xyz/live/lhxj/stream.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/莲花卫视.png" group-title="刘公子港湾",莲花卫视
-http://anren.live/HK/BiIOU11uLA.m3u8
-#EXTINF:-1 tvg-id="香港衛視" tvg-name="香港衛視" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/香港衛視.png" group-title="刘公子港湾",香港卫视
-http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 group-title="刘公子港湾",香港33
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
 #EXTINF:-1 group-title="刘公子港湾",香港34
