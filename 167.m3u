@@ -997,7 +997,7 @@ p3p://167.114.175.6:55331/63ec4f9b000752c3e450bc6d341d5c72
 p3p://167.114.175.6:55331/63ec50040009cf8ae452573540ac6abe
 #EXTINF:-1 tvg-id="东方影视 (shanghai)" tvg-name="东方影视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東方影視.png" group-title="大陆MainLand",东方影视
 p3p://167.114.175.6:55331/63ec504700099c1ae4535ce016284942
-#EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="大陆MainLand",CGTN
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="大陆MainLand",CGTN
 p3p://167.114.175.6:55331/63ec50f4000113f9e455fe7b1ca5372f
 #EXTINF:-1 group-title="大陆MainLand",CGTN DOC
 p3p://167.114.175.6:55331/63ec5137000178e2e457045579c13af1
@@ -1147,7 +1147,7 @@ p3p://167.114.175.6:55331/64b25b320002edf8e9ea824c514e7979
 http://rtmp.one.by:1200
 #EXTINF:-1 group-title="音悦台",Ru Frist Music
 http://rtmp.one.by:2200
-#EXTINF:-1 tvg-id="trace urban" tvg-name="trace urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="音悦台",Trace Urban
+#EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="音悦台",Trace Urban
 p3p://167.114.175.6:55331/644fae930000fb9c6879e5f40cc63e7f
 #EXTINF:-1 group-title="音悦台",MDIINORBA
 https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8
@@ -1853,7 +1853,7 @@ p3p://167.114.175.6:55331/64bbb4a20003920c0e6fb5005f03654a
 p3p://167.114.175.6:55331/64bbb4e7000d13560e70c4f7058227b2
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/欧洲体育.png" group-title="新马MS",欧洲体育
 p3p://167.114.175.6:55331/5fe6fc92000bb0078d3cad5824d31e8a
-#EXTINF:-1 tvg-id="GEM" tvg-name="GEM" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GEM.png" group-title="新马MS",GEM
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GEM.png" group-title="新马MS",GEM
 p3p://167.114.175.6:55331/6444006f000393eb3ad9fe745f943a0e
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ONE.png" group-title="新马MS",ONE
 p3p://167.114.175.6:55331/65944e0a000330985c82d4ed74df63de
@@ -2083,7 +2083,7 @@ p3p://fccsen.dyndns.tv:29706/61ea3047000e4bbceb9de94d39d6504b
 p3p://fccsen.dyndns.tv:29706/5d7e6dd2000b41daaf4713cf230c71eb
 #EXTINF:-1 group-title="新马MS",PTV Sports
 p3p://fccsen.dyndns.tv:29706/61ea318500087833eba2c1ff334012b1
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/SUN TV.png" group-title="新马MS",Sun TV
+#EXTINF:-1 tvg-id="Sun TV" tvg-name="Sun TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/SUN TV.png" group-title="新马MS",Sun TV
 p3p://fccsen.dyndns.tv:29706/61f0b048000921540501ebe16fd90594
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Zee Tamil.png" group-title="新马MS",Zee Tamil
 p3p://fccsen.dyndns.tv:29706/61f1cd3d0009f603095b092867dd4462
@@ -2413,7 +2413,7 @@ p3p://167.114.175.6:55331/63a9d2390003ed9f6af1653b4ab56965
 p3p://167.114.175.6:55331/63a9d27f000b48236af2788c42ac1a93
 #EXTINF:-1 group-title="日本JP",关西电视
 p3p://167.114.175.6:55331/632406730008b8e327a8ce1e69e75a6d
-#EXTINF:-1 tvg-id="GEM" tvg-name="GEM" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GEM.png" group-title="日本JP",GEM
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GEM.png" group-title="日本JP",GEM
 p3p://167.114.175.6:55331/63f24d04000dec4ffbb67673277f0917
 #EXTINF:-1 group-title="日本JP",东日映画
 p3p://167.114.175.6:55331/63252324000e7bcb2c00e2fc475e5ee3
