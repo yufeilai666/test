@@ -665,7 +665,7 @@ p3p://167.114.175.6:55331/5fffbf860003807cedf4e1016c3c3ed2
 p3p://167.114.175.6:55331/602c73500002f4d29c90fa1270f21160
 #EXTINF:-1 group-title="新闻News",CCTV新闻
 p3p://167.114.175.6:55331/632351570006042224e55806316a7512
-#EXTINF:-1 tvg-id="神州新闻" tvg-name="神州新闻" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/神州新闻.png" group-title="新闻News",神州新聞
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/神州新闻.png" group-title="新闻News",神州新聞
 p3p://167.114.175.6:55331/655e74f7000953678a2be18968661f5f
 #EXTINF:-1 group-title="新闻News",青田新闻综合
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
@@ -683,7 +683,7 @@ p3p://167.114.175.6:55331/653cd4a900049a4206d258a92e941b10
 p3p://167.114.175.6:55331/6014c896000c7101401f67cc5477681b
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="新闻News",民视新闻
 p3p://167.114.175.6:55331/602f1f4a000aa86fa700c49817387f81
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="新闻News",台视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="新闻News",台视新闻
 p3p://167.114.175.6:55331/62caf1dc000525b3cbb4de6e3c0e2af8
 #EXTINF:-1 tvg-id="年代新聞" tvg-name="年代新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/年代新闻.png" group-title="新闻News",年代新闻
 p3p://167.114.175.6:55331/5fe09fec000ac0127462c4ac6b1f16a3
@@ -965,7 +965,7 @@ p3p://167.114.175.6:55331/63ec4bd00007d193e441eb97059d6779
 p3p://167.114.175.6:55331/63ec4c2d000a249be4435773000226af
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/环球电视.png" group-title="大陆MainLand",环球电视
 http://zb.xzxwhcb.com:9999/hls/world.m3u8
-#EXTINF:-1 tvg-id="神州新闻" tvg-name="神州新闻" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/神州新闻.png" group-title="大陆MainLand",神州新聞
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/神州新闻.png" group-title="大陆MainLand",神州新聞
 p3p://167.114.175.6:55331/655e74f7000953678a2be18968661f5f
 #EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/chc高清电影.png" group-title="大陆MainLand",CHC高清电影
 p3p://167.114.175.6:55331/63ec4caf00020428e445513c2d902fdb
@@ -1439,7 +1439,7 @@ p3p://167.114.175.6:55331/653cd4a900049a4206d258a92e941b10
 p3p://167.114.175.6:55331/6014c896000c7101401f67cc5477681b
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="台湾TW",民视新闻
 p3p://167.114.175.6:55331/602f1f4a000aa86fa700c49817387f81
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="台湾TW",台视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="台湾TW",台视新闻
 p3p://167.114.175.6:55331/62caf1dc000525b3cbb4de6e3c0e2af8
 #EXTINF:-1 tvg-id="年代新聞" tvg-name="年代新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/年代新闻.png" group-title="台湾TW",年代新闻
 p3p://167.114.175.6:55331/5fe09fec000ac0127462c4ac6b1f16a3

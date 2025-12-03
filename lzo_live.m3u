@@ -119,7 +119,7 @@ http://61.221.215.25:8800/hls/55/index.m3u8
 http://61.221.215.25:8800/hls/57/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="刘公子港湾",民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
 http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
@@ -133,7 +133,7 @@ http://38.64.72.148/hls/modn/list/4008/chunklist0.m3u8
 http://38.64.72.148/hls/modn/list/4011/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="刘公子港湾",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
 http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
 #EXTINF:-1 group-title="刘公子港湾",ETRV中国
 http://38.64.72.148/hls/modn/list/2003/chunklist0.m3u8
@@ -147,9 +147,9 @@ http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
 http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 #EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="刘公子港湾",TVBS新闻
 http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
-#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="刘公子港湾",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 group-title="刘公子港湾",华语电视2
 http://38.64.72.148/hls/modn/list/4002/chunklist0.m3u8
@@ -437,15 +437,15 @@ http://php.jdshipin.com:8880/fstv.php?id=fszh
 http://php.jdshipin.com:8880/fstv.php?id=fsys
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山公共.png" group-title="📡广东频道",佛山公共
 http://php.jdshipin.com:8880/fstv.php?id=fsgg
-#EXTINF:-1 tvg-id="云浮综合" tvg-name="云浮综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮综合.png" group-title="📡广东频道",云浮综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮综合.png" group-title="📡广东频道",云浮综合
 https://livestream.oeeee.com/slive/17806.m3u8
-#EXTINF:-1 tvg-id="云浮文旅" tvg-name="云浮文旅" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮文旅.png" group-title="📡广东频道",云浮文旅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮文旅.png" group-title="📡广东频道",云浮文旅
 https://livestream.oeeee.com/slive/17807.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/河源综合.png" group-title="📡广东频道",河源综合
 http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/河源公共.png" group-title="📡广东频道",河源公共
 http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8
-#EXTINF:-1 tvg-id="广东经济科教" tvg-name="广东经济科教" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东经济科教.png" group-title="📡广东频道",广东经济科教
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东经济科教.png" group-title="📡广东频道",广东经济科教
 https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_1386886203_9072137384/merged_1710422346229_219649_20_4796.m3u8#https://p2.vzan.com/slowlive/677282322271134305/live.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/南方购物.png" group-title="📡广东频道",南方购物
 https://s3.cn-northwest-1.amazonaws.com.cn/nanfanggouwu/gz/nfgw_720.m3u8
