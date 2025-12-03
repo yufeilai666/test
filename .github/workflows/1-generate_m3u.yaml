@@ -33,37 +33,67 @@ jobs:
       run: |
         pip install requests zhconv chardet
 
-    - name: Run TV12 M3U generation script
+    - name: Run TV12 M3U generation script with retry
       continue-on-error: true  # 即使此步骤失败，也继续执行后续步骤
       id: run_tv12_script
       run: |
         cd scripts
-        if python generate_tv12_m3u.py; then
-          echo "status=success" >> $GITHUB_OUTPUT
-          echo "TV12脚本执行成功"
-        else
-          echo "status=failed" >> $GITHUB_OUTPUT
-          echo "TV12脚本执行失败，但继续执行其他脚本"
-        fi
+        max_retries=3
+        retry_count=0
+        
+        while [ $retry_count -lt $max_retries ]; do
+          echo "🚀 尝试第 $((retry_count+1)) 次执行 TV12 脚本..."
+          
+          if python generate_tv12_m3u.py; then
+            echo "status=success" >> $GITHUB_OUTPUT
+            echo "✅ TV12脚本执行成功"
+            exit 0
+          else
+            retry_count=$((retry_count+1))
+            if [ $retry_count -lt $max_retries ]; then
+              echo "⚠️ TV12脚本执行失败，等待 30 秒后重试..."
+              sleep 30
+            fi
+          fi
+        done
+        
+        echo "status=failed" >> $GITHUB_OUTPUT
+        echo "❌ TV12脚本执行失败，已达到最大重试次数 $max_retries"
+        exit 0  # 继续执行后续步骤
 
-    - name: Run general M3U generation script
+    - name: Run general M3U generation script with retry
       continue-on-error: true  # 即使此步骤失败，也继续执行后续步骤
       id: run_general_script
       run: |
         cd scripts
-        if python generate_m3u.py; then
-          echo "status=success" >> $GITHUB_OUTPUT
-          echo "通用脚本执行成功"
-        else
-          echo "status=failed" >> $GITHUB_OUTPUT
-          echo "通用脚本执行失败，但继续执行后续步骤"
-        fi
+        max_retries=3
+        retry_count=0
+        
+        while [ $retry_count -lt $max_retries ]; do
+          echo "🚀 尝试第 $((retry_count+1)) 次执行通用脚本..."
+          
+          if python generate_m3u.py; then
+            echo "status=success" >> $GITHUB_OUTPUT
+            echo "✅ 通用脚本执行成功"
+            exit 0
+          else
+            retry_count=$((retry_count+1))
+            if [ $retry_count -lt $max_retries ]; then
+              echo "⚠️ 通用脚本执行失败，等待 30 秒后重试..."
+              sleep 30
+            fi
+          fi
+        done
+        
+        echo "status=failed" >> $GITHUB_OUTPUT
+        echo "❌ 通用脚本执行失败，已达到最大重试次数 $max_retries"
+        exit 0  # 继续执行后续步骤
 
     - name: List generated M3U files
       run: |
-        echo "Generated M3U files:"
-        ls -la *.m3u 2>/dev/null || echo "No M3U files found in root directory"
-        ls -la scripts/*.m3u 2>/dev/null || echo "No M3U files found in scripts directory"
+        echo "📑 Generated M3U files:"
+        ls -la *.m3u 2>/dev/null || echo "⚠️ No M3U files found in root directory"
+        ls -la scripts/*.m3u 2>/dev/null || echo "⚠️ No M3U files found in scripts directory"
 
     - name: Move M3U files to root directory
       run: |
@@ -73,8 +103,8 @@ jobs:
         fi
         
         # 检查根目录是否已经有M3U文件
-        echo "M3U files in root directory after moving:"
-        ls -la *.m3u 2>/dev/null || echo "No M3U files in root directory"
+        echo "📑 M3U files in root directory after moving:"
+        ls -la *.m3u 2>/dev/null || echo "⚠️ No M3U files in root directory"
 
     - name: Check if any script succeeded
       id: check_success
@@ -84,10 +114,10 @@ jobs:
         
         if [ "$tv12_status" = "success" ] || [ "$general_status" = "success" ]; then
           echo "has_success=true" >> $GITHUB_OUTPUT
-          echo "至少有一个脚本执行成功"
+          echo "✅ 至少有一个脚本执行成功"
         else
           echo "has_success=false" >> $GITHUB_OUTPUT
-          echo "所有脚本都执行失败"
+          echo "❌ 所有脚本都执行失败"
         fi
 
     - name: Commit and push if changed
@@ -99,11 +129,46 @@ jobs:
         # 检查所有M3U文件是否有变化
         git add *.m3u
         if ! git diff --staged --quiet; then
-          git commit -m "Auto-generated TV M3U files [skip ci]"
-          git push origin HEAD:main
-          echo "Changes pushed to repository"
+          # 获取北京时间
+          BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+          echo "⌚️ 当前北京时间：$BEIJING_TIME"
+          
+          git commit -m "🔄 Auto-generated TV M3U files [$BEIJING_TIME UTC+8] [skip ci]"
+          
+          # 添加 push 重试机制
+          max_push_retries=3
+          push_retry_count=0
+          push_success=false
+          
+          while [ $push_retry_count -lt $max_push_retries ] && [ "$push_success" = false ]; do
+            echo "📤 尝试第 $((push_retry_count+1)) 次推送更改..."
+            
+            if git push origin HEAD:main; then
+              echo "✅ Changes pushed to repository successfully"
+              push_success=true
+            else
+              push_retry_count=$((push_retry_count+1))
+              if [ $push_retry_count -lt $max_push_retries ]; then
+                echo "⚠️ 推送失败，等待 10 秒后重试..."
+                sleep 10
+                
+                # 尝试拉取最新更改并重新推送
+                echo "📩 尝试拉取最新更改..."
+                if git pull --rebase origin main; then
+                  echo "✅ 拉取成功，重新尝试推送..."
+                else
+                  echo "ℹ️ 拉取失败，跳过此步骤直接重试推送..."
+                fi
+              fi
+            fi
+          done
+          
+          if [ "$push_success" = false ]; then
+            echo "❌ 推送失败，已达到最大重试次数 $max_push_retries"
+            exit 1
+          fi
         else
-          echo "No changes to commit"
+          echo "ℹ️ No changes to commit"
         fi
 
     - name: Show summary
@@ -118,5 +183,5 @@ jobs:
     - name: Fail if all scripts failed
       if: steps.check_success.outputs.has_success == 'false'
       run: |
-        echo "所有脚本都执行失败，工作流标记为失败"
+        echo "❌ 所有脚本都执行失败，工作流标记为失败"
         exit 1
