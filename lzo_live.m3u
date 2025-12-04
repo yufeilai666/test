@@ -437,9 +437,9 @@ http://php.jdshipin.com:8880/fstv.php?id=fszh
 http://php.jdshipin.com:8880/fstv.php?id=fsys
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山公共.png" group-title="📡广东频道",佛山公共
 http://php.jdshipin.com:8880/fstv.php?id=fsgg
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮综合.png" group-title="📡广东频道",云浮综合
+#EXTINF:-1 tvg-id="云浮综合" tvg-name="云浮综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮综合.png" group-title="📡广东频道",云浮综合
 https://livestream.oeeee.com/slive/17806.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮文旅.png" group-title="📡广东频道",云浮文旅
+#EXTINF:-1 tvg-id="云浮文旅" tvg-name="云浮文旅" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮文旅.png" group-title="📡广东频道",云浮文旅
 https://livestream.oeeee.com/slive/17807.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/河源综合.png" group-title="📡广东频道",河源综合
 http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
