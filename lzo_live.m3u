@@ -65,7 +65,7 @@ https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPla
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="刘公子港湾",动物星球
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="刘公子港湾",台视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="刘公子港湾",台视
 rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="刘公子港湾",中视
 rtmp://f13h.mine.nu/sat/tv091
@@ -81,7 +81,7 @@ rtmp://f13h.mine.nu/sat/tv701
 rtmp://f13h.mine.nu/sat/tv771
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森財經.png" group-title="刘公子港湾",东森财经
 rtmp://f13h.mine.nu/sat/tv571
-#EXTINF:-1 tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="刘公子港湾",东森超视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="刘公子港湾",东森超视
 rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="刘公子港湾",非凡新闻
 rtmp://f13h.mine.nu/sat/tv581
@@ -109,7 +109,7 @@ http://61.221.215.25:8800/hls/47/index.m3u8
 http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/探索亚洲.png" group-title="刘公子港湾",探索亚洲
 http://61.221.215.25:8800/hls/50/index.m3u8
-#EXTINF:-1 tvg-id="NHK" tvg-name="NHK" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/nhk.png" group-title="刘公子港湾",NHK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/nhk.png" group-title="刘公子港湾",NHK
 http://61.221.215.25:8800/hls/51/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大综合.png" group-title="刘公子港湾",八大综合
 http://61.221.215.25:8800/hls/56/index.m3u8
@@ -2515,7 +2515,7 @@ http://live.urren.net:80/live/c07e7399f939f4d44ee0c4ff57e8d7f4.flv
 http://live.urren.net:80/live/21dc2da2c62171e65c9ec87f83993694.flv
 #EXTINF:-1 group-title="松蕉系列",极限电影台
 http://live.urren.net:80/live/6a4814b30902b345400f42b24caa4179.flv
-#EXTINF:-1 tvg-id="HAPPY" tvg-name="HAPPY" tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/HAPPY.png" group-title="松蕉系列",happy
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/HAPPY.png" group-title="松蕉系列",happy
 http://live.urren.net:80/live/aa979aaf165824a668b5ca779f1253c5.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/香蕉.png" group-title="松蕉系列",香蕉
 http://live.urren.net:80/live/e970e32dc71872e97db4bd2b6d91eeba.flv
