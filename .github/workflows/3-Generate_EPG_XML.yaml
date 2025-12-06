@@ -64,7 +64,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip  # 升级pip到最新版本
         # 安装Python脚本可能需要的库
-        pip install requests beautifulsoup4 lxml pytz
+        pip install requests beautifulsoup4 lxml pytz httpx loguru
 
     # 步骤5: 安装PHP扩展
     - name: Install PHP dependencies
