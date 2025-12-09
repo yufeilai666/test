@@ -93,9 +93,9 @@ jobs:
           # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）- 当前已禁用
           # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
           # "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本 - 当前启用
-          # "get_mod_epg.py"
-          # "get_bbcable_epg.py"
-          # "get_kbro_epg.py"
+          "get_mod_epg.py"
+          "get_bbcable_epg.py"
+          "get_kbro_epg.py"
           "get_celestial_epg.py"
         )
         
