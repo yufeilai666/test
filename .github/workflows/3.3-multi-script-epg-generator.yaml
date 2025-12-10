@@ -1,63 +1,58 @@
-# 文件: .github/workflows/3-multi-script-epg-generator.yml
-# 功能: 弹性多脚本EPG生成器（支持PHP和Python）
+# 文件: .github/workflows/3.3-multi-script-epg-generator.yml
+# 功能: 弹性多脚本EPG生成器（支持PHP和Python）- 跨仓库版本
 # 描述:
-#   此工作流每小时自动执行多个PHP和Python脚本生成和修复EPG XML文件
-#   主要特点:
-#     1. 支持定时触发和手动触发
-#     2. 高效处理PHP和Python脚本执行
-#     3. 精确记录失败脚本并显示在提交历史和日志中
-#     4. 智能提交机制：即使部分脚本失败，成功生成的文件也会被提交
-#     5. 完善的错误报告和重试机制
-#     6. 从epg_scripts分支获取脚本
-#     7. 在临时目录中直接执行脚本
-#     8. 将生成的XML文件复制回工作目录
-#     9. 支持Python环境配置和依赖安装
-#     10. 支持环境变量配置传递
+#   此工作流在公开仓库运行，但：
+#     1. 从私有仓库的epg_scripts分支获取脚本
+#     2. 在公开仓库中执行脚本生成EPG XML文件
+#     3. 将生成的XML文件推送回私有仓库
 #
 # 使用说明:
-#   1. 将本文件放在仓库的 .github/workflows/ 目录
-#   2. 在下面的脚本列表中添加/修改需要执行的PHP和Python文件
-#   3. 确保所有脚本输出.xml文件到临时目录
-#   4. 工作流将自动处理XML文件的提交和推送
-#   5. 脚本存储在epg_scripts分支的根目录
+#   1. 在公开仓库的secrets中配置:
+#      - PAT_TOKEN: 具有访问私有仓库权限的Personal Access Token
+#      - TMDB_API_KEY: TMDB API密钥
+#      - EPG_CONFIG: EPG配置信息
+#   2. 脚本文件存储在私有仓库的epg_scripts分支
+#   3. 生成的XML文件将推送回私有仓库的主分支
 
-name: 3 Resilient Multi-Script EPG Generator (PHP + Python)
+name: 3.3 Resilient Multi-Script EPG Generator (Cross-Repository)
 
 # 触发条件配置
 on:
-  schedule:  # 定时触发配置
-    # 每天UTC时间1点5分、5点5分、9点5分、13点5分、17点5分、21点5分执行一次(北京时间1点5分、5点5分、9点5分、13点5分、17点5分、21点5分)
+  schedule:
     - cron: '5 1,5,9,13,17,21 * * *'
-  workflow_dispatch:  # 支持手动触发
+  workflow_dispatch:
 
 # 作业定义
 jobs:
-  generate-epg:  # 作业ID
-    runs-on: ubuntu-latest  # 运行环境：最新版Ubuntu
-    timeout-minutes: 10
+  generate-epg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
     
-    # 环境变量配置（作业级别，所有步骤都会继承）
+    # 环境变量配置
     env:
       TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
       EPG_CONFIG: ${{ secrets.EPG_CONFIG }}
-      GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # 使用PAT_TOKEN访问私有仓库
+      GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+      PRIVATE_REPO: "yufeilai666/tvepg"  # 私有仓库名称
     
-    # 步骤定义
     steps:
-    # 步骤1: 检出代码库（使用PAT_TOKEN）
-    - name: Checkout code
+    # 步骤1: 检出私有仓库的epg_scripts分支到临时目录
+    - name: Checkout private repo scripts branch
       uses: actions/checkout@v4
       with:
-        fetch-depth: 1
-        token: ${{ secrets.PAT_TOKEN }}  # 使用PAT_TOKEN检出代码
-
-    # 步骤2: 检出epg_scripts分支到临时目录（使用PAT_TOKEN）
-    - name: Checkout epg_scripts branch
-      uses: actions/checkout@v4
-      with:
+        repository: ${{ env.PRIVATE_REPO }}
         ref: epg_scripts
         path: ./epg-scripts-temp
-        token: ${{ secrets.PAT_TOKEN }}  # 使用PAT_TOKEN检出epg_scripts分支
+        token: ${{ secrets.PAT_TOKEN }}
+
+    # 步骤2: 检出私有仓库的主分支到另一个临时目录（用于推送）
+    - name: Checkout private repo main branch
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ env.PRIVATE_REPO }}
+        ref: main
+        path: ./private-repo
+        token: ${{ secrets.PAT_TOKEN }}
 
     # 步骤3: 设置PHP环境
     - name: Setup PHP
@@ -79,22 +74,19 @@ jobs:
         pip install requests beautifulsoup4 tmdbv3api lxml aiohttp aiofiles
         cd ..
 
-    # 步骤6: 在临时目录中生成XML文件（核心步骤）
-    - name: Generate XML Files in Temp Directory
+    # 步骤6: 在脚本目录中生成XML文件
+    - name: Generate XML Files in Scripts Directory
       id: generate-step
       env:
-        # 确保脚本能访问到PAT_TOKEN
         PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
       run: |
-        # 切换到临时目录
+        # 切换到脚本目录
         cd ./epg-scripts-temp
         
-        # 定义要执行的脚本数组（PHP和Python）
+        # 定义要执行的脚本数组
         scripts=(
-          "epg-generator.php"      # PHP EPG生成器脚本
-          "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）
-          # "epgguangxi.php"         # PHP 广西EPG脚本
-          # "get_lstime_epg.py"      # Python 龙祥时代EPG脚本
+          "epg-generator.php"
+          "epg-fixer.php"
         )
         
         # 存储失败脚本的数组
@@ -116,14 +108,12 @@ jobs:
           # 根据文件扩展名选择执行方式
           script_extension="${script##*.}"
           
-          set +e  # 禁用错误退出
+          set +e
           
           if [ "$script_extension" = "php" ]; then
-            # 执行PHP脚本，自动继承作业级别的环境变量
             output=$(php -f "$script" 2>&1)
             exit_code=$?
           elif [ "$script_extension" = "py" ]; then
-            # 执行Python脚本，自动继承作业级别的环境变量
             output=$(python "$script" 2>&1)
             exit_code=$?
           else
@@ -134,13 +124,13 @@ jobs:
             continue
           fi
           
-          set -e  # 重新启用错误退出
+          set -e
           
           # 打印脚本输出
           echo "$output"
           echo "::endgroup::"
           
-          # 失败判定条件（针对EPG修复脚本的特殊处理）
+          # 失败判定条件
           if [ $exit_code -ne 0 ]; then
             echo "❌ $script 执行失败 (退出码: $exit_code)"
             failed_scripts+=("$script")
@@ -180,10 +170,10 @@ jobs:
           echo "==================================="
         done
         
-        # 将生成的XML文件复制回工作目录
+        # 将生成的XML文件复制到私有仓库目录
         if ls *.xml 1> /dev/null 2>&1; then
-          echo "🛠 复制XML文件到工作目录..."
-          cp -v *.xml ../
+          echo "🛠 复制XML文件到私有仓库目录..."
+          cp -v *.xml ../private-repo/
           echo "📝 复制的文件:"
           ls -la *.xml
         else
@@ -200,26 +190,32 @@ jobs:
           echo "failed_scripts=$failed_list" >> $GITHUB_OUTPUT
         fi
 
-    # 步骤7: 列出变更的文件
-    - name: List changed files
+    # 步骤7: 列出私有仓库目录的变更文件
+    - name: List changed files in private repo
       run: |
-        echo "📝 以下文件有变更:"
+        echo "📝 私有仓库目录的变更文件:"
+        cd ./private-repo
         git status --porcelain
         echo "🗞 当前目录的XML文件:"
         ls -la *.xml 2>/dev/null || echo "⚠️ 无XML文件"
+        cd ..
 
-    # 步骤8: 提交和推送变更（使用PAT_TOKEN）
-    - name: Commit and Push Changes
+    # 步骤8: 提交和推送到私有仓库
+    - name: Commit and Push to Private Repository
       if: always()
       env:
         PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        PRIVATE_REPO: ${{ env.PRIVATE_REPO }}
       run: |
+        # 进入私有仓库目录
+        cd ./private-repo
+        
         # 配置Git用户信息
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         
-        # 设置带认证的远程URL（使用PAT_TOKEN）
-        git remote set-url origin https://x-access-token:$PAT_TOKEN@github.com/$GITHUB_REPOSITORY.git
+        # 设置带认证的远程URL（指向私有仓库）
+        git remote set-url origin https://x-access-token:$PAT_TOKEN@github.com/$PRIVATE_REPO.git
         
         # 添加所有XML文件变更
         git add --all *.xml
@@ -254,11 +250,11 @@ jobs:
           echo "ℹ️ 推送尝试 ($i/$max_retries)"
           
           # 先拉取最新变更避免冲突
-          git pull --rebase origin ${GITHUB_REF#refs/heads/}
+          git pull --rebase origin main
           
-          # 尝试推送
-          if git push origin HEAD:${GITHUB_REF#refs/heads/}; then
-            echo "✅ 推送成功"
+          # 尝试推送到私有仓库
+          if git push origin main; then
+            echo "✅ 推送到私有仓库成功"
             
             # 列出更新的文件
             updated_files=$(git diff --name-only HEAD^ HEAD 2>/dev/null || git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "⚠️ 无法获取文件变更列表")
@@ -269,7 +265,7 @@ jobs:
           fi
           
           if [ $i -eq $max_retries ]; then
-            echo "❌ 错误：推送失败，已达最大重试次数"
+            echo "❌ 错误：推送到私有仓库失败，已达最大重试次数"
             exit 1
           fi
           
@@ -277,7 +273,7 @@ jobs:
           sleep $retry_delay
         done
 
-    # 步骤9: 报告生成状态（修改后版本 - 有失败脚本时工作流失败）
+    # 步骤9: 报告生成状态
     - name: Report Generation Status
       if: ${{ always() }}
       run: |
@@ -295,15 +291,15 @@ jobs:
           echo "::error::有 ${#failed_array[@]} 个脚本执行失败"
           
           # 检查是否至少有一个脚本成功生成了文件
-          if ls *.xml 1> /dev/null 2>&1; then
+          if ls ./private-repo/*.xml 1> /dev/null 2>&1; then
             echo "ℹ️ 有脚本失败，工作流标记为失败"
-            echo "ℹ️ 成功生成了部分EPG文件"
+            echo "ℹ️ 成功生成了部分EPG文件并已推送到私有仓库"
           else
             echo "❌ 所有脚本均失败，无EPG文件生成"
           fi
           
-          # 关键修改：只要有脚本失败，工作流就失败
           exit 1
         else
           echo "✅ 所有脚本执行成功"
+          echo "✅ EPG文件已成功推送到私有仓库"
         fi
