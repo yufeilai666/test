@@ -108,19 +108,19 @@ jobs:
         # 定义要获取并执行的脚本数组（PHP和Python）
         # 可以轻松添加、移除或注释不需要的脚本
         scripts=(
-          # "get_bbcable_backup_channels_dict.py"  # 注释掉，使用已有文件
+          # "get_bbcable_backup_channels_dict.py"  # 注释掉，使用已有依赖文件
           # "epganywhereusa.php"
-          # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）- 当前已禁用
-          # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
-          # "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本 - 当前启用
-          # "get_mod_epg.py"
+          # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）
+          # "epgguangxi.php"         # PHP 广西EPG脚本
+          # "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本
+          "get_mod_epg.py"
           "get_bbcable_epg.py"
-          # "get_kbro_epg.py"
-          # "get_celestial_epg.py"
+          "get_kbro_epg.py"
+          "get_celestial_epg.py"
         )
         
-        # 存储执行前已存在的.py文件（从步骤7复制的依赖文件）
-        echo "📝 记录执行前已存在的.py文件..."
+        # 存储执行前已存在的.py依赖文件（从步骤7复制的依赖文件）
+        echo "📝 记录执行前已存在的.py依赖文件..."
         existing_py_files_before=""
         for file in *.py; do
           if [ -f "$file" ]; then
@@ -129,7 +129,8 @@ jobs:
             touch -r "$file" ".timestamp_${file}"
           fi
         done
-        echo "执行前已存在的.py文件: $existing_py_files_before"
+        echo "执行前已存在的.py依赖文件: $existing_py_files_before"
+        echo "===================================="
         
         # 存储失败脚本的数组，用于错误报告
         failed_scripts=()
@@ -251,6 +252,7 @@ jobs:
         rm -f .timestamp_*.py
         
         # 清理复制的依赖文件（bbcable_backup_channels_dict.py）
+        echo "===================================="
         echo "🧹 清理依赖文件..."
         if [ -f "bbcable_backup_channels_dict.py" ]; then
           # 如果这个文件被标记为生成的文件，就不要清理
