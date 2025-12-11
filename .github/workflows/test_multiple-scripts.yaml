@@ -1,4 +1,4 @@
-name: test_multiple-scripts
+name: update_backup_bbcable_channel_2_tvepg_epg_scripts
 
 ###############################################################################
 # EPG数据自动生成工作流
@@ -7,6 +7,7 @@ name: test_multiple-scripts
 #   - 从私有仓库获取EPG生成脚本（PHP/Python）
 #   - 自动执行脚本生成XML格式的电子节目指南数据
 #   - 将生成的EPG数据推送到当前仓库的epg目录
+#   - 将生成的Python备份文件推送到私有仓库tvepg的epg_scripts分支
 #
 # 主要特性:
 #   - 支持多语言多脚本（PHP 8.1 + Python 3.9）
@@ -15,6 +16,7 @@ name: test_multiple-scripts
 #   - 脚本执行后自动清理，不保留在公共仓库
 #   - 北京时间戳的提交信息
 #   - 可配置的脚本执行列表
+#   - 支持双向同步：从私有仓库拉取脚本，并将生成文件推送回私有仓库
 #
 # 触发条件:
 #   - 定时触发: 每日UTC 19:10（北京时间3:10）自动运行
@@ -26,6 +28,7 @@ name: test_multiple-scripts
 #
 # 输出结果:
 #   - 生成的XML文件将保存在epg目录中
+#   - 生成的Python备份文件将推送回私有仓库
 #   - 详细的执行日志和错误报告
 ###############################################################################
 
@@ -74,7 +77,7 @@ jobs:
         # 安装PHP脚本可能需要的扩展
         sudo apt-get install -y php-curl php-xml php-mbstring        
 
-    # 步骤6: 直接检出私有仓库的epg_scripts分支
+    # 步骤6: 检出私有仓库的epg_scripts分支
     - name: Checkout private repository (epg_scripts branch)
       uses: actions/checkout@v4
       with:
@@ -85,10 +88,12 @@ jobs:
 
     # 步骤7: 定义并执行脚本数组
     - name: Define and execute scripts
+      id: execute-scripts
       run: |
         # 定义要获取并执行的脚本数组（PHP和Python）
         # 可以轻松添加、移除或注释不需要的脚本
         scripts=(
+          "get_bbcable_backup_channels_dict.py"
           # "epganywhereusa.php"
           # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）- 当前已禁用
           # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
@@ -102,10 +107,12 @@ jobs:
         # 存储失败脚本的数组，用于错误报告
         failed_scripts=()
         
+        # 存储生成的文件信息
+        generated_files=""
+        
         # 循环执行每个脚本
         for script in "${scripts[@]}"; do
           echo "::group::🛠 执行 $script"
-          # echo "===================================="
           
           # 检查脚本在私有仓库中是否存在
           if [ ! -f "private_repo_temp/$script" ]; then
@@ -130,13 +137,39 @@ jobs:
             }
           elif [[ "$script" == *.py ]]; then
             # 执行Python脚本，如果失败则记录错误
-            python "$script" || {
+            python_output=$(python "$script" 2>&1)
+            python_exit_code=$?
+            
+            if [ $python_exit_code -eq 0 ]; then
+              echo "$python_output"
+              
+              # 检查是否生成了新的.py文件（比如backup_bbcable_channels.py）
+              for generated_py in *.py; do
+                # 排除原始脚本文件
+                if [[ " ${scripts[@]} " =~ " ${generated_py} " ]]; then
+                  continue
+                fi
+                
+                # 检查是否是本次执行生成的
+                if [ -f "$generated_py" ] && [ "$generated_py" != "$script" ]; then
+                  echo "📁 检测到生成的文件: $generated_py"
+                  generated_files="$generated_files $generated_py"
+                  
+                  # 复制到私有仓库临时目录
+                  cp "$generated_py" "private_repo_temp/$generated_py"
+                  
+                  # 记录生成的文件信息供后续步骤使用
+                  echo "PRIVATE_REPO_FILE=$generated_py" >> $GITHUB_ENV
+                fi
+              done
+            else
               echo "❌ 错误: Python脚本 $script 执行失败"
+              echo "输出: $python_output"
               failed_scripts+=("$script")
               rm -f "$script"  # 清理脚本文件
               echo "::endgroup::"
               continue
-            }
+            fi
           fi
           
           # 执行成功后删除脚本文件，不保留在仓库中
@@ -145,13 +178,19 @@ jobs:
           echo "::endgroup::"
         done
         
-        # 清理临时目录，不保留私有仓库的副本
-        rm -rf private_repo_temp
-        
         # 报告所有脚本的执行结果
         echo "=== 脚本执行结果 ==="
         if [ ${#failed_scripts[@]} -eq 0 ]; then
           echo "✅ 所有脚本执行成功!"
+          
+          # 记录是否有生成的文件
+          if [ -n "$generated_files" ]; then
+            echo "📁 生成的文件: $generated_files"
+            echo "HAS_GENERATED_FILES=true" >> $GITHUB_ENV
+          else
+            echo "HAS_GENERATED_FILES=false" >> $GITHUB_ENV
+          fi
+          
         else
           echo "ℹ️ 以下脚本执行失败:"
           for failed in "${failed_scripts[@]}"; do
@@ -161,12 +200,61 @@ jobs:
           exit 1
         fi
 
-    # 步骤8: 创建epg目录（如果不存在）
+    # 步骤8: 推送生成的文件到私有仓库
+    - name: Push generated files to private repository
+      if: env.HAS_GENERATED_FILES == 'true'
+      run: |
+        echo "🚀 准备推送生成的文件到私有仓库..."
+        
+        # 进入私有仓库目录
+        cd private_repo_temp
+        
+        # 配置Git用户信息（用于私有仓库提交）
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
+        
+        # 拉取最新更改，避免冲突
+        git pull origin epg_scripts
+        
+        # 获取北京时间
+        BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+        
+        # 添加所有更改（包括生成的文件）
+        git add .
+        
+        # 检查是否有实际更改需要提交
+        if git diff --staged --quiet; then
+          echo "ℹ️ 私有仓库没有更改可提交"
+        else
+          # 提交更改，包含北京时间信息
+          git commit -m "🤖 自动更新脚本生成的文件 [北京时间: $BEIJING_TIME]"
+          
+          # 推送更改到远程仓库的epg_scripts分支
+          git push origin epg_scripts
+          
+          echo "✅ 成功推送生成的文件到私有仓库 tvepg/epg_scripts 分支"
+          
+          # 输出推送的文件列表
+          echo "📋 推送的文件列表:"
+          git show --name-only --pretty="" HEAD
+        fi
+        
+        # 返回工作目录
+        cd ..
+
+    # 步骤9: 清理临时目录
+    - name: Clean up temporary directories
+      run: |
+        # 清理私有仓库临时目录
+        rm -rf private_repo_temp
+        echo "✅ 临时目录已清理"
+
+    # 步骤10: 创建epg目录（如果不存在）
     - name: Create epg directory if not exists
       run: |
         mkdir -p epg  # 创建epg目录用于存放生成的XML文件
 
-    # 步骤9: 移动XML文件到epg目录
+    # 步骤11: 移动XML文件到epg目录
     - name: Move XML files to epg directory
       run: |
         # 查找当前目录下所有XML和XML.GZ文件并移动到epg目录
@@ -174,26 +262,30 @@ jobs:
         find . -maxdepth 1 -name "*.xml" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到XML文件"
         find . -maxdepth 1 -name "*.xml.gz" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到XML.GZ文件"
 
-    # 步骤10: 配置Git用户信息
-    - name: Configure Git
+    # 步骤12: 配置Git用户信息（当前仓库）
+    - name: Configure Git for current repository
       run: |
         git config user.name "GitHub Actions"  # 设置提交者名称
         git config user.email "actions@github.com"  # 设置提交者邮箱
 
-    # 步骤11: 获取北京时间并提交更改
-    - name: Get Beijing time and commit changes
+    # 步骤13: 获取北京时间并提交更改到当前仓库
+    - name: Get Beijing time and commit changes to current repository
       run: |
         # 设置时区为北京时间并获取格式化的时间字符串
         BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
+        
         # 添加epg目录下的所有更改到暂存区
         git add epg/
+        
         # 检查是否有实际更改需要提交
         if git diff --staged --quiet; then
-          echo "ℹ️ 没有更改可提交"
+          echo "ℹ️ 当前仓库没有更改可提交"
         else
           # 提交更改，包含北京时间信息
           git commit -m "🔄 Download EPG数据 [北京时间: $BEIJING_TIME]"
+          
           # 推送更改到远程仓库
           git push
-          echo "✅ Push successful"
+          
+          echo "✅ 当前仓库Push成功"
         fi
