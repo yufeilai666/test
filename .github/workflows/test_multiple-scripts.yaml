@@ -119,6 +119,18 @@ jobs:
           # "get_celestial_epg.py"
         )
         
+        # 存储执行前已存在的.py文件（从步骤7复制的依赖文件）
+        echo "📝 记录执行前已存在的.py文件..."
+        existing_py_files_before=""
+        for file in *.py; do
+          if [ -f "$file" ]; then
+            existing_py_files_before="$existing_py_files_before $file"
+            # 记录文件的原始时间戳
+            touch -r "$file" ".timestamp_${file}"
+          fi
+        done
+        echo "执行前已存在的.py文件: $existing_py_files_before"
+        
         # 存储失败脚本的数组，用于错误报告
         failed_scripts=()
         
@@ -140,6 +152,9 @@ jobs:
           # 复制脚本从临时目录到当前工作目录
           cp "private_repo_temp/$script" "./$script"
           
+          # 记录脚本执行前的时间戳
+          script_start_time=$(date +%s)
+          
           # 根据文件扩展名选择执行方式
           if [[ "$script" == *.php ]]; then
             # 执行PHP脚本，如果失败则记录错误
@@ -158,23 +173,62 @@ jobs:
             if [ $python_exit_code -eq 0 ]; then
               echo "$python_output"
               
-              # 检查是否生成了新的.py文件（比如backup_bbcable_channels.py）
-              for generated_py in *.py; do
-                # 排除原始脚本文件
-                if [[ " ${scripts[@]} " =~ " ${generated_py} " ]]; then
+              # 脚本执行后的时间戳
+              script_end_time=$(date +%s)
+              
+              # 检测在脚本执行期间新创建或修改的.py文件
+              for py_file in *.py; do
+                # 跳过脚本本身
+                if [ "$py_file" = "$script" ]; then
                   continue
                 fi
                 
-                # 检查是否是本次执行生成的
-                if [ -f "$generated_py" ] && [ "$generated_py" != "$script" ]; then
-                  echo "📁 检测到生成的文件: $generated_py"
-                  generated_files="$generated_files $generated_py"
+                # 检查文件修改时间
+                if [[ "$OSTYPE" == "darwin"* ]]; then
+                  # macOS系统使用stat命令
+                  file_mod_time=$(stat -f %m "$py_file" 2>/dev/null || echo "0")
+                else
+                  # Linux系统使用stat命令
+                  file_mod_time=$(stat -c %Y "$py_file" 2>/dev/null || echo "0")
+                fi
+                
+                # 如果文件是在脚本执行期间创建的，或者比执行前的时间戳更晚
+                # 检查是否有对应的timestamp标记文件
+                if [ -f ".timestamp_${py_file}" ]; then
+                  # 文件执行前已存在，比较修改时间
+                  if [[ "$OSTYPE" == "darwin"* ]]; then
+                    # macOS系统使用stat命令
+                    timestamp_mod_time=$(stat -f %m ".timestamp_${py_file}" 2>/dev/null || echo "0")
+                  else
+                    # Linux系统使用stat命令
+                    timestamp_mod_time=$(stat -c %Y ".timestamp_${py_file}" 2>/dev/null || echo "0")
+                  fi
+                  
+                  # 如果文件被修改了（修改时间晚于记录的时间戳）
+                  if [ "$file_mod_time" -gt "$timestamp_mod_time" ]; then
+                    echo "📁 检测到修改的文件: $py_file"
+                    if [[ ! " $generated_files " =~ " $py_file " ]]; then
+                      generated_files="$generated_files $py_file"
+                    fi
+                    
+                    # 复制到私有仓库临时目录
+                    cp "$py_file" "private_repo_temp/$py_file"
+                    
+                    # 更新时间戳文件
+                    touch -r "$py_file" ".timestamp_${py_file}"
+                  fi
+                else
+                  # 文件执行前不存在，是新生成的文件
+                  echo "📁 检测到新生成的文件: $py_file"
+                  if [[ ! " $generated_files " =~ " $py_file " ]]; then
+                    generated_files="$generated_files $py_file"
+                  fi
                   
                   # 复制到私有仓库临时目录
-                  cp "$generated_py" "private_repo_temp/$generated_py"
+                  cp "$py_file" "private_repo_temp/$py_file"
                   
-                  # 记录生成的文件信息供后续步骤使用
-                  echo "PRIVATE_REPO_FILE=$generated_py" >> $GITHUB_ENV
+                  # 创建时间戳文件记录这个新文件
+                  touch -r "$py_file" ".timestamp_${py_file}"
                 fi
               done
             else
@@ -193,9 +247,22 @@ jobs:
           echo "::endgroup::"
         done
         
-        # 清理复制的依赖文件
+        # 清理临时的时间戳文件
+        rm -f .timestamp_*.py
+        
+        # 清理复制的依赖文件（bbcable_backup_channels_dict.py）
         echo "🧹 清理依赖文件..."
-        rm -f "bbcable_backup_channels_dict.py"
+        if [ -f "bbcable_backup_channels_dict.py" ]; then
+          # 如果这个文件被标记为生成的文件，就不要清理
+          if [[ ! " $generated_files " =~ " bbcable_backup_channels_dict.py " ]]; then
+            rm -f "bbcable_backup_channels_dict.py"
+            echo "✅ 已清理依赖文件: bbcable_backup_channels_dict.py"
+          else
+            echo "ℹ️ 依赖文件已被脚本更新，保留: bbcable_backup_channels_dict.py"
+          fi
+        fi
+        
+        echo "✅ 成功清理文件!"
         
         # 报告所有脚本的执行结果
         echo "=== 脚本执行结果 ==="
@@ -204,9 +271,14 @@ jobs:
           
           # 记录是否有生成的文件
           if [ -n "$generated_files" ]; then
-            echo "📁 生成的文件: $generated_files"
+            generated_files=$(echo $generated_files | sed 's/^ *//;s/ *$//')
+            echo "📁 实际生成/修改的文件: $generated_files"
             echo "HAS_GENERATED_FILES=true" >> $GITHUB_ENV
+            
+            # 将生成的文件列表保存到环境变量（移除首尾空格）
+            echo "GENERATED_FILES='$generated_files'" >> $GITHUB_ENV
           else
+            echo "ℹ️ 没有检测到新生成或修改的文件"
             echo "HAS_GENERATED_FILES=false" >> $GITHUB_ENV
           fi
           
@@ -222,8 +294,11 @@ jobs:
     # 步骤9: 推送生成的文件到私有仓库
     - name: Push generated files to private repository
       if: env.HAS_GENERATED_FILES == 'true'
+      env:
+        GENERATED_FILES: ${{ env.GENERATED_FILES }}
       run: |
         echo "🚀 准备推送生成的文件到私有仓库..."
+        echo "📋 需要推送的文件: $GENERATED_FILES"
         
         # 进入私有仓库目录
         cd private_repo_temp
