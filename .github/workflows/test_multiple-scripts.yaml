@@ -86,14 +86,29 @@ jobs:
         ref: epg_scripts  # 指定分支
         path: private_repo_temp  # 检出到指定目录
 
-    # 步骤7: 定义并执行脚本数组
+    # 步骤7: 复制依赖文件
+    - name: Copy dependency files from private repository
+      run: |
+        echo "📁 从私有仓库复制依赖文件..."
+        
+        # 复制 BBCable 备份频道字典文件（get_bbcable_epg.py 需要这个文件）
+        if [ -f "private_repo_temp/bbcable_backup_channels_dict.py" ]; then
+          cp "private_repo_temp/bbcable_backup_channels_dict.py" "./bbcable_backup_channels_dict.py"
+          echo "✅ 已复制 bbcable_backup_channels_dict.py"
+        else
+          echo "❌ 错误: 私有仓库中未找到 bbcable_backup_channels_dict.py"
+          echo "⚠️ 创建空备份字典以便继续执行..."
+          echo 'backup_channels_dict = {}' > "bbcable_backup_channels_dict.py"
+        fi
+
+    # 步骤8: 定义并执行脚本数组
     - name: Define and execute scripts
       id: execute-scripts
       run: |
         # 定义要获取并执行的脚本数组（PHP和Python）
         # 可以轻松添加、移除或注释不需要的脚本
         scripts=(
-          "get_bbcable_backup_channels_dict.py"
+          # "get_bbcable_backup_channels_dict.py"  # 注释掉，使用已有文件
           # "epganywhereusa.php"
           # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）- 当前已禁用
           # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
@@ -178,6 +193,10 @@ jobs:
           echo "::endgroup::"
         done
         
+        # 清理复制的依赖文件
+        echo "🧹 清理依赖文件..."
+        rm -f "bbcable_backup_channels_dict.py"
+        
         # 报告所有脚本的执行结果
         echo "=== 脚本执行结果 ==="
         if [ ${#failed_scripts[@]} -eq 0 ]; then
@@ -200,7 +219,7 @@ jobs:
           exit 1
         fi
 
-    # 步骤8: 推送生成的文件到私有仓库
+    # 步骤9: 推送生成的文件到私有仓库
     - name: Push generated files to private repository
       if: env.HAS_GENERATED_FILES == 'true'
       run: |
@@ -242,19 +261,19 @@ jobs:
         # 返回工作目录
         cd ..
 
-    # 步骤9: 清理临时目录
+    # 步骤10: 清理临时目录
     - name: Clean up temporary directories
       run: |
         # 清理私有仓库临时目录
         rm -rf private_repo_temp
         echo "✅ 临时目录已清理"
 
-    # 步骤10: 创建epg目录（如果不存在）
+    # 步骤11: 创建epg目录（如果不存在）
     - name: Create epg directory if not exists
       run: |
         mkdir -p epg  # 创建epg目录用于存放生成的XML文件
 
-    # 步骤11: 移动XML文件到epg目录
+    # 步骤12: 移动XML文件到epg目录
     - name: Move XML files to epg directory
       run: |
         # 查找当前目录下所有XML和XML.GZ文件并移动到epg目录
@@ -262,13 +281,13 @@ jobs:
         find . -maxdepth 1 -name "*.xml" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到XML文件"
         find . -maxdepth 1 -name "*.xml.gz" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到XML.GZ文件"
 
-    # 步骤12: 配置Git用户信息（当前仓库）
+    # 步骤13: 配置Git用户信息（当前仓库）
     - name: Configure Git for current repository
       run: |
         git config user.name "GitHub Actions"  # 设置提交者名称
         git config user.email "actions@github.com"  # 设置提交者邮箱
 
-    # 步骤13: 获取北京时间并提交更改到当前仓库
+    # 步骤14: 获取北京时间并提交更改到当前仓库
     - name: Get Beijing time and commit changes to current repository
       run: |
         # 设置时区为北京时间并获取格式化的时间字符串
