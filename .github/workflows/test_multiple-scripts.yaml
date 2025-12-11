@@ -93,7 +93,7 @@ jobs:
         # 定义要获取并执行的脚本数组（PHP和Python）
         # 可以轻松添加、移除或注释不需要的脚本
         scripts=(
-          "get_bbcable_backup_channels_dict.py"
+          # "get_bbcable_backup_channels_dict.py"
           # "epganywhereusa.php"
           # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）- 当前已禁用
           # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
