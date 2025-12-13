@@ -717,6 +717,12 @@ http://106.53.99.30/tv/api.php?id=sztv4k
 http://106.53.99.30/tv/api.php?id=hebtv4k
 #EXTINF:-1 tvg-id="广州南国都市4K" tvg-name="广州南国都市4K" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广州南国都市4K.png" group-title="加入易發群",广州南国都市4K
 http://tencentplaygsm.gztv.com/live/nanguodushi.m3u8
+#EXTINF:-1 group-title="加入易發群",TVB plus备
+https://vdm6-hw.nbgdsygs.com/live/h6-2.flv
+#EXTINF:-1 group-title="加入易發群",新澳门直播
+https://play3636.zdwafis.com/live/mosixmark.flv
+#EXTINF:-1 group-title="加入易發群",老澳门直播
+https://vdm6-ali.hrypl168.com/live/a6.flv
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台2",翡翠台
 http://php.jdshipin.com/smt.php?id=jade_twn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/华丽翡翠台.png" group-title="极速港台2",华丽翡翠台
@@ -809,12 +815,6 @@ http://php.jdshipin.com/TVOD/iptv.php?id=rthk31
 http://php.jdshipin.com/TVOD/iptv.php?id=rthk32
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="极速港台2",CCTV1
 http://php.jdshipin.com/TVOD/iptv.php?id=rthk33
-#EXTINF:-1 group-title="极速港台2",TVB plus备2
-https://vdm6-ali.wujiekeji1.com/live/h6-2.flv
-#EXTINF:-1 group-title="极速港台2",TVB plus备3
-https://vdm6-hw.nbgdsygs.com/live/h6-2.flv
-#EXTINF:-1 group-title="极速港台2",TVB plus备4
-http://live.p2pcy.xyz:18000/hls/23df/23df_live.m3u8
 #EXTINF:-1 group-title="极速港台2",香港C+
 http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/index.m3u8
 #EXTINF:-1 group-title="极速港台2",香港32台
@@ -3814,17 +3814,17 @@ http://119.123.178.132:8086/hls/42/index.m3u8
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="广东本地2",广东少儿
 http://119.123.178.132:8086/hls/40/index.m3u8
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="广东本地2",大湾区卫视
-http://116.30.5.20:8086/hls/29/index.m3u8
+http://116.30.6.57:8086/hls/29/index.m3u8
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="广东本地2",广东民生
-http://116.30.5.20:8086/hls/39/index.m3u8
+http://116.30.6.57:8086/hls/39/index.m3u8
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="广东本地2",广东珠江
-http://116.30.5.20:8086/hls/47/index.m3u8
+http://116.30.6.57:8086/hls/47/index.m3u8
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="广东本地2",广东影视
-http://116.30.5.20:8086/hls/46/index.m3u8
+http://116.30.6.57:8086/hls/46/index.m3u8
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="广东本地2",广东体育
-http://116.30.5.20:80866/hls/42/index.m3u8
+http://116.30.6.57:8086/hls/42/index.m3u8
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="广东本地2",广东少儿
-http://116.30.5.20:8086/hls/40/index.m3u8
+http://116.30.6.57:8086/hls/40/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东经济科教.png" group-title="广东本地2",广东经济科教
 https://pili-live-hls.kingsmedia.cn/metoo-live/ce834303bb1a4459a3ea8c4c01d3ae84.m3u8
 #EXTINF:-1 tvg-id="深圳都市" tvg-name="深圳都市" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳都市.png" group-title="广东本地2",深圳都市
