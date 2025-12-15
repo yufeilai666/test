@@ -4368,9 +4368,9 @@ http://go.bkpcp.top/mg/gdms
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="广东酒店",广东新闻
 http://go.bkpcp.top/mg/gdxw
 #EXTINF:-1 group-title="广东酒店",广东民生(晚7点)
-http://live.iill.top/douyin/gdtvdvxc
+http://tv1288.xyz/douyin.php?type=rid&rid=gdtvdvxc
 #EXTINF:-1 group-title="广东酒店",广东珠江(晚6点)
-http://live.iill.top/douyin/gdtvzjpd
+http://tv1288.xyz/douyin.php?type=rid&rid=gdtvzjpd
 #EXTINF:-1 group-title="广东酒店",-汕尾综合
 https://iswtv.swrtv.com/live/xwzhpd.m3u8
 #EXTINF:-1 group-title="广东酒店",-汕尾生活
@@ -4577,6 +4577,60 @@ http://183.10.180.8:202/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
 http://183.10.180.8:202/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="潮州酒店",天气预报
 http://183.10.180.8:202/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&down=1
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="汕头酒店",广东卫视
+http://183.7.172.159:8888/hls/1/index.m3u8
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="汕头酒店",广东珠江
+http://183.7.172.159:8888/hls/2/index.m3u8
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="汕头酒店",广东新闻
+http://183.7.172.159:8888/hls/3/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="汕头酒店",汕头综合
+http://183.7.172.159:8888/hls/4/index.m3u8
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="汕头酒店",广东体育
+http://183.7.172.159:8888/hls/5/index.m3u8
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="汕头酒店",广东影视
+http://183.7.172.159:8888/hls/9/index.m3u8
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="汕头酒店",广东少儿
+http://183.7.172.159:8888/hls/10/index.m3u8
+#EXTINF:-1 tvg-id="嘉佳卡通 (shanghai)" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="汕头酒店",嘉佳卡通
+http://183.7.172.159:8888/hls/11/index.m3u8
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="汕头酒店",CCTV1
+http://183.7.172.159:8888/hls/17/index.m3u8
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="汕头酒店",CCTV2
+http://183.7.172.159:8888/hls/18/index.m3u8
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="汕头酒店",CCTV3
+http://183.7.172.159:8888/hls/19/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="汕头酒店",CCTV4
+http://183.7.172.159:8888/hls/20/index.m3u8
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="汕头酒店",CCTV5
+http://183.7.172.159:8888/hls/21/index.m3u8
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="汕头酒店",CCTV6
+http://183.7.172.159:8888/hls/22/index.m3u8
+#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="汕头酒店",CCTV7
+http://183.7.172.159:8888/hls/23/index.m3u8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="汕头酒店",CCTV8
+http://183.7.172.159:8888/hls/24/index.m3u8
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="汕头酒店",CCTV9
+http://183.7.172.159:8888/hls/25/index.m3u8
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="汕头酒店",CCTV10
+http://183.7.172.159:8888/hls/26/index.m3u8
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="汕头酒店",CCTV11
+http://183.7.172.159:8888/hls/27/index.m3u8
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="汕头酒店",CCTV12
+http://183.7.172.159:8888/hls/28/index.m3u8
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="汕头酒店",CCTV13
+http://183.7.172.159:8888/hls/29/index.m3u8
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="汕头酒店",CCTV14
+http://183.7.172.159:8888/hls/30/index.m3u8
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="汕头酒店",湖北卫视
+http://183.7.172.159:8888/hls/36/index.m3u8
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="汕头酒店",江苏卫视
+http://183.7.172.159:8888/hls/39/index.m3u8
+#EXTINF:-1 tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/女性时尚.png" group-title="汕头酒店",女性时尚
+http://183.7.172.159:8888/hls/96/index.m3u8
+#EXTINF:-1 tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/怀旧剧场.png" group-title="汕头酒店",怀旧剧场
+http://183.7.172.159:8888/hls/98/index.m3u8
+#EXTINF:-1 tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云剧场.png" group-title="汕头酒店",风云剧场
+http://183.7.172.159:8888/hls/99/index.m3u8
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="海南移动",CCTV1
 http://111.29.9.33:6610/000000001000/1000000001000021973/index.m3u8?channel-id=bestzb&Contentid=1000000001000021973&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="海南移动",CCTV2
