@@ -108,15 +108,15 @@ jobs:
         # 定义要获取并执行的脚本数组（PHP和Python）
         # 可以轻松添加、移除或注释不需要的脚本
         scripts=(
-          # "get_bbcable_backup_channels_dict.py"  # 注释掉，使用已有依赖文件
+          "get_bbcable_backup_channels_dict.py"  # 注释掉，使用已有依赖文件
           # "epganywhereusa.php"
           # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）
           # "epgguangxi.php"         # PHP 广西EPG脚本
           # "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本
-          "get_mod_epg.py"
-          "get_bbcable_epg.py"
-          "get_kbro_epg.py"
-          "get_celestial_epg.py"
+          # "get_mod_epg.py"
+          # "get_bbcable_epg.py"
+          # "get_kbro_epg.py"
+          # "get_celestial_epg.py"
         )
         
         # 存储执行前已存在的.py依赖文件（从步骤7复制的依赖文件）
