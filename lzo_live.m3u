@@ -887,7 +887,7 @@ http://live.cztv.cc:85/live/xwpd.m3u8
 http://live.cms.anhuinews.com/video/s10003-lbtv/index.m3u8?zanhd
 #EXTINF:-1 group-title="📡安徽频道",宿州新闻综合
 http://live.ahsz.tv/video/s10001-szzh/index.m3u8?zanhd
-#EXTINF:-1 tvg-id="安徽影视" tvg-name="安徽影视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/安徽影视.webp" group-title="📡安徽频道",安徽影视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/安徽影视.webp" group-title="📡安徽频道",安徽影视
 http://snapshot-live-ht.ahtv.cn/atvrtmp/143_q_live161829369249612.m3u8
 #EXTINF:-1 group-title="📡安徽频道",农业科教
 http://snapshot-live-ht.ahtv.cn/atvrtmp/143_q_live161829358013848.m3u8
