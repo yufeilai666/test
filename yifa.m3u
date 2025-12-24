@@ -858,9 +858,9 @@ http://aipyou.com:8080/live/yifatv-jade01.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速港台3",无线新闻台
 http://aipyou.com:8080/live/yifatv-wxxw01.m3u8
 #EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="极速港台3",中天新聞台
-http://192.140.181.246:8080/live/yifatv-ztxw0.m3u8
+https://v.hystudio.cn:8088/live/yifatv-ztxw0.m3u8
 #EXTINF:-1 group-title="极速港台3",中天新聞台2
-http://192.140.181.246:8080/live/yifatv-ztxw02.m3u8
+https://v.hystudio.cn:8088/live/yifatv-ztxw02.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台3",翡翠台
 http://r.jdshipin.com/62WM7
 #EXTINF:-1 group-title="极速港台3",翡翠台2
