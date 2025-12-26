@@ -1281,7 +1281,7 @@ http://free.cnlive.club/channel/n4bbbe8c9.m3u8?q=111.170.171.148
 http://free.cnlive.club/channel/4291e438.m3u8?q=111.170.171.148
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/公视台语.png" group-title="极速赛雷",公视台语
 http://free.cnlive.club/channel/3ccf6783.m3u8?q=111.170.171.148
-#EXTINF:-1 tvg-id="台視綜合" tvg-name="台視綜合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="极速赛雷",台视综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="极速赛雷",台视综合
 http://free.cnlive.club/channel/45306b98.m3u8?q=111.170.171.148
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天娛樂.png" group-title="极速赛雷",中天娱乐
 http://free.cnlive.club/channel/41d6f491.m3u8?q=111.170.171.148
@@ -1751,7 +1751,7 @@ http://210.61.15.55:50007/4gtv-live031/index.m3u8?proxy=true
 http://210.61.15.55:50007/4gtv-4gtv082/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四季台湾",MTV Live
 http://210.61.15.55:50007/4gtv-live025/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾",MEZZO LIVE
 http://210.61.15.55:50007/4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾",CLASSICA 古典樂
 http://210.61.15.55:50007/4gtv-4gtv059/index.m3u8?proxy=true
@@ -1773,7 +1773,7 @@ http://210.61.15.55:50007/li-4gtv-4gtv006/index.m3u8?proxy=true
 http://210.61.15.55:50007/li-4gtv-4gtv068/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季台湾",Trace Urban
 http://210.61.15.55:50007/li-4gtv-4gtv082/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾",MEZZO LIVE
 http://210.61.15.55:50007/li-4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾",CLASSICA 古典樂
 http://210.61.15.55:50007/li-4gtv-4gtv059/index.m3u8?proxy=true
@@ -1789,7 +1789,7 @@ http://210.61.15.55:50007/4gtv-live096/index.m3u8?proxy=true
 http://210.61.15.55:50007/4gtv-live110/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="四季台湾",民視旅遊
 http://210.61.15.55:50007/litv-ftv07/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾",滾動力 Rollor
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾",滾動力 Rollor
 http://210.61.15.55:50007/4gtv-live012/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="四季台湾",亞洲旅遊
 http://210.61.15.55:50007/4gtv-4gtv076/index.m3u8?proxy=true
@@ -2223,7 +2223,7 @@ http://m-star.direct.quickconnect.to:7531/4gtv-live031/index.m3u8?proxy=true
 http://m-star.direct.quickconnect.to:7531/4gtv-4gtv082/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四季台湾2",MTV Live
 http://m-star.direct.quickconnect.to:7531/4gtv-live025/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾2",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾2",MEZZO LIVE
 http://m-star.direct.quickconnect.to:7531/4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾2",CLASSICA 古典樂
 http://m-star.direct.quickconnect.to:7531/4gtv-4gtv059/index.m3u8?proxy=true
@@ -2245,7 +2245,7 @@ http://m-star.direct.quickconnect.to:7531/li-4gtv-4gtv006/index.m3u8?proxy=true
 http://m-star.direct.quickconnect.to:7531/li-4gtv-4gtv068/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季台湾2",Trace Urban
 http://m-star.direct.quickconnect.to:7531/li-4gtv-4gtv082/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾2",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾2",MEZZO LIVE
 http://m-star.direct.quickconnect.to:7531/li-4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾2",CLASSICA 古典樂
 http://m-star.direct.quickconnect.to:7531/li-4gtv-4gtv059/index.m3u8?proxy=true
@@ -2261,7 +2261,7 @@ http://m-star.direct.quickconnect.to:7531/4gtv-live096/index.m3u8?proxy=true
 http://m-star.direct.quickconnect.to:7531/4gtv-live110/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="四季台湾2",民視旅遊
 http://m-star.direct.quickconnect.to:7531/litv-ftv07/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾2",滾動力 Rollor
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾2",滾動力 Rollor
 http://m-star.direct.quickconnect.to:7531/4gtv-live012/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="四季台湾2",亞洲旅遊
 http://m-star.direct.quickconnect.to:7531/4gtv-4gtv076/index.m3u8?proxy=true
@@ -2695,7 +2695,7 @@ http://gkb.vigosee.com:50007/4gtv-live031/index.m3u8?proxy=true
 http://gkb.vigosee.com:50007/4gtv-4gtv082/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四季台湾3",MTV Live
 http://gkb.vigosee.com:50007/4gtv-live025/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾3",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾3",MEZZO LIVE
 http://gkb.vigosee.com:50007/4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾3",CLASSICA 古典樂
 http://gkb.vigosee.com:50007/4gtv-4gtv059/index.m3u8?proxy=true
@@ -2717,7 +2717,7 @@ http://gkb.vigosee.com:50007/li-4gtv-4gtv006/index.m3u8?proxy=true
 http://gkb.vigosee.com:50007/li-4gtv-4gtv068/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季台湾3",Trace Urban
 http://gkb.vigosee.com:50007/li-4gtv-4gtv082/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾3",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾3",MEZZO LIVE
 http://gkb.vigosee.com:50007/li-4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾3",CLASSICA 古典樂
 http://gkb.vigosee.com:50007/li-4gtv-4gtv059/index.m3u8?proxy=true
@@ -2733,7 +2733,7 @@ http://gkb.vigosee.com:50007/4gtv-live096/index.m3u8?proxy=true
 http://gkb.vigosee.com:50007/4gtv-live110/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="四季台湾3",民視旅遊
 http://gkb.vigosee.com:50007/litv-ftv07/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾3",滾動力 Rollor
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾3",滾動力 Rollor
 http://gkb.vigosee.com:50007/4gtv-live012/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="四季台湾3",亞洲旅遊
 http://gkb.vigosee.com:50007/4gtv-4gtv076/index.m3u8?proxy=true
@@ -3167,7 +3167,7 @@ http://211.23.125.95:50007/4gtv-live031/index.m3u8?proxy=true
 http://211.23.125.95:50007/4gtv-4gtv082/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四季台湾4",MTV Live
 http://211.23.125.95:50007/4gtv-live025/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾4",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾4",MEZZO LIVE
 http://211.23.125.95:50007/4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾4",CLASSICA 古典樂
 http://211.23.125.95:50007/4gtv-4gtv059/index.m3u8?proxy=true
@@ -3189,7 +3189,7 @@ http://211.23.125.95:50007/li-4gtv-4gtv006/index.m3u8?proxy=true
 http://211.23.125.95:50007/li-4gtv-4gtv068/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季台湾4",Trace Urban
 http://211.23.125.95:50007/li-4gtv-4gtv082/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾4",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾4",MEZZO LIVE
 http://211.23.125.95:50007/li-4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾4",CLASSICA 古典樂
 http://211.23.125.95:50007/li-4gtv-4gtv059/index.m3u8?proxy=true
@@ -3205,7 +3205,7 @@ http://211.23.125.95:50007/4gtv-live096/index.m3u8?proxy=true
 http://211.23.125.95:50007/4gtv-live110/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="四季台湾4",民視旅遊
 http://211.23.125.95:50007/litv-ftv07/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾4",滾動力 Rollor
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾4",滾動力 Rollor
 http://211.23.125.95:50007/4gtv-live012/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="四季台湾4",亞洲旅遊
 http://211.23.125.95:50007/4gtv-4gtv076/index.m3u8?proxy=true
@@ -3639,7 +3639,7 @@ http://nmk.ioapk.com:5050/4gtv-live031/index.m3u8?proxy=true
 http://nmk.ioapk.com:5050/4gtv-4gtv082/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四季台湾5",MTV Live
 http://nmk.ioapk.com:5050/4gtv-live025/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾5",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾5",MEZZO LIVE
 http://nmk.ioapk.com:5050/4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾5",CLASSICA 古典樂
 http://nmk.ioapk.com:5050/4gtv-4gtv059/index.m3u8?proxy=true
@@ -3661,7 +3661,7 @@ http://nmk.ioapk.com:5050/li-4gtv-4gtv006/index.m3u8?proxy=true
 http://nmk.ioapk.com:5050/li-4gtv-4gtv068/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季台湾5",Trace Urban
 http://nmk.ioapk.com:5050/li-4gtv-4gtv082/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾5",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾5",MEZZO LIVE
 http://nmk.ioapk.com:5050/li-4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾5",CLASSICA 古典樂
 http://nmk.ioapk.com:5050/li-4gtv-4gtv059/index.m3u8?proxy=true
@@ -3677,7 +3677,7 @@ http://nmk.ioapk.com:5050/4gtv-live096/index.m3u8?proxy=true
 http://nmk.ioapk.com:5050/4gtv-live110/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="四季台湾5",民視旅遊
 http://nmk.ioapk.com:5050/litv-ftv07/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾5",滾動力 Rollor
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾5",滾動力 Rollor
 http://nmk.ioapk.com:5050/4gtv-live012/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="四季台湾5",亞洲旅遊
 http://nmk.ioapk.com:5050/4gtv-4gtv076/index.m3u8?proxy=true
@@ -4111,7 +4111,7 @@ http://118.233.28.52:50007/4gtv-live031/index.m3u8?proxy=true
 http://118.233.28.52:50007/4gtv-4gtv082/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四季台湾6",MTV Live
 http://118.233.28.52:50007/4gtv-live025/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾6",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾6",MEZZO LIVE
 http://118.233.28.52:50007/4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾6",CLASSICA 古典樂
 http://118.233.28.52:50007/4gtv-4gtv059/index.m3u8?proxy=true
@@ -4133,7 +4133,7 @@ http://118.233.28.52:50007/li-4gtv-4gtv006/index.m3u8?proxy=true
 http://118.233.28.52:50007/li-4gtv-4gtv068/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季台湾6",Trace Urban
 http://118.233.28.52:50007/li-4gtv-4gtv082/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季台湾6",MEZZO LIVE
+#EXTINF:-1 group-title="四季台湾6",MEZZO LIVE
 http://118.233.28.52:50007/li-4gtv-4gtv083/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季台湾6",CLASSICA 古典樂
 http://118.233.28.52:50007/li-4gtv-4gtv059/index.m3u8?proxy=true
@@ -4149,7 +4149,7 @@ http://118.233.28.52:50007/4gtv-live096/index.m3u8?proxy=true
 http://118.233.28.52:50007/4gtv-live110/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="四季台湾6",民視旅遊
 http://118.233.28.52:50007/litv-ftv07/index.m3u8?proxy=true
-#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾6",滾動力 Rollor
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季台湾6",滾動力 Rollor
 http://118.233.28.52:50007/4gtv-live012/index.m3u8?proxy=true
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="四季台湾6",亞洲旅遊
 http://118.233.28.52:50007/4gtv-4gtv076/index.m3u8?proxy=true
