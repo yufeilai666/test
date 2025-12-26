@@ -113,10 +113,11 @@ jobs:
           # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）
           # "epgguangxi.php"         # PHP 广西EPG脚本
           # "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本
-          "get_mod_epg.py"
-          "get_bbcable_epg.py"
-          "get_kbro_epg.py"
-          "get_celestial_epg.py"
+          # "get_mod_epg.py"
+          # "get_bbcable_epg.py"
+          # "get_kbro_epg.py"
+          # "get_celestial_epg.py"
+          "get_tvmao_epg.py"
         )
         
         # 存储执行前已存在的.py依赖文件（从步骤7复制的依赖文件）
