@@ -269,7 +269,7 @@ http://156.238.248.80/2099.php?id=133
 http://156.238.248.80/2099.php?id=134
 #EXTINF:-1 group-title="港03",VIUTV'英
 http://156.238.248.80/2099.php?id=135
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="港03",tvbS新闻
+#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="港03",tvbS新闻
 http://156.238.248.80/2099.php?id=136
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ASTROAOD.jpg" group-title="港03",Astroaod
 http://156.238.248.80/2099.php?id=137
@@ -709,7 +709,7 @@ http://156.238.248.80/2099.php?id=353
 http://156.238.248.80/2099.php?id=354
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="KDS",TVBS
 http://156.238.248.80/2099.php?id=355
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="KDS",TVBS新闻
+#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="KDS",TVBS新闻
 http://156.238.248.80/2099.php?id=356
 #EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="KDS",HBO
 http://156.238.248.80/2099.php?id=357
@@ -773,7 +773,7 @@ http://156.238.248.80/2099.php?id=385
 http://156.238.248.80/2099.php?id=386
 #EXTINF:-1 tvg-id="韓國娛樂台" tvg-name="韓國娛樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/韩国娱乐台.png" group-title="4gtv",韓國娛樂台
 http://156.238.248.80/2099.php?id=387
-#EXTINF:-1 group-title="4gtv",東森購物三台
+#EXTINF:-1 tvg-id="東森購物三台" tvg-name="東森購物三台" group-title="4gtv",東森購物三台
 http://156.238.248.80/2099.php?id=388
 #EXTINF:-1 tvg-id="好消息" tvg-name="好消息" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/好消息.png" group-title="4gtv",好消息
 http://156.238.248.80/2099.php?id=389
@@ -879,9 +879,9 @@ http://156.238.248.80/2099.php?id=438
 http://156.238.248.80/2099.php?id=439
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/欧洲光影.png" group-title="4gtv",歐洲光影
 http://156.238.248.80/2099.php?id=440
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS台劇台.png" group-title="4gtv",TVBS台劇台
+#EXTINF:-1 tvg-id="TVBS台劇台" tvg-name="TVBS台劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS台劇台.png" group-title="4gtv",TVBS台劇台
 http://156.238.248.80/2099.php?id=441
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典电影台.png" group-title="4gtv",經典電影台
+#EXTINF:-1 tvg-id="經典電影台" tvg-name="經典電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典电影台.png" group-title="4gtv",經典電影台
 http://156.238.248.80/2099.php?id=442
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/戲劇免費看1台.png" group-title="4gtv",戲劇免費看1台
 http://156.238.248.80/2099.php?id=443
@@ -917,9 +917,9 @@ http://156.238.248.80/2099.php?id=457
 http://156.238.248.80/2099.php?id=458
 #EXTINF:-1 group-title="4gtv",amc 電影台
 http://156.238.248.80/2099.php?id=459
-#EXTINF:-1 tvg-id="台灣戲劇台" tvg-name="台灣戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="4gtv",台灣戲劇台
+#EXTINF:-1 tvg-id="台湾戲劇台" tvg-name="台湾戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="4gtv",台灣戲劇台
 http://156.238.248.80/2099.php?id=460
-#EXTINF:-1 tvg-id="台灣戲劇台" tvg-name="台灣戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="4gtv",台灣戲劇台
+#EXTINF:-1 tvg-id="台湾戲劇台" tvg-name="台湾戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="4gtv",台灣戲劇台
 http://156.238.248.80/2099.php?id=461
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="4gtv",龍華洋片
 http://156.238.248.80/2099.php?id=462
@@ -947,17 +947,17 @@ http://156.238.248.80/2099.php?id=472
 http://156.238.248.80/2099.php?id=473
 #EXTINF:-1 group-title="4gtv",電影原聲台 CMusic
 http://156.238.248.80/2099.php?id=474
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="4gtv",Trace Urban
+#EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="4gtv",Trace Urban
 http://156.238.248.80/2099.php?id=475
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="4gtv",MTV Live
 http://156.238.248.80/2099.php?id=476
 #EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="4gtv",MEZZO LIVE
 http://156.238.248.80/2099.php?id=477
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="4gtv",CLASSICA 古典樂
+#EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="4gtv",CLASSICA 古典樂
 http://156.238.248.80/2099.php?id=478
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大精彩.png" group-title="4gtv",八大精彩
 http://156.238.248.80/2099.php?id=479
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS綜藝台.png" group-title="4gtv",TVBS綜藝台
+#EXTINF:-1 tvg-id="TVBS綜藝台" tvg-name="TVBS綜藝台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS綜藝台.png" group-title="4gtv",TVBS綜藝台
 http://156.238.248.80/2099.php?id=480
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大综艺.png" group-title="4gtv",八大綜藝
 http://156.238.248.80/2099.php?id=481
@@ -971,11 +971,11 @@ http://156.238.248.80/2099.php?id=484
 http://156.238.248.80/2099.php?id=485
 #EXTINF:-1 tvg-id="TVBS歡樂台" tvg-name="TVBS歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS欢乐台.png" group-title="4gtv",TVBS歡樂台
 http://156.238.248.80/2099.php?id=486
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="4gtv",Trace Urban
+#EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="4gtv",Trace Urban
 http://156.238.248.80/2099.php?id=487
 #EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="4gtv",MEZZO LIVE
 http://156.238.248.80/2099.php?id=488
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="4gtv",CLASSICA 古典樂
+#EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="4gtv",CLASSICA 古典樂
 http://156.238.248.80/2099.php?id=489
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大精彩.png" group-title="4gtv",八大精彩
 http://156.238.248.80/2099.php?id=490
@@ -985,7 +985,7 @@ http://156.238.248.80/2099.php?id=491
 http://156.238.248.80/2099.php?id=492
 #EXTINF:-1 tvg-id="INULTRA" tvg-name="INULTRA" tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/INULTRA.png" group-title="4gtv",INULTRA
 http://156.238.248.80/2099.php?id=493
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Pet Club TV.png" group-title="4gtv",Pet Club TV
+#EXTINF:-1 tvg-id="Pet Club TV" tvg-name="Pet Club TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Pet Club TV.png" group-title="4gtv",Pet Club TV
 http://156.238.248.80/2099.php?id=494
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="4gtv",民視旅遊
 http://156.238.248.80/2099.php?id=495
@@ -1029,15 +1029,15 @@ http://156.238.248.80/2099.php?id=513
 http://156.238.248.80/2099.php?id=514
 #EXTINF:-1 tvg-id="DREAMWORKS" tvg-name="DREAMWORKS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DREAMWORKS.png" group-title="4gtv",DreamWorks
 http://156.238.248.80/2099.php?id=515
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="4gtv",靖天卡通台
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="4gtv",靖天卡通台
 http://156.238.248.80/2099.php?id=516
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖洋卡通.png" group-title="4gtv",靖洋卡通
 http://156.238.248.80/2099.php?id=517
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MOMO亲子.png" group-title="4gtv",MOMO親子
 http://156.238.248.80/2099.php?id=518
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/經典卡通台.png" group-title="4gtv",經典卡通台
+#EXTINF:-1 tvg-id="經典卡通台" tvg-name="經典卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/經典卡通台.png" group-title="4gtv",經典卡通台
 http://156.238.248.80/2099.php?id=519
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/精選動漫台.png" group-title="4gtv",精選動漫台
+#EXTINF:-1 tvg-id="精選動漫台" tvg-name="精選動漫台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/精選動漫台.png" group-title="4gtv",精選動漫台
 http://156.238.248.80/2099.php?id=520
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華卡通.png" group-title="4gtv",龍華卡通
 http://156.238.248.80/2099.php?id=521
@@ -1045,7 +1045,7 @@ http://156.238.248.80/2099.php?id=521
 http://156.238.248.80/2099.php?id=522
 #EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="ELTV生活英語台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTV生活英語台.png" group-title="4gtv",ELTV生活英語台
 http://156.238.248.80/2099.php?id=523
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="4gtv",靖天卡通台
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="4gtv",靖天卡通台
 http://156.238.248.80/2099.php?id=524
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖洋卡通.png" group-title="4gtv",靖洋卡通
 http://156.238.248.80/2099.php?id=525
@@ -1069,7 +1069,7 @@ http://156.238.248.80/2099.php?id=533
 http://156.238.248.80/2099.php?id=534
 #EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="4gtv",中天新聞台
 http://156.238.248.80/2099.php?id=535
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Bloomberg TV.png" group-title="4gtv",BLOOMBERG TV
+#EXTINF:-1 tvg-id="Bloomberg TV" tvg-name="Bloomberg TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Bloomberg TV.png" group-title="4gtv",BLOOMBERG TV
 http://156.238.248.80/2099.php?id=536
 #EXTINF:-1 tvg-id="寰宇新聞" tvg-name="寰宇新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇新闻.png" group-title="4gtv",寰宇新聞
 http://156.238.248.80/2099.php?id=537
@@ -1079,15 +1079,15 @@ http://156.238.248.80/2099.php?id=538
 http://156.238.248.80/2099.php?id=539
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经.png" group-title="4gtv",寰宇財經
 http://156.238.248.80/2099.php?id=540
-#EXTINF:-1 group-title="4gtv",FRANCE24 英文台
+#EXTINF:-1 tvg-id="FRANCE24 英文台" tvg-name="FRANCE24 英文台" group-title="4gtv",FRANCE24 英文台
 http://156.238.248.80/2099.php?id=541
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半島國際新聞台.png" group-title="4gtv",半島國際新聞台
+#EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半島國際新聞台.png" group-title="4gtv",半島國際新聞台
 http://156.238.248.80/2099.php?id=542
 #EXTINF:-1 group-title="4gtv",VOA 美國之音
 http://156.238.248.80/2099.php?id=543
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CNBC Asia 财经台.png" group-title="4gtv",CNBC Asia 財經台
+#EXTINF:-1 tvg-id="CNBC Asia 財經台" tvg-name="CNBC Asia 財經台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CNBC Asia 财经台.png" group-title="4gtv",CNBC Asia 財經台
 http://156.238.248.80/2099.php?id=544
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DW德國之聲.png" group-title="4gtv",DW德國之聲
+#EXTINF:-1 tvg-id="DW德國之聲" tvg-name="DW德國之聲" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DW德國之聲.png" group-title="4gtv",DW德國之聲
 http://156.238.248.80/2099.php?id=545
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="4gtv",非凡新聞
 http://156.238.248.80/2099.php?id=546
@@ -1115,7 +1115,7 @@ http://156.238.248.80/2099.php?id=556
 http://156.238.248.80/2099.php?id=557
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经.png" group-title="4gtv",寰宇財經
 http://156.238.248.80/2099.php?id=558
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半島國際新聞台.png" group-title="4gtv",半島國際新聞台
+#EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半島國際新聞台.png" group-title="4gtv",半島國際新聞台
 http://156.238.248.80/2099.php?id=559
 #EXTINF:-1 group-title="4gtv",VOA 美國之音
 http://156.238.248.80/2099.php?id=560
@@ -1135,11 +1135,11 @@ http://156.238.248.80/2099.php?id=566
 http://156.238.248.80/2099.php?id=567
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/智林体育.png" group-title="4gtv",智林體育
 http://156.238.248.80/2099.php?id=568
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="4gtv",時尚運動X
+#EXTINF:-1 tvg-id="時尚運動X" tvg-name="時尚運動X" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="4gtv",時尚運動X
 http://156.238.248.80/2099.php?id=569
 #EXTINF:-1 group-title="4gtv",車迷 TV
 http://156.238.248.80/2099.php?id=570
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="4gtv",GINX Esports TV
+#EXTINF:-1 tvg-id="GINX Esports TV" tvg-name="GINX Esports TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="4gtv",GINX Esports TV
 http://156.238.248.80/2099.php?id=571
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯魅力.png" group-title="4gtv",博斯魅力
 http://156.238.248.80/2099.php?id=572
@@ -1161,19 +1161,19 @@ http://156.238.248.80/2099.php?id=579
 http://156.238.248.80/2099.php?id=580
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/智林体育.png" group-title="4gtv",智林體育
 http://156.238.248.80/2099.php?id=581
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="4gtv",時尚運動X
+#EXTINF:-1 tvg-id="時尚運動X" tvg-name="時尚運動X" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="4gtv",時尚運動X
 http://156.238.248.80/2099.php?id=582
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="4gtv",GINX Esports TV
+#EXTINF:-1 tvg-id="GINX Esports TV" tvg-name="GINX Esports TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="4gtv",GINX Esports TV
 http://156.238.248.80/2099.php?id=583
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/歷史頻道.png" group-title="4gtv",歷史頻道
 http://156.238.248.80/2099.php?id=584
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CI 罪案侦查频道.png" group-title="4gtv",CI 罪案偵查頻道
+#EXTINF:-1 tvg-id="CI 罪案偵查頻道" tvg-name="CI 罪案偵查頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CI 罪案侦查频道.png" group-title="4gtv",CI 罪案偵查頻道
 http://156.238.248.80/2099.php?id=585
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="4gtv",視納華仁紀實頻道
+#EXTINF:-1 tvg-id="視納華仁紀實頻道" tvg-name="視納華仁紀實頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="4gtv",視納華仁紀實頻道
 http://156.238.248.80/2099.php?id=586
 #EXTINF:-1 tvg-id="影迷數位紀實台" tvg-name="影迷數位紀實台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/影迷数位纪实台.png" group-title="4gtv",影迷數位紀實台
 http://156.238.248.80/2099.php?id=587
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="4gtv",視納華仁紀實頻道
+#EXTINF:-1 tvg-id="視納華仁紀實頻道" tvg-name="視納華仁紀實頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="4gtv",視納華仁紀實頻道
 http://156.238.248.80/2099.php?id=588
 #EXTINF:-1 tvg-id="影迷數位紀實台" tvg-name="影迷數位紀實台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/影迷数位纪实台.png" group-title="4gtv",影迷數位紀實台
 http://156.238.248.80/2099.php?id=589
@@ -1217,7 +1217,7 @@ http://156.238.248.80/2099.php?id=607
 http://156.238.248.80/2099.php?id=608
 #EXTINF:-1 tvg-id="韓國娛樂台" tvg-name="韓國娛樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/韩国娱乐台.png" group-title="四季",韓國娛樂台
 http://156.238.248.80/2099.php?id=609
-#EXTINF:-1 group-title="四季",東森購物三台
+#EXTINF:-1 tvg-id="東森購物三台" tvg-name="東森購物三台" group-title="四季",東森購物三台
 http://156.238.248.80/2099.php?id=610
 #EXTINF:-1 tvg-id="好消息" tvg-name="好消息" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/好消息.png" group-title="四季",好消息
 http://156.238.248.80/2099.php?id=611
@@ -1323,9 +1323,9 @@ http://156.238.248.80/2099.php?id=660
 http://156.238.248.80/2099.php?id=661
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/欧洲光影.png" group-title="四季",歐洲光影
 http://156.238.248.80/2099.php?id=662
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS台劇台.png" group-title="四季",TVBS台劇台
+#EXTINF:-1 tvg-id="TVBS台劇台" tvg-name="TVBS台劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS台劇台.png" group-title="四季",TVBS台劇台
 http://156.238.248.80/2099.php?id=663
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典电影台.png" group-title="四季",經典電影台
+#EXTINF:-1 tvg-id="經典電影台" tvg-name="經典電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典电影台.png" group-title="四季",經典電影台
 http://156.238.248.80/2099.php?id=664
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/戲劇免費看1台.png" group-title="四季",戲劇免費看1台
 http://156.238.248.80/2099.php?id=665
@@ -1361,9 +1361,9 @@ http://156.238.248.80/2099.php?id=679
 http://156.238.248.80/2099.php?id=680
 #EXTINF:-1 group-title="四季",amc 電影台
 http://156.238.248.80/2099.php?id=681
-#EXTINF:-1 tvg-id="台灣戲劇台" tvg-name="台灣戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="四季",台灣戲劇台
+#EXTINF:-1 tvg-id="台湾戲劇台" tvg-name="台湾戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="四季",台灣戲劇台
 http://156.238.248.80/2099.php?id=682
-#EXTINF:-1 tvg-id="台灣戲劇台" tvg-name="台灣戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="四季",台灣戲劇台
+#EXTINF:-1 tvg-id="台湾戲劇台" tvg-name="台湾戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="四季",台灣戲劇台
 http://156.238.248.80/2099.php?id=683
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="四季",龍華洋片
 http://156.238.248.80/2099.php?id=684
@@ -1391,17 +1391,17 @@ http://156.238.248.80/2099.php?id=694
 http://156.238.248.80/2099.php?id=695
 #EXTINF:-1 group-title="四季",電影原聲台 CMusic
 http://156.238.248.80/2099.php?id=696
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季",Trace Urban
+#EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季",Trace Urban
 http://156.238.248.80/2099.php?id=697
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四季",MTV Live
 http://156.238.248.80/2099.php?id=698
 #EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季",MEZZO LIVE
 http://156.238.248.80/2099.php?id=699
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季",CLASSICA 古典樂
+#EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季",CLASSICA 古典樂
 http://156.238.248.80/2099.php?id=700
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大精彩.png" group-title="四季",八大精彩
 http://156.238.248.80/2099.php?id=701
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS綜藝台.png" group-title="四季",TVBS綜藝台
+#EXTINF:-1 tvg-id="TVBS綜藝台" tvg-name="TVBS綜藝台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS綜藝台.png" group-title="四季",TVBS綜藝台
 http://156.238.248.80/2099.php?id=702
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大综艺.png" group-title="四季",八大綜藝
 http://156.238.248.80/2099.php?id=703
@@ -1415,11 +1415,11 @@ http://156.238.248.80/2099.php?id=706
 http://156.238.248.80/2099.php?id=707
 #EXTINF:-1 tvg-id="TVBS歡樂台" tvg-name="TVBS歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS欢乐台.png" group-title="四季",TVBS歡樂台
 http://156.238.248.80/2099.php?id=708
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季",Trace Urban
+#EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季",Trace Urban
 http://156.238.248.80/2099.php?id=709
 #EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季",MEZZO LIVE
 http://156.238.248.80/2099.php?id=710
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季",CLASSICA 古典樂
+#EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季",CLASSICA 古典樂
 http://156.238.248.80/2099.php?id=711
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大精彩.png" group-title="四季",八大精彩
 http://156.238.248.80/2099.php?id=712
@@ -1429,7 +1429,7 @@ http://156.238.248.80/2099.php?id=713
 http://156.238.248.80/2099.php?id=714
 #EXTINF:-1 tvg-id="INULTRA" tvg-name="INULTRA" tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/INULTRA.png" group-title="四季",INULTRA
 http://156.238.248.80/2099.php?id=715
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Pet Club TV.png" group-title="四季",Pet Club TV
+#EXTINF:-1 tvg-id="Pet Club TV" tvg-name="Pet Club TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Pet Club TV.png" group-title="四季",Pet Club TV
 http://156.238.248.80/2099.php?id=716
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="四季",民視旅遊
 http://156.238.248.80/2099.php?id=717
@@ -1473,15 +1473,15 @@ http://156.238.248.80/2099.php?id=735
 http://156.238.248.80/2099.php?id=736
 #EXTINF:-1 tvg-id="DREAMWORKS" tvg-name="DREAMWORKS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DREAMWORKS.png" group-title="四季",DreamWorks
 http://156.238.248.80/2099.php?id=737
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="四季",靖天卡通台
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="四季",靖天卡通台
 http://156.238.248.80/2099.php?id=738
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖洋卡通.png" group-title="四季",靖洋卡通
 http://156.238.248.80/2099.php?id=739
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MOMO亲子.png" group-title="四季",MOMO親子
 http://156.238.248.80/2099.php?id=740
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/經典卡通台.png" group-title="四季",經典卡通台
+#EXTINF:-1 tvg-id="經典卡通台" tvg-name="經典卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/經典卡通台.png" group-title="四季",經典卡通台
 http://156.238.248.80/2099.php?id=741
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/精選動漫台.png" group-title="四季",精選動漫台
+#EXTINF:-1 tvg-id="精選動漫台" tvg-name="精選動漫台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/精選動漫台.png" group-title="四季",精選動漫台
 http://156.238.248.80/2099.php?id=742
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華卡通.png" group-title="四季",龍華卡通
 http://156.238.248.80/2099.php?id=743
@@ -1489,7 +1489,7 @@ http://156.238.248.80/2099.php?id=743
 http://156.238.248.80/2099.php?id=744
 #EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="ELTV生活英語台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTV生活英語台.png" group-title="四季",ELTV生活英語台
 http://156.238.248.80/2099.php?id=745
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="四季",靖天卡通台
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="四季",靖天卡通台
 http://156.238.248.80/2099.php?id=746
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖洋卡通.png" group-title="四季",靖洋卡通
 http://156.238.248.80/2099.php?id=747
@@ -1513,7 +1513,7 @@ http://156.238.248.80/2099.php?id=755
 http://156.238.248.80/2099.php?id=756
 #EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="四季",中天新聞台
 http://156.238.248.80/2099.php?id=757
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Bloomberg TV.png" group-title="四季",BLOOMBERG TV
+#EXTINF:-1 tvg-id="Bloomberg TV" tvg-name="Bloomberg TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Bloomberg TV.png" group-title="四季",BLOOMBERG TV
 http://156.238.248.80/2099.php?id=758
 #EXTINF:-1 tvg-id="寰宇新聞" tvg-name="寰宇新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇新闻.png" group-title="四季",寰宇新聞
 http://156.238.248.80/2099.php?id=759
@@ -1523,15 +1523,15 @@ http://156.238.248.80/2099.php?id=760
 http://156.238.248.80/2099.php?id=761
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经.png" group-title="四季",寰宇財經
 http://156.238.248.80/2099.php?id=762
-#EXTINF:-1 group-title="四季",FRANCE24 英文台
+#EXTINF:-1 tvg-id="FRANCE24 英文台" tvg-name="FRANCE24 英文台" group-title="四季",FRANCE24 英文台
 http://156.238.248.80/2099.php?id=763
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半島國際新聞台.png" group-title="四季",半島國際新聞台
+#EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半島國際新聞台.png" group-title="四季",半島國際新聞台
 http://156.238.248.80/2099.php?id=764
 #EXTINF:-1 group-title="四季",VOA 美國之音
 http://156.238.248.80/2099.php?id=765
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CNBC Asia 财经台.png" group-title="四季",CNBC Asia 財經台
+#EXTINF:-1 tvg-id="CNBC Asia 財經台" tvg-name="CNBC Asia 財經台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CNBC Asia 财经台.png" group-title="四季",CNBC Asia 財經台
 http://156.238.248.80/2099.php?id=766
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DW德國之聲.png" group-title="四季",DW德國之聲
+#EXTINF:-1 tvg-id="DW德國之聲" tvg-name="DW德國之聲" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DW德國之聲.png" group-title="四季",DW德國之聲
 http://156.238.248.80/2099.php?id=767
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="四季",非凡新聞
 http://156.238.248.80/2099.php?id=768
@@ -1559,7 +1559,7 @@ http://156.238.248.80/2099.php?id=778
 http://156.238.248.80/2099.php?id=779
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经.png" group-title="四季",寰宇財經
 http://156.238.248.80/2099.php?id=780
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半島國際新聞台.png" group-title="四季",半島國際新聞台
+#EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半島國際新聞台.png" group-title="四季",半島國際新聞台
 http://156.238.248.80/2099.php?id=781
 #EXTINF:-1 group-title="四季",VOA 美國之音
 http://156.238.248.80/2099.php?id=782
@@ -1593,11 +1593,11 @@ http://156.238.248.80/2099.php?id=795
 http://156.238.248.80/2099.php?id=796
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/智林体育.png" group-title="四季",智林體育
 http://156.238.248.80/2099.php?id=797
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="四季",時尚運動X
+#EXTINF:-1 tvg-id="時尚運動X" tvg-name="時尚運動X" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="四季",時尚運動X
 http://156.238.248.80/2099.php?id=798
 #EXTINF:-1 group-title="四季",車迷 TV
 http://156.238.248.80/2099.php?id=799
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="四季",GINX Esports TV
+#EXTINF:-1 tvg-id="GINX Esports TV" tvg-name="GINX Esports TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="四季",GINX Esports TV
 http://156.238.248.80/2099.php?id=800
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯魅力.png" group-title="四季",博斯魅力
 http://156.238.248.80/2099.php?id=801
@@ -1619,19 +1619,19 @@ http://156.238.248.80/2099.php?id=808
 http://156.238.248.80/2099.php?id=809
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/智林体育.png" group-title="四季",智林體育
 http://156.238.248.80/2099.php?id=810
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="四季",時尚運動X
+#EXTINF:-1 tvg-id="時尚運動X" tvg-name="時尚運動X" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="四季",時尚運動X
 http://156.238.248.80/2099.php?id=811
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="四季",GINX Esports TV
+#EXTINF:-1 tvg-id="GINX Esports TV" tvg-name="GINX Esports TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="四季",GINX Esports TV
 http://156.238.248.80/2099.php?id=812
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/歷史頻道.png" group-title="四季",歷史頻道
 http://156.238.248.80/2099.php?id=813
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CI 罪案侦查频道.png" group-title="四季",CI 罪案偵查頻道
+#EXTINF:-1 tvg-id="CI 罪案偵查頻道" tvg-name="CI 罪案偵查頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CI 罪案侦查频道.png" group-title="四季",CI 罪案偵查頻道
 http://156.238.248.80/2099.php?id=814
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="四季",視納華仁紀實頻道
+#EXTINF:-1 tvg-id="視納華仁紀實頻道" tvg-name="視納華仁紀實頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="四季",視納華仁紀實頻道
 http://156.238.248.80/2099.php?id=815
 #EXTINF:-1 tvg-id="影迷數位紀實台" tvg-name="影迷數位紀實台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/影迷数位纪实台.png" group-title="四季",影迷數位紀實台
 http://156.238.248.80/2099.php?id=816
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="四季",視納華仁紀實頻道
+#EXTINF:-1 tvg-id="視納華仁紀實頻道" tvg-name="視納華仁紀實頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="四季",視納華仁紀實頻道
 http://156.238.248.80/2099.php?id=817
 #EXTINF:-1 tvg-id="影迷數位紀實台" tvg-name="影迷數位紀實台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/影迷数位纪实台.png" group-title="四季",影迷數位紀實台
 http://156.238.248.80/2099.php?id=818
@@ -1805,7 +1805,7 @@ http://156.238.248.80/2099.php?id=901
 http://156.238.248.80/2099.php?id=902
 #EXTINF:-1 tvg-id="三立都會台" tvg-name="三立都會台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立都会台.png" group-title="smt",三立都会台
 http://156.238.248.80/2099.php?id=903
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立綜合台.png" group-title="smt",三立综合台
+#EXTINF:-1 tvg-id="三立綜合台" tvg-name="三立綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立綜合台.png" group-title="smt",三立综合台
 http://156.238.248.80/2099.php?id=904
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立戲劇台.png" group-title="smt",三立戏剧台
 http://156.238.248.80/2099.php?id=905
