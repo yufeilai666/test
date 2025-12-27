@@ -839,7 +839,7 @@ http://156.238.248.80/2099.php?id=418
 http://156.238.248.80/2099.php?id=419
 #EXTINF:-1 tvg-id="愛爾達生活旅遊台" tvg-name="愛爾達生活旅遊台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/愛爾達生活旅遊台.png" group-title="4gtv",愛爾達生活旅遊台
 http://156.238.248.80/2099.php?id=420
-#EXTINF:-1 tvg-id="fun探索娛樂台" tvg-name="fun探索娛樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/FUN探索娛樂台.png" group-title="4gtv",fun探索娛樂台
+#EXTINF:-1 tvg-id="Fun探索娛樂台 4K" tvg-name="Fun探索娛樂台 4K" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/FUN探索娛樂台.png" group-title="4gtv",fun探索娛樂台
 http://156.238.248.80/2099.php?id=421
 #EXTINF:-1 tvg-id="幸福空間居家台" tvg-name="幸福空間居家台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/幸福空间居家台.png" group-title="4gtv",幸福空間居家台
 http://156.238.248.80/2099.php?id=422
@@ -927,7 +927,7 @@ http://156.238.248.80/2099.php?id=462
 http://156.238.248.80/2099.php?id=463
 #EXTINF:-1 tvg-id="MTV Live HD 音樂頻道" tvg-name="MTV Live HD 音樂頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live HD 音乐频道.png" group-title="4gtv",MTV Live HD 音樂頻道
 http://156.238.248.80/2099.php?id=464
-#EXTINF:-1 group-title="4gtv",Mezzo Live
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="4gtv",Mezzo Live
 http://156.238.248.80/2099.php?id=465
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="4gtv",CLASSICA 古典樂
 http://156.238.248.80/2099.php?id=466
@@ -1187,7 +1187,7 @@ http://156.238.248.80/2099.php?id=592
 http://156.238.248.80/2099.php?id=593
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四¦季",MTV Live
 http://156.238.248.80/2099.php?id=594
-#EXTINF:-1 group-title="四¦季",MEZZO LIVE
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四¦季",MEZZO LIVE
 http://156.238.248.80/2099.php?id=595
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四¦季",CLASSICA 古典樂
 http://156.238.248.80/2099.php?id=596
@@ -1209,7 +1209,7 @@ http://156.238.248.80/2099.php?id=603
 http://156.238.248.80/2099.php?id=604
 #EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四¦季",Trace Urban
 http://156.238.248.80/2099.php?id=605
-#EXTINF:-1 group-title="四¦季",MEZZO LIVE
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四¦季",MEZZO LIVE
 http://156.238.248.80/2099.php?id=606
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四¦季",CLASSICA 古典樂
 http://156.238.248.80/2099.php?id=607
@@ -1225,7 +1225,7 @@ http://156.238.248.80/2099.php?id=611
 http://156.238.248.80/2099.php?id=612
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="四¦季",民視旅遊
 http://156.238.248.80/2099.php?id=613
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四¦季",滾動力 Rollor
+#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四¦季",滾動力 Rollor
 http://156.238.248.80/2099.php?id=614
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="四¦季",亞洲旅遊
 http://156.238.248.80/2099.php?id=615
@@ -1631,7 +1631,7 @@ http://156.238.248.80/2099.php?id=814
 http://156.238.248.80/2099.php?id=815
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四季",MTV Live
 http://156.238.248.80/2099.php?id=816
-#EXTINF:-1 group-title="四季",MEZZO LIVE
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季",MEZZO LIVE
 http://156.238.248.80/2099.php?id=817
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季",CLASSICA 古典樂
 http://156.238.248.80/2099.php?id=818
@@ -1653,7 +1653,7 @@ http://156.238.248.80/2099.php?id=825
 http://156.238.248.80/2099.php?id=826
 #EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="四季",Trace Urban
 http://156.238.248.80/2099.php?id=827
-#EXTINF:-1 group-title="四季",MEZZO LIVE
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="四季",MEZZO LIVE
 http://156.238.248.80/2099.php?id=828
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="四季",CLASSICA 古典樂
 http://156.238.248.80/2099.php?id=829
@@ -1669,7 +1669,7 @@ http://156.238.248.80/2099.php?id=833
 http://156.238.248.80/2099.php?id=834
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="四季",民視旅遊
 http://156.238.248.80/2099.php?id=835
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季",滾動力 Rollor
+#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="四季",滾動力 Rollor
 http://156.238.248.80/2099.php?id=836
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="四季",亞洲旅遊
 http://156.238.248.80/2099.php?id=837
@@ -2023,7 +2023,7 @@ http://156.238.248.80/2099.php?id=1010
 http://156.238.248.80/2099.php?id=1011
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="smt",台视新闻
 http://156.238.248.80/2099.php?id=1012
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="smt",台视综合
+#EXTINF:-1 tvg-id="台視綜合" tvg-name="台視綜合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="smt",台视综合
 http://156.238.248.80/2099.php?id=1013
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="smt",中视
 http://156.238.248.80/2099.php?id=1014
@@ -2177,7 +2177,7 @@ http://156.238.248.80/2099.php?id=1087
 http://156.238.248.80/2099.php?id=1088
 #EXTINF:-1 tvg-id="博斯高球一台" tvg-name="博斯高球一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球一台.png" group-title="smt",博斯高球一台
 http://156.238.248.80/2099.php?id=1089
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球二台.png" group-title="smt",博斯高球二台
+#EXTINF:-1 tvg-id="博斯高球二台" tvg-name="博斯高球二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球二台.png" group-title="smt",博斯高球二台
 http://156.238.248.80/2099.php?id=1090
 #EXTINF:-1 tvg-id="博斯網球台" tvg-name="博斯網球台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯网球台.png" group-title="smt",博斯网球台
 http://156.238.248.80/2099.php?id=1091
@@ -2923,7 +2923,7 @@ http://156.238.248.80/2099.php?id=1460
 http://156.238.248.80/2099.php?id=1461
 #EXTINF:-1 group-title="smt",itv 2
 http://156.238.248.80/2099.php?id=1462
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/euronews.png" group-title="smt",Euronews
+#EXTINF:-1 tvg-id="Euronews" tvg-name="Euronews" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/euronews.png" group-title="smt",Euronews
 http://156.238.248.80/2099.php?id=1463
 #EXTINF:-1 group-title="smt",Channel 4
 http://156.238.248.80/2099.php?id=1464
