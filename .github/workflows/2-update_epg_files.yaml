@@ -82,7 +82,7 @@ jobs:
                     
                     # 设置请求头
                     headers = {
-                        'User-Agent': 'Mozilla/5.0 (compatible; GitHub-Actions-EPG-Downloader/1.0)',
+                        'User-Agent': 'AptvPlayer/2.1.2',
                         'Accept-Encoding': 'gzip'
                     }
                     
