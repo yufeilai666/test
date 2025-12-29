@@ -862,7 +862,7 @@ https://v.hystudio.cn:8088/live/yifatv-ztxw0.m3u8
 #EXTINF:-1 group-title="极速港台3",中天新聞台2
 https://v.hystudio.cn:8088/live/yifatv-ztxw02.m3u8
 #EXTINF:-1 group-title="极速港台3",中天新聞台3
-https://tlzb.wsmywlkj.top/live/xgzb-ztxw01.m3u8
+https://mfzb.wsmywlkj.top/live/xgzb-ztxw01.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台3",翡翠台
 http://r.jdshipin.com/62WM7
 #EXTINF:-1 group-title="极速港台3",翡翠台2
@@ -4449,6 +4449,22 @@ https://new-live.jnyyoa.com/notlive/8649962.m3u8
 http://gx.484947.xyz/PLTV/77777777/224/3221225717/index.m3u8?servicetype=1&&IASHttpSessionId=RR778520250111113355399717&ispcode=1108
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="广东本地",大湾区卫视
 http://gx.484947.xyz/PLTV/77777777/224/3221225748/index.m3u8?servicetype=1&&IASHttpSessionId=RR778520250111113355399717&ispcode=1108
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="广东本地",大湾区卫视
+http://119.123.76.67:8086/hls/29/index.m3u8
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="广东本地",广东民生
+http://119.123.76.67:8086/hls/39/index.m3u8
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="广东本地",广东少儿
+http://119.123.76.67:8086/hls/40/index.m3u8
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="广东本地",广东体育
+http://119.123.76.67:8086/hls/42/index.m3u8
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="广东本地",广东卫视
+http://119.123.76.67:8086/hls/44/index.m3u8
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="广东本地",广东新闻
+http://119.123.76.67:8086/hls/45/index.m3u8
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="广东本地",广东影视
+http://119.123.76.67:8086/hls/46/index.m3u8
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="广东本地",广东珠江
+http://119.123.76.67:8086/hls/47/index.m3u8
 #EXTINF:-1 tvg-id="嘉佳卡通 (shanghai)" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="广东本地",嘉佳卡通
 http://php.jdshipin.com:8880/chudian.php?id=jjkt
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东国际.png" group-title="广东本地",广东国际
@@ -4776,115 +4792,115 @@ http://183.57.249.119:8183/tsfile/live/0142_1.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="东莞酒店",东森电影
 http://183.57.249.119:8183/tsfile/live/1013_1.m3u8
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="潮州酒店",广东卫视
-http://183.10.180.50:202/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="潮州酒店",汕头综合
-http://183.10.180.50:202/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头经济.png" group-title="潮州酒店",汕头经济
-http://183.10.180.50:202/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="潮州酒店",揭阳综合
-http://183.10.180.50:202/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳公共.png" group-title="潮州酒店",揭阳公共
-http://183.10.180.50:202/tsfile/live/1141_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1141_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="潮州酒店",广东珠江
-http://183.10.180.50:202/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="潮州酒店",广东新闻
-http://183.10.180.50:202/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="潮州酒店",广东影视
-http://183.10.180.50:202/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="广州综合" tvg-name="广州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广州综合.png" group-title="潮州酒店",广州综合
-http://183.10.180.50:202/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山影视.png" group-title="潮州酒店",佛山影视
-http://183.10.180.50:202/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="佛山顺德" tvg-name="佛山顺德" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山顺德.png" group-title="潮州酒店",佛山顺德
-http://183.10.180.50:202/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/河源综合.png" group-title="潮州酒店",河源综合
-http://183.10.180.50:202/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="梅州综合" tvg-name="梅州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/梅州综合.png" group-title="潮州酒店",梅州综合
-http://183.10.180.50:202/tsfile/live/1041_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1041_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="潮州酒店",深圳卫视
-http://183.10.180.50:202/tsfile/live/1042_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1042_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="深圳都市" tvg-name="深圳都市" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳都市.png" group-title="潮州酒店",深圳都市
-http://183.10.180.50:202/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳龙岗频道.png" group-title="潮州酒店",深圳龙岗频道
-http://183.10.180.50:202/tsfile/live/1044_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1044_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="深圳电视剧" tvg-name="深圳电视剧" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳电视剧.png" group-title="潮州酒店",深圳电视剧
-http://183.10.180.50:202/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="潮州酒店",CCTV1
-http://183.10.180.50:202/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="潮州酒店",CCTV2
-http://183.10.180.50:202/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="潮州酒店",CCTV3
-http://183.10.180.50:202/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="潮州酒店",CCTV4
-http://183.10.180.50:202/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="潮州酒店",CCTV5
-http://183.10.180.50:202/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="潮州酒店",CCTV6
-http://183.10.180.50:202/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="潮州酒店",CCTV7
-http://183.10.180.50:202/tsfile/live/1038_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1038_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="潮州酒店",CCTV8
-http://183.10.180.50:202/tsfile/live/1110_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1110_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="潮州酒店",CCTV9
-http://183.10.180.50:202/tsfile/live/1124_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1124_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="潮州酒店",CCTV10
-http://183.10.180.50:202/tsfile/live/1129_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1129_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="潮州酒店",CCTV11
-http://183.10.180.50:202/tsfile/live/1130_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1130_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="潮州酒店",CCTV12
-http://183.10.180.50:202/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="潮州酒店",CCTV13
-http://183.10.180.50:202/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="潮州酒店",CCTV14
-http://183.10.180.50:202/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="潮州酒店",CCTV15
-http://183.10.180.50:202/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="潮州酒店",CCTV16
-http://183.10.180.50:202/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="潮州酒店",CCTV17
-http://183.10.180.50:202/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="潮州酒店",黑龙江卫视
-http://183.10.180.50:202/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="潮州酒店",山东卫视
-http://183.10.180.50:202/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="潮州酒店",河北卫视
-http://183.10.180.50:202/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="潮州酒店",河南卫视
-http://183.10.180.50:202/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东教育.png" group-title="潮州酒店",山东教育
-http://183.10.180.50:202/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="潮州酒店",湖北卫视
-http://183.10.180.50:202/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="潮州酒店",吉林卫视
-http://183.10.180.50:202/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="潮州酒店",山西卫视
-http://183.10.180.50:202/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="潮州酒店",江西卫视
-http://183.10.180.50:202/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="潮州酒店",贵州卫视
-http://183.10.180.50:202/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="潮州酒店",宁夏卫视
-http://183.10.180.50:202/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="潮州酒店",内蒙古
-http://183.10.180.50:202/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="潮州酒店",海南卫视
-http://183.10.180.50:202/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="潮州酒店",广西卫视
-http://183.10.180.50:202/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="潮州酒店",四川卫视
-http://183.10.180.50:202/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="潮州酒店",东南卫视
-http://183.10.180.50:202/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="cctv世界地理" tvg-name="cctv世界地理" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV世界地理.png" group-title="潮州酒店",CCTV世界地理
-http://183.10.180.50:202/tsfile/live/1046_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1046_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/第一剧场.png" group-title="潮州酒店",第一剧场
-http://183.10.180.50:202/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/怀旧剧场.png" group-title="潮州酒店",怀旧剧场
-http://183.10.180.50:202/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云剧场.png" group-title="潮州酒店",风云剧场
-http://183.10.180.50:202/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="潮州酒店",天气预报
-http://183.10.180.50:202/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&down=1
+http://183.10.180.58:202/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="汕头酒店",广东卫视
 http://183.7.172.159:8888/hls/1/index.m3u8
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="汕头酒店",广东珠江
