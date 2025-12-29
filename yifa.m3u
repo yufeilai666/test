@@ -439,6 +439,8 @@ https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cr8r23nog65mnbf3
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v1e00fgi0000d2hio3nog65lre771jt0&ratio=720p&line=0
 #EXTINF:-1 group-title="清风DJ",游京DJ
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000cu2h3qvog65irkuioh50&ratio=720p&line=0
+#EXTINF:-1 group-title="清风DJ",游京女版DJ
+https://www.iesdouyin.com/aweme/v1/playwm/?line=0&logo_name=aweme_diversion_search&ratio=720p&video_id=v2700fgi0000d4l0kifog65jh64e9670
 #EXTINF:-1 group-title="清风DJ",爱是一场梦DJ
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000csppmffog65uhi36ibtg&ratio=720p&line=0
 #EXTINF:-1 group-title="清风DJ",蚂蚁牙嘿
@@ -469,16 +471,8 @@ http://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cpp7b2nog65rhkqq6
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000cph1etnog65mpr23b990&ratio=720p&line=0
 #EXTINF:-1 group-title="清风DJ",全粤语女声深情DJ串烧
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000ctbb4kvog65q67op5tug&ratio=720p&line=0
-#EXTINF:-1 group-title="清风DJ",流行中文DJ串烧
-https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cqakmn7og65pve8rk7d0&ratio=720p&line=0
-#EXTINF:-1 group-title="清风DJ",抖音热播流行DJ
-https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cqkhcjvog65k2meivd0g&ratio=720p&line=0
 #EXTINF:-1 group-title="清风DJ",海先生B001Dj串烧
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cvg46evog65uaon0vs10&ratio=720p&line=0
-#EXTINF:-1 group-title="清风DJ",全粤语女生伤感串烧DJ
-https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000crkjoknog65vdlgt2p4g&ratio=720p&line=0
-#EXTINF:-1 group-title="清风DJ",抖音中文串烧Dj
-https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000cr3nbhvog65nr0vsg4b0&ratio=720p&line=0
 #EXTINF:-1 group-title="清风DJ",粤语经典重温DJ
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000cp06gijc77ue69pt0spg&ratio=720p&line=0
 #EXTINF:-1 group-title="清风DJ",全粤语港台经典老歌DJ
@@ -5288,39 +5282,73 @@ http://113.109.250.75:9999/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
 http://113.109.250.75:9999/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
-http://183.17.237.7:18888/udp/239.77.0.229:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
-http://183.17.237.7:18888/udp/239.77.0.251:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
-http://183.17.237.7:18888/udp/239.77.0.25:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.25:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕尾生活
-http://183.17.237.7:18888/udp/239.77.0.187:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.187:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
-http://183.17.237.7:18888/udp/239.253.43.45:5146
+http://hello.ejoydom.com:9999/udp/239.253.43.45:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕头生活
-http://183.17.237.7:18888/udp/239.253.43.46:5146
+http://hello.ejoydom.com:9999/udp/239.253.43.46:5146
 #EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
-http://183.17.237.7:18888/udp/239.253.43.70:5146
+http://hello.ejoydom.com:9999/udp/239.253.43.70:5146
 #EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
-http://183.17.237.7:18888/udp/239.253.43.75:5146
+http://hello.ejoydom.com:9999/udp/239.253.43.75:5146
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
-http://183.17.237.7:18888/udp/239.77.0.84:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.84:5146
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
-http://183.17.237.7:18888/udp/239.77.0.1:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.1:5146
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
-http://183.17.237.7:18888/udp/239.77.0.173:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.173:5146
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
-http://183.17.237.7:18888/udp/239.77.0.225:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.225:5146
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
-http://183.17.237.7:18888/udp/239.77.0.112:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.112:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
-http://183.17.237.7:18888/udp/239.77.0.85:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.85:5146
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
-http://183.17.237.7:18888/udp/239.77.0.215:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.215:5146
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
-http://183.17.237.7:18888/udp/239.77.0.217:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
-http://183.17.237.7:18888/udp/239.77.0.250:5146
+http://hello.ejoydom.com:9999/udp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
+http://183.17.239.254:18888/udp/239.77.0.229:5146
+#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+http://183.17.239.254:18888/udp/239.77.0.251:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
+http://183.17.239.254:18888/udp/239.77.0.25:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
+http://183.17.239.254:18888/udp/239.77.0.187:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
+http://183.17.239.254:18888/udp/239.253.43.45:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕头生活
+http://183.17.239.254:18888/udp/239.253.43.46:5146
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
+http://183.17.239.254:18888/udp/239.253.43.70:5146
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
+http://183.17.239.254:18888/udp/239.253.43.75:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
+http://183.17.239.254:18888/udp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
+http://183.17.239.254:18888/udp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
+http://183.17.239.254:18888/udp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
+http://183.17.239.254:18888/udp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
+http://183.17.239.254:18888/udp/239.77.0.112:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
+http://183.17.239.254:18888/udp/239.77.0.85:5146
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
+http://183.17.239.254:18888/udp/239.77.0.215:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
+http://183.17.239.254:18888/udp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
+http://183.17.239.254:18888/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://119.135.192.194:10000/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
@@ -5356,39 +5384,39 @@ http://119.135.192.194:10000/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
 http://119.135.192.194:10000/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
-http://113.101.244.229:10000/udp/239.77.0.229:5146
+http://idc.zymok.cn:10000/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
-http://113.101.244.229:10000/udp/239.77.0.251:5146
+http://idc.zymok.cn:10000/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
-http://113.101.244.229:10000/udp/239.77.0.25:5146
+http://idc.zymok.cn:10000/udp/239.77.0.25:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕尾生活
-http://113.101.244.229:10000/udp/239.77.0.187:5146
+http://idc.zymok.cn:10000/udp/239.77.0.187:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
-http://113.101.244.229:10000/udp/239.253.43.45:5146
+http://idc.zymok.cn:10000/udp/239.253.43.45:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕头生活
-http://113.101.244.229:10000/udp/239.253.43.46:5146
+http://idc.zymok.cn:10000/udp/239.253.43.46:5146
 #EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
-http://113.101.244.229:10000/udp/239.253.43.70:5146
+http://idc.zymok.cn:10000/udp/239.253.43.70:5146
 #EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
-http://113.101.244.229:10000/udp/239.253.43.75:5146
+http://idc.zymok.cn:10000/udp/239.253.43.75:5146
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
-http://113.101.244.229:10000/udp/239.77.0.84:5146
+http://idc.zymok.cn:10000/udp/239.77.0.84:5146
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
-http://113.101.244.229:10000/udp/239.77.0.1:5146
+http://idc.zymok.cn:10000/udp/239.77.0.1:5146
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
-http://113.101.244.229:10000/udp/239.77.0.173:5146
+http://idc.zymok.cn:10000/udp/239.77.0.173:5146
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
-http://113.101.244.229:10000/udp/239.77.0.225:5146
+http://idc.zymok.cn:10000/udp/239.77.0.225:5146
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
-http://113.101.244.229:10000/udp/239.77.0.112:5146
+http://idc.zymok.cn:10000/udp/239.77.0.112:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
-http://113.101.244.229:10000/udp/239.77.0.85:5146
+http://idc.zymok.cn:10000/udp/239.77.0.85:5146
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
-http://113.101.244.229:10000/udp/239.77.0.215:5146
+http://idc.zymok.cn:10000/udp/239.77.0.215:5146
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
-http://113.101.244.229:10000/udp/239.77.0.217:5146
+http://idc.zymok.cn:10000/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
-http://113.101.244.229:10000/udp/239.77.0.250:5146
+http://idc.zymok.cn:10000/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://lbyjlt.vv5678.cn:8880/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
