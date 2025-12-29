@@ -149,20 +149,22 @@ jobs:
         if [ -n "$copied_dependencies" ]; then
           echo "✅ 成功复制的依赖脚本:$copied_dependencies"
           # 将复制的依赖脚本列表保存到环境变量，供后续步骤使用
-          echo "COPIED_DEPENDENCIES='$copied_dependencies'" >> $GITHUB_ENV
+          COPIED_DEPENDENCIES=$(echo "$copied_dependencies" | sed 's/^ *//;s/ *$//')
+          echo "COPIED_DEPENDENCIES=$COPIED_DEPENDENCIES" >> $GITHUB_ENV
+          echo "copied_dependencies=$COPIED_DEPENDENCIES" >> $GITHUB_OUTPUT
         else
           echo "ℹ️ 没有成功复制任何依赖脚本"
-          echo "COPIED_DEPENDENCIES=''" >> $GITHUB_ENV
         fi
         
         if [ -n "$failed_dependencies" ]; then
           echo "❌ 复制失败的依赖脚本:$failed_dependencies"
           # 保存失败列表到环境变量
-          echo "FAILED_DEPENDENCIES='$failed_dependencies'" >> $GITHUB_ENV
+          FAILED_DEPENDENCIES=$(echo "$failed_dependencies" | sed 's/^ *//;s/ *$//')
+          echo "FAILED_DEPENDENCIES=$FAILED_DEPENDENCIES" >> $GITHUB_ENV
+          echo "failed_dependencies=$FAILED_DEPENDENCIES" >> $GITHUB_OUTPUT
           echo "⚠️ 警告: 部分依赖脚本缺失，可能会影响后续脚本执行"
         else
           echo "✅ 所有依赖脚本复制成功"
-          echo "FAILED_DEPENDENCIES=''" >> $GITHUB_ENV
         fi
         
         echo "===================================="
@@ -315,13 +317,17 @@ jobs:
         echo "===================================="
         echo "🧹 清理依赖脚本文件..."
         
-        if [ -n "${{ env.COPIED_DEPENDENCIES }}" ]; then
-          echo "从环境变量获取复制的依赖脚本: ${{ env.COPIED_DEPENDENCIES }}"
+        # 使用步骤7的输出获取复制的依赖脚本
+        if [ -n "${{ steps.copy-dependencies.outputs.copied_dependencies }}" ]; then
+          COPIED_DEPS="${{ steps.copy-dependencies.outputs.copied_dependencies }}"
+          echo "从步骤输出获取复制的依赖脚本: $COPIED_DEPS"
           
           # 将依赖脚本字符串转换为数组
-          IFS=' ' read -r -a dependency_array <<< "${{ env.COPIED_DEPENDENCIES }}"
+          IFS=' ' read -r -a dependency_array <<< "$COPIED_DEPS"
           
           for dependency in "${dependency_array[@]}"; do
+            # 去除可能的空格
+            dependency=$(echo "$dependency" | xargs)
             if [ -n "$dependency" ] && [ -f "$dependency" ]; then
               # 检查这个依赖文件是否需要推送到私有仓库
               if [[ ! " $generated_files_for_private_repo " =~ " $dependency " ]]; then
@@ -333,6 +339,8 @@ jobs:
               fi
             fi
           done
+        else
+          echo "ℹ️ 没有从步骤输出获取到依赖脚本列表"
         fi
         
         echo "✅ 文件清理完成!"
@@ -361,9 +369,9 @@ jobs:
         if [ ${#failed_scripts[@]} -eq 0 ]; then
           echo "✅ 所有主脚本执行成功!"
           
-          # 报告依赖脚本状态
-          if [ -n "${{ env.FAILED_DEPENDENCIES }}" ]; then
-            echo "⚠️ 警告: 以下依赖脚本复制失败: ${{ env.FAILED_DEPENDENCIES }}"
+          # 报告依赖脚本状态 - 使用步骤7的输出
+          if [ -n "${{ steps.copy-dependencies.outputs.failed_dependencies }}" ]; then
+            echo "⚠️ 警告: 以下依赖脚本复制失败: ${{ steps.copy-dependencies.outputs.failed_dependencies }}"
           fi
           
           # 报告生成的文件
@@ -386,8 +394,8 @@ jobs:
           done
           
           # 报告依赖脚本状态
-          if [ -n "${{ env.FAILED_DEPENDENCIES }}" ]; then
-            echo "⚠️ 警告: 以下依赖脚本复制失败: ${{ env.FAILED_DEPENDENCIES }}"
+          if [ -n "${{ steps.copy-dependencies.outputs.failed_dependencies }}" ]; then
+            echo "⚠️ 警告: 以下依赖脚本复制失败: ${{ steps.copy-dependencies.outputs.failed_dependencies }}"
           fi
           
           # 如果有脚本失败，退出状态为非零，使工作流标记为失败
