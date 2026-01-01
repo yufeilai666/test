@@ -83,6 +83,43 @@ jobs:
         ref: epg_scripts  # 指定分支
         path: private_repo_temp  # 检出到指定目录
 
+    # 步骤6.5: 复制依赖脚本到工作目录（不提交到仓库）
+    - name: Copy dependency scripts
+      id: copy-deps
+      run: |
+        # 定义依赖脚本数组 - 只需在此处定义一次
+        dependency_scripts=(
+          # Python依赖脚本
+          "bbcable_backup_channels_dict.py"
+          "tvmao_channels_list.py"
+          # 可以添加更多依赖脚本
+          # "config.json"  # 如果需要配置文件，取消注释
+          # "another_dependency.py"
+        )
+        
+        echo "🎱 依赖脚本数量: ${#dependency_scripts[@]}"
+        
+        # 将数组转换为字符串，用换行符分隔，以便后续步骤使用
+        for dep_script in "${dependency_scripts[@]}"; do
+          echo "$dep_script"
+        done > /tmp/dependency_scripts.txt
+        
+        # 循环复制每个依赖脚本
+        for dep_script in "${dependency_scripts[@]}"; do
+          echo "📋 复制依赖脚本: $dep_script"
+          # 检查脚本在私有仓库中是否存在
+          if [ -f "private_repo_temp/$dep_script" ]; then
+            # 复制依赖脚本到当前工作目录
+            cp "private_repo_temp/$dep_script" "./$dep_script"
+            echo "✅ 已复制 $dep_script"
+          else
+            echo "⚠️ 警告: 依赖脚本 $dep_script 不存在，跳过"
+          fi
+        done
+        
+        # 输出依赖脚本数量，供后续步骤使用
+        echo "dependency_count=${#dependency_scripts[@]}" >> $GITHUB_OUTPUT
+
     # 步骤7: 定义并执行脚本数组
     - name: Define and execute scripts
       run: |
@@ -102,7 +139,6 @@ jobs:
         # 循环执行每个脚本
         for script in "${scripts[@]}"; do
           echo "::group::🛠 执行 $script"
-          # echo "===================================="
           
           # 检查脚本在私有仓库中是否存在
           if [ ! -f "private_repo_temp/$script" ]; then
@@ -158,12 +194,44 @@ jobs:
           exit 1
         fi
 
-    # 步骤8: 创建epg目录（如果不存在）
+    # 步骤8: 清理依赖脚本（确保不提交到仓库）
+    - name: Clean up dependency scripts
+      run: |
+        echo "🧹 清理依赖脚本..."
+        echo "ℹ️ 找到 ${{ steps.copy-deps.outputs.dependency_count }} 个依赖脚本需要清理"
+        
+        # 检查临时文件是否存在
+        if [ -f /tmp/dependency_scripts.txt ]; then
+          # 从临时文件读取依赖脚本列表并清理
+          while IFS= read -r dep_script || [ -n "$dep_script" ]; do
+            if [ -n "$dep_script" ] && [ -f "$dep_script" ]; then
+              rm -f "$dep_script"
+              echo "✅ 已删除 $dep_script"
+            fi
+          done < /tmp/dependency_scripts.txt
+          
+          # 清理临时文件
+          rm -f /tmp/dependency_scripts.txt
+        else
+          echo "⚠️ 未找到依赖脚本列表文件，尝试直接清理常见依赖脚本..."
+          # 如果临时文件不存在，尝试清理一些常见的依赖脚本
+          common_deps=("bbcable_backup_channels_dict.py" "tvmao_channels_list.py")
+          for dep_script in "${common_deps[@]}"; do
+            if [ -f "$dep_script" ]; then
+              rm -f "$dep_script"
+              echo "✅ 已删除 $dep_script"
+            fi
+          done
+        fi
+        
+        echo "✅ 依赖脚本清理完成"
+
+    # 步骤9: 创建epg目录（如果不存在）
     - name: Create epg directory if not exists
       run: |
         mkdir -p epg  # 创建epg目录用于存放生成的XML文件
 
-    # 步骤9: 移动XML文件到epg目录
+    # 步骤10: 移动XML文件到epg目录
     - name: Move XML files to epg directory
       run: |
         # 查找当前目录下所有XML和XML.GZ文件并移动到epg目录
@@ -171,13 +239,13 @@ jobs:
         find . -maxdepth 1 -name "*.xml" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到XML文件"
         find . -maxdepth 1 -name "*.xml.gz" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到XML.GZ文件"
 
-    # 步骤10: 配置Git用户信息
+    # 步骤11: 配置Git用户信息
     - name: Configure Git
       run: |
         git config user.name "GitHub Actions"  # 设置提交者名称
         git config user.email "actions@github.com"  # 设置提交者邮箱
 
-    # 步骤11: 获取北京时间并提交更改
+    # 步骤12: 获取北京时间并提交更改
     - name: Get Beijing time and commit changes
       run: |
         # 设置时区为北京时间并获取格式化的时间字符串
