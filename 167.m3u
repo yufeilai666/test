@@ -967,11 +967,11 @@ p3p://167.114.175.6:55331/63ec4c2d000a249be4435773000226af
 http://zb.xzxwhcb.com:9999/hls/world.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/神州新闻.png" group-title="大陆MainLand",神州新聞
 p3p://167.114.175.6:55331/655e74f7000953678a2be18968661f5f
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/chc高清电影.png" group-title="大陆MainLand",CHC高清电影
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/chc高清电影.png" group-title="大陆MainLand",CHC高清电影
 p3p://167.114.175.6:55331/63ec4caf00020428e445513c2d902fdb
 #EXTINF:-1 tvg-id="CHC家庭影院 (shanghai)" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC家庭影院.png" group-title="大陆MainLand",CHC家庭影院
 p3p://167.114.175.6:55331/63ec4d000006b5ebe4468ed8604807ac
-#EXTINF:-1 tvg-id="CHC动作电影 (shanghai)" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC动作电影.png" group-title="大陆MainLand",CHC动作电影
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC动作电影.png" group-title="大陆MainLand",CHC动作电影
 p3p://167.114.175.6:55331/63ec4d4200074d64e44790cb67ae7b20
 #EXTINF:-1 tvg-id="新视觉" tvg-name="新视觉" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/新视觉.png" group-title="大陆MainLand",新视觉
 p3p://167.114.175.6:55331/63ec4d870003e9f2e4489d7821254fbb
