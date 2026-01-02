@@ -185,7 +185,7 @@ jobs:
           "get_bbcable_epg.py"
           "get_kbro_epg.py"
           "get_celestial_epg.py"
-          "get_tvmao_epg.py"
+          # "get_tvmao_epg.py"
         )
         
         # 记录执行前的文件列表

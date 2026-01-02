@@ -131,6 +131,7 @@ jobs:
           # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
           "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本 - 当前启用
           "get_asiasatv_epg.py"
+          "get_tvmao_epg.py"
         )
         
         # 存储失败脚本的数组，用于错误报告
