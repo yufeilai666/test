@@ -855,8 +855,6 @@ http://aipyou.com:8080/live/yifatv-wxxw01.m3u8
 https://v.hystudio.cn:8088/live/yifatv-ztxw0.m3u8
 #EXTINF:-1 group-title="极速港台2",中天新聞台2
 https://v.hystudio.cn:8088/live/yifatv-ztxw02.m3u8
-#EXTINF:-1 group-title="极速港台2",中天新聞台3
-https://mfzb.wsmywlkj.top/live/xgzb-ztxw01.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台2",翡翠台
 http://r.jdshipin.com/62WM7
 #EXTINF:-1 group-title="极速港台2",翡翠台2
@@ -2871,6 +2869,564 @@ http://iptvpro.pw:35451//live/加QQ群1041749599/66669999/959.ts
 http://iptvpro.pw:35451//live/加QQ群1041749599/66669999/964.ts
 #EXTINF:-1 group-title="极速酷看",ALL TV K (KR)
 http://iptvpro.pw:35451//live/加QQ群1041749599/66669999/974.ts
+#EXTINF:-1 tvg-id="鳳凰衛視中文台" tvg-name="鳳凰衛視中文台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視中文台.png" group-title="极速龙峰",凤凰卫视中文台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-FFSAVA1X1Z
+#EXTINF:-1 tvg-id="鳳凰衛視中文台" tvg-name="鳳凰衛視中文台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視中文台.png" group-title="极速龙峰",凤凰卫视中文台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-UHYV8X9IYK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視資訊台.png" group-title="极速龙峰",凤凰卫视资讯台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-D1R5SU8YMA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視資訊台.png" group-title="极速龙峰",凤凰卫视资讯台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-Z910HF62V5
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視香港台.png" group-title="极速龙峰",凤凰卫视香港台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YKDWK5FJT8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視香港台.png" group-title="极速龙峰",凤凰卫视香港台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-GFJGURKFV0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb翡翠台.png" group-title="极速龙峰",TVB翡翠台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-0CCCD23NWP
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb翡翠台.png" group-title="极速龙峰",TVB翡翠台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-0RM33FDCCG
+#EXTINF:-1 group-title="极速龙峰",TVB无线新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YIUJN4LLXY
+#EXTINF:-1 group-title="极速龙峰",TVB无线新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-6LRK10T0OT
+#EXTINF:-1 group-title="极速龙峰",TVB Plus
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-V5YEQOEBTY
+#EXTINF:-1 group-title="极速龙峰",TVB Plus
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-C74Y7JZ0RX
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/TVB明珠台.png" group-title="极速龙峰",TVB明珠台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-FI8NE9LBD5
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/TVB明珠台.png" group-title="极速龙峰",TVB明珠台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-TZDYAL6TLP
+#EXTINF:-1 group-title="极速龙峰",香港有线新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-6MMRC41G7R
+#EXTINF:-1 group-title="极速龙峰",香港有线新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-E6OH3VDW7T
+#EXTINF:-1 group-title="极速龙峰",香港有线18台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-LQIGY9WYTD
+#EXTINF:-1 group-title="极速龙峰",香港有线18台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-0FI5ZP9FBG
+#EXTINF:-1 group-title="极速龙峰",香港有线18台(备)
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ANONCQSQY3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Now直播台.png" group-title="极速龙峰",NOW直播台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-UJNU5VJZU5
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Now直播台.png" group-title="极速龙峰",NOW直播台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-MNW2QHZ416
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新聞台.png" group-title="极速龙峰",NOW新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-G1JKZQ8GAI
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新聞台.png" group-title="极速龙峰",NOW新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-6L518JO4AI
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW财经台.png" group-title="极速龙峰",NOW财经台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-BSPAFZLOTJ
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW财经台.png" group-title="极速龙峰",NOW财经台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-FKCZL2XU6A
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速龙峰",ViuTV
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-J5YBFFOPFA
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速龙峰",ViuTV
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-T1UI5CRCNX
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/viutv6.png" group-title="极速龙峰",ViuTV6
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-H2SPB9FBCD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/viutv6.png" group-title="极速龙峰",ViuTV6
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-28EH19RBV2
+#EXTINF:-1 tvg-id="HOY國際財經台" tvg-name="HOY國際財經台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY國際財經台.png" group-title="极速龙峰",HOY国际财经台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-7SX91Z6902
+#EXTINF:-1 tvg-id="HOY國際財經台" tvg-name="HOY國際財經台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY國際財經台.png" group-title="极速龙峰",HOY国际财经台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ANLC2J47B6
+#EXTINF:-1 tvg-id="HOY資訊台" tvg-name="HOY資訊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY資訊台.png" group-title="极速龙峰",HOY资讯台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-7RYNP0ZMWS
+#EXTINF:-1 tvg-id="HOY資訊台" tvg-name="HOY資訊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY資訊台.png" group-title="极速龙峰",HOY资讯台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-8D9AWMSX3W
+#EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" group-title="极速龙峰",HOY TV
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-8RR9IHPY1B
+#EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" group-title="极速龙峰",HOY TV
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-W2QGWC825P
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/港台电视31.png" group-title="极速龙峰",港台电视31
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-AHU5CR754Z
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/港台电视31.png" group-title="极速龙峰",港台电视31
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-9HFX3GA3UQ
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/港台电视32.png" group-title="极速龙峰",港台电视32
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-PF25DV2HRO
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/港台电视32.png" group-title="极速龙峰",港台电视32
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-SZ2LBVKCQH
+#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="极速龙峰",中天新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-DX4MKQ60OD
+#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="极速龙峰",中天新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-3JBM54PJPN
+#EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森新聞台.png" group-title="极速龙峰",东森新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-XPW13QTWLI
+#EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森新聞台.png" group-title="极速龙峰",东森新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-O0XG8BL6QS
+#EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森財經新聞台.png" group-title="极速龙峰",东森财经新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-5YOUF9QFLW
+#EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森財經新聞台.png" group-title="极速龙峰",东森财经新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-3REQFLX34F
+#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视新闻台.png" group-title="极速龙峰",中视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-G0JMIB6YCX
+#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视新闻台.png" group-title="极速龙峰",中视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-AWU1G63XR2
+#EXTINF:-1 tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视新闻台.png" group-title="极速龙峰",台视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-0GN6S50KVD
+#EXTINF:-1 tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视新闻台.png" group-title="极速龙峰",台视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-MMPU6Y09MD
+#EXTINF:-1 tvg-id="三立新聞台" tvg-name="三立新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立新闻台.png" group-title="极速龙峰",三立新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-OJ7INCTSTI
+#EXTINF:-1 tvg-id="三立新聞台" tvg-name="三立新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立新闻台.png" group-title="极速龙峰",三立新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-HO8SUNN26Y
+#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视新闻台.png" group-title="极速龙峰",民视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-US7IA9R8H3
+#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视新闻台.png" group-title="极速龙峰",民视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-DPC9NZ53OX
+#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视新闻台.png" group-title="极速龙峰",民视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-J5GNOC8AGD
+#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视新闻台.png" group-title="极速龙峰",民视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-CWJ2EYOR
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/華視新聞台.png" group-title="极速龙峰",华视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-7L8J24PSK0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/華視新聞台.png" group-title="极速龙峰",华视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-MPP9NVZRGL
+#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鏡電視新聞台.png" group-title="极速龙峰",镜电视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-PRMQCG9TQ6
+#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鏡電視新聞台.png" group-title="极速龙峰",镜电视新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-3VPK4UKX5J
+#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台.png" group-title="极速龙峰",寰宇新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-WBR35H9YZJ
+#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台.png" group-title="极速龙峰",寰宇新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-6IRM3VAOIR
+#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台.png" group-title="极速龙峰",寰宇新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-SJTVMU1ZF7
+#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台.png" group-title="极速龙峰",寰宇新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-PZUTS06TV4
+#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台灣台.png" group-title="极速龙峰",寰宇新闻台湾台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-PA8B06JX72
+#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台灣台.png" group-title="极速龙峰",寰宇新闻台湾台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-CDM5H8V92N
+#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台灣台.png" group-title="极速龙峰",寰宇新闻台湾台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-AAV2QS07KF
+#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台灣台.png" group-title="极速龙峰",寰宇新闻台湾台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-E9EMFPRDNK
+#EXTINF:-1 tvg-id="TVBS新聞台" tvg-name="TVBS新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS新聞台.png" group-title="极速龙峰",TVBS新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-JCK4INVCJO
+#EXTINF:-1 tvg-id="TVBS新聞台" tvg-name="TVBS新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS新聞台.png" group-title="极速龙峰",TVBS新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-C1OBZSP0AD
+#EXTINF:-1 tvg-id="TVBS新聞台" tvg-name="TVBS新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS新聞台.png" group-title="极速龙峰",TVBS新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-IT3WJ4RQBY
+#EXTINF:-1 tvg-id="TVBS新聞台" tvg-name="TVBS新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS新聞台.png" group-title="极速龙峰",TVBS新闻台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YPIUMD4U4A
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="极速龙峰",TVBS
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YY4M327CJS
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="极速龙峰",TVBS
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-02QNG6RF7W
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="极速龙峰",TVBS
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-VDQBZEGDMW
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="极速龙峰",TVBS
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-PUKYODZ8H2
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="极速龙峰",中视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-PZ9PB0DVW6
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="极速龙峰",中视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-V1LW5JJCNA
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="极速龙峰",中视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-L5GC5NFJR6
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="极速龙峰",中视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-PFEWKOU44G
+#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="极速龙峰",台视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-01YFMK7OHI
+#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="极速龙峰",台视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-B54AGSKWTU
+#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="极速龙峰",台视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-Q2G0IF56DJ
+#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="极速龙峰",台视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-6YEPPP25O6
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="极速龙峰",民视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-UA5UO76UXN
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="极速龙峰",民视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ED9S8JOYQC
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="极速龙峰",民视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-C1F5HTFWX8
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="极速龙峰",民视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-9JAJH983FS
+#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="极速龙峰",华视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-KVSLL2DY6B
+#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="极速龙峰",华视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-O6RO2DY5KE
+#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="极速龙峰",华视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-63DI8O427D
+#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="极速龙峰",华视
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-AKZIODYBX9
+#EXTINF:-1 tvg-id="緯來體育台" tvg-name="緯來體育台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育台.png" group-title="极速龙峰",緯來體育台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ZYTMYUNLOD
+#EXTINF:-1 tvg-id="緯來日本台" tvg-name="緯來日本台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/纬来日本台.png" group-title="极速龙峰",纬来日本台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-K2TTBYSLKU
+#EXTINF:-1 tvg-id="緯來日本台" tvg-name="緯來日本台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/纬来日本台.png" group-title="极速龙峰",纬来日本台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-HS6PXJUZHR
+#EXTINF:-1 tvg-id="緯來育樂台" tvg-name="緯來育樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/纬来育乐台.png" group-title="极速龙峰",纬来育乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-XLVTPES2ZI
+#EXTINF:-1 tvg-id="緯來育樂台" tvg-name="緯來育樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/纬来育乐台.png" group-title="极速龙峰",纬来育乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-P813OA7TQQ
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" group-title="极速龙峰",DAZN 1
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-T3DBWGAZ53
+#EXTINF:-1 tvg-id="DAZN 2" tvg-name="DAZN 2" group-title="极速龙峰",DAZN 2
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-BF4A7AD9K8
+#EXTINF:-1 group-title="极速龙峰",BBC新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ACCIK1O309
+#EXTINF:-1 group-title="极速龙峰",BBC新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-N2H8N7JN7T
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="极速龙峰",中天新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-JPJ05T4CHR
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="极速龙峰",中天新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-1G111YYXJL
+#EXTINF:-1 tvg-id="中天亞洲台" tvg-name="中天亞洲台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天亞洲台.png" group-title="极速龙峰",中天亚洲台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-IIO0QHIXJS
+#EXTINF:-1 tvg-id="中天亞洲台" tvg-name="中天亞洲台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天亞洲台.png" group-title="极速龙峰",中天亚洲台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-130961FPFG
+#EXTINF:-1 tvg-id="中天亞洲台" tvg-name="中天亞洲台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天亞洲台.png" group-title="极速龙峰",中天亚洲台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-7CE636ICX5
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="极速龙峰",台视新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-30B1SKB0OA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="极速龙峰",台视新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-MZ9UNK7S9R
+#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视新闻.png" group-title="极速龙峰",华视新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-OLEDAZMXMI
+#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视新闻.png" group-title="极速龙峰",华视新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-FFZ6UCL7KW
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台视财经.png" group-title="极速龙峰",台视财经
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-9CU1O4MVJB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台视财经.png" group-title="极速龙峰",台视财经
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-PS1AE4VU35
+#EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视新闻.png" group-title="极速龙峰",中视新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-G8CXWSC4FY
+#EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视新闻.png" group-title="极速龙峰",中视新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-F2VDOC616R
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="极速龙峰",非凡新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-4FPTHJ5PNY
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="极速龙峰",非凡新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-CBBCR7GBY7
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="极速龙峰",非凡新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ACEDIXTYXM
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/镜新闻.png" group-title="极速龙峰",镜新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-N7PP10MU76
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/镜新闻.png" group-title="极速龙峰",镜新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ORJKPQS78Y
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="极速龙峰",东森新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-JLYEHHPWCK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="极速龙峰",东森新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-91FM6H9NSB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森财经新闻.png" group-title="极速龙峰",东森财经新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-OEFY4OA8L9
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森财经新闻.png" group-title="极速龙峰",东森财经新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-PPWETOE2DD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半岛新闻.png" group-title="极速龙峰",半岛新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-MIQCZR7VS6
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半岛新闻.png" group-title="极速龙峰",半岛新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-2G88SJY0ZP
+#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="极速龙峰",民视台湾台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-G2E8KT29BM
+#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="极速龙峰",民视台湾台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-XPES3RWTJR
+#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="极速龙峰",民视台湾台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-V54D5D6S3N
+#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经台.png" group-title="极速龙峰",寰宇財經台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-W2QRP4ZBHP
+#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经台.png" group-title="极速龙峰",寰宇財經台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-3I8IPZBCSA
+#EXTINF:-1 tvg-id="影迷數位電影台" tvg-name="影迷數位電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/影迷數位電影台.png" group-title="极速龙峰",影迷數位電影台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-TQKAGO9ED7
+#EXTINF:-1 tvg-id="影迷數位電影台" tvg-name="影迷數位電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/影迷數位電影台.png" group-title="极速龙峰",影迷數位電影台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-29D9UT0LCD
+#EXTINF:-1 tvg-id="amc電影台" tvg-name="amc電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/AMC电影台.png" group-title="极速龙峰",AMC电影台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-N522KQXDJC
+#EXTINF:-1 tvg-id="amc電影台" tvg-name="amc電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/AMC电影台.png" group-title="极速龙峰",AMC电影台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-D6N9SG6F0S
+#EXTINF:-1 tvg-id="靖天電影台" tvg-name="靖天電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天电影台.png" group-title="极速龙峰",靖天电影台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-OJN5U5A5NQ
+#EXTINF:-1 tvg-id="靖天電影台" tvg-name="靖天電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天电影台.png" group-title="极速龙峰",靖天电影台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ROT68FPISU
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/采昌影剧.png" group-title="极速龙峰",采昌影剧
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-4WGTLG8N5A
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/采昌影剧.png" group-title="极速龙峰",采昌影剧
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-DWVWXC3PM1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视影剧.png" group-title="极速龙峰",民视影剧
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-XA11WX3NVA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视影剧.png" group-title="极速龙峰",民视影剧
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-AXM8WW5AHZ
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="极速龙峰",龙华经典
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YEX12KEFZV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="极速龙峰",龙华经典
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-K51UZGM2SQ
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="极速龙峰",龙华经典
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ORSTUJNLSG
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="极速龙峰",中视经典
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-VRTDUBY4SM
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="极速龙峰",中视经典
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ONSJ7R2Z9Q
+#EXTINF:-1 tvg-id="台湾戲劇台" tvg-name="台湾戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="极速龙峰",台湾戏剧台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-0IBW0BQ1QC
+#EXTINF:-1 tvg-id="台湾戲劇台" tvg-name="台湾戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="极速龙峰",台湾戏剧台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-XFODPGUSMF
+#EXTINF:-1 tvg-id="靖洋戲劇台" tvg-name="靖洋戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖洋戏剧台.png" group-title="极速龙峰",靖洋戏剧台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-8UGZ5OK4PU
+#EXTINF:-1 tvg-id="靖洋戲劇台" tvg-name="靖洋戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖洋戏剧台.png" group-title="极速龙峰",靖洋戏剧台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YN1QBXYXH0
+#EXTINF:-1 tvg-id="靖天戲劇台" tvg-name="靖天戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天戏剧台.png" group-title="极速龙峰",靖天戏剧台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-93YFVE999F
+#EXTINF:-1 tvg-id="靖天戲劇台" tvg-name="靖天戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天戏剧台.png" group-title="极速龙峰",靖天戏剧台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-LK5MVXKE8S
+#EXTINF:-1 tvg-id="公視戲劇" tvg-name="公視戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公视戏剧.png" group-title="极速龙峰",公视戏剧
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-3HEYPZOBXP
+#EXTINF:-1 tvg-id="公視戲劇" tvg-name="公視戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公视戏剧.png" group-title="极速龙峰",公视戏剧
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-FPF46FCIV1
+#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="极速龙峰",龙华戏剧
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YZWXA3OHXX
+#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="极速龙峰",龙华戏剧
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-8D8C3EGUXU
+#EXTINF:-1 tvg-id="智林體育台" tvg-name="智林體育台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/智林體育台.png" group-title="极速龙峰",智林体育台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-OD6EG4V9SL
+#EXTINF:-1 tvg-id="智林體育台" tvg-name="智林體育台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/智林體育台.png" group-title="极速龙峰",智林体育台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-MHE9Z5R4RN
+#EXTINF:-1 tvg-id="時尚運動X" tvg-name="時尚運動X" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="极速龙峰",时尚运动X
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-DXLB1487AO
+#EXTINF:-1 tvg-id="時尚運動X" tvg-name="時尚運動X" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="极速龙峰",时尚运动X
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YJ4DJDQ4AD
+#EXTINF:-1 tvg-id="靖天育樂台" tvg-name="靖天育樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天育乐台.png" group-title="极速龙峰",靖天育乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-QK9UOSQ5Y4
+#EXTINF:-1 tvg-id="靖天育樂台" tvg-name="靖天育樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天育乐台.png" group-title="极速龙峰",靖天育乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-9IYD9R4MN3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯魅力.png" group-title="极速龙峰",博斯魅力
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ST6OOPGXMN
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯魅力.png" group-title="极速龙峰",博斯魅力
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-K4IL8VD3I4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯高球1.png" group-title="极速龙峰",博斯高球1
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-N7J5YP5L1S
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯高球1.png" group-title="极速龙峰",博斯高球1
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-XC5FFUX04F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯高球2.png" group-title="极速龙峰",博斯高球2
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-NIWKBXSTOK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯高球2.png" group-title="极速龙峰",博斯高球2
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-6GW34MLO3L
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯运动1.png" group-title="极速龙峰",博斯运动1
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-4NCQ1MYTWM
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯运动1.png" group-title="极速龙峰",博斯运动1
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-Y6EYCH5YRH
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯运动2.png" group-title="极速龙峰",博斯运动2
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-FHXW26R19I
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯运动2.png" group-title="极速龙峰",博斯运动2
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-Y4KIXIUCJQ
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="极速龙峰",博斯网球
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-WGJJIMYHT8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="极速龙峰",博斯网球
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-Q5X1JEYGEH
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯无限.png" group-title="极速龙峰",博斯无限
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ESHHBNAJGH
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯无限.png" group-title="极速龙峰",博斯无限
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-DWK4PWQIQY
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯无限2.png" group-title="极速龙峰",博斯无限2
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-1F0M5867JL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯无限2.png" group-title="极速龙峰",博斯无限2
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-74JM8NV3
+#EXTINF:-1 group-title="极速龙峰",TRACE SPORTS STARS
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-BS3ZUTDMT3
+#EXTINF:-1 group-title="极速龙峰",TRACE SPORTS STARS
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-M08DL8L2FS
+#EXTINF:-1 tvg-id="視納華仁紀實頻道" tvg-name="視納華仁紀實頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="极速龙峰",視納華仁紀實頻道
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-9VI28XDBZ2
+#EXTINF:-1 tvg-id="視納華仁紀實頻道" tvg-name="視納華仁紀實頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="极速龙峰",視納華仁紀實頻道
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-R0IWSU3FU4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視菁采.png" group-title="极速龙峰",中视菁采
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-P4IIS14UCD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視菁采.png" group-title="极速龙峰",中视菁采
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-DZT8VI7W13
+#EXTINF:-1 tvg-id="八大精彩台" tvg-name="八大精彩台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大精彩台.png" group-title="极速龙峰",八大精彩台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-0RQONC2MVH
+#EXTINF:-1 tvg-id="八大精彩台" tvg-name="八大精彩台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大精彩台.png" group-title="极速龙峰",八大精彩台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-GTCU94SI2T
+#EXTINF:-1 tvg-id="八大綜藝台" tvg-name="八大綜藝台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大综艺台.png" group-title="极速龙峰",八大综艺台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-3ULQ991L6I
+#EXTINF:-1 tvg-id="八大綜藝台" tvg-name="八大綜藝台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大综艺台.png" group-title="极速龙峰",八大综艺台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-Z7NMAXZJVQ
+#EXTINF:-1 tvg-id="TVBS精采台" tvg-name="TVBS精采台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS精采台.png" group-title="极速龙峰",TVBS精采台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-62U5SSPA82
+#EXTINF:-1 tvg-id="TVBS精采台" tvg-name="TVBS精采台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS精采台.png" group-title="极速龙峰",TVBS精采台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-HZ251FX60J
+#EXTINF:-1 tvg-id="TVBS歡樂台" tvg-name="TVBS歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS欢乐台.png" group-title="极速龙峰",TVBS欢乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-0BRP1QN68U
+#EXTINF:-1 tvg-id="TVBS歡樂台" tvg-name="TVBS歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS欢乐台.png" group-title="极速龙峰",TVBS欢乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-PWA1UJ4YK5
+#EXTINF:-1 tvg-id="TVBS歡樂台" tvg-name="TVBS歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS欢乐台.png" group-title="极速龙峰",TVBS欢乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-Y16S4S5KIT
+#EXTINF:-1 tvg-id="靖天歡樂台" tvg-name="靖天歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天欢乐台.png" group-title="极速龙峰",靖天欢乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YJK8TG4APA
+#EXTINF:-1 tvg-id="靖天歡樂台" tvg-name="靖天歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天欢乐台.png" group-title="极速龙峰",靖天欢乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-TGH0TRGHKQ
+#EXTINF:-1 tvg-id="靖天綜合台" tvg-name="靖天綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天综合台.png" group-title="极速龙峰",靖天综合台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-LPJ0N3M5T0
+#EXTINF:-1 tvg-id="靖天綜合台" tvg-name="靖天綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天综合台.png" group-title="极速龙峰",靖天综合台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-3P6TWKM1PM
+#EXTINF:-1 tvg-id="靖天資訊台" tvg-name="靖天資訊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天资讯台.png" group-title="极速龙峰",靖天资讯台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-2OOFJBODWG
+#EXTINF:-1 tvg-id="靖天資訊台" tvg-name="靖天資訊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天资讯台.png" group-title="极速龙峰",靖天资讯台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-FUGNGM4CLJ
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="极速龙峰",靖天卡通台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ETZYCM01KQ
+#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="极速龙峰",靖天卡通台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-F82ABSQA5I
+#EXTINF:-1 tvg-id="靖天日本台" tvg-name="靖天日本台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天日本台.png" group-title="极速龙峰",靖天日本台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-LX0HQGZOIH
+#EXTINF:-1 tvg-id="靖天日本台" tvg-name="靖天日本台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天日本台.png" group-title="极速龙峰",靖天日本台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-L4OEUD572Q
+#EXTINF:-1 tvg-id="靖洋卡通台" tvg-name="靖洋卡通台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖洋卡通台.png" group-title="极速龙峰",靖洋卡通台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-0QQROLUFBO
+#EXTINF:-1 tvg-id="靖洋卡通台" tvg-name="靖洋卡通台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖洋卡通台.png" group-title="极速龙峰",靖洋卡通台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-UL5FS51D95
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天國際台.png" group-title="极速龙峰",靖天国际台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-FYQ0WDQDLT
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天國際台.png" group-title="极速龙峰",靖天国际台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-B58VVYMHX3
+#EXTINF:-1 tvg-id="靖天映畫" tvg-name="靖天映畫" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天映畫.png" group-title="极速龙峰",靖天映画
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-1GNKGI8SWF
+#EXTINF:-1 tvg-id="靖天映畫" tvg-name="靖天映畫" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天映畫.png" group-title="极速龙峰",靖天映画
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-826PR5SLY0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/爱尔达娱乐.png" group-title="极速龙峰",爱尔达娱乐
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-WQ15IUZPCI
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/爱尔达娱乐.png" group-title="极速龙峰",爱尔达娱乐
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-UG1YV2HOYQ
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華卡通.png" group-title="极速龙峰",龙华卡通
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-SEMQT9YEH9
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華卡通.png" group-title="极速龙峰",龙华卡通
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-7ZEBLZ0004
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華日韓.png" group-title="极速龙峰",龙华日韩
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YMF1ZO1EIH
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華日韓.png" group-title="极速龙峰",龙华日韩
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-MO4U3H1K6I
+#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="极速龙峰",龙华偶像
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-LRFNPTGCYJ
+#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="极速龙峰",龙华偶像
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ODAB3CYF2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视综艺.png" group-title="极速龙峰",民视综艺
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ZJZQB11T97
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视综艺.png" group-title="极速龙峰",民视综艺
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-W37TZZML68
+#EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視第一台.png" group-title="极速龙峰",民视第一台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-EFLQVNTNGA
+#EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視第一台.png" group-title="极速龙峰",民视第一台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-8QHFVDP2PE
+#EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視第一台.png" group-title="极速龙峰",民视第一台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-N66PTDIL4Z
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="极速龙峰",民视旅游
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-C5FD7RX567
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="极速龙峰",民视旅游
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-JM1IXP5IKT
+#EXTINF:-1 tvg-id="亞洲旅遊台" tvg-name="亞洲旅遊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/亚洲旅游台.png" group-title="极速龙峰",亚洲旅游台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-7010KRDN0S
+#EXTINF:-1 tvg-id="亞洲旅遊台" tvg-name="亞洲旅遊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/亚洲旅游台.png" group-title="极速龙峰",亚洲旅游台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-EDNV3TP0FV
+#EXTINF:-1 tvg-id="客家電視台" tvg-name="客家電視台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/客家电视台.png" group-title="极速龙峰",客家电视台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-B3MZFLB2UE
+#EXTINF:-1 tvg-id="客家電視台" tvg-name="客家電視台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/客家电视台.png" group-title="极速龙峰",客家电视台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-5TEMXSAJC4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱放动漫.png" group-title="极速龙峰",爱放动漫
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-QFW4WMB189
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱放动漫.png" group-title="极速龙峰",爱放动漫
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-YEYDLALGX3
+#EXTINF:-1 tvg-id="古典音樂台" tvg-name="古典音樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/古典音乐台.png" group-title="极速龙峰",古典音乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ZQOI39L23A
+#EXTINF:-1 tvg-id="古典音樂台" tvg-name="古典音樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/古典音乐台.png" group-title="极速龙峰",古典音乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-KJD25MV220
+#EXTINF:-1 tvg-id="豬哥亮歌廳秀" tvg-name="豬哥亮歌廳秀" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/猪哥亮歌厅秀.png" group-title="极速龙峰",猪哥亮歌厅秀
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-MDVREWTN27
+#EXTINF:-1 tvg-id="豬哥亮歌廳秀" tvg-name="豬哥亮歌廳秀" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/猪哥亮歌厅秀.png" group-title="极速龙峰",猪哥亮歌厅秀
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-8GPJ9ZT5YZ
+#EXTINF:-1 tvg-id="Smart知識台" tvg-name="Smart知識台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SMART知识台.png" group-title="极速龙峰",Smart知识台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-B2EYVW1BJ4
+#EXTINF:-1 tvg-id="Smart知識台" tvg-name="Smart知識台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SMART知识台.png" group-title="极速龙峰",Smart知识台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-7INF9MKG3G
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/达文西频道.png" group-title="极速龙峰",达文西频道
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-SMUU8916YO
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/达文西频道.png" group-title="极速龙峰",达文西频道
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-O3XVLMHRIK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/阿里郎.png" group-title="极速龙峰",阿里郎
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-W9J3WJT3VR
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/阿里郎.png" group-title="极速龙峰",阿里郎
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ODW2NWUR2R
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/生活英语台.png" group-title="极速龙峰",生活英语台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-RA3KDLE3V3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/生活英语台.png" group-title="极速龙峰",生活英语台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-TV17W1O31R
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/國際財經.png" group-title="极速龙峰",国际财经
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-DCADYMPCX8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/國際財經.png" group-title="极速龙峰",国际财经
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-D59NA1QXI6
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/美国之音.png" group-title="极速龙峰",美国之音
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-Z1CO350GAI
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/美国之音.png" group-title="极速龙峰",美国之音
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-1TPN3LTXAW
+#EXTINF:-1 tvg-id="好消息" tvg-name="好消息" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/好消息.png" group-title="极速龙峰",好消息
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-XBVJDJZMPL
+#EXTINF:-1 tvg-id="好消息" tvg-name="好消息" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/好消息.png" group-title="极速龙峰",好消息
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-2Y2CRFCNK4
+#EXTINF:-1 tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好消息2台.png" group-title="极速龙峰",好消息2台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-QDOW02PKOB
+#EXTINF:-1 tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好消息2台.png" group-title="极速龙峰",好消息2台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-V9D1IXRUN1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/非凡商業.png" group-title="极速龙峰",非凡商业
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-H4NSQCUN2O
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/非凡商業.png" group-title="极速龙峰",非凡商业
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-6OVFK74T6Y
+#EXTINF:-1 tvg-id="國會頻道1" tvg-name="國會頻道1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道1.png" group-title="极速龙峰",国会频道1
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-1R48VR60ZN
+#EXTINF:-1 tvg-id="國會頻道1" tvg-name="國會頻道1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道1.png" group-title="极速龙峰",国会频道1
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-GGWWB9W5MT
+#EXTINF:-1 tvg-id="國會頻道2" tvg-name="國會頻道2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道2.png" group-title="极速龙峰",国会频道2
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-NLHGFKXFC1
+#EXTINF:-1 tvg-id="國會頻道2" tvg-name="國會頻道2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道2.png" group-title="极速龙峰",国会频道2
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-2SRUXI3AOB
+#EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="极速龙峰",TRACE URBAN
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-F59KBBKAVD
+#EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="极速龙峰",TRACE URBAN
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-CHL20MXTQS
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="极速龙峰",MEZZO LIVE
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-MQCB0TCXTS
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="极速龙峰",MEZZO LIVE
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-S38PNLRKDZ
+#EXTINF:-1 tvg-id="韓國娛樂台" tvg-name="韓國娛樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/韩国娱乐台.png" group-title="极速龙峰",韩国娱乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-7CG4FAA1PA
+#EXTINF:-1 tvg-id="韓國娛樂台" tvg-name="韓國娛樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/韩国娱乐台.png" group-title="极速龙峰",韩国娱乐台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-NZHTE2BJO9
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/GINXTV.png" group-title="极速龙峰",GinxTV
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-UV8DGQUAPQ
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/GINXTV.png" group-title="极速龙峰",GinxTV
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-3RT0JCTQRF
+#EXTINF:-1 group-title="极速龙峰",香港有线18台(备)
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-ZC29Z45TGK
+#EXTINF:-1 tvg-id="三立台灣台" tvg-name="三立台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立台灣台.png" group-title="极速龙峰",三立台湾台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-EA4GQYXXWW
+#EXTINF:-1 tvg-id="三立台灣台" tvg-name="三立台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立台灣台.png" group-title="极速龙峰",三立台湾台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-BUMBXYHPEC
+#EXTINF:-1 tvg-id="愛爾達體育1台" tvg-name="愛爾達體育1台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育1台.png" group-title="极速龙峰",爱尔达体育1台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-T4RD1ETAYN
+#EXTINF:-1 tvg-id="愛爾達體育1台" tvg-name="愛爾達體育1台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育1台.png" group-title="极速龙峰",爱尔达体育1台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-M27VNXVECZ
+#EXTINF:-1 tvg-id="愛爾達體育2台" tvg-name="愛爾達體育2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛爾達體育2台.png" group-title="极速龙峰",爱尔达体育2台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-F6BR9J6GBR
+#EXTINF:-1 tvg-id="愛爾達體育2台" tvg-name="愛爾達體育2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛爾達體育2台.png" group-title="极速龙峰",爱尔达体育2台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-1EVEUZDO6X
+#EXTINF:-1 tvg-id="愛爾達體育3台" tvg-name="愛爾達體育3台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育3台.png" group-title="极速龙峰",爱尔达体育3台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-JVAS0UI0A0
+#EXTINF:-1 tvg-id="愛爾達體育3台" tvg-name="愛爾達體育3台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育3台.png" group-title="极速龙峰",爱尔达体育3台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-7UTEXASODC
+#EXTINF:-1 tvg-id="愛爾達體育4台" tvg-name="愛爾達體育4台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛爾達體育4台.png" group-title="极速龙峰",爱尔达体育4台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-94JK66YVIU
+#EXTINF:-1 tvg-id="愛爾達體育4台" tvg-name="愛爾達體育4台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛爾達體育4台.png" group-title="极速龙峰",爱尔达体育4台
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-XI7298W1TU
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好萊塢電影.png" group-title="极速龙峰",好莱坞电影
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-HXUJ6D22F6
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好萊塢電影.png" group-title="极速龙峰",好莱坞电影
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-T4SEVY27KX
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/FOX新闻.png" group-title="极速龙峰",FOX新聞
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-O8GFM4PG5C
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/FOX新闻.png" group-title="极速龙峰",FOX新聞
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-TXZYF9AF4O
+#EXTINF:-1 group-title="极速龙峰",CNN新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-TT1ZJ811PY
+#EXTINF:-1 group-title="极速龙峰",CNN新闻
+http://154.222.29.198/龙峰TV.php?id=龙峰TV-05ROPVY337
 #EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視第一台.png" group-title="四季台湾4",民視第一台
 http://211.23.125.95:50007/4gtv-4gtv003/index.m3u8?proxy=true
 #EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="四季台湾4",民視台灣台
@@ -16073,64 +16629,6 @@ http://tv.ximix.us/yy/1354926735
 http://tv.ximix.us/yy/1382735566
 #EXTINF:-1 group-title="YY轮播",带你领略四季的变化
 http://tv.ximix.us/yy/1354930816
-#EXTINF:-1 group-title="爱奇艺",1905电影网A
-http://xxwx.yoesun.com/xxw/1905电影网.php?id=1905a
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="爱奇艺",重温经典
-https://gdcucc.v1.mk/gdcucc/cwjd.m3u8
-#EXTINF:-1 group-title="爱奇艺",搜狐剧场
-https://hdl-vip-ws.qf.56.com/live/lc_11730.flv
-#EXTINF:-1 group-title="爱奇艺",星光电影
-http://push-rtmp-hs-spe-f5.douyincdn.com/live/zxcvbnm9852.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/家庭剧场.png" group-title="爱奇艺",家庭剧场
-http://gdctyuncdnct.inter.ptqy.gitv.tv:80/tslive/c54_fast_877_720P_t10/c54_fast_877_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",怀旧年代
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c57_fast_883_720P_t10/c57_fast_883_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",都市生活
-http://bscloudcdnct.inter.ptqy.gitv.tv:80/tslive/c56_fast_878_720P_t10/c56_fast_878_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",传奇剧场
-http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c54_fast_1052_720P_t10/c54_fast_1052_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",警匪悬疑
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c58_fast_880_720P_t10/c58_fast_880_720P_t10.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/古装剧场.png" group-title="爱奇艺",古装剧场
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c55_fast_879_720P_t10/c55_fast_879_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",抗战剧场
-http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c54_fast_884_720P_t10/c54_fast_884_720P_t10.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/谍战剧场.png" group-title="爱奇艺",谍战剧场
-http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c57_fast_882_720P_t10/c57_fast_882_720P_t10.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/欢乐剧场.png" group-title="爱奇艺",欢乐剧场
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c56_fast_951_720P_t10/c56_fast_951_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",经典老剧
-http://gdctyuncdnct.inter.ptqy.gitv.tv:80/tslive/c55_fast_1051_720P_t10/c55_fast_1051_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",乡村剧场
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c59_fast_1050_720P_t10/c59_fast_1050_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",电影大片
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c57_fast_738_720P_t10/c57_fast_738_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",爆笑综艺
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c57_fast_954_720P_t10/c57_fast_954_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",智勇闯关
-http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1027_720P_t10/c60_fast_1027_720P_t10.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/相声小品.png" group-title="爱奇艺",相声小品
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c59_fast_1044_720P_t10/c59_fast_1044_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",中国通史
-http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1029_720P_t10/c60_fast_1029_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",世界历史
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1026_720P_t10/c60_fast_1026_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",传奇故事
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1037_720P_t10/c60_fast_1037_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",经典传奇
-http://gdctyuncdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1036_720P_t10/c60_fast_1036_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",纪实档案
-http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1034_720P_t10/c60_fast_1034_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",第三调解室
-http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1033_720P_t10/c60_fast_1033_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",金牌调解
-http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c59_fast_1039_720P_t10/c59_fast_1039_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",养生堂
-http://gdctyuncdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1032_720P_t10/c60_fast_1032_720P_t10.m3u8
-#EXTINF:-1 group-title="爱奇艺",健康大问诊
-http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1035_720P_t10/c60_fast_1035_720P_t10.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/健康养生.png" group-title="爱奇艺",健康养生
-http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c59_fast_1046_720P_t10/c59_fast_1046_720P_t10.m3u8
 #EXTINF:-1 group-title="韩国女团",女团直播1
 http://lxajh.top/tv/douyu.php?id=40471
 #EXTINF:-1 group-title="韩国女团",女团直播2
