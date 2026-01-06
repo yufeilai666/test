@@ -95,7 +95,7 @@ p3p://167.114.175.6:55331/655f8ccc0007d2578e70f934113a2428
 p3p://167.114.175.6:55331/5fffbf860003807cedf4e1016c3c3ed2
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/凤凰卫视.png" group-title="香港HK",凤凰卫视
 p3p://167.114.175.6:55331/602c73500002f4d29c90fa1270f21160
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="香港HK",凤凰香港
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="香港HK",凤凰香港
 p3p://167.114.175.6:55331/5fe0b82c000cac9774c17f262e43314d
 #EXTINF:-1 group-title="香港HK",Channel V
 p3p://167.114.175.6:55331/657da67d0006060a0404d5987d1853db
@@ -145,7 +145,7 @@ p3p://167.114.175.6:55331/63375cce0008451773313a26199f3191
 p3p://167.114.175.6:55331/65ac3b2b000a5828b9f89b6271881f96
 #EXTINF:-1 tvg-id="Now Sports 681" tvg-name="Now Sports 681" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Now Sports 681.png" group-title="香港HK",Now Sports 681
 p3p://167.114.175.6:55331/66f1356e0005d8d3ecca2d7233da5500
-#EXTINF:-1 tvg-id="香港衛視" tvg-name="香港衛視" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/香港衛視.png" group-title="香港HK",香港卫视
+#EXTINF:-1 tvg-id="香港衛視" tvg-name="香港衛視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/香港卫视.png" group-title="香港HK",香港卫视
 p3p://167.114.175.6:55331/655f9ff5000f136f8ebbd33f2f097512
 #EXTINF:-1 group-title="香港HK",NOW ZooMoo
 p3p://167.114.175.6:55331/65679bc200084412adeb40284be664e6
@@ -199,7 +199,7 @@ p3p://167.114.175.6:55331/644ed21e000dd9a7651cc03a565575f7
 p3p://167.114.175.6:55331/60b977ed000ba538c36458471a9d6772
 #EXTINF:-1 group-title="香港HK",澳视葡语
 p3p://167.114.175.6:55331/644ece91000b801a650ee0e442bd0b87
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/星空衛視.png" group-title="香港HK",星空卫视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/星空卫视.png" group-title="香港HK",星空卫视
 p3p://167.114.175.6:55331/64ee40d1000cfcc5d3e2330305817be2
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CN卡通(粤).png" group-title="香港HK",CN卡通(粤)
 p3p://167.114.175.6:55331/648353bb0006d4d93236315a766b692a
@@ -707,7 +707,7 @@ p3p://167.114.175.6:55331/61468bd70005123dea7373f226636dba
 p3p://167.114.175.6:55331/621dbc3b00051ea5272370aa6e685347
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台视财经.png" group-title="新闻News",台视财经
 p3p://167.114.175.6:55331/6223b571000a13023e78ece5030b5b05
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="新闻News",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="新闻News",CCTV4
 p3p://167.114.175.6:55331/61244d9c0006885d64b1b7591f6c12a0
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="新闻News",CCTV4美洲
 p3p://167.114.175.6:55331/602f0bd2000b47fda6b4b7f96224105e
@@ -811,7 +811,7 @@ p3p://167.114.175.6:55331/6506d285000b06bd33dad67a652e2bfd
 p3p://167.114.175.6:55331/648353bb0006d4d93236315a766b692a
 #EXTINF:-1 group-title="少儿卡通",Animax HK
 p3p://167.114.175.6:55331/6506d1a00000a99a33d7555a4b747caa
-#EXTINF:-1 tvg-id="金鹰卡通 (shanghai)" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="少儿卡通",金鹰卡通
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="少儿卡通",金鹰卡通
 p3p://167.114.175.6:55331/63ec4f9b000752c3e450bc6d341d5c72
 #EXTINF:-1 tvg-id="嘉佳卡通 (shanghai)" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="少儿卡通",嘉佳卡通
 p3p://167.114.175.6:55331/63ec50040009cf8ae452573540ac6abe
@@ -967,11 +967,11 @@ p3p://167.114.175.6:55331/63ec4c2d000a249be4435773000226af
 http://zb.xzxwhcb.com:9999/hls/world.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/神州新闻.png" group-title="大陆MainLand",神州新聞
 p3p://167.114.175.6:55331/655e74f7000953678a2be18968661f5f
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/chc高清电影.png" group-title="大陆MainLand",CHC高清电影
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/chc高清电影.png" group-title="大陆MainLand",CHC高清电影
 p3p://167.114.175.6:55331/63ec4caf00020428e445513c2d902fdb
 #EXTINF:-1 tvg-id="CHC家庭影院 (shanghai)" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC家庭影院.png" group-title="大陆MainLand",CHC家庭影院
 p3p://167.114.175.6:55331/63ec4d000006b5ebe4468ed8604807ac
-#EXTINF:-1 tvg-id="CHC动作电影 (shanghai)" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC动作电影.png" group-title="大陆MainLand",CHC动作电影
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC动作电影.png" group-title="大陆MainLand",CHC动作电影
 p3p://167.114.175.6:55331/63ec4d4200074d64e44790cb67ae7b20
 #EXTINF:-1 tvg-id="新视觉" tvg-name="新视觉" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/新视觉.png" group-title="大陆MainLand",新视觉
 p3p://167.114.175.6:55331/63ec4d870003e9f2e4489d7821254fbb
@@ -991,7 +991,7 @@ http://61.221.215.25:8800/hls/49/index.m3u8
 p3p://167.114.175.6:55331/63ec4ef2000a1b0be44e290412a90692
 #EXTINF:-1 group-title="大陆MainLand",戏曲名段
 p3p://167.114.175.6:55331/63ec4f4e0008eb5de44f9010114b61da
-#EXTINF:-1 tvg-id="金鹰卡通 (shanghai)" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="大陆MainLand",金鹰卡通
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="大陆MainLand",金鹰卡通
 p3p://167.114.175.6:55331/63ec4f9b000752c3e450bc6d341d5c72
 #EXTINF:-1 tvg-id="嘉佳卡通 (shanghai)" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="大陆MainLand",嘉佳卡通
 p3p://167.114.175.6:55331/63ec50040009cf8ae452573540ac6abe
@@ -1351,7 +1351,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 https://ott-linear-channels.stingray.com/v1/master/734895816ccb1e836f8c1e81f772244d9be0077c/128/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国电影.png" group-title="海外中文",中国电影
 p3p://167.114.175.6:55331/63fe69a800089af82b062bc65bb57f67
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="海外中文",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="海外中文",CCTV4
 p3p://167.114.175.6:55331/61244d9c0006885d64b1b7591f6c12a0
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="海外中文",CCTV4美洲
 p3p://167.114.175.6:55331/602f0bd2000b47fda6b4b7f96224105e

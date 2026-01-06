@@ -51,7 +51,7 @@ https://zhong9527.dpdns.org/zhongtian66666.m3u8
 http://bxtv.3a.ink/api.php?id=ztxw#http://bxtv.3a.ink/mytv/fp2.php?id=ztxw
 #EXTINF:-1 group-title="刘公子港湾",香港开频道
 https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/星空衛視.png" group-title="刘公子港湾",星空卫视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/星空卫视.png" group-title="刘公子港湾",星空卫视
 http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
 #EXTINF:-1 group-title="刘公子港湾",星空国际
 http://iot-mqqt.111yao.cn:8080/live/diyp_starmovies.m3u8
@@ -157,7 +157,7 @@ http://38.64.72.148/hls/modn/list/4002/chunklist0.m3u8
 http://38.64.72.148/hls/modn/list/4003/chunklist0.m3u8
 #EXTINF:-1 group-title="刘公子港湾",面包
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-id="香港衛視" tvg-name="香港衛視" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/香港衛視.png" group-title="刘公子港湾",香港卫视
+#EXTINF:-1 tvg-id="香港衛視" tvg-name="香港衛視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/香港卫视.png" group-title="刘公子港湾",香港卫视
 rtmp://zhibo.hkstv.tv/livestream/mutfysrq#http://www.hkstv.tv/player/flash/SewisePlayer.swf?autoStart=true&programId=mutfysrq&type=m3u8&serverPath=http://lives.hkstv.tv:5080/api/player/&server=live&volume=1&url=live://lives.hkstv.tv:5080/mutfysrq/hls#http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8#http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0#http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱自然.png" group-title="刘公子港湾",爱自然
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
@@ -167,7 +167,7 @@ http://120.76.248.139/live/bfgd/4200000201.m3u8
 http://120.76.248.139/live/bfgd/4200000061.m3u8
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="🛰央卫视IPV4",CCTV3
 http://120.76.248.139/live/bfgd/4200000062.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="🛰央卫视IPV4",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="🛰央卫视IPV4",CCTV4
 http://120.76.248.139/live/bfgd/4200000063.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="🛰央卫视IPV4",CCTV5
 http://120.76.248.139/live/bfgd/4200000064.m3u8
@@ -1569,7 +1569,7 @@ http://stream5.jlntv.cn/lh/sd/live.m3u8#http://stream5.jlntv.cn/lh/sd/live.m3u8?
 http://stream5.jlntv.cn/hn/sd/live.m3u8?zjild#http://stream5.jlntv.cn/hn/sd/live.m3u8
 #EXTINF:-1 group-title="📡吉林频道",通化县电视台
 http://stream5.jlntv.cn/thx/sd/live.m3u8?zjild#http://stream5.jlntv.cn/thx/sd/live.m3u8
-#EXTINF:-1 tvg-id="延边卫视 (shanghai)" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/延边卫视.png" group-title="📡吉林频道",延边卫视
+#EXTINF:-1 tvg-id="延边卫视" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/延边卫视.png" group-title="📡吉林频道",延边卫视
 http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8#http://live.ybtvyun.com/video/s10006-b316b550fd1f/index.m3u8#http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8?zjild#http://live.ybtvyun.com/video/s10006-90fe76c52091/index.m3u8#http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8?zjild#http://live.ybtvyun.com/video/s10006-28bc40431485/index.m3u8#http://39.135.133.181:80/wh7f454c46tw2003802006_-1607821772/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8?icpid=88888888&RTS=1714041847&from=23&hms_devid=1250&online=1714041847&vqe=3#http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226516/index.m3u8
 #EXTINF:-1 group-title="📡吉林频道",延边朝鲜语综合频道
 http://live.ybtvyun.com/video/s10006-b571c289a478/index.m3u8?zjild#http://live.ybtvyun.com/video/s10016-19a16c47eb99/index.m3u8#http://live.ybtvyun.com/video/s10016-19a16c47eb99/index.m3u8?zjild#http://live.ybtvyun.com/video/s10006-b571c289a478/index.m3u8
