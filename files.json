@@ -45,10 +45,8 @@
     "https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo_fanmingming.json"
   ],
   "epg_url": {
-    "51zmt_all.xml.gz": "http://epg.51zmt.top:8000/e.xml.gz",
-    "51zmt_yangwei.xml.gz": "http://epg.51zmt.top:8000/cc.xml.gz",
-    "51zmt_difang.xml.gz": "http://epg.51zmt.top:8000/difang.xml.gz",
-    "51zmt_gat.xml.gz": "http://epg.51zmt.top:8000/gat.xml.gz",
+    "51zmt_all.xml.gz": "http://epg.51zmt.top:8000/e1.xml.gz",
+    "51zmt_gat.xml.gz": "http://epg1.51zmt.top:8000/e2.xml.gz",
     "erw_all.xml.gz": "http://e.erw.cc/e.xml.gz",
     "epghebeiiptv.xml": "https://epg.mb6.top/heiptv.xml",
     "judy_4gtv.xml": "https://raw.githubusercontent.com/myhomebox/EPG/main/output/4g.xml",
