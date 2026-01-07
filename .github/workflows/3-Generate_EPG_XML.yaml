@@ -246,20 +246,49 @@ jobs:
         git config user.name "GitHub Actions"  # 设置提交者名称
         git config user.email "actions@github.com"  # 设置提交者邮箱
 
-    # 步骤12: 获取北京时间并提交更改
+    # 步骤12: 拉取最新远程更改（防止推送冲突）
+    - name: Pull latest changes from remote
+      run: |
+        echo "🔄 拉取远程仓库最新更改..."
+        # 尝试拉取最新更改，使用rebase策略避免合并提交
+        git pull origin ${{ github.ref_name }} --rebase --autostash || {
+          echo "⚠️ 拉取失败，可能没有新的更改，继续执行..."
+        }
+        echo "✅ 已同步到最新远程状态"
+
+    # 步骤13: 获取北京时间并提交更改
     - name: Get Beijing time and commit changes
       run: |
         # 设置时区为北京时间并获取格式化的时间字符串
         BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
+        
         # 添加epg目录下的所有更改到暂存区
         git add epg/
+        
         # 检查是否有实际更改需要提交
         if git diff --staged --quiet; then
           echo "ℹ️ 没有更改可提交"
         else
           # 提交更改，包含北京时间信息
           git commit -m "🔄 Download EPG数据 [北京时间: $BEIJING_TIME]"
-          # 推送更改到远程仓库
-          git push
-          echo "✅ Push successful"
+          
+          # 尝试推送更改到远程仓库
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            echo "ℹ️ 尝试推送更改 (尝试 $((RETRY_COUNT+1))/$MAX_RETRIES)..."
+            if git push; then
+              echo "✅ Push successful"
+              break
+            else
+              RETRY_COUNT=$((RETRY_COUNT+1))
+              if [ $RETRY_COUNT -eq $MAX_RETRIES ]; then
+                echo "❌ 推送失败，已达到最大重试次数"
+                exit 1
+              fi
+              echo "🔄 推送失败，重新拉取最新更改并重试..."
+              git pull origin ${{ github.ref_name }} --rebase --autostash
+            fi
+          done
         fi
