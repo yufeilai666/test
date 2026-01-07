@@ -13,7 +13,7 @@ http://43.251.226.89:8080/play/5.m3u8
 http://43.251.226.89:8080/play/6.m3u8
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="央卫",CCTV3
 http://43.251.226.89:8080/play/7.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="央卫",CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="央卫",CCTV4
 http://43.251.226.89:8080/play/8.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="央卫",CCTV5
 http://43.251.226.89:8080/play/9.m3u8
@@ -109,7 +109,7 @@ http://43.251.226.89:8080/play/53.m3u8
 http://43.251.226.89:8080/play/54.m3u8
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="小央",CCTV2
 http://43.251.226.89:8080/play/55.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="小央",CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="小央",CCTV4
 http://43.251.226.89:8080/play/56.m3u8
 #EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="小央",CCTV7
 http://43.251.226.89:8080/play/57.m3u8
@@ -669,7 +669,7 @@ http://43.251.226.89:8080/play/333.m3u8
 http://43.251.226.89:8080/play/334.m3u8
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="揭阳",CCTV3
 http://43.251.226.89:8080/play/335.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="揭阳",CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="揭阳",CCTV4
 http://43.251.226.89:8080/play/336.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="揭阳",CCTV5
 http://43.251.226.89:8080/play/337.m3u8
@@ -769,7 +769,7 @@ http://43.251.226.89:8080/play/383.m3u8
 http://43.251.226.89:8080/play/384.m3u8
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="KDS",CCTV3
 http://43.251.226.89:8080/play/385.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="KDS",CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="KDS",CCTV4
 http://43.251.226.89:8080/play/386.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="KDS",CCTV5
 http://43.251.226.89:8080/play/387.m3u8
@@ -1659,7 +1659,7 @@ http://43.251.226.89:8080/play/828.m3u8
 http://43.251.226.89:8080/play/829.m3u8
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="酒店",CCTV3
 http://43.251.226.89:8080/play/830.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="酒店",CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="酒店",CCTV4
 http://43.251.226.89:8080/play/831.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="酒店",CCTV5
 http://43.251.226.89:8080/play/832.m3u8
@@ -1831,7 +1831,7 @@ http://43.251.226.89:8080/play/914.m3u8
 http://43.251.226.89:8080/play/915.m3u8
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="粤广",CCTV3
 http://43.251.226.89:8080/play/916.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="粤广",CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="粤广",CCTV4
 http://43.251.226.89:8080/play/917.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="粤广",CCTV5
 http://43.251.226.89:8080/play/918.m3u8
@@ -1911,7 +1911,7 @@ http://43.251.226.89:8080/play/954.m3u8
 http://43.251.226.89:8080/play/955.m3u8
 #EXTINF:-1 tvg-id="动漫秀场 (shanghai)" tvg-name="动漫秀场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/动漫秀场.png" group-title="上海",动漫秀场
 http://43.251.226.89:8080/play/956.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/哈哈炫动.png" group-title="上海",哈哈炫动
+#EXTINF:-1 tvg-id="哈哈炫动 (shanghai)" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/哈哈炫动.png" group-title="上海",哈哈炫动
 http://43.251.226.89:8080/play/957.m3u8
 #EXTINF:-1 tvg-id="法治天地 (shanghai)" tvg-name="法治天地" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/法治天地.png" group-title="上海",法治天地
 http://43.251.226.89:8080/play/958.m3u8
@@ -1937,7 +1937,7 @@ http://43.251.226.89:8080/play/967.m3u8
 http://43.251.226.89:8080/play/968.m3u8
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="上海",CCTV3
 http://43.251.226.89:8080/play/969.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="上海",CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="上海",CCTV4
 http://43.251.226.89:8080/play/970.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="上海",CCTV5
 http://43.251.226.89:8080/play/971.m3u8
@@ -2091,7 +2091,7 @@ http://43.251.226.89:8080/play/1044.m3u8
 http://43.251.226.89:8080/play/1045.m3u8
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="广西",CCTV3
 http://43.251.226.89:8080/play/1046.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="广西",CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="广西",CCTV4
 http://43.251.226.89:8080/play/1047.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="广西",CCTV5
 http://43.251.226.89:8080/play/1048.m3u8

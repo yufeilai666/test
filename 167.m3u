@@ -707,7 +707,7 @@ p3p://167.114.175.6:55331/61468bd70005123dea7373f226636dba
 p3p://167.114.175.6:55331/621dbc3b00051ea5272370aa6e685347
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台视财经.png" group-title="新闻News",台视财经
 p3p://167.114.175.6:55331/6223b571000a13023e78ece5030b5b05
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="新闻News",CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="新闻News",CCTV4
 p3p://167.114.175.6:55331/61244d9c0006885d64b1b7591f6c12a0
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="新闻News",CCTV4美洲
 p3p://167.114.175.6:55331/602f0bd2000b47fda6b4b7f96224105e
@@ -1351,7 +1351,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 https://ott-linear-channels.stingray.com/v1/master/734895816ccb1e836f8c1e81f772244d9be0077c/128/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国电影.png" group-title="海外中文",中国电影
 p3p://167.114.175.6:55331/63fe69a800089af82b062bc65bb57f67
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="海外中文",CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="海外中文",CCTV4
 p3p://167.114.175.6:55331/61244d9c0006885d64b1b7591f6c12a0
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="海外中文",CCTV4美洲
 p3p://167.114.175.6:55331/602f0bd2000b47fda6b4b7f96224105e
