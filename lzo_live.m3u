@@ -243,23 +243,23 @@ http://120.76.248.139/live/bfgd/4200000095.m3u8
 http://php.jdshipin.com:8880/iptv.php?id=hnds
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南娱乐频道.png" group-title="📡湖南频道",湖南娱乐频道
 http://php.jdshipin.com:8880/iptv.php?id=hnyl
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南经视.png" group-title="📡湖南频道",湖南经视
+#EXTINF:-1 tvg-id="湖南经视" tvg-name="湖南经视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南经视.png" group-title="📡湖南频道",湖南经视
 http://php.jdshipin.com:8880/iptv.php?id=hnjs
 #EXTINF:-1 group-title="📡湖南频道",湘潭新闻频道
 http://live.hnxttv.com:9601/live/xwzh/800K/tzwj_video.m3u8?zhund#http://live.hnxttv.com:9601/live/xwzh/800K/tzwj_video.m3u8
 #EXTINF:-1 group-title="📡湖南频道",湘潭公共频道
 http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8#http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8?auth=654837809071524@615@2E9A5FD0B225B012E3178551CF3754A8&BVUUID=C236454D-5355-2F5F-FA96-1887C72E55CE
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南爱晚.png" group-title="📡湖南频道",湖南爱晚
+#EXTINF:-1 tvg-id="湖南爱晚" tvg-name="湖南爱晚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南爱晚.png" group-title="📡湖南频道",湖南爱晚
 http://php.jdshipin.com:8880/iptv.php?id=hngg
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南电影.png" group-title="📡湖南频道",湖南电影
+#EXTINF:-1 tvg-id="湖南电影" tvg-name="湖南电影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南电影.png" group-title="📡湖南频道",湖南电影
 http://php.jdshipin.com:8880/iptv.php?id=hndy
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南国际.png" group-title="📡湖南频道",湖南国际
 http://php.jdshipin.com:8880/iptv.php?id=hngj
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南经视.png" group-title="📡湖南频道",湖南经视
+#EXTINF:-1 tvg-id="湖南经视" tvg-name="湖南经视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南经视.png" group-title="📡湖南频道",湖南经视
 http://php.jdshipin.com:8880/iptv.php?id=hnjs
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南爱晚.png" group-title="📡湖南频道",湖南爱晚
+#EXTINF:-1 tvg-id="湖南爱晚" tvg-name="湖南爱晚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南爱晚.png" group-title="📡湖南频道",湖南爱晚
 http://php.jdshipin.com:8880/iptv.php?id=hngg
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南娱乐.png" group-title="📡湖南频道",湖南娱乐
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-name="湖南娱乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南娱乐.png" group-title="📡湖南频道",湖南娱乐
 http://php.jdshipin.com:8880/iptv.php?id=hnyl
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南国际.png" group-title="📡湖南频道",湖南国际
 http://php.jdshipin.com:8880/iptv.php?id=hngj
@@ -845,7 +845,7 @@ http://tvfile.swrmt.com:80/nmip-media/channellive/channel100064/playlist.m3u8
 https://play.wtqrm.com:443/qtwz/wtqzb.m3u8?auth_key=1663323505-0-0-01843919c015a267038d6e00fd1e1519
 #EXTINF:-1 group-title="📡四川频道",岳池新闻综合
 http://liveyc.cmc.yuechirmt.cn:80/live/yctv.m3u8?auth_key=1714112398-0-0-d9a6bd74623c01c1c2f9576fe51e8b7b
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川乡村.png" group-title="📡四川频道",四川乡村
+#EXTINF:-1 tvg-id="四川乡村" tvg-name="四川乡村" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川乡村.png" group-title="📡四川频道",四川乡村
 http://api2.52tb.xyz/info?id=606&token=20230405tndmhg
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川影视.png" group-title="📡四川频道",四川影视
 http://api2.52tb.xyz/info?id=601&token=20230405tndmhg
@@ -887,7 +887,7 @@ http://live.cztv.cc:85/live/xwpd.m3u8
 http://live.cms.anhuinews.com/video/s10003-lbtv/index.m3u8?zanhd
 #EXTINF:-1 group-title="📡安徽频道",宿州新闻综合
 http://live.ahsz.tv/video/s10001-szzh/index.m3u8?zanhd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/安徽影视.webp" group-title="📡安徽频道",安徽影视
+#EXTINF:-1 tvg-id="安徽影视" tvg-name="安徽影视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/安徽影视.webp" group-title="📡安徽频道",安徽影视
 http://snapshot-live-ht.ahtv.cn/atvrtmp/143_q_live161829369249612.m3u8
 #EXTINF:-1 group-title="📡安徽频道",农业科教
 http://snapshot-live-ht.ahtv.cn/atvrtmp/143_q_live161829358013848.m3u8
@@ -1351,15 +1351,15 @@ http://222.179.155.21:1935/ch1.m3u8#http://222.179.155.21:1935/ch1.m3u8?zzhongqd
 http://222.179.155.21:1935/ch0.m3u8
 #EXTINF:-1 group-title="📡重庆频道",江津文化旅游
 http://222.179.155.21:1935/ch2.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/黑龙江文体.png" group-title="📡黑龙江台",黑龙江文体
+#EXTINF:-1 tvg-id="黑龙江文体" tvg-name="黑龙江文体" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/黑龙江文体.png" group-title="📡黑龙江台",黑龙江文体
 https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8?zheild
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/黑龙江新闻法治.png" group-title="📡黑龙江台",黑龙江新闻法治
+#EXTINF:-1 tvg-id="黑龙江新闻法治" tvg-name="黑龙江新闻法治" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/黑龙江新闻法治.png" group-title="📡黑龙江台",黑龙江新闻法治
 https://idclive.hljtv.com:4430/live/hljxw_hd.m3u8?zheild
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/黑龙江公共农业.png" group-title="📡黑龙江台",黑龙江公共农业
 https://idclive.hljtv.com:4430/live/hljgg_hd.m3u8?zheild
 #EXTINF:-1 group-title="📡黑龙江台",黑龙江影
 https://idclive.hljtv.com:4430/live/hljys_hd.m3u8?zheild
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/黑龙江都市.png" group-title="📡黑龙江台",黑龙江都市
+#EXTINF:-1 tvg-id="黑龙江都市" tvg-name="黑龙江都市" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/黑龙江都市.png" group-title="📡黑龙江台",黑龙江都市
 https://idclive.hljtv.com:4430/live/dushi_hd.m3u8?zheild
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/哈尔滨新闻综合.png" group-title="📡黑龙江台",哈尔滨新闻综合
 http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild
@@ -1569,7 +1569,7 @@ http://stream5.jlntv.cn/lh/sd/live.m3u8#http://stream5.jlntv.cn/lh/sd/live.m3u8?
 http://stream5.jlntv.cn/hn/sd/live.m3u8?zjild#http://stream5.jlntv.cn/hn/sd/live.m3u8
 #EXTINF:-1 group-title="📡吉林频道",通化县电视台
 http://stream5.jlntv.cn/thx/sd/live.m3u8?zjild#http://stream5.jlntv.cn/thx/sd/live.m3u8
-#EXTINF:-1 tvg-id="延边卫视" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/延边卫视.png" group-title="📡吉林频道",延边卫视
+#EXTINF:-1 tvg-id="延边卫视 (shanghai)" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/延边卫视.png" group-title="📡吉林频道",延边卫视
 http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8#http://live.ybtvyun.com/video/s10006-b316b550fd1f/index.m3u8#http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8?zjild#http://live.ybtvyun.com/video/s10006-90fe76c52091/index.m3u8#http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8?zjild#http://live.ybtvyun.com/video/s10006-28bc40431485/index.m3u8#http://39.135.133.181:80/wh7f454c46tw2003802006_-1607821772/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8?icpid=88888888&RTS=1714041847&from=23&hms_devid=1250&online=1714041847&vqe=3#http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226516/index.m3u8
 #EXTINF:-1 group-title="📡吉林频道",延边朝鲜语综合频道
 http://live.ybtvyun.com/video/s10006-b571c289a478/index.m3u8?zjild#http://live.ybtvyun.com/video/s10016-19a16c47eb99/index.m3u8#http://live.ybtvyun.com/video/s10016-19a16c47eb99/index.m3u8?zjild#http://live.ybtvyun.com/video/s10006-b571c289a478/index.m3u8
@@ -1671,9 +1671,9 @@ https://play.kankanlive.com/live/1724065906329286.m3u8
 https://rmplive.hljtv.com/live/gannan.m3u8#https://masterpull.hljtv.com/live/YbFyF4Jb.m3u8
 #EXTINF:-1 group-title="📡青海频道",青海综合
 http://lmt.scqstv.com/live1/live1.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青海经视.png" group-title="📡青海频道",青海经视
+#EXTINF:-1 tvg-id="青海经视" tvg-name="青海经视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青海经视.png" group-title="📡青海频道",青海经视
 http://stream.qhbtv.com/qhsh/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青海都市.png" group-title="📡青海频道",青海都市
+#EXTINF:-1 tvg-id="青海都市" tvg-name="青海都市" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青海都市.png" group-title="📡青海频道",青海都市
 http://stream.qhbtv.com/qhds/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安多卫视.png" group-title="📡青海频道",安多卫视
 http://stream.qhbtv.com/adws/playlist.m3u8
