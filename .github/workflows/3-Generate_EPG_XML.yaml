@@ -32,8 +32,8 @@ name: 3 Generate EPG XML
 on:
   workflow_dispatch:  # 手动触发 - 可在GitHub Actions页面手动运行此工作流
   schedule:
-    # 定时触发 - 每天UTC时间22点10分（北京时间早上6点10分）自动运行
-    - cron: '10 22 * * *'
+    # 定时触发 - 每天UTC时间18点10分（北京时间凌晨2点10分）自动运行
+    - cron: '10 18 * * *'
 
 jobs:
   generate-epg:
@@ -126,12 +126,12 @@ jobs:
         # 定义要获取并执行的脚本数组（PHP和Python）
         # 可以轻松添加、移除或注释不需要的脚本
         scripts=(
+          "get_tvmao_epg.py"
           "epganywhereusa.php"
           # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）- 当前已禁用
           # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
           "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本 - 当前启用
           "get_asiasatv_epg.py"
-          "get_tvmao_epg.py"
         )
         
         # 存储失败脚本的数组，用于错误报告
