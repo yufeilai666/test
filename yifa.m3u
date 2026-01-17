@@ -703,6 +703,8 @@ http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jb
 https://play-qukan.cztv.com/live/1758879019692345.m3u8
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视4K.png" group-title="加入易發群",东方卫视4K
 https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/峨眉电影4K.png" group-title="加入易發群",峨眉电影4k
+http://api.kkitv.itv888.vip:8080/streams/0558bdb0324/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/苏州4K.png" group-title="加入易發群",苏州4K
 https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/河北卫视4K.png" group-title="加入易發群",河北卫视4K
@@ -855,6 +857,8 @@ http://aipyou.com:8080/live/yifatv-wxxw01.m3u8
 https://v.hystudio.cn:8088/live/yifatv-ztxw0.m3u8
 #EXTINF:-1 group-title="极速港台2",中天新聞台2
 https://v.hystudio.cn:8088/live/yifatv-ztxw02.m3u8
+#EXTINF:-1 group-title="极速港台2",中天新聞台3
+http://free.cnlive.club/channel/41d8a09d.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台2",翡翠台
 http://r.jdshipin.com/62WM7
 #EXTINF:-1 group-title="极速港台2",翡翠台2
