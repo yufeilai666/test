@@ -1565,6 +1565,430 @@ http://free.cnlive.club/channel/5b99f1ca.m3u8
 http://free.cnlive.club/channel/n406d2eb6.m3u8
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="极速赛雷",广东珠江
 http://free.cnlive.club/channel/n7017ab43.m3u8
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="斯玛特",翡翠台
+https://live.catvod.com/live.php?id=jade_twn
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="斯玛特",翡翠台
+https://live.catvod.com/live.php?id=Jade_xue
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="斯玛特",明珠台
+https://live.catvod.com/live.php?id=pearl_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="斯玛特",无线新闻
+https://live.catvod.com/live.php?id=inews_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="斯玛特",TVBPLUS
+https://live.catvod.com/live.php?id=j2_twn
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="斯玛特",ViuTV
+https://live.catvod.com/live.php?id=viu1_twn
+#EXTINF:-1 group-title="斯玛特",ViuTV 6
+https://live.catvod.com/live.php?id=viusix_twn
+#EXTINF:-1 group-title="斯玛特",RTHK 31
+https://live.catvod.com/live.php?id=rhk31_twn
+#EXTINF:-1 group-title="斯玛特",RTHK 32
+https://live.catvod.com/live.php?id=rhk32_twn
+#EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" group-title="斯玛特",HOY TV
+https://live.catvod.com/live.php?id=hoycaijing_twn
+#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="斯玛特",凤凰中文
+https://live.catvod.com/live.php?id=phoenixtv_hd
+#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="斯玛特",凤凰资讯
+https://live.catvod.com/live.php?id=phoenixinfo_hd
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="斯玛特",凤凰香港
+https://live.catvod.com/live.php?id=hkphoenix_twn
+#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="斯玛特",台视
+https://live.catvod.com/live.php?id=ttv_taiwan
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="斯玛特",台视新闻
+https://live.catvod.com/live.php?id=ttvnews_twn
+#EXTINF:-1 tvg-id="台視綜合" tvg-name="台視綜合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="斯玛特",台视综合
+https://live.catvod.com/live.php?id=ttvzhonghe
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="斯玛特",中视
+https://live.catvod.com/live.php?id=zhongshihd_twn
+#EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视新闻.png" group-title="斯玛特",中视新闻
+https://live.catvod.com/live.php?id=zhongshinews_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="斯玛特",中视经典
+https://live.catvod.com/live.php?id=zhongshi_twn
+#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="斯玛特",华视
+https://live.catvod.com/live.php?id=ctshd_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="斯玛特",公视
+https://live.catvod.com/live.php?id=ctv_taiwan
+#EXTINF:-1 tvg-id="公視台語台" tvg-name="公視台語台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視台語台.png" group-title="斯玛特",公视台语台
+https://live.catvod.com/live.php?id=ctv2_twn
+#EXTINF:-1 tvg-id="三立台灣台" tvg-name="三立台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立台灣台.png" group-title="斯玛特",三立台湾台
+https://live.catvod.com/live.php?id=sanlitaiwan
+#EXTINF:-1 tvg-id="三立都會台" tvg-name="三立都會台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立都会台.png" group-title="斯玛特",三立都会台
+https://live.catvod.com/live.php?id=sanlidouhui
+#EXTINF:-1 tvg-id="三立綜合台" tvg-name="三立綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立綜合台.png" group-title="斯玛特",三立综合台
+https://live.catvod.com/live.php?id=sanlizhonghe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立戲劇台.png" group-title="斯玛特",三立戏剧台
+https://live.catvod.com/live.php?id=sanlixiju_twn
+#EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森新聞台.png" group-title="斯玛特",东森新闻台
+https://live.catvod.com/live.php?id=ettvnews
+#EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森財經新聞台.png" group-title="斯玛特",东森财经新闻台
+https://live.catvod.com/live.php?id=ettvcaijing_twn
+#EXTINF:-1 tvg-id="東森綜合台" tvg-name="東森綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森综合台.png" group-title="斯玛特",东森综合台
+https://live.catvod.com/live.php?id=ettvzhonghe
+#EXTINF:-1 tvg-id="東森戲劇台" tvg-name="東森戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森戏剧台.png" group-title="斯玛特",东森戏剧台
+https://live.catvod.com/live.php?id=ettvdrama
+#EXTINF:-1 tvg-id="東森電影台" tvg-name="東森電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森電影台.png" group-title="斯玛特",东森电影台
+https://live.catvod.com/live.php?id=ettvmovie
+#EXTINF:-1 tvg-id="東森洋片台" tvg-name="東森洋片台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森洋片台.png" group-title="斯玛特",东森洋片台
+https://live.catvod.com/live.php?id=ettvwestern
+#EXTINF:-1 tvg-id="東森幼幼台" tvg-name="東森幼幼台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森幼幼台.png" group-title="斯玛特",东森幼幼台
+https://live.catvod.com/live.php?id=yoyo_twn
+#EXTINF:-1 tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="斯玛特",东森超视
+https://live.catvod.com/live.php?id=ettvsuper
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="斯玛特",TVBS
+https://live.catvod.com/live.php?id=tvbs
+#EXTINF:-1 tvg-id="TVBS 新聞台" tvg-name="TVBS 新聞台" group-title="斯玛特",TVBS 新闻台
+https://live.catvod.com/live.php?id=tvbs_n
+#EXTINF:-1 group-title="斯玛特",TVBS 欢乐台
+https://live.catvod.com/live.php?id=tvbshuanle_twn
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="斯玛特",民视
+https://live.catvod.com/live.php?id=ftvhd_taiwan
+#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视新闻台.png" group-title="斯玛特",民视新闻台
+https://live.catvod.com/live.php?id=ftvnew_taiwan
+#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="斯玛特",民视台湾台
+https://live.catvod.com/live.php?id=ftvtaiwan_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天綜合.png" group-title="斯玛特",中天综合
+https://live.catvod.com/live.php?id=ctizhonghe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天娛樂.png" group-title="斯玛特",中天娱乐
+https://live.catvod.com/live.php?id=ctient
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天亞洲.png" group-title="斯玛特",中天亚洲
+https://live.catvod.com/live.php?id=ctiasia_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="斯玛特",中天新闻
+https://live.catvod.com/live.php?id=ctinews
+#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台.png" group-title="斯玛特",寰宇新闻台
+https://live.catvod.com/live.php?id=huanyuxinwen_twn
+#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经台.png" group-title="斯玛特",寰宇财经台
+https://live.catvod.com/live.php?id=huanyutaiwan_twn
+#EXTINF:-1 tvg-id="八大第一台" tvg-name="八大第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大第一台.png" group-title="斯玛特",八大第一台
+https://live.catvod.com/live.php?id=badafirst
+#EXTINF:-1 tvg-id="八大綜合台" tvg-name="八大綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大综合台.png" group-title="斯玛特",八大综合台
+https://live.catvod.com/live.php?id=badazhonghe
+#EXTINF:-1 tvg-id="八大戲劇台" tvg-name="八大戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大戲劇台.png" group-title="斯玛特",八大戏剧台
+https://live.catvod.com/live.php?id=badadrama
+#EXTINF:-1 tvg-id="八大娛樂台" tvg-name="八大娛樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大娱乐台.png" group-title="斯玛特",八大娱乐台
+https://live.catvod.com/live.php?id=badaentertain
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="斯玛特",纬来体育
+https://live.catvod.com/live.php?id=videolandsport
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/纬来精彩.png" group-title="斯玛特",纬来精彩
+https://live.catvod.com/live.php?id=videolandspecial_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="斯玛特",纬来日本
+https://live.catvod.com/live.php?id=videolandjapan
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="斯玛特",纬来电影
+https://live.catvod.com/live.php?id=videolandmovie
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來綜合.png" group-title="斯玛特",纬来综合
+https://live.catvod.com/live.php?id=videolandzonghe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來育樂.png" group-title="斯玛特",纬来育乐
+https://live.catvod.com/live.php?id=videolandyule
+#EXTINF:-1 tvg-id="愛爾達綜合台" tvg-name="愛爾達綜合台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达综合台.png" group-title="斯玛特",爱尔达综合台
+https://live.catvod.com/live.php?id=eltazonghe_twn
+#EXTINF:-1 tvg-id="愛爾達影劇台" tvg-name="愛爾達影劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达影剧台.png" group-title="斯玛特",爱尔达影剧台
+https://live.catvod.com/live.php?id=eltayingju_twn
+#EXTINF:-1 tvg-id="愛爾達體育1台" tvg-name="愛爾達體育1台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育1台.png" group-title="斯玛特",爱尔达体育1台
+https://live.catvod.com/live.php?id=eltasport_twn
+#EXTINF:-1 tvg-id="愛爾達體育2台" tvg-name="愛爾達體育2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛爾達體育2台.png" group-title="斯玛特",爱尔达体育2台
+https://live.catvod.com/live.php?id=eltasport2_twn
+#EXTINF:-1 tvg-id="愛爾達體育3台" tvg-name="愛爾達體育3台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育3台.png" group-title="斯玛特",爱尔达体育3台
+https://live.catvod.com/live.php?id=eltasport3_twn
+#EXTINF:-1 tvg-id="愛爾達體育4台" tvg-name="愛爾達體育4台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛爾達體育4台.png" group-title="斯玛特",爱尔达体育4台
+https://live.catvod.com/live.php?id=eltasports4_twn
+#EXTINF:-1 tvg-id="小公視" tvg-name="小公視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/小公視.png" group-title="斯玛特",小公视
+https://live.catvod.com/live.php?id=pts3_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="斯玛特",非凡新闻
+https://live.catvod.com/live.php?id=feifannews_twn
+#EXTINF:-1 tvg-id="年代新聞" tvg-name="年代新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/年代新闻.png" group-title="斯玛特",年代新闻
+https://live.catvod.com/live.php?id=niandainews_twn
+#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="斯玛特",龙华戏剧
+https://live.catvod.com/live.php?id=lunghuaxiju_twn
+#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="斯玛特",龙华偶像
+https://live.catvod.com/live.php?id=lunghuaidol_twn
+#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="斯玛特",龙华电影
+https://live.catvod.com/live.php?id=xingwei_movie
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="斯玛特",龙华洋片
+https://live.catvod.com/live.php?id=lunghuawestern_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="斯玛特",龙华经典
+https://live.catvod.com/live.php?id=lunghuajingdian_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天国际.png" group-title="斯玛特",靖天国际
+https://live.catvod.com/live.php?id=jingtianintl_twn
+#EXTINF:-1 tvg-id="靖天卡通" tvg-name="靖天卡通" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天卡通.png" group-title="斯玛特",靖天卡通
+https://live.catvod.com/live.php?id=jingtiancartoon_twn
+#EXTINF:-1 tvg-id="大愛電視" tvg-name="大愛電視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大愛電視.png" group-title="斯玛特",大愛電視
+https://live.catvod.com/live.php?id=daai_twn
+#EXTINF:-1 tvg-id="大愛二台" tvg-name="大愛二台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/大爱二台.png" group-title="斯玛特",大愛二台
+https://live.catvod.com/live.php?id=daai2_twn
+#EXTINF:-1 group-title="斯玛特",EYE 旅游台
+https://live.catvod.com/live.php?id=eyetvtravel_twn
+#EXTINF:-1 group-title="斯玛特",EYE 戏剧台
+https://live.catvod.com/live.php?id=eyetvxiju_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲美食.png" group-title="斯玛特",亚洲美食
+https://live.catvod.com/live.php?id=afc_twn
+#EXTINF:-1 tvg-id="美食星球" tvg-name="美食星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美食星球.png" group-title="斯玛特",美食星球
+https://live.catvod.com/live.php?id=foodplanet_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TLC旅遊生活.png" group-title="斯玛特",TLC旅遊生活
+https://live.catvod.com/live.php?id=tlc_twn
+#EXTINF:-1 tvg-id="亞洲旅遊台" tvg-name="亞洲旅遊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/亚洲旅游台.png" group-title="斯玛特",亚洲旅游台
+https://live.catvod.com/live.php?id=asiatravel_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="斯玛特",Arirang
+https://live.catvod.com/live.php?id=arirang_twn
+#EXTINF:-1 group-title="斯玛特",AXN Taiwan
+https://live.catvod.com/live.php?id=axn_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="斯玛特",MTV Live
+https://live.catvod.com/live.php?id=mtvhd_twn
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="斯玛特",HBO
+https://live.catvod.com/live.php?id=hbohd_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="斯玛特",HBO HITS
+https://live.catvod.com/live.php?id=hbohit_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CINEMAX.png" group-title="斯玛特",CINEMAX
+https://live.catvod.com/live.php?id=cinemax_twn
+#EXTINF:-1 tvg-id="好莱坞电影台" tvg-name="好莱坞电影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好莱坞电影台.png" group-title="斯玛特",好萊塢電影台
+https://live.catvod.com/live.php?id=hollywoodmovies_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/卫视电影台.png" group-title="斯玛特",卫视电影台
+https://live.catvod.com/live.php?id=weishimovie_twn
+#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="斯玛特",龙祥时代
+https://live.catvod.com/live.php?id=lungxiangtime_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/美亞電影.png" group-title="斯玛特",美亚电影
+https://live.catvod.com/live.php?id=meiyamovie_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/华艺综合.png" group-title="斯玛特",華藝綜合
+https://live.catvod.com/live.php?id=weishichinese_twn
+#EXTINF:-1 tvg-id="博斯運動一台" tvg-name="博斯運動一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯運動一台.png" group-title="斯玛特",博斯运动一台
+https://live.catvod.com/live.php?id=bosisport1_twn
+#EXTINF:-1 tvg-id="博斯運動二台" tvg-name="博斯運動二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯运动二台.png" group-title="斯玛特",博斯运动二台
+https://live.catvod.com/live.php?id=bosisport2_twn
+#EXTINF:-1 tvg-id="博斯高球一台" tvg-name="博斯高球一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球一台.png" group-title="斯玛特",博斯高球一台
+https://live.catvod.com/live.php?id=bosigolf1_twn
+#EXTINF:-1 tvg-id="博斯高球二台" tvg-name="博斯高球二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球二台.png" group-title="斯玛特",博斯高球二台
+https://live.catvod.com/live.php?id=bosigolf2_twn
+#EXTINF:-1 tvg-id="博斯網球台" tvg-name="博斯網球台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯网球台.png" group-title="斯玛特",博斯网球台
+https://live.catvod.com/live.php?id=bositennis_twn
+#EXTINF:-1 tvg-id="博斯無限台" tvg-name="博斯無限台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯无限台.png" group-title="斯玛特",博斯无限台
+https://live.catvod.com/live.php?id=bosiunlimited_twn
+#EXTINF:-1 group-title="斯玛特",好消息 2
+https://live.catvod.com/live.php?id=good2_twn
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="斯玛特",CGTN
+https://live.catvod.com/live.php?id=CGTN
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="斯玛特",CCTV6
+https://live.catvod.com/live.php?id=cctv6
+#EXTINF:-1 group-title="斯玛特",AXN Taiwan
+https://live.catvod.com/live.php?id=axn_twn
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="斯玛特",HBO
+https://live.catvod.com/live.php?id=hbohd_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="斯玛特",HBO HITS
+https://live.catvod.com/live.php?id=hbohit_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CINEMAX.png" group-title="斯玛特",CINEMAX
+https://live.catvod.com/live.php?id=cinemax_twn
+#EXTINF:-1 tvg-id="好莱坞电影台" tvg-name="好莱坞电影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好莱坞电影台.png" group-title="斯玛特",好萊塢電影台
+https://live.catvod.com/live.php?id=hollywoodmovies_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="斯玛特",东森电影
+https://live.catvod.com/live.php?id=ettvmovie
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="斯玛特",东森洋片
+https://live.catvod.com/live.php?id=ettvwestern
+#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="斯玛特",龙华电影
+https://live.catvod.com/live.php?id=xingwei_movie
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="斯玛特",龙华洋片
+https://live.catvod.com/live.php?id=lunghuawestern_twn
+#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="斯玛特",龙祥时代
+https://live.catvod.com/live.php?id=lungxiangtime_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/美亞電影.png" group-title="斯玛特",美亚电影
+https://live.catvod.com/live.php?id=meiyamovie_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/卫视电影台.png" group-title="斯玛特",卫视电影台
+https://live.catvod.com/live.php?id=weishimovie_twn
+#EXTINF:-1 tvg-id="天映频道 (新加坡)" tvg-name="天映频道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映頻道.png" group-title="斯玛特",天映频道
+https://live.catvod.com/live.php?id=Celestial
+#EXTINF:-1 tvg-id="天映频道 (新加坡)" tvg-name="天映频道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映頻道.png" group-title="斯玛特",天映频道
+https://live.catvod.com/live.php?id=Celestialindo
+#EXTINF:-1 tvg-id="天映经典 (香港)" tvg-name="天映经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="斯玛特",天映经典
+https://live.catvod.com/live.php?id=Celestial2
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="斯玛特",HBO
+https://live.catvod.com/live.php?id=Hbo
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Signature.png" group-title="斯玛特",HBO Signature
+https://live.catvod.com/live.php?id=Hbosignature
+#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Family.png" group-title="斯玛特",HBO Family
+https://live.catvod.com/live.php?id=Hbofamily
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="斯玛特",HBO Hits
+https://live.catvod.com/live.php?id=Hbohitshd
+#EXTINF:-1 group-title="斯玛特",Asia Travel
+https://live.catvod.com/live.php?id=asiatravel_twn
+#EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="斯玛特",Discovery
+https://live.catvod.com/live.php?id=discoveryhd_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲美食.png" group-title="斯玛特",亚洲美食
+https://live.catvod.com/live.php?id=afc_twn
+#EXTINF:-1 tvg-id="美食星球" tvg-name="美食星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美食星球.png" group-title="斯玛特",美食星球
+https://live.catvod.com/live.php?id=foodplanet_twn
+#EXTINF:-1 group-title="斯玛特",亚洲TLC
+https://live.catvod.com/live.php?id=tlc_twn
+#EXTINF:-1 tvg-id="History" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/history.png" group-title="斯玛特",History
+https://live.catvod.com/live.php?id=History
+#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="斯玛特",BBC Earth
+https://live.catvod.com/live.php?id=bbcearth_twn
+#EXTINF:-1 group-title="斯玛特",BBC Earth Lifestyle
+https://live.catvod.com/live.php?id=bbclifestyle_twn
+#EXTINF:-1 group-title="斯玛特",Animal Planet (Eng)
+https://live.catvod.com/live.php?id=AnimalPlanet
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tlc.png" group-title="斯玛特",TLC
+https://live.catvod.com/live.php?id=Tlc
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/FOODNETWORK.png" group-title="斯玛特",Foodnetwork
+https://live.catvod.com/live.php?id=Foodnetwork
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HGTV.png" group-title="斯玛特",HGTV
+https://live.catvod.com/live.php?id=HGTV
+#EXTINF:-1 tvg-id="亞洲旅遊台" tvg-name="亞洲旅遊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/亚洲旅游台.png" group-title="斯玛特",亚洲旅游台
+https://live.catvod.com/live.php?id=asiatravel_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/skynews.png" group-title="斯玛特",Skynews
+https://live.catvod.com/live.php?id=skynews_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ABC News.png" group-title="斯玛特",ABC News
+https://live.catvod.com/live.php?id=abcnews_glo
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森财经新闻.png" group-title="斯玛特",东森财经新闻
+https://live.catvod.com/live.php?id=ettvcaijing_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/CBS.png" group-title="斯玛特",CBS
+https://live.catvod.com/live.php?id=cbshd_glo
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cbsn.png" group-title="斯玛特",CBSN
+https://live.catvod.com/live.php?id=cbsn_glo
+#EXTINF:-1 tvg-id="France 24" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/France 24.png" group-title="斯玛特",France 24
+https://live.catvod.com/live.php?id=france24_twn
+#EXTINF:-1 group-title="斯玛特",DW (Deutsch)
+https://live.catvod.com/live.php?id=dw_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NHK World.png" group-title="斯玛特",NHK World
+https://live.catvod.com/live.php?id=nhkworld_japan
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Fox News.png" group-title="斯玛特",Fox News
+https://live.catvod.com/live.php?id=foxnews_twn
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="斯玛特",CGTN
+https://live.catvod.com/live.php?id=CGTN
+#EXTINF:-1 tvg-id="CNN International" tvg-name="CNN International" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CNN International.png" group-title="斯玛特",CNN International
+https://live.catvod.com/live.php?id=Cnn
+#EXTINF:-1 group-title="斯玛特",CNN backup
+https://live.catvod.com/live.php?id=cnn_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CNBC.png" group-title="斯玛特",CNBC
+https://live.catvod.com/live.php?id=cnbc_twn
+#EXTINF:-1 tvg-id="CNA" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CNA.png" group-title="斯玛特",CNA
+https://live.catvod.com/live.php?id=cna
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Baby TV.png" group-title="斯玛特",Baby TV
+https://live.catvod.com/live.php?id=babytv_twn
+#EXTINF:-1 group-title="斯玛特",MiaoMi
+https://live.catvod.com/live.php?id=MiaoMi
+#EXTINF:-1 tvg-id="靖天卡通" tvg-name="靖天卡通" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天卡通.png" group-title="斯玛特",靖天卡通
+https://live.catvod.com/live.php?id=jingtiancartoon_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森幼幼.png" group-title="斯玛特",东森幼幼
+https://live.catvod.com/live.php?id=yoyo_twn
+#EXTINF:-1 group-title="斯玛特",Astro Premier League 1
+https://live.catvod.com/live.php?id=go_assp1
+#EXTINF:-1 group-title="斯玛特",Astro EPL 1 backup
+https://live.catvod.com/live.php?id=go_assp1x
+#EXTINF:-1 group-title="斯玛特",Astro Premier League 2
+https://live.catvod.com/live.php?id=go_assp2
+#EXTINF:-1 group-title="斯玛特",Astro Grandstand
+https://live.catvod.com/live.php?id=go_assp3
+#EXTINF:-1 group-title="斯玛特",Astro Football
+https://live.catvod.com/live.php?id=go_assp4
+#EXTINF:-1 group-title="斯玛特",Astro Sports Plus
+https://live.catvod.com/live.php?id=go_sportsplus
+#EXTINF:-1 group-title="斯玛特",Astro Badminton 1
+https://live.catvod.com/live.php?id=go_badminton1
+#EXTINF:-1 group-title="斯玛特",Astro Badminton 2
+https://live.catvod.com/live.php?id=go_badminton2
+#EXTINF:-1 group-title="斯玛特",Astro W-Sports
+https://live.catvod.com/live.php?id=go_assp5
+#EXTINF:-1 group-title="斯玛特",Supersports 1
+https://live.catvod.com/live.php?id=Assp1
+#EXTINF:-1 group-title="斯玛特",Supersports 2
+https://live.catvod.com/live.php?id=Assp2
+#EXTINF:-1 group-title="斯玛特",Supersports 3
+https://live.catvod.com/live.php?id=Assp3
+#EXTINF:-1 group-title="斯玛特",Supersports 4
+https://live.catvod.com/live.php?id=Assp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/WWE.png" group-title="斯玛特",WWE
+https://live.catvod.com/live.php?id=Wwe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/FIGHT SPORTS.png" group-title="斯玛特",Fight Sports
+https://live.catvod.com/live.php?id=Fs
+#EXTINF:-1 group-title="斯玛特",NBA TV
+https://live.catvod.com/live.php?id=Nba
+#EXTINF:-1 tvg-id="Astro Cricket" tvg-name="Astro Cricket" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Astro Cricket.png" group-title="斯玛特",Astro Cricket
+https://live.catvod.com/live.php?id=Acricket
+#EXTINF:-1 group-title="斯玛特",Astro Golf
+https://live.catvod.com/live.php?id=Agolf
+#EXTINF:-1 group-title="斯玛特",Tnt Sports 1
+https://live.catvod.com/live.php?id=6fac0aaead
+#EXTINF:-1 group-title="斯玛特",TNT Sports 2
+https://live.catvod.com/live.php?id=d9a76a79cc
+#EXTINF:-1 group-title="斯玛特",TNT Sports 3
+https://live.catvod.com/live.php?id=5fea4d73db
+#EXTINF:-1 group-title="斯玛特",TNT Sports 4
+https://live.catvod.com/live.php?id=tntsport4
+#EXTINF:-1 group-title="斯玛特",Sony Ten 1
+https://live.catvod.com/live.php?id=ten1_raj
+#EXTINF:-1 group-title="斯玛特",Sony Ten 2
+https://live.catvod.com/live.php?id=ten2_raj
+#EXTINF:-1 group-title="斯玛特",Sony Ten 3
+https://live.catvod.com/live.php?id=ten3_raj
+#EXTINF:-1 group-title="斯玛特",SPOTV 1
+https://live.catvod.com/live.php?id=go_spotv
+#EXTINF:-1 group-title="斯玛特",SPO TV 2
+https://live.catvod.com/live.php?id=go_spotv2
+#EXTINF:-1 group-title="斯玛特",Skysports F1
+https://live.catvod.com/live.php?id=tiankongf1
+#EXTINF:-1 group-title="斯玛特",Skysports Cricket
+https://live.catvod.com/live.php?id=tiankongcricket
+#EXTINF:-1 group-title="斯玛特",Skysports EPL
+https://live.catvod.com/live.php?id=tiankongepl
+#EXTINF:-1 group-title="斯玛特",Skysports Main Event
+https://live.catvod.com/live.php?id=tiankongmain
+#EXTINF:-1 group-title="斯玛特",Skysports News
+https://live.catvod.com/live.php?id=tiankongnews
+#EXTINF:-1 group-title="斯玛特",Skysports Mix
+https://live.catvod.com/live.php?id=tiankongmix
+#EXTINF:-1 tvg-id="愛爾達體育2台" tvg-name="愛爾達體育2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛爾達體育2台.png" group-title="斯玛特",爱尔达体育2台
+https://live.catvod.com/live.php?id=eltasport2_twn
+#EXTINF:-1 tvg-id="愛爾達體育3台" tvg-name="愛爾達體育3台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育3台.png" group-title="斯玛特",爱尔达体育3台
+https://live.catvod.com/live.php?id=eltasport3_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tv1.png" group-title="斯玛特",TV1
+https://live.catvod.com/live.php?id=TV1
+#EXTINF:-1 group-title="斯玛特",TV1 backup
+https://live.catvod.com/live.php?id=TV1_backup
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TV2.png" group-title="斯玛特",TV2
+https://live.catvod.com/live.php?id=TV2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TV3.png" group-title="斯玛特",TV3
+https://live.catvod.com/live.php?id=TV3
+#EXTINF:-1 group-title="斯玛特",TV3 SD
+https://live.catvod.com/live.php?id=TV3_mega
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NTV7.png" group-title="斯玛特",NTV7
+https://live.catvod.com/live.php?id=NTV7
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tv8.png" group-title="斯玛特",TV8
+https://live.catvod.com/live.php?id=TV8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tv9.png" group-title="斯玛特",TV9
+https://live.catvod.com/live.php?id=TV9
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Awani.png" group-title="斯玛特",Awani
+https://live.catvod.com/live.php?id=Awani
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="斯玛特",HBO
+https://live.catvod.com/live.php?id=Hbo
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Signature.png" group-title="斯玛特",HBO Signature
+https://live.catvod.com/live.php?id=Hbosignature
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="斯玛特",HBO Hits
+https://live.catvod.com/live.php?id=Hbohitshd
+#EXTINF:-1 tvg-id="tvN" tvg-name="tvN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/tvN.png" group-title="斯玛特",TvN
+https://live.catvod.com/live.php?id=TVN
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/AEC.png" group-title="斯玛特",AEC
+https://live.catvod.com/live.php?id=AEC
+#EXTINF:-1 group-title="斯玛特",华丽台 HD （Wah Lai Toi）
+https://live.catvod.com/live.php?id=Wlt
+#EXTINF:-1 group-title="斯玛特",欢喜台 HD （Hua Hee Tai）
+https://live.catvod.com/live.php?id=Huahee
+#EXTINF:-1 group-title="斯玛特",Astro QJ
+https://live.catvod.com/live.php?id=Quanjia
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVB Jade.png" group-title="斯玛特",TVB Jade
+https://live.catvod.com/live.php?id=Tvbjade
+#EXTINF:-1 group-title="斯玛特",TVB Asia
+https://live.catvod.com/live.php?id=Tvbasia
+#EXTINF:-1 group-title="斯玛特",TVB Entertainment
+https://live.catvod.com/live.php?id=Tvbentertainment
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVB Classic.png" group-title="斯玛特",TVB Classic
+https://live.catvod.com/live.php?id=Tvbclassic
+#EXTINF:-1 group-title="斯玛特",TVB 星河台 Xing He
+https://live.catvod.com/live.php?id=Xinhe
+#EXTINF:-1 group-title="斯玛特",爱奇艺 iQiyi
+https://live.catvod.com/live.php?id=Qiyi
+#EXTINF:-1 group-title="斯玛特",Animal Planet (Eng)
+https://live.catvod.com/live.php?id=AnimalPlanet
+#EXTINF:-1 group-title="斯玛特",tvN Movie
+https://live.catvod.com/live.php?id=Tvnmovie
+#EXTINF:-1 group-title="斯玛特",CNN backup
+https://live.catvod.com/live.php?id=cnn_twn
+#EXTINF:-1 group-title="斯玛特",AFC 亚洲旅游台
+https://live.catvod.com/live.php?id=asiatravel_t
 #EXTINF:-1 group-title="⚽️🏀直播",⚽️🏀波妞
 https://new-live.jnyyoa.com/notlive/1744267.m3u8
 #EXTINF:-1 group-title="⚽️🏀直播",⚽️🏀陆宝儿
@@ -9367,6 +9791,118 @@ http://23.237.228.134/live6/guizhou.m3u8
 http://23.237.228.134/live6/sichuan.m3u8
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="央视频2",海南卫视
 http://23.237.228.134/live6/hainan.m3u8
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="央视频3",CCTV1
+https://iptv.catvod.com/live.php?id=CCTV1
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="央视频3",CCTV2
+https://iptv.catvod.com/live.php?id=CCTV2
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="央视频3",CCTV3
+https://iptv.catvod.com/live.php?id=CCTV3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="央视频3",CCTV4
+https://iptv.catvod.com/live.php?id=CCTV4
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="央视频3",CCTV4K
+https://iptv.catvod.com/live.php?id=CCTV4K
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8K.png" group-title="央视频3",CCTV8K
+https://iptv.catvod.com/live.php?id=CCTV8K
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="央视频3",CCTV5
+https://iptv.catvod.com/live.php?id=CCTV5
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="央视频3",CCTV5+
+https://iptv.catvod.com/live.php?id=CCTV5%2B
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="央视频3",CCTV6
+https://iptv.catvod.com/live.php?id=CCTV6
+#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="央视频3",CCTV7
+https://iptv.catvod.com/live.php?id=CCTV7
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="央视频3",CCTV8
+https://iptv.catvod.com/live.php?id=CCTV8
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="央视频3",CCTV9
+https://iptv.catvod.com/live.php?id=CCTV9
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="央视频3",CCTV10
+https://iptv.catvod.com/live.php?id=CCTV10
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="央视频3",CCTV11
+https://iptv.catvod.com/live.php?id=CCTV11
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="央视频3",CCTV12
+https://iptv.catvod.com/live.php?id=CCTV12
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="央视频3",CCTV13
+https://iptv.catvod.com/live.php?id=CCTV13
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="央视频3",CCTV14
+https://iptv.catvod.com/live.php?id=CCTV14
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="央视频3",CCTV15
+https://iptv.catvod.com/live.php?id=CCTV15
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="央视频3",CCTV16
+https://iptv.catvod.com/live.php?id=CCTV16
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="央视频3",CCTV17
+https://iptv.catvod.com/live.php?id=CCTV17
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="央视频3",北京卫视
+https://iptv.catvod.com/live.php?id=%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="央视频3",东方卫视
+https://iptv.catvod.com/live.php?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="央视频3",江苏卫视
+https://iptv.catvod.com/live.php?id=%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="央视频3",浙江卫视
+https://iptv.catvod.com/live.php?id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="央视频3",湖南卫视
+https://iptv.catvod.com/live.php?id=%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="央视频3",湖北卫视
+https://iptv.catvod.com/live.php?id=%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="央视频3",广东卫视
+https://iptv.catvod.com/live.php?id=%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="央视频3",深圳卫视
+https://iptv.catvod.com/live.php?id=%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="央视频3",安徽卫视
+https://iptv.catvod.com/live.php?id=%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="央视频3",山东卫视
+https://iptv.catvod.com/live.php?id=%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="央视频3",天津卫视
+https://iptv.catvod.com/live.php?id=%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="央视频3",广西卫视
+https://iptv.catvod.com/live.php?id=%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="央视频3",黑龙江卫视
+https://iptv.catvod.com/live.php?id=%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="央视频3",海南卫视
+https://iptv.catvod.com/live.php?id=%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="央视频3",重庆卫视
+https://iptv.catvod.com/live.php?id=%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="央视频3",四川卫视
+https://iptv.catvod.com/live.php?id=%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="央视频3",河南卫视
+https://iptv.catvod.com/live.php?id=%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="央视频3",东南卫视
+https://iptv.catvod.com/live.php?id=%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="央视频3",贵州卫视
+https://iptv.catvod.com/live.php?id=%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="央视频3",江西卫视
+https://iptv.catvod.com/live.php?id=%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="央视频3",辽宁卫视
+https://iptv.catvod.com/live.php?id=%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="央视频3",河北卫视
+https://iptv.catvod.com/live.php?id=%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="央视频3",陕西卫视
+https://iptv.catvod.com/live.php?id=%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="央视频3",内蒙古卫视
+https://iptv.catvod.com/live.php?id=%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="央视频3",甘肃卫视
+https://iptv.catvod.com/live.php?id=%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="央视频3",宁夏卫视
+https://iptv.catvod.com/live.php?id=%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="央视频3",山西卫视
+https://iptv.catvod.com/live.php?id=%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="央视频3",云南卫视
+https://iptv.catvod.com/live.php?id=%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="央视频3",吉林卫视
+https://iptv.catvod.com/live.php?id=%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="央视频3",青海卫视
+https://iptv.catvod.com/live.php?id=%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="央视频3",西藏卫视
+https://iptv.catvod.com/live.php?id=%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="央视频3",新疆卫视
+https://iptv.catvod.com/live.php?id=%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="央视频3",兵团卫视
+https://iptv.catvod.com/live.php?id=%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC影迷电影.png" group-title="央视频3",CHC影迷电影
+https://iptv.catvod.com/live.php?id=CHC%E5%BD%B1%E8%BF%B7%E7%94%B5%E5%BD%B1
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC动作电影.png" group-title="央视频3",CHC动作电影
+https://iptv.catvod.com/live.php?id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1
+#EXTINF:-1 tvg-id="CHC家庭影院 (shanghai)" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC家庭影院.png" group-title="央视频3",CHC家庭影院
+https://iptv.catvod.com/live.php?id=CHC%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/北京IPTV淘剧场.png" group-title="北京淘系列",北京IPTV淘剧场
 http://bit.famcloud.top:9878/udp/239.3.1.95:8001
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/北京IPTV淘娱乐.png" group-title="北京淘系列",北京IPTV淘娱乐
