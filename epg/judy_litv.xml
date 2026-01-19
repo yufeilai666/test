@@ -356,21 +356,6 @@
     <display-name lang="zh">DayStar</display-name>
     <icon src="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_daystar_mobile.png"/>
   </channel>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv043">
-    <title lang="zh">暗夜新聞第 19 集</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv043">
-    <title lang="zh">女孩上場2第 1 集</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv043">
-    <title lang="zh">客家新聞雜誌第 983 集</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv043">
-    <title lang="zh">福氣來了第 99 集</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv043">
-    <title lang="zh">幕後有藝思第 1 集</title>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120053000 +0800" channel="4gtv-4gtv043">
     <title lang="zh">日頭下‧月光光第 99 集</title>
   </programme>
@@ -698,22 +683,6 @@
   <programme start="20260122233000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv043">
     <title lang="zh">客家戲曲第 704 集</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv152">
-    <title lang="zh">東森夜線新聞</title>
-    <desc lang="zh">以公正客觀的角度，為全國觀眾播報最新、最準確的新聞。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv152">
-    <title lang="zh">東森晚間新聞</title>
-    <desc lang="zh">以公正客觀的角度，為全國觀眾播報最新、最準確的新聞。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv152">
-    <title lang="zh">台灣啟示錄</title>
-    <desc lang="zh">為您統整介紹台灣社會近年來重大案件與名人軼事的始末，以及相關的新聞分析與報導。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv152">
-    <title lang="zh">東森世界日報</title>
-    <desc lang="zh">以公正客觀的角度，為全國觀眾播報最新、最準確的新聞。</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv152">
     <title lang="zh">東森夜線新聞</title>
     <desc lang="zh">以公正客觀的角度，為全國觀眾播報最新、最準確的新聞。</desc>
@@ -837,26 +806,6 @@
   <programme start="20260122220000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv152">
     <title lang="zh">關鍵時刻</title>
     <desc lang="zh">由資深媒體人主持，節目中邀請來賓名嘴們一同探討最新相關新聞議題與千奇百怪的事件，並為您深入剖析不同觀點。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv009">
-    <title lang="zh">中天辣晚報</title>
-    <desc lang="zh">提供國內、兩岸、國際頭條焦點，掌握時事脈動，觀察新聞背後的真正意義，帶領觀眾知曉天下事。有最深度的內容、最專業的追蹤、最需要的資訊，收視率領先各台，具有高度影響力！</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv009">
-    <title lang="zh">中天辣晚報</title>
-    <desc lang="zh">提供國內、兩岸、國際頭條焦點，掌握時事脈動，觀察新聞背後的真正意義，帶領觀眾知曉天下事。有最深度的內容、最專業的追蹤、最需要的資訊，收視率領先各台，具有高度影響力！</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv009">
-    <title lang="zh">頭條開講</title>
-    <desc lang="zh">中天新聞為服務廣大觀眾，提供多元論述平台，發揮媒體第四權的社會責任，於十月五日起，週一至週五晚間八點同一時段，接檔推出《頭條開講》談話節目，由主播周玉琴及政治中心主任林嘉源共同主持，敬請支持中天的觀眾朋友準時鎖定！</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv009">
-    <title lang="zh">頭條開講</title>
-    <desc lang="zh">中天新聞為服務廣大觀眾，提供多元論述平台，發揮媒體第四權的社會責任，於十月五日起，週一至週五晚間八點同一時段，接檔推出《頭條開講》談話節目，由主播周玉琴及政治中心主任林嘉源共同主持，敬請支持中天的觀眾朋友準時鎖定！</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv009">
-    <title lang="zh">中天SUPER夜線</title>
-    <desc lang="zh">由中天新聞專業主播帶來最新的晚間新聞特報。</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv009">
     <title lang="zh">全球大視野</title>
@@ -1126,22 +1075,6 @@
     <title lang="zh">全球大視野</title>
     <desc lang="zh">美中，印太，到兩岸。全球新聞不漏接</desc>
   </programme>
-  <programme start="20260120010000 +0800" stop="20260120013000 +0800" channel="litv-ftv13">
-    <title lang="zh">民視英語新聞</title>
-    <desc lang="zh">由專業英語主播播報，以最客觀的角度，以及清晰的英語發音，報導當天最重要的新聞時事、生活趣聞，想增進新聞英文聽力的朋友們，切記要收看喔！</desc>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120023000 +0800" channel="litv-ftv13">
-    <title lang="zh">台灣看世界</title>
-    <desc lang="zh">民視新聞部播出新聞特輯。</desc>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120033000 +0800" channel="litv-ftv13">
-    <title lang="zh">民視晚間新聞</title>
-    <desc lang="zh">民視新聞堅持內容公正、報導深入、關懷在地，期望獲得民眾信賴與肯定。由多名優秀主播播報，為您帶來即時新聞。</desc>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120053000 +0800" channel="litv-ftv13">
-    <title lang="zh">台灣最前線</title>
-    <desc lang="zh">全國第一個專屬國會的政論節目！立法院議事現場直播加節目，國會議事透明化，讓人民了解法案立法、預算審查進行現況，擺脫黑箱作業，使立法院真正成為人民的立法院！</desc>
-  </programme>
   <programme start="20260120053000 +0800" stop="20260120060000 +0800" channel="litv-ftv13">
     <title lang="zh">民視午夜新聞</title>
     <desc lang="zh">民視新聞堅持內容公正、報導深入、關懷在地，期望獲得民眾信賴與肯定。由多名優秀主播播報，為您帶來即時新聞。</desc>
@@ -1378,26 +1311,6 @@
     <title lang="zh">民視午夜新聞</title>
     <desc lang="zh">民視新聞堅持內容公正、報導深入、關懷在地，期望獲得民眾信賴與肯定。由多名優秀主播播報，為您帶來即時新聞。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv153">
-    <title lang="zh">理財達人秀</title>
-    <desc lang="zh">全台灣最精采好懂的理財影片！保險、股市、房地產、基金、投資觀念，最實用的知識一看就通！投資新手到專家的討論園地。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv153">
-    <title lang="zh">重案組</title>
-    <desc lang="zh">集結國內重大社會案件，以故事的方式呈現給觀眾，盼能從其借鏡。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv153">
-    <title lang="zh">現代啟示錄</title>
-    <desc lang="zh">過去發生的經濟、金融問題，帶給現代的人們什麼樣的啟示？節目中系列專題報導，要用過去的經驗告訴人們，我們現在面臨的問題將如何解決。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv153">
-    <title lang="zh">台灣大代誌</title>
-    <desc lang="zh">東森電視製播的新聞性報導類型雜誌節目，呈現為多元綜合類型，並分為四大主軸，包含民間蒐奇、藝人故事、傳統產業以及台灣大事紀等單元。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv153">
-    <title lang="zh">打卡吧！我的炫food日記</title>
-    <desc lang="zh">《打卡吧！我的炫FOOD日記》由主持人以行腳的方式，主題式的造訪各地。不只介紹美食，也將各地的人文風情與節日祭典等，一併呈現在觀眾眼前，以時下年輕人最時興的FB及IG打卡，創造新亮點及網路點擊率</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv153">
     <title lang="zh">理財達人秀</title>
     <desc lang="zh">全台灣最精采好懂的理財影片！保險、股市、房地產、基金、投資觀念，最實用的知識一看就通！投資新手到專家的討論園地。</desc>
@@ -1618,22 +1531,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv153">
     <title lang="zh">夢想街57號-預約你的夢想</title>
     <desc lang="zh">提供最新最即時的新車資訊、邀請汽車達人分享試車報告，同時幫觀眾做最仔細的車款集評！還有專家分享最實用、最省錢的愛車維修撇步，甚至將難得一見的限量車、改裝車直接搬到棚內！汽車節目，不再只是純座談的方式，而是將更專業、更豐富、更多元化的內容呈現給觀眾。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="4gtv-4gtv010">
-    <title lang="zh">非凡深夜新聞</title>
-    <desc lang="zh">財經補給站，統合整理台股走勢與籌碼變化、追蹤國際股匯市、全球頭條要聞、提供投資理財新觀念。</desc>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv010">
-    <title lang="zh">錢線百分百</title>
-    <desc lang="zh">告訴你股市趨勢、外資動態、基金動向，全方位的財經資訊和金融知識，和財經專家一起討論，讓你晉升財經達人！</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv010">
-    <title lang="zh">非凡深夜新聞</title>
-    <desc lang="zh">財經補給站，統合整理台股走勢與籌碼變化、追蹤國際股匯市、全球頭條要聞、提供投資理財新觀念。</desc>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv010">
-    <title lang="zh">錢線百分百</title>
-    <desc lang="zh">告訴你股市趨勢、外資動態、基金動向，全方位的財經資訊和金融知識，和財經專家一起討論，讓你晉升財經達人！</desc>
   </programme>
   <programme start="20260120060000 +0800" stop="20260120070000 +0800" channel="4gtv-4gtv010">
     <title lang="zh">非凡六點晨間新聞</title>
@@ -1894,45 +1791,6 @@
   <programme start="20260122233000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv010">
     <title lang="zh">非凡十一點夜線新聞</title>
     <desc lang="zh">即時提供給你最實用的財經生活訊息，讓你隨時掌握最新新聞消息、重大新聞轉播報導。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="litv-ftv16">
-    <title lang="zh">寇住幸福</title>
-    <desc lang="zh">因現代人娛樂方式改變，媒體宣教更成為重要的傳福音管道。GOOD TV發現如今有更多人駐足在網路上，因此投入製作合乎網路媒體特性的節目，《寇住幸福》應運而生！由寇紹恩牧師主持，節目結合精彩的家庭生活短劇、動人的詩歌音樂與信息分享。</desc>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120003500 +0800" channel="litv-ftv16">
-    <title lang="zh">遇見祝福</title>
-  </programme>
-  <programme start="20260120003500 +0800" stop="20260120013000 +0800" channel="litv-ftv16">
-    <title lang="zh">真情部落格</title>
-    <desc lang="zh">廣受海內外觀眾歡迎的真情部落格，由知名主播夏嘉璐主持，莊信德牧師回應，透過每位來賓的生命見證幫助許多人走出低谷。相信神繼續透過真情部落格祝福這世代的華人。</desc>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="litv-ftv16">
-    <title lang="zh">福氣人生</title>
-    <desc lang="zh">如何才能擁有福氣人生?看牧師們以台語分享聖經的真理，讓你領受天國滿滿的福氣與祝福。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120020500 +0800" channel="litv-ftv16">
-    <title lang="zh">恩典365</title>
-    <desc lang="zh">跟著寇紹恩牧師，每天五分鐘，領受上帝的話語，在實際生活中行出來，讓我們天天浸泡在上帝的愛和恩典裡面。</desc>
-  </programme>
-  <programme start="20260120020500 +0800" stop="20260120023000 +0800" channel="litv-ftv16">
-    <title lang="zh">經典音樂河</title>
-    <desc lang="zh">古典聖詩具有歷久彌新、感人至深的迷人特質。即使經過百年，這些詩歌所蘊含的生命力，仍繼續向人們訴說上帝的榮耀作為和救贖恩典。</desc>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120030000 +0800" channel="litv-ftv16">
-    <title lang="zh">恩雨之聲</title>
-    <desc lang="zh">由梁燕城博士和譚品立牧師共同主持，帶領觀眾走訪世界各地，廣覽基督教遺跡，深度探討文化根源，浩瀚風光，令人眼界大開。（GOODTV提供）</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="litv-ftv16">
-    <title lang="zh">豐盛人生</title>
-    <desc lang="zh">基督徒必看節目，特邀國內外講員，為教友帶來精闢信息，傳達神的信息。</desc>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="litv-ftv16">
-    <title lang="zh">生命轉折點</title>
-    <desc lang="zh">大衛耶利米牧師以其精闢、嚴謹、深入淺出的證道內容為基礎，傳遞上帝永不改變的真理。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="litv-ftv16">
-    <title lang="zh">真情部落格</title>
-    <desc lang="zh">廣受海內外觀眾歡迎的真情部落格，由知名主播夏嘉璐主持，莊信德牧師回應，透過每位來賓的生命見證幫助許多人走出低谷。相信神繼續透過真情部落格祝福這世代的華人。</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120053000 +0800" channel="litv-ftv16">
     <title lang="zh">禱告大軍迎接復興</title>
@@ -2478,26 +2336,6 @@
     <title lang="zh">神選之人</title>
     <desc lang="zh">改編自耶穌生平。以聖經故事為根基，背景設定於西元一世紀的以色列，在猶太人受到羅馬政府壓迫的環境下，讓觀眾看見一個有別於過往以耶穌為主軸的信仰影集，透過那些「遇見耶穌之人的雙眼」來描繪耶穌的生活和行事。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120020500 +0800" channel="4gtv-4gtv048">
-    <title lang="zh">股市現場</title>
-    <desc lang="zh">每日帶你一起體檢台股表現，由專家解讀當天盤勢，分析所有影響股市的政經情勢，提供你最完整的盤後整合訊息。</desc>
-  </programme>
-  <programme start="20260120020500 +0800" stop="20260120023500 +0800" channel="4gtv-4gtv048">
-    <title lang="zh">非凡新聞通</title>
-    <desc lang="zh">第一手的盤後數字揭曉，明日盤前不得不知的教戰守則，股市數字不再艱深難懂，讓您投資理財即時通。</desc>
-  </programme>
-  <programme start="20260120023500 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv048">
-    <title lang="zh">全球新觀點</title>
-    <desc lang="zh">一同掌握全球經濟脈絡，探討哪些新的觀題造成全球經濟的變化，而這樣的變化又會為未來帶來什麼樣的影響呢?</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040500 +0800" channel="4gtv-4gtv048">
-    <title lang="zh">全球財經世界報導</title>
-    <desc lang="zh">最專業的金融內容、全球財經報導看非凡。</desc>
-  </programme>
-  <programme start="20260120040500 +0800" stop="20260120043500 +0800" channel="4gtv-4gtv048">
-    <title lang="zh">非凡新聞通</title>
-    <desc lang="zh">第一手的盤後數字揭曉，明日盤前不得不知的教戰守則，股市數字不再艱深難懂，讓您投資理財即時通。</desc>
-  </programme>
   <programme start="20260120043500 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv048">
     <title lang="zh">全球新觀點</title>
     <desc lang="zh">一同掌握全球經濟脈絡，探討哪些新的觀題造成全球經濟的變化，而這樣的變化又會為未來帶來什麼樣的影響呢?</desc>
@@ -2802,22 +2640,6 @@
     <title lang="zh">全球財經世界報導</title>
     <desc lang="zh">最專業的金融內容、全球財經報導看非凡。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv158">
-    <title lang="zh">古今風雲</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv158">
-    <title lang="zh">巷弄美食家</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv158">
-    <title lang="zh">小食光台味誌</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv158">
-    <title lang="zh">美食打卡趣</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv158">
-    <title lang="zh">銅板美食呷透透</title>
-    <desc lang="zh">東森新聞製播的美食特輯，記者深入台灣各地，尋找令人回味無窮的美食記憶，介紹各種好吃又便宜的店家。</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv158">
     <title lang="zh">巷弄美食家</title>
   </programme>
@@ -3040,12 +2862,6 @@
     <title lang="zh">關鍵時刻</title>
     <desc lang="zh">行政院勞工委員會勞工安全衛生研究所製作的3D立體動畫「關鍵時刻」，於第十八屆世界職業安全衛生大會榮獲國際安全衛生影片首獎，大會並以「非常創新的手法」盛讚得獎單位-行政院勞委會勞工安全衛生研究所，對於職場安全衛生教育宣導所做出的貢獻。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv101">
-    <title lang="zh">2025舞藝盃全國舞蹈大賽</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv101">
-    <title lang="zh">休播</title>
-  </programme>
   <programme start="20260120060000 +0800" stop="20260120081500 +0800" channel="4gtv-4gtv101">
     <title lang="zh">114學年高中鋁棒組 16強戰 鶯歌工商 vs 南英商工</title>
   </programme>
@@ -3114,27 +2930,6 @@
   </programme>
   <programme start="20260122233500 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv101">
     <title lang="zh">Supercars 第3集</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120004000 +0800" channel="4gtv-4gtv102">
-    <title lang="zh">1/1-1/31全月消費實付滿5,000元送【500元現金券】(每人限贈1次)。</title>
-  </programme>
-  <programme start="20260120004000 +0800" stop="20260120012000 +0800" channel="4gtv-4gtv102">
-    <title lang="zh">鎖定CH.43、CH.49選購</title>
-  </programme>
-  <programme start="20260120012000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv102">
-    <title lang="zh">1/1-1/31全月消費實付滿5,000元送【500元現金券】(每人限贈1次)。</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120024000 +0800" channel="4gtv-4gtv102">
-    <title lang="zh">鎖定CH.43、CH.49選購</title>
-  </programme>
-  <programme start="20260120024000 +0800" stop="20260120032000 +0800" channel="4gtv-4gtv102">
-    <title lang="zh">1/1-1/31全月消費實付滿5,000元送【500元現金券】(每人限贈1次)。</title>
-  </programme>
-  <programme start="20260120032000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv102">
-    <title lang="zh">鎖定CH.43、CH.49選購</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120044000 +0800" channel="4gtv-4gtv102">
-    <title lang="zh">1/1-1/31全月消費實付滿5,000元送【500元現金券】(每人限贈1次)。</title>
   </programme>
   <programme start="20260120044000 +0800" stop="20260120052000 +0800" channel="4gtv-4gtv102">
     <title lang="zh">鎖定CH.43、CH.49選購</title>
@@ -3439,27 +3234,6 @@
   <programme start="20260122232000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv102">
     <title lang="zh">鎖定CH.43、CH.49選購</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120004000 +0800" channel="4gtv-4gtv103">
-    <title lang="zh">1/1-1/31全月消費實付滿5,000元送【500元現金券】(每人限贈1次)。</title>
-  </programme>
-  <programme start="20260120004000 +0800" stop="20260120012000 +0800" channel="4gtv-4gtv103">
-    <title lang="zh">鎖定CH.43、CH.49選購</title>
-  </programme>
-  <programme start="20260120012000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv103">
-    <title lang="zh">1/1-1/31全月消費實付滿5,000元送【500元現金券】(每人限贈1次)。</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120024000 +0800" channel="4gtv-4gtv103">
-    <title lang="zh">鎖定CH.43、CH.49選購</title>
-  </programme>
-  <programme start="20260120024000 +0800" stop="20260120032000 +0800" channel="4gtv-4gtv103">
-    <title lang="zh">1/1-1/31全月消費實付滿5,000元送【500元現金券】(每人限贈1次)。</title>
-  </programme>
-  <programme start="20260120032000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv103">
-    <title lang="zh">鎖定CH.43、CH.49選購</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120044000 +0800" channel="4gtv-4gtv103">
-    <title lang="zh">1/1-1/31全月消費實付滿5,000元送【500元現金券】(每人限贈1次)。</title>
-  </programme>
   <programme start="20260120044000 +0800" stop="20260120052000 +0800" channel="4gtv-4gtv103">
     <title lang="zh">鎖定CH.43、CH.49選購</title>
   </programme>
@@ -3763,26 +3537,6 @@
   <programme start="20260122232000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv103">
     <title lang="zh">鎖定CH.43、CH.49選購</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv074">
-    <title lang="zh">中視新聞即時現場</title>
-    <desc lang="zh">由主播蕭惠文播報，以SNG車讓觀眾看到最即時的新聞報導，並以最客觀的角度，為觀眾完整報導上午發生之重要新聞。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv074">
-    <title lang="zh">新庶民大頭家</title>
-    <desc lang="zh">中視新聞全新政論節目，每日帶給你超勁爆話題討論，歡迎庶民們一起來follow。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv074">
-    <title lang="zh">新庶民大頭家</title>
-    <desc lang="zh">中視新聞全新政論節目，每日帶給你超勁爆話題討論，歡迎庶民們一起來follow。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv074">
-    <title lang="zh">收播</title>
-    <desc lang="zh">目前無播出節目。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv074">
-    <title lang="zh">中視新聞即時現場</title>
-    <desc lang="zh">由主播蕭惠文播報，以SNG車讓觀眾看到最即時的新聞報導，並以最客觀的角度，為觀眾完整報導上午發生之重要新聞。</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv074">
     <title lang="zh">中視新聞全球報導</title>
     <desc lang="zh">中視每晚七點由主播哈遠儀為全國觀眾最專業、準確的新聞報導。</desc>
@@ -4051,22 +3805,6 @@
     <title lang="zh">中視新聞全球報導</title>
     <desc lang="zh">中視每晚七點由主播哈遠儀為全國觀眾最專業、準確的新聞報導。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="4gtv-4gtv056">
-    <title lang="zh">財經新聞通</title>
-    <desc lang="zh">台視新聞部特別企劃，為大家帶來最新的財經新聞。</desc>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv056">
-    <title lang="zh">國際財經脈動</title>
-    <desc lang="zh">由台視專業團隊，帶你了解國際財經脈動。</desc>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv056">
-    <title lang="zh">熱線追蹤</title>
-    <desc lang="zh">由台視主播擔任主持人，以時事熱門新聞為主，專題深入、著重人物的報導，為觀眾報導各種和國民相關的重大新聞。</desc>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv056">
-    <title lang="zh">錢線百分百</title>
-    <desc lang="zh">告訴你股市趨勢、外資動態、基金動向，全方位的財經資訊和金融知識，和財經專家一起討論，讓你晉升財經達人！</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120053000 +0800" channel="4gtv-4gtv056">
     <title lang="zh">全球新觀點</title>
     <desc lang="zh">一同掌握全球經濟脈絡，探討哪些新的觀題造成全球經濟的變化，而這樣的變化又會為未來帶來什麼樣的影響呢?</desc>
@@ -4258,19 +3996,6 @@
   <programme start="20260122233000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv056">
     <title lang="zh">全球新觀點</title>
     <desc lang="zh">一同掌握全球經濟脈絡，探討哪些新的觀題造成全球經濟的變化，而這樣的變化又會為未來帶來什麼樣的影響呢?</desc>
-  </programme>
-  <programme start="20260120010800 +0800" stop="20260120012400 +0800" channel="4gtv-4gtv059">
-    <title lang="zh">J.D. 海尼興：A大調聖母頌歌</title>
-  </programme>
-  <programme start="20260120012400 +0800" stop="20260120030900 +0800" channel="4gtv-4gtv059">
-    <title lang="zh">吉賽兒</title>
-    <desc lang="zh">台北室內芭蕾舞團繼「門」之後，推出《吉賽兒》（Giselle）做為創團五週年製作。《吉賽兒》是個浪漫簡單的愛情故事，但劇中因社會階級不平等而造成悲劇以及主角對真愛的永恆不移，這樣的命題卻是古今皆然，所以編舞家余能盛把故事精神拉到現代，賦予古典芭蕾新的詮釋。</desc>
-  </programme>
-  <programme start="20260120030900 +0800" stop="20260120035900 +0800" channel="4gtv-4gtv059">
-    <title lang="zh">礦業交響樂團：團慶音樂會  第二部</title>
-  </programme>
-  <programme start="20260120035900 +0800" stop="20260120050200 +0800" channel="4gtv-4gtv059">
-    <title lang="zh">普雷特涅夫指揮比才與拉威爾第一號鋼琴協奏曲</title>
   </programme>
   <programme start="20260120050200 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv059">
     <title lang="zh">布拉姆斯：小提琴協奏曲與《大學慶典》序曲</title>
@@ -4500,14 +4225,6 @@
   <programme start="20260122235400 +0800" stop="20260123005700 +0800" channel="4gtv-4gtv059">
     <title lang="zh">貝多芬：第一、十四與卅二號鋼琴奏鳴曲</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120030000 +0800" channel="litv-xinchuang10">
-    <title lang="zh">2024/25世界司諾克巡迴賽</title>
-    <desc lang="zh">2024–25司諾克賽季是在2024年8月至2025年5月期間舉行的一系列職業司諾克比賽。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang10">
-    <title lang="zh">2024/25世界司諾克巡迴賽</title>
-    <desc lang="zh">2024–25司諾克賽季是在2024年8月至2025年5月期間舉行的一系列職業司諾克比賽。</desc>
-  </programme>
   <programme start="20260120060000 +0800" stop="20260120090000 +0800" channel="litv-xinchuang10">
     <title lang="zh">2025/26世界司諾克巡迴賽</title>
     <desc lang="zh">司諾克，一種撞球的比賽模式。選手在開球後依照一紅球一色球的順序，將所有球打進球袋以贏取積分和勝利。本節目為2025至2026年世界司諾克巡迴賽賽事。</desc>
@@ -4595,14 +4312,6 @@
   <programme start="20260122210000 +0800" stop="20260123000000 +0800" channel="litv-xinchuang10">
     <title lang="zh">2025/26世界司諾克巡迴賽</title>
     <desc lang="zh">司諾克，一種撞球的比賽模式。選手在開球後依照一紅球一色球的順序，將所有球打進球袋以贏取積分和勝利。本節目為2025至2026年世界司諾克巡迴賽賽事。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="litv-xinchuang04">
-    <title lang="zh">WTA新視界</title>
-    <desc lang="zh">職業女子網球界近期賽事精華、新聞趣事等集錦。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120043000 +0800" channel="litv-xinchuang04">
-    <title lang="zh">2025 WTA女子網球巡迴賽</title>
-    <desc lang="zh">2025年WTA巡迴賽日曆包括四大滿貫賽事（由國際網球總會(ITF)監督）、WTA1000巡迴賽、WTA500巡迴賽、WTA250巡迴賽和年終錦標賽，以及與ATP合辦的混合團體賽事聯合杯。</desc>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang04">
     <title lang="zh">2026 WTA女子網球巡迴賽</title>
@@ -4791,44 +4500,6 @@
   <programme start="20260122210000 +0800" stop="20260123083000 +0800" channel="litv-xinchuang09">
     <title lang="zh">2026澳洲網球公開賽</title>
     <desc lang="zh">澳洲網球公開賽是網球四大滿貫賽事之一，也是四大滿貫賽事中每年最先登場的，使用硬地作為場地。賽事由國際網球聯合會（ITF）和澳網官方委員會聯合負責。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120001500 +0800" channel="litv-ftv17">
-    <title lang="zh">經典音樂河</title>
-    <desc lang="zh">古典聖詩具有歷久彌新、感人至深的迷人特質。即使經過百年，這些詩歌所蘊含的生命力，仍繼續向人們訴說上帝的榮耀作為和救贖恩典。</desc>
-  </programme>
-  <programme start="20260120001500 +0800" stop="20260120004500 +0800" channel="litv-ftv17">
-    <title lang="zh">禱告大軍迎接復興</title>
-    <desc lang="zh">好消息電視台為全球信徒提供一個大家共同禱告的園地，由來自各地的牧師帶領觀眾進行禱告，節選聖經中切合人生際遇的章節，為各位教友傳達神的旨意，灌溉心靈園地。</desc>
-  </programme>
-  <programme start="20260120004500 +0800" stop="20260120005500 +0800" channel="litv-ftv17">
-    <title lang="zh">恩典365</title>
-    <desc lang="zh">跟著寇紹恩牧師，每天五分鐘，領受上帝的話語，在實際生活中行出來，讓我們天天浸泡在上帝的愛和恩典裡面。</desc>
-  </programme>
-  <programme start="20260120005500 +0800" stop="20260120010000 +0800" channel="litv-ftv17">
-    <title lang="zh">遇見祝福</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120015000 +0800" channel="litv-ftv17">
-    <title lang="zh">家庭８點檔轉轉發現愛</title>
-  </programme>
-  <programme start="20260120015000 +0800" stop="20260120020000 +0800" channel="litv-ftv17">
-    <title lang="zh">機智青年生活</title>
-    <desc lang="zh">這不是韓劇，而是正上演的一齣充滿血淚與美好友誼的熱血植堂連續劇 ！旌旗好生活邀請到三對青年牧師CP，來聊聊由上帝導演，引領青年教會及一群青年團隊，經歷瘋狂又精彩的植堂人生！</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="litv-ftv17">
-    <title lang="zh">道在人間(國)</title>
-    <desc lang="zh">節目中邀請趙鏞基、葉光明、傑克海福德、喬依絲邁爾等，國內外知名牧長，以豐富的服事經歷與紮實的神學裝備，教導、傳講聖經真道，堅固信徒並警醒人心。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="litv-ftv17">
-    <title lang="zh">空中聖經學院</title>
-    <desc lang="zh">由GOOD TV和中華福音神學院共同製作推出。這是歷史性的一刻，神的話語要透過衛星傳送至全世界，實現平信徒神學教育之夢。 </desc>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="litv-ftv17">
-    <title lang="zh">生命的觸動</title>
-    <desc lang="zh">在像是查爾斯史丹利牧師等知名事工或牧師引領下，帶領教友導讀聖經，以深入淺出的話語，引用聖經中的智慧，宣揚上帝啟示。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="litv-ftv17">
-    <title lang="zh">大衛鮑森講座</title>
-    <desc lang="zh">聖經權威大衛鮑森牧師，帶你以宏觀的神學角度，觀看神偉大的神性與恩典，並從其中明白救恩計畫的重要。</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120050500 +0800" channel="litv-ftv17">
     <title lang="zh">恩典365</title>
@@ -5303,10 +4974,6 @@
     <title lang="zh">愛＋好醫生</title>
     <desc lang="zh">結合醫療專業及全人關懷的新型態節目，主持人黃瑽寧醫師親訪家庭，跨領域醫療顧問團全方位檢視，提供最完整、實用和正確的資訊來守護孩子的健康。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120050000 +0800" channel="litv-xinchuang05">
-    <title lang="zh">2025/26歐洲高球巡迴賽</title>
-    <desc lang="zh">全新賽季的歐巡高球賽將在11/27展開，這將是歐巡賽的第55個賽季，歐巡賽是自1972年首個賽季以來，歐洲主要的職業高爾夫巡迴賽。</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120100000 +0800" channel="litv-xinchuang05">
     <title lang="zh">2024/25歐洲高球巡迴賽</title>
     <desc lang="zh">全新賽季的歐巡高球賽將在11/21展開，這將是歐巡賽的第54個賽季，歐巡賽是自1972年首個賽季以來，歐洲主要的職業高爾夫巡迴賽。</desc>
@@ -5362,14 +5029,6 @@
   <programme start="20260122213000 +0800" stop="20260123003000 +0800" channel="litv-xinchuang05">
     <title lang="zh">2026 PGA高球系列賽</title>
     <desc lang="zh">2026 PGA高球系列賽開賽，精彩賽事不可錯過!</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120030000 +0800" channel="litv-xinchuang08">
-    <title lang="zh">2025/26台灣職業籃球大聯盟賽季</title>
-    <desc lang="zh">2025-26賽季為台灣職業籃球大聯盟（TPBL）的第二個賽季，該賽季共有七支隊伍參賽。例行賽於2025年10月11日至2026年5月3日舉辦。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120050000 +0800" channel="litv-xinchuang08">
-    <title lang="zh">2025/26台灣職業籃球大聯盟賽季</title>
-    <desc lang="zh">2025-26賽季為台灣職業籃球大聯盟（TPBL）的第二個賽季，該賽季共有七支隊伍參賽。例行賽於2025年10月11日至2026年5月3日舉辦。</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120070000 +0800" channel="litv-xinchuang08">
     <title lang="zh">2025/26台灣職業籃球大聯盟賽季</title>
@@ -5506,18 +5165,6 @@
   <programme start="20260122230000 +0800" stop="20260123010000 +0800" channel="litv-xinchuang08">
     <title lang="zh">2025/26台灣職業籃球大聯盟賽季</title>
     <desc lang="zh">2025-26賽季為台灣職業籃球大聯盟（TPBL）的第二個賽季，該賽季共有七支隊伍參賽。例行賽於2025年10月11日至2026年5月3日舉辦。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120020000 +0800" channel="iNEWS">
-    <title lang="zh">關我什麼事</title>
-    <desc lang="zh">iNEWS財經台製播財經資訊節目，不只是股市匯市，錢的事都關你的事！陳斐娟主持，《關我什麼事》帶您搞懂投資大小事！</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="iNEWS">
-    <title lang="zh">2300iNEWS財經夜世界</title>
-    <desc lang="zh">三立iNEWS製播的財經新聞節目，由最專業的財經主播帶來國際時事、財經股匯市報導、深度新聞、時事評論…等內容。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120050000 +0800" channel="iNEWS">
-    <title lang="zh">1819錢進大頭條</title>
-    <desc lang="zh">三立iNEWS製播的財經新聞節目，由最專業的財經主播帶來國際時事、財經股匯市報導、深度新聞及時事評論…等內容。</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="iNEWS">
     <title lang="zh">iNEWS1600整點新聞</title>
@@ -5743,26 +5390,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="iNEWS">
     <title lang="zh">2300iNEWS財經夜世界</title>
     <desc lang="zh">三立iNEWS製播的財經新聞節目，由最專業的財經主播帶來國際時事、財經股匯市報導、深度新聞、時事評論…等內容。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv051">
-    <title lang="zh">晚安台灣</title>
-    <desc lang="zh">台視新聞團隊整合當天即時新聞，讓觀眾掌握時事脈動。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv051">
-    <title lang="zh">台視新聞世界報導</title>
-    <desc lang="zh">由台視主播從您的觀點看新聞，提供今日世界新聞，拓展觀眾視野。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv051">
-    <title lang="zh">台視晚間新聞</title>
-    <desc lang="zh">由最專業的台視主播，每日為觀眾提供即時新聞與專業的追蹤報導。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv051">
-    <title lang="zh">台視夜線新聞</title>
-    <desc lang="zh">台視新聞團隊整合當天即時新聞，讓觀眾掌握時事脈動。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv051">
-    <title lang="zh">國際財經脈動</title>
-    <desc lang="zh">由台視專業團隊，帶你了解國際財經脈動。</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv051">
     <title lang="zh">益起看世界</title>
@@ -6039,48 +5666,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv051">
     <title lang="zh">台視夜線新聞</title>
     <desc lang="zh">台視新聞團隊整合當天即時新聞，讓觀眾掌握時事脈動。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120002400 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">神秘大探索系列：絕讚星球－生態藝術家</title>
-  </programme>
-  <programme start="20260120002400 +0800" stop="20260120003000 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">科學爆好玩－色彩爆好玩</title>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120005400 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">神秘大探索系列：絕讚星球－大堡礁的科學</title>
-  </programme>
-  <programme start="20260120005400 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">科學爆好玩－艾瑞克、地圖和指南針</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120012100 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">動物大使館－小丑魚與白虎</title>
-  </programme>
-  <programme start="20260120012100 +0800" stop="20260120012400 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">科學爆好玩－摩擦力和現實</title>
-  </programme>
-  <programme start="20260120012400 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">科學爆好玩－白努利和同伴</title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">冰上新星－嶄新開始</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">冰上新星－重新上路</title>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120025400 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">大地探險隊：一起來場野性之旅－找尋白眼睛</title>
-  </programme>
-  <programme start="20260120025400 +0800" stop="20260120031800 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">大地探險隊：一起來場野性之旅－非洲之角</title>
-  </programme>
-  <programme start="20260120031800 +0800" stop="20260120034200 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">動物大使館－拉法的一天</title>
-  </programme>
-  <programme start="20260120034200 +0800" stop="20260120040300 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">動物大使館－大猩猩醫腳</title>
-  </programme>
-  <programme start="20260120040300 +0800" stop="20260120041200 +0800" channel="4gtv-4gtv018">
-    <title lang="zh">柔伊與麥洛的世界之旅－阿拉斯加之旅</title>
   </programme>
   <programme start="20260120041200 +0800" stop="20260120041800 +0800" channel="4gtv-4gtv018">
     <title lang="zh">柔伊與麥洛的世界之旅－捷克共和國之旅</title>
@@ -7003,36 +6588,6 @@
   <programme start="20260122233000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv018">
     <title lang="zh">小小獸醫－優勝者是…</title>
   </programme>
-  <programme start="20260119235000 +0800" stop="20260120000000 +0800" channel="4gtv-4gtv016">
-    <title lang="zh">哈燒藝人  (Lee Boyoung)-Lee Boyoung</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120005000 +0800" channel="4gtv-4gtv016">
-    <title lang="zh">韓綜精選</title>
-  </programme>
-  <programme start="20260120005000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv016">
-    <title lang="zh">哈燒藝人  (Kim Sohyun)-Kim Sohyun</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120015000 +0800" channel="4gtv-4gtv016">
-    <title lang="zh">韓綜精選</title>
-  </programme>
-  <programme start="20260120015000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv016">
-    <title lang="zh">哈燒藝人  (Lee Junho)-Lee Junho</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120025000 +0800" channel="4gtv-4gtv016">
-    <title lang="zh">韓綜精選</title>
-  </programme>
-  <programme start="20260120025000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv016">
-    <title lang="zh">哈燒藝人  (Lee Dong Wook)-Lee Dong Wook</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120035000 +0800" channel="4gtv-4gtv016">
-    <title lang="zh">韓綜精選</title>
-  </programme>
-  <programme start="20260120035000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv016">
-    <title lang="zh">哈燒藝人  (Lee Boyoung)-Lee Boyoung</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120045000 +0800" channel="4gtv-4gtv016">
-    <title lang="zh">韓綜精選</title>
-  </programme>
   <programme start="20260120045000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv016">
     <title lang="zh">哈燒藝人  (Kim Sohyun)-Kim Sohyun</title>
   </programme>
@@ -7402,14 +6957,6 @@
   <programme start="20260122235000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv016">
     <title lang="zh">哈燒藝人  (Yeom Jungah)-Yeom Jungah</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120040000 +0800" channel="litv-xinchuang06">
-    <title lang="zh">2025 LPGA高球賽</title>
-    <desc lang="zh">2025年LPGA巡迴賽是女子職業高爾夫球的頂級賽事，預計將舉辦至少35場比賽，遍及12個以上的國家。賽季於1月30日在佛羅里達州奧蘭多揭幕，於11月23日在佛羅里達州那不勒斯結束。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120080000 +0800" channel="litv-xinchuang06">
-    <title lang="zh">2025亞洲高球巡迴賽</title>
-    <desc lang="zh">「2025年亞洲高爾夫巡迴賽」是亞洲地區的主要職業高爾夫巡迴賽，預計舉辦22場比賽，首站將於1月30日至2月2日在印度的DLF高爾夫鄉村俱樂部舉行。停辦六年的菲律賓公開賽也將重返賽程。引來自世界各地的頂尖球員參加，提供豐厚的獎金和積分，對職業高爾夫球員而言，是一個重要的競技平台。</desc>
-  </programme>
   <programme start="20260120080000 +0800" stop="20260120100000 +0800" channel="litv-xinchuang06">
     <title lang="zh">2025奧古斯塔女子業餘錦標賽</title>
     <desc lang="zh">奧古斯塔國家女子業餘錦標賽自2019年首度舉辦，比賽僅限定72人參賽，由主辦單位參考當年的業餘世界排名，以及具有潛力的優秀業餘球員發出邀請函，賽制共進行3回合，前2回合結束後，只取30名球員晉級最終回合，比賽場地也會移至全球最有名的奧古斯塔俱樂部舉辦，這也是美國名人賽的舉辦場地。</desc>
@@ -7481,60 +7028,6 @@
   <programme start="20260122200000 +0800" stop="20260123000000 +0800" channel="litv-xinchuang06">
     <title lang="zh">2025 LPGA高球賽</title>
     <desc lang="zh">2025年LPGA巡迴賽是女子職業高爾夫球的頂級賽事，預計將舉辦至少35場比賽，遍及12個以上的國家。賽季於1月30日在佛羅里達州奧蘭多揭幕，於11月23日在佛羅里達州那不勒斯結束。</desc>
-  </programme>
-  <programme start="20260119235400 +0800" stop="20260120000000 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">00384 Hair and Make-up Fashion Exposed ELAINE SHOBANJO Exclusive Interview for ShoMya 150817 PMNB</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120002300 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">K POP DANCE ACADEMY 08</title>
-  </programme>
-  <programme start="20260120002300 +0800" stop="20260120004700 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">K POP DANCE ACADEMY 09</title>
-  </programme>
-  <programme start="20260120004700 +0800" stop="20260120011000 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">K POP DANCE ACADEMY 10</title>
-  </programme>
-  <programme start="20260120011000 +0800" stop="20260120011300 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">00388 Swimwear Fashion Exposed FILTHY HAANZ Swimmiami 2016 Collections 150827 Rev PMNB</title>
-  </programme>
-  <programme start="20260120011300 +0800" stop="20260120013700 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">K POP DANCE ACADEMY 11</title>
-  </programme>
-  <programme start="20260120013700 +0800" stop="20260120014300 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">00389 Swimwear Fashion Exposed MIAMI ART INSTITUTE Fashion Show 2015 Miami 150817 PMNB</title>
-  </programme>
-  <programme start="20260120014300 +0800" stop="20260120020500 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">K POP DANCE ACADEMY 12</title>
-  </programme>
-  <programme start="20260120020500 +0800" stop="20260120020900 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">00626 Swimwear Fashion Exposed PROFILE BY GOTTEX CRUISE SwimMiami 2016 Collections PMNB</title>
-  </programme>
-  <programme start="20260120020900 +0800" stop="20260120023200 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">K POP DANCE ACADEMY 13</title>
-  </programme>
-  <programme start="20260120023200 +0800" stop="20260120023700 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">00627 Swimwear Fashion Exposed ROBB   LULU Funkshion Fashion Week Miami Beach SwimCollection 2016 PMNB</title>
-  </programme>
-  <programme start="20260120023700 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">K POP DANCE ACADEMY 14</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120030400 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">00628 Swimwear Fashion Exposed SAN LORENZO BIKINIS SwimMiami 2016 Collections PMNB</title>
-  </programme>
-  <programme start="20260120030400 +0800" stop="20260120032700 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">K POP DANCE ACADEMY 15</title>
-  </programme>
-  <programme start="20260120032700 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">00631 Swimwear Fashion Exposed WELCOME TO MIAMI Ohini Swim Debut Collection 2016 PMNB</title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120035300 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">K POP DANCE ACADEMY 16</title>
-  </programme>
-  <programme start="20260120035300 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">00897 Swimwear Fashion Exposed MIA MARCELLE SwimMiami 2016 Collections 150902 PMNB</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120042500 +0800" channel="4gtv-4gtv014">
-    <title lang="zh">K-POP Dance Sketch 2 08</title>
   </programme>
   <programme start="20260120042500 +0800" stop="20260120043000 +0800" channel="4gtv-4gtv014">
     <title lang="zh">00941 Swimwear Fashion Exposed ACACIA Funkshion Fashion Week Miami Beach Swim Collection 2016 150904 PMNB</title>
@@ -8289,42 +7782,6 @@
   <programme start="20260122235600 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv014">
     <title lang="zh">00948 Swimwear Fashion Exposed INDAH SwimMiami Collections 2016 150904 PMNB</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="litv-xinchuang01">
-    <title lang="zh">歡唱小浣熊</title>
-    <desc lang="zh">七隻頑皮小浣熊在神奇音樂盒開啟歡樂冒險！每集獻上趣味充滿想像力的歌曲，讓孩子快樂學習！透過語言遊戲激發創意、豐富詞彙！快來加入這場音樂與知識的奇妙盛宴吧！</desc>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120010000 +0800" channel="litv-xinchuang01">
-    <title lang="zh">歡唱小浣熊</title>
-    <desc lang="zh">七隻頑皮小浣熊在神奇音樂盒開啟歡樂冒險！每集獻上趣味充滿想像力的歌曲，讓孩子快樂學習！透過語言遊戲激發創意、豐富詞彙！快來加入這場音樂與知識的奇妙盛宴吧！</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120013000 +0800" channel="litv-xinchuang01">
-    <title lang="zh">鋼鐵麥斯</title>
-    <desc lang="zh">關於友誼、成長，關於正義戰勝邪惡的故事。</desc>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="litv-xinchuang01">
-    <title lang="zh">鋼鐵麥斯</title>
-    <desc lang="zh">關於友誼、成長，關於正義戰勝邪惡的故事。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120023000 +0800" channel="litv-xinchuang01">
-    <title lang="zh">月月、阿奇與小墨：森林保衛隊GO</title>
-    <desc lang="zh">當小動物們需要幫助，貓頭鷹月月、河狸阿奇和章魚小墨組成的森林保衛隊就會出動，結合海陸空視角制定完美計劃！因為幫助他人不只是對的事，也是有趣的事！森林保衛隊GO！</desc>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120030000 +0800" channel="litv-xinchuang01">
-    <title lang="zh">月月、阿奇與小墨：森林保衛隊GO</title>
-    <desc lang="zh">當小動物們需要幫助，貓頭鷹月月、河狸阿奇和章魚小墨組成的森林保衛隊就會出動，結合海陸空視角制定完美計劃！因為幫助他人不只是對的事，也是有趣的事！森林保衛隊GO！</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="litv-xinchuang01">
-    <title lang="zh">歡唱小浣熊</title>
-    <desc lang="zh">七隻頑皮小浣熊在神奇音樂盒開啟歡樂冒險！每集獻上趣味充滿想像力的歌曲，讓孩子快樂學習！透過語言遊戲激發創意、豐富詞彙！快來加入這場音樂與知識的奇妙盛宴吧！</desc>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="litv-xinchuang01">
-    <title lang="zh">歡唱小浣熊</title>
-    <desc lang="zh">七隻頑皮小浣熊在神奇音樂盒開啟歡樂冒險！每集獻上趣味充滿想像力的歌曲，讓孩子快樂學習！透過語言遊戲激發創意、豐富詞彙！快來加入這場音樂與知識的奇妙盛宴吧！</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043000 +0800" channel="litv-xinchuang01">
-    <title lang="zh">鋼鐵麥斯</title>
-    <desc lang="zh">關於友誼、成長，關於正義戰勝邪惡的故事。</desc>
-  </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="litv-xinchuang01">
     <title lang="zh">鋼鐵麥斯</title>
     <desc lang="zh">關於友誼、成長，關於正義戰勝邪惡的故事。</desc>
@@ -8821,26 +8278,6 @@
     <title lang="zh">衝吧！小鐵人</title>
     <desc lang="zh">10位不同背景的孩子一起挑戰小鐵人比賽！經歷90天長征、2160個小時的訓練，彼此互相扶持與鼓勵，用開闊與豁達突破自我、挑戰極限，成為獨立又自信的小大人。他們的目標不僅是完成這項超越大人的任務，更是向世界證明自己的實力與決心。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="litv-xinchuang18">
-    <title lang="zh">上陽賦</title>
-    <desc lang="zh">郡主王儇（章子怡）與三皇子（楊祐寧）青梅竹馬，卻因被捲入朝堂爭鬥，在15歲時被父親當作棋子，嫁給出身寒門的豫章王蕭綦（周一圍）。這段權力交易下的婚姻，卻在歷經種種考驗後讓兩人先婚後愛，最後兩人攜手共定天下，守護家國百姓…</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="litv-xinchuang18">
-    <title lang="zh">上陽賦</title>
-    <desc lang="zh">郡主王儇（章子怡）與三皇子（楊祐寧）青梅竹馬，卻因被捲入朝堂爭鬥，在15歲時被父親當作棋子，嫁給出身寒門的豫章王蕭綦（周一圍）。這段權力交易下的婚姻，卻在歷經種種考驗後讓兩人先婚後愛，最後兩人攜手共定天下，守護家國百姓…</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="litv-xinchuang18">
-    <title lang="zh">全民星攻略</title>
-    <desc lang="zh">東森綜合台全新益智實境節目，「全民星攻略」，由館長曾國城擔任把關者，考驗著每個來挑戰九宮格益智遊戲藝人明星。想要攻略九宮格關卡，透過創意聯想、邏輯推理、理想分析，才有機會獲取智慧星幣，帶走夢幻大獎。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="litv-xinchuang18">
-    <title lang="zh">全民星攻略</title>
-    <desc lang="zh">東森綜合台全新益智實境節目，「全民星攻略」，由館長曾國城擔任把關者，考驗著每個來挑戰九宮格益智遊戲藝人明星。想要攻略九宮格關卡，透過創意聯想、邏輯推理、理想分析，才有機會獲取智慧星幣，帶走夢幻大獎。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="litv-xinchuang18">
-    <title lang="zh">全民星攻略</title>
-    <desc lang="zh">東森綜合台全新益智實境節目，「全民星攻略」，由館長曾國城擔任把關者，考驗著每個來挑戰九宮格益智遊戲藝人明星。想要攻略九宮格關卡，透過創意聯想、邏輯推理、理想分析，才有機會獲取智慧星幣，帶走夢幻大獎。</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang18">
     <title lang="zh">全民星攻略</title>
     <desc lang="zh">東森綜合台全新益智實境節目，「全民星攻略」，由館長曾國城擔任把關者，考驗著每個來挑戰九宮格益智遊戲藝人明星。想要攻略九宮格關卡，透過創意聯想、邏輯推理、理想分析，才有機會獲取智慧星幣，帶走夢幻大獎。</desc>
@@ -9109,21 +8546,6 @@
     <title lang="zh">風起洛陽</title>
     <desc lang="zh">是一部中國大陸古裝劇，講述武周時期古都洛陽發生的事情，由愛奇藝、留白影視聯合出品。改編自馬伯庸《洛陽》小說，由黃軒、王一博、宋茜領銜主演，宋軼特別主演</desc>
   </programme>
-  <programme start="20260119235500 +0800" stop="20260120005500 +0800" channel="4gtv-4gtv156">
-    <title lang="zh">寰宇焦點新聞</title>
-  </programme>
-  <programme start="20260120005500 +0800" stop="20260120015500 +0800" channel="4gtv-4gtv156">
-    <title lang="zh">寰宇焦點新聞</title>
-  </programme>
-  <programme start="20260120015500 +0800" stop="20260120025500 +0800" channel="4gtv-4gtv156">
-    <title lang="zh">寰宇焦點新聞</title>
-  </programme>
-  <programme start="20260120025500 +0800" stop="20260120035500 +0800" channel="4gtv-4gtv156">
-    <title lang="zh">寰宇焦點新聞</title>
-  </programme>
-  <programme start="20260120035500 +0800" stop="20260120045500 +0800" channel="4gtv-4gtv156">
-    <title lang="zh">寰宇焦點新聞</title>
-  </programme>
   <programme start="20260120045500 +0800" stop="20260120055500 +0800" channel="4gtv-4gtv156">
     <title lang="zh">寰宇晚間新聞</title>
     <desc lang="zh">寰宇晚間新聞給你最在地的台灣新聞、最深入的兩岸焦點，掌握國際情勢帶您了解社會脈動。</desc>
@@ -9364,21 +8786,6 @@
   <programme start="20260122235500 +0800" stop="20260123005500 +0800" channel="4gtv-4gtv156">
     <title lang="zh">寰宇焦點新聞</title>
   </programme>
-  <programme start="20260119235500 +0800" stop="20260120005500 +0800" channel="litv-longturn14">
-    <title lang="zh">寰宇世界通</title>
-  </programme>
-  <programme start="20260120005500 +0800" stop="20260120015500 +0800" channel="litv-longturn14">
-    <title lang="zh">寰宇世界通</title>
-  </programme>
-  <programme start="20260120015500 +0800" stop="20260120025500 +0800" channel="litv-longturn14">
-    <title lang="zh">寰宇世界通</title>
-  </programme>
-  <programme start="20260120025500 +0800" stop="20260120035500 +0800" channel="litv-longturn14">
-    <title lang="zh">寰宇世界通</title>
-  </programme>
-  <programme start="20260120035500 +0800" stop="20260120045500 +0800" channel="litv-longturn14">
-    <title lang="zh">寰宇世界通</title>
-  </programme>
   <programme start="20260120045500 +0800" stop="20260120055500 +0800" channel="litv-longturn14">
     <title lang="zh">寰宇全球新聞</title>
     <desc lang="zh">搶先揭露全球各地政經、社會、娛樂的第一手新聞訊息，讓觀眾不漏接關鍵的世界大事。</desc>
@@ -9606,23 +9013,6 @@
   </programme>
   <programme start="20260122235500 +0800" stop="20260123005500 +0800" channel="litv-longturn14">
     <title lang="zh">寰宇世界通</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv065">
-    <title lang="zh">銅板美食呷透透</title>
-    <desc lang="zh">東森新聞製播的美食特輯，記者深入台灣各地，尋找令人回味無窮的美食記憶，介紹各種好吃又便宜的店家。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv065">
-    <title lang="zh">日本雙花趣哪玩？</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv065">
-    <title lang="zh">預約你的夢想-車市</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv065">
-    <title lang="zh">銅板美食呷透透</title>
-    <desc lang="zh">東森新聞製播的美食特輯，記者深入台灣各地，尋找令人回味無窮的美食記憶，介紹各種好吃又便宜的店家。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv065">
-    <title lang="zh">日本雙花趣哪玩？</title>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv065">
     <title lang="zh">進擊的台灣</title>
@@ -9882,12 +9272,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv065">
     <title lang="zh">日本雙花趣哪玩？</title>
   </programme>
-  <programme start="20260120012400 +0800" stop="20260120030500 +0800" channel="litv-ftv09">
-    <title lang="zh">豆腐媽媽-第2集</title>
-  </programme>
-  <programme start="20260120030500 +0800" stop="20260120041500 +0800" channel="litv-ftv09">
-    <title lang="zh">真愛配方-第15集</title>
-  </programme>
   <programme start="20260120041500 +0800" stop="20260120061500 +0800" channel="litv-ftv09">
     <title lang="zh">風水世家-第99集</title>
   </programme>
@@ -10058,27 +9442,6 @@
   </programme>
   <programme start="20260122234200 +0800" stop="20260123012200 +0800" channel="litv-ftv09">
     <title lang="zh">豆腐媽媽-第4集</title>
-  </programme>
-  <programme start="20260120000600 +0800" stop="20260120005200 +0800" channel="litv-ftv07">
-    <title lang="zh">GOGOTaiwan-第622集</title>
-  </programme>
-  <programme start="20260120005200 +0800" stop="20260120013900 +0800" channel="litv-ftv07">
-    <title lang="zh">哈旅遊-第18集</title>
-  </programme>
-  <programme start="20260120013900 +0800" stop="20260120020100 +0800" channel="litv-ftv07">
-    <title lang="zh">美鳳有約-第5241集</title>
-  </programme>
-  <programme start="20260120020100 +0800" stop="20260120022300 +0800" channel="litv-ftv07">
-    <title lang="zh">美鳳有約-第5245集</title>
-  </programme>
-  <programme start="20260120022300 +0800" stop="20260120024500 +0800" channel="litv-ftv07">
-    <title lang="zh">美鳳有約-第5247集</title>
-  </programme>
-  <programme start="20260120024500 +0800" stop="20260120033000 +0800" channel="litv-ftv07">
-    <title lang="zh">GOGOTaiwan-第621集</title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120041700 +0800" channel="litv-ftv07">
-    <title lang="zh">GOGOTaiwan-第622集</title>
   </programme>
   <programme start="20260120041700 +0800" stop="20260120050400 +0800" channel="litv-ftv07">
     <title lang="zh">哈旅遊-第18集</title>
@@ -10467,18 +9830,6 @@
   <programme start="20260122231900 +0800" stop="20260123000500 +0800" channel="litv-ftv07">
     <title lang="zh">GOGOTaiwan-第621集</title>
   </programme>
-  <programme start="20260120004000 +0800" stop="20260120012500 +0800" channel="4gtv-4gtv004">
-    <title lang="zh">綜藝新時代-第323集</title>
-  </programme>
-  <programme start="20260120012500 +0800" stop="20260120025500 +0800" channel="4gtv-4gtv004">
-    <title lang="zh">綜藝大集合-第1247集</title>
-  </programme>
-  <programme start="20260120025500 +0800" stop="20260120034100 +0800" channel="4gtv-4gtv004">
-    <title lang="zh">綜藝新時代-第325集</title>
-  </programme>
-  <programme start="20260120034100 +0800" stop="20260120051100 +0800" channel="4gtv-4gtv004">
-    <title lang="zh">綜藝大集合-第1249集</title>
-  </programme>
   <programme start="20260120051100 +0800" stop="20260120064400 +0800" channel="4gtv-4gtv004">
     <title lang="zh">鬥陣大廟埕-第13集</title>
   </programme>
@@ -10628,26 +9979,6 @@
   </programme>
   <programme start="20260122235400 +0800" stop="20260123012300 +0800" channel="4gtv-4gtv004">
     <title lang="zh">綜藝大集合-第1248集</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="litv-xinchuang12">
-    <title lang="zh">被告人</title>
-    <desc lang="zh">首爾中央地方檢察廳王牌檢察官朴政宇，和他的妻子一同慶祝女兒夏燕六歲生日的這一夜，他變成司法史上第一位殺死妻女的嫌犯檢察官，更糟糕的是他對於這一連串的事情都失去記憶…那一夜到底發生了什麼事呢？</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="litv-xinchuang12">
-    <title lang="zh">被告人</title>
-    <desc lang="zh">首爾中央地方檢察廳王牌檢察官朴政宇，和他的妻子一同慶祝女兒夏燕六歲生日的這一夜，他變成司法史上第一位殺死妻女的嫌犯檢察官，更糟糕的是他對於這一連串的事情都失去記憶…那一夜到底發生了什麼事呢？</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="litv-xinchuang12">
-    <title lang="zh">依法相愛吧</title>
-    <desc lang="zh">金正浩（李昇基）與金琉璃（李世榮）曾將是交往多年的校園情侶。多年後，琉璃忽然辭掉律師的工作，決定開一家提供法律諮詢的咖啡廳，但沒想到房東竟然是正浩！重逢後的琉璃發現自己對正浩餘情未了，於是決定對他展開直球攻勢…</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="litv-xinchuang12">
-    <title lang="zh">好好生活</title>
-    <desc lang="zh">《好好生活》由陳銘章、陳世嶧執導，林雨申、蔡文靜領銜主演，鄒廷威、姜妍主演的都市歡脫治癒輕喜劇。講述了吳憂領證當天因為車禍放了男友鴿子，男友分手出國，吳憂傷心寄情工作，卻與「大魔王」何西亞擦出火花，兩人鬥智斗勇成為歡喜冤家的故事。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="litv-xinchuang12">
-    <title lang="zh">被告人</title>
-    <desc lang="zh">首爾中央地方檢察廳王牌檢察官朴政宇，和他的妻子一同慶祝女兒夏燕六歲生日的這一夜，他變成司法史上第一位殺死妻女的嫌犯檢察官，更糟糕的是他對於這一連串的事情都失去記憶…那一夜到底發生了什麼事呢？</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang12">
     <title lang="zh">被告人</title>
@@ -10917,26 +10248,6 @@
     <title lang="zh">步步驚心</title>
     <desc lang="zh">張曉（劉詩詩）是一位熟知清代歷史的現代社會白領，她卻一腳踏入穿越時空的隧道，變身為16歲的清朝宮廷少女若曦。在這風雲詭變的宮廷中，除了被捲入九子奪嫡的暗戰，自己與胤禛（吳奇隆）的感情也夾雜在宮廷鬥爭中備受煎熬…</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="litv-xinchuang11">
-    <title lang="zh">母親</title>
-    <desc lang="zh">一位一直犧牲自己為子女付出全部的偉大母親（車和娟），發現子女成為了自己的精神枷鎖和負擔，從而向子女展開報復行動的故事。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="litv-xinchuang11">
-    <title lang="zh">母親</title>
-    <desc lang="zh">一位一直犧牲自己為子女付出全部的偉大母親（車和娟），發現子女成為了自己的精神枷鎖和負擔，從而向子女展開報復行動的故事。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="litv-xinchuang11">
-    <title lang="zh">女王的家</title>
-    <desc lang="zh">世界級時尚集團的長女韓善珠（宋允兒）有顯赫的家世、優秀的兒女、體貼溫柔的老公，是富人社區聯排別墅裡人人羨慕的對象，但她卻不知道丈夫明燮（李成宰）與尹美羅（全昭旻）有婚外情，還在不知名的情況下支持了小三和丈夫的戀情…</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="litv-xinchuang11">
-    <title lang="zh">追蹤者</title>
-    <desc lang="zh">聰明又狠毒、宛如惡棍般的黃東柱（任時完）曾是檢查大企業賄賂的優秀會計師，卻忽然辭去工作，轉任大韓民國國稅廳稅收五局一組的組長，劇情講述他如何帶領擁有「垃圾回收場」之稱的稅收五局，來攪亂國稅廳內部鬥爭的一池春水。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="litv-xinchuang11">
-    <title lang="zh">歐若拉公主</title>
-    <desc lang="zh">大企業天王食品會長家，晚來得到的獨生女歐若拉竟對完美挑剔男的小說家黃馬馬一見鍾情，而這兩家族之間會因為這兩人間所發生的事情，有何改變呢？</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang11">
     <title lang="zh">歐若拉公主</title>
     <desc lang="zh">大企業天王食品會長家，晚來得到的獨生女歐若拉竟對完美挑剔男的小說家黃馬馬一見鍾情，而這兩家族之間會因為這兩人間所發生的事情，有何改變呢？</desc>
@@ -11205,18 +10516,6 @@
     <title lang="zh">追蹤者</title>
     <desc lang="zh">聰明又狠毒、宛如惡棍般的黃東柱（任時完）曾是檢查大企業賄賂的優秀會計師，卻忽然辭去工作，轉任大韓民國國稅廳稅收五局一組的組長，劇情講述他如何帶領擁有「垃圾回收場」之稱的稅收五局，來攪亂國稅廳內部鬥爭的一池春水。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv011">
-    <title lang="zh">瞞天機密</title>
-    <desc lang="zh">英國情報機構的翻譯員凱薩琳（綺拉奈特莉）某天收到一封電子郵件，內容為英美政府高層聯合進行非法監聽行動，好讓聯合國安理會同意發動伊拉克戰爭。她勇敢向媒體揭發此事，卻因此引來英美政府聯手施壓，生活、婚姻與自由也因此面臨威脅…</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv011">
-    <title lang="zh">重返戀愛現場</title>
-    <desc lang="zh">在釜山擔任外景經理的善花（韓善伙），總是能為各種劇組找到當地最適合拍片的場景。沒想到這次委託她的客戶，竟然是前男友道英（李莞）擔任導演的劇組！道英不斷否定善花提案的場景，讓心煩意亂的她下定決心：「我要3天內搞定所有的場景，讓這傢伙趕快完工回首爾！」</desc>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv011">
-    <title lang="zh">黃金花</title>
-    <desc lang="zh">黃金花（毛舜筠）與丈夫（呂良偉）合力照顧患有自閉症兒子長達20年，豈料某天竟發現老公和年輕的診所護士外遇。在一陣爭執過後，丈夫選擇跟小三在一起，讓她萌生了殺死小三的念頭。鄰居們在無意中發現她的計畫後，齊心關心並試圖理解，但黃金花依舊受不了獨力照顧兒子的壓力而情緒失控…</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120063000 +0800" channel="4gtv-4gtv011">
     <title lang="zh">銘謝惠顧</title>
     <desc lang="zh">從小在雜貨店都只能抽到銘謝惠顧的光妤（潘慧如），終於中獎了，乳癌三期。書念不好，沒做過一個好工作，婚也離了，一個四十多歲的女人，該怎麼辦？光妤不要她的人生真的只是個銘謝惠顧，她要展開反擊…</desc>
@@ -11348,24 +10647,6 @@
   <programme start="20260122220000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv011">
     <title lang="zh">濁水漂流</title>
     <desc lang="zh">無家可歸的輝哥（吳鎮宇）剛出獄，就回到烏煙瘴氣的深水埗街角，與一幫街友再次重遇。未料，當晚食環署人員突擊洗地及打掃，更強勢將露宿者的家當清掃丟棄，憤怒的輝哥與警察當街起衝突。這一群家當盡失的街友在剛畢業的社工何姑娘的幫助下，決定與政府打官司，不僅要申請索償，更要求政府道歉…</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv013">
-    <title lang="zh">脊柱醫生</title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv013">
-    <title lang="zh">如果我有一艘船</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv013">
-    <title lang="zh">我在工場拍拍手EP02 乘載工藝的方舟–龍船‧遊艇</title>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv013">
-    <title lang="zh">搶救遷臺歷史記憶庫 EP03：林鳳良 顧中正 - 當客家媳婦遇上老兵／劉哲基 - 走過戰火煙硝 劉麵包傳奇</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040500 +0800" channel="4gtv-4gtv013">
-    <title lang="zh">翻越之後</title>
-  </programme>
-  <programme start="20260120040500 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv013">
-    <title lang="zh">江湖少女</title>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv013">
     <title lang="zh">青春的進擊１－你現在幾K？</title>
@@ -11605,36 +10886,6 @@
   <programme start="20260122230500 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv013">
     <title lang="zh">手指三重奏</title>
     <desc lang="zh">劉育伶、曾宣淯和張正文，是三個在不同家庭背景下成長的視聽雙障孩子，23歲的育伶是台灣第一個上大學的視聽雙障朋友，18歲的宣淯則擅長音樂，就連才12歲的正文也以旺盛的學習力，努力突破看不到又聽不到的障礙，「樂觀」為他們的人生開啟了一個新世界！</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="4gtv-4gtv044">
-    <title lang="zh">有頂天家族2</title>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv044">
-    <title lang="zh">有頂天家族2</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv044">
-    <title lang="zh">喜喜公主</title>
-    <desc lang="zh">十五歲半的伊莉莎白雖然她長得和一般女孩一樣，但她是個不食人間煙火的公主，大家稱她為喜喜。有一天，皇帝的母親要喜喜的姊姊嫁給她兒子，皇帝卻迷上了當時也在場的喜喜，就這麼展開一段轟轟烈烈的愛情故事。喜喜夾在家鄉帕薩霍森城堡和美泉宮之間難以抉擇，又無法遵從宮廷內的規矩博取婆婆歡心。</desc>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv044">
-    <title lang="zh">喜喜公主</title>
-    <desc lang="zh">十五歲半的伊莉莎白雖然她長得和一般女孩一樣，但她是個不食人間煙火的公主，大家稱她為喜喜。有一天，皇帝的母親要喜喜的姊姊嫁給她兒子，皇帝卻迷上了當時也在場的喜喜，就這麼展開一段轟轟烈烈的愛情故事。喜喜夾在家鄉帕薩霍森城堡和美泉宮之間難以抉擇，又無法遵從宮廷內的規矩博取婆婆歡心。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv044">
-    <title lang="zh">認識台灣-台灣河川風情系列</title>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv044">
-    <title lang="zh">認識台灣-國家步道系列</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv044">
-    <title lang="zh">只是一個老外 feat歐亞力</title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv044">
-    <title lang="zh">只是一個老外 feat歐亞力</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043000 +0800" channel="4gtv-4gtv044">
-    <title lang="zh">超級總動員</title>
-    <desc lang="zh">對於海綿寶寶和萌學園你了解多少呢？你是海綿寶寶達人嗎？還是你是萌學園達人？或者你是深藏不露的小小才藝達人？節目中哥哥姐姐要帶著小朋友們一起來大蒐密囉！</desc>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv044">
     <title lang="zh">超級總動員</title>
@@ -12116,23 +11367,6 @@
     <title lang="zh">超級總動員</title>
     <desc lang="zh">對於海綿寶寶和萌學園你了解多少呢？你是海綿寶寶達人嗎？還是你是萌學園達人？或者你是深藏不露的小小才藝達人？節目中哥哥姐姐要帶著小朋友們一起來大蒐密囉！</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv046">
-    <title lang="zh">台灣1001故事</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv046">
-    <title lang="zh">台灣啟示錄</title>
-    <desc lang="zh">為您統整介紹台灣社會近年來重大案件與名人軼事的始末，以及相關的新聞分析與報導。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv046">
-    <title lang="zh">北海道極品海鮮大口吃</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv046">
-    <title lang="zh">請你跟我這樣過</title>
-    <desc lang="zh">演藝圈內最會賺錢的侯昌明，以親身經歷教你理財；採訪經歷豐沛的黃文華，把所見所聞通通報你哉。不論是理財知識、兩性問題、生活資訊，完全貼近市井小民的所需所求，保證讓你生活過更好！</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv046">
-    <title lang="zh">台灣1001故事</title>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv046">
     <title lang="zh">進擊的台灣</title>
     <desc lang="zh">東森財經新聞台製播的優質新聞深度報導節目，要為觀眾介紹台灣這片土地上各種平凡人的不平凡人生，製作單位踏遍寶島各個角落，為您訴說台灣在地的好故事！</desc>
@@ -12377,18 +11611,6 @@
     <title lang="zh">請你跟我這樣過</title>
     <desc lang="zh">演藝圈內最會賺錢的侯昌明，以親身經歷教你理財；採訪經歷豐沛的黃文華，把所見所聞通通報你哉。不論是理財知識、兩性問題、生活資訊，完全貼近市井小民的所需所求，保證讓你生活過更好！</desc>
   </programme>
-  <programme start="20260120003000 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv047">
-    <title lang="zh">山陰漫遊日常(21-22)</title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv047">
-    <title lang="zh">突擊食堂Hey taxi(119-120)</title>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv047">
-    <title lang="zh">幸子的廚房(64-65)</title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv047">
-    <title lang="zh">總編的復仇</title>
-  </programme>
   <programme start="20260120060000 +0800" stop="20260120070000 +0800" channel="4gtv-4gtv047">
     <title lang="zh">常盤貴子的京都畫報</title>
   </programme>
@@ -12568,21 +11790,6 @@
   <programme start="20260122220000 +0800" stop="20260123003000 +0800" channel="4gtv-4gtv047">
     <title lang="zh">英雄假面</title>
     <desc lang="zh">在妻子懷孕後，演員夢碎的明弘回到了位於福島縣的故鄉白河市。為了即將出生的小孩必須找一份安穩的工作，卻又不願就此放棄夢想。某日，明弘從家鄉的工藝品白河達摩獲得靈感，決定以英雄「達魯賴瑟」的形象參與一項競賽，未料卻因此遇上了神秘組織「DICE」…</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv045">
-    <title lang="zh">飛常日誌</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv045">
-    <title lang="zh">溏心風暴之家好月圓(普)</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv045">
-    <title lang="zh">新聞女王</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv045">
-    <title lang="zh">反黑英雄</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv045">
-    <title lang="zh">飛常日誌</title>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv045">
     <title lang="zh">愛回家之開心速遞</title>
@@ -12785,16 +11992,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv045">
     <title lang="zh">逆天奇案2</title>
   </programme>
-  <programme start="20260119234000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv055">
-    <title lang="zh">監禁情人</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120032500 +0800" channel="4gtv-4gtv055">
-    <title lang="zh">薄荷糖</title>
-  </programme>
-  <programme start="20260120032500 +0800" stop="20260120053500 +0800" channel="4gtv-4gtv055">
-    <title lang="zh">疾凍救援</title>
-    <desc lang="zh">加拿大一處偏遠礦場坍方，26位礦工受困凍土下，當局在評估情勢後，請運輸隊老闆吉姆（勞倫斯費許朋）率隊帶救援工具前往現場。在重賞之下麥克（連恩尼遜）與弟弟葛帝等幾位駕駛加入車隊，礦業公司也派安全顧問湯姆（班傑明沃克）陪同…</desc>
-  </programme>
   <programme start="20260120053500 +0800" stop="20260120072500 +0800" channel="4gtv-4gtv055">
     <title lang="zh">搶救葡萄大作戰</title>
   </programme>
@@ -12905,36 +12102,6 @@
   </programme>
   <programme start="20260122225500 +0800" stop="20260123005500 +0800" channel="4gtv-4gtv055">
     <title lang="zh">姐姐</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="4gtv-4gtv057">
-    <title lang="zh">地球防疫戰</title>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv057">
-    <title lang="zh">地球防疫戰</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv057">
-    <title lang="zh">超級總動員</title>
-    <desc lang="zh">對於海綿寶寶和萌學園你了解多少呢？你是海綿寶寶達人嗎？還是你是萌學園達人？或者你是深藏不露的小小才藝達人？節目中哥哥姐姐要帶著小朋友們一起來大蒐密囉！</desc>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv057">
-    <title lang="zh">超級總動員</title>
-    <desc lang="zh">對於海綿寶寶和萌學園你了解多少呢？你是海綿寶寶達人嗎？還是你是萌學園達人？或者你是深藏不露的小小才藝達人？節目中哥哥姐姐要帶著小朋友們一起來大蒐密囉！</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv057">
-    <title lang="zh">喜喜公主2</title>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv057">
-    <title lang="zh">喜喜公主2</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv057">
-    <title lang="zh">有頂天家族2</title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv057">
-    <title lang="zh">有頂天家族2</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043000 +0800" channel="4gtv-4gtv057">
-    <title lang="zh">YOYO點點名</title>
-    <desc lang="zh">由活潑的水果哥哥、姐姐們所主持的特別節目，並且帶著小朋友一起唱唱跳跳，藉由自製兒歌和體適能專家強詩雲老師特別設計的肢體動作，來強化兒童律動與協調能力，並進而促進親子間的親密關係。</desc>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv057">
     <title lang="zh">YOYO點點名</title>
@@ -13386,24 +12553,6 @@
   <programme start="20260122233000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv057">
     <title lang="zh">喜喜公主3(普)</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv058">
-    <title lang="zh">J-TIME-喜願花</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv058">
-    <title lang="zh">多功能老婆</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv058">
-    <title lang="zh">這裡發現愛</title>
-    <desc lang="zh">暢銷小說作家的許樂（周渝民），為了找回創作的靈感，在好友小馬（王傳一）的安排下，住進了五星級飯店專心寫作。但許樂的怪異舉動，卻讓飯店實習生潘能賢（陳妍希）誤以為他要自殺，一連串的混亂，許樂發現觸碰能賢的手能給他像觸電般的靈感，而讓這兩人誤闖入彼此的生活中…</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv058">
-    <title lang="zh">尋秦記</title>
-    <desc lang="zh">特種部隊精英項少龍，被選中搭乘世界第一部時空穿梭機，準備回到二千多年前的秦國，不料穿梭機發生故障，少龍被送至趙國。少龍為了回到未來，決意找到當時尚未繼位的嬴政。期間，少龍因幫助趙國「畜牧大王」擊退敵人，得到烏氏賞識和其女青睞，但也惹來劍客連晉忌妒…</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv058">
-    <title lang="zh">台灣啟示錄</title>
-    <desc lang="zh">為您統整介紹台灣社會近年來重大案件與名人軼事的始末，以及相關的新聞分析與報導。</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv058">
     <title lang="zh">J-TIME-喜願花</title>
   </programme>
@@ -13641,16 +12790,6 @@
     <title lang="zh">台灣啟示錄</title>
     <desc lang="zh">為您統整介紹台灣社會近年來重大案件與名人軼事的始末，以及相關的新聞分析與報導。</desc>
   </programme>
-  <programme start="20260120003000 +0800" stop="20260120021500 +0800" channel="4gtv-4gtv061">
-    <title lang="zh">父之罪：毒梟之子</title>
-  </programme>
-  <programme start="20260120021500 +0800" stop="20260120040500 +0800" channel="4gtv-4gtv061">
-    <title lang="zh">驚駭大法師</title>
-  </programme>
-  <programme start="20260120040500 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv061">
-    <title lang="zh">鎖命女拳霸</title>
-    <desc lang="zh">她是全球綜合格鬥的明日之星，父親無故被殺後，在骯髒的地下格鬥世界中戰鬥就成為活下來唯一目標 – 用拳頭與血淚來復仇！</desc>
-  </programme>
   <programme start="20260120060000 +0800" stop="20260120074500 +0800" channel="4gtv-4gtv061">
     <title lang="zh">漂流:羅興亞故事</title>
   </programme>
@@ -13765,23 +12904,6 @@
   </programme>
   <programme start="20260122233000 +0800" stop="20260123012000 +0800" channel="4gtv-4gtv061">
     <title lang="zh">搶錢那件小事</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv062">
-    <title lang="zh">台灣1001個故事</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv062">
-    <title lang="zh">請問 今晚住誰家</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv062">
-    <title lang="zh">大陸尋奇</title>
-    <desc lang="zh">您不必跋山涉水就可以將奇峰峻嶺壯闊山河盡收眼底，「大陸尋奇」不惜巨資的大製作足跡踏遍各現代城市，窮鄉僻壤，深入各民族村落，記錄了外人難得一見的生活情況，以準確的地理、歷史定位、用現代化思維，把中華文化忠實的呈現。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv062">
-    <title lang="zh">台灣1001個故事</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv062">
-    <title lang="zh">MIT台灣誌</title>
-    <desc lang="zh">「MIT台灣誌」以發現台灣、寫真台灣、紀錄台灣為主旨，走遍台灣的每寸土地，介紹台灣的人文環境、大自然地理等…</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv062">
     <title lang="zh">台灣大代誌</title>
@@ -14018,18 +13140,6 @@
     <title lang="zh">MIT台灣誌</title>
     <desc lang="zh">「MIT台灣誌」以發現台灣、寫真台灣、紀錄台灣為主旨，走遍台灣的每寸土地，介紹台灣的人文環境、大自然地理等…</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120012600 +0800" channel="4gtv-4gtv042">
-    <title lang="zh">誰來坐大位</title>
-    <desc lang="zh">「銀髮」系列作品之一。蔡振南領銜主演。「我要結婚了，到底要讓哪個媽媽坐大位？」千繪的婚事讓老爸、老媽、後媽，這兩對離婚的夫妻，再度有了交集。從沒有媽媽坐大位，到兩個媽媽搶坐大位，嬉鬧中夾雜悲涼啼音的搶大位之爭…</desc>
-  </programme>
-  <programme start="20260120012600 +0800" stop="20260120025500 +0800" channel="4gtv-4gtv042">
-    <title lang="zh">誰在橋上寫字</title>
-    <desc lang="zh">一天，馬耀準備去找白螃蟹，發現橋上寫著幾個大字：「中國不好，共匪很好」。正在巡邏的潘警員經過，看到橋上的字，嚇得全身發抖！於是開始展開調查。馬耀被警察帶去逼問被逼急了，開始亂說話。警察千方百計找出馬耀所說的人，因此學校，部落都陷入白色恐怖的恐慌中…</desc>
-  </programme>
-  <programme start="20260120025500 +0800" stop="20260120042100 +0800" channel="4gtv-4gtv042">
-    <title lang="zh">箱子</title>
-    <desc lang="zh">劉瑞琪、高山峰主演。三十幾歲的台北中產階級女性宋家宜性格單純，遇事容易緊張，她一人平靜的生活著，等先生從國外回來。她的先生是出版社的總編輯，到紐約工作半年，最後卻沒有回家，因為一樁意外死了。三個月後，世界照常運轉，家宜正試圖從陰霾走出，重建平靜的生活...</desc>
-  </programme>
   <programme start="20260120042100 +0800" stop="20260120054900 +0800" channel="4gtv-4gtv042">
     <title lang="zh">數到第365天</title>
     <desc lang="zh">16歲的永強是個愛跳街舞的男孩，愛上了一個比他高半個頭的女生，於是他決定拚命運動，365天以後再去找她約會，他決心在這段期間趕快長高。這個簡單的願望卻意外牽動了永強的家庭，大家一面幫強強「轉大人」，一面交相指責，新愁觸發舊怨…</desc>
@@ -14241,26 +13351,6 @@
   <programme start="20260122224000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv042">
     <title lang="zh">時光照應</title>
     <desc lang="zh">婉莉夢想成為彩妝師，為此離家出走投靠擁有同樣夢想的好友育晴。兩人原是相互扶持的好友，但卻因為個性上的差異，走向截然不同的人生。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv109">
-    <title lang="zh">MIT台灣誌</title>
-    <desc lang="zh">「MIT台灣誌」以發現台灣、寫真台灣、紀錄台灣為主旨，走遍台灣的每寸土地，介紹台灣的人文環境、大自然地理等…</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv109">
-    <title lang="zh">康熙來了</title>
-    <desc lang="zh">最另類的組合康永和熙娣打破了以往談話性節目的模式，以麻辣的話題和風趣的主持風格掀起另一股流行風潮！風趣幽默的主持風格，保證逗的你哈哈大笑！</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv109">
-    <title lang="zh">小明星大跟班</title>
-    <desc lang="zh">本土天王吳宗憲與女兒吳姍儒（Sandy）搭檔主持，每集邀請來賓暢談演藝圈大小事，父女檔聯手笑果十足，老梗搭上新世代，最新組合強勢登場！</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv109">
-    <title lang="zh">頭條開講</title>
-    <desc lang="zh">中天新聞為服務廣大觀眾，提供多元論述平台，發揮媒體第四權的社會責任，於十月五日起，週一至週五晚間八點同一時段，接檔推出《頭條開講》談話節目，由主播周玉琴及政治中心主任林嘉源共同主持，敬請支持中天的觀眾朋友準時鎖定！</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv109">
-    <title lang="zh">頭條開講</title>
-    <desc lang="zh">中天新聞為服務廣大觀眾，提供多元論述平台，發揮媒體第四權的社會責任，於十月五日起，週一至週五晚間八點同一時段，接檔推出《頭條開講》談話節目，由主播周玉琴及政治中心主任林嘉源共同主持，敬請支持中天的觀眾朋友準時鎖定！</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv109">
     <title lang="zh">老Z調查線</title>
@@ -14515,18 +13605,6 @@
     <title lang="zh">金牌特派</title>
     <desc lang="zh">金牌特派</desc>
   </programme>
-  <programme start="20260120010000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv049">
-    <title lang="zh">烈火浩劫</title>
-    <desc lang="zh">西蒙與年邁父親喬瑟夫住在法國南部沿海地區，然而一場突然襲來的森林大火，卻逐漸摧毀他們的家園，迫使兩人必須在警報響起時，拋下一切逃出生天。隨著火勢與強風愈來愈大，濃煙讓撤離的交通陷入嚴重堵塞。眼看大火逼近，氣溫攀升到難以負荷的程度，西蒙必須盡快找到出路，讓自己與父親脫離險境…</desc>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv049">
-    <title lang="zh">無間一戰</title>
-    <desc lang="zh">彭健誠（黃宗澤）是毒梟集團的頭目，代號「黑狼」，而他的哥哥彭健忠（謝天華）則是一位緝毒警察。因一場意外，雙方同時捲入到一場毒梟鬥爭中，隨著一場押送毒販的任務，哥哥發現弟弟竟然另有身份，二人為了各自利益，展開了一場正邪交鋒，無間反轉的緝毒故事…</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv049">
-    <title lang="zh">絕世好賓</title>
-    <desc lang="zh">富豪方國立下了一個特別指示，讓女兒Jennifer（梁詠琪）成為落難千金，同時聘請曾是警隊精英的傑（劉青雲）喬裝成菲律賓籍男司機，在Jennifer身旁保護。在這過程中，漸漸拉進了二人之間的關係…</desc>
-  </programme>
   <programme start="20260120060000 +0800" stop="20260120080000 +0800" channel="4gtv-4gtv049">
     <title lang="zh">舞力重擊2</title>
     <desc lang="zh">才華洋溢的年輕編舞家桑德爾，為了籌備一齣眾所矚目的百老匯新劇，找來了天賦異稟的現代舞舞者芭洛和技巧非凡的創新鋼琴家查理。然而，過程中三人之間微妙的平衡逐漸起了變化，查理愛上了芭洛，而桑德爾也把芭洛視為自己的謬思女神，三人之間的情感和對立一觸即發，一場激情澎湃的舞蹈大戰即將展開…</desc>
@@ -14669,24 +13747,6 @@
   <programme start="20260122230000 +0800" stop="20260123003000 +0800" channel="4gtv-4gtv049">
     <title lang="zh">超異能接觸</title>
     <desc lang="zh">艾莉絲（史黛芬妮史考特）意外接觸到神祕光球，竟因此獲得超能力。她在驚慌失措下請青梅竹馬尚恩幫忙，兩人一起逃亡以躲避警方與有關當局追捕！但隨著艾莉絲能力增強，卻也越來越致命，尚恩必須決定是否甘冒生命危險與她一起亡命天涯…</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv070">
-    <title lang="zh">美麗不妥協(第88集)</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv070">
-    <title lang="zh">美麗不妥協(第89集)</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv070">
-    <title lang="zh">美麗不妥協(第90集)</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv070">
-    <title lang="zh">姊妹讚出來(第53集) </title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv070">
-    <title lang="zh">姊妹讚出來(第54集) </title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043000 +0800" channel="4gtv-4gtv070">
-    <title lang="zh">姊妹讚出來(第55集) </title>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv070">
     <title lang="zh">姊妹讚出來(第56集) </title>
@@ -14940,21 +14000,6 @@
   <programme start="20260122233000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv070">
     <title lang="zh">體壇最前線 1/22(第22集) </title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv054">
-    <title lang="zh">記得雨，不記得你</title>
-    <desc lang="zh">靦腆的行助（仲野太賀）每天從研究室下班，都到小曆（衛藤美彩）的小店買熱呼呼的鯛魚燒，拿在手上吃得津津有味。兩人一天天聊著，彼此越靠越近，未料一場車禍讓小曆記憶力受損，從此只記得一天的事情。將小曆接回家住的行助決定好好照顧她，但「無法累積情感」帶來的考驗，他們真的準備好了嗎？</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv054">
-    <title lang="zh">台灣1001個故事</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv054">
-    <title lang="zh">台灣大代誌</title>
-    <desc lang="zh">時間播回1996年，當時爆發了兩國論台海危機，李登輝總統拋出了兩國論，大陸方面做出對台導彈試射進行威脅，不過李登輝總統說出了一句話：「他說不用怕啦！他們射出的都是啞巴彈空包彈，根本就是在作秀」大陸查到底是誰掀底牌的，分別是劉連昆、邵正宗，誰為他們牽線佈下整個情報脈絡的呢？</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv054">
-    <title lang="zh">大陸尋奇</title>
-    <desc lang="zh">您不必跋山涉水就可以將奇峰峻嶺壯闊山河盡收眼底，「大陸尋奇」不惜巨資的大製作足跡踏遍各現代城市，窮鄉僻壤，深入各民族村落，記錄了外人難得一見的生活情況，以準確的地理、歷史定位、用現代化思維，把中華文化忠實的呈現。</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv054">
     <title lang="zh">台灣1001個故事</title>
   </programme>
@@ -15177,35 +14222,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv054">
     <title lang="zh">進擊的台灣</title>
     <desc lang="zh">東森財經新聞台製播的優質新聞深度報導節目，要為觀眾介紹台灣這片土地上各種平凡人的不平凡人生，製作單位踏遍寶島各個角落，為您訴說台灣在地的好故事！</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="4gtv-4gtv063">
-    <title lang="zh">度身訂造旅行團  </title>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv063">
-    <title lang="zh">度身訂造旅行團  </title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv063">
-    <title lang="zh">去吧！墨西哥！ </title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv063">
-    <title lang="zh">去吧！墨西哥！ </title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv063">
-    <title lang="zh">向世界出發</title>
-    <desc lang="zh">不同的國家，都有不同的風俗民情，節目中將透過藝人的異國之旅來感受世界各個角落的風情！</desc>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv063">
-    <title lang="zh">向世界出發</title>
-    <desc lang="zh">不同的國家，都有不同的風俗民情，節目中將透過藝人的異國之旅來感受世界各個角落的風情！</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv063">
-    <title lang="zh">你想點煮姐 </title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv063">
-    <title lang="zh">你想點煮姐 </title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043000 +0800" channel="4gtv-4gtv063">
-    <title lang="zh">度身訂造旅行團  </title>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv063">
     <title lang="zh">度身訂造旅行團  </title>
@@ -15646,15 +14662,6 @@
   <programme start="20260122233000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv063">
     <title lang="zh">女人必學100道菜 </title>
   </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv082">
-    <title lang="zh">都會節奏 10大排行榜</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv082">
-    <title lang="zh">新鮮發行</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120044500 +0800" channel="4gtv-4gtv082">
-    <title lang="zh">10大嘻哈單曲排行榜</title>
-  </programme>
   <programme start="20260120044500 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv082">
     <title lang="zh">金曲不停歇</title>
   </programme>
@@ -15726,18 +14733,6 @@
   </programme>
   <programme start="20260122200000 +0800" stop="20260123020000 +0800" channel="4gtv-4gtv082">
     <title lang="zh">金曲不停歇</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120015700 +0800" channel="4gtv-4gtv083">
-    <title lang="zh">爵士樂/哈瓦那國際爵士音樂節:鋼琴家Roland Luna和知音們</title>
-  </programme>
-  <programme start="20260120015700 +0800" stop="20260120035000 +0800" channel="4gtv-4gtv083">
-    <title lang="zh">爵士樂/哈瓦那國際爵士音樂節:鋼琴家Roberto Fonseca致敬Ibrahim Ferrer</title>
-  </programme>
-  <programme start="20260120035000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv083">
-    <title lang="zh">InterMezzo 愛樂間奏</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120055300 +0800" channel="4gtv-4gtv083">
-    <title lang="zh">藝術舞蹈/荷蘭國家芭蕾舞團《瑪塔哈里》(Ted Brandsen編舞)</title>
   </programme>
   <programme start="20260120055300 +0800" stop="20260120070200 +0800" channel="4gtv-4gtv083">
     <title lang="zh">音樂會/Gergely Madaras指揮比利時列日交響樂團:拉威爾《鵝媽媽》與容根交響協奏曲</title>
@@ -15864,33 +14859,6 @@
   </programme>
   <programme start="20260122233000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv083">
     <title lang="zh">InterMezzo 愛樂間奏</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="4gtv-4gtv077">
-    <title lang="zh">Chill意生活:阿爾卑斯滑雪搖滾祭</title>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv077">
-    <title lang="zh">不潔運動:法國傳奇Eric Cantona</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv077">
-    <title lang="zh">標誌時刻:煞有其事</title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv077">
-    <title lang="zh">女運動員:締造歷史</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv077">
-    <title lang="zh">網球明星:Garbine Muguruza(網球)</title>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv077">
-    <title lang="zh">女運動員:開創先鋒</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv077">
-    <title lang="zh">網球明星:費德勒(網球)</title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv077">
-    <title lang="zh">山羊-史上最佳:世界盃隊伍</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043000 +0800" channel="4gtv-4gtv077">
-    <title lang="zh">嚴選清單:十大世界盃球員</title>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv077">
     <title lang="zh">山羊-史上最佳:足球世界盃選手</title>
@@ -16297,21 +15265,6 @@
   <programme start="20260122233000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv077">
     <title lang="zh">女運動員:帆向奧運</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv039">
-    <title lang="zh">WTO姐妹會-20251203</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv039">
-    <title lang="zh">同學搞什麼鬼-49</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv039">
-    <title lang="zh">故鄉好滋味-82</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv039">
-    <title lang="zh">健康NO1-444</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043100 +0800" channel="4gtv-4gtv039">
-    <title lang="zh">娛樂百分百精選-184</title>
-  </programme>
   <programme start="20260120043100 +0800" stop="20260120045600 +0800" channel="4gtv-4gtv039">
     <title lang="zh">娛樂百分百精選-185</title>
   </programme>
@@ -16596,26 +15549,6 @@
   </programme>
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv039">
     <title lang="zh">健康NO1-431</title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv155">
-    <title lang="zh">元氣加油站</title>
-    <desc lang="zh">優質媽咪田宇辰主持，為一訪談性節目，節目中邀請各領域專家，談論有關於美食、生活、健康、學習等各類資訊，提供給所有觀眾參考，是一個多方面向的優質節目。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv155">
-    <title lang="zh">消費高手</title>
-    <desc lang="zh">在瞬息萬變的e世代裡，更要提醒一般民眾隨時充實消費資訊，消費高手提供你最新美容、健康、飾品、美食購物等資訊，讓你能聰明消費，享受花錢不吃虧，不同的主題不同的省錢管道，讓你買的開心。</desc>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv155">
-    <title lang="zh">元氣加油站</title>
-    <desc lang="zh">優質媽咪田宇辰主持，為一訪談性節目，節目中邀請各領域專家，談論有關於美食、生活、健康、學習等各類資訊，提供給所有觀眾參考，是一個多方面向的優質節目。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv155">
-    <title lang="zh">元氣加油站</title>
-    <desc lang="zh">優質媽咪田宇辰主持，為一訪談性節目，節目中邀請各領域專家，談論有關於美食、生活、健康、學習等各類資訊，提供給所有觀眾參考，是一個多方面向的優質節目。</desc>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120043000 +0800" channel="4gtv-4gtv155">
-    <title lang="zh">醫學大聯盟</title>
-    <desc lang="zh">民視製播的健康資訊節目，由白家綺擔任主持人，希望打造一個知性趣味的平台，讓觀眾輕鬆了解正確的健康資訊，幫助自己和家人打造更健康的生活習慣。節目讓藝人來賓分組搶答問題，用輕鬆詼諧的風格，讓大家認識嚴肅的醫學知識。</desc>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv155">
     <title lang="zh">元氣加油站</title>
@@ -16969,26 +15902,6 @@
     <title lang="zh">豆腐媽媽</title>
     <desc lang="zh">以傳統手工豆腐為核心的戲劇，劇情圍繞萬家的豆腐老店，看似平凡的家庭，卻因「一家三姓」及「豆腐秘方只傳姓萬的男丁」家訓，埋下充滿衝突與矛盾的伏筆。劇中將透過製作豆腐的過程，呈現媽媽無私的愛與堅韌，和家人間的緊密羈絆。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv001">
-    <title lang="zh">民視國際新聞</title>
-    <desc lang="zh">民視新聞堅持內容公正、報導深入、關懷在地，期望獲得民眾信賴與肯定。由多名優秀主播播報，為您帶來即時新聞。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv001">
-    <title lang="zh">科學再發現(E60)</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv001">
-    <title lang="zh">Go Go Taiwan(E603)</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv001">
-    <title lang="zh">民視英語新聞</title>
-    <desc lang="zh">由專業英語主播播報，以最客觀的角度，以及清晰的英語發音，報導當天最重要的新聞時事、生活趣聞，想增進新聞英文聽力的朋友們，切記要收看喔！</desc>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv001">
-    <title lang="zh">台灣心在地情(E61)</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv001">
-    <title lang="zh">名醫妙方(E6)</title>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120053000 +0800" channel="4gtv-4gtv001">
     <title lang="zh">民視台灣學堂-哲學談淺淺地(E65)</title>
   </programme>
@@ -17262,30 +16175,6 @@
   </programme>
   <programme start="20260122224500 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv001">
     <title lang="zh">台灣最前線(E2399)</title>
-  </programme>
-  <programme start="20260119235500 +0800" stop="20260120000000 +0800" channel="4gtv-4gtv041">
-    <title lang="zh">華視生活廣場</title>
-    <desc lang="zh">華視生活廣場。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv041">
-    <title lang="zh">九如一家人</title>
-    <desc lang="zh">楊九如（黃鐙輝）擔心更生人身份招來異樣眼光，隱瞞此事跟玉薰（李杏）結婚。但兩人個性不合，婚姻瀕臨破裂，關鍵時刻因參加歲末祝福挽救了兩人婚姻。九如也在玉薰鼓舞下勇敢地以更生人身份站出來，成立螢火蟲家族，幫助更生人回家。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv041">
-    <title lang="zh">九如一家人</title>
-    <desc lang="zh">楊九如（黃鐙輝）擔心更生人身份招來異樣眼光，隱瞞此事跟玉薰（李杏）結婚。但兩人個性不合，婚姻瀕臨破裂，關鍵時刻因參加歲末祝福挽救了兩人婚姻。九如也在玉薰鼓舞下勇敢地以更生人身份站出來，成立螢火蟲家族，幫助更生人回家。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv041">
-    <title lang="zh">二呆流浪記之完全大人手冊</title>
-    <desc lang="zh">由新生代演員曾敬驊、朱軒洋搭檔首度主持實境節目，兩人將開著卡車全台趴趴走，一起經歷8堂轉大人課題。個性雖完全不同但演藝之路相似的兩人，將藉節目探討正值「25歲」這個由男孩轉大人的人生重要階段，如何面對「成為大人」這門課。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv041">
-    <title lang="zh">歡喜來逗陣</title>
-    <desc lang="zh">當石珊怡和黃輝宏帶著三個兒子和三個女兒們搬進新居時，他們就知道，身上流著黃、石傳人的宿命之血，要開始隨著這場戰爭沸騰了，黃、石兩家人居然住在一起，百年冤家重新聚首，新仇舊恨會為兩家人帶來什麼重大衝突呢？</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv041">
-    <title lang="zh">歡喜來逗陣</title>
-    <desc lang="zh">當石珊怡和黃輝宏帶著三個兒子和三個女兒們搬進新居時，他們就知道，身上流著黃、石傳人的宿命之血，要開始隨著這場戰爭沸騰了，黃、石兩家人居然住在一起，百年冤家重新聚首，新仇舊恨會為兩家人帶來什麼重大衝突呢？</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv041">
     <title lang="zh">九如一家人</title>
@@ -17564,26 +16453,6 @@
     <title lang="zh">華視生活廣場</title>
     <desc lang="zh">華視生活廣場。</desc>
   </programme>
-  <programme start="20260119235500 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv052">
-    <title lang="zh">華視2400夜間新聞</title>
-    <desc lang="zh">由專業華視主播帶來最即時、最完整、最專業的新聞報導。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv052">
-    <title lang="zh">World News 9</title>
-    <desc lang="zh">華視新聞製作，帶給觀眾最公正客觀的新聞視野，由優質主播與新聞團隊聯手打造，每日提供最新最即時的各種國際新聞。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv052">
-    <title lang="zh">華視2400夜間新聞</title>
-    <desc lang="zh">由專業華視主播帶來最即時、最完整、最專業的新聞報導。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv052">
-    <title lang="zh">World News 9</title>
-    <desc lang="zh">華視新聞製作，帶給觀眾最公正客觀的新聞視野，由優質主播與新聞團隊聯手打造，每日提供最新最即時的各種國際新聞。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv052">
-    <title lang="zh">華視2400夜間新聞</title>
-    <desc lang="zh">由專業華視主播帶來最即時、最完整、最專業的新聞報導。</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv052">
     <title lang="zh">World News 9</title>
     <desc lang="zh">華視新聞製作，帶給觀眾最公正客觀的新聞視野，由優質主播與新聞團隊聯手打造，每日提供最新最即時的各種國際新聞。</desc>
@@ -17832,17 +16701,6 @@
     <title lang="zh">華視2400夜間新聞</title>
     <desc lang="zh">由專業華視主播帶來最即時、最完整、最專業的新聞報導。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120013000 +0800" channel="litv-xinchuang13">
-    <title lang="zh">2024世界盃九號球錦標賽</title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120030000 +0800" channel="litv-xinchuang13">
-    <title lang="zh">2025世界九號球巡迴賽</title>
-    <desc lang="zh">世界九號球巡迴賽，自1990年開始舉辦的年度職業九號球撞球錦標賽。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120043000 +0800" channel="litv-xinchuang13">
-    <title lang="zh">2023/24世界司諾克巡迴賽</title>
-    <desc lang="zh">2023–24司諾克賽季是在2023年6月至2024年5月期間舉行的一系列職業司諾克比賽。</desc>
-  </programme>
   <programme start="20260120043000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang13">
     <title lang="zh">2023/24世界司諾克巡迴賽</title>
     <desc lang="zh">2023–24司諾克賽季是在2023年6月至2024年5月期間舉行的一系列職業司諾克比賽。</desc>
@@ -18012,26 +16870,6 @@
   <programme start="20260122213000 +0800" stop="20260123000000 +0800" channel="litv-xinchuang13">
     <title lang="zh">2023/24世界司諾克巡迴賽</title>
     <desc lang="zh">2023–24司諾克賽季是在2023年6月至2024年5月期間舉行的一系列職業司諾克比賽。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv040">
-    <title lang="zh">舊金山美容院</title>
-    <desc lang="zh">三個家庭牽扯出的商戰、家庭和情感糾葛的故事。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv040">
-    <title lang="zh">舊金山美容院</title>
-    <desc lang="zh">三個家庭牽扯出的商戰、家庭和情感糾葛的故事。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv040">
-    <title lang="zh">中視新聞</title>
-    <desc lang="zh">由最專業的中視新聞主播，為您播報最新、最即時的新聞。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv040">
-    <title lang="zh">收播</title>
-    <desc lang="zh">目前無播出節目。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv040">
-    <title lang="zh">MIT台灣誌</title>
-    <desc lang="zh">「MIT台灣誌」以發現台灣、寫真台灣、紀錄台灣為主旨，走遍台灣的每寸土地，介紹台灣的人文環境、大自然地理等…</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv040">
     <title lang="zh">大陸尋奇</title>
@@ -18357,21 +17195,6 @@
     <title lang="zh">大陸尋奇</title>
     <desc lang="zh">您不必跋山涉水就可以將奇峰峻嶺壯闊山河盡收眼底，「大陸尋奇」不惜巨資的大製作足跡踏遍各現代城市，窮鄉僻壤，深入各民族村落，記錄了外人難得一見的生活情況，以準確的地理、歷史定位、用現代化思維，把中華文化忠實的呈現。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120021500 +0800" channel="4gtv-4gtv003">
-    <title lang="zh">豆腐媽媽(E20)</title>
-  </programme>
-  <programme start="20260120021500 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv003">
-    <title lang="zh">元氣加油站(E2628)</title>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv003">
-    <title lang="zh">春花望露(E664)</title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv003">
-    <title lang="zh">元氣加油站(E3029)</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043000 +0800" channel="4gtv-4gtv003">
-    <title lang="zh">美鳳有約(E5242)</title>
-  </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv003">
     <title lang="zh">消費高手(E7867)</title>
   </programme>
@@ -18636,26 +17459,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv003">
     <title lang="zh">大時代(E320)</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv076">
-    <title lang="zh">唐綺陽逍遙遊</title>
-    <desc lang="zh">華人最具影響力的占星師，唐綺陽專屬的旅遊節目。跟著獨特的唐氏風格，觀眾可以用不同的角度看世界，同時見證東西方占星大師的對話。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv076">
-    <title lang="zh">世界跟我這樣玩</title>
-    <desc lang="zh">世界跟我這樣玩是一個跳脫舒適圈，深入體驗異國人文風情的旅遊節目，採用隨拍記錄、最新熱門景點打卡吸引觀眾。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv076">
-    <title lang="zh">33廚房</title>
-    <desc lang="zh">電影圈的大明星林美秀首度跨足綜藝接主持棒，即將大展廚藝與觀眾們一起美味上菜！</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv076">
-    <title lang="zh">暴走兄弟朝聖趣</title>
-    <desc lang="zh">透過主持人盧廣仲、李玉璽、美麗本人三兄弟挑戰世界唯二被聯合國列為世界文化遺產的參拜道：西班牙聖雅各之路與日本熊野古道的冒險實境節目，究竟其中有什麼魔力吸引著一波又一波不論國界不分年齡的朝聖者，湧入這條古老的朝聖之路？</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv076">
-    <title lang="zh">效廉出發吧</title>
-    <desc lang="zh">東森超視全新外景旅遊實境綜藝節目，由跨世代人夫許效舜、威廉攜手主持。兩位私交甚篤的知己好友，將在節目中分享彼此人生故事，帶觀眾深入瞭解每個城鎮獨有的歷史人文，探索每個地方的特色美食生活。一段見證男人友誼的旅行，就此展開！</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv076">
     <title lang="zh">效廉出發吧</title>
     <desc lang="zh">東森超視全新外景旅遊實境綜藝節目，由跨世代人夫許效舜、威廉攜手主持。兩位私交甚篤的知己好友，將在節目中分享彼此人生故事，帶觀眾深入瞭解每個城鎮獨有的歷史人文，探索每個地方的特色美食生活。一段見證男人友誼的旅行，就此展開！</desc>
@@ -18919,26 +17722,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv076">
     <title lang="zh">效廉出發吧</title>
     <desc lang="zh">東森超視全新外景旅遊實境綜藝節目，由跨世代人夫許效舜、威廉攜手主持。兩位私交甚篤的知己好友，將在節目中分享彼此人生故事，帶觀眾深入瞭解每個城鎮獨有的歷史人文，探索每個地方的特色美食生活。一段見證男人友誼的旅行，就此展開！</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv066">
-    <title lang="zh">美麗人生</title>
-    <desc lang="zh">台視60周年台慶大戲，以旗津半島的產業由盛到衰，到後來發展重啟、居民返鄉為背景，展開兩代人糾纏的恩怨情仇與奮鬥故事。透過王樂仙（王樂妍）、張玉琴（邱琦雯）、和許勉（方馨）三位個性迥異的女人，看台灣女人如何走過那個美好年代…</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv066">
-    <title lang="zh">360行向前衝</title>
-    <desc lang="zh">360行，行行都可以出狀元，節目中介紹各行各業的專業達人和達人們畢生努力的過程。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv066">
-    <title lang="zh">台灣名人堂</title>
-    <desc lang="zh">節目特色為台灣有故事的人與有意義的事。以人為經、以故事為緯，邀訪台灣社會裡，無論企業大老闆或是默默耕耘的小市民，只樣式對台灣土地貢獻心力、做出有意義的事都是這個土地的名人，他們將在節目中盡情暢談工作、生活理念與對台灣社會的情感、理想與行動。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv066">
-    <title lang="zh">熱線追蹤</title>
-    <desc lang="zh">由台視主播擔任主持人，以時事熱門新聞為主，專題深入、著重人物的報導，為觀眾報導各種和國民相關的重大新聞。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv066">
-    <title lang="zh">台灣名人堂</title>
-    <desc lang="zh">節目特色為台灣有故事的人與有意義的事。以人為經、以故事為緯，邀訪台灣社會裡，無論企業大老闆或是默默耕耘的小市民，只樣式對台灣土地貢獻心力、做出有意義的事都是這個土地的名人，他們將在節目中盡情暢談工作、生活理念與對台灣社會的情感、理想與行動。</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv066">
     <title lang="zh">健康好簡單</title>
@@ -19252,13 +18035,6 @@
     <title lang="zh">寶島西米樂</title>
     <desc lang="zh">台灣首部以「女西裝師」為主角的職人劇。背景設於五、六○年代，描繪女性在當時男性主導的西裝產業中，如何克服重重挑戰、成為優秀的西裝師。期盼觀眾在欣賞劇中精湛演繹之餘，也能體會這份深具職人精神的動人故事。</desc>
   </programme>
-  <programme start="20260120014500 +0800" stop="20260120032000 +0800" channel="litv-xinchuang03">
-    <title lang="zh">乾坤鬥轉鳳離巢</title>
-    <desc lang="zh">舒家一門為朝廷盡忠為天下守正，卻遭奸人所妒慘遭滅門。舒苑（南笙）後宅閨閣俯瞰京兆政局抽絲剝繭，手刃仇敵拯救家族。但行好事，莫問前塵，順應本心，無問西東！</desc>
-  </programme>
-  <programme start="20260120032000 +0800" stop="20260120042000 +0800" channel="litv-xinchuang03">
-    <title lang="zh">遊戲爆報</title>
-  </programme>
   <programme start="20260120042000 +0800" stop="20260120060500 +0800" channel="litv-xinchuang03">
     <title lang="zh">鬼天廈</title>
     <desc lang="zh">40年前，進鑫大樓發生一場惡火，奪走19條人命，此後恐怖傳言不斷。具有乩身體質的佩芝，因為母親疑似是當年的縱火兇手而心懷愧疚，決定重回大樓撫慰亡靈。她與前來尋找靈感的小說家劭軍合作調查火災真相，卻迎來毛骨悚然的結果…</desc>
@@ -19398,26 +18174,6 @@
   <programme start="20260122210000 +0800" stop="20260123001000 +0800" channel="litv-xinchuang03">
     <title lang="zh">色，戒</title>
     <desc lang="zh">大導演李安的顛峰之作，張愛玲小說改編。抗戰時期，女大學生王佳芝（湯唯）欲施美人計，刺殺汪精衛身邊的大紅人易先生（梁朝偉）。當佳芝成功勾引易先生準備下手時，卻發現自己對他動了真情，佳芝通風報信讓易先生逃過一劫後，易先生卻決定要趕盡殺絕。榮獲金馬獎最佳影片等七項大獎。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="litv-xinchuang20">
-    <title lang="zh">童話任意門</title>
-    <desc lang="zh">小朋友，你愛聽故事嗎？《童話任意門》要跟你分享有趣動人的繪本故事，每集邀請大哥哥大姐姐，用英語發音唸給你聽。快進來聽故事吧！</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="litv-xinchuang20">
-    <title lang="zh">跳舞童樂會</title>
-    <desc lang="zh">快來跟著哥哥姊姊們一起唱唱跳跳！</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="litv-xinchuang20">
-    <title lang="zh">聰明學文法</title>
-    <desc lang="zh">專為文法學習打造的系列，透過主持人分析情境對話，搭配上神奇的專屬道具「數位文法桌」，不論是在解釋字詞與語法，或句型結構調整，都能用操作的手法令學習者一目瞭然。有了神奇的數位文法桌，你也能夠用聰明的方式來學文法了！</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="litv-xinchuang20">
-    <title lang="zh">DT踹貢</title>
-    <desc lang="zh">由劍橋大學認証KET、PET、FCE檢定考特訓老師David Tan主講，內容包含與時事相關的英語單字、有趣的學習經驗分享，以及如何用英文討論熱門話題。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="litv-xinchuang20">
-    <title lang="zh">快樂DoReMi</title>
-    <desc lang="zh">學習英文的方法千百種，練唱英文歌曲是最輕鬆愉快的方式之一。本清單節目集結了動聽的英文兒歌MV，適合父母帶著孩子一起欣賞，在唱唱跳跳的過程中，增進親子情感，也配合動人旋律，學習英文。</desc>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang20">
     <title lang="zh">淘氣鬼小鎮</title>
@@ -19723,9 +18479,6 @@
     <title lang="zh">Rainbow故事屋</title>
     <desc lang="zh">透過短篇的繪本故事，讓學習者理解做人處事需要的同理心、自信與尊重，堅持品德學習及自我激勵能力。除了讓學習者更深刻的理解故事的含意外，全英語的故事敘述，對於愛聽故事的朋友們來說，都是一種很好的學習途徑。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv084">
-    <title lang="zh">前日立法院會議轉播</title>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120084700 +0800" channel="4gtv-4gtv084">
     <title lang="zh">前日立法院會議轉播</title>
   </programme>
@@ -19768,9 +18521,6 @@
   <programme start="20260122180000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv084">
     <title lang="zh">當日立法院會議轉播</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv085">
-    <title lang="zh">前日立法院會議轉播</title>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120084700 +0800" channel="4gtv-4gtv085">
     <title lang="zh">前日立法院會議轉播</title>
   </programme>
@@ -19812,18 +18562,6 @@
   </programme>
   <programme start="20260122180000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv085">
     <title lang="zh">當日立法院會議轉播</title>
-  </programme>
-  <programme start="20260120003900 +0800" stop="20260120014800 +0800" channel="4gtv-4gtv006">
-    <title lang="zh">豬哥會社-第111集</title>
-  </programme>
-  <programme start="20260120014800 +0800" stop="20260120025800 +0800" channel="4gtv-4gtv006">
-    <title lang="zh">豬哥會社-第132集</title>
-  </programme>
-  <programme start="20260120025800 +0800" stop="20260120035700 +0800" channel="4gtv-4gtv006">
-    <title lang="zh">豬哥亮經典秀3</title>
-  </programme>
-  <programme start="20260120035700 +0800" stop="20260120050600 +0800" channel="4gtv-4gtv006">
-    <title lang="zh">豬哥會社-第126集</title>
   </programme>
   <programme start="20260120050600 +0800" stop="20260120061400 +0800" channel="4gtv-4gtv006">
     <title lang="zh">豬哥會社-第91集</title>
@@ -20010,33 +18748,6 @@
   </programme>
   <programme start="20260122231700 +0800" stop="20260123002700 +0800" channel="4gtv-4gtv006">
     <title lang="zh">豬哥會社-第133集</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="4gtv-4gtv104">
-    <title lang="zh">股市吳限鑽-寶得富-吳曉松分析師</title>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv104">
-    <title lang="zh">阪田戰法-寶得富-顧奎國分析師</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv104">
-    <title lang="zh">期股衝衝衝-寶得富-翁士峻分析師</title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv104">
-    <title lang="zh">股市吳限鑽-寶得富-吳曉松分析師</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv104">
-    <title lang="zh">股市第一線-顧德投顧-李冠嶔分析師</title>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv104">
-    <title lang="zh">贏家應對-顧德投顧-林泓橡分析師</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv104">
-    <title lang="zh">阪田戰法-寶得富-顧奎國分析師</title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv104">
-    <title lang="zh">股市強強滾-亞洲投顧-鄭偉群分析師</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043000 +0800" channel="4gtv-4gtv104">
-    <title lang="zh">旗開得勝-顧德投顧-張家豪分析師</title>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv104">
     <title lang="zh">期股衝衝衝-寶得富-翁士峻分析師</title>
@@ -20407,14 +19118,6 @@
   <programme start="20260122233000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv104">
     <title lang="zh">期股衝衝衝-寶得富-翁士俊分析師</title>
   </programme>
-  <programme start="20260120003000 +0800" stop="20260120020000 +0800" channel="litv-xinchuang21">
-    <title lang="zh">唐門之神吼雙雄</title>
-    <desc lang="zh">唐門門主過世，20年前的事再次掀起江湖紛爭，各方勢力針鋒相對。中原質子唐離與唐門少主唐天行、少女唐心陷入風暴的中心，一場圍繞兩個少年身世的秘密逐漸浮現。在各大門派的追殺中，20年的武林大戰再次發生…</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang21">
-    <title lang="zh">收播</title>
-    <desc lang="zh">目前無播出節目。</desc>
-  </programme>
   <programme start="20260120060000 +0800" stop="20260120080000 +0800" channel="litv-xinchuang21">
     <title lang="zh">天下長河</title>
     <desc lang="zh">中國大陸拍攝的歷史電視連續劇。其以清朝康熙（羅晉）在位期間水利專家陳潢（尹昉）與安徽巡撫靳輔（黃志忠）的黃河治理事跡為背景。該劇由張挺編劇、導演， 羅晉、尹昉、黃志忠主演。</desc>
@@ -20538,21 +19241,6 @@
   <programme start="20260122233500 +0800" stop="20260123020000 +0800" channel="litv-xinchuang21">
     <title lang="zh">致命最前線</title>
     <desc lang="zh">真實事件改編。二戰期間，納粹德軍突破俄國防線逼近首都莫斯科。拉夫羅夫和他的好友米提亞謝米亞金，兩人同時愛上前線護士瑪莎，在戰爭中面臨著生離死別、友情和愛情的考驗。他們是否能擋下德軍攻勢、成功守住前線呢？</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv034">
-    <title lang="zh">又見橘花香第11集</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv034">
-    <title lang="zh">火線任務第11集</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv034">
-    <title lang="zh">白色戀曲第11集</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv034">
-    <title lang="zh">至尊玻璃鞋第11集</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv034">
-    <title lang="zh">我是男子漢第11集</title>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv034">
     <title lang="zh">撞球小子11集</title>
@@ -20754,28 +19442,6 @@
   </programme>
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv034">
     <title lang="zh">撞球小子2集</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv053">
-    <title lang="zh">話不多說，玩遊戲：天國降臨：救贖2</title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120014500 +0800" channel="4gtv-4gtv053">
-    <title lang="zh">十大精選：如陳年好酒一般的遊戲</title>
-  </programme>
-  <programme start="20260120014500 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv053">
-    <title lang="zh">十大精選：越想越不對的遊戲</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv053">
-    <title lang="zh">電玩之初：集合啦！動物森友會</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="4gtv-4gtv053">
-    <title lang="zh">電玩檔案室</title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv053">
-    <title lang="zh">遊戲源起</title>
-    <desc lang="zh">遊戲源起透過深入介紹，帶您了解不同的遊戲由來與淵源。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv053">
-    <title lang="zh">電玩點評：Inel Tomlinson</title>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120053000 +0800" channel="4gtv-4gtv053">
     <title lang="zh">遊戲起源：雷神之鎚</title>
@@ -21062,39 +19728,6 @@
   </programme>
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv053">
     <title lang="zh">骰子時代：辛普森家庭！</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120002000 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">K-ARTS ARTISTS</title>
-  </programme>
-  <programme start="20260120002000 +0800" stop="20260120003000 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">EXPLORING KOREAN LITERATURE A</title>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120010000 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">DECODED: THE AI CONVERSATIONS</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120013000 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">K-CULTURE DIVE [R]</title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">WITHIN THE FRAME [R]</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120021500 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">1DAY 1K-CULTURE: K-TREND</title>
-  </programme>
-  <programme start="20260120021500 +0800" stop="20260120023000 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">ARIRANG LAND</title>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120025000 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">KOREA TRAVELOGUE 4</title>
-  </programme>
-  <programme start="20260120025000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">DISCOVERING KOREA: FOOD</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">Gugak The Music of Korea</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043000 +0800" channel="4gtv-4gtv079">
-    <title lang="zh">DIPLOMATS ARCHIVE: HIDDEN STORIES</title>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv079">
     <title lang="zh">REGIONAL TASTES: GYEONGGI</title>
@@ -21574,26 +20207,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="4gtv-4gtv079">
     <title lang="zh">SIMPLY K-POP SNS</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="litv-xinchuang19">
-    <title lang="zh">健康2.0</title>
-    <desc lang="zh">在節目中，將以各種深入淺出的方式，檢測時下流行的健康產品的效用，示範健康烹調與運動方法，並與觀眾分享照顧家人的健康資訊與心得。</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="litv-xinchuang19">
-    <title lang="zh">全民星攻略</title>
-    <desc lang="zh">東森綜合台全新益智實境節目，「全民星攻略」，由館長曾國城擔任把關者，考驗著每個來挑戰九宮格益智遊戲藝人明星。想要攻略九宮格關卡，透過創意聯想、邏輯推理、理想分析，才有機會獲取智慧星幣，帶走夢幻大獎。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="litv-xinchuang19">
-    <title lang="zh">健康2.0</title>
-    <desc lang="zh">在節目中，將以各種深入淺出的方式，檢測時下流行的健康產品的效用，示範健康烹調與運動方法，並與觀眾分享照顧家人的健康資訊與心得。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="litv-xinchuang19">
-    <title lang="zh">全民星攻略</title>
-    <desc lang="zh">東森綜合台全新益智實境節目，「全民星攻略」，由館長曾國城擔任把關者，考驗著每個來挑戰九宮格益智遊戲藝人明星。想要攻略九宮格關卡，透過創意聯想、邏輯推理、理想分析，才有機會獲取智慧星幣，帶走夢幻大獎。</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="litv-xinchuang19">
-    <title lang="zh">健康2.0</title>
-    <desc lang="zh">在節目中，將以各種深入淺出的方式，檢測時下流行的健康產品的效用，示範健康烹調與運動方法，並與觀眾分享照顧家人的健康資訊與心得。</desc>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang19">
     <title lang="zh">全民星攻略</title>
     <desc lang="zh">東森綜合台全新益智實境節目，「全民星攻略」，由館長曾國城擔任把關者，考驗著每個來挑戰九宮格益智遊戲藝人明星。想要攻略九宮格關卡，透過創意聯想、邏輯推理、理想分析，才有機會獲取智慧星幣，帶走夢幻大獎。</desc>
@@ -21861,26 +20474,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="litv-xinchuang19">
     <title lang="zh">健康2.0</title>
     <desc lang="zh">在節目中，將以各種深入淺出的方式，檢測時下流行的健康產品的效用，示範健康烹調與運動方法，並與觀眾分享照顧家人的健康資訊與心得。</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="litv-xinchuang22">
-    <title lang="zh">親戚不計較</title>
-    <desc lang="zh">由卓勝利、李鑼等人主演，本劇雖以喜劇的方式呈現，但笑中有淚，淚中有悟，悟中有得，令人深思！</desc>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120010000 +0800" channel="litv-xinchuang22">
-    <title lang="zh">親戚不計較</title>
-    <desc lang="zh">由卓勝利、李鑼等人主演，本劇雖以喜劇的方式呈現，但笑中有淚，淚中有悟，悟中有得，令人深思！</desc>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="litv-xinchuang22">
-    <title lang="zh">台灣啟示錄</title>
-    <desc lang="zh">為您統整介紹台灣社會近年來重大案件與名人軼事的始末，以及相關的新聞分析與報導。</desc>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="litv-xinchuang22">
-    <title lang="zh">台灣啟示錄</title>
-    <desc lang="zh">為您統整介紹台灣社會近年來重大案件與名人軼事的始末，以及相關的新聞分析與報導。</desc>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120043000 +0800" channel="litv-xinchuang22">
-    <title lang="zh">藍色水玲瓏</title>
-    <desc lang="zh">推出全新三大系列，分別為陰陽有情天、夜迷離及神秘記事簿，劇情有動人的人世間的親情，至死不渝的男女情愛，天理報應的因果事件等，這些充斥在社會上的愛恨情仇，令人匪夷所思的事件，帶來另一種不同的詮釋角度。</desc>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang22">
     <title lang="zh">藍色水玲瓏</title>
@@ -22162,18 +20755,6 @@
     <title lang="zh">藍色水玲瓏</title>
     <desc lang="zh">推出全新三大系列，分別為陰陽有情天、夜迷離及神秘記事簿，劇情有動人的人世間的親情，至死不渝的男女情愛，天理報應的因果事件等，這些充斥在社會上的愛恨情仇，令人匪夷所思的事件，帶來另一種不同的詮釋角度。</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120020000 +0800" channel="4gtv-4gtv110">
-    <title lang="zh">寵物安眠曲:鼠類</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="4gtv-4gtv110">
-    <title lang="zh">寵物大爆笑</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="4gtv-4gtv110">
-    <title lang="zh">狗狗搜救隊</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="4gtv-4gtv110">
-    <title lang="zh">寵物大集合</title>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="4gtv-4gtv110">
     <title lang="zh">萌寵攻略</title>
     <desc lang="zh">萌寵攻略是一個介紹寵物大小事、充滿愛與歡笑的台灣本土自製動物節目除了超萌動物吸睛外，節目中更有不同類型單元，包括:萌寵御膳房-- 製作及挑選毛寶貝飲食、萌寵玩樂通全台各地寵物友善溜達好去處...</desc>
@@ -22425,18 +21006,6 @@
     <title lang="zh">萌寵攻略</title>
     <desc lang="zh">萌寵攻略是一個介紹寵物大小事、充滿愛與歡笑的台灣本土自製動物節目除了超萌動物吸睛外，節目中更有不同類型單元，包括:萌寵御膳房-- 製作及挑選毛寶貝飲食、萌寵玩樂通全台各地寵物友善溜達好去處...</desc>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="litv-fast1223">
-    <title lang="zh">醫師好辣 #1010_別跟身體訊號「逆時鐘」，反撲恐讓你痛不欲生？！</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="litv-fast1223">
-    <title lang="zh">綜藝新時代 #101_樂天女孩新成員來啦！籃籃發起Battle邀約！</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="litv-fast1223">
-    <title lang="zh">請問今晚住誰家 #116_獨居阿嬤初見阿兜仔，偷捏賈斯汀高挺鼻子懷疑「這是真的嗎」？！</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120050000 +0800" channel="litv-fast1223">
-    <title lang="zh">音你而來2 #9_新老朋友重聚檳城，偶遇暴雨爆發別樣熱情！</title>
-  </programme>
   <programme start="20260120050000 +0800" stop="20260120070000 +0800" channel="litv-fast1223">
     <title lang="zh">天才衝衝衝 #608_全新玩法 押注搏獎金囉</title>
   </programme>
@@ -22586,27 +21155,6 @@
   </programme>
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="litv-fast1223">
     <title lang="zh">全民星攻略 #253_兩代之間IQ大挑戰</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120003500 +0800" channel="litv-fast1224">
-    <title lang="zh">錦月令 #21</title>
-  </programme>
-  <programme start="20260120003500 +0800" stop="20260120011000 +0800" channel="litv-fast1224">
-    <title lang="zh">錦月令 #22</title>
-  </programme>
-  <programme start="20260120011000 +0800" stop="20260120014000 +0800" channel="litv-fast1224">
-    <title lang="zh">雲赫謠(30分鐘版) #11</title>
-  </programme>
-  <programme start="20260120014000 +0800" stop="20260120020000 +0800" channel="litv-fast1224">
-    <title lang="zh">公主變形記 #7</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="litv-fast1224">
-    <title lang="zh">長樂曲 #23</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="litv-fast1224">
-    <title lang="zh">長樂曲 #24</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120050000 +0800" channel="litv-fast1224">
-    <title lang="zh">錦繡安寧 #7</title>
   </programme>
   <programme start="20260120050000 +0800" stop="20260120060000 +0800" channel="litv-fast1224">
     <title lang="zh">錦繡安寧 #8</title>
@@ -22875,15 +21423,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="litv-fast1224">
     <title lang="zh">錦繡安寧 #14</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120020000 +0800" channel="litv-fast1225">
-    <title lang="zh">幸福來了 #257</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120040000 +0800" channel="litv-fast1225">
-    <title lang="zh">幸福來了 #258</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120060000 +0800" channel="litv-fast1225">
-    <title lang="zh">黃金歲月 #19</title>
-  </programme>
   <programme start="20260120060000 +0800" stop="20260120080000 +0800" channel="litv-fast1225">
     <title lang="zh">黃金歲月 #20</title>
   </programme>
@@ -23004,9 +21543,6 @@
   <programme start="20260122220000 +0800" stop="20260123000000 +0800" channel="litv-fast1225">
     <title lang="zh">黃金歲月 #26</title>
   </programme>
-  <programme start="20260120000000 +0800" stop="20260120060000 +0800" channel="nnews-zh">
-    <title lang="zh">晚安新聞</title>
-  </programme>
   <programme start="20260120060000 +0800" stop="20260120120000 +0800" channel="nnews-zh">
     <title lang="zh">早安新聞</title>
   </programme>
@@ -23039,17 +21575,6 @@
   </programme>
   <programme start="20260122180000 +0800" stop="20260123000000 +0800" channel="nnews-zh">
     <title lang="zh">晚安新聞</title>
-  </programme>
-  <programme start="20260120002500 +0800" stop="20260120022000 +0800" channel="litv-xinchuang02">
-    <title lang="zh">綁架</title>
-  </programme>
-  <programme start="20260120022000 +0800" stop="20260120040000 +0800" channel="litv-xinchuang02">
-    <title lang="zh">伏罪公路</title>
-    <desc lang="zh">學校老師艾倫帶著妻子和兩個兒子一起出遊，豈料卻在中途休息時，遭到兩名陌生男子狹持，對方更自稱是艾倫以前的學生。在兩人的施壓威脅下，艾倫將被迫面對他過去的殘酷行為…</desc>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120060000 +0800" channel="litv-xinchuang02">
-    <title lang="zh">宮-野蠻王妃</title>
-    <desc lang="zh">君主制度下，皇子與平民聯姻的愛情故事。因皇帝病情越來越嚴重，皇太子李信（朱智勳）只好答應和早已訂下婚約的申采靜（尹恩惠）結婚，但信還只是名高中生，他明白身為皇太子的特殊身份是不能有選擇個人喜好的權利。而少了根筋的采靜也就這樣進入皇宮，用樂觀和率真的個性成為受人愛戴的太子妃。</desc>
   </programme>
   <programme start="20260120060000 +0800" stop="20260120080000 +0800" channel="litv-xinchuang02">
     <title lang="zh">畫出我們的標誌</title>
@@ -23194,21 +21719,6 @@
   <programme start="20260122225500 +0800" stop="20260123010000 +0800" channel="litv-xinchuang02">
     <title lang="zh">野蠻真相</title>
     <desc lang="zh">一位邊境治安官負責管理一座帝國邊境的小城鎮，他們與蠻族交換物資，彼此和平共處，不料喬爾上校（強尼戴普）的到來讓局勢失去了平衡。喬爾上校殘暴地拷問、壓迫和虐待蠻族，為了滿足帝國擴張的野心，他甚至編造蠻族意圖入侵的證據，而持反對意見的治安官也被指控與蠻族勾結…</desc>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120010000 +0800" channel="litv-ftv15">
-    <title lang="zh">美國海上戰鬥艦隊 第1集</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120020000 +0800" channel="litv-ftv15">
-    <title lang="zh">改變現代世界的思想家：馬克思</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="litv-ftv15">
-    <title lang="zh">愛爾蘭城堡傳奇：諾曼人來襲</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120040000 +0800" channel="litv-ftv15">
-    <title lang="zh">農夫與他的田 第32集</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120053000 +0800" channel="litv-ftv15">
-    <title lang="zh">珍珠港回憶錄</title>
   </programme>
   <programme start="20260120053000 +0800" stop="20260120060000 +0800" channel="litv-ftv15">
     <title lang="zh">大屠殺求生故事-上</title>
@@ -23411,16 +21921,6 @@
   <programme start="20260122230000 +0800" stop="20260123000000 +0800" channel="litv-ftv15">
     <title lang="zh">蘇格蘭懸案實錄：奧斯卡斯萊特</title>
   </programme>
-  <programme start="20260120002000 +0800" stop="20260120023000 +0800" channel="litv-ftv10">
-    <title lang="zh">諜戰：傑克·斯特朗</title>
-  </programme>
-  <programme start="20260120023000 +0800" stop="20260120041000 +0800" channel="litv-ftv10">
-    <title lang="zh">黑蝶漫舞</title>
-    <desc lang="zh">某日，詩人英格麗在海邊戲水時，不幸溺水而被同在海灘上的小說家傑克救起。傑克此一舉動讓向來仰慕他的英格麗轉為愛慕，並且帶著女兒離開丈夫，搬去和他一同居住。同時，英格麗因反對種族隔離的法制而聲名大噪，不滿創作自由遭受打壓的她，更放言大肆抨擊身為審查部門部長的父親，讓她的父親大為震怒…</desc>
-  </programme>
-  <programme start="20260120041000 +0800" stop="20260120053000 +0800" channel="litv-ftv10">
-    <title lang="zh">少年獵手:貝文頓的野獸</title>
-  </programme>
   <programme start="20260120053000 +0800" stop="20260120065500 +0800" channel="litv-ftv10">
     <title lang="zh">珠寶大匠</title>
   </programme>
@@ -23546,30 +22046,6 @@
   </programme>
   <programme start="20260122235000 +0800" stop="20260123013500 +0800" channel="litv-ftv10">
     <title lang="zh">克萊</title>
-  </programme>
-  <programme start="20260120000000 +0800" stop="20260120003000 +0800" channel="daystar">
-    <title lang="zh">Manna-fest with Perry Stone</title>
-  </programme>
-  <programme start="20260120003000 +0800" stop="20260120010000 +0800" channel="daystar">
-    <title lang="zh">Reflections</title>
-  </programme>
-  <programme start="20260120010000 +0800" stop="20260120013000 +0800" channel="daystar">
-    <title lang="zh">Gospel Truth with Andrew Wommack</title>
-  </programme>
-  <programme start="20260120013000 +0800" stop="20260120020000 +0800" channel="daystar">
-    <title lang="zh">Joni Table Talk</title>
-  </programme>
-  <programme start="20260120020000 +0800" stop="20260120030000 +0800" channel="daystar">
-    <title lang="zh">Ministry Now</title>
-  </programme>
-  <programme start="20260120030000 +0800" stop="20260120033000 +0800" channel="daystar">
-    <title lang="zh">Gospel Truth with Andrew Wommack</title>
-  </programme>
-  <programme start="20260120033000 +0800" stop="20260120040000 +0800" channel="daystar">
-    <title lang="zh">Ron Carpenter</title>
-  </programme>
-  <programme start="20260120040000 +0800" stop="20260120043000 +0800" channel="daystar">
-    <title lang="zh">Kenneth W. Hagin</title>
   </programme>
   <programme start="20260120043000 +0800" stop="20260120050000 +0800" channel="daystar">
     <title lang="zh">Kenneth Copeland</title>
