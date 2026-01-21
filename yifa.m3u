@@ -4615,7 +4615,7 @@ rtsp://10.15.250.13/PLTV/88888888/224/3221226702/1000010000000006000000000638515
 rtsp://10.15.250.13/PLTV/88888888/224/3221226706/10000100000000060000000006385172_0.smil
 #EXTINF:-1 tvg-id="高尔夫网球" tvg-name="高尔夫网球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/高尔夫网球.png" group-title="辽宁联通(内)",高尔夫网球
 rtsp://10.15.250.13/PLTV/88888888/224/3221226945/468696517.smil
-#EXTINF:-1 tvg-id="先锋乒羽" tvg-name="先锋乒羽" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="辽宁联通(内)",先锋乒羽
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="辽宁联通(内)",先锋乒羽
 rtsp://10.15.250.13/PLTV/88888888/224/3221226956/468696527.smil
 #EXTINF:-1 tvg-id="武术世界" tvg-name="武术世界" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/武術世界.png" group-title="辽宁联通(内)",武术世界
 rtsp://10.15.250.13/PLTV/88888888/224/3221226968/468696615.smil
@@ -6049,7 +6049,7 @@ rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch21092610324607482092.
 rtsp://112.245.125.42:1554/iptv/import/Tvod/iptv/001/001/ch21082717343948936881.rsc/96392_Uni.sdp
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="山东联通(内)",金鹰卡通
 rtsp://112.245.125.42:1554/iptv/import/Tvod/iptv/001/001/ch11122400412227153064.rsc/70028_Uni.sdp
-#EXTINF:-1 tvg-id="先锋乒羽" tvg-name="先锋乒羽" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="山东联通(内)",先锋乒羽
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="山东联通(内)",先锋乒羽
 rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch18120514104123291864.rsc/81479_Uni.sdp
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="山东联通(内)",河南卫视
 rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch10120118312827983078.rsc/69930_Uni.sdp
@@ -6533,7 +6533,7 @@ http://tvgslb.hn.chinamobile.com:8089/180000001002/32023061416093545217774427398
 http://tvgslb.hn.chinamobile.com:8089/180000001002/32023061416181029613614091027931/main.m3u8?stbid=
 #EXTINF:-1 tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汽摩.png" group-title="湖南移动(内)",汽摩
 http://tvgslb.hn.chinamobile.com:8089/180000001002/32023061416165336644074033786493/main.m3u8?stbid=
-#EXTINF:-1 tvg-id="先锋乒羽" tvg-name="先锋乒羽" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="湖南移动(内)",先锋乒羽
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="湖南移动(内)",先锋乒羽
 http://tvgslb.hn.chinamobile.com:8089/180000001002/00000000000000020000000000182319/main.m3u8?stbid=
 #EXTINF:-1 tvg-id="茶频道" tvg-name="茶频道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/茶频道.png" group-title="湖南移动(内)",茶频道
 http://tvgslb.hn.chinamobile.com:8089/180000001002/00000001000000000003000000104063/main.m3u8?stbid=
@@ -7053,7 +7053,7 @@ http://sc.rrs.169ol.com:80/PLTV/88888888/224/3221227984/index.m3u8
 http://sc.rrs.169ol.com:80/PLTV/88888888/224/3221227986/index.m3u8
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/快乐垂钓.png" group-title="四川联通(内)",快乐垂钓
 http://sc.rrs.169ol.com:80/PLTV/88888888/224/3221227965/index.m3u8
-#EXTINF:-1 tvg-id="先锋乒羽" tvg-name="先锋乒羽" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="四川联通(内)",先锋乒羽
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="四川联通(内)",先锋乒羽
 http://sc.rrs.169ol.com:80/PLTV/88888888/224/3221227967/index.m3u8
 #EXTINF:-1 tvg-id="动漫秀场 (shanghai)" tvg-name="动漫秀场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/动漫秀场.png" group-title="四川联通(内)",动漫秀场
 http://sc.rrs.169ol.com:80/PLTV/88888888/224/3221227977/index.m3u8
