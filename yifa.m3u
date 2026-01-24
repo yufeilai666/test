@@ -1323,7 +1323,7 @@ http://free.cnlive.club/channel/n4bbbe8c9.m3u8
 http://free.cnlive.club/channel/4291e438.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/公视台语.png" group-title="极速赛雷",公视台语
 http://free.cnlive.club/channel/3ccf6783.m3u8
-#EXTINF:-1 tvg-id="台視綜合" tvg-name="台視綜合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="极速赛雷",台视综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="极速赛雷",台视综合
 http://free.cnlive.club/channel/45306b98.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天娛樂.png" group-title="极速赛雷",中天娱乐
 http://free.cnlive.club/channel/41d6f491.m3u8
@@ -1591,7 +1591,7 @@ https://live.catvod.com/live.php?id=hkphoenix_twn
 https://live.catvod.com/live.php?id=ttv_taiwan
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="斯玛特",台视新闻
 https://live.catvod.com/live.php?id=ttvnews_twn
-#EXTINF:-1 tvg-id="台視綜合" tvg-name="台視綜合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="斯玛特",台视综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="斯玛特",台视综合
 https://live.catvod.com/live.php?id=ttvzhonghe
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="斯玛特",中视
 https://live.catvod.com/live.php?id=zhongshihd_twn
@@ -1749,7 +1749,7 @@ https://live.catvod.com/live.php?id=bosisport1_twn
 https://live.catvod.com/live.php?id=bosisport2_twn
 #EXTINF:-1 tvg-id="博斯高球一台" tvg-name="博斯高球一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球一台.png" group-title="斯玛特",博斯高球一台
 https://live.catvod.com/live.php?id=bosigolf1_twn
-#EXTINF:-1 tvg-id="博斯高球二台" tvg-name="博斯高球二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球二台.png" group-title="斯玛特",博斯高球二台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球二台.png" group-title="斯玛特",博斯高球二台
 https://live.catvod.com/live.php?id=bosigolf2_twn
 #EXTINF:-1 tvg-id="博斯網球台" tvg-name="博斯網球台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯网球台.png" group-title="斯玛特",博斯网球台
 https://live.catvod.com/live.php?id=bositennis_twn
