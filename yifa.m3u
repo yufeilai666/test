@@ -1151,9 +1151,9 @@ http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382834&e
 http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW英超1台.png" group-title="极速168",NOW英超1台
 http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV.png" group-title="极速风云",SPOTV
+#EXTINF:-1 tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV.png" group-title="极速风云",SPOTV
 http://iptv.4666888.xyz/iptv2A.php?id=2
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV2.png" group-title="极速风云",SPOTV2
+#EXTINF:-1 tvg-id="SPOTV2" tvg-name="SPOTV2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV2.png" group-title="极速风云",SPOTV2
 http://iptv.4666888.xyz/iptv2A.php?id=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ASTROFOOTBALL.png" group-title="极速风云",astroFootball
 http://iptv.4666888.xyz/iptv2A.php?id=4
@@ -1893,7 +1893,7 @@ https://live.catvod.com/live.php?id=Wwe
 https://live.catvod.com/live.php?id=Fs
 #EXTINF:-1 group-title="斯玛特",NBA TV
 https://live.catvod.com/live.php?id=Nba
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Astro Cricket.png" group-title="斯玛特",Astro Cricket
+#EXTINF:-1 tvg-id="Astro Cricket" tvg-name="Astro Cricket" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Astro Cricket.png" group-title="斯玛特",Astro Cricket
 https://live.catvod.com/live.php?id=Acricket
 #EXTINF:-1 group-title="斯玛特",Astro Golf
 https://live.catvod.com/live.php?id=Agolf
