@@ -303,7 +303,7 @@ p3p://167.114.175.6:55331/6323522b0000ad5c24e892c57ad041c7
 p3p://167.114.175.6:55331/63ec4b8400036b28e440c19a1b512b44
 #EXTINF:-1 tvg-id="新视觉" tvg-name="新视觉" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/新视觉.png" group-title="体育SP",新视觉
 p3p://167.114.175.6:55331/63ec4d870003e9f2e4489d7821254fbb
-#EXTINF:-1 tvg-id="五星体育 (shanghai)" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/五星体育.png" group-title="体育SP",五星体育
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/五星体育.png" group-title="体育SP",五星体育
 p3p://167.114.175.6:55331/63ec4dc200075675e44984ca52f86245
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯运动1.png" group-title="体育SP",博斯运动1
 p3p://167.114.175.6:55331/61f02576000b2c0a80eb0552388d145e
@@ -969,13 +969,13 @@ http://zb.xzxwhcb.com:9999/hls/world.m3u8
 p3p://167.114.175.6:55331/655e74f7000953678a2be18968661f5f
 #EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/chc高清电影.png" group-title="大陆MainLand",CHC高清电影
 p3p://167.114.175.6:55331/63ec4caf00020428e445513c2d902fdb
-#EXTINF:-1 tvg-id="CHC家庭影院 (shanghai)" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC家庭影院.png" group-title="大陆MainLand",CHC家庭影院
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC家庭影院.png" group-title="大陆MainLand",CHC家庭影院
 p3p://167.114.175.6:55331/63ec4d000006b5ebe4468ed8604807ac
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC动作电影.png" group-title="大陆MainLand",CHC动作电影
 p3p://167.114.175.6:55331/63ec4d4200074d64e44790cb67ae7b20
 #EXTINF:-1 tvg-id="新视觉" tvg-name="新视觉" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/新视觉.png" group-title="大陆MainLand",新视觉
 p3p://167.114.175.6:55331/63ec4d870003e9f2e4489d7821254fbb
-#EXTINF:-1 tvg-id="五星体育 (shanghai)" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/五星体育.png" group-title="大陆MainLand",五星体育
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/五星体育.png" group-title="大陆MainLand",五星体育
 p3p://167.114.175.6:55331/63ec4dc200075675e44984ca52f86245
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="大陆MainLand",兵团卫视
 p3p://167.114.175.6:55331/63ed2c99000b902be7affdb21e970038
