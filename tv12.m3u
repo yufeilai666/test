@@ -613,7 +613,7 @@ http://43.251.226.89:8080/play/305.m3u8
 http://43.251.226.89:8080/play/306.m3u8
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="央卫频道",CCTV4美洲
 http://43.251.226.89:8080/play/307.m3u8
-#EXTINF:-1 group-title="央卫频道",CGTN外语纪录
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn纪录.png" group-title="央卫频道",CGTN纪录
 http://43.251.226.89:8080/play/308.m3u8
 #EXTINF:-1 tvg-id="cgtn阿拉伯语" tvg-name="cgtn阿拉伯语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN阿拉伯语.png" group-title="央卫频道",CGTN阿拉伯语
 http://43.251.226.89:8080/play/309.m3u8
@@ -687,7 +687,7 @@ http://43.251.226.89:8080/play/342.m3u8
 http://43.251.226.89:8080/play/343.m3u8
 #EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/上海第一财经.png" group-title="央卫频道",上海第一财经
 http://43.251.226.89:8080/play/344.m3u8
-#EXTINF:-1 tvg-id="南京新闻综合频道" tvg-name="南京新闻综合频道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/南京新闻综合频道.png" group-title="央卫频道",南京新闻综合频道
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/南京新闻综合.png" group-title="央卫频道",南京新闻综合
 http://43.251.226.89:8080/play/345.m3u8
 #EXTINF:-1 tvg-id="南京教科频道" tvg-name="南京教科频道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/南京教科频道.png" group-title="央卫频道",南京教科频道
 http://43.251.226.89:8080/play/346.m3u8
@@ -731,25 +731,25 @@ http://43.251.226.89:8080/play/364.m3u8
 http://43.251.226.89:8080/play/365.m3u8
 #EXTINF:-1 tvg-id="陝西银龄频道" tvg-name="陝西银龄频道" group-title="央卫频道",陕西银龄频道
 http://43.251.226.89:8080/play/366.m3u8
-#EXTINF:-1 tvg-id="陕西都市青春频道" tvg-name="陕西都市青春频道" group-title="央卫频道",陕西都市青春频道
+#EXTINF:-1 tvg-id="陝西都市青春" tvg-name="陝西都市青春" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/陕西都市青春.png" group-title="央卫频道",陕西都市青春
 http://43.251.226.89:8080/play/367.m3u8
 #EXTINF:-1 tvg-id="陝西秦腔频道" tvg-name="陝西秦腔频道" group-title="央卫频道",陕西秦腔频道
 http://43.251.226.89:8080/play/368.m3u8
-#EXTINF:-1 tvg-id="陕西新闻资讯频道" tvg-name="陕西新闻资讯频道" group-title="央卫频道",陕西新闻资讯频道
+#EXTINF:-1 tvg-id="陝西新闻资讯" tvg-name="陝西新闻资讯" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/陕西新闻资讯.png" group-title="央卫频道",陕西新闻资讯
 http://43.251.226.89:8080/play/369.m3u8
 #EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/财富天下.png" group-title="央卫频道",财富天下
 http://43.251.226.89:8080/play/370.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/镇江新闻综合.png" group-title="央卫频道",镇江新闻综合
 http://43.251.226.89:8080/play/371.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/辽宁公共频道.png" group-title="央卫频道",辽宁公共频道
+#EXTINF:-1 tvg-id="辽宁公共" tvg-name="辽宁公共" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/辽宁公共.png" group-title="央卫频道",辽宁公共
 http://43.251.226.89:8080/play/372.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/辽宁生活频道.png" group-title="央卫频道",辽宁生活频道
+#EXTINF:-1 tvg-id="辽宁生活" tvg-name="辽宁生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/辽宁生活.png" group-title="央卫频道",辽宁生活
 http://43.251.226.89:8080/play/373.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/辽宁影视剧频道.png" group-title="央卫频道",辽宁影视剧频道
+#EXTINF:-1 tvg-id="辽宁影视剧" tvg-name="辽宁影视剧" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/辽宁影视剧.png" group-title="央卫频道",辽宁影视剧
 http://43.251.226.89:8080/play/374.m3u8
-#EXTINF:-1 group-title="央卫频道",宁夏文旅频道
+#EXTINF:-1 tvg-id="宁夏文旅" tvg-name="宁夏文旅" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/宁夏文旅.png" group-title="央卫频道",宁夏文旅
 http://43.251.226.89:8080/play/375.m3u8
-#EXTINF:-1 group-title="央卫频道",宁夏经济频道
+#EXTINF:-1 tvg-id="宁夏经济" tvg-name="宁夏经济" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/宁夏经济.png" group-title="央卫频道",宁夏经济
 http://43.251.226.89:8080/play/376.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/经典香港电影.webp" group-title="央卫频道",经典香港电影
 http://43.251.226.89:8080/play/377.m3u8
