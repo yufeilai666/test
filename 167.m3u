@@ -355,7 +355,7 @@ p3p://167.114.175.6:55331/64bbb4a20003920c0e6fb5005f03654a
 p3p://167.114.175.6:55331/64bbb4e7000d13560e70c4f7058227b2
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/欧洲体育.png" group-title="体育SP",欧洲体育
 p3p://167.114.175.6:55331/5fe6fc92000bb0078d3cad5824d31e8a
-#EXTINF:-1 tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV.png" group-title="体育SP",SpoTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV.png" group-title="体育SP",SpoTV
 p3p://167.114.175.6:55331/656f74ac00097859cc92688069041bb5
 #EXTINF:-1 group-title="体育SP",SpoTV 2
 p3p://167.114.175.6:55331/656f7589000dd70dcc95c8e80c56468e
@@ -485,7 +485,7 @@ p3p://fccsen.dyndns.tv:29706/5bc2b10500008a6d2c2888161d4270ba
 p3p://fccsen.dyndns.tv:29706/5a21d4d80004d603cfcfc43c12066d47
 #EXTINF:-1 group-title="体育SP",Euro Sport 2
 p3p://fccsen.dyndns.tv:29706/5a21d4ed00032238cfd015d5794173ae
-#EXTINF:-1 tvg-id="MUTV" tvg-name="MUTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sg/mutv.png" group-title="体育SP",MUTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sg/mutv.png" group-title="体育SP",MUTV
 p3p://fccsen.dyndns.tv:29706/5f7b32e5000e762d6a11bc6c06985c05
 #EXTINF:-1 group-title="体育SP",Bein Sport 1
 p3p://fccsen.dyndns.tv:29706/5a1f68cc00061b05c659b5aa2f9847d2
@@ -1871,7 +1871,7 @@ p3p://167.114.175.6:55331/64bbb7fc0000f99e0e7ccbda6e527811
 p3p://167.114.175.6:55331/64bbb85e0009c5db0e7e4ceb66ad5c17
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sg/suria.png" group-title="新马MS",Suria
 p3p://167.114.175.6:55331/63af14b7000808e8f523d7917f367ce9
-#EXTINF:-1 tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV.png" group-title="新马MS",SpoTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV.png" group-title="新马MS",SpoTV
 p3p://167.114.175.6:55331/656f74ac00097859cc92688069041bb5
 #EXTINF:-1 group-title="新马MS",SpoTV 2
 p3p://167.114.175.6:55331/656f7589000dd70dcc95c8e80c56468e
@@ -3335,7 +3335,7 @@ p3p://fccsen.dyndns.tv:29706/59c67ea30007574b7f6b6dad749b5b27
 p3p://fccsen.dyndns.tv:29706/5a21d4d80004d603cfcfc43c12066d47
 #EXTINF:-1 group-title="英国UK",Euro Sport 2
 p3p://fccsen.dyndns.tv:29706/5a21d4ed00032238cfd015d5794173ae
-#EXTINF:-1 tvg-id="MUTV" tvg-name="MUTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sg/mutv.png" group-title="英国UK",MUTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sg/mutv.png" group-title="英国UK",MUTV
 p3p://fccsen.dyndns.tv:29706/5f7b32e5000e762d6a11bc6c06985c05
 #EXTINF:-1 group-title="英国UK",Bein Sport En 1
 p3p://fccsen.dyndns.tv:29706/5a1f69ad0007ff61c65d250f47281dca
