@@ -835,7 +835,7 @@ https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/53240
 rtmp://f13h.mine.nu/sat/tv091
 #EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="极速港台",华视
 rtmp://f13h.mine.nu/sat/tv111
-#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="极速港台",台视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="极速港台",台视
 rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="极速港台",民视
 rtmp://f13h.mine.nu/sat/tv051
@@ -847,7 +847,7 @@ rtmp://f13h.mine.nu/sat/tv721
 rtmp://f13h.mine.nu/sat/tv701
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="极速港台",纬来日本
 rtmp://f13h.mine.nu/sat/tv771
-#EXTINF:-1 tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="极速港台",东森超视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="极速港台",东森超视
 rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb翡翠台.png" group-title="极速港台2",TVB翡翠台
 http://aipyou.com:8080/live/yifatv-jade01.m3u8
@@ -1223,7 +1223,7 @@ http://iptv.4666888.xyz/iptv2A.php?id=45
 http://iptv.4666888.xyz/iptv2A.php?id=49
 #EXTINF:-1 tvg-id="ROCK ACTION" tvg-name="ROCK ACTION" group-title="极速风云",ROCK Action
 http://iptv.4666888.xyz/iptv2A.php?id=50
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/JET综合.png" group-title="极速风云",JET综合
+#EXTINF:-1 tvg-id="JET綜合" tvg-name="JET綜合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/JET综合.png" group-title="极速风云",JET综合
 http://iptv.4666888.xyz/iptv2A.php?id=51
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八度空间.png" group-title="极速风云",八度空间
 http://iptv.4666888.xyz/iptv2A.php?id=52
@@ -1297,7 +1297,7 @@ http://free.cnlive.club/channel/n69ccce92.m3u8
 http://free.cnlive.club/channel/49184630.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="极速赛雷",非凡新闻
 http://free.cnlive.club/channel/6302a884.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="极速赛雷",民视新闻
+#EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="极速赛雷",民视新闻
 http://free.cnlive.club/channel/n4b747ee6.m3u8
 #EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视新闻.png" group-title="极速赛雷",中视新闻
 http://free.cnlive.club/channel/428f1dfa.m3u8
@@ -1349,7 +1349,7 @@ http://free.cnlive.club/channel/n7160b4.m3u8
 http://free.cnlive.club/channel/n5502f4.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森幼幼.png" group-title="极速赛雷",东森幼幼
 http://free.cnlive.club/channel/naa6d18.m3u8
-#EXTINF:-1 tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="极速赛雷",东森超视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="极速赛雷",东森超视
 http://free.cnlive.club/channel/4210df69.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森財經.png" group-title="极速赛雷",东森财经
 http://free.cnlive.club/channel/209f9e70.m3u8
@@ -1429,7 +1429,7 @@ http://free.cnlive.club/channel/n34995d66.m3u8
 http://free.cnlive.club/channel/5939fd4b.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲美食.png" group-title="极速赛雷",亚洲美食
 http://free.cnlive.club/channel/4258879f.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="极速赛雷",亚洲旅游
+#EXTINF:-1 tvg-id="亞洲旅遊" tvg-name="亞洲旅遊" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="极速赛雷",亚洲旅游
 http://free.cnlive.club/channel/852ca6f.m3u8
 #EXTINF:-1 group-title="极速赛雷",亚洲TLC
 http://free.cnlive.club/channel/34964cb6.m3u8
@@ -1587,7 +1587,7 @@ https://live.catvod.com/live.php?id=phoenixtv_hd
 https://live.catvod.com/live.php?id=phoenixinfo_hd
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="斯玛特",凤凰香港
 https://live.catvod.com/live.php?id=hkphoenix_twn
-#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="斯玛特",台视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="斯玛特",台视
 https://live.catvod.com/live.php?id=ttv_taiwan
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="斯玛特",台视新闻
 https://live.catvod.com/live.php?id=ttvnews_twn
@@ -1601,7 +1601,7 @@ https://live.catvod.com/live.php?id=zhongshinews_twn
 https://live.catvod.com/live.php?id=zhongshi_twn
 #EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="斯玛特",华视
 https://live.catvod.com/live.php?id=ctshd_twn
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="斯玛特",公视
+#EXTINF:-1 tvg-id="公視" tvg-name="公視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="斯玛特",公视
 https://live.catvod.com/live.php?id=ctv_taiwan
 #EXTINF:-1 tvg-id="公視台語台" tvg-name="公視台語台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視台語台.png" group-title="斯玛特",公视台语台
 https://live.catvod.com/live.php?id=ctv2_twn
@@ -1627,7 +1627,7 @@ https://live.catvod.com/live.php?id=ettvmovie
 https://live.catvod.com/live.php?id=ettvwestern
 #EXTINF:-1 tvg-id="東森幼幼台" tvg-name="東森幼幼台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森幼幼台.png" group-title="斯玛特",东森幼幼台
 https://live.catvod.com/live.php?id=yoyo_twn
-#EXTINF:-1 tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="斯玛特",东森超视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="斯玛特",东森超视
 https://live.catvod.com/live.php?id=ettvsuper
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="斯玛特",TVBS
 https://live.catvod.com/live.php?id=tvbs
@@ -1801,7 +1801,7 @@ https://live.catvod.com/live.php?id=Hbofamily
 https://live.catvod.com/live.php?id=Hbohitshd
 #EXTINF:-1 group-title="斯玛特",Asia Travel
 https://live.catvod.com/live.php?id=asiatravel_twn
-#EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="斯玛特",Discovery
+#EXTINF:-1 tvg-id="DiSCOVERY" tvg-name="DiSCOVERY" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="斯玛特",Discovery
 https://live.catvod.com/live.php?id=discoveryhd_twn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲美食.png" group-title="斯玛特",亚洲美食
 https://live.catvod.com/live.php?id=afc_twn
