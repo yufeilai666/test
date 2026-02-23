@@ -1147,7 +1147,7 @@ p3p://167.114.175.6:55331/64b25b320002edf8e9ea824c514e7979
 http://rtmp.one.by:1200
 #EXTINF:-1 group-title="音悦台",Ru Frist Music
 http://rtmp.one.by:2200
-#EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="音悦台",Trace Urban
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="音悦台",Trace Urban
 p3p://167.114.175.6:55331/644fae930000fb9c6879e5f40cc63e7f
 #EXTINF:-1 group-title="音悦台",MDIINORBA
 https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8
@@ -2975,7 +2975,7 @@ p3p://fccsen.dyndns.tv:29706/5db23393000ef87479836aea17cc05a1
 p3p://fccsen.dyndns.tv:29706/5e31d0a0000b13126c00b2fe0cce1afd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/FXM.png" group-title="美国USA",FXM
 p3p://fccsen.dyndns.tv:29706/5f5f799b000c2dcbfdc6094a128c03dd
-#EXTINF:-1 tvg-id="GINX Esports TV" tvg-name="GINX Esports TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="美国USA",Ginx eSports TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="美国USA",Ginx eSports TV
 p3p://fccsen.dyndns.tv:29706/5e43489d00057424b03d5dc406ea2a36
 #EXTINF:-1 group-title="美国USA",ION TV
 p3p://fccsen.dyndns.tv:29706/5f28c3f300077a702810aa0817f10617
