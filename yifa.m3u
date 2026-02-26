@@ -993,10 +993,48 @@ http://74.91.26.218:82/live/typd.m3u8
 http://74.91.26.218:82/live/tyjd.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW星影台.png" group-title="极速港台3",NOW星影台
 http://74.91.26.218:82/live/nowxy.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW爆谷台.png" group-title="极速港台3",NOW爆谷台
+http://74.91.26.218:82/live/nowbg.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="极速港台3",中天新闻
 http://74.91.26.218:82/live/ztxw.m3u8
 #EXTINF:-1 tvg-id="Z頻道" tvg-name="Z頻道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/Z頻道.png" group-title="极速港台3",Z频道
 http://74.91.26.218:82/live/twz.m3u8
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="极速港台3",中视
+http://74.91.26.218:82/live/ctv.m3u8
+#EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视新闻.png" group-title="极速港台3",中视新闻
+http://74.91.26.218:82/live/ctvnews.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="极速港台3",中视经典
+http://74.91.26.218:82/live/ctvjd.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視菁采.png" group-title="极速港台3",中视菁采
+http://74.91.26.218:82/live/ctvjc.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="极速港台3",台视
+http://74.91.26.218:82/live/ttv.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="极速港台3",台视新闻
+http://74.91.26.218:82/live/ttvnews.m3u8
+#EXTINF:-1 tvg-id="台視綜合" tvg-name="台視綜合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="极速港台3",台视综合
+http://74.91.26.218:82/live/ttvzh.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台视财经.png" group-title="极速港台3",台视财经
+http://74.91.26.218:82/live/ttvcj.m3u8
+#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="极速港台3",华视
+http://74.91.26.218:82/live/cts.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/華視新聞資訊.png" group-title="极速港台3",华视新闻资讯
+http://74.91.26.218:82/live/ctsnews.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视教育体育文化.png" group-title="极速港台3",华视教育体育文化
+http://74.91.26.218:82/live/ctsjy.m3u8
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="极速港台3",民视
+http://74.91.26.218:82/live/ftv.m3u8
+#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视新闻台.png" group-title="极速港台3",民视新闻台
+http://74.91.26.218:82/live/ftvnews.m3u8
+#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="极速港台3",民视台湾台
+http://74.91.26.218:82/live/ftvtw.m3u8
+#EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視第一台.png" group-title="极速港台3",民视第一台
+http://74.91.26.218:82/live/ftvdy.m3u8
+#EXTINF:-1 tvg-id="公視" tvg-name="公視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="极速港台3",公视
+http://74.91.26.218:82/live/pts.m3u8
+#EXTINF:-1 tvg-id="公視台語台" tvg-name="公視台語台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視台語台.png" group-title="极速港台3",公视台语台
+http://74.91.26.218:82/live/ptsty.m3u8
+#EXTINF:-1 tvg-id="小公視" tvg-name="小公視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/小公視.png" group-title="极速港台3",小公视
+http://74.91.26.218:82/live/ptsse.m3u8
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="极速港台3",CCTV1
 http://74.91.26.218:82/live/cctv4.m3u8
 #EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="极速港台3",CCTV6
