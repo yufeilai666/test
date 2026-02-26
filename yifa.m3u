@@ -2025,9 +2025,9 @@ https://livestream.oeeee.com/slive/28284.m3u8
 https://live.yjtvw.com:8081/live/yjtv1.m3u8
 #EXTINF:-1 tvg-id="阳江-2" tvg-name="阳江-2" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/阳江-2.png" group-title="广东本地2",阳江-2
 https://live.yjtvw.com:8081/live/yjtv2.m3u8
-#EXTINF:-1 tvg-id="湛江新闻综合" tvg-name="湛江新闻综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湛江新闻综合.png" group-title="广东本地2",湛江新闻综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湛江新闻综合.png" group-title="广东本地2",湛江新闻综合
 http://gbtv-hls-wjq.zjwtv.com/zjtv/zhpd.m3u8
-#EXTINF:-1 tvg-id="湛江公共" tvg-name="湛江公共" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湛江公共.png" group-title="广东本地2",湛江公共
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湛江公共.png" group-title="广东本地2",湛江公共
 http://gbtv-hls-wjq.zjwtv.com/zjtv/ggpd.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/韶关综合.png" group-title="广东本地2",韶关综合
 https://live.sgmsw.cn/hls/lhx1FUeZg/playlist.m3u8
