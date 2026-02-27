@@ -772,97 +772,87 @@ https://play3636.zdwafis.com/live/mosixmark.flv
 #EXTINF:-1 group-title="加入易發群",老澳门直播
 https://vdm6-ali.hrypl168.com/live/a6.flv
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台",翡翠台
-http://php.jdshipin.com/smt.php?id=jade_twn
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/华丽翡翠台.png" group-title="极速港台",华丽翡翠台
-http://php.jdshipin.com/smt.php?id=Tvbjade
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速港台",无线新闻台
-http://php.jdshipin.com/smt.php?id=inews_twn
-#EXTINF:-1 tvg-id="now新聞" tvg-name="now新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新闻.png" group-title="极速港台",Now新闻
-http://cdn.163189.xyz/163189/now
+http://o11.163189.xyz/stream/tvb/fct/
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台",翡翠台
+http://mytv.cdn.loc.cc/o12.php?id=fct
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" group-title="极速港台",翡翠台4K
+http://o11.163189.xyz/stream/tvb/fct4k/
+#EXTINF:-1 group-title="极速港台",TVB PLUS
+http://o11.163189.xyz/stream/tvb/tvbp/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速港台",明珠台
+http://o11.163189.xyz/stream/tvb/mzt/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速港台",明珠台
+http://mytv.cdn.loc.cc/o12.php?id=mzt
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速港台",VIUTV
+https://cdn10.163189.xyz/stream/163189/viu/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/VIUTVSIX.png" group-title="极速港台",VIUTVSIX
+https://cdn10.163189.xyz/stream/163189/viu6/
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB星河.png" group-title="极速港台",TVB星河
-http://php.jdshipin.com/smt.php?id=Xinhe
+http://o11.163189.xyz/stream/live/tvbxh/
+#EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB星河.png" group-title="极速港台",TVB星河
+https://cdn10.163189.xyz/stream/163189/xinghe/
+#EXTINF:-1 group-title="极速港台",天映新加坡
+https://cdn10.163189.xyz/stream/163189/typd/
+#EXTINF:-1 tvg-id="天映經典頻道" tvg-name="天映經典頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/天映经典频道.png" group-title="极速港台",天映经典频道
+https://cdn10.163189.xyz/stream/163189/ccm/
 #EXTINF:-1 tvg-id="千禧經典台" tvg-name="千禧經典台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧經典台.png" group-title="极速港台",千禧经典台
-http://php.jdshipin.com/smt.php?id=Tvbclassic
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB娱乐新闻台.png" group-title="极速港台",TVB娱乐新闻台
-http://php.jdshipin.com/smt.php?id=Tvbentertainment
+http://o11.163189.xyz/stream/live/tvbc/
 #EXTINF:-1 tvg-id="天映频道 (新加坡)" tvg-name="天映频道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映頻道.png" group-title="极速港台",天映频道
-http://php.jdshipin.com/smt.php?id=Celestial
-#EXTINF:-1 tvg-id="天映经典 (香港)" tvg-name="天映经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="极速港台",天映经典
-http://php.jdshipin.com/smt.php?id=Celestial2
-#EXTINF:-1 group-title="极速港台",Astro AOD
-http://php.jdshipin.com/smt.php?id=Aodhd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Astro AEC.png" group-title="极速港台",Astro AEC
-http://php.jdshipin.com/smt.php?id=AEC
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛奇藝.png" group-title="极速港台",爱奇艺
-http://php.jdshipin.com/smt.php?id=Qiyi
-#EXTINF:-1 group-title="极速港台",Astro QJ
-http://php.jdshipin.com/smt.php?id=Quanjia
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Astro欢喜台.png" group-title="极速港台",Astro欢喜台
-http://php.jdshipin.com/smt.php?id=Huahee
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八度空间.png" group-title="极速港台",八度空间
-http://php.jdshipin.com/smt.php?id=TV8
+http://o11.163189.xyz/stream/live/typd/
+#EXTINF:-1 tvg-id="天映經典頻道" tvg-name="天映經典頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/天映经典频道.png" group-title="极速港台",天映经典频道
+http://o11.163189.xyz/stream/live/ccm/
+#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="极速港台",龙华电影
+http://cdn8.veryfast.filegear-sg.me/163189/lhdy
+#EXTINF:-1 tvg-id="龍華經典台" tvg-name="龍華經典台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龍華經典台.png" group-title="极速港台",龙华经典台
+http://cdn8.veryfast.filegear-sg.me/163189/lhjd
+#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="极速港台",龙华偶像
+http://cdn8.veryfast.filegear-sg.me/163189/lhox
+#EXTINF:-1 tvg-id="龍華日韓台" tvg-name="龍華日韓台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华日韩台.png" group-title="极速港台",龙华日韩台
+http://cdn8.veryfast.filegear-sg.me/163189/lhrh
+#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="极速港台",龙华戏剧
+http://cdn8.veryfast.filegear-sg.me/163189/lhxj
+#EXTINF:-1 tvg-id="金光布袋戲" tvg-name="金光布袋戲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金光布袋戏.png" group-title="极速港台",金光布袋戏
+http://o11.163189.xyz/stream/live/jgbdx/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ASTROAOD.jpg" group-title="极速港台",ASTROAOD
+http://o11.163189.xyz/stream/live/aod/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/AstroAEC.png" group-title="极速港台",ASTROAEC
+http://o11.163189.xyz/stream/live/aec/
+#EXTINF:-1 group-title="极速港台",ASTROQJ
+http://o11.163189.xyz/stream/live/qj/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Astro欢喜台.png" group-title="极速港台",ASTRO欢喜台
+http://o11.163189.xyz/stream/live/hxt/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/iQIYI.png" group-title="极速港台",IQIYI
+http://o11.163189.xyz/stream/live/iqiyi/
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台",翡翠台
-http://php.jdshipin.com/TVOD/iptv.php?id=fct
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台",翡翠台
-http://php.jdshipin.com/TVOD/iptv.php?id=fct2
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台",翡翠台
-http://php.jdshipin.com/TVOD/iptv.php?id=fct3
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" group-title="极速港台",翡翠台4k
-http://php.jdshipin.com/TVOD/iptv.php?id=fct4
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速港台",明珠台
-http://php.jdshipin.com/TVOD/iptv.php?id=mzt
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速港台",明珠台
-http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
-#EXTINF:-1 group-title="极速港台",翡翠台北美版(TVB J1)
-http://php.jdshipin.com/TVOD/iptv.php?id=j1
-#EXTINF:-1 group-title="极速港台",TVB J1
-http://php.jdshipin.com/TVOD/iptv.php?id=tvbj1
+https://smt.1678520.xyz/smt3.2.1.php?id=jade_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速港台",无线新闻台
+https://smt.1678520.xyz/smt3.2.1.php?id=inews_twn
+#EXTINF:-1 group-title="极速港台",华丽翡翠
+https://smt.1678520.xyz/smt3.2.1.php?id=Tvbjade
 #EXTINF:-1 group-title="极速港台",TVB Plus
-http://php.jdshipin.com/TVOD/iptv.php?id=j2
-#EXTINF:-1 group-title="极速港台",TVB Plus
-http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速港台",VIUTV
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速港台",VIUTV
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
+https://smt.1678520.xyz/smt3.2.1.php?id=j2_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速港台",明珠台
+https://smt.1678520.xyz/smt3.2.1.php?id=pearl_twn
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="极速港台",凤凰香港
+https://smt.1678520.xyz/smt3.2.1.php?id=tvbcaijing_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/凤凰卫视.png" group-title="极速港台",凤凰卫视
+https://smt.1678520.xyz/smt3.2.1.php?id=phoenixtv_hd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/viutv6.png" group-title="极速港台",VIUTV6
-http://php.jdshipin.com/smt.php?id=viusix_twn
-#EXTINF:-1 group-title="极速港台",HOYTV77
-http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
-#EXTINF:-1 group-title="极速港台",HOYTV78
-http://php.jdshipin.com/TVOD/iptv.php?id=hoytv2
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速港台",凤凰中文
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速港台",凤凰中文
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="极速港台",凤凰资讯
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="极速港台",凤凰资讯
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="极速港台",凤凰香港
-http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="极速港台",凤凰香港
-http://php.jdshipin.com/TVOD/iptv.php?id=fhhk2
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/美亞電影.png" group-title="极速港台",美亚电影
-http://php.jdshipin.com/TVOD/iptv.php?id=meiya
-#EXTINF:-1 group-title="极速港台",美亚电影2
-http://php.jdshipin.com/smt.php?id=meiyamovie_twn
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="极速港台",重温经典
-http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="极速港台",广东珠江
-http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="极速港台",广东体育
-http://php.jdshipin.com/TVOD/iptv.php?id=gdty
-#EXTINF:-1 tvg-id="澳視澳門" tvg-name="澳視澳門" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/澳視澳門.png" group-title="极速港台",澳视澳门
-http://php.jdshipin.com/TVOD/iptv.php?id=asam
-#EXTINF:-1 group-title="极速港台",澳视卫星
-http://php.jdshipin.com/TVOD/iptv.php?id=as
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/RTHK31.png" group-title="极速港台",RTHK31
-http://php.jdshipin.com/TVOD/iptv.php?id=rthk31
+https://smt.1678520.xyz/smt3.2.1.php?id=viusix_twn
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速港台",VIUTV
+https://smt.1678520.xyz/smt3.2.1.php?id=viu1_twn
+#EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB星河.png" group-title="极速港台",TVB星河
+https://smt.1678520.xyz/smt3.2.1.php?id=Xinhe
+#EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB星河.png" group-title="极速港台",TVB星河
+https://smt.1678520.xyz/smt3.2.1.php?id=tvbxinhe_twn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/RTHK32.png" group-title="极速港台",RTHK32
-http://php.jdshipin.com/TVOD/iptv.php?id=rthk32
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="极速港台",CCTV1
-http://php.jdshipin.com/TVOD/iptv.php?id=rthk33
+https://smt.1678520.xyz/smt3.2.1.php?id=rhk32_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/RTHK31.png" group-title="极速港台",RTHK31
+https://smt.1678520.xyz/smt3.2.1.php?id=rhk31_twn
+#EXTINF:-1 group-title="极速港台",HOY78台
+https://smt.1678520.xyz/smt3.2.1.php?id=hoycaijing_twn
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧经典.png" group-title="极速港台",千禧经典
+https://smt.1678520.xyz/smt3.2.1.php?id=Tvbclassic
 #EXTINF:-1 group-title="极速港台",香港C+
 http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/index.m3u8
 #EXTINF:-1 group-title="极速港台",香港32台
@@ -900,11 +890,15 @@ rtmp://f13h.mine.nu/sat/tv771
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="极速港台",东森超视
 rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb翡翠台.png" group-title="极速港台2",TVB翡翠台
-http://aipyou.com:8080/live/yifatv-jade01.m3u8
+rtmp://118.145.86.104/live/yifatv-jade01
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速港台2",无线新闻台
 http://aipyou.com:8080/live/yifatv-wxxw01.m3u8
 #EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="极速港台2",中天新闻台
-http://aipyou.com:8080/live/yifatv-ztxw01.m3u8
+http://123.156.165.47:8080/live/yifatv-ztxw01.flv
+#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="极速港台2",中天新闻台
+http://map.botondtech.com:8080/live/yifatv-ztxw02.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/镜新闻台.png" group-title="极速港台2",镜新闻台
+https://d36dgdk71xuzzg.cloudfront.net/v1/manifest/3a2ac8e6b6c76471996ebf627393d9c9417a60b6/linetv-6-627778910172-MediaTailor-production/81c30c93-82df-49c9-975c-61a17204cbba/1.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台2",翡翠台
 http://r.jdshipin.com/62WM7
 #EXTINF:-1 group-title="极速港台2",翡翠台2
