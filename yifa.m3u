@@ -1145,6 +1145,40 @@ http://38.64.72.148:80/hls/modn/list/2013/chunklist0.m3u8
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 group-title="极速港台3",东森超视 34.5
 http://38.64.72.148:80/hls/modn/list/2013/playlist.m3u8
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台5",翡翠台
+https://hls.iill.top/api/TVB-Jade/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速港台5",無綫新聞台
+https://hls.iill.top/api/TVB-News/index.m3u8
+#EXTINF:-1 group-title="极速港台5",TVB Plus
+https://hls.iill.top/api/TVB-Plus/index.m3u8
+#EXTINF:-1 tvg-id="動物星球" tvg-name="動物星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="极速港台5",動物星球
+https://hls.iill.top/api/dwxq/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="极速港台5",緯來日本
+https://hls.iill.top/api/wlrb/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="极速港台5",緯來體育
+https://hls.iill.top/api/wlty/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="极速港台5",緯來電影
+https://hls.iill.top/api/wldy/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="极速港台5",東森電影
+https://hls.iill.top/api/dsdy/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="极速港台5",東森洋片
+https://hls.iill.top/api/dsyp/index.m3u8
+#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="极速港台5",龍祥時代
+https://hls.iill.top/api/lxsd/index.m3u8
+#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="极速港台5",BBC Earth
+https://hls.iill.top/api/BBC-Earth/index.m3u8
+#EXTINF:-1 tvg-id="BBC LIFESTYLE" tvg-name="BBC LIFESTYLE" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Lifestyle.png" group-title="极速港台5",BBC Lifestyle
+https://hls.iill.top/api/BBC-Lifestyle/index.m3u8
+#EXTINF:-1 tvg-id="DiSCOVERY" tvg-name="DiSCOVERY" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="极速港台5",Discovery
+https://hls.iill.top/api/Discovery/index.m3u8
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="极速港台5",HBO
+https://hls.iill.top/api/HBO/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="极速港台5",HBO Hits
+https://hls.iill.top/api/HBO-Hits/index.m3u8
+#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Family.png" group-title="极速港台5",HBO Family
+https://hls.iill.top/api/HBO-Family/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Signature.png" group-title="极速港台5",HBO Signature
+https://hls.iill.top/api/HBO-Signature/index.m3u8
 #EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速bxtv",凤凰中文
 http://pull-vivek.speedws.com/live/aaafhzw.flv
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="极速bxtv",凤凰资讯
@@ -1413,6 +1447,144 @@ http://iptv.4666888.xyz/iptv2A.php?id=52
 http://iptv.4666888.xyz/iptv2A.php?id=53
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="极速风云",中视经典
 http://iptv.4666888.xyz/iptv2A.php?id=54
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="秒开台湾",台視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1047
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="秒开台湾",中視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1048
+#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="秒开台湾",華視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1049
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="秒开台湾",民視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1050
+#EXTINF:-1 tvg-id="公視" tvg-name="公視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="秒开台湾",公視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1201
+#EXTINF:-1 tvg-id="人間衛視" tvg-name="人間衛視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/人間衛視.png" group-title="秒开台湾",人間衛視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1198
+#EXTINF:-1 tvg-id="大愛電視" tvg-name="大愛電視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大愛電視.png" group-title="秒开台湾",大愛電視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1216
+#EXTINF:-1 tvg-id="好消息GOOD TV" tvg-name="好消息GOOD TV" group-title="秒开台湾",好消息GOOD TV
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1669
+#EXTINF:-1 tvg-id="TRACE Sport Stars" tvg-name="TRACE Sport Stars" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Sport Stars.png" group-title="秒开台湾",Trace Sport Stars
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1003
+#EXTINF:-1 tvg-id="DiSCOVERY" tvg-name="DiSCOVERY" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="秒开台湾",DISCOVERY
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1002
+#EXTINF:-1 tvg-id="旅遊生活" tvg-name="旅遊生活" group-title="秒开台湾",旅遊生活
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1005
+#EXTINF:-1 tvg-id="動物星球" tvg-name="動物星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="秒开台湾",動物星球
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1004
+#EXTINF:-1 tvg-id="亞洲旅遊" tvg-name="亞洲旅遊" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="秒开台湾",亞洲旅遊
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1219
+#EXTINF:-1 tvg-id="MOMO親子台" tvg-name="MOMO親子台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/MOMO亲子台.png" group-title="秒开台湾",MOMO親子台
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1007
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森幼幼.png" group-title="秒开台湾",東森幼幼
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1008
+#EXTINF:-1 group-title="秒开台湾",公視兒少台
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1670
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來綜合.png" group-title="秒开台湾",緯來綜合
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1044
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大第一.png" group-title="秒开台湾",八大第一
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1043
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大综合.png" group-title="秒开台湾",八大綜合
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1019
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/三立台灣.png" group-title="秒开台湾",三立台灣
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1021
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立都会.png" group-title="秒开台湾",三立都會
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1020
+#EXTINF:-1 tvg-id="韓國娛樂台" tvg-name="韓國娛樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/韩国娱乐台.png" group-title="秒开台湾",韓國娛樂台
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1024
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森綜合.png" group-title="秒开台湾",東森綜合
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1041
+#EXTINF:-1 tvg-id="超視" tvg-name="超視" group-title="秒开台湾",超視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1180
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天綜合.png" group-title="秒开台湾",中天綜合
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1022
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天娛樂.png" group-title="秒开台湾",中天娛樂
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1023
+#EXTINF:-1 tvg-id="東風衛視" tvg-name="東風衛視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东风卫视.png" group-title="秒开台湾",東風衛視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1195
+#EXTINF:-1 tvg-id="MUCH TV" tvg-name="MUCH TV" group-title="秒开台湾",MUCH TV
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1189
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森戲劇.png" group-title="秒开台湾",東森戲劇
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1042
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大戲劇.png" group-title="秒开台湾",八大戲劇
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1057
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS歡樂.png" group-title="秒开台湾",TVBS歡樂
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1018
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來戲劇.png" group-title="秒开台湾",緯來戲劇
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1186
+#EXTINF:-1 tvg-id="JET綜合" tvg-name="JET綜合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/JET综合.png" group-title="秒开台湾",JET綜合
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1671
+#EXTINF:-1 tvg-id="國興衛視" tvg-name="國興衛視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国兴卫视.png" group-title="秒开台湾",國興衛視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1672
+#EXTINF:-1 tvg-id="中視菁采台" tvg-name="中視菁采台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视菁采台.png" group-title="秒开台湾",中視菁采台
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1673
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="秒开台湾",緯來日本
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1026
+#EXTINF:-1 tvg-id="TaiWan Plus" tvg-name="TaiWan Plus" group-title="秒开台湾",Taiwan Plus
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1674
+#EXTINF:-1 tvg-id="年代新聞" tvg-name="年代新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/年代新闻.png" group-title="秒开台湾",年代新聞
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1192
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="秒开台湾",東森新聞
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1014
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="秒开台湾",中天新聞
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1675
+#EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="秒开台湾",民視新聞
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1204
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立新聞.png" group-title="秒开台湾",三立新聞
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1016
+#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="秒开台湾",TVBS新聞
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1052
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="秒开台湾",TVBS
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1668
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="秒开台湾",非凡新聞
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1013
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/非凡商業.png" group-title="秒开台湾",非凡商業
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1012
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森財經.png" group-title="秒开台湾",東森財經
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1017
+#EXTINF:-1 tvg-id="寰宇新聞" tvg-name="寰宇新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇新闻.png" group-title="秒开台湾",寰宇新聞
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1222
+#EXTINF:-1 tvg-id="壹新聞" tvg-name="壹新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/壹新闻.png" group-title="秒开台湾",壹新聞
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1676
+#EXTINF:-1 group-title="秒开台湾",Bloomberg News
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1066
+#EXTINF:-1 group-title="秒开台湾",NHK世界
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1027
+#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鏡電視新聞台.png" group-title="秒开台湾",鏡電視新聞台
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1031
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好萊塢電影.png" group-title="秒开台湾",好萊塢電影
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1025
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="秒开台湾",緯來電影
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1183
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NHK World.png" group-title="秒开台湾",NHK WORLD
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1677
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="秒开台湾",HBO
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1029
+#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/AXN.png" group-title="秒开台湾",AXN
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1054
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CINEMAX.png" group-title="秒开台湾",CINEMAX
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1030
+#EXTINF:-1 tvg-id="AMC 電影台" tvg-name="AMC 電影台" group-title="秒开台湾",AMC 電影台
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1032
+#EXTINF:-1 tvg-id="寵物頻道" tvg-name="寵物頻道" group-title="秒开台湾",寵物頻道
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1040
+#EXTINF:-1 group-title="秒开台湾",博斯運動2台
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1225
+#EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/厦门卫视.png" group-title="秒开台湾",廈門衛視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1033
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="秒开台湾",CCTV4
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1034
+#EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海峡卫视.png" group-title="秒开台湾",海峽衛視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1035
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="秒开台湾",浙江衛視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1036
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="秒开台湾",東方衛視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1037
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="秒开台湾",湖南衛視
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1038
+#EXTINF:-1 group-title="秒开台湾",鳯凰衛視資訊
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1666
+#EXTINF:-1 group-title="秒开台湾",鳯凰衛視中文
+http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1213
 #EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="环球台湾",民视
 http://us.huanqiuzhibo.cn/huanqiuitv.php?username=gongxiang&password=123456&channel_id=3
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="环球台湾",中视
