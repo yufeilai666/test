@@ -10571,6 +10571,542 @@ http://111.56.90.5/000000000000/1000000001000003775/index.m3u8
 http://111.56.90.5/000000000000/8978605063318475207/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="内蒙古移动",北京纪实科教
 http://111.56.90.5/000000000000/1000000001000001910/index.m3u8
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="蜀小果",CCTV1
+http://sxg.tvbj.cc.cd/CCTV-1H265_4000
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="蜀小果",CCTV2
+http://sxg.tvbj.cc.cd/CCTV-2H265_4000
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="蜀小果",CCTV3
+http://sxg.tvbj.cc.cd/CCTV-3H265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="蜀小果",CCTV4
+http://sxg.tvbj.cc.cd/CCTV-4H265_4000
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="蜀小果",CCTV5
+http://sxg.tvbj.cc.cd/CCTV-5H265_4000
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="蜀小果",CCTV5+
+http://sxg.tvbj.cc.cd/CCTV-5plusH265_4000
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="蜀小果",CCTV6
+http://sxg.tvbj.cc.cd/CCTV-6H265_4000
+#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="蜀小果",CCTV7
+http://sxg.tvbj.cc.cd/CCTV-7H265_4000
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="蜀小果",CCTV8
+http://sxg.tvbj.cc.cd/CCTV-8H265_4000
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="蜀小果",CCTV9
+http://sxg.tvbj.cc.cd/CCTV-9H265_4000
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="蜀小果",CCTV10
+http://sxg.tvbj.cc.cd/CCTV-10H265_4000
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="蜀小果",CCTV11
+http://sxg.tvbj.cc.cd/CCTV-11-H265_4000
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="蜀小果",CCTV12
+http://sxg.tvbj.cc.cd/CCTV-12H265_4000
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="蜀小果",CCTV13
+http://sxg.tvbj.cc.cd/CCTV-xw_4000
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="蜀小果",CCTV14
+http://sxg.tvbj.cc.cd/CCTV-14H265_4000
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="蜀小果",CCTV15
+http://sxg.tvbj.cc.cd/CCTV-15-yyH265_4000
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="蜀小果",CCTV16
+http://sxg.tvbj.cc.cd/CCTV-16_4000
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV16-4K.png" group-title="蜀小果",CCTV16-4K
+http://sxg.tvbj.cc.cd/CCTV-16-4K_800
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="蜀小果",CCTV17
+http://sxg.tvbj.cc.cd/CCTV-17_4000
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="蜀小果",CCTV4K
+http://sxg.tvbj.cc.cd/ys4Kcq_2000
+#EXTINF:-1 group-title="蜀小果",4K电影 4K
+http://sxg.tvbj.cc.cd/emdy4k_8000
+#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/欢笑剧场4K.png" group-title="蜀小果",欢笑剧场4K
+http://sxg.tvbj.cc.cd/hxjc-4k_8000
+#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="蜀小果",凤凰中文
+http://sxg.tvbj.cc.cd/test1_4000
+#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="蜀小果",凤凰资讯
+http://sxg.tvbj.cc.cd/test2_4000
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="蜀小果",安徽卫视
+http://sxg.tvbj.cc.cd/ahwsH265_4000
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="蜀小果",北京卫视
+http://sxg.tvbj.cc.cd/bjwsH265_4000
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="蜀小果",兵团卫视
+http://sxg.tvbj.cc.cd/btws_4000
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="蜀小果",重庆卫视
+http://sxg.tvbj.cc.cd/cqwsH265_4000
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="蜀小果",东方卫视
+http://sxg.tvbj.cc.cd/dfwsH265_4000
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="蜀小果",东南卫视
+http://sxg.tvbj.cc.cd/dnwsfjwsH265_4000
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="蜀小果",甘肃卫视
+http://sxg.tvbj.cc.cd/gsws_4000
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="蜀小果",广东卫视
+http://sxg.tvbj.cc.cd/gdwsH265_4000
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="蜀小果",广西卫视
+http://sxg.tvbj.cc.cd/gxws_4000
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="蜀小果",贵州卫视
+http://sxg.tvbj.cc.cd/gzwsH265_4000
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="蜀小果",海南卫视
+http://sxg.tvbj.cc.cd/hnws_4000
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="蜀小果",河南卫视
+http://sxg.tvbj.cc.cd/hnws35_4000
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="蜀小果",黑龙江卫视
+http://sxg.tvbj.cc.cd/hljwsH265_4000
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="蜀小果",湖北卫视
+http://sxg.tvbj.cc.cd/hbwsH265_4000
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="蜀小果",湖南卫视
+http://sxg.tvbj.cc.cd/hnwsH265_4000
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="蜀小果",吉林卫视
+http://sxg.tvbj.cc.cd/jlwsH265_4000
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="蜀小果",江苏卫视
+http://sxg.tvbj.cc.cd/jswsH265_4000
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="蜀小果",江西卫视
+http://sxg.tvbj.cc.cd/jxwsH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/康巴卫视.png" group-title="蜀小果",康巴卫视
+http://sxg.tvbj.cc.cd/kbwsH264_2000
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="蜀小果",辽宁卫视
+http://sxg.tvbj.cc.cd/lnwsHDH264_4000
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="蜀小果",内蒙古卫视
+http://sxg.tvbj.cc.cd/nmgws_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东教育卫视.png" group-title="蜀小果",山东教育卫视
+http://sxg.tvbj.cc.cd/sdjy_4000
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="蜀小果",山东卫视
+http://sxg.tvbj.cc.cd/sdwsH265_4000
+#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="蜀小果",山西卫视
+http://sxg.tvbj.cc.cd/sxws42_4000
+#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="蜀小果",陕西卫视
+http://sxg.tvbj.cc.cd/sxws_4000
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="蜀小果",深圳卫视
+http://sxg.tvbj.cc.cd/szwsH265_4000
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="蜀小果",四川卫视
+http://sxg.tvbj.cc.cd/scwsH265_4000
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="蜀小果",天津卫视
+http://sxg.tvbj.cc.cd/tjwsH265_4000
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="蜀小果",西藏卫视
+http://sxg.tvbj.cc.cd/xzwsH264_2000
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="蜀小果",云南卫视
+http://sxg.tvbj.cc.cd/ynws_4000
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="蜀小果",浙江卫视
+http://sxg.tvbj.cc.cd/zjwsH265_4000
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="蜀小果",中国教育1台
+http://sxg.tvbj.cc.cd/CETV-1H264_4000
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="蜀小果",中国教育4台
+http://sxg.tvbj.cc.cd/CETV-4H264_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CBN风尚生活.png" group-title="蜀小果",CBN风尚生活
+http://sxg.tvbj.cc.cd/fssh_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CBN每日影院.png" group-title="蜀小果",CBN每日影院
+http://sxg.tvbj.cc.cd/mryy_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CBN幸福剧场.png" group-title="蜀小果",CBN幸福剧场
+http://sxg.tvbj.cc.cd/xfjc_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CBN幸福娱乐.png" group-title="蜀小果",CBN幸福娱乐
+http://sxg.tvbj.cc.cd/xfyl_4000
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC动作电影.png" group-title="蜀小果",CHC动作电影
+http://sxg.tvbj.cc.cd/wqCHCdzdyH265_4000
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/chc高清电影.png" group-title="蜀小果",CHC高清电影
+http://sxg.tvbj.cc.cd/lnwsCHC-HDH265_4000
+#EXTINF:-1 tvg-id="CHC家庭影院 (shanghai)" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC家庭影院.png" group-title="蜀小果",CHC家庭影院
+http://sxg.tvbj.cc.cd/jbtygqCHCjtyyH265_4000
+#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/动漫秀场.png" group-title="蜀小果",动漫秀场
+http://sxg.tvbj.cc.cd/yybb-dmxc-H265_4000
+#EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/都市剧场.png" group-title="蜀小果",都市剧场
+http://sxg.tvbj.cc.cd/yxfydsjcHDH265_4000
+#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/法治天地.png" group-title="蜀小果",法治天地
+http://sxg.tvbj.cc.cd/fztx_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/极速汽车.png" group-title="蜀小果",极速汽车
+http://sxg.tvbj.cc.cd/jsqcH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/纪实科教.png" group-title="蜀小果",纪实科教
+http://sxg.tvbj.cc.cd/bjjs_2000
+#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="蜀小果",嘉佳卡通
+http://sxg.tvbj.cc.cd/jjkt_2000
+#EXTINF:-1 tvg-id="家庭理财 (shanghai)" tvg-name="家庭理财" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/家庭理财.png" group-title="蜀小果",家庭理财
+http://sxg.tvbj.cc.cd/jtlc_4000
+#EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/财富天下.png" group-title="蜀小果",财富天下
+http://sxg.tvbj.cc.cd/cftx_4000
+#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰纪实.png" group-title="蜀小果",金鹰纪实
+http://sxg.tvbj.cc.cd/jyjsHDH265_4000
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="蜀小果",金鹰卡通
+http://sxg.tvbj.cc.cd/jykt_2000
+#EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/劲爆体育.png" group-title="蜀小果",劲爆体育
+http://sxg.tvbj.cc.cd/lqhxjcHDH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/聚鲨环球精选.png" group-title="蜀小果",聚鲨环球精选
+http://sxg.tvbj.cc.cd/jshqjxHD_4000
+#EXTINF:-1 tvg-id="卡酷少儿 (shanghai)" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/卡酷少儿.png" group-title="蜀小果",卡酷少儿
+http://sxg.tvbj.cc.cd/kkkt_4000
+#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/快乐垂钓.png" group-title="蜀小果",快乐垂钓
+http://sxg.tvbj.cc.cd/fyzqklcdHDH265_4000
+#EXTINF:-1 tvg-id="乐游 (shanghai)" tvg-name="乐游" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/乐游.png" group-title="蜀小果",乐游
+http://sxg.tvbj.cc.cd/qjs-HDH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/梨园频道.png" group-title="蜀小果",梨园频道
+http://sxg.tvbj.cc.cd/ly_4000
+#EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/魅力足球.png" group-title="蜀小果",魅力足球
+http://sxg.tvbj.cc.cd/mlyy_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/七彩戏剧.png" group-title="蜀小果",七彩戏剧
+http://sxg.tvbj.cc.cd/qcxj_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/摄影频道.png" group-title="蜀小果",摄影频道
+http://sxg.tvbj.cc.cd/sy_4000
+#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/生活時尚.png" group-title="蜀小果",生活时尚
+http://sxg.tvbj.cc.cd/shssH265_4000
+#EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四海钓鱼.png" group-title="蜀小果",四海钓鱼
+http://sxg.tvbj.cc.cd/shdy_4000
+#EXTINF:-1 tvg-id="天元围棋" tvg-name="天元围棋" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/天元围棋.png" group-title="蜀小果",天元围棋
+http://sxg.tvbj.cc.cd/tywq_2000
+#EXTINF:-1 tvg-id="武术世界" tvg-name="武术世界" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/武術世界.png" group-title="蜀小果",武术世界
+http://sxg.tvbj.cc.cd/wssj_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="蜀小果",先锋乒羽
+http://sxg.tvbj.cc.cd/xfpy_4000
+#EXTINF:-1 tvg-id="新视觉" tvg-name="新视觉" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/新视觉.png" group-title="蜀小果",新视觉
+http://sxg.tvbj.cc.cd/ycxsjH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/证劵服务.png" group-title="蜀小果",证劵服务
+http://sxg.tvbj.cc.cd/jz_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国天气.png" group-title="蜀小果",中国天气
+http://sxg.tvbj.cc.cd/zgqx_4000
+#EXTINF:-1 tvg-id="发现之旅" tvg-name="发现之旅" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/发现之旅.png" group-title="蜀小果",发现之旅
+http://sxg.tvbj.cc.cd/fxzl_2000
+#EXTINF:-1 tvg-id="老故事" tvg-name="老故事" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/老故事.png" group-title="蜀小果",老故事
+http://sxg.tvbj.cc.cd/lgs_2000
+#EXTINF:-1 tvg-id="中学生" tvg-name="中学生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中学生.png" group-title="蜀小果",中学生
+http://sxg.tvbj.cc.cd/zxs_4000
+#EXTINF:-1 group-title="蜀小果",川广融媒
+http://sxg.tvbj.cc.cd/cgrh_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/川网导视.png" group-title="蜀小果",川网导视
+http://sxg.tvbj.cc.cd/cwdsHDH264_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/精品导视.png" group-title="蜀小果",精品导视
+http://sxg.tvbj.cc.cd/jpdsH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/沙湾融媒.png" group-title="蜀小果",沙湾融媒
+http://sxg.tvbj.cc.cd/swxwzh_2000
+#EXTINF:-1 group-title="蜀小果",四川文化
+http://sxg.tvbj.cc.cd/SCTV-2-H265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川经济.png" group-title="蜀小果",四川经济
+http://sxg.tvbj.cc.cd/SCTV-3-H265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川新闻.png" group-title="蜀小果",四川新闻
+http://sxg.tvbj.cc.cd/SCTV-4H265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川影视.png" group-title="蜀小果",四川影视
+http://sxg.tvbj.cc.cd/SCTV-5-scysH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川妇女.png" group-title="蜀小果",四川妇女
+http://sxg.tvbj.cc.cd/SCTV-7-_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川科教.png" group-title="蜀小果",四川科教
+http://sxg.tvbj.cc.cd/SCTV-ggSCTV-8_4000
+#EXTINF:-1 tvg-id="四川乡村" tvg-name="四川乡村" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川乡村.png" group-title="蜀小果",四川乡村
+http://sxg.tvbj.cc.cd/SCTV-kjSCTV-9-_4000
+#EXTINF:-1 tvg-id="峨嵋电影" tvg-name="峨嵋电影" tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/峨嵋电影.png" group-title="蜀小果",峨嵋电影
+http://sxg.tvbj.cc.cd/emdygqH265_4000
+#EXTINF:-1 group-title="蜀小果",成都新闻
+http://sxg.tvbj.cc.cd/CDTV-1_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/成都经济.png" group-title="蜀小果",成都经济
+http://sxg.tvbj.cc.cd/CDTV-2_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/成都都市.png" group-title="蜀小果",成都都市
+http://sxg.tvbj.cc.cd/CDTV-3_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/成都影视.png" group-title="蜀小果",成都影视
+http://sxg.tvbj.cc.cd/CDTV-4_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/成都公共.png" group-title="蜀小果",成都公共
+http://sxg.tvbj.cc.cd/CDTV-5_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/成都高新区.png" group-title="蜀小果",成都高新区
+http://sxg.tvbj.cc.cd/cdgxdstgq_2000
+#EXTINF:-1 group-title="蜀小果",成都购物
+http://sxg.tvbj.cc.cd/mrgw_4000
+#EXTINF:-1 group-title="蜀小果",阿坝州TV
+http://sxg.tvbj.cc.cd/abxwzhpdgq_2000
+#EXTINF:-1 group-title="蜀小果",阿坝州藏语
+http://sxg.tvbj.cc.cd/wypdgqH265_4000
+#EXTINF:-1 group-title="蜀小果",安居综合
+http://sxg.tvbj.cc.cd/ajxw_2000
+#EXTINF:-1 group-title="蜀小果",安岳综合
+http://sxg.tvbj.cc.cd/ayxwzh_4000
+#EXTINF:-1 group-title="蜀小果",安州综合
+http://sxg.tvbj.cc.cd/azgq_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/巴中文旅.png" group-title="蜀小果",巴中文旅
+http://sxg.tvbj.cc.cd/bzetH264_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/巴中综合.png" group-title="蜀小果",巴中综合
+http://sxg.tvbj.cc.cd/bzytH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/巴州电视.png" group-title="蜀小果",巴州电视
+http://sxg.tvbj.cc.cd/bzxw_4000
+#EXTINF:-1 group-title="蜀小果",宝兴综合
+http://sxg.tvbj.cc.cd/bxdst_2000
+#EXTINF:-1 group-title="蜀小果",北川综合
+http://sxg.tvbj.cc.cd/bcxwHD_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/苍溪综合.png" group-title="蜀小果",苍溪综合
+http://sxg.tvbj.cc.cd/cxxwgqH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/长宁综合.png" group-title="蜀小果",长宁综合
+http://sxg.tvbj.cc.cd/znzh_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/朝天综合.png" group-title="蜀小果",朝天综合
+http://sxg.tvbj.cc.cd/ctxwzh_2000
+#EXTINF:-1 group-title="蜀小果",崇州
+http://sxg.tvbj.cc.cd/czyt_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/船山综合.png" group-title="蜀小果",船山综合
+http://sxg.tvbj.cc.cd/csxw_2000
+#EXTINF:-1 group-title="蜀小果",达川新闻
+http://sxg.tvbj.cc.cd/dcxwzh_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/达州导视.png" group-title="蜀小果",达州导视
+http://sxg.tvbj.cc.cd/dzds_2000
+#EXTINF:-1 group-title="蜀小果",达州公共
+http://sxg.tvbj.cc.cd/dzgg_2000
+#EXTINF:-1 group-title="蜀小果",达州通川
+http://sxg.tvbj.cc.cd/tcq_2000
+#EXTINF:-1 group-title="蜀小果",达州新闻
+http://sxg.tvbj.cc.cd/dzxwzh_2000
+#EXTINF:-1 group-title="蜀小果",大邑电视台
+http://sxg.tvbj.cc.cd/dyytH265_4000
+#EXTINF:-1 group-title="蜀小果",大英新闻
+http://sxg.tvbj.cc.cd/dyxwzhH265_4000
+#EXTINF:-1 group-title="蜀小果",丹棱综合
+http://sxg.tvbj.cc.cd/dlxwzhH265_4000
+#EXTINF:-1 group-title="蜀小果",德昌
+http://sxg.tvbj.cc.cd/dcxw_4000
+#EXTINF:-1 group-title="蜀小果",东兴综合
+http://sxg.tvbj.cc.cd/dxxwzh_4000
+#EXTINF:-1 group-title="蜀小果",都江堰
+http://sxg.tvbj.cc.cd/djyzh_4000
+#EXTINF:-1 group-title="蜀小果",峨边
+http://sxg.tvbj.cc.cd/ebdst_2000
+#EXTINF:-1 group-title="蜀小果",峨眉综合
+http://sxg.tvbj.cc.cd/emsxw_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/恩阳新闻.png" group-title="蜀小果",恩阳新闻
+http://sxg.tvbj.cc.cd/eyxw_2000
+#EXTINF:-1 group-title="蜀小果",涪城综合
+http://sxg.tvbj.cc.cd/fcgq_2000
+#EXTINF:-1 group-title="蜀小果",富顺综合
+http://sxg.tvbj.cc.cd/fszh_2000
+#EXTINF:-1 group-title="蜀小果",甘洛
+http://sxg.tvbj.cc.cd/glt_2000
+#EXTINF:-1 group-title="蜀小果",甘孜综合
+http://sxg.tvbj.cc.cd/gzxwzh_2000
+#EXTINF:-1 group-title="蜀小果",高县-1
+http://sxg.tvbj.cc.cd/gxt_2000
+#EXTINF:-1 group-title="蜀小果",古蔺新闻
+http://sxg.tvbj.cc.cd/glxwzhgq_2000
+#EXTINF:-1 group-title="蜀小果",广安公共
+http://sxg.tvbj.cc.cd/gagg_2000
+#EXTINF:-1 group-title="蜀小果",广安区
+http://sxg.tvbj.cc.cd/gaqxw_2000
+#EXTINF:-1 group-title="蜀小果",广安新闻
+http://sxg.tvbj.cc.cd/gaxwzh_2000
+#EXTINF:-1 group-title="蜀小果",广汉综合
+http://sxg.tvbj.cc.cd/ghxwzh_2000
+#EXTINF:-1 group-title="蜀小果",广元文化
+http://sxg.tvbj.cc.cd/gyggH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广元综合.png" group-title="蜀小果",广元综合
+http://sxg.tvbj.cc.cd/gyzhH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汉源综合.png" group-title="蜀小果",汉源综合
+http://sxg.tvbj.cc.cd/hyxwzh_2000
+#EXTINF:-1 group-title="蜀小果",合江新闻
+http://sxg.tvbj.cc.cd/hjxw_2000
+#EXTINF:-1 group-title="蜀小果",黑水
+http://sxg.tvbj.cc.cd/hsxwzhpdH264_2000
+#EXTINF:-1 group-title="蜀小果",洪雅新闻
+http://sxg.tvbj.cc.cd/hyzh_2000
+#EXTINF:-1 group-title="蜀小果",华蓥综合
+http://sxg.tvbj.cc.cd/hyxw_2000
+#EXTINF:-1 group-title="蜀小果",会理新闻
+http://sxg.tvbj.cc.cd/hlyt_4000
+#EXTINF:-1 group-title="蜀小果",夹江新闻
+http://sxg.tvbj.cc.cd/jjxw_2000
+#EXTINF:-1 group-title="蜀小果",简阳新闻
+http://sxg.tvbj.cc.cd/jyxwzh_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/剑阁综合.png" group-title="蜀小果",剑阁综合
+http://sxg.tvbj.cc.cd/jgxwzhH265_4000
+#EXTINF:-1 group-title="蜀小果",江安
+http://sxg.tvbj.cc.cd/jat_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/江油综合.png" group-title="蜀小果",江油综合
+http://sxg.tvbj.cc.cd/jyxwHD_2000
+#EXTINF:-1 group-title="蜀小果",金口河综合
+http://sxg.tvbj.cc.cd/jkhdst_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/金牛.png" group-title="蜀小果",金牛
+http://sxg.tvbj.cc.cd/jnyx_2000
+#EXTINF:-1 group-title="蜀小果",金堂
+http://sxg.tvbj.cc.cd/jtzhpd_2000
+#EXTINF:-1 group-title="蜀小果",开江新闻
+http://sxg.tvbj.cc.cd/kjxwzh_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/乐山公共.png" group-title="蜀小果",乐山公共
+http://sxg.tvbj.cc.cd/lsggpd_4000
+#EXTINF:-1 group-title="蜀小果",乐山新闻
+http://sxg.tvbj.cc.cd/lsxwzh_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/利州综合.png" group-title="蜀小果",利州综合
+http://sxg.tvbj.cc.cd/lzxwzh_2000
+#EXTINF:-1 group-title="蜀小果",凉山新闻
+http://sxg.tvbj.cc.cd/lsxwHDH265_4000
+#EXTINF:-1 group-title="蜀小果",凉山彝语
+http://sxg.tvbj.cc.cd/yyzh_2000
+#EXTINF:-1 group-title="蜀小果",邻水
+http://sxg.tvbj.cc.cd/lsxw_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙泉综合.png" group-title="蜀小果",龙泉综合
+http://sxg.tvbj.cc.cd/lqxw_2000
+#EXTINF:-1 group-title="蜀小果",隆昌综合
+http://sxg.tvbj.cc.cd/lcxw_2000
+#EXTINF:-1 group-title="蜀小果",芦山综合
+http://sxg.tvbj.cc.cd/lszh_2000
+#EXTINF:-1 group-title="蜀小果",罗江
+http://sxg.tvbj.cc.cd/ljxwzh_2000
+#EXTINF:-1 group-title="蜀小果",马边综合
+http://sxg.tvbj.cc.cd/mbxwzh_2000
+#EXTINF:-1 group-title="蜀小果",马尔康
+http://sxg.tvbj.cc.cd/mekxwzhpd_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/眉山综合.png" group-title="蜀小果",眉山综合
+http://sxg.tvbj.cc.cd/msxwzhgq_2000
+#EXTINF:-1 group-title="蜀小果",米易综合
+http://sxg.tvbj.cc.cd/myxwzh_2000
+#EXTINF:-1 group-title="蜀小果",绵阳科技
+http://sxg.tvbj.cc.cd/myetH265_4000
+#EXTINF:-1 group-title="蜀小果",绵阳新闻
+http://sxg.tvbj.cc.cd/myytH265_4000
+#EXTINF:-1 group-title="蜀小果",绵竹
+http://sxg.tvbj.cc.cd/mzxwzh_2000
+#EXTINF:-1 group-title="蜀小果",冕宁综合
+http://sxg.tvbj.cc.cd/mnxw_2000
+#EXTINF:-1 group-title="蜀小果",名山
+http://sxg.tvbj.cc.cd/msdstH265_2000
+#EXTINF:-1 group-title="蜀小果",木里
+http://sxg.tvbj.cc.cd/mltHD_4000
+#EXTINF:-1 group-title="蜀小果",纳溪1
+http://sxg.tvbj.cc.cd/nxxw_2000
+#EXTINF:-1 group-title="蜀小果",南部综合
+http://sxg.tvbj.cc.cd/nbxw_2000
+#EXTINF:-1 group-title="蜀小果",南充综合
+http://sxg.tvbj.cc.cd/ncxwzh_2000
+#EXTINF:-1 group-title="蜀小果",南江
+http://sxg.tvbj.cc.cd/njxw_2000
+#EXTINF:-1 group-title="蜀小果",南溪综合
+http://sxg.tvbj.cc.cd/nxt_2000
+#EXTINF:-1 group-title="蜀小果",内江公共
+http://sxg.tvbj.cc.cd/njgg_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/内江综合.png" group-title="蜀小果",内江综合
+http://sxg.tvbj.cc.cd/njzh_4000
+#EXTINF:-1 group-title="蜀小果",宁南综合
+http://sxg.tvbj.cc.cd/nnt_4000
+#EXTINF:-1 group-title="蜀小果",攀钢新闻
+http://sxg.tvbj.cc.cd/pgxwzh_2000
+#EXTINF:-1 group-title="蜀小果",攀枝花新闻
+http://sxg.tvbj.cc.cd/pzhytH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/彭山综合.png" group-title="蜀小果",彭山综合
+http://sxg.tvbj.cc.cd/pszh_2000
+#EXTINF:-1 group-title="蜀小果",彭州综合
+http://sxg.tvbj.cc.cd/pzxwzh_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/蓬安综合.png" group-title="蜀小果",蓬安综合
+http://sxg.tvbj.cc.cd/pazh_2000
+#EXTINF:-1 group-title="蜀小果",蓬溪新闻
+http://sxg.tvbj.cc.cd/pxxw_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/平昌综合.png" group-title="蜀小果",平昌综合
+http://sxg.tvbj.cc.cd/pcxw_2000
+#EXTINF:-1 group-title="蜀小果",平武综合
+http://sxg.tvbj.cc.cd/pwgq_4000
+#EXTINF:-1 group-title="蜀小果",屏山综合
+http://sxg.tvbj.cc.cd/psxwzh_2000
+#EXTINF:-1 group-title="蜀小果",蒲江综合
+http://sxg.tvbj.cc.cd/pjxw_4000
+#EXTINF:-1 group-title="蜀小果",普格综合
+http://sxg.tvbj.cc.cd/pgt_4000
+#EXTINF:-1 group-title="蜀小果",前锋
+http://sxg.tvbj.cc.cd/qfxw_2000
+#EXTINF:-1 group-title="蜀小果",青白江综合
+http://sxg.tvbj.cc.cd/qbjxwzh_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青川综合.png" group-title="蜀小果",青川综合
+http://sxg.tvbj.cc.cd/qcxwzhH265_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青神综合.png" group-title="蜀小果",青神综合
+http://sxg.tvbj.cc.cd/qszh_2000
+#EXTINF:-1 group-title="蜀小果",渠县新闻
+http://sxg.tvbj.cc.cd/qxxwzh_2000
+#EXTINF:-1 group-title="蜀小果",仁和新闻
+http://sxg.tvbj.cc.cd/rhxwH264_2000
+#EXTINF:-1 group-title="蜀小果",荣县综合
+http://sxg.tvbj.cc.cd/rxzh_2000
+#EXTINF:-1 group-title="蜀小果",三台TV
+http://sxg.tvbj.cc.cd/stxwHD_2000
+#EXTINF:-1 group-title="蜀小果",射洪综合
+http://sxg.tvbj.cc.cd/shzhH264_2000
+#EXTINF:-1 group-title="蜀小果",石棉
+http://sxg.tvbj.cc.cd/smxwzh_2000
+#EXTINF:-1 group-title="蜀小果",什邡新闻
+http://sxg.tvbj.cc.cd/sfx_2000
+#EXTINF:-1 group-title="蜀小果",双流综合
+http://sxg.tvbj.cc.cd/slgq_2000
+#EXTINF:-1 group-title="蜀小果",松潘
+http://sxg.tvbj.cc.cd/spxwzhpdH264_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/遂宁综合.png" group-title="蜀小果",遂宁综合
+http://sxg.tvbj.cc.cd/snxwzhHDH265_4000
+#EXTINF:-1 group-title="蜀小果",天全新闻
+http://sxg.tvbj.cc.cd/tqzh_2000
+#EXTINF:-1 group-title="蜀小果",通川区
+http://sxg.tvbj.cc.cd/xcxwzhH264_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/通江综合.png" group-title="蜀小果",通江综合
+http://sxg.tvbj.cc.cd/tjxwH265_4000
+#EXTINF:-1 group-title="蜀小果",万源
+http://sxg.tvbj.cc.cd/wyxwzh_2000
+#EXTINF:-1 group-title="蜀小果",旺苍新闻
+http://sxg.tvbj.cc.cd/wcxwzhH265_4000
+#EXTINF:-1 group-title="蜀小果",温江综合
+http://sxg.tvbj.cc.cd/wjytH264_2000
+#EXTINF:-1 group-title="蜀小果",武胜综合
+http://sxg.tvbj.cc.cd/wsxw_2000
+#EXTINF:-1 group-title="蜀小果",五通桥
+http://sxg.tvbj.cc.cd/wtqxwzh_2000
+#EXTINF:-1 group-title="蜀小果",西昌
+http://sxg.tvbj.cc.cd/xctHD_2000
+#EXTINF:-1 group-title="蜀小果",西充综合
+http://sxg.tvbj.cc.cd/xczh_2000
+#EXTINF:-1 group-title="蜀小果",喜德
+http://sxg.tvbj.cc.cd/xdxw_4000
+#EXTINF:-1 group-title="蜀小果",新都综合
+http://sxg.tvbj.cc.cd/xdzhpd_2000
+#EXTINF:-1 group-title="蜀小果",新津
+http://sxg.tvbj.cc.cd/xjzh_4000
+#EXTINF:-1 group-title="蜀小果",兴文台
+http://sxg.tvbj.cc.cd/xwt_2000
+#EXTINF:-1 group-title="蜀小果",叙永
+http://sxg.tvbj.cc.cd/xyxw_2000
+#EXTINF:-1 group-title="蜀小果",叙州新闻
+http://sxg.tvbj.cc.cd/ybx_2000
+#EXTINF:-1 group-title="蜀小果",宣汉综合
+http://sxg.tvbj.cc.cd/xhxwzh_2000
+#EXTINF:-1 group-title="蜀小果",雅安公共
+http://sxg.tvbj.cc.cd/yagg_2000
+#EXTINF:-1 group-title="蜀小果",雅安新闻
+http://sxg.tvbj.cc.cd/yazh_2000
+#EXTINF:-1 group-title="蜀小果",雅安雨城
+http://sxg.tvbj.cc.cd/ycpd_2000
+#EXTINF:-1 group-title="蜀小果",盐边电视台
+http://sxg.tvbj.cc.cd/ybtgq_2000
+#EXTINF:-1 group-title="蜀小果",盐亭1
+http://sxg.tvbj.cc.cd/ytzh_2000
+#EXTINF:-1 group-title="蜀小果",雁江
+http://sxg.tvbj.cc.cd/yjxw_2000
+#EXTINF:-1 group-title="蜀小果",仪陇新闻
+http://sxg.tvbj.cc.cd/ylxw_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/宜宾公共.png" group-title="蜀小果",宜宾公共
+http://sxg.tvbj.cc.cd/ybetH264_2000
+#EXTINF:-1 group-title="蜀小果",宜宾新闻
+http://sxg.tvbj.cc.cd/ybytH264_2000
+#EXTINF:-1 group-title="蜀小果",营山
+http://sxg.tvbj.cc.cd/ysxw_2000
+#EXTINF:-1 group-title="蜀小果",越西综合
+http://sxg.tvbj.cc.cd/yxt_4000
+#EXTINF:-1 group-title="蜀小果",岳池
+http://sxg.tvbj.cc.cd/ycxw_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/昭化综合.png" group-title="蜀小果",昭化综合
+http://sxg.tvbj.cc.cd/zhxwzh_2000
+#EXTINF:-1 group-title="蜀小果",中江新闻
+http://sxg.tvbj.cc.cd/zjxwzh_2000
+#EXTINF:-1 group-title="蜀小果",资阳新闻
+http://sxg.tvbj.cc.cd/zyxwzh_2000
+#EXTINF:-1 group-title="蜀小果",资中综合
+http://sxg.tvbj.cc.cd/zzzh_2000
+#EXTINF:-1 group-title="蜀小果",自贡文化
+http://sxg.tvbj.cc.cd/zggg_4000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/自贡综合.png" group-title="蜀小果",自贡综合
+http://sxg.tvbj.cc.cd/zgxw_4000
+#EXTINF:-1 group-title="蜀小果",郫县新闻
+http://sxg.tvbj.cc.cd/pxds1_2000
+#EXTINF:-1 group-title="蜀小果",荥经
+http://sxg.tvbj.cc.cd/xjdst_2000
+#EXTINF:-1 group-title="蜀小果",阆中综合
+http://sxg.tvbj.cc.cd/lzxw_2000
+#EXTINF:-1 group-title="蜀小果",沐川综合
+http://sxg.tvbj.cc.cd/mcxw_2000
+#EXTINF:-1 group-title="蜀小果",泸定综合
+http://sxg.tvbj.cc.cd/ldxw_4000
+#EXTINF:-1 group-title="蜀小果",泸县综合
+http://sxg.tvbj.cc.cd/lxxwzh_2000
+#EXTINF:-1 group-title="蜀小果",泸州公共
+http://sxg.tvbj.cc.cd/lzgg_2000
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/珙县新闻.png" group-title="蜀小果",珙县新闻
+http://sxg.tvbj.cc.cd/gxzh_2000
+#EXTINF:-1 group-title="蜀小果",梓潼综合
+http://sxg.tvbj.cc.cd/ztgq_2000
+#EXTINF:-1 group-title="蜀小果",犍为新闻
+http://sxg.tvbj.cc.cd/qwxwzh_2000
+#EXTINF:-1 group-title="蜀小果",筠连
+http://sxg.tvbj.cc.cd/ylyt_2000
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/北京IPTV淘剧场.png" group-title="北京淘系列",北京IPTV淘剧场
 http://otangtang.com:38848/udp/239.3.1.95:8001
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/北京IPTV淘娱乐.png" group-title="北京淘系列",北京IPTV淘娱乐
