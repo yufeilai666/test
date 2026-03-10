@@ -3719,7 +3719,7 @@ http://120.87.19.109:80/PLTV/88888973/224/3221226675/100001000000000600000000020
 http://120.87.19.109:80/PLTV/88888973/224/3221226638/10000100000000060000000001977379_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xnB0x7qH8oMgPwgp9Rx5I3gWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
 #EXTINF:-1 tvg-id="国学频道" tvg-name="国学频道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/国学频道.png" group-title="广东联通(内)",国学频道
 http://120.87.19.109:80/PLTV/88888973/224/3221226152/10000100000000060000000001091886_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xLmjl3wapWOmUFufQ092DbAWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
-#EXTINF:-1 tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汽摩.png" group-title="广东联通(内)",汽摩
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汽摩.png" group-title="广东联通(内)",汽摩
 http://120.87.19.109:80/PLTV/88888973/224/3221226163/10000100000000060000000001091897_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xGfeW2XHhip3wQVyafxZqVQWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
 #EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/财富天下.png" group-title="广东联通(内)",财富天下
 http://120.87.19.109:80/PLTV/88888973/224/3221225702/10000100000000060000000000334135_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xZbRnfkWTmDjMrdJCwmABtgWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
@@ -6351,7 +6351,7 @@ http://tvgslb.hn.chinamobile.com:8089/180000001002/32023060222354368427501888132
 http://tvgslb.hn.chinamobile.com:8089/180000001002/32023061416093545217774427398013/main.m3u8?stbid=
 #EXTINF:-1 tvg-id="环球奇观" tvg-name="环球奇观" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/环球奇观.png" group-title="湖南移动(内)",环球奇观
 http://tvgslb.hn.chinamobile.com:8089/180000001002/32023061416181029613614091027931/main.m3u8?stbid=
-#EXTINF:-1 tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汽摩.png" group-title="湖南移动(内)",汽摩
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汽摩.png" group-title="湖南移动(内)",汽摩
 http://tvgslb.hn.chinamobile.com:8089/180000001002/32023061416165336644074033786493/main.m3u8?stbid=
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="湖南移动(内)",先锋乒羽
 http://tvgslb.hn.chinamobile.com:8089/180000001002/00000000000000020000000000182319/main.m3u8?stbid=
