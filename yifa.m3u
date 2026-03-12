@@ -1967,28 +1967,62 @@ http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1038
 http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1666
 #EXTINF:-1 group-title="秒开台湾",鳯凰衛視中文
 http://nn.7x9d.cn/mk.php?ip=59.125.245.58:1888&id=live1213
-#EXTINF:-1 group-title="地面波",港台電視 31
-http://2:2@113.89.101.0:9981/stream/channelid/1838780937?profile=htsp
-#EXTINF:-1 group-title="地面波",港台電視 32
-http://2:2@113.89.101.0:9981/stream/channelid/1136133890?profile=htsp
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="地面波",CCTV1
-http://2:2@113.89.101.0:9981/stream/channelid/539067480?profile=htsp
-#EXTINF:-1 group-title="地面波",中國環球電視網紀錄頻道 (CGTN紀錄頻道)
-http://2:2@113.89.101.0:9981/stream/channelid/1934804729?profile=htsp
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="地面波",翡翠台
-http://2:2@113.89.101.0:9981/stream/channelid/347433525?profile=htsp
-#EXTINF:-1 group-title="地面波",TVB Plus
-http://2:2@113.89.101.0:9981/stream/channelid/1354578766?profile=htsp
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="地面波",無綫新聞台
-http://2:2@113.89.101.0:9981/stream/channelid/1040261915?profile=htsp
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="地面波",明珠台
-http://2:2@113.89.101.0:9981/stream/channelid/924340760?profile=htsp
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視香港台.png" group-title="地面波",鳳凰衛視香港台
-http://2:2@113.89.101.0:9981/stream/channelid/1091885173?profile=htsp
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/VIUTVSIX.png" group-title="地面波",ViuTVsix
-http://2:2@113.89.101.0:9981/stream/channelid/2144013391?profile=htsp
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="地面波",ViuTV
-http://2:2@113.89.101.0:9981/stream/channelid/446485537?profile=htsp
+#EXTINF:-1 group-title="抖音直播",水水家猪蹄
+https://live.iill.top/douyin/ssjzt777
+#EXTINF:-1 group-title="抖音直播",格格睡醒了
+https://live.iill.top/douyin/42347122605
+#EXTINF:-1 group-title="抖音直播",晓晓
+https://live.iill.top/douyin/147258247158d
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视网.png" group-title="抖音直播",央视网
+https://live.iill.top/douyin/cctv.com
+#EXTINF:-1 group-title="抖音直播",小央视频
+https://live.iill.top/douyin/cctv_video
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="抖音直播",CCTV4
+https://live.iill.top/douyin/CCTV4..
+#EXTINF:-1 group-title="抖音直播",央视网快看
+https://live.iill.top/douyin/kuaikancctv
+#EXTINF:-1 group-title="抖音直播",CCTV远方的家
+https://live.iill.top/douyin/44931143492
+#EXTINF:-1 group-title="抖音直播",央视三农
+https://live.iill.top/douyin/letus17
+#EXTINF:-1 group-title="抖音直播",电影频道央影传媒
+https://live.iill.top/douyin/cctv6media.
+#EXTINF:-1 group-title="抖音直播",粤TV-广东台荔枝网
+https://live.iill.top/douyin/ZK8763
+#EXTINF:-1 group-title="抖音直播",DV现场
+https://live.iill.top/douyin/gdtvdvxc
+#EXTINF:-1 tvg-id="珠江频道" tvg-name="珠江频道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/珠江频道.png" group-title="抖音直播",珠江频道
+https://live.iill.top/douyin/gdtvzjpd
+#EXTINF:-1 group-title="抖音直播",央视网新闻
+https://live.iill.top/douyin/1606137427
+#EXTINF:-1 group-title="抖音直播",每日经济新闻
+https://live.iill.top/douyin/nbdnews
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国交通广播.png" group-title="抖音直播",中国交通广播
+https://live.iill.top/douyin/CMG_ZGJTGB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/极目新闻.png" group-title="抖音直播",极目新闻
+https://live.iill.top/douyin/ctdsbdy
+#EXTINF:-1 group-title="抖音直播",延边新闻
+https://live.iill.top/douyin/YBnews
+#EXTINF:-1 group-title="抖音直播",育见新闻
+https://live.iill.top/douyin/CETVxinwen
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/维度新闻.png" group-title="抖音直播",维度新闻
+https://live.iill.top/douyin/975107749
+#EXTINF:-1 group-title="抖音直播",深圳新闻网
+https://live.iill.top/douyin/1057124186
+#EXTINF:-1 group-title="抖音直播",特区新闻广场
+https://live.iill.top/douyin/tqxwgc
+#EXTINF:-1 group-title="抖音直播",环球时报
+https://live.iill.top/douyin/HuanQiuShiBao
+#EXTINF:-1 group-title="抖音直播",第一财团
+https://live.iill.top/douyin/Diyicaituan
+#EXTINF:-1 group-title="抖音直播",央视网财经
+https://live.iill.top/douyin/nuanxinnengl
+#EXTINF:-1 group-title="抖音直播",央视财经
+https://live.iill.top/douyin/yscjxmt
+#EXTINF:-1 group-title="抖音直播",财联社
+https://live.iill.top/douyin/clscccaijing
+#EXTINF:-1 group-title="抖音直播",小强热线浙江教科
+https://live.iill.top/douyin/ZTV4
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="广东本地",大湾区卫视
 http://119.123.76.217:8086/hls/29/index.m3u8
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="广东本地",广东民生
