@@ -1657,77 +1657,77 @@ http://tl.061833.xyz/tl/rock
 http://tl.061833.xyz/tl/superkidschannel
 #EXTINF:-1 tvg-id="ZooMoo" tvg-name="ZooMoo" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ZOOMOO.png" group-title="极速0618",ZooMoo
 http://tl.061833.xyz/tl/zoomoo
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速168",翡翠台
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速NOW",翡翠台
 https://hls.iill.top/api/TVB-Jade/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速168",無綫新聞台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速NOW",無綫新聞台
 https://hls.iill.top/api/TVB-News/index.m3u8
-#EXTINF:-1 group-title="极速168",TVB Plus
+#EXTINF:-1 group-title="极速NOW",TVB Plus
 https://hls.iill.top/api/TVB-Plus/index.m3u8
-#EXTINF:-1 tvg-id="動物星球" tvg-name="動物星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="极速168",動物星球
+#EXTINF:-1 tvg-id="動物星球" tvg-name="動物星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="极速NOW",動物星球
 https://hls.iill.top/api/dwxq/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="极速168",緯來日本
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="极速NOW",緯來日本
 https://hls.iill.top/api/wlrb/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="极速168",緯來體育
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="极速NOW",緯來體育
 https://hls.iill.top/api/wlty/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="极速168",緯來電影
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="极速NOW",緯來電影
 https://hls.iill.top/api/wldy/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="极速168",東森電影
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="极速NOW",東森電影
 https://hls.iill.top/api/dsdy/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="极速168",東森洋片
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="极速NOW",東森洋片
 https://hls.iill.top/api/dsyp/index.m3u8
-#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="极速168",龍祥時代
+#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="极速NOW",龍祥時代
 https://hls.iill.top/api/lxsd/index.m3u8
-#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="极速168",BBC Earth
+#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="极速NOW",BBC Earth
 https://hls.iill.top/api/BBC-Earth/index.m3u8
-#EXTINF:-1 tvg-id="BBC LIFESTYLE" tvg-name="BBC LIFESTYLE" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Lifestyle.png" group-title="极速168",BBC Lifestyle
+#EXTINF:-1 tvg-id="BBC LIFESTYLE" tvg-name="BBC LIFESTYLE" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Lifestyle.png" group-title="极速NOW",BBC Lifestyle
 https://hls.iill.top/api/BBC-Lifestyle/index.m3u8
-#EXTINF:-1 tvg-id="DiSCOVERY" tvg-name="DiSCOVERY" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="极速168",Discovery
+#EXTINF:-1 tvg-id="DiSCOVERY" tvg-name="DiSCOVERY" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="极速NOW",Discovery
 https://hls.iill.top/api/Discovery/index.m3u8
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="极速168",HBO
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="极速NOW",HBO
 https://hls.iill.top/api/HBO/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="极速168",HBO Hits
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="极速NOW",HBO Hits
 https://hls.iill.top/api/HBO-Hits/index.m3u8
-#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Family.png" group-title="极速168",HBO Family
+#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Family.png" group-title="极速NOW",HBO Family
 https://hls.iill.top/api/HBO-Family/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Signature.png" group-title="极速168",HBO Signature
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Signature.png" group-title="极速NOW",HBO Signature
 https://hls.iill.top/api/HBO-Signature/index.m3u8
-#EXTINF:-1 group-title="极速168",NOW星影
+#EXTINF:-1 group-title="极速NOW",NOW星影
 http://rihou.cc:555/tv/hktv%2Ftb19nowxy56
-#EXTINF:-1 group-title="极速168",NOW星影(国)
+#EXTINF:-1 group-title="极速NOW",NOW星影(国)
 p3p://focus169.org:47555/693d2c48000ebc01f0e30d165ba336d4
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW爆谷.png" group-title="极速168",NOW爆谷
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW爆谷.png" group-title="极速NOW",NOW爆谷
 http://rihou.cc:555/tv/hktv%2Ftb19nowbg56
-#EXTINF:-1 group-title="极速168",NOW爆谷(国)
+#EXTINF:-1 group-title="极速NOW",NOW爆谷(国)
 p3p://focus169.org:47555/683c6792000d325d05e9065a074c5f94
-#EXTINF:-1 group-title="极速168",HUB如意台
+#EXTINF:-1 group-title="极速NOW",HUB如意台
 http://rihou.cc:555/tv/hktv%2Ftbbhubjy56
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HUB娱家台.png" group-title="极速168",HUB娱家台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HUB娱家台.png" group-title="极速NOW",HUB娱家台
 http://rihou.cc:555/tv/hktv%2Ftb19tvbzt56
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HUB都会台.png" group-title="极速168",HUB都会台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HUB都会台.png" group-title="极速NOW",HUB都会台
 http://rihou.cc:555/tv/hktv%2Fbtw856356
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/曼迪日本台.png" group-title="极速168",曼迪日本台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/曼迪日本台.png" group-title="极速NOW",曼迪日本台
 http://rihou.cc:555/tv/hktv%2Fbtw856456
-#EXTINF:-1 group-title="极速168",NOW体育1
+#EXTINF:-1 group-title="极速NOW",NOW体育1
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382843&extension=ts&play_token=KANAeecxcz
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育2.png" group-title="极速168",NOW体育2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育2.png" group-title="极速NOW",NOW体育2
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382842&extension=ts&play_token=MCoDoR8s9G
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育3.png" group-title="极速168",NOW体育3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育3.png" group-title="极速NOW",NOW体育3
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382841&extension=ts&play_token=5uiKCGTNCF
-#EXTINF:-1 group-title="极速168",NOW体育4
+#EXTINF:-1 group-title="极速NOW",NOW体育4
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382840&extension=ts&play_token=eoeYdjrkUg
-#EXTINF:-1 group-title="极速168",NOW体育5
+#EXTINF:-1 group-title="极速NOW",NOW体育5
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382839&extension=ts&play_token=lu0NOftGgg
-#EXTINF:-1 group-title="极速168",NOW体育6
+#EXTINF:-1 group-title="极速NOW",NOW体育6
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382838&extension=ts&play_token=WQ4pi5DTy3
-#EXTINF:-1 group-title="极速168",NOW体育7
+#EXTINF:-1 group-title="极速NOW",NOW体育7
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382837&extension=ts&play_token=rRmhe1TsX7
-#EXTINF:-1 group-title="极速168",NOW体育4K1
+#EXTINF:-1 group-title="极速NOW",NOW体育4K1
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382836&extension=ts&play_token=jSAYXQsMoY
-#EXTINF:-1 tvg-id="now體育" tvg-name="now體育" group-title="极速168",NOW体育
+#EXTINF:-1 tvg-id="now體育" tvg-name="now體育" group-title="极速NOW",NOW体育
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382834&extension=ts&play_token=JBOlpsgTKU
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW英超1台.png" group-title="极速168",NOW英超1台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW英超1台.png" group-title="极速NOW",NOW英超1台
 http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW英超1台.png" group-title="极速168",NOW英超1台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW英超1台.png" group-title="极速NOW",NOW英超1台
 http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV.png" group-title="极速风云",SPOTV
 http://iptv.4666888.xyz/iptv2A.php?id=2
