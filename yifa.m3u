@@ -1525,40 +1525,6 @@ https://test.tvbjack.de5.net/proxy/417eeb884ff359bf
 https://test.tvbjack.de5.net/proxy/fa34b08b7616335c
 #EXTINF:-1 tvg-id="精選動漫台" tvg-name="精選動漫台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/精選動漫台.png" group-title="极速jack",精選動漫台
 https://test.tvbjack.de5.net/proxy/780611a095c0631c
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速jack",翡翠台
-https://hls.iill.top/api/TVB-Jade/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速jack",無綫新聞台
-https://hls.iill.top/api/TVB-News/index.m3u8
-#EXTINF:-1 group-title="极速jack",TVB Plus
-https://hls.iill.top/api/TVB-Plus/index.m3u8
-#EXTINF:-1 tvg-id="動物星球" tvg-name="動物星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="极速jack",動物星球
-https://hls.iill.top/api/dwxq/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="极速jack",緯來日本
-https://hls.iill.top/api/wlrb/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="极速jack",緯來體育
-https://hls.iill.top/api/wlty/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="极速jack",緯來電影
-https://hls.iill.top/api/wldy/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="极速jack",東森電影
-https://hls.iill.top/api/dsdy/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="极速jack",東森洋片
-https://hls.iill.top/api/dsyp/index.m3u8
-#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="极速jack",龍祥時代
-https://hls.iill.top/api/lxsd/index.m3u8
-#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="极速jack",BBC Earth
-https://hls.iill.top/api/BBC-Earth/index.m3u8
-#EXTINF:-1 tvg-id="BBC LIFESTYLE" tvg-name="BBC LIFESTYLE" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Lifestyle.png" group-title="极速jack",BBC Lifestyle
-https://hls.iill.top/api/BBC-Lifestyle/index.m3u8
-#EXTINF:-1 tvg-id="DiSCOVERY" tvg-name="DiSCOVERY" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="极速jack",Discovery
-https://hls.iill.top/api/Discovery/index.m3u8
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="极速jack",HBO
-https://hls.iill.top/api/HBO/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="极速jack",HBO Hits
-https://hls.iill.top/api/HBO-Hits/index.m3u8
-#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Family.png" group-title="极速jack",HBO Family
-https://hls.iill.top/api/HBO-Family/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Signature.png" group-title="极速jack",HBO Signature
-https://hls.iill.top/api/HBO-Signature/index.m3u8
 #EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速bxtv",凤凰中文
 http://pull-vivek.speedws.com/live/aaafhzw.flv
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="极速bxtv",凤凰资讯
@@ -1691,40 +1657,56 @@ http://tl.061833.xyz/tl/rock
 http://tl.061833.xyz/tl/superkidschannel
 #EXTINF:-1 tvg-id="ZooMoo" tvg-name="ZooMoo" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ZOOMOO.png" group-title="极速0618",ZooMoo
 http://tl.061833.xyz/tl/zoomoo
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY76.png" group-title="极速168",HOY76
-http://hls.168.us.kg/u/76/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY77.png" group-title="极速168",HOY77
-http://hls.168.us.kg/u/77/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY78.png" group-title="极速168",HOY78
-http://hls.168.us.kg/u/78/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY78.png" group-title="极速168",HOY78
-http://hls.168.us.kg/u/78/master.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速168",翡翠台
-http://hls.168.us.kg/u/81/master.m3u8
+https://hls.iill.top/api/TVB-Jade/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速168",無綫新聞台
+https://hls.iill.top/api/TVB-News/index.m3u8
 #EXTINF:-1 group-title="极速168",TVB Plus
-http://hls.168.us.kg/u/82/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速168",无线新闻台
-http://hls.168.us.kg/u/83/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速168",明珠台
-http://hls.168.us.kg/u/84/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新聞台.png" group-title="极速168",Now新聞台
-http://hls.168.us.kg/u/332/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/VIUTVSIX.png" group-title="极速168",ViuTVsix
-http://hls.168.us.kg/u/96/master.m3u8
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速168",ViuTV
-http://hls.168.us.kg/u/99/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW华剧台.png" group-title="极速168",Now華劇台
-http://hls.168.us.kg/u/105/master.m3u8
-#EXTINF:-1 group-title="极速168",熊貓TV
-http://hls.168.us.kg/u/200/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Now直播台.png" group-title="极速168",Now直播台
-http://hls.168.us.kg/u/331/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新聞台.png" group-title="极速168",Now新聞台
-http://hls.168.us.kg/u/332/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW财经台.png" group-title="极速168",Now財經台
-http://hls.168.us.kg/u/333/master.m3u8
-#EXTINF:-1 group-title="极速168",Now Sports 精選
-http://hls.168.us.kg/u/630/master.m3u8
+https://hls.iill.top/api/TVB-Plus/index.m3u8
+#EXTINF:-1 tvg-id="動物星球" tvg-name="動物星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="极速168",動物星球
+https://hls.iill.top/api/dwxq/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="极速168",緯來日本
+https://hls.iill.top/api/wlrb/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="极速168",緯來體育
+https://hls.iill.top/api/wlty/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="极速168",緯來電影
+https://hls.iill.top/api/wldy/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="极速168",東森電影
+https://hls.iill.top/api/dsdy/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="极速168",東森洋片
+https://hls.iill.top/api/dsyp/index.m3u8
+#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="极速168",龍祥時代
+https://hls.iill.top/api/lxsd/index.m3u8
+#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="极速168",BBC Earth
+https://hls.iill.top/api/BBC-Earth/index.m3u8
+#EXTINF:-1 tvg-id="BBC LIFESTYLE" tvg-name="BBC LIFESTYLE" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Lifestyle.png" group-title="极速168",BBC Lifestyle
+https://hls.iill.top/api/BBC-Lifestyle/index.m3u8
+#EXTINF:-1 tvg-id="DiSCOVERY" tvg-name="DiSCOVERY" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="极速168",Discovery
+https://hls.iill.top/api/Discovery/index.m3u8
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="极速168",HBO
+https://hls.iill.top/api/HBO/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="极速168",HBO Hits
+https://hls.iill.top/api/HBO-Hits/index.m3u8
+#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Family.png" group-title="极速168",HBO Family
+https://hls.iill.top/api/HBO-Family/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Signature.png" group-title="极速168",HBO Signature
+https://hls.iill.top/api/HBO-Signature/index.m3u8
+#EXTINF:-1 group-title="极速168",NOW星影
+http://rihou.cc:555/tv/hktv%2Ftb19nowxy56
+#EXTINF:-1 group-title="极速168",NOW星影(国)
+p3p://focus169.org:47555/693d2c48000ebc01f0e30d165ba336d4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW爆谷.png" group-title="极速168",NOW爆谷
+http://rihou.cc:555/tv/hktv%2Ftb19nowbg56
+#EXTINF:-1 group-title="极速168",NOW爆谷(国)
+p3p://focus169.org:47555/683c6792000d325d05e9065a074c5f94
+#EXTINF:-1 group-title="极速168",HUB如意台
+http://rihou.cc:555/tv/hktv%2Ftbbhubjy56
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HUB娱家台.png" group-title="极速168",HUB娱家台
+http://rihou.cc:555/tv/hktv%2Ftb19tvbzt56
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HUB都会台.png" group-title="极速168",HUB都会台
+http://rihou.cc:555/tv/hktv%2Fbtw856356
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/曼迪日本台.png" group-title="极速168",曼迪日本台
+http://rihou.cc:555/tv/hktv%2Fbtw856456
 #EXTINF:-1 group-title="极速168",NOW体育1
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382843&extension=ts&play_token=KANAeecxcz
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育2.png" group-title="极速168",NOW体育2
@@ -1827,514 +1809,6 @@ http://iptv.4666888.xyz/iptv2A.php?id=52
 http://iptv.4666888.xyz/iptv2A.php?id=53
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="极速风云",中视经典
 http://iptv.4666888.xyz/iptv2A.php?id=54
-#EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視第一台.png" group-title="4季台湾",民視第一台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv003
-#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="4季台湾",民視台灣台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv001
-#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="4季台湾",民視
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv002
-#EXTINF:-1 tvg-id="大愛電視" tvg-name="大愛電視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大愛電視.png" group-title="4季台湾",大愛電視
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live007
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="4季台湾",中視
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv040
-#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="4季台湾",華視
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv041
-#EXTINF:-1 group-title="4季台湾",三立綜合合
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live207
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/客家電視.png" group-title="4季台湾",客家電視
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv043
-#EXTINF:-1 tvg-id="中視菁采台" tvg-name="中視菁采台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视菁采台.png" group-title="4季台湾",中視菁采台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv064
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天综合.png" group-title="4季台湾",靖天綜合
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv046
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天日本.png" group-title="4季台湾",靖天日本
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv047
-#EXTINF:-1 tvg-id="新唐人亞太台" tvg-name="新唐人亞太台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/新唐人亞太台.png" group-title="4季台湾",新唐人亞太台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live050
-#EXTINF:-1 tvg-id="Arirang TV" tvg-name="Arirang TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Arirang TV.png" group-title="4季台湾",Arirang TV
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv079
-#EXTINF:-1 tvg-id="原住民族電視台" tvg-name="原住民族電視台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/原住民族電視台.png" group-title="4季台湾",原住民族電視台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live014
-#EXTINF:-1 tvg-id="東森購物四台" tvg-name="東森購物四台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东森购物四台.png" group-title="4季台湾",東森購物四台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live049
-#EXTINF:-1 tvg-id="東森購物一台" tvg-name="東森購物一台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东森购物一台.png" group-title="4季台湾",東森購物一台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live047
-#EXTINF:-1 tvg-id="東森購物一台" tvg-name="東森購物一台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东森购物一台.png" group-title="4季台湾",東森購物一台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv102
-#EXTINF:-1 tvg-id="東森購物一台" tvg-name="東森購物一台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东森购物一台.png" group-title="4季台湾",東森購物一台
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv102
-#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="4季台湾",TVBS
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv073
-#EXTINF:-1 tvg-id="東森購物二台" tvg-name="東森購物二台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东森购物二台.png" group-title="4季台湾",東森購物二台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live046
-#EXTINF:-1 tvg-id="東森購物二台" tvg-name="東森購物二台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东森购物二台.png" group-title="4季台湾",東森購物二台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv103
-#EXTINF:-1 tvg-id="東森購物二台" tvg-name="東森購物二台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东森购物二台.png" group-title="4季台湾",東森購物二台
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv103
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天育乐.png" group-title="4季台湾",靖天育樂
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv062
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天国际.png" group-title="4季台湾",靖天國際
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv063
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/靖天欢乐.png" group-title="4季台湾",靖天歡樂
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv054
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天资讯.png" group-title="4季台湾",靖天資訊
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv065
-#EXTINF:-1 tvg-id="韓國娛樂台" tvg-name="韓國娛樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/韩国娱乐台.png" group-title="4季台湾",韓國娛樂台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv016
-#EXTINF:-1 tvg-id="東森購物三台" tvg-name="東森購物三台" group-title="4季台湾",東森購物三台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live048
-#EXTINF:-1 tvg-id="好消息" tvg-name="好消息" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/好消息.png" group-title="4季台湾",好消息
-http://litv.goiptv.de5.net/litv.php?id=litv-ftv16
-#EXTINF:-1 tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好消息2台.png" group-title="4季台湾",好消息2台
-http://litv.goiptv.de5.net/litv.php?id=litv-ftv17
-#EXTINF:-1 tvg-id="大愛二台" tvg-name="大愛二台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/大爱二台.png" group-title="4季台湾",大愛二台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live106
-#EXTINF:-1 tvg-id="人間衛視" tvg-name="人間衛視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/人間衛視.png" group-title="4季台湾",人間衛視
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live008
-#EXTINF:-1 tvg-id="國會頻道1" tvg-name="國會頻道1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道1.png" group-title="4季台湾",國會頻道1
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv084
-#EXTINF:-1 tvg-id="國會頻道2" tvg-name="國會頻道2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道2.png" group-title="4季台湾",國會頻道2
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv085
-#EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視第一台.png" group-title="4季台湾",民視第一台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv003
-#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="4季台湾",民視台灣台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv001
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="4季台湾",中視
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv040
-#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="4季台湾",華視
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv041
-#EXTINF:-1 tvg-id="中天亞洲台" tvg-name="中天亞洲台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天亞洲台.png" group-title="4季台湾",中天亞洲台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv109
-#EXTINF:-1 group-title="4季台湾",三立綜合合
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live207
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/客家電視.png" group-title="4季台湾",客家電視
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv043
-#EXTINF:-1 tvg-id="中視菁采台" tvg-name="中視菁采台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视菁采台.png" group-title="4季台湾",中視菁采台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv064
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天综合.png" group-title="4季台湾",靖天綜合
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv046
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天日本.png" group-title="4季台湾",靖天日本
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv047
-#EXTINF:-1 tvg-id="Arirang TV" tvg-name="Arirang TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Arirang TV.png" group-title="4季台湾",Arirang TV
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv079
-#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="4季台湾",TVBS
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv073
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天育乐.png" group-title="4季台湾",靖天育樂
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv062
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天国际.png" group-title="4季台湾",靖天國際
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv063
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/靖天欢乐.png" group-title="4季台湾",靖天歡樂
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv054
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天资讯.png" group-title="4季台湾",靖天資訊
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv065
-#EXTINF:-1 tvg-id="韓國娛樂台" tvg-name="韓國娛樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/韩国娱乐台.png" group-title="4季台湾",韓國娛樂台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv016
-#EXTINF:-1 tvg-id="好消息" tvg-name="好消息" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/好消息.png" group-title="4季台湾",好消息
-http://litv.goiptv.de5.net/litv.php?id=li-litv-ftv16
-#EXTINF:-1 tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好消息2台.png" group-title="4季台湾",好消息2台
-http://litv.goiptv.de5.net/litv.php?id=li-litv-ftv17
-#EXTINF:-1 tvg-id="國會頻道1" tvg-name="國會頻道1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道1.png" group-title="4季台湾",國會頻道1
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv084
-#EXTINF:-1 tvg-id="國會頻道2" tvg-name="國會頻道2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道2.png" group-title="4季台湾",國會頻道2
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv085
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="4季台湾",台視
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv066
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="4季台湾",台視
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv066
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="4季台湾",中視
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv040
-#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="4季台湾",華視
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv041
-#EXTINF:-1 tvg-id="好消息" tvg-name="好消息" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/好消息.png" group-title="4季台湾",好消息
-http://litv.goiptv.de5.net/litv.php?id=of-litv-ftv16
-#EXTINF:-1 tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好消息2台.png" group-title="4季台湾",好消息2台
-http://litv.goiptv.de5.net/litv.php?id=of-litv-ftv17
-#EXTINF:-1 tvg-id="國會頻道1" tvg-name="國會頻道1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道1.png" group-title="4季台湾",國會頻道1
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv084
-#EXTINF:-1 tvg-id="國會頻道2" tvg-name="國會頻道2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道2.png" group-title="4季台湾",國會頻道2
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv085
-#EXTINF:-1 tvg-id="中視經典台" tvg-name="中視經典台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视经典台.png" group-title="4季台湾",中視經典台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv080
-#EXTINF:-1 tvg-id="ROCK ENTERTAINMENT" tvg-name="ROCK ENTERTAINMENT" group-title="4季台湾",ROCK Entertainment
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live080
-#EXTINF:-1 tvg-id="公視戲劇" tvg-name="公視戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公视戏剧.png" group-title="4季台湾",公視戲劇
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv042
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视影剧.png" group-title="4季台湾",民視影劇
-http://litv.goiptv.de5.net/litv.php?id=litv-ftv09
-#EXTINF:-1 tvg-id="HITS" tvg-name="HITS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HITS.png" group-title="4季台湾",HITS
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live620
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/霹靂布袋戲.png" group-title="4季台湾",霹靂布袋戲
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live145
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天戏剧.png" group-title="4季台湾",靖天戲劇
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv058
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖洋戏剧.png" group-title="4季台湾",靖洋戲劇
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv045
-#EXTINF:-1 tvg-id="金光布袋戲" tvg-name="金光布袋戲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金光布袋戏.png" group-title="4季台湾",金光布袋戲
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live144
-#EXTINF:-1 tvg-id="ROCK ACTION" tvg-name="ROCK ACTION" group-title="4季台湾",ROCK Action
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live138
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/采昌影剧.png" group-title="4季台湾",采昌影劇
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv049
-#EXTINF:-1 tvg-id="靖天映畫" tvg-name="靖天映畫" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天映畫.png" group-title="4季台湾",靖天映畫
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv055
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天電影.png" group-title="4季台湾",靖天電影
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv061
-#EXTINF:-1 tvg-id="影迷數位電影台" tvg-name="影迷數位電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/影迷數位電影台.png" group-title="4季台湾",影迷數位電影台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv011
-#EXTINF:-1 tvg-id="AMC 電影台" tvg-name="AMC 電影台" group-title="4季台湾",amc 電影台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv017
-#EXTINF:-1 group-title="4季台湾",Cinema World
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live069
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/欧洲光影.png" group-title="4季台湾",歐洲光影
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live157
-#EXTINF:-1 tvg-id="TVBS台劇台" tvg-name="TVBS台劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS台劇台.png" group-title="4季台湾",TVBS台劇台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live088
-#EXTINF:-1 tvg-id="經典電影台" tvg-name="經典電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典电影台.png" group-title="4季台湾",經典電影台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live021
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/戲劇免費看1台.png" group-title="4季台湾",戲劇免費看1台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live010
-#EXTINF:-1 tvg-id="中視經典台" tvg-name="中視經典台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视经典台.png" group-title="4季台湾",中視經典台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv080
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="4季台湾",龍華洋片
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn02
-#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="4季台湾",龍華電影
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn03
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華日韓.png" group-title="4季台湾",龍華日韓
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn11
-#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="4季台湾",龍華偶像
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn12
-#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="4季台湾",龍華戲劇
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn18
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="4季台湾",龍華經典
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn21
-#EXTINF:-1 tvg-id="公視戲劇" tvg-name="公視戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公视戏剧.png" group-title="4季台湾",公視戲劇
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv042
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视影剧.png" group-title="4季台湾",民視影劇
-http://litv.goiptv.de5.net/litv.php?id=li-litv-ftv09
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天戏剧.png" group-title="4季台湾",靖天戲劇
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv058
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖洋戏剧.png" group-title="4季台湾",靖洋戲劇
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv045
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/采昌影剧.png" group-title="4季台湾",采昌影劇
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv049
-#EXTINF:-1 tvg-id="靖天映畫" tvg-name="靖天映畫" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天映畫.png" group-title="4季台湾",靖天映畫
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv055
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天電影.png" group-title="4季台湾",靖天電影
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv061
-#EXTINF:-1 tvg-id="影迷數位電影台" tvg-name="影迷數位電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/影迷數位電影台.png" group-title="4季台湾",影迷數位電影台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv011
-#EXTINF:-1 tvg-id="AMC 電影台" tvg-name="AMC 電影台" group-title="4季台湾",amc 電影台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv017
-#EXTINF:-1 tvg-id="台灣戲劇台" tvg-name="台灣戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="4季台湾",台灣戲劇台
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn22
-#EXTINF:-1 tvg-id="台灣戲劇台" tvg-name="台灣戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="4季台湾",台灣戲劇台
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn22
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="4季台湾",龍華洋片
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn02
-#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="4季台湾",龍華電影
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn03
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華日韓.png" group-title="4季台湾",龍華日韓
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn11
-#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="4季台湾",龍華偶像
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn12
-#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="4季台湾",龍華戲劇
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn18
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="4季台湾",龍華經典
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn21
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大综艺.png" group-title="4季台湾",八大綜藝
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv039
-#EXTINF:-1 tvg-id="TVBS精采台" tvg-name="TVBS精采台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS精采台.png" group-title="4季台湾",TVBS精采台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv067
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTA娛樂.png" group-title="4季台湾",ELTA娛樂
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv070
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视综艺.png" group-title="4季台湾",民視綜藝
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv004
-#EXTINF:-1 tvg-id="豬哥亮歌廳秀" tvg-name="豬哥亮歌廳秀" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/猪哥亮歌厅秀.png" group-title="4季台湾",豬哥亮歌廳秀
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv006
-#EXTINF:-1 tvg-id="TVBS歡樂台" tvg-name="TVBS歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS欢乐台.png" group-title="4季台湾",TVBS歡樂台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv068
-#EXTINF:-1 group-title="4季台湾",電影原聲台 CMusic
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live031
-#EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="4季台湾",Trace Urban
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv082
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="4季台湾",MTV Live
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live025
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="4季台湾",MEZZO LIVE
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv083
-#EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="4季台湾",CLASSICA 古典樂
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv059
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大精彩.png" group-title="4季台湾",八大精彩
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv034
-#EXTINF:-1 tvg-id="TVBS綜藝台" tvg-name="TVBS綜藝台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS綜藝台.png" group-title="4季台湾",TVBS綜藝台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live087
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大综艺.png" group-title="4季台湾",八大綜藝
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv039
-#EXTINF:-1 tvg-id="TVBS精采台" tvg-name="TVBS精采台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS精采台.png" group-title="4季台湾",TVBS精采台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv067
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTA娛樂.png" group-title="4季台湾",ELTA娛樂
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv070
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视综艺.png" group-title="4季台湾",民視綜藝
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv004
-#EXTINF:-1 tvg-id="豬哥亮歌廳秀" tvg-name="豬哥亮歌廳秀" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/猪哥亮歌厅秀.png" group-title="4季台湾",豬哥亮歌廳秀
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv006
-#EXTINF:-1 tvg-id="TVBS歡樂台" tvg-name="TVBS歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS欢乐台.png" group-title="4季台湾",TVBS歡樂台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv068
-#EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="4季台湾",Trace Urban
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv082
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="4季台湾",MEZZO LIVE
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv083
-#EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CLASSICA 古典乐.png" group-title="4季台湾",CLASSICA 古典樂
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv059
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大精彩.png" group-title="4季台湾",八大精彩
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv034
-#EXTINF:-1 tvg-id="Global Trekker" tvg-name="Global Trekker" group-title="4季台湾",Global Trekker
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live112
-#EXTINF:-1 tvg-id="Lifetime" tvg-name="Lifetime" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Lifetime.png" group-title="4季台湾",Lifetime
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live029
-#EXTINF:-1 tvg-id="INULTRA" tvg-name="INULTRA" tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/INULTRA.png" group-title="4季台湾",INULTRA
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live096
-#EXTINF:-1 tvg-id="Pet Club TV" tvg-name="Pet Club TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Pet Club TV.png" group-title="4季台湾",Pet Club TV
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live110
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="4季台湾",民視旅遊
-http://litv.goiptv.de5.net/litv.php?id=litv-ftv07
-#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/滚动力 rollor.png" group-title="4季台湾",滾動力 Rollor
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live012
-#EXTINF:-1 tvg-id="亞洲旅遊" tvg-name="亞洲旅遊" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="4季台湾",亞洲旅遊
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv076
-#EXTINF:-1 group-title="4季台湾",FUN 4K探索娛樂
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live011
-#EXTINF:-1 tvg-id="幸福空間居家台" tvg-name="幸福空間居家台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/幸福空间居家台.png" group-title="4季台湾",幸福空間居家台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live206
-#EXTINF:-1 tvg-id="LOVE NATURE 4K" tvg-name="LOVE NATURE 4K" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Love Nature.png" group-title="4季台湾",LOVE NATURE
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live208
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTA生活旅遊.png" group-title="4季台湾",ELTA生活旅遊
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live120
-#EXTINF:-1 group-title="4季台湾",LUXE TV
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live121
-#EXTINF:-1 tvg-id="TV5MONDE Style" tvg-name="TV5MONDE Style" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TV5MONDE Style.png" group-title="4季台湾",TV5MONDE Style
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live122
-#EXTINF:-1 group-title="4季台湾",MagellanTV頻道
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live123
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视旅游.png" group-title="4季台湾",民視旅遊
-http://litv.goiptv.de5.net/litv.php?id=li-litv-ftv07
-#EXTINF:-1 tvg-id="亞洲旅遊" tvg-name="亞洲旅遊" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="4季台湾",亞洲旅遊
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv076
-#EXTINF:-1 tvg-id="Smart知識台" tvg-name="Smart知識台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SMART知识台.png" group-title="4季台湾",Smart知識台
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn19
-#EXTINF:-1 tvg-id="亞洲旅遊" tvg-name="亞洲旅遊" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲旅遊.png" group-title="4季台湾",亞洲旅遊
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv076
-#EXTINF:-1 tvg-id="Smart知識台" tvg-name="Smart知識台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SMART知识台.png" group-title="4季台湾",Smart知識台
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn19
-#EXTINF:-1 group-title="4季台湾",LiveABC 互動英語台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live030
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/达芬奇.png" group-title="4季台湾",達文西
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv018
-#EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="ELTV生活英語台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTV生活英語台.png" group-title="4季台湾",ELTV生活英語台
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn20
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Nick Jr..png" group-title="4季台湾",Nick Jr.
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live032
-#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NICKELODEON.png" group-title="4季台湾",Nickelodeon
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live105
-#EXTINF:-1 tvg-id="DREAMWORKS" tvg-name="DREAMWORKS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DREAMWORKS.png" group-title="4季台湾",DreamWorks
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live017
-#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="4季台湾",靖天卡通台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv044
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖洋卡通.png" group-title="4季台湾",靖洋卡通
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv057
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MOMO亲子.png" group-title="4季台湾",MOMO親子
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live107
-#EXTINF:-1 tvg-id="經典卡通台" tvg-name="經典卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/經典卡通台.png" group-title="4季台湾",經典卡通台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live022
-#EXTINF:-1 tvg-id="精選動漫台" tvg-name="精選動漫台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/精選動漫台.png" group-title="4季台湾",精選動漫台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live024
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華卡通.png" group-title="4季台湾",龍華卡通
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn01
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/达芬奇.png" group-title="4季台湾",達文西
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv018
-#EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="ELTV生活英語台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTV生活英語台.png" group-title="4季台湾",ELTV生活英語台
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn20
-#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天卡通台.png" group-title="4季台湾",靖天卡通台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv044
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖洋卡通.png" group-title="4季台湾",靖洋卡通
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv057
-#EXTINF:-1 tvg-id="ELTV生活英語台" tvg-name="ELTV生活英語台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTV生活英語台.png" group-title="4季台湾",ELTV生活英語台
-http://litv.goiptv.de5.net/litv.php?id=of-litv-longturn20
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華卡通.png" group-title="4季台湾",龍華卡通
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn01
-#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鏡電視新聞台.png" group-title="4季台湾",鏡電視新聞台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv075
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="4季台湾",東森新聞
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv152
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/華視新聞台.png" group-title="4季台湾",華視新聞台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv052
-#EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="4季台湾",民視新聞
-http://litv.goiptv.de5.net/litv.php?id=litv-ftv13
-#EXTINF:-1 tvg-id="三立iNEWS" tvg-name="三立iNEWS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立INEWS.png" group-title="4季台湾",三立iNEWS
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live089
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森财经新闻.png" group-title="4季台湾",東森財經新聞
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv153
-#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视新闻台.png" group-title="4季台湾",中視新聞台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv074
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="4季台湾",中天新聞台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv009
-#EXTINF:-1 tvg-id="Bloomberg TV" tvg-name="Bloomberg TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Bloomberg TV.png" group-title="4季台湾",BLOOMBERG TV
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live059
-#EXTINF:-1 tvg-id="寰宇新聞" tvg-name="寰宇新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇新闻.png" group-title="4季台湾",寰宇新聞
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn14
-#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台灣台.png" group-title="4季台湾",寰宇新聞台灣台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv156
-#EXTINF:-1 group-title="4季台湾",SBN 全球財經台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live060
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经.png" group-title="4季台湾",寰宇財經
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv158
-#EXTINF:-1 tvg-id="FRANCE24 英文台" tvg-name="FRANCE24 英文台" group-title="4季台湾",FRANCE24 英文台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live146
-#EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半島國際新聞台.png" group-title="4季台湾",半島國際新聞台
-http://litv.goiptv.de5.net/litv.php?id=litv-ftv10
-#EXTINF:-1 group-title="4季台湾",VOA 美國之音
-http://litv.goiptv.de5.net/litv.php?id=litv-ftv03
-#EXTINF:-1 tvg-id="CNBC Asia 財經台" tvg-name="CNBC Asia 財經台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CNBC Asia 财经台.png" group-title="4季台湾",CNBC Asia 財經台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live130
-#EXTINF:-1 tvg-id="DW德國之聲" tvg-name="DW德國之聲" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DW德國之聲.png" group-title="4季台湾",DW德國之聲
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live071
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="4季台湾",非凡新聞
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv010
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/非凡商業.png" group-title="4季台湾",非凡商業
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv048
-#EXTINF:-1 tvg-id="台視財經台" tvg-name="台視財經台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视财经台.png" group-title="4季台湾",台視財經台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv056
-#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鏡電視新聞台.png" group-title="4季台湾",鏡電視新聞台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv075
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="4季台湾",東森新聞
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv152
-#EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="4季台湾",民視新聞
-http://litv.goiptv.de5.net/litv.php?id=li-litv-ftv13
-#EXTINF:-1 tvg-id="TVBS新聞台" tvg-name="TVBS新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS新聞台.png" group-title="4季台湾",TVBS新聞台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv072
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森财经新闻.png" group-title="4季台湾",東森財經新聞
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv153
-#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视新闻台.png" group-title="4季台湾",中視新聞台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv074
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="4季台湾",中天新聞台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv009
-#EXTINF:-1 tvg-id="寰宇新聞" tvg-name="寰宇新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇新闻.png" group-title="4季台湾",寰宇新聞
-http://litv.goiptv.de5.net/litv.php?id=li-litv-longturn14
-#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台灣台.png" group-title="4季台湾",寰宇新聞台灣台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv156
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经.png" group-title="4季台湾",寰宇財經
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv158
-#EXTINF:-1 tvg-id="半島國際新聞台" tvg-name="半島國際新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/半島國際新聞台.png" group-title="4季台湾",半島國際新聞台
-http://litv.goiptv.de5.net/litv.php?id=li-litv-ftv10
-#EXTINF:-1 group-title="4季台湾",VOA 美國之音
-http://litv.goiptv.de5.net/litv.php?id=li-litv-ftv03
-#EXTINF:-1 tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视新闻台.png" group-title="4季台湾",台視新聞台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv051
-#EXTINF:-1 tvg-id="第1商業台" tvg-name="第1商業台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/第1商业台.png" group-title="4季台湾",第1商業台
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv104
-#EXTINF:-1 tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视新闻台.png" group-title="4季台湾",台視新聞台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv051
-#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视新闻台.png" group-title="4季台湾",中視新聞台
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv074
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="4季台湾",中天新聞台
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv009
-#EXTINF:-1 tvg-id="寰宇新聞" tvg-name="寰宇新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇新闻.png" group-title="4季台湾",寰宇新聞
-http://litv.goiptv.de5.net/litv.php?id=of-litv-longturn14
-#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台灣台.png" group-title="4季台湾",寰宇新聞台灣台
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv156
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经.png" group-title="4季台湾",寰宇財經
-http://litv.goiptv.de5.net/litv.php?id=of-4gtv-4gtv158
-#EXTINF:-1 tvg-id="第1商業台" tvg-name="第1商業台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/第1商业台.png" group-title="4季台湾",第1商業台
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv104
-#EXTINF:-1 tvg-id="三立iNEWS" tvg-name="三立iNEWS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立INEWS.png" group-title="4季台湾",三立iNEWS
-http://litv.goiptv.de5.net/litv.php?id=iNEWS
-#EXTINF:-1 tvg-id="倪珍播新聞" tvg-name="倪珍播新聞" group-title="4季台湾",倪珍播新聞
-http://litv.goiptv.de5.net/litv.php?id=nnews-zh
-#EXTINF:-1 group-title="4季台湾",倪珍英語新聞
-http://litv.goiptv.de5.net/litv.php?id=nnews-en
-#EXTINF:-1 group-title="4季台湾",倪珍越語新聞
-http://litv.goiptv.de5.net/litv.php?id=nnews-vn
-#EXTINF:-1 tvg-id="TRACE Sport Stars" tvg-name="TRACE Sport Stars" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Sport Stars.png" group-title="4季台湾",TRACE Sport Stars
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv077
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/智林体育.png" group-title="4季台湾",智林體育
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv101
-#EXTINF:-1 tvg-id="時尚運動X" tvg-name="時尚運動X" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="4季台湾",時尚運動X
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv014
-#EXTINF:-1 group-title="4季台湾",車迷 TV
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live201
-#EXTINF:-1 tvg-id="GINX Esports TV" tvg-name="GINX Esports TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="4季台湾",GINX Esports TV
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv053
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯魅力.png" group-title="4季台湾",博斯魅力
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn04
-#EXTINF:-1 group-title="4季台湾",博斯高球I
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn05
-#EXTINF:-1 group-title="4季台湾",博斯高球II
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn06
-#EXTINF:-1 group-title="4季台湾",博斯運動I
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn07
-#EXTINF:-1 group-title="4季台湾",博斯運動II
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn08
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="4季台湾",博斯網球
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn09
-#EXTINF:-1 group-title="4季台湾",博斯無限I
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn10
-#EXTINF:-1 group-title="4季台湾",博斯無限II
-http://litv.goiptv.de5.net/litv.php?id=litv-longturn13
-#EXTINF:-1 tvg-id="TRACE Sport Stars" tvg-name="TRACE Sport Stars" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Sport Stars.png" group-title="4季台湾",TRACE Sport Stars
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv077
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/智林体育.png" group-title="4季台湾",智林體育
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv101
-#EXTINF:-1 tvg-id="時尚運動X" tvg-name="時尚運動X" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/时尚运动X.png" group-title="4季台湾",時尚運動X
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv014
-#EXTINF:-1 tvg-id="GINX Esports TV" tvg-name="GINX Esports TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="4季台湾",GINX Esports TV
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv053
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/歷史頻道.png" group-title="4季台湾",歷史頻道
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live026
-#EXTINF:-1 tvg-id="CI 罪案偵查頻道" tvg-name="CI 罪案偵查頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CI 罪案侦查频道.png" group-title="4季台湾",CI 罪案偵查頻道
-http://litv.goiptv.de5.net/litv.php?id=4gtv-live027
-#EXTINF:-1 tvg-id="視納華仁紀實頻道" tvg-name="視納華仁紀實頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="4季台湾",視納華仁紀實頻道
-http://litv.goiptv.de5.net/litv.php?id=4gtv-4gtv013
-#EXTINF:-1 tvg-id="影迷數位紀實台" tvg-name="影迷數位紀實台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/影迷数位纪实台.png" group-title="4季台湾",影迷數位紀實台
-http://litv.goiptv.de5.net/litv.php?id=litv-ftv15
-#EXTINF:-1 tvg-id="視納華仁紀實頻道" tvg-name="視納華仁紀實頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/视纳华仁纪实频道.png" group-title="4季台湾",視納華仁紀實頻道
-http://litv.goiptv.de5.net/litv.php?id=li-4gtv-4gtv013
-#EXTINF:-1 tvg-id="影迷數位紀實台" tvg-name="影迷數位紀實台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/影迷数位纪实台.png" group-title="4季台湾",影迷數位紀實台
-http://litv.goiptv.de5.net/litv.php?id=li-litv-ftv15
-#EXTINF:-1 tvg-id="公視金獎台" tvg-name="公視金獎台" group-title="4季台湾",公視金獎台
-http://litv.goiptv.de5.net/litv.php?id=ofiii13
-#EXTINF:-1 tvg-id="哆啦Ａ夢台" tvg-name="哆啦Ａ夢台" group-title="4季台湾",哆啦Ａ夢台
-http://litv.goiptv.de5.net/litv.php?id=ofiii22
-#EXTINF:-1 tvg-id="新哆啦A夢(中文版)" tvg-name="新哆啦A夢(中文版)" group-title="4季台湾",新哆啦A夢(中文版)
-http://litv.goiptv.de5.net/litv.php?id=ofiii23
-#EXTINF:-1 tvg-id="TVBS食尚玩家" tvg-name="TVBS食尚玩家" group-title="4季台湾",TVBS食尚玩家
-http://litv.goiptv.de5.net/litv.php?id=ofiii31
-#EXTINF:-1 tvg-id="東森娛樂台" tvg-name="東森娛樂台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森娛樂台.png" group-title="4季台湾",東森娛樂台
-http://litv.goiptv.de5.net/litv.php?id=ofiii32
-#EXTINF:-1 tvg-id="中天亞洲精采台" tvg-name="中天亞洲精采台" group-title="4季台湾",中天亞洲精采台
-http://litv.goiptv.de5.net/litv.php?id=ofiii36
-#EXTINF:-1 tvg-id="經典劇場" tvg-name="經典劇場" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典剧场.png" group-title="4季台湾",經典劇場
-http://litv.goiptv.de5.net/litv.php?id=ofiii38
-#EXTINF:-1 tvg-id="Yes娛樂" tvg-name="Yes娛樂" group-title="4季台湾",Yes娛樂
-http://litv.goiptv.de5.net/litv.php?id=ofiii47
-#EXTINF:-1 tvg-id="Focus風采戲劇台" tvg-name="Focus風采戲劇台" group-title="4季台湾",Focus風采戲劇台
-http://litv.goiptv.de5.net/litv.php?id=ofiii1048
-#EXTINF:-1 tvg-id="掏掏新聞" tvg-name="掏掏新聞" group-title="4季台湾",掏掏新聞
-http://litv.goiptv.de5.net/litv.php?id=ofiii50
-#EXTINF:-1 group-title="4季台湾",柯文哲政治風波
-http://litv.goiptv.de5.net/litv.php?id=ofiii51
-#EXTINF:-1 tvg-id="國際大小事" tvg-name="國際大小事" group-title="4季台湾",國際大小事
-http://litv.goiptv.de5.net/litv.php?id=ofiii55
-#EXTINF:-1 tvg-id="第1財經" tvg-name="第1財經" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/第1财经.png" group-title="4季台湾",第1財經
-http://litv.goiptv.de5.net/litv.php?id=ofiii64
-#EXTINF:-1 tvg-id="Golden 強片台" tvg-name="Golden 強片台" group-title="4季台湾",Golden 強片台
-http://litv.goiptv.de5.net/litv.php?id=ofiii70
-#EXTINF:-1 tvg-id="周星馳台" tvg-name="周星馳台" group-title="4季台湾",周星馳台
-http://litv.goiptv.de5.net/litv.php?id=ofiii73
-#EXTINF:-1 tvg-id="歐飛電影台" tvg-name="歐飛電影台" group-title="4季台湾",歐飛電影台
-http://litv.goiptv.de5.net/litv.php?id=ofiii74
-#EXTINF:-1 tvg-id="歐飛動作電影台" tvg-name="歐飛動作電影台" group-title="4季台湾",歐飛動作電影台
-http://litv.goiptv.de5.net/litv.php?id=ofiii75
-#EXTINF:-1 tvg-id="Focus探索新知台" tvg-name="Focus探索新知台" group-title="4季台湾",Focus探索新知台
-http://litv.goiptv.de5.net/litv.php?id=ofiii82
 #EXTINF:-1 group-title="抖音直播",水水家猪蹄
 https://live.iill.top/douyin/ssjzt777
 #EXTINF:-1 group-title="抖音直播",格格睡醒了
@@ -3042,40 +2516,6 @@ http://idc.zymok.cn:10000/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
 http://idc.zymok.cn:10000/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.251:5146
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.25:5146
-#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.187:5146
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
-http://lbyjlt.vv5678.cn:8880/udp/239.253.43.45:5146
-#EXTINF:-1 group-title="揭阳IPTV",汕头生活
-http://lbyjlt.vv5678.cn:8880/udp/239.253.43.46:5146
-#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
-http://lbyjlt.vv5678.cn:8880/udp/239.253.43.70:5146
-#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
-http://lbyjlt.vv5678.cn:8880/udp/239.253.43.75:5146
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.84:5146
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.1:5146
-#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.173:5146
-#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.225:5146
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.112:5146
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.85:5146
-#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.215:5146
-#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.217:5146
-#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
-http://lbyjlt.vv5678.cn:8880/udp/239.77.0.250:5146
-#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://pr.19760929.xyz:9688/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://pr.19760929.xyz:9688/udp/239.77.0.251:5146
@@ -3109,74 +2549,6 @@ http://pr.19760929.xyz:9688/udp/239.77.0.215:5146
 http://pr.19760929.xyz:9688/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
 http://pr.19760929.xyz:9688/udp/239.77.0.250:5146
-#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
-http://hongzhijiaoyu.net:8188/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
-http://hongzhijiaoyu.net:8188/udp/239.77.0.251:5146
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
-http://hongzhijiaoyu.net:8188/udp/239.77.0.25:5146
-#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
-http://hongzhijiaoyu.net:8188/udp/239.77.0.187:5146
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
-http://hongzhijiaoyu.net:8188/udp/239.253.43.45:5146
-#EXTINF:-1 group-title="揭阳IPTV",汕头生活
-http://hongzhijiaoyu.net:8188/udp/239.253.43.46:5146
-#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
-http://hongzhijiaoyu.net:8188/udp/239.253.43.70:5146
-#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
-http://hongzhijiaoyu.net:8188/udp/239.253.43.75:5146
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
-http://hongzhijiaoyu.net:8188/udp/239.77.0.84:5146
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
-http://hongzhijiaoyu.net:8188/udp/239.77.0.1:5146
-#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
-http://hongzhijiaoyu.net:8188/udp/239.77.0.173:5146
-#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
-http://hongzhijiaoyu.net:8188/udp/239.77.0.225:5146
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
-http://hongzhijiaoyu.net:8188/udp/239.77.0.112:5146
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
-http://hongzhijiaoyu.net:8188/udp/239.77.0.85:5146
-#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
-http://hongzhijiaoyu.net:8188/udp/239.77.0.215:5146
-#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
-http://hongzhijiaoyu.net:8188/udp/239.77.0.217:5146
-#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
-http://hongzhijiaoyu.net:8188/udp/239.77.0.250:5146
-#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
-http://www.yahao.host:4022/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
-http://www.yahao.host:4022/udp/239.77.0.251:5146
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
-http://www.yahao.host:4022/udp/239.77.0.25:5146
-#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
-http://www.yahao.host:4022/udp/239.77.0.187:5146
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
-http://www.yahao.host:4022/udp/239.253.43.45:5146
-#EXTINF:-1 group-title="揭阳IPTV",汕头生活
-http://www.yahao.host:4022/udp/239.253.43.46:5146
-#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
-http://www.yahao.host:4022/udp/239.253.43.70:5146
-#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
-http://www.yahao.host:4022/udp/239.253.43.75:5146
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
-http://www.yahao.host:4022/udp/239.77.0.84:5146
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
-http://www.yahao.host:4022/udp/239.77.0.1:5146
-#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
-http://www.yahao.host:4022/udp/239.77.0.173:5146
-#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
-http://www.yahao.host:4022/udp/239.77.0.225:5146
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
-http://www.yahao.host:4022/udp/239.77.0.112:5146
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
-http://www.yahao.host:4022/udp/239.77.0.85:5146
-#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
-http://www.yahao.host:4022/udp/239.77.0.215:5146
-#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
-http://www.yahao.host:4022/udp/239.77.0.217:5146
-#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
-http://www.yahao.host:4022/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://www.1328099.xyz:9688/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
@@ -3212,6 +2584,108 @@ http://www.1328099.xyz:9688/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
 http://www.1328099.xyz:9688/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
+http://hongzhijiaoyu.net:8188/udp/239.77.0.229:5146
+#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+http://hongzhijiaoyu.net:8188/udp/239.77.0.251:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
+http://hongzhijiaoyu.net:8188/udp/239.77.0.25:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
+http://hongzhijiaoyu.net:8188/udp/239.77.0.187:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
+http://hongzhijiaoyu.net:8188/udp/239.253.43.45:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕头生活
+http://hongzhijiaoyu.net:8188/udp/239.253.43.46:5146
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
+http://hongzhijiaoyu.net:8188/udp/239.253.43.70:5146
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
+http://hongzhijiaoyu.net:8188/udp/239.253.43.75:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
+http://hongzhijiaoyu.net:8188/udp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
+http://hongzhijiaoyu.net:8188/udp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
+http://hongzhijiaoyu.net:8188/udp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
+http://hongzhijiaoyu.net:8188/udp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
+http://hongzhijiaoyu.net:8188/udp/239.77.0.112:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
+http://hongzhijiaoyu.net:8188/udp/239.77.0.85:5146
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
+http://hongzhijiaoyu.net:8188/udp/239.77.0.215:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
+http://hongzhijiaoyu.net:8188/udp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
+http://hongzhijiaoyu.net:8188/udp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
+http://iptv.xxika.net:8188/udp/239.77.0.229:5146
+#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+http://iptv.xxika.net:8188/udp/239.77.0.251:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
+http://iptv.xxika.net:8188/udp/239.77.0.25:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
+http://iptv.xxika.net:8188/udp/239.77.0.187:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
+http://iptv.xxika.net:8188/udp/239.253.43.45:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕头生活
+http://iptv.xxika.net:8188/udp/239.253.43.46:5146
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
+http://iptv.xxika.net:8188/udp/239.253.43.70:5146
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
+http://iptv.xxika.net:8188/udp/239.253.43.75:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
+http://iptv.xxika.net:8188/udp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
+http://iptv.xxika.net:8188/udp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
+http://iptv.xxika.net:8188/udp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
+http://iptv.xxika.net:8188/udp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
+http://iptv.xxika.net:8188/udp/239.77.0.112:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
+http://iptv.xxika.net:8188/udp/239.77.0.85:5146
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
+http://iptv.xxika.net:8188/udp/239.77.0.215:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
+http://iptv.xxika.net:8188/udp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
+http://iptv.xxika.net:8188/udp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
+http://www.yahao.host:4022/udp/239.77.0.229:5146
+#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+http://www.yahao.host:4022/udp/239.77.0.251:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
+http://www.yahao.host:4022/udp/239.77.0.25:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
+http://www.yahao.host:4022/udp/239.77.0.187:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
+http://www.yahao.host:4022/udp/239.253.43.45:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕头生活
+http://www.yahao.host:4022/udp/239.253.43.46:5146
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
+http://www.yahao.host:4022/udp/239.253.43.70:5146
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
+http://www.yahao.host:4022/udp/239.253.43.75:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
+http://www.yahao.host:4022/udp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
+http://www.yahao.host:4022/udp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
+http://www.yahao.host:4022/udp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
+http://www.yahao.host:4022/udp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
+http://www.yahao.host:4022/udp/239.77.0.112:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
+http://www.yahao.host:4022/udp/239.77.0.85:5146
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
+http://www.yahao.host:4022/udp/239.77.0.215:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
+http://www.yahao.host:4022/udp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
+http://www.yahao.host:4022/udp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://rfx2018.55555.io:2345/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://rfx2018.55555.io:2345/udp/239.77.0.251:5146
@@ -3246,141 +2720,311 @@ http://rfx2018.55555.io:2345/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
 http://rfx2018.55555.io:2345/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
-http://183.236.43.98:4111/udp/239.77.0.229:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
-http://183.236.43.98:4111/udp/239.77.0.251:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
-http://183.236.43.98:4111/udp/239.77.0.25:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.25:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕尾生活
-http://183.236.43.98:4111/udp/239.77.0.187:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.187:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
-http://183.236.43.98:4111/udp/239.253.43.45:5146
+http://gdyd.7259.cc.cd:4111/udp/239.253.43.45:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕头生活
-http://183.236.43.98:4111/udp/239.253.43.46:5146
+http://gdyd.7259.cc.cd:4111/udp/239.253.43.46:5146
 #EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
-http://183.236.43.98:4111/udp/239.253.43.70:5146
+http://gdyd.7259.cc.cd:4111/udp/239.253.43.70:5146
 #EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
-http://183.236.43.98:4111/udp/239.253.43.75:5146
+http://gdyd.7259.cc.cd:4111/udp/239.253.43.75:5146
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
-http://183.236.43.98:4111/udp/239.77.0.84:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.84:5146
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
-http://183.236.43.98:4111/udp/239.77.0.1:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.1:5146
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
-http://183.236.43.98:4111/udp/239.77.0.173:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.173:5146
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
-http://183.236.43.98:4111/udp/239.77.0.225:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.225:5146
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
-http://183.236.43.98:4111/udp/239.77.0.112:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.112:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
-http://183.236.43.98:4111/udp/239.77.0.85:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.85:5146
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
-http://183.236.43.98:4111/udp/239.77.0.215:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.215:5146
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
-http://183.236.43.98:4111/udp/239.77.0.217:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
-http://183.236.43.98:4111/udp/239.77.0.250:5146
+http://gdyd.7259.cc.cd:4111/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
-http://183.236.43.98:4014/udp/239.77.0.229:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
-http://183.236.43.98:4014/udp/239.77.0.251:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
-http://183.236.43.98:4014/udp/239.77.0.25:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.25:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕尾生活
-http://183.236.43.98:4014/udp/239.77.0.187:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.187:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
-http://183.236.43.98:4014/udp/239.253.43.45:5146
+http://gdyd.7259.cc.cd:4014/udp/239.253.43.45:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕头生活
-http://183.236.43.98:4014/udp/239.253.43.46:5146
+http://gdyd.7259.cc.cd:4014/udp/239.253.43.46:5146
 #EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
-http://183.236.43.98:4014/udp/239.253.43.70:5146
+http://gdyd.7259.cc.cd:4014/udp/239.253.43.70:5146
 #EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
-http://183.236.43.98:4014/udp/239.253.43.75:5146
+http://gdyd.7259.cc.cd:4014/udp/239.253.43.75:5146
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
-http://183.236.43.98:4014/udp/239.77.0.84:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.84:5146
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
-http://183.236.43.98:4014/udp/239.77.0.1:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.1:5146
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
-http://183.236.43.98:4014/udp/239.77.0.173:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.173:5146
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
-http://183.236.43.98:4014/udp/239.77.0.225:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.225:5146
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
-http://183.236.43.98:4014/udp/239.77.0.112:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.112:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
-http://183.236.43.98:4014/udp/239.77.0.85:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.85:5146
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
-http://183.236.43.98:4014/udp/239.77.0.215:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.215:5146
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
-http://183.236.43.98:4014/udp/239.77.0.217:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
-http://183.236.43.98:4014/udp/239.77.0.250:5146
+http://gdyd.7259.cc.cd:4014/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
-http://183.236.43.98:4013/udp/239.77.0.229:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
-http://183.236.43.98:4013/udp/239.77.0.251:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
-http://183.236.43.98:4013/udp/239.77.0.25:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.25:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕尾生活
-http://183.236.43.98:4013/udp/239.77.0.187:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.187:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
-http://183.236.43.98:4013/udp/239.253.43.45:5146
+http://gdyd.7259.cc.cd:4013/udp/239.253.43.45:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕头生活
-http://183.236.43.98:4013/udp/239.253.43.46:5146
+http://gdyd.7259.cc.cd:4013/udp/239.253.43.46:5146
 #EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
-http://183.236.43.98:4013/udp/239.253.43.70:5146
+http://gdyd.7259.cc.cd:4013/udp/239.253.43.70:5146
 #EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
-http://183.236.43.98:4013/udp/239.253.43.75:5146
+http://gdyd.7259.cc.cd:4013/udp/239.253.43.75:5146
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
-http://183.236.43.98:4013/udp/239.77.0.84:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.84:5146
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
-http://183.236.43.98:4013/udp/239.77.0.1:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.1:5146
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
-http://183.236.43.98:4013/udp/239.77.0.173:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.173:5146
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
-http://183.236.43.98:4013/udp/239.77.0.225:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.225:5146
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
-http://183.236.43.98:4013/udp/239.77.0.112:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.112:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
-http://183.236.43.98:4013/udp/239.77.0.85:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.85:5146
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
-http://183.236.43.98:4013/udp/239.77.0.215:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.215:5146
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
-http://183.236.43.98:4013/udp/239.77.0.217:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
-http://183.236.43.98:4013/udp/239.77.0.250:5146
+http://gdyd.7259.cc.cd:4013/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
-http://183.7.108.231:8088/udp/239.77.0.229:5146
+http://jiange.dns.navy:10001/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
-http://183.7.108.231:8088/udp/239.77.0.251:5146
+http://jiange.dns.navy:10001/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
-http://183.7.108.231:8088/udp/239.77.0.25:5146
+http://jiange.dns.navy:10001/udp/239.77.0.25:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕尾生活
-http://183.7.108.231:8088/udp/239.77.0.187:5146
+http://jiange.dns.navy:10001/udp/239.77.0.187:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
-http://183.7.108.231:8088/udp/239.253.43.45:5146
+http://jiange.dns.navy:10001/udp/239.253.43.45:5146
 #EXTINF:-1 group-title="揭阳IPTV",汕头生活
-http://183.7.108.231:8088/udp/239.253.43.46:5146
+http://jiange.dns.navy:10001/udp/239.253.43.46:5146
 #EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
-http://183.7.108.231:8088/udp/239.253.43.70:5146
+http://jiange.dns.navy:10001/udp/239.253.43.70:5146
 #EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
-http://183.7.108.231:8088/udp/239.253.43.75:5146
+http://jiange.dns.navy:10001/udp/239.253.43.75:5146
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
-http://183.7.108.231:8088/udp/239.77.0.84:5146
+http://jiange.dns.navy:10001/udp/239.77.0.84:5146
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
-http://183.7.108.231:8088/udp/239.77.0.1:5146
+http://jiange.dns.navy:10001/udp/239.77.0.1:5146
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
-http://183.7.108.231:8088/udp/239.77.0.173:5146
+http://jiange.dns.navy:10001/udp/239.77.0.173:5146
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
-http://183.7.108.231:8088/udp/239.77.0.225:5146
+http://jiange.dns.navy:10001/udp/239.77.0.225:5146
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
-http://183.7.108.231:8088/udp/239.77.0.112:5146
+http://jiange.dns.navy:10001/udp/239.77.0.112:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
-http://183.7.108.231:8088/udp/239.77.0.85:5146
+http://jiange.dns.navy:10001/udp/239.77.0.85:5146
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
-http://183.7.108.231:8088/udp/239.77.0.215:5146
+http://jiange.dns.navy:10001/udp/239.77.0.215:5146
 #EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
-http://183.7.108.231:8088/udp/239.77.0.217:5146
+http://jiange.dns.navy:10001/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
-http://183.7.108.231:8088/udp/239.77.0.250:5146
+http://jiange.dns.navy:10001/udp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
+http://ysf620.iask.in:8889/udp/239.77.0.229:5146
+#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+http://ysf620.iask.in:8889/udp/239.77.0.251:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
+http://ysf620.iask.in:8889/udp/239.77.0.25:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
+http://ysf620.iask.in:8889/udp/239.77.0.187:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
+http://ysf620.iask.in:8889/udp/239.253.43.45:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕头生活
+http://ysf620.iask.in:8889/udp/239.253.43.46:5146
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
+http://ysf620.iask.in:8889/udp/239.253.43.70:5146
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
+http://ysf620.iask.in:8889/udp/239.253.43.75:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
+http://ysf620.iask.in:8889/udp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
+http://ysf620.iask.in:8889/udp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
+http://ysf620.iask.in:8889/udp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
+http://ysf620.iask.in:8889/udp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
+http://ysf620.iask.in:8889/udp/239.77.0.112:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
+http://ysf620.iask.in:8889/udp/239.77.0.85:5146
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
+http://ysf620.iask.in:8889/udp/239.77.0.215:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
+http://ysf620.iask.in:8889/udp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
+http://ysf620.iask.in:8889/udp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
+http://wmh.wmh.ink:6633/udp/239.77.0.229:5146
+#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+http://wmh.wmh.ink:6633/udp/239.77.0.251:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
+http://wmh.wmh.ink:6633/udp/239.77.0.25:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
+http://wmh.wmh.ink:6633/udp/239.77.0.187:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
+http://wmh.wmh.ink:6633/udp/239.253.43.45:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕头生活
+http://wmh.wmh.ink:6633/udp/239.253.43.46:5146
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
+http://wmh.wmh.ink:6633/udp/239.253.43.70:5146
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
+http://wmh.wmh.ink:6633/udp/239.253.43.75:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
+http://wmh.wmh.ink:6633/udp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
+http://wmh.wmh.ink:6633/udp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
+http://wmh.wmh.ink:6633/udp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
+http://wmh.wmh.ink:6633/udp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
+http://wmh.wmh.ink:6633/udp/239.77.0.112:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
+http://wmh.wmh.ink:6633/udp/239.77.0.85:5146
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
+http://wmh.wmh.ink:6633/udp/239.77.0.215:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
+http://wmh.wmh.ink:6633/udp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
+http://wmh.wmh.ink:6633/udp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
+http://113.64.38.166:2086/udp/239.77.0.229:5146
+#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+http://113.64.38.166:2086/udp/239.77.0.251:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
+http://113.64.38.166:2086/udp/239.77.0.25:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
+http://113.64.38.166:2086/udp/239.77.0.187:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
+http://113.64.38.166:2086/udp/239.253.43.45:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕头生活
+http://113.64.38.166:2086/udp/239.253.43.46:5146
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
+http://113.64.38.166:2086/udp/239.253.43.70:5146
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
+http://113.64.38.166:2086/udp/239.253.43.75:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
+http://113.64.38.166:2086/udp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
+http://113.64.38.166:2086/udp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
+http://113.64.38.166:2086/udp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
+http://113.64.38.166:2086/udp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
+http://113.64.38.166:2086/udp/239.77.0.112:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
+http://113.64.38.166:2086/udp/239.77.0.85:5146
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
+http://113.64.38.166:2086/udp/239.77.0.215:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
+http://113.64.38.166:2086/udp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
+http://113.64.38.166:2086/udp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
+http://183.7.151.208:8886/udp/239.77.0.229:5146
+#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+http://183.7.151.208:8886/udp/239.77.0.251:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
+http://183.7.151.208:8886/udp/239.77.0.25:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
+http://183.7.151.208:8886/udp/239.77.0.187:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
+http://183.7.151.208:8886/udp/239.253.43.45:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕头生活
+http://183.7.151.208:8886/udp/239.253.43.46:5146
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
+http://183.7.151.208:8886/udp/239.253.43.70:5146
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
+http://183.7.151.208:8886/udp/239.253.43.75:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
+http://183.7.151.208:8886/udp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
+http://183.7.151.208:8886/udp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
+http://183.7.151.208:8886/udp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
+http://183.7.151.208:8886/udp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
+http://183.7.151.208:8886/udp/239.77.0.112:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
+http://183.7.151.208:8886/udp/239.77.0.85:5146
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
+http://183.7.151.208:8886/udp/239.77.0.215:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
+http://183.7.151.208:8886/udp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
+http://183.7.151.208:8886/udp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
+http://183.30.201.196:10002/udp/239.77.0.229:5146
+#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+http://183.30.201.196:10002/udp/239.77.0.251:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
+http://183.30.201.196:10002/udp/239.77.0.25:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕尾生活
+http://183.30.201.196:10002/udp/239.77.0.187:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="揭阳IPTV",汕头综合
+http://183.30.201.196:10002/udp/239.253.43.45:5146
+#EXTINF:-1 group-title="揭阳IPTV",汕头生活
+http://183.30.201.196:10002/udp/239.253.43.46:5146
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="揭阳IPTV",潮州综合
+http://183.30.201.196:10002/udp/239.253.43.70:5146
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="揭阳IPTV",潮州民生
+http://183.30.201.196:10002/udp/239.253.43.75:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="揭阳IPTV",广东卫视
+http://183.30.201.196:10002/udp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="揭阳IPTV",广东珠江
+http://183.30.201.196:10002/udp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="揭阳IPTV",广东新闻
+http://183.30.201.196:10002/udp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="揭阳IPTV",广东民生
+http://183.30.201.196:10002/udp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="揭阳IPTV",广东体育
+http://183.30.201.196:10002/udp/239.77.0.112:5146
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="揭阳IPTV",经济科教
+http://183.30.201.196:10002/udp/239.77.0.85:5146
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="揭阳IPTV",大湾区卫视
+http://183.30.201.196:10002/udp/239.77.0.215:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="揭阳IPTV",广东影视
+http://183.30.201.196:10002/udp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
+http://183.30.201.196:10002/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="海南移动",CCTV1
 http://111.29.9.33:6610/000000001000/1000000001000021973/index.m3u8?channel-id=bestzb&Contentid=1000000001000021973&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="海南移动",CCTV2
