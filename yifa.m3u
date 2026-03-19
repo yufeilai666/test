@@ -1377,20 +1377,6 @@ http://119.91.7.169:2026/TW.php?id=中天新闻台
 http://119.91.7.169:2026/TW.php?id=中视新闻
 #EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台.png" group-title="四季台湾",寰宇新闻台
 http://119.91.7.169:2026/TW.php?id=寰宇新闻台
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="四季台湾",东森新闻
-http://211.72.174.95:8138/0.ts
-#EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="四季台湾",民视新闻
-http://211.72.174.95:8117/0.ts
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="四季台湾",中视
-http://211.72.174.95:8113/0.ts
-#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="四季台湾",华视
-http://211.72.174.95:8114/0.ts
-#EXTINF:-1 tvg-id="公視" tvg-name="公視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="四季台湾",公视
-http://211.72.174.95:8116/0.ts
-#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="四季台湾",民视
-http://211.72.174.95:8115/0.ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="四季台湾",台视
-http://211.72.174.95:8112/0.ts
 #EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="四季台湾",凤凰中文
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUWdJdT-WvPAhPYAjqDDKUkgBhqPU05spvygdOQVMR-49HfUHqoz3BWysXpY3IcoxaskiJ6HCxNUFEGBHN7J9cHwJfR5qJYrfvRgFxEFVGK3M4e6U8zBBcXQ62XaSa7kUQZiYq5vbmVseM-xEImPe5pGROKnFK232_zwhQVcDCWqJ8GlcYI2uYcWREAj3tlSyt6pugIwt_wjsXByc9jMtMyw.m3u8?u=1756878715
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="四季台湾",凤凰资讯
@@ -9739,330 +9725,74 @@ http://111.56.90.5/000000000000/1000000001000003775/index.m3u8
 http://111.56.90.5/000000000000/8978605063318475207/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="内蒙古移动",北京纪实科教
 http://111.56.90.5/000000000000/1000000001000001910/index.m3u8
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="贵州JD",CCTV1
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMDFfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MSZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="贵州JD",CCTV2
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMDJfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MSZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="贵州JD",CCTV3
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMDNfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MSZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="贵州JD",CCTV4
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMDRfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MSZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="贵州JD",CCTV5
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMDVfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MSZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="贵州JD",CCTV6
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMDZfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MSZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="贵州JD",CCTV7
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMDdfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MSZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="贵州JD",CCTV8
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMDhfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MSZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="贵州JD",CCTV9
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMDlfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="贵州JD",CCTV10
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMTBfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="贵州JD",CCTV11
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMTFfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="贵州JD",CCTV12
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMTJfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="贵州JD",CCTV13
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMTNfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="贵州JD",CCTV14
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMTRfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="贵州JD",CCTV15
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMTVfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="贵州JD",CCTV5+
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAwMThfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 group-title="贵州JD",贵州卫视-1
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzEwMDBfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 group-title="贵州JD",贵州卫视-2
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzEwMDFfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 group-title="贵州JD",贵州卫视-4
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzEwMDNfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 group-title="贵州JD",贵州卫视-5
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzEwMDRfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 group-title="贵州JD",贵阳-1
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzEwMDVfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="贵州JD",湖南卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMjhfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="贵州JD",浙江卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMjRfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="贵州JD",北京卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMjJfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="贵州JD",江苏卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMjdfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="贵州JD",东方卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMDdfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="贵州JD",湖北卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMzJfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="贵州JD",山东卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMzFfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="贵州JD",安徽卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMzBfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="贵州JD",辽宁卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMjFfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="贵州JD",广东卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMjVfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="贵州JD",重庆卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxNDJfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="贵州JD",黑龙江卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxNDNfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="贵州JD",云南卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMTlfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="贵州JD",吉林卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMTZfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="贵州JD",甘肃卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxNDFfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="贵州JD",天津卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMzVfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="贵州JD",河南卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMzlfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="贵州JD",江西卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMzhfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="贵州JD",广西卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMTNfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="贵州JD",四川卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzAxMjNfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="贵州JD",金鹰卡通
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzEwMDdfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="贵州JD",嘉佳卡通
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEuMjA1LjE1OC41OTo5OTk5L3RzZmlsZS9saXZlLzEwMDhfMS5tM3U4P2tleT10eGlwdHYmcGxheWxpdmU9MCZhdXRoaWQ9MA==
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="湖南JD",CCTV1
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDAxXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="湖南JD",CCTV2
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDAyXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="湖南JD",CCTV3
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDU2XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="湖南JD",CCTV4
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDA0XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="湖南JD",CCTV5
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDA1XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="湖南JD",CCTV5+
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDE2XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="湖南JD",CCTV6
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDA2XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="湖南JD",CCTV7
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDYyXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="湖南JD",CCTV8
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDA4XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="湖南JD",CCTV9
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDA1XzIubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="湖南JD",CCTV10
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDYzXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="湖南JD",CCTV11
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDExXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="湖南JD",CCTV12
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDEyXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="湖南JD",CCTV13
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDEzXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="湖南JD",CCTV14
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDE0XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="湖南JD",CCTV17
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDE5XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="湖南JD",CCTV15
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMDE1XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="湖南JD",浙江卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTI0XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="湖南JD",江苏卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTI3XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="湖南JD",安徽卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTMwXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="湖南JD",北京卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTM1XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="湖南JD",东南卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTM4XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="湖南JD",山西卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTE4XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="湖南JD",宁夏卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTEyXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="湖南JD",陕西卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTM2XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="湖南JD",山东卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTMxXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="湖南JD",河南卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTM5XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="湖南JD",广东卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTI1XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="湖南JD",黑龙江卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTM2XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="湖南JD",吉林卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTE2XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="湖南JD",辽宁卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTM3XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="湖南JD",西藏卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTExXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="湖南JD",甘肃卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTQxXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="湖南JD",重庆卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTQyXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="湖南JD",海南卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDA3XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四海钓鱼.png" group-title="湖南JD",四海钓鱼
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTAzXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/网络棋牌.png" group-title="湖南JD",网络棋牌
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTQyXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="茶频道" tvg-name="茶频道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/茶频道.png" group-title="湖南JD",茶频道
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDQ1XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/快乐垂钓.png" group-title="湖南JD",快乐垂钓
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDA0XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="CHC家庭影院 (shanghai)" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC家庭影院.png" group-title="湖南JD",CHC家庭影院
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDU0XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC动作电影.png" group-title="湖南JD",CHC动作电影
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDk4XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南教育.png" group-title="湖南JD",湖南教育
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDk5XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 group-title="湖南JD",高清院线
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTAyXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 group-title="湖南JD",书法频道
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTA1XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/体育赛事.png" group-title="湖南JD",体育赛事
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTEyXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="湖南JD",新疆卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTE3XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/车迷频道.png" group-title="湖南JD",车迷频道
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDA1XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="卡酷少儿 (shanghai)" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/卡酷少儿.png" group-title="湖南JD",卡酷少儿
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTI1XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV戏曲.png" group-title="湖南JD",IPTV戏曲
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTE4XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 group-title="湖南JD",益阳公共
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDYxXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/芒果互娱.png" group-title="湖南JD",芒果互娱
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDE5XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="湖南JD",湖南卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTI4XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="湖南经视" tvg-name="湖南经视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南经视.png" group-title="湖南JD",湖南经视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDU4XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="湖南娱乐" tvg-name="湖南娱乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南娱乐.png" group-title="湖南JD",湖南娱乐
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTAxXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="湖南电影" tvg-name="湖南电影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南电影.png" group-title="湖南JD",湖南电影
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTA0XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南公共.png" group-title="湖南JD",湖南公共
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDU1XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南都市.png" group-title="湖南JD",湖南都市
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDU3XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="湖南电视剧" tvg-name="湖南电视剧" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南电视劇.png" group-title="湖南JD",湖南电视剧
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTIwXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰纪实.png" group-title="湖南JD",金鹰纪实
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDM1XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南国际.png" group-title="湖南JD",湖南国际
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTM0XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="湖南JD",金鹰卡通
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTA4XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/优漫卡通.png" group-title="湖南JD",优漫卡通
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTMzXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="湖南JD",先锋乒羽
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDA2XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/长沙新闻.png" group-title="湖南JD",长沙新闻
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTA2XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/长沙政法.png" group-title="湖南JD",长沙政法
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTAwXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/长沙女性.png" group-title="湖南JD",长沙女性
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDExXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/长沙影视.png" group-title="湖南JD",长沙影视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTEzXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 group-title="湖南JD",抗战剧场
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTA5XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/古装剧场.png" group-title="湖南JD",古装剧场
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMTEwXzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 group-title="湖南JD",凤凰咨讯
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8xMDM0XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/凤凰卫视.png" group-title="湖南JD",凤凰卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE3NS4xMS43Mi4yMjU6OTk5OS90c2ZpbGUvbGl2ZS8wMTA4XzEubTN1OD9rZXk9dHhpcHR2JnBsYXlsaXZlPTEmYXV0aGlkPTA=
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="海南JD",CCTV1
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAwMV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="海南JD",CCTV2
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAwMl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="海南JD",CCTV3
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAwM18xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="海南JD",CCTV4
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMTAwMF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="海南JD",CCTV5
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMTAwMV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="海南JD",CCTV5+
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAxNl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="海南JD",CCTV6
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAwNl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="海南JD",CCTV7
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAwN18xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="海南JD",CCTV8
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAwOF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="海南JD",CCTV9
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAwOV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="海南JD",CCTV10
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAxMF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="海南JD",CCTV11
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAxMV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="海南JD",CCTV12
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAxMl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="海南JD",CCTV13
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAxM18xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="海南JD",CCTV14
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAxNF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="海南JD",CCTV15
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDAxNV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="海南JD",CGTN
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMTAwMl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="海南JD",北京卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEyMl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="海南JD",东方卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEwN18xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="海南JD",广东卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEyNV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="海南JD",江苏卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEyN18xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="海南JD",湖南卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEyOF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="海南JD",浙江卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEyNF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="海南JD",安徽卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEzMF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="海南JD",广西卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDExM18xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="海南JD",云南卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDExOV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="海南JD",深圳卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEyNl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="海南JD",贵州卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEyMF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="海南JD",山东卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEzMV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="海南JD",重庆卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDE0Ml8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="海南JD",四川卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEyM18xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="海南JD",河南卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEzOV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="海南JD",湖北卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEzMl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="海南JD",吉林卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDExNl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="海南JD",甘肃卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDE0MV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="海南JD",西藏卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDExMV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="海南JD",新疆卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDExMF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="海南JD",青海卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDE0MF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="海南JD",宁夏卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDExMl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="海南JD",陕西卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEzNl8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="海南JD",天津卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEzNV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="海南JD",内蒙古卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEwOV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东教育.png" group-title="海南JD",山东教育
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMTAwMF8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="海南JD",河北卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDExN18xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="海南JD",辽宁卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEyMV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="三沙卫视 (shanghai)" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三沙卫视.png" group-title="海南JD",三沙卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMTAwOV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/少儿动画.png" group-title="海南JD",少儿动画
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMTAwMV8xLm0zdTg/a2V5PXR4aXB0dg==
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="海南JD",江西卫视
-http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzEyNC4yMjUuMzUuNTI6NTk5MDEvdHNmaWxlL2xpdmUvMDEzOF8xLm0zdTg/a2V5PXR4aXB0dg==
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="歌华有线",CCTV1
+http://119.91.7.169:1777/216.75.129.13.php?id=1
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="歌华有线",CCTV2
+http://119.91.7.169:1777/216.75.129.13.php?id=2
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="歌华有线",CCTV3
+http://119.91.7.169:1777/216.75.129.13.php?id=3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="歌华有线",CCTV4
+http://119.91.7.169:1777/216.75.129.13.php?id=4
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="歌华有线",CCTV5
+http://119.91.7.169:1777/216.75.129.13.php?id=5
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="歌华有线",CCTV5+
+http://119.91.7.169:1777/216.75.129.13.php?id=18
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="歌华有线",CCTV6
+http://119.91.7.169:1777/216.75.129.13.php?id=6
+#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="歌华有线",CCTV7
+http://119.91.7.169:1777/216.75.129.13.php?id=7
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="歌华有线",CCTV8
+http://119.91.7.169:1777/216.75.129.13.php?id=8
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="歌华有线",CCTV9
+http://119.91.7.169:1777/216.75.129.13.php?id=9
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="歌华有线",CCTV10
+http://119.91.7.169:1777/216.75.129.13.php?id=10
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="歌华有线",CCTV11
+http://119.91.7.169:1777/216.75.129.13.php?id=11
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="歌华有线",CCTV12
+http://119.91.7.169:1777/216.75.129.13.php?id=12
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="歌华有线",CCTV13
+http://119.91.7.169:1777/216.75.129.13.php?id=13
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="歌华有线",CCTV14
+http://119.91.7.169:1777/216.75.129.13.php?id=14
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="歌华有线",CCTV15
+http://119.91.7.169:1777/216.75.129.13.php?id=15
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="歌华有线",CCTV16
+http://119.91.7.169:1777/216.75.129.13.php?id=16
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="歌华有线",CCTV17
+http://119.91.7.169:1777/216.75.129.13.php?id=17
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="歌华有线",CCTV4K
+http://119.91.7.169:1777/216.75.129.13.php?id=20
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8K.png" group-title="歌华有线",CCTV8K
+http://119.91.7.169:1777/216.75.129.13.php?id=21
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="歌华有线",重温经典
+http://119.91.7.169:1777/216.75.129.13.php?id=19
+#EXTINF:-1 tvg-id="cctv兵器科技" tvg-name="cctv兵器科技" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cctv兵器科技.png" group-title="歌华有线",CCTV兵器科技
+http://119.91.7.169:1777/216.75.129.13.php?id=27
+#EXTINF:-1 tvg-id="cctv第一剧场" tvg-name="cctv第一剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV第一剧场.png" group-title="歌华有线",CCTV第一剧场
+http://119.91.7.169:1777/216.75.129.13.php?id=23
+#EXTINF:-1 tvg-id="cctv怀旧剧场" tvg-name="cctv怀旧剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV怀旧剧场.png" group-title="歌华有线",CCTV怀旧剧场
+http://119.91.7.169:1777/216.75.129.13.php?id=22
+#EXTINF:-1 tvg-id="cctv风云剧场" tvg-name="cctv风云剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV风云剧场.png" group-title="歌华有线",CCTV风云剧场
+http://119.91.7.169:1777/216.75.129.13.php?id=24
+#EXTINF:-1 tvg-id="cctv风云音乐" tvg-name="cctv风云音乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV风云音乐.png" group-title="歌华有线",CCTV风云音乐
+http://119.91.7.169:1777/216.75.129.13.php?id=25
+#EXTINF:-1 tvg-id="cctv风云足球" tvg-name="cctv风云足球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV风云足球.png" group-title="歌华有线",CCTV风云足球
+http://119.91.7.169:1777/216.75.129.13.php?id=26
+#EXTINF:-1 tvg-id="cctv电视指南" tvg-name="cctv电视指南" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV电视指南.png" group-title="歌华有线",CCTV电视指南
+http://119.91.7.169:1777/216.75.129.13.php?id=31
+#EXTINF:-1 tvg-id="cctv女性时尚" tvg-name="cctv女性时尚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV女性时尚.png" group-title="歌华有线",CCTV女性时尚
+http://119.91.7.169:1777/216.75.129.13.php?id=29
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV央视文化精品.png" group-title="歌华有线",CCTV央视文化精品
+http://119.91.7.169:1777/216.75.129.13.php?id=33
+#EXTINF:-1 tvg-id="cctv世界地理" tvg-name="cctv世界地理" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV世界地理.png" group-title="歌华有线",CCTV世界地理
+http://119.91.7.169:1777/216.75.129.13.php?id=28
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV高尔夫网球.png" group-title="歌华有线",CCTV高尔夫网球
+http://119.91.7.169:1777/216.75.129.13.php?id=32
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV央视台球.png" group-title="歌华有线",CCTV央视台球
+http://119.91.7.169:1777/216.75.129.13.php?id=30
+#EXTINF:-1 tvg-id="cctv卫生健康" tvg-name="cctv卫生健康" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV卫生健康.png" group-title="歌华有线",CCTV卫生健康
+http://119.91.7.169:1777/216.75.129.13.php?id=34
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/北京IPTV淘剧场.png" group-title="北京淘系列",北京IPTV淘剧场
 http://otangtang.com:38848/udp/239.3.1.95:8001
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/北京IPTV淘娱乐.png" group-title="北京淘系列",北京IPTV淘娱乐
