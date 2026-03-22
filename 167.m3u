@@ -981,7 +981,7 @@ p3p://167.114.175.6:55331/63ec4dc200075675e44984ca52f86245
 p3p://167.114.175.6:55331/63ed2c99000b902be7affdb21e970038
 #EXTINF:-1 group-title="大陆MainLand",青田新闻综合
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="大陆MainLand",重温经典
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="大陆MainLand",重温经典
 p3p://167.114.175.6:55331/65c5064800047df41ad1a47449e93b8b
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/文成综合.png" group-title="大陆MainLand",文成综合
 http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8
