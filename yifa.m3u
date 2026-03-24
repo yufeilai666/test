@@ -791,6 +791,10 @@ https://vdm6-ali.hrypl168.com/live/a6.flv
 http://o11.163189.xyz/stream/tvb/fct/
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台",翡翠台
 http://mytv.cdn.loc.cc/o12.php?id=fct
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/华丽翡翠台.png" group-title="极速港台",华丽翡翠台
+http://o11.163189.xyz/stream/live/hlt/
+#EXTINF:-1 group-title="极速港台",华丽翡翠台(新加坡)
+http://o11.163189.xyz/stream/live/jade/
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" group-title="极速港台",翡翠台4K
 http://o11.163189.xyz/stream/tvb/fct4k/
 #EXTINF:-1 group-title="极速港台",TVB PLUS
@@ -839,16 +843,6 @@ http://o11.163189.xyz/stream/live/tvbc/
 http://o11.163189.xyz/stream/live/typd/
 #EXTINF:-1 tvg-id="天映經典頻道" tvg-name="天映經典頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/天映经典频道.png" group-title="极速港台",天映经典频道
 http://o11.163189.xyz/stream/live/ccm/
-#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="极速港台",龙华电影
-http://cdn8.veryfast.filegear-sg.me/163189/lhdy
-#EXTINF:-1 tvg-id="龍華經典台" tvg-name="龍華經典台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龍華經典台.png" group-title="极速港台",龙华经典台
-http://cdn8.veryfast.filegear-sg.me/163189/lhjd
-#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="极速港台",龙华偶像
-http://cdn8.veryfast.filegear-sg.me/163189/lhox
-#EXTINF:-1 tvg-id="龍華日韓台" tvg-name="龍華日韓台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华日韩台.png" group-title="极速港台",龙华日韩台
-http://cdn8.veryfast.filegear-sg.me/163189/lhrh
-#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="极速港台",龙华戏剧
-http://cdn8.veryfast.filegear-sg.me/163189/lhxj
 #EXTINF:-1 tvg-id="金光布袋戲" tvg-name="金光布袋戲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金光布袋戏.png" group-title="极速港台",金光布袋戏
 http://o11.163189.xyz/stream/live/jgbdx/
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ASTROAOD.jpg" group-title="极速港台",ASTROAOD
@@ -2737,146 +2731,106 @@ http://183.30.201.175:10002/udp/239.77.0.215:5146
 http://183.30.201.175:10002/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="揭阳IPTV",广东少儿
 http://183.30.201.175:10002/udp/239.77.0.250:5146
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="佛山广电",CCTV1
-http://jump.fantanggame.com:38981/stream/channelid/2057839085?profile=pass
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="佛山广电",CCTV2
-http://jump.fantanggame.com:38981/stream/channelid/845194198?profile=pass
-#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="佛山广电",CCTV3
-http://jump.fantanggame.com:38981/stream/channelid/874238107?profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="佛山广电",CCTV4
-http://jump.fantanggame.com:38981/stream/channelid/2144959272?profile=pass
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="佛山广电",CCTV5+
-http://jump.fantanggame.com:38981/stream/channelid/8829362?profile=pass
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="佛山广电",CCTV5
-http://jump.fantanggame.com:38981/stream/channelid/108214728?profile=pass
-#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="佛山广电",CCTV6
-http://jump.fantanggame.com:38981/stream/channelid/1203149000?profile=pass
-#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="佛山广电",CCTV7
-http://jump.fantanggame.com:38981/stream/channelid/879800973?profile=pass
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="佛山广电",CCTV8
-http://jump.fantanggame.com:38981/stream/channelid/1571431741?profile=pass
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="佛山广电",CCTV9
-http://jump.fantanggame.com:38981/stream/channelid/1291568010?profile=pass
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="佛山广电",CCTV10
-http://jump.fantanggame.com:38981/stream/channelid/949416928?profile=pass
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="佛山广电",CCTV11
-http://jump.fantanggame.com:38981/stream/channelid/1420415307?profile=pass
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="佛山广电",CCTV12
-http://jump.fantanggame.com:38981/stream/channelid/2037066997?profile=pass
-#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="佛山广电",CCTV13
-http://jump.fantanggame.com:38981/stream/channelid/2053961034?profile=pass
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="佛山广电",CCTV14
-http://jump.fantanggame.com:38981/stream/channelid/1098677080?profile=pass
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="佛山广电",CCTV15
-http://jump.fantanggame.com:38981/stream/channelid/1083964009?profile=pass
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="佛山广电",CCTV16
-http://jump.fantanggame.com:38981/stream/channelid/1773321039?profile=pass
-#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="佛山广电",CCTV17
-http://jump.fantanggame.com:38981/stream/channelid/226752422?profile=pass
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="佛山广电",CGTN
-http://jump.fantanggame.com:38981/stream/channelid/1321744389?profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/G导视.png" group-title="佛山广电",G导视
-http://jump.fantanggame.com:38981/stream/channelid/687889228?profile=pass
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="佛山广电",东方卫视
-http://jump.fantanggame.com:38981/stream/channelid/608974922?profile=pass
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="佛山广电",兵团卫视
-http://jump.fantanggame.com:38981/stream/channelid/1258594168?profile=pass
-#EXTINF:-1 group-title="佛山广电",凤凰中文(高清)
-http://jump.fantanggame.com:38981/stream/channelid/225693146?profile=pass
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="佛山广电",北京卫视
-http://jump.fantanggame.com:38981/stream/channelid/409851018?profile=pass
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="佛山广电",四川卫视
-http://jump.fantanggame.com:38981/stream/channelid/85482009?profile=pass
-#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="佛山广电",大湾区卫视
-http://jump.fantanggame.com:38981/stream/channelid/675472013?profile=pass
-#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="佛山广电",宁夏卫视
-http://jump.fantanggame.com:38981/stream/channelid/2077725910?profile=pass
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="佛山广电",山东卫视
-http://jump.fantanggame.com:38981/stream/channelid/926533318?profile=pass
-#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="佛山广电",山西卫视
-http://jump.fantanggame.com:38981/stream/channelid/1757761420?profile=pass
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="佛山广电",广东体育
-http://jump.fantanggame.com:38981/stream/channelid/609597232?profile=pass
-#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="佛山广电",广东少儿
-http://jump.fantanggame.com:38981/stream/channelid/1542903364?profile=pass
-#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="佛山广电",广东新闻
-http://jump.fantanggame.com:38981/stream/channelid/60774160?profile=pass
-#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="佛山广电",广东民生
-http://jump.fantanggame.com:38981/stream/channelid/4719129?profile=pass
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="佛山广电",广东珠江
-http://jump.fantanggame.com:38981/stream/channelid/674861842?profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东经济科教.png" group-title="佛山广电",广东经济科教
-http://jump.fantanggame.com:38981/stream/channelid/674153210?profile=pass
-#EXTINF:-1 tvg-id="广州新闻" tvg-name="广州新闻" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广州新闻.png" group-title="佛山广电",广州新闻
-http://jump.fantanggame.com:38981/stream/channelid/1738447999?profile=pass
-#EXTINF:-1 tvg-id="广州综合" tvg-name="广州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广州综合.png" group-title="佛山广电",广州综合
-http://jump.fantanggame.com:38981/stream/channelid/1141712005?profile=pass
-#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="佛山广电",新疆卫视
-http://jump.fantanggame.com:38981/stream/channelid/201826981?profile=pass
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="佛山广电",江苏卫视
-http://jump.fantanggame.com:38981/stream/channelid/1019498905?profile=pass
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="佛山广电",江西卫视
-http://jump.fantanggame.com:38981/stream/channelid/269749500?profile=pass
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="佛山广电",河北卫视
-http://jump.fantanggame.com:38981/stream/channelid/1260764760?profile=pass
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="佛山广电",河南卫视
-http://jump.fantanggame.com:38981/stream/channelid/783140788?profile=pass
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="佛山广电",浙江卫视
-http://jump.fantanggame.com:38981/stream/channelid/1864752211?profile=pass
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="佛山广电",湖北卫视
-http://jump.fantanggame.com:38981/stream/channelid/714939603?profile=pass
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="佛山广电",湖南卫视
-http://jump.fantanggame.com:38981/stream/channelid/1192844654?profile=pass
-#EXTINF:-1 tvg-id="澳視澳門" tvg-name="澳視澳門" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/澳視澳門.png" group-title="佛山广电",澳视澳门
-http://jump.fantanggame.com:38981/stream/channelid/1590119320?profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/福建卫视.png" group-title="佛山广电",福建卫视
-http://jump.fantanggame.com:38981/stream/channelid/1365437856?profile=pass
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="佛山广电",辽宁卫视
-http://jump.fantanggame.com:38981/stream/channelid/109073815?profile=pass
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="佛山广电",重庆卫视
-http://jump.fantanggame.com:38981/stream/channelid/1207958625?profile=pass
-#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="佛山广电",重温经典
-http://jump.fantanggame.com:38981/stream/channelid/2119291851?profile=pass
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="佛山广电",金鹰卡通
-http://jump.fantanggame.com:38981/stream/channelid/1589058294?profile=pass
-#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="佛山广电",陕西卫视
-http://jump.fantanggame.com:38981/stream/channelid/1256872675?profile=pass
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="佛山广电",青海卫视
-http://jump.fantanggame.com:38981/stream/channelid/411841360?profile=pass
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="佛山广电",黑龙江卫视
-http://jump.fantanggame.com:38981/stream/channelid/372078302?profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/佛山城市生活.png" group-title="佛山广电",佛山城市生活
-http://jump.fantanggame.com:38981/stream/channelid/1720667315?profile=pass
-#EXTINF:-1 tvg-id="佛山综合" tvg-name="佛山综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山综合.png" group-title="佛山广电",佛山综合
-http://jump.fantanggame.com:38981/stream/channelid/1726405163?profile=pass
-#EXTINF:-1 group-title="佛山广电",南海频道
-http://jump.fantanggame.com:38981/stream/channelid/1594444015?profile=pass
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="佛山广电",吉林卫视
-http://jump.fantanggame.com:38981/stream/channelid/2010321518?profile=pass
-#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="佛山广电",嘉佳卡通
-http://jump.fantanggame.com:38981/stream/channelid/1971748446?profile=pass
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="佛山广电",明珠台
-http://jump.fantanggame.com:38981/stream/channelid/960712552?profile=pass
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="佛山广电",翡翠台
-http://jump.fantanggame.com:38981/stream/channelid/1877764941?profile=pass
-#EXTINF:-1 group-title="佛山广电",顺德频道
-http://jump.fantanggame.com:38981/stream/channelid/1687794545?profile=pass
-#EXTINF:-1 tvg-id="卡酷少儿 (shanghai)" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/卡酷少儿.png" group-title="佛山广电",卡酷少儿
-http://jump.fantanggame.com:38981/stream/channelid/1512446642?profile=pass
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="佛山广电",深圳卫视
-http://jump.fantanggame.com:38981/stream/channelid/788328623?profile=pass
-#EXTINF:-1 group-title="佛山广电",HD Phx Chinese Channel
-http://jump.fantanggame.com:19981/stream/channelid/1820554070?profile=pass
-#EXTINF:-1 group-title="佛山广电",HD Phx HK Channel
-http://jump.fantanggame.com:19981/stream/channelid/1744673927?profile=pass
-#EXTINF:-1 group-title="佛山广电",HD Phx InfoNews Channel
-http://jump.fantanggame.com:19981/stream/channelid/1529989483?profile=pass
-#EXTINF:-1 group-title="佛山广电",Phx Chinese Channel
-http://jump.fantanggame.com:19981/stream/channelid/2117521091?profile=pass
-#EXTINF:-1 group-title="佛山广电",Phx InfoNews Channel
-http://jump.fantanggame.com:19981/stream/channelid/1391636271?profile=pass
-#EXTINF:-1 group-title="佛山广电",Phx Movies Channel
-http://jump.fantanggame.com:19981/stream/channelid/716372856?profile=pass
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="深圳天威",深圳卫视
+http://111.221.137.234:44330/tsfile/live/1013_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="深圳都市" tvg-name="深圳都市" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳都市.png" group-title="深圳天威",深圳都市
+http://111.221.137.234:44330/tsfile/live/1014_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="深圳电视剧" tvg-name="深圳电视剧" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳电视剧.png" group-title="深圳天威",深圳电视剧
+http://111.221.137.234:44330/tsfile/live/1015_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳财经生活.png" group-title="深圳天威",深圳财经生活
+http://111.221.137.234:44330/tsfile/live/1007_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="深圳天威",广东卫视
+http://111.221.137.234:44330/tsfile/live/0128_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="深圳天威",广东体育
+http://111.221.137.234:44330/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东公共.png" group-title="深圳天威",广东公共
+http://111.221.137.234:44330/tsfile/live/0127_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="深圳天威",广东新闻
+http://111.221.137.234:44330/tsfile/live/0107_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="深圳天威",大湾区卫视
+http://111.221.137.234:44330/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="深圳天威",翡翠台
+http://111.221.137.234:44330/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="深圳天威",明珠台
+http://111.221.137.234:44330/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="深圳天威",Channel [V]
+http://111.221.137.234:44330/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="鳳凰衛視中文台" tvg-name="鳳凰衛視中文台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視中文台.png" group-title="深圳天威",凤凰卫视中文台
+http://111.221.137.234:44330/tsfile/live/0141_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/星空卫视.png" group-title="深圳天威",星空卫视
+http://111.221.137.234:44330/tsfile/live/0112_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="深圳天威",CCTV1
+http://111.221.137.234:44330/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="深圳天威",CCTV2
+http://111.221.137.234:44330/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="深圳天威",CCTV3
+http://111.221.137.234:44330/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="深圳天威",CCTV4
+http://111.221.137.234:44330/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="深圳天威",CCTV5
+http://111.221.137.234:44330/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="深圳天威",CCTV6
+http://111.221.137.234:44330/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="深圳天威",CCTV7
+http://111.221.137.234:44330/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="深圳天威",CCTV8
+http://111.221.137.234:44330/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="深圳天威",CCTV9
+http://111.221.137.234:44330/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="深圳天威",CCTV10
+http://111.221.137.234:44330/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="深圳天威",CCTV11
+http://111.221.137.234:44330/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="深圳天威",CCTV12
+http://111.221.137.234:44330/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="深圳天威",CCTV13
+http://111.221.137.234:44330/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="深圳天威",CCTV14
+http://111.221.137.234:44330/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="深圳天威",CCTV15
+http://111.221.137.234:44330/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="深圳天威",CCTV5+
+http://111.221.137.234:44330/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="深圳天威",CGTN
+http://111.221.137.234:44330/tsfile/live/1012_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="深圳天威",湖南卫视
+http://111.221.137.234:44330/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="深圳天威",江苏卫视
+http://111.221.137.234:44330/tsfile/live/0135_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="深圳天威",浙江卫视
+http://111.221.137.234:44330/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="深圳天威",北京卫视
+http://111.221.137.234:44330/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="深圳天威",东方卫视
+http://111.221.137.234:44330/tsfile/live/0126_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="深圳天威",天津卫视
+http://111.221.137.234:44330/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="深圳天威",山东卫视
+http://111.221.137.234:44330/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="深圳天威",重温经典
+http://111.221.137.234:44330/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="深圳天威",安徽卫视
+http://111.221.137.234:44330/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="深圳天威",辽宁卫视
+http://111.221.137.234:44330/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="深圳天威",湖北卫视
+http://111.221.137.234:44330/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="深圳天威",重庆卫视
+http://111.221.137.234:44330/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="深圳天威",海南卫视
+http://111.221.137.234:44330/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="深圳天威",四川卫视
+http://111.221.137.234:44330/tsfile/live/0137_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="深圳天威",吉林卫视
+http://111.221.137.234:44330/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="深圳天威",江西卫视
+http://111.221.137.234:44330/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="深圳天威",陕西卫视
+http://111.221.137.234:44330/tsfile/live/0116_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="深圳天威",河南卫视
+http://111.221.137.234:44330/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="深圳天威",云南卫视
+http://111.221.137.234:44330/tsfile/live/0118_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="海南移动",CCTV1
 http://111.29.9.33:6610/000000001000/1000000001000021973/index.m3u8?channel-id=bestzb&Contentid=1000000001000021973&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="海南移动",CCTV2
