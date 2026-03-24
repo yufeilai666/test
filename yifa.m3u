@@ -1229,6 +1229,10 @@ https://t.ttvb.eu.org/tvb/now-630/index.m3u8
 https://t.ttvb.eu.org/tvb/ViuTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/VIUTVSIX.png" group-title="极速NOW",ViuTVsix
 https://t.ttvb.eu.org/tvb/ViuTVsix/index.m3u8
+#EXTINF:-1 group-title="极速NOW",翡翠4k
+http://tk2.hugo.cc.cd/stream/tk2/fct4k/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="极速NOW",无线新闻
+http://tk2.hugo.cc.cd/stream/tk2/news/master.m3u8
 #EXTINF:-1 tvg-id="動物星球" tvg-name="動物星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="极速NOW",動物星球
 https://hls.iill.top/api/dwxq/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="极速NOW",緯來日本
@@ -1257,18 +1261,6 @@ https://hls.iill.top/api/HBO-Hits/index.m3u8
 https://hls.iill.top/api/HBO-Family/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Signature.png" group-title="极速NOW",HBO Signature
 https://hls.iill.top/api/HBO-Signature/index.m3u8
-#EXTINF:-1 group-title="极速NOW",NOW星影
-http://rihou.cc:555/tv/hktv%2Ftb19nowxy56
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW爆谷.png" group-title="极速NOW",NOW爆谷
-http://rihou.cc:555/tv/hktv%2Ftb19nowbg56
-#EXTINF:-1 group-title="极速NOW",HUB如意台
-http://rihou.cc:555/tv/hktv%2Ftbbhubjy56
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HUB娱家台.png" group-title="极速NOW",HUB娱家台
-http://rihou.cc:555/tv/hktv%2Ftb19tvbzt56
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HUB都会台.png" group-title="极速NOW",HUB都会台
-http://rihou.cc:555/tv/hktv%2Fbtw856356
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/曼迪日本台.png" group-title="极速NOW",曼迪日本台
-http://rihou.cc:555/tv/hktv%2Fbtw856456
 #EXTINF:-1 group-title="极速NOW",NOW体育1
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382843&extension=ts&play_token=KANAeecxcz
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育2.png" group-title="极速NOW",NOW体育2
@@ -1501,6 +1493,56 @@ http://47.104.163.156:50/台湾.php?id=hbohd
 http://47.104.163.156:50/台湾.php?id=axn
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四季台湾",MTV Live
 http://47.104.163.156:50/台湾.php?id=mtv
+#EXTINF:-1 group-title="四季台湾",4 1 GOOD TV
+http://nctcpc.com:38981/stream/channelid/1032208444?ticket=8de61e8a87491b2960c8d55aa988b8512f7d79e3&profile=pass
+#EXTINF:-1 group-title="四季台湾",Alian Radio
+http://nctcpc.com:38981/stream/channelid/2080019623?ticket=cb7b6d09867526e60f69290410f8c0ece38f2ba1&profile=pass
+#EXTINF:-1 tvg-id="TaiwanPlus" tvg-name="TaiwanPlus" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TAIWANPLUS.jpg" group-title="四季台湾",TaiwanPlus
+http://nctcpc.com:38981/stream/channelid/201856179?ticket=c54aba4f1ec46bf6b1b9aa96edfb0d32c8eaf290&profile=pass
+#EXTINF:-1 tvg-id="中視菁采台" tvg-name="中視菁采台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视菁采台.png" group-title="四季台湾",中視菁采台
+http://nctcpc.com:38981/stream/channelid/1285813917?ticket=d61f5031324da74604c2fcda5d4746aa2ef98228&profile=pass
+#EXTINF:-1 group-title="四季台湾",公視 PTS
+http://nctcpc.com:38981/stream/channelid/2131319261?ticket=02ffaa74b6e741aa10cde9d1d79c77b922bbde2a&profile=pass
+#EXTINF:-1 tvg-id="原住民族電視台" tvg-name="原住民族電視台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/原住民族電視台.png" group-title="四季台湾",原住民族電視台
+http://nctcpc.com:38981/stream/channelid/2104211877?ticket=ed53b7695520e155f48f273b078e593bf11a82d7&profile=pass
+#EXTINF:-1 tvg-id="台灣電視台" tvg-name="台灣電視台" group-title="四季台湾",台灣電視台
+http://nctcpc.com:38981/stream/channelid/1061269580?ticket=4b5c23daf556589608342630f30f493cf60be5f7&profile=pass
+#EXTINF:-1 tvg-id="台視新聞台" tvg-name="台視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视新闻台.png" group-title="四季台湾",台視新聞台
+http://nctcpc.com:38981/stream/channelid/1392529866?ticket=20f21d79d7b692600b382c330c643c4b931e7b44&profile=pass
+#EXTINF:-1 tvg-id="台視綜合台" tvg-name="台視綜合台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台视综合台.png" group-title="四季台湾",台視綜合台
+http://nctcpc.com:38981/stream/channelid/1044713361?ticket=dd4bd0d554fa94ade93e032142db13d36f31afd5&profile=pass
+#EXTINF:-1 tvg-id="台視財經台" tvg-name="台視財經台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视财经台.png" group-title="四季台湾",台視財經台
+http://nctcpc.com:38981/stream/channelid/509783080?ticket=7b42cacaab69c586551f3c809a172111b5b60c96&profile=pass
+#EXTINF:-1 tvg-id="國會頻道2" tvg-name="國會頻道2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道2.png" group-title="四季台湾",國會頻道2
+http://nctcpc.com:38981/stream/channelid/210589410?ticket=ecbb5a2d25ad8302c20f7ca05958618356786b33&profile=pass
+#EXTINF:-1 tvg-id="小公視" tvg-name="小公視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/小公視.png" group-title="四季台湾",小公視
+http://nctcpc.com:38981/stream/channelid/352036757?ticket=348182605f4fcc235bf9ff0d0531e03e9575ef6c&profile=pass
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="四季台湾",民視
+http://nctcpc.com:38981/stream/channelid/783181249?ticket=58814ce48d9561070cbc5696338c5e7dd416efd0&profile=pass
+#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="四季台湾",民視台灣台
+http://nctcpc.com:38981/stream/channelid/1243774991?ticket=0cd0396ef05ea4b12a0def6019dff1e5b1226bd6&profile=pass
+#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视新闻台.png" group-title="四季台湾",民視新聞台
+http://nctcpc.com:38981/stream/channelid/1323392111?ticket=bbf9a9c0dcbbf102cc33bc4dbd71f3a44c9ddc3c&profile=pass
+#EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視第一台.png" group-title="四季台湾",民視第一台
+http://nctcpc.com:38981/stream/channelid/859905572?ticket=44729f776de93e70cd1481ce4f434f15e89f0762&profile=pass
+#EXTINF:-1 group-title="四季台湾",華視CTS
+http://nctcpc.com:38981/stream/channelid/122114341?ticket=ac282ee9ea130e5f72acc9cbe278dfc9549a0118&profile=pass
+#EXTINF:-1 tvg-id="華視教育體育文化台" tvg-name="華視教育體育文化台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/华视教育体育文化台.png" group-title="四季台湾",華視教育體育文化台
+http://nctcpc.com:38981/stream/channelid/1850091127?ticket=d8345832c6ed8d534f5e0096c749532ace397e58&profile=pass
+#EXTINF:-1 tvg-id="華視新聞資訊台" tvg-name="華視新聞資訊台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/華視新聞資訊台.png" group-title="四季台湾",華視新聞資訊台
+http://nctcpc.com:38981/stream/channelid/320561478?ticket=7e0c7d7058d07679306b3fb1abc441f82d6da587&profile=pass
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="四季台湾",中視
+http://nctcpc.com:38981/stream/channelid/475201081?ticket=15621385187ab928f871153cb33486ee6a8fd47e&profile=pass
+#EXTINF:-1 tvg-id="中視新聞台" tvg-name="中視新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视新闻台.png" group-title="四季台湾",中視新聞台
+http://nctcpc.com:38981/stream/channelid/1755015946?ticket=ff77595a86bf2548d5008a04302d5ccf246c4fb2&profile=pass
+#EXTINF:-1 tvg-id="中視經典台" tvg-name="中視經典台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视经典台.png" group-title="四季台湾",中視經典台
+http://nctcpc.com:38981/stream/channelid/245334301?ticket=59ddc695b9c4ba39c26c370f54fcb79cacac2f3c&profile=pass
+#EXTINF:-1 tvg-id="公視台語台" tvg-name="公視台語台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視台語台.png" group-title="四季台湾",公視台語台
+http://nctcpc.com:38981/stream/channelid/1615968811?ticket=86717a29e28f5da6ecd45719f5808ac2b057e106&profile=pass
+#EXTINF:-1 tvg-id="國會頻道1" tvg-name="國會頻道1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/国会频道1.png" group-title="四季台湾",國會頻道1
+http://nctcpc.com:38981/stream/channelid/882971982?ticket=e90f48f2bf1b347a44f59e4ea281f096edc3422e&profile=pass
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/客家電視.png" group-title="四季台湾",客家電視
+http://nctcpc.com:38981/stream/channelid/1775057655?ticket=71f3dffb24f54c31dc1f01e7b74b7ee253767112&profile=pass
 #EXTINF:-1 group-title="抖音直播",水水家猪蹄
 https://live.iill.top/douyin/ssjzt777
 #EXTINF:-1 group-title="抖音直播",格格睡醒了
