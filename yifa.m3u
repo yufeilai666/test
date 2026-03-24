@@ -1229,10 +1229,22 @@ https://t.ttvb.eu.org/tvb/now-630/index.m3u8
 https://t.ttvb.eu.org/tvb/ViuTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/VIUTVSIX.png" group-title="极速NOW",ViuTVsix
 https://t.ttvb.eu.org/tvb/ViuTVsix/index.m3u8
-#EXTINF:-1 group-title="极速NOW",翡翠4k
-http://tk2.hugo.cc.cd/stream/tk2/fct4k/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="极速NOW",无线新闻
-http://tk2.hugo.cc.cd/stream/tk2/news/master.m3u8
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" group-title="极速NOW",翡翠台4K
+https://tk2.hugo.cc.cd/stream/tk2/fct4k/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速NOW",无线新闻台
+https://tk2.hugo.cc.cd/stream/tk2/news/master.m3u8
+#EXTINF:-1 group-title="极速NOW",翡翠台1080P
+https://tk2.hugo.cc.cd/stream/tk2/jade/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="极速NOW",TVBplus
+https://tk2.hugo.cc.cd/stream/tk2/plus/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速NOW",明珠台
+https://tk2.hugo.cc.cd/stream/tk2/pearl/master.m3u8
+#EXTINF:-1 group-title="极速NOW",凤凰咨询
+http://feilong123.vip/409990236/hktv.php?id=1
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="极速NOW",凤凰香港
+http://feilong123.vip/409990236/hktv.php?id=2
+#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速NOW",凤凰中文
+http://feilong123.vip/409990236/hktv.php?id=3
 #EXTINF:-1 tvg-id="動物星球" tvg-name="動物星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/动物星球.png" group-title="极速NOW",動物星球
 https://hls.iill.top/api/dwxq/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="极速NOW",緯來日本
