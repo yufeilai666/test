@@ -958,7 +958,9 @@ rtmp://f13h.mine.nu/sat/tv771
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="默认分组",东森超视
 rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="默认分组",翡翠台
-rtmp://demo2.anj365.com/live/xiangjiaoge-fc
+http://www.9kds.com/d/hk/tvbfc/?kl=www.9kds.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="默认分组",无线新闻台
+http://www.9kds.com/d/hk/tvbwxxw/?kl=www.9kds.com
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="默认分组",中天新闻
 rtmp://demo2.anj365.com/live/xiangjiaoge-ztxw
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/镜新闻台.png" group-title="默认分组",镜新闻台
@@ -967,8 +969,6 @@ https://d36dgdk71xuzzg.cloudfront.net/v1/manifest/3a2ac8e6b6c76471996ebf627393d9
 http://67.220.71.199:2347/livehttpplay?channel_id=20123
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="默认分组",无线新闻台
 http://67.220.71.199:2347/livehttpplay?channel_id=30024
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="默认分组",翡翠台
-http://67.220.71.199:2347/livehttpplay?channel_id=20126
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="默认分组",翡翠台
 http://67.220.71.199:2347/livehttpplay?channel_id=30025
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="默认分组",明珠台
