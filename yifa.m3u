@@ -1061,15 +1061,17 @@ http://iptv.4666888.xyz/iptv2A.php?id=2
 http://iptv.4666888.xyz/iptv2A.php?id=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ASTROFOOTBALL.png" group-title="默认分组",astroFootball
 http://iptv.4666888.xyz/iptv2A.php?id=4
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TNTSPORTS3.png" group-title="默认分组",TntSports3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TNTSPORTS1.png" group-title="默认分组",TntSports1
 http://iptv.4666888.xyz/iptv2A.php?id=3
-#EXTINF:-1 group-title="默认分组",wwwe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/智林体育.png" group-title="默认分组",智林體育
 http://iptv.4666888.xyz/iptv2A.php?id=5
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯运动1.png" group-title="默认分组",博斯運動1
+#EXTINF:-1 group-title="默认分组",JSPORTS1
 http://iptv.4666888.xyz/iptv2A.php?id=6
+#EXTINF:-1 group-title="默认分组",SkyTennis+
+http://iptv.4666888.xyz/iptv2A.php?id=62
 #EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="默认分组",鳳凰中文
 http://iptv.4666888.xyz/iptv2A.php?id=27
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb翡翠.png" group-title="默认分组",TVB翡翠
+#EXTINF:-1 group-title="默认分组",TVB黃金華劇
 http://iptv.4666888.xyz/iptv2A.php?id=34
 #EXTINF:-1 group-title="默认分组",TVB翡翠(馬來)
 http://iptv.4666888.xyz/iptv2A.php?id=28
@@ -1079,15 +1081,17 @@ http://iptv.4666888.xyz/iptv2A.php?id=29
 http://iptv.4666888.xyz/iptv2A.php?id=26
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB1.png" group-title="默认分组",TVB1
 http://iptv.4666888.xyz/iptv2A.php?id=25
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧经典.png" group-title="默认分组",千禧经典
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/千禧经典.png" group-title="默认分组",千禧經典
 http://iptv.4666888.xyz/iptv2A.php?id=22
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY77.png" group-title="默认分组",HOY77
 http://iptv.4666888.xyz/iptv2A.php?id=35
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY78.png" group-title="默认分组",HOY78
+#EXTINF:-1 group-title="默认分组",TVB-獎門人
 http://iptv.4666888.xyz/iptv2A.php?id=31
+#EXTINF:-1 group-title="默认分组",TVB-金曲
+http://iptv.4666888.xyz/iptv2A.php?id=57
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/RTHK31.png" group-title="默认分组",RTHK31
 http://iptv.4666888.xyz/iptv2A.php?id=23
-#EXTINF:-1 group-title="默认分组",TVB娱乐新闻
+#EXTINF:-1 group-title="默认分组",TVB娛樂新聞
 http://iptv.4666888.xyz/iptv2A.php?id=36
 #EXTINF:-1 group-title="默认分组",MYTV黃金翡翠
 http://iptv.4666888.xyz/iptv2A.php?id=32
@@ -1095,46 +1099,60 @@ http://iptv.4666888.xyz/iptv2A.php?id=32
 http://iptv.4666888.xyz/iptv2A.php?id=33
 #EXTINF:-1 tvg-id="澳視澳門" tvg-name="澳視澳門" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/澳視澳門.png" group-title="默认分组",澳視澳門
 http://iptv.4666888.xyz/iptv2A.php?id=41
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国电影.png" group-title="默认分组",中國電影
+http://iptv.4666888.xyz/iptv2A.php?id=61
 #EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="默认分组",TVBS新聞
 http://iptv.4666888.xyz/iptv2A.php?id=43
-#EXTINF:-1 group-title="默认分组",非凡直播
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="默认分组",非凡新聞
 http://iptv.4666888.xyz/iptv2A.php?id=44
-#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="默认分组",民视
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="默认分组",民視
 http://iptv.4666888.xyz/iptv2A.php?id=55
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/华艺中文.png" group-title="默认分组",華藝中文
 http://iptv.4666888.xyz/iptv2A.php?id=37
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛奇藝.png" group-title="默认分组",爱奇艺
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛奇藝.png" group-title="默认分组",愛奇藝
 http://iptv.4666888.xyz/iptv2A.php?id=21
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台湾戏剧.png" group-title="默认分组",臺灣戲劇
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖洋戏剧.png" group-title="默认分组",靖洋戲劇
 http://iptv.4666888.xyz/iptv2A.php?id=42
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/EYE戏剧.png" group-title="默认分组",EYE戏剧
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天電影.png" group-title="默认分组",靖天電影
 http://iptv.4666888.xyz/iptv2A.php?id=56
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="默认分组",緯來電影
-http://iptv.4666888.xyz/iptv2A.php?id=40
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="默认分组",東森电影
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="默认分组",東森電影
 http://iptv.4666888.xyz/iptv2A.php?id=48
-#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="默认分组",龍華电影
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="默认分组",緯來電影
+http://iptv.4666888.xyz/iptv2A.php?id=54
+#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="默认分组",龍華電影
 http://iptv.4666888.xyz/iptv2A.php?id=45
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视综艺.png" group-title="默认分组",民視綜藝
-http://iptv.4666888.xyz/iptv2A.php?id=46
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS精采.png" group-title="默认分组",TVBS精采
-http://iptv.4666888.xyz/iptv2A.php?id=47
-#EXTINF:-1 group-title="默认分组",美亚电影(台)
-http://iptv.4666888.xyz/iptv2A.php?id=30
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="默认分组",東森洋片
-http://iptv.4666888.xyz/iptv2A.php?id=45
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/爱尔达综合.png" group-title="默认分组",爱尔达综合
-http://iptv.4666888.xyz/iptv2A.php?id=49
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="默认分组",龍華洋片
+http://iptv.4666888.xyz/iptv2A.php?id=60
+#EXTINF:-1 group-title="默认分组",風雲恐怖電影
+http://iptv.4666888.xyz/iptv2A.php?id=59
 #EXTINF:-1 tvg-id="ROCK ACTION" tvg-name="ROCK ACTION" group-title="默认分组",ROCK Action
 http://iptv.4666888.xyz/iptv2A.php?id=50
-#EXTINF:-1 tvg-id="JET綜合" tvg-name="JET綜合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/JET综合.png" group-title="默认分组",JET综合
-http://iptv.4666888.xyz/iptv2A.php?id=51
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八度空间.png" group-title="默认分组",八度空间
-http://iptv.4666888.xyz/iptv2A.php?id=52
-#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC Earth.png" group-title="默认分组",BBC Earth
+#EXTINF:-1 group-title="默认分组",梦工场动漫
+http://iptv.4666888.xyz/iptv2A.php?id=40
+#EXTINF:-1 group-title="默认分组",Duck TV兒童卡通
+http://iptv.4666888.xyz/iptv2A.php?id=39
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MOMO亲子.png" group-title="默认分组",MOMO親子
+http://iptv.4666888.xyz/iptv2A.php?id=49
+#EXTINF:-1 tvg-id="金光布袋戲" tvg-name="金光布袋戲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金光布袋戏.png" group-title="默认分组",金光布袋戲
+http://iptv.4666888.xyz/iptv2A.php?id=38
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视综艺.png" group-title="默认分组",民視綜藝
+http://iptv.4666888.xyz/iptv2A.php?id=46
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视影剧.png" group-title="默认分组",民視影劇
 http://iptv.4666888.xyz/iptv2A.php?id=53
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="默认分组",中视经典
-http://iptv.4666888.xyz/iptv2A.php?id=54
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS精采.png" group-title="默认分组",TVBS精采
+http://iptv.4666888.xyz/iptv2A.php?id=47
+#EXTINF:-1 tvg-id="台視綜合" tvg-name="台視綜合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="默认分组",臺視綜合
+http://iptv.4666888.xyz/iptv2A.php?id=51
+#EXTINF:-1 group-title="默认分组",東森綜合2
+http://iptv.4666888.xyz/iptv2A.php?id=58
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八度空间.png" group-title="默认分组",八度空間
+http://iptv.4666888.xyz/iptv2A.php?id=52
+#EXTINF:-1 group-title="默认分组",韓流美食料理秀
+http://iptv.4666888.xyz/iptv2A.php?id=63
+#EXTINF:-1 group-title="默认分组",娛樂百分百
+http://iptv.4666888.xyz/iptv2A.php?id=64
+#EXTINF:-1 group-title="默认分组",綜藝大贏家
+http://iptv.4666888.xyz/iptv2A.php?id=65
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb翡翠台.png" group-title="默认分组",TVB翡翠台
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUVBMebB-0s_t1mmJvMNHiXq_bJ2Cb2_rkjs8_iAgPWb6Uqr2eMUAeqv_AORRwOjT5IsFjfMAEPHWh0K8XgyZp-kp75ipWTJ1kV4iF8QOP3rntz-s7PorCqKLpfUkL0F9TFX40JOL29gGYjauDNUGTA3wF2DZDn9_EcYPOvgRFk0gXPTUutVYbeawjtj-qfBr_GkWTNUMnCqxHyxDrWFpXDQ.m3u8?u=1756878715
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/TVB明珠台.png" group-title="默认分组",TVB明珠台
@@ -2439,6 +2457,28 @@ http://cfss.cc/cdn/dy/42347122605.flv
 http://cfss.cc/cdn/dy/147258247158d.flv
 #EXTINF:-1 group-title="默认分组",朱朱
 http://cfss.cc/cdn/dy/36914825720a.flv
+#EXTINF:-1 group-title="默认分组",爱播
+http://cfss.cc/cdn/dy/72601999700.flv
+#EXTINF:-1 group-title="默认分组",解腻小馋猫
+http://cfss.cc/cdn/dy/57441738759.flv
+#EXTINF:-1 group-title="默认分组",曲琦
+http://cfss.cc/cdn/dy/87903335725.flv
+#EXTINF:-1 group-title="默认分组",清茶
+http://cfss.cc/cdn/dy/92367486793.flv
+#EXTINF:-1 group-title="默认分组",是安安吖
+http://cfss.cc/cdn/dy/anan20050512.flv
+#EXTINF:-1 group-title="默认分组",阿米Dol
+http://cfss.cc/cdn/dy/59123141128.flv
+#EXTINF:-1 group-title="默认分组",Y不歪
+http://cfss.cc/cdn/dy/49739112236.flv
+#EXTINF:-1 group-title="默认分组",蜡笔小瑶
+http://cfss.cc/cdn/dy/75636233170.flv
+#EXTINF:-1 group-title="默认分组",火鸡面梦女
+http://cfss.cc/cdn/dy/45652007446.flv
+#EXTINF:-1 group-title="默认分组",珍妮玛士多
+http://cfss.cc/cdn/dy/204336008.flv
+#EXTINF:-1 group-title="默认分组",不是陈cc
+http://cfss.cc/cdn/dy/91841348504.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视网.png" group-title="默认分组",央视网
 http://cfss.cc/cdn/dy/cctv.com.flv
 #EXTINF:-1 group-title="默认分组",小央视频
