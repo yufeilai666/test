@@ -1014,7 +1014,7 @@ rtmp://163.204.116.62/live/xaingjiaoge-wxxw
 #EXTINF:-1 group-title="默认分组",Now星影国
 http://rihou.cc:555/tv/[Hv]Now星影
 #EXTINF:-1 group-title="默认分组",Now爆谷国
-http://rihou.cc:555/tv/[Hv]Now爆谷
+http://dbmlasvgas.sylu.net:2086/tsfile/live/1001_1.m3u8?key=fsdagssp
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新聞台.png" group-title="默认分组",Now新聞台
 https://t.ttvb.eu.org/tvb/now-332/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW财经台.png" group-title="默认分组",Now財經台
@@ -1839,356 +1839,6 @@ http://clawcloud.goiptv.de5.net/litv.php?id=litv-xinchuang11&token=xiatianshigou
 http://clawcloud.goiptv.de5.net/litv.php?id=litv-xinchuang21&token=xiatianshigou
 #EXTINF:-1 tvg-id="豬哥亮歌廳秀" tvg-name="豬哥亮歌廳秀" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/猪哥亮歌厅秀.png" group-title="默认分组",豬哥亮歌廳秀
 http://clawcloud.goiptv.de5.net/litv.php?id=4gtv-4gtv006&token=xiatianshigou
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="默认分组",翡翠台
-http://smt.4666888.xyz/jade_twn.m3u8
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="默认分组",翡翠台
-http://smt.4666888.xyz/Jade_xue.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="默认分组",明珠台
-http://smt.4666888.xyz/pearl_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="默认分组",无线新闻
-http://smt.4666888.xyz/inews_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="默认分组",TVBPLUS
-http://smt.4666888.xyz/j2_twn.m3u8
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="默认分组",ViuTV
-http://smt.4666888.xyz/viu1_twn.m3u8
-#EXTINF:-1 group-title="默认分组",ViuTV 6
-http://smt.4666888.xyz/viusix_twn.m3u8
-#EXTINF:-1 group-title="默认分组",RTHK 31
-http://smt.4666888.xyz/rhk31_twn.m3u8
-#EXTINF:-1 group-title="默认分组",RTHK 32
-http://smt.4666888.xyz/rhk32_twn.m3u8
-#EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" group-title="默认分组",HOY TV
-http://smt.4666888.xyz/hoycaijing_twn.m3u8
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="默认分组",凤凰中文
-http://smt.4666888.xyz/phoenixtv_hd.m3u8
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="默认分组",凤凰资讯
-http://smt.4666888.xyz/phoenixinfo_hd.m3u8
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="默认分组",凤凰香港
-http://smt.4666888.xyz/hkphoenix_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="默认分组",台视
-http://smt.4666888.xyz/ttv_taiwan.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="默认分组",台视新闻
-http://smt.4666888.xyz/ttvnews_twn.m3u8
-#EXTINF:-1 tvg-id="台視綜合" tvg-name="台視綜合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="默认分组",台视综合
-http://smt.4666888.xyz/ttvzhonghe.m3u8
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="默认分组",中视
-http://smt.4666888.xyz/zhongshihd_twn.m3u8
-#EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视新闻.png" group-title="默认分组",中视新闻
-http://smt.4666888.xyz/zhongshinews_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="默认分组",中视经典
-http://smt.4666888.xyz/zhongshi_twn.m3u8
-#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="默认分组",华视
-http://smt.4666888.xyz/ctshd_twn.m3u8
-#EXTINF:-1 tvg-id="公視" tvg-name="公視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="默认分组",公视
-http://smt.4666888.xyz/ctv_taiwan.m3u8
-#EXTINF:-1 tvg-id="公視台語台" tvg-name="公視台語台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視台語台.png" group-title="默认分组",公视台语台
-http://smt.4666888.xyz/ctv2_twn.m3u8
-#EXTINF:-1 tvg-id="三立台灣台" tvg-name="三立台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立台灣台.png" group-title="默认分组",三立台湾台
-http://smt.4666888.xyz/sanlitaiwan.m3u8
-#EXTINF:-1 tvg-id="三立都會台" tvg-name="三立都會台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立都会台.png" group-title="默认分组",三立都会台
-http://smt.4666888.xyz/sanlidouhui.m3u8
-#EXTINF:-1 tvg-id="三立綜合台" tvg-name="三立綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立綜合台.png" group-title="默认分组",三立综合台
-http://smt.4666888.xyz/sanlizhonghe.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立戲劇台.png" group-title="默认分组",三立戏剧台
-http://smt.4666888.xyz/sanlixiju_twn.m3u8
-#EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森新聞台.png" group-title="默认分组",东森新闻台
-http://smt.4666888.xyz/ettvnews.m3u8
-#EXTINF:-1 tvg-id="東森財經新聞台" tvg-name="東森財經新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森財經新聞台.png" group-title="默认分组",东森财经新闻台
-http://smt.4666888.xyz/ettvcaijing_twn.m3u8
-#EXTINF:-1 tvg-id="東森綜合台" tvg-name="東森綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森综合台.png" group-title="默认分组",东森综合台
-http://smt.4666888.xyz/ettvzhonghe.m3u8
-#EXTINF:-1 tvg-id="東森戲劇台" tvg-name="東森戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森戏剧台.png" group-title="默认分组",东森戏剧台
-http://smt.4666888.xyz/ettvdrama.m3u8
-#EXTINF:-1 tvg-id="東森電影台" tvg-name="東森電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森電影台.png" group-title="默认分组",东森电影台
-http://smt.4666888.xyz/ettvmovie.m3u8
-#EXTINF:-1 tvg-id="東森洋片台" tvg-name="東森洋片台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森洋片台.png" group-title="默认分组",东森洋片台
-http://smt.4666888.xyz/ettvwestern.m3u8
-#EXTINF:-1 tvg-id="東森幼幼台" tvg-name="東森幼幼台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森幼幼台.png" group-title="默认分组",东森幼幼台
-http://smt.4666888.xyz/yoyo_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="默认分组",东森超视
-http://smt.4666888.xyz/ettvsuper.m3u8
-#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="默认分组",TVBS
-http://smt.4666888.xyz/tvbs.m3u8
-#EXTINF:-1 tvg-id="TVBS 新聞台" tvg-name="TVBS 新聞台" group-title="默认分组",TVBS 新闻台
-http://smt.4666888.xyz/tvbs_n.m3u8
-#EXTINF:-1 group-title="默认分组",TVBS 欢乐台
-http://smt.4666888.xyz/tvbshuanle_twn.m3u8
-#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="默认分组",民视
-http://smt.4666888.xyz/ftvhd_taiwan.m3u8
-#EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视新闻台.png" group-title="默认分组",民视新闻台
-http://smt.4666888.xyz/ftvnew_taiwan.m3u8
-#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="默认分组",民视台湾台
-http://smt.4666888.xyz/ftvtaiwan_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天綜合.png" group-title="默认分组",中天综合
-http://smt.4666888.xyz/ctizhonghe.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天娛樂.png" group-title="默认分组",中天娱乐
-http://smt.4666888.xyz/ctient.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天亞洲.png" group-title="默认分组",中天亚洲
-http://smt.4666888.xyz/ctiasia_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="默认分组",中天新闻
-http://smt.4666888.xyz/ctinews.m3u8
-#EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台.png" group-title="默认分组",寰宇新闻台
-http://smt.4666888.xyz/huanyuxinwen_twn.m3u8
-#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/寰宇财经台.png" group-title="默认分组",寰宇财经台
-http://smt.4666888.xyz/huanyutaiwan_twn.m3u8
-#EXTINF:-1 tvg-id="八大第一台" tvg-name="八大第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大第一台.png" group-title="默认分组",八大第一台
-http://smt.4666888.xyz/badafirst.m3u8
-#EXTINF:-1 tvg-id="八大綜合台" tvg-name="八大綜合台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大综合台.png" group-title="默认分组",八大综合台
-http://smt.4666888.xyz/badazhonghe.m3u8
-#EXTINF:-1 tvg-id="八大戲劇台" tvg-name="八大戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大戲劇台.png" group-title="默认分组",八大戏剧台
-http://smt.4666888.xyz/badadrama.m3u8
-#EXTINF:-1 tvg-id="八大娛樂台" tvg-name="八大娛樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大娱乐台.png" group-title="默认分组",八大娱乐台
-http://smt.4666888.xyz/badaentertain.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="默认分组",纬来体育
-http://smt.4666888.xyz/videolandsport.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/纬来精彩.png" group-title="默认分组",纬来精彩
-http://smt.4666888.xyz/videolandspecial_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="默认分组",纬来日本
-http://smt.4666888.xyz/videolandjapan.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="默认分组",纬来电影
-http://smt.4666888.xyz/videolandmovie.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來綜合.png" group-title="默认分组",纬来综合
-http://smt.4666888.xyz/videolandzonghe.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來育樂.png" group-title="默认分组",纬来育乐
-http://smt.4666888.xyz/videolandyule.m3u8
-#EXTINF:-1 tvg-id="愛爾達綜合台" tvg-name="愛爾達綜合台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达综合台.png" group-title="默认分组",爱尔达综合台
-http://smt.4666888.xyz/eltazonghe_twn.m3u8
-#EXTINF:-1 tvg-id="愛爾達影劇台" tvg-name="愛爾達影劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达影剧台.png" group-title="默认分组",爱尔达影剧台
-http://smt.4666888.xyz/eltayingju_twn.m3u8
-#EXTINF:-1 tvg-id="愛爾達體育1台" tvg-name="愛爾達體育1台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育1台.png" group-title="默认分组",爱尔达体育1台
-http://smt.4666888.xyz/eltasport_twn.m3u8
-#EXTINF:-1 tvg-id="愛爾達體育2台" tvg-name="愛爾達體育2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛爾達體育2台.png" group-title="默认分组",爱尔达体育2台
-http://smt.4666888.xyz/eltasport2_twn.m3u8
-#EXTINF:-1 tvg-id="愛爾達體育3台" tvg-name="愛爾達體育3台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育3台.png" group-title="默认分组",爱尔达体育3台
-http://smt.4666888.xyz/eltasport3_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="默认分组",非凡新闻
-http://smt.4666888.xyz/feifannews_twn.m3u8
-#EXTINF:-1 tvg-id="年代新聞" tvg-name="年代新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/年代新闻.png" group-title="默认分组",年代新闻
-http://smt.4666888.xyz/niandainews_twn.m3u8
-#EXTINF:-1 tvg-id="龍華戲劇" tvg-name="龍華戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华戏剧.png" group-title="默认分组",龙华戏剧
-http://smt.4666888.xyz/lunghuaxiju_twn.m3u8
-#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="默认分组",龙华偶像
-http://smt.4666888.xyz/lunghuaidol_twn.m3u8
-#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="默认分组",龙华电影
-http://smt.4666888.xyz/xingwei_movie.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="默认分组",龙华洋片
-http://smt.4666888.xyz/lunghuawestern_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华经典.png" group-title="默认分组",龙华经典
-http://smt.4666888.xyz/lunghuajingdian_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天国际.png" group-title="默认分组",靖天国际
-http://smt.4666888.xyz/jingtianintl_twn.m3u8
-#EXTINF:-1 tvg-id="靖天卡通" tvg-name="靖天卡通" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天卡通.png" group-title="默认分组",靖天卡通
-http://smt.4666888.xyz/jingtiancartoon_twn.m3u8
-#EXTINF:-1 tvg-id="大愛電視" tvg-name="大愛電視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大愛電視.png" group-title="默认分组",大愛電視
-http://smt.4666888.xyz/daai_twn.m3u8
-#EXTINF:-1 tvg-id="大愛二台" tvg-name="大愛二台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/大爱二台.png" group-title="默认分组",大愛二台
-http://smt.4666888.xyz/daai2_twn.m3u8
-#EXTINF:-1 group-title="默认分组",EYE 旅游台
-http://smt.4666888.xyz/eyetvtravel_twn.m3u8
-#EXTINF:-1 group-title="默认分组",EYE 戏剧台
-http://smt.4666888.xyz/eyetvxiju_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲美食.png" group-title="默认分组",亚洲美食
-http://smt.4666888.xyz/afc_twn.m3u8
-#EXTINF:-1 tvg-id="美食星球" tvg-name="美食星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美食星球.png" group-title="默认分组",美食星球
-http://smt.4666888.xyz/foodplanet_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TLC旅遊生活.png" group-title="默认分组",TLC旅遊生活
-http://smt.4666888.xyz/tlc_twn.m3u8
-#EXTINF:-1 tvg-id="亞洲旅遊台" tvg-name="亞洲旅遊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/亚洲旅游台.png" group-title="默认分组",亚洲旅游台
-http://smt.4666888.xyz/asiatravel_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="默认分组",Arirang
-http://smt.4666888.xyz/arirang_twn.m3u8
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="默认分组",HBO
-http://smt.4666888.xyz/hbohd_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="默认分组",HBO HITS
-http://smt.4666888.xyz/hbohit_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CINEMAX.png" group-title="默认分组",CINEMAX
-http://smt.4666888.xyz/cinemax_twn.m3u8
-#EXTINF:-1 tvg-id="好莱坞电影台" tvg-name="好莱坞电影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好莱坞电影台.png" group-title="默认分组",好萊塢電影台
-http://smt.4666888.xyz/hollywoodmovies_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/卫视电影台.png" group-title="默认分组",卫视电影台
-http://smt.4666888.xyz/weishimovie_twn.m3u8
-#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="默认分组",龙祥时代
-http://smt.4666888.xyz/lungxiangtime_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/美亞電影.png" group-title="默认分组",美亚电影
-http://smt.4666888.xyz/meiyamovie_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/华艺综合.png" group-title="默认分组",華藝綜合
-http://smt.4666888.xyz/weishichinese_twn.m3u8
-#EXTINF:-1 tvg-id="博斯運動一台" tvg-name="博斯運動一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯運動一台.png" group-title="默认分组",博斯运动一台
-http://smt.4666888.xyz/bosisport1_twn.m3u8
-#EXTINF:-1 tvg-id="博斯運動二台" tvg-name="博斯運動二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯运动二台.png" group-title="默认分组",博斯运动二台
-http://smt.4666888.xyz/bosisport2_twn.m3u8
-#EXTINF:-1 tvg-id="博斯高球一台" tvg-name="博斯高球一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球一台.png" group-title="默认分组",博斯高球一台
-http://smt.4666888.xyz/bosigolf1_twn.m3u8
-#EXTINF:-1 tvg-id="博斯高球二台" tvg-name="博斯高球二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球二台.png" group-title="默认分组",博斯高球二台
-http://smt.4666888.xyz/bosigolf2_twn.m3u8
-#EXTINF:-1 tvg-id="博斯網球台" tvg-name="博斯網球台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯网球台.png" group-title="默认分组",博斯网球台
-http://smt.4666888.xyz/bositennis_twn.m3u8
-#EXTINF:-1 tvg-id="博斯無限台" tvg-name="博斯無限台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯无限台.png" group-title="默认分组",博斯无限台
-http://smt.4666888.xyz/bosiunlimited_twn.m3u8
-#EXTINF:-1 group-title="默认分组",好消息 2
-http://smt.4666888.xyz/good2_twn.m3u8
-#EXTINF:-1 group-title="默认分组",AXN Taiwan
-http://smt.4666888.xyz/axn_twn.m3u8
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="默认分组",HBO
-http://smt.4666888.xyz/hbohd_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="默认分组",HBO HITS
-http://smt.4666888.xyz/hbohit_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CINEMAX.png" group-title="默认分组",CINEMAX
-http://smt.4666888.xyz/cinemax_twn.m3u8
-#EXTINF:-1 tvg-id="好莱坞电影台" tvg-name="好莱坞电影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好莱坞电影台.png" group-title="默认分组",好萊塢電影台
-http://smt.4666888.xyz/hollywoodmovies_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="默认分组",东森电影
-http://smt.4666888.xyz/ettvmovie.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森洋片.png" group-title="默认分组",东森洋片
-http://smt.4666888.xyz/ettvwestern.m3u8
-#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="默认分组",龙华电影
-http://smt.4666888.xyz/xingwei_movie.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華洋片.png" group-title="默认分组",龙华洋片
-http://smt.4666888.xyz/lunghuawestern_twn.m3u8
-#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="默认分组",龙祥时代
-http://smt.4666888.xyz/lungxiangtime_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/美亞電影.png" group-title="默认分组",美亚电影
-http://smt.4666888.xyz/meiyamovie_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/卫视电影台.png" group-title="默认分组",卫视电影台
-http://smt.4666888.xyz/weishimovie_twn.m3u8
-#EXTINF:-1 tvg-id="天映频道 (新加坡)" tvg-name="天映频道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映頻道.png" group-title="默认分组",天映频道
-http://smt.4666888.xyz/Celestial.m3u8
-#EXTINF:-1 tvg-id="天映频道 (新加坡)" tvg-name="天映频道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映頻道.png" group-title="默认分组",天映频道
-http://smt.4666888.xyz/Celestialindo.m3u8
-#EXTINF:-1 tvg-id="天映经典 (香港)" tvg-name="天映经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="默认分组",天映经典
-http://smt.4666888.xyz/Celestial2.m3u8
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="默认分组",HBO
-http://smt.4666888.xyz/Hbo.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Signature.png" group-title="默认分组",HBO Signature
-http://smt.4666888.xyz/Hbosignature.m3u8
-#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Family.png" group-title="默认分组",HBO Family
-http://smt.4666888.xyz/Hbofamily.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="默认分组",HBO Hits
-http://smt.4666888.xyz/Hbohitshd.m3u8
-#EXTINF:-1 tvg-id="Thrill" tvg-name="Thrill" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/THRILL.png" group-title="默认分组",Thrill
-http://smt.4666888.xyz/Thrill.m3u8
-#EXTINF:-1 group-title="默认分组",Hits Movie
-http://smt.4666888.xyz/Hitsmovie.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ONE.png" group-title="默认分组",One
-http://smt.4666888.xyz/One.m3u8
-#EXTINF:-1 group-title="默认分组",tvN Movie
-http://smt.4666888.xyz/Tvnmovie.m3u8
-#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/AXN.png" group-title="默认分组",Axn
-http://smt.4666888.xyz/Axn.m3u8
-#EXTINF:-1 tvg-id="DiSCOVERY" tvg-name="DiSCOVERY" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="默认分组",Discovery
-http://smt.4666888.xyz/discoveryhd_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亞洲美食.png" group-title="默认分组",亚洲美食
-http://smt.4666888.xyz/afc_twn.m3u8
-#EXTINF:-1 tvg-id="美食星球" tvg-name="美食星球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美食星球.png" group-title="默认分组",美食星球
-http://smt.4666888.xyz/foodplanet_twn.m3u8
-#EXTINF:-1 group-title="默认分组",亚洲TLC
-http://smt.4666888.xyz/tlc_twn.m3u8
-#EXTINF:-1 tvg-id="亞洲旅遊台" tvg-name="亞洲旅遊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/亚洲旅游台.png" group-title="默认分组",亚洲旅游台
-http://smt.4666888.xyz/asiatravel_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森财经新闻.png" group-title="默认分组",东森财经新闻
-http://smt.4666888.xyz/ettvcaijing_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/CBS.png" group-title="默认分组",CBS
-http://smt.4666888.xyz/cbshd_glo.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cbsn.png" group-title="默认分组",CBSN
-http://smt.4666888.xyz/cbsn_glo.m3u8
-#EXTINF:-1 tvg-id="France 24" tvg-name="France 24" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/France 24.png" group-title="默认分组",France 24
-http://smt.4666888.xyz/france24_twn.m3u8
-#EXTINF:-1 tvg-id="靖天卡通" tvg-name="靖天卡通" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天卡通.png" group-title="默认分组",靖天卡通
-http://smt.4666888.xyz/jingtiancartoon_twn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森幼幼.png" group-title="默认分组",东森幼幼
-http://smt.4666888.xyz/yoyo_twn.m3u8
-#EXTINF:-1 group-title="默认分组",Astro Premier League 1
-http://smt.4666888.xyz/go_assp1.m3u8
-#EXTINF:-1 group-title="默认分组",Astro EPL 1 backup
-http://smt.4666888.xyz/go_assp1x.m3u8
-#EXTINF:-1 group-title="默认分组",Astro Premier League 2
-http://smt.4666888.xyz/go_assp2.m3u8
-#EXTINF:-1 group-title="默认分组",Astro Grandstand
-http://smt.4666888.xyz/go_assp3.m3u8
-#EXTINF:-1 group-title="默认分组",Astro Football
-http://smt.4666888.xyz/go_assp4.m3u8
-#EXTINF:-1 group-title="默认分组",Astro Sports Plus
-http://smt.4666888.xyz/go_sportsplus.m3u8
-#EXTINF:-1 group-title="默认分组",Astro Badminton 1
-http://smt.4666888.xyz/go_badminton1.m3u8
-#EXTINF:-1 group-title="默认分组",Astro Badminton 2
-http://smt.4666888.xyz/go_badminton2.m3u8
-#EXTINF:-1 group-title="默认分组",Astro W-Sports
-http://smt.4666888.xyz/go_assp5.m3u8
-#EXTINF:-1 group-title="默认分组",Supersports 1
-http://smt.4666888.xyz/Assp1.m3u8
-#EXTINF:-1 group-title="默认分组",Supersports 2
-http://smt.4666888.xyz/Assp2.m3u8
-#EXTINF:-1 group-title="默认分组",Supersports 3
-http://smt.4666888.xyz/Assp3.m3u8
-#EXTINF:-1 group-title="默认分组",Supersports 4
-http://smt.4666888.xyz/Assp4.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/WWE.png" group-title="默认分组",WWE
-http://smt.4666888.xyz/Wwe.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/FIGHT SPORTS.png" group-title="默认分组",Fight Sports
-http://smt.4666888.xyz/Fs.m3u8
-#EXTINF:-1 group-title="默认分组",NBA TV
-http://smt.4666888.xyz/Nba.m3u8
-#EXTINF:-1 tvg-id="愛爾達體育2台" tvg-name="愛爾達體育2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/愛爾達體育2台.png" group-title="默认分组",爱尔达体育2台
-http://smt.4666888.xyz/eltasport2_twn.m3u8
-#EXTINF:-1 tvg-id="愛爾達體育3台" tvg-name="愛爾達體育3台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱尔达体育3台.png" group-title="默认分组",爱尔达体育3台
-http://smt.4666888.xyz/eltasport3_
-#EXTINF:-1 tvg-id="Channel 5" tvg-name="Channel 5" group-title="默认分组",Channel 5
-http://smt.4666888.xyz/Channel5HD.m3u8
-#EXTINF:-1 tvg-id="Channel 8" tvg-name="Channel 8" group-title="默认分组",Channel 8
-http://smt.4666888.xyz/Channel8HD.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sg/suria.png" group-title="默认分组",Suria
-http://smt.4666888.xyz/Suria.m3u8
-#EXTINF:-1 tvg-id="Channel U" tvg-name="Channel U" group-title="默认分组",Channel U
-http://smt.4666888.xyz/ChannelU.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tv1.png" group-title="默认分组",TV1
-http://smt.4666888.xyz/TV1.m3u8
-#EXTINF:-1 group-title="默认分组",TV1 backup
-http://smt.4666888.xyz/TV1_backup.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TV2.png" group-title="默认分组",TV2
-http://smt.4666888.xyz/TV2.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TV3.png" group-title="默认分组",TV3
-http://smt.4666888.xyz/TV3.m3u8
-#EXTINF:-1 group-title="默认分组",TV3 SD
-http://smt.4666888.xyz/TV3_mega.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NTV7.png" group-title="默认分组",NTV7
-http://smt.4666888.xyz/NTV7.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tv8.png" group-title="默认分组",TV8
-http://smt.4666888.xyz/TV8.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tv9.png" group-title="默认分组",TV9
-http://smt.4666888.xyz/TV9.m3u8
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="默认分组",HBO
-http://smt.4666888.xyz/Hbo.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Signature.png" group-title="默认分组",HBO Signature
-http://smt.4666888.xyz/Hbosignature.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Hits.png" group-title="默认分组",HBO Hits
-http://smt.4666888.xyz/Hbohitshd.m3u8
-#EXTINF:-1 group-title="默认分组",Astro Sonypix
-http://smt.4666888.xyz/Asonypix.m3u8
-#EXTINF:-1 tvg-id="tvN" tvg-name="tvN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/tvN.png" group-title="默认分组",TvN
-http://smt.4666888.xyz/TVN.m3u8
-#EXTINF:-1 group-title="默认分组",华丽台 HD （Wah Lai Toi）
-http://smt.4666888.xyz/Wlt.m3u8
-#EXTINF:-1 group-title="默认分组",欢喜台 HD （Hua Hee Tai）
-http://smt.4666888.xyz/Huahee.m3u8
-#EXTINF:-1 group-title="默认分组",Astro QJ
-http://smt.4666888.xyz/Quanjia.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVB Jade.png" group-title="默认分组",TVB Jade
-http://smt.4666888.xyz/Tvbjade.m3u8
-#EXTINF:-1 group-title="默认分组",TVB Asia
-http://smt.4666888.xyz/Tvbasia.m3u8
-#EXTINF:-1 group-title="默认分组",TVB Entertainment
-http://smt.4666888.xyz/Tvbentertainment.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVB Classic.png" group-title="默认分组",TVB Classic
-http://smt.4666888.xyz/Tvbclassic.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/AOD.png" group-title="默认分组",AOD
-http://smt.4666888.xyz/Aodhd.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ONE.png" group-title="默认分组",One
-http://smt.4666888.xyz/One.m3u8
-#EXTINF:-1 group-title="默认分组",TVB 星河台 Xing He
-http://smt.4666888.xyz/Xinhe.m3u8
-#EXTINF:-1 group-title="默认分组",爱奇艺 iQiyi
-http://smt.4666888.xyz/Qiyi.m3u8
 #EXTINF:-1 group-title="默认分组",COZI TV SD
 http://nor1live.win:80/livehttpplay?channel_id=23000
 #EXTINF:-1 group-title="默认分组",TELEXITOS SD
@@ -2882,35 +2532,35 @@ http://nor3live.win:80/livehttpplay?channel_id=23362
 #EXTINF:-1 group-title="默认分组",HBO EXTREME
 http://nor3live.win:80/livehttpplay?channel_id=23363
 #EXTINF:-1 group-title="默认分组",水水家猪蹄
-http://cfss.cc/cdn/dy/ssjzt777.flv
+http://live.iill.top/douyin/ssjzt777
 #EXTINF:-1 group-title="默认分组",格格睡醒了
-http://cfss.cc/cdn/dy/42347122605.flv
+http://live.iill.top/douyin/42347122605
 #EXTINF:-1 group-title="默认分组",晓晓
-http://cfss.cc/cdn/dy/147258247158d.flv
+http://live.iill.top/douyin/147258247158d
 #EXTINF:-1 group-title="默认分组",朱朱
-http://cfss.cc/cdn/dy/36914825720a.flv
+http://live.iill.top/douyin/36914825720a
 #EXTINF:-1 group-title="默认分组",爱播
-http://cfss.cc/cdn/dy/72601999700.flv
+http://live.iill.top/douyin/72601999700
 #EXTINF:-1 group-title="默认分组",解腻小馋猫
-http://cfss.cc/cdn/dy/57441738759.flv
+http://live.iill.top/douyin/57441738759
 #EXTINF:-1 group-title="默认分组",曲琦
-http://cfss.cc/cdn/dy/87903335725.flv
+http://live.iill.top/douyin/87903335725
 #EXTINF:-1 group-title="默认分组",清茶
-http://cfss.cc/cdn/dy/92367486793.flv
+http://live.iill.top/douyin/92367486793
 #EXTINF:-1 group-title="默认分组",是安安吖
-http://cfss.cc/cdn/dy/anan20050512.flv
+http://live.iill.top/douyin/anan20050512
 #EXTINF:-1 group-title="默认分组",阿米Dol
-http://cfss.cc/cdn/dy/59123141128.flv
+http://live.iill.top/douyin/59123141128
 #EXTINF:-1 group-title="默认分组",Y不歪
-http://cfss.cc/cdn/dy/49739112236.flv
+http://live.iill.top/douyin/49739112236
 #EXTINF:-1 group-title="默认分组",蜡笔小瑶
-http://cfss.cc/cdn/dy/75636233170.flv
+http://live.iill.top/douyin/75636233170
 #EXTINF:-1 group-title="默认分组",火鸡面梦女
-http://cfss.cc/cdn/dy/45652007446.flv
+http://live.iill.top/douyin/45652007446
 #EXTINF:-1 group-title="默认分组",珍妮玛士多
-http://cfss.cc/cdn/dy/204336008.flv
+http://live.iill.top/douyin/204336008
 #EXTINF:-1 group-title="默认分组",不是陈cc
-http://cfss.cc/cdn/dy/91841348504.flv
+http://live.iill.top/douyin/91841348504
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视网.png" group-title="默认分组",央视网
 http://cfss.cc/cdn/dy/cctv.com.flv
 #EXTINF:-1 group-title="默认分组",小央视频
@@ -2962,27 +2612,27 @@ http://cfss.cc/cdn/dy/clscccaijing.flv
 #EXTINF:-1 group-title="默认分组",小强热线浙江教科
 http://cfss.cc/cdn/dy/ZTV4.flv
 #EXTINF:-1 group-title="默认分组",好听老歌（24小时听歌)
-http://cfss.cc/cdn/dy/sS5.zZ2.0Oo1.flv
+http://live.iill.top/douyin/sS5.zZ2.0Oo1
 #EXTINF:-1 group-title="默认分组",好听音乐（24小时音乐）
-http://cfss.cc/cdn/dy/73840102937.flv
+http://live.iill.top/douyin/73840102937
 #EXTINF:-1 group-title="默认分组",24小时音乐
-http://cfss.cc/cdn/dy/11810687.flv
+http://live.iill.top/douyin/11810687
 #EXTINF:-1 group-title="默认分组",经典老歌70.80.90.
-http://cfss.cc/cdn/dy/dyv9sncck3z4.flv
+http://live.iill.top/douyin/dyv9sncck3z4
 #EXTINF:-1 group-title="默认分组",南一FM
-http://cfss.cc/cdn/dy/nanyiFM.flv
+http://live.iill.top/douyin/nanyiFM
 #EXTINF:-1 group-title="默认分组",若初FM
-http://cfss.cc/cdn/dy/4357638866..flv
+http://live.iill.top/douyin/4357638866.
 #EXTINF:-1 group-title="默认分组",岁月歌单（24h听歌）
-http://cfss.cc/cdn/dy/O0oZ2z.8Bbl1IS5s.flv
+http://live.iill.top/douyin/O0oZ2z.8Bbl1IS5s
 #EXTINF:-1 group-title="默认分组",我是海燕FM
-http://cfss.cc/cdn/dy/22930066273.flv
+http://live.iill.top/douyin/22930066273
 #EXTINF:-1 group-title="默认分组",汐汐🎙音乐FM
-http://cfss.cc/cdn/dy/21601585217.flv
+http://live.iill.top/douyin/21601585217
 #EXTINF:-1 group-title="默认分组",辰辰🎧音乐FM
-http://cfss.cc/cdn/dy/291881148.flv
+http://live.iill.top/douyin/291881148
 #EXTINF:-1 group-title="默认分组",安然音乐
-http://cfss.cc/cdn/dy/887483788.flv
+http://live.iill.top/douyin/887483788
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="默认分组",大湾区卫视
 http://119.123.77.106:8086/hls/29/index.m3u8
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="默认分组",广东民生
@@ -8407,112 +8057,10 @@ http://103.45.128.46:2001/jmb/IPTV.php?id=农林卫视
 http://103.45.128.46:2001/jmb/IPTV.php?id=兵团卫视
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="默认分组",大湾区卫视
 http://119.91.7.169:2026/tv/mg4.php?id=大湾区卫视
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="默认分组",CCTV1
-http://livea-ori.huarentv.live:14923
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="默认分组",CCTV1
-http://livea-ori.huarentv.live:14977
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="默认分组",CCTV2
-http://livea-ori.huarentv.live:14993
-#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="默认分组",CCTV3
-http://livea-ori.huarentv.live:14985
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="默认分组",CCTV4
-http://livea-ori.huarentv.live:14994
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="默认分组",CCTV5
-http://livea-ori.huarentv.live:14924
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="默认分组",CCTV5
-http://livea-ori.huarentv.live:14982
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="默认分组",CCTV5+
-http://livea-ori.huarentv.live:14925
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="默认分组",CCTV5+
-http://livea-ori.huarentv.live:14981
-#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="默认分组",CCTV6
-http://livea-ori.huarentv.live:14995
-#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="默认分组",CCTV7
-http://livea-ori.huarentv.live:14997
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="默认分组",CCTV8
-http://livea-ori.huarentv.live:14996
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="默认分组",CCTV9
-http://livea-ori.huarentv.live:14904
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="默认分组",CCTV10
-http://livea-ori.huarentv.live:14998
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="默认分组",CCTV11
-http://livea-ori.huarentv.live:14986
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="默认分组",CCTV12
-http://livea-ori.huarentv.live:14987
-#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="默认分组",CCTV13
-http://livea-ori.huarentv.live:14979
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="默认分组",CCTV14
-http://livea-ori.huarentv.live:14989
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="默认分组",CCTV15
-http://livea-ori.huarentv.live:14905
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="默认分组",CCTV16
-http://livea-ori.huarentv.live:14926
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="默认分组",CCTV16
-http://livea-ori.huarentv.live:14910
-#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="默认分组",CCTV17
-http://livea-ori.huarentv.live:14965
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="默认分组",安徽卫视
-http://livea-ori.huarentv.live:14902
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="默认分组",北京卫视
-http://livea-ori.huarentv.live:14901
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="默认分组",重庆卫视
-http://livea-ori.huarentv.live:14970
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="默认分组",东方卫视
-http://livea-ori.huarentv.live:14999
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="默认分组",东南卫视
-http://livea-ori.huarentv.live:14974
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="默认分组",河北卫视
-http://livea-ori.huarentv.live:14973
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="默认分组",河南卫视
-http://livea-ori.huarentv.live:14992
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="默认分组",湖南卫视
-http://livea-ori.huarentv.live:14983
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="默认分组",江苏卫视
-http://livea-ori.huarentv.live:14980
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="默认分组",江西卫视
-http://livea-ori.huarentv.live:14990
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="默认分组",辽宁卫视
-http://livea-ori.huarentv.live:14991
-#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="默认分组",宁夏卫视
-http://livea-ori.huarentv.live:14971
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="默认分组",山东卫视
-http://livea-ori.huarentv.live:14988
-#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="默认分组",山西卫视
-http://livea-ori.huarentv.live:14972
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="默认分组",深圳卫视
-http://livea-ori.huarentv.live:14903
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="默认分组",天津卫视
-http://livea-ori.huarentv.live:14906
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="默认分组",CGTN
-http://livea-ori.huarentv.live:14966
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="默认分组",广东体育
-http://livea-ori.huarentv.live:14975
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="默认分组",广东珠江
-http://livea-ori.huarentv.live:14909
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="默认分组",凤凰资讯
-http://livea-ori.huarentv.live:14896
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="默认分组",凤凰香港
-http://livea-ori.huarentv.live:14897
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="默认分组",凤凰中文
-http://livea-ori.huarentv.live:14898
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="默认分组",广东珠江
 http://223.111.150.99:6673/tv/mg4.php?id=广东珠江
-#EXTINF:-1 group-title="默认分组",广东科教
-http://223.111.150.99:6673/tv/mg4.php?id=广东科教
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="默认分组",广东体育
-http://223.111.150.99:6673/tv/mg4.php?id=广东体育
-#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="默认分组",广东新闻
-http://223.111.150.99:6673/tv/mg4.php?id=广东新闻
-#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="默认分组",广东民生
-http://223.111.150.99:6673/tv/mg4.php?id=广东民生
-#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="默认分组",广东影视
-http://223.111.150.99:6673/tv/mg4.php?id=广东影视
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/岭南戏曲.png" group-title="默认分组",岭南戏曲
 http://223.111.150.99:6673/tv/mg4.php?id=岭南戏曲
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="默认分组",广东珠江
-http://223.111.150.99:6673/tv/mg3.php?id=广东珠江
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="默认分组",广东体育
-http://223.111.150.99:6673/tv/mg3.php?id=广东体育
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="默认分组",CCTV1
 http://119.91.7.169:2026/dszb/IPTV.php?id=CCTV1
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="默认分组",CCTV2
