@@ -599,13 +599,17 @@ def process_single_source(output_filename, source_config, epg_channels, logo_sou
         if not line:
             continue
             
-        # 检查是否是分组行 (支持多种格式)
-        if line.endswith(",#genre#") or line.endswith(",genre") or re.search(r",#?\w*genre\w*#?$", line):
-            current_group = re.sub(r",#?\w*genre\w*#?$", "", line)
+        # ========== 修改开始：支持分组行带额外参数（如 ,DE=3） ==========
+        # 检查是否是分组行 (支持多种格式，包括末尾带额外参数如",DE=3")
+        # 匹配模式: 任意内容 + 逗号 + #genre# 或 genre + 可选的逗号和额外参数
+        genre_match = re.search(r'^(.*?),(#genre#|genre)(?:,.*)?$', line, re.IGNORECASE)
+        if genre_match:
+            current_group = genre_match.group(1).strip()
             # 尝试修复Unicode转义序列
             current_group = fix_unicode_escape(current_group)
             print(f"检测到分组: {current_group} (第{line_count}行)")
             continue
+        # ========== 修改结束 ==========
             
         # 解析频道行 - 尝试多种分隔符
         parts = None
