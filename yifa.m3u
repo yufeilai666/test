@@ -11433,6 +11433,438 @@ http://124.236.93.22:2380/hw1live.rxip.sc96655.com.huan.tv/live/stxwHD_2000.m3u8
 http://124.236.93.22:2380/hw1live.rxip.sc96655.com.huan.tv/live/gxt_2000.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/峨眉山综合.png" group-title="蜀小果线2380",峨眉山综合
 http://124.236.93.22:2380/hw1live.rxip.sc96655.com.huan.tv/live/emsxw_2000.m3u8
+#EXTINF:-1 tvg-id="鳳凰衛視中文台" tvg-name="鳳凰衛視中文台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視中文台.png" group-title="四川广电",凤凰卫视中文台
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E4%B8%AD%E6%96%87%E5%8F%B0HD?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視資訊台.png" group-title="四川广电",凤凰卫视资讯台
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86%E8%B5%84%E8%AE%AF%E5%8F%B0HD?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",V音乐台
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/V%E9%9F%B3%E4%B9%90%E5%8F%B0?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/星空卫视.png" group-title="四川广电",星空卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E6%98%9F%E7%A9%BA%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="四川广电",CCTV4K
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/CCTV4K?r2h-token=66668888
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="四川广电",湖南卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="四川广电",江苏卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="四川广电",浙江卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="四川广电",东方卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="四川广电",北京卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="四川广电",北京卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86/2?r2h-token=66668888
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="四川广电",深圳卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="四川广电",广东卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="四川广电",四川卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="四川广电",四川卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86/2?r2h-token=66668888
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="四川广电",山东卫视
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8K.png" group-title="四川广电",CCTV8K
+http://117.174.72.21:5130/4K%E9%A2%91%E9%81%93/CCTV8K%28%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%89?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="四川广电",CCTV1
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV1?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="四川广电",CCTV2
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV2?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="四川广电",CCTV3
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV3?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="四川广电",CCTV4
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV4?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="四川广电",CCTV5
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV5?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="四川广电",CCTV5+
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV5%2B?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="四川广电",CCTV6
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV6?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="四川广电",CCTV7
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV7?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="四川广电",CCTV8
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV8?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="四川广电",CCTV9
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV9?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="四川广电",CCTV10
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV10?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="四川广电",CCTV11
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV11?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="四川广电",CCTV12
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV12?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="四川广电",CCTV13
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV13?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="四川广电",CCTV14
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV14?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="四川广电",CCTV15
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV15?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="四川广电",CCTV16
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV16?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="四川广电",CCTV17
+http://117.174.72.21:5130/%E5%A4%AE%E8%A7%86/CCTV17?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国交通.png" group-title="四川广电",中国交通
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E4%B8%AD%E5%9B%BD%E4%BA%A4%E9%80%9A?r2h-token=66668888
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="四川广电",湖南卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="四川广电",浙江卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="四川广电",江苏卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="四川广电",北京卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="四川广电",东方卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="四川广电",深圳卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="四川广电",广东卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="四川广电",四川卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="四川广电",重庆卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="四川广电",天津卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="四川广电",海南卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/厦门卫视.png" group-title="四川广电",厦门卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%8E%A6%E9%97%A8%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="四川广电",河南卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="四川广电",湖北卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="四川广电",山东卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="四川广电",东南卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="四川广电",吉林卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="四川广电",辽宁卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="四川广电",黑龙江卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="延边卫视 (shanghai)" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/延边卫视.png" group-title="四川广电",延边卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%BB%B6%E8%BE%B9%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="四川广电",河北卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="四川广电",山西卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="四川广电",内蒙古卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="四川广电",陕西卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="四川广电",甘肃卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="四川广电",宁夏卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="四川广电",青海卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="四川广电",新疆卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="四川广电",兵团卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="四川广电",云南卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="四川广电",贵州卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/康巴卫视.png" group-title="四川广电",康巴卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%BA%B7%E5%B7%B4%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="四川广电",西藏卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安多卫视.png" group-title="四川广电",安多卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%AE%89%E5%A4%9A%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="四川广电",安徽卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="四川广电",江西卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="四川广电",广西卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="三沙卫视 (shanghai)" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三沙卫视.png" group-title="四川广电",三沙卫视
+http://117.174.72.21:5130/%E5%8D%AB%E8%A7%86%E5%8F%B0/%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰纪实.png" group-title="四川广电",金鹰纪实
+http://117.174.72.21:5130/%E7%BA%AA%E5%BD%95%E9%A2%91%E9%81%93/%E9%87%91%E9%B9%B0%E7%BA%AA%E5%AE%9E?r2h-token=66668888
+#EXTINF:-1 tvg-id="求索记录" tvg-name="求索记录" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/求索记录.png" group-title="四川广电",求索记录
+http://117.174.72.21:5130/%E7%BA%AA%E5%BD%95%E9%A2%91%E9%81%93/%E6%B1%82%E7%B4%A2%E8%AE%B0%E5%BD%95?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",CGTN新闻频道
+http://117.174.72.21:5130/%E7%BA%AA%E5%BD%95%E9%A2%91%E9%81%93/CGTN%E6%96%B0%E9%97%BB%E9%A2%91%E9%81%93?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cgtn纪录.png" group-title="四川广电",CGTN纪录
+http://117.174.72.21:5130/%E7%BA%AA%E5%BD%95%E9%A2%91%E9%81%93/CGTN%E7%BA%AA%E5%BD%95%E9%A2%91%E9%81%93?r2h-token=66668888
+#EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="四川广电",CGTN法语
+http://117.174.72.21:5130/%E7%BA%AA%E5%BD%95%E9%A2%91%E9%81%93/CGTN%E6%B3%95%E8%AF%AD?r2h-token=66668888
+#EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="四川广电",CGTN俄语
+http://117.174.72.21:5130/%E7%BA%AA%E5%BD%95%E9%A2%91%E9%81%93/CGTN%E4%BF%84%E8%AF%AD?r2h-token=66668888
+#EXTINF:-1 tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN西班牙语.png" group-title="四川广电",CGTN西班牙语
+http://117.174.72.21:5130/%E7%BA%AA%E5%BD%95%E9%A2%91%E9%81%93/CGTN%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD?r2h-token=66668888
+#EXTINF:-1 tvg-id="cgtn阿拉伯语" tvg-name="cgtn阿拉伯语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN阿拉伯语.png" group-title="四川广电",CGTN阿拉伯语
+http://117.174.72.21:5130/%E7%BA%AA%E5%BD%95%E9%A2%91%E9%81%93/CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD?r2h-token=66668888
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="四川广电",中国教育1台
+http://117.174.72.21:5130/%E6%95%99%E8%82%B2%E9%A2%91%E9%81%93/CETV1?r2h-token=66668888
+#EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="四川广电",中国教育2台
+http://117.174.72.21:5130/%E6%95%99%E8%82%B2%E9%A2%91%E9%81%93/CETV2?r2h-token=66668888
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="四川广电",中国教育4台
+http://117.174.72.21:5130/%E6%95%99%E8%82%B2%E9%A2%91%E9%81%93/CETV4?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中央新影中学生.png" group-title="四川广电",中央新影中学生
+http://117.174.72.21:5130/%E6%95%99%E8%82%B2%E9%A2%91%E9%81%93/%E4%B8%AD%E5%A4%AE%E6%96%B0%E5%BD%B1%E4%B8%AD%E5%AD%A6%E7%94%9F?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东教育卫视.png" group-title="四川广电",山东教育卫视
+http://117.174.72.21:5130/%E6%95%99%E8%82%B2%E9%A2%91%E9%81%93/%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2%E5%8D%AB%E8%A7%86%E6%A0%87%E6%B8%85?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="四川广电",北京纪实科教
+http://117.174.72.21:5130/%E6%95%99%E8%82%B2%E9%A2%91%E9%81%93/%E5%8C%97%E4%BA%AC%E7%BA%AA%E5%AE%9E%E7%A7%91%E6%95%99?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",cdtv1综合
+http://117.174.72.21:5130/%E6%88%90%E9%83%BD%E5%8F%B0/cdtv1%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",cdtv2经济
+http://117.174.72.21:5130/%E6%88%90%E9%83%BD%E5%8F%B0/cdtv2%E7%BB%8F%E6%B5%8E?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",cdtv3生活
+http://117.174.72.21:5130/%E6%88%90%E9%83%BD%E5%8F%B0/cdtv3%E7%94%9F%E6%B4%BB?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",cdtv4影视
+http://117.174.72.21:5130/%E6%88%90%E9%83%BD%E5%8F%B0/cdtv4%E5%BD%B1%E8%A7%86?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",cdtv5公共
+http://117.174.72.21:5130/%E6%88%90%E9%83%BD%E5%8F%B0/cdtv5%E5%85%AC%E5%85%B1?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",cdtv6少儿
+http://117.174.72.21:5130/%E6%88%90%E9%83%BD%E5%8F%B0/cdtv6%E5%B0%91%E5%84%BF?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",cdtv8每日购物
+http://117.174.72.21:5130/%E6%88%90%E9%83%BD%E5%8F%B0/cdtv8%E6%AF%8F%E6%97%A5%E8%B4%AD%E7%89%A9?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川新闻.png" group-title="四川广电",四川新闻
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%8F%B0/%E5%9B%9B%E5%B7%9D%E6%96%B0%E9%97%BB?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川经济.png" group-title="四川广电",四川经济
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%8F%B0/%E5%9B%9B%E5%B7%9D%E7%BB%8F%E6%B5%8E?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川文化旅游.png" group-title="四川广电",四川文化旅游
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%8F%B0/%E5%9B%9B%E5%B7%9D%E6%96%87%E5%8C%96%E6%97%85%E6%B8%B8?r2h-token=66668888
+#EXTINF:-1 tvg-id="四川乡村" tvg-name="四川乡村" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川乡村.png" group-title="四川广电",四川乡村
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%8F%B0/%E5%9B%9B%E5%B7%9D%E4%B9%A1%E6%9D%91?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川科教.png" group-title="四川广电",四川科教
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%8F%B0/%E5%9B%9B%E5%B7%9D%E7%A7%91%E6%95%99?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",四川妇女SCTV-7
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%8F%B0/%E5%9B%9B%E5%B7%9D%E5%A6%87%E5%A5%B3SCTV-7?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川影视文艺.png" group-title="四川广电",四川影视文艺
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%8F%B0/%E5%9B%9B%E5%B7%9D%E5%BD%B1%E8%A7%86%E6%96%87%E8%89%BA?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/峨眉电影.png" group-title="四川广电",峨眉电影
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%8F%B0/%E5%B3%A8%E7%9C%89%E7%94%B5%E5%BD%B1%28%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%89?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川星空购物.png" group-title="四川广电",四川星空购物
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%8F%B0/%E5%9B%9B%E5%B7%9D%E6%98%9F%E7%A9%BA%E8%B4%AD%E7%89%A9?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",甘孜综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E7%94%98%E5%AD%9C%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",康定电视台
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%BA%B7%E5%AE%9A%E7%94%B5%E8%A7%86%E5%8F%B0%28%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%89?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",稻城电视台
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E7%A8%BB%E5%9F%8E%E7%94%B5%E8%A7%86%E5%8F%B0?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",阿坝汉语ABTV
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E9%98%BF%E5%9D%9D%E6%B1%89%E8%AF%ADABTV?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",阿坝藏语ABTV
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E9%98%BF%E5%9D%9D%E8%97%8F%E8%AF%ADABTV?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/凉山新闻综合.png" group-title="四川广电",凉山新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%87%89%E5%B1%B1%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/凉山彝语综合.png" group-title="四川广电",凉山彝语综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%87%89%E5%B1%B1%E5%BD%9D%E8%AF%AD%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/攀枝花新闻综合.png" group-title="四川广电",攀枝花新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E6%94%80%E6%9E%9D%E8%8A%B1%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",攀枝花文旅
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E6%94%80%E6%9E%9D%E8%8A%B1%E6%96%87%E6%97%85%28%E6%9C%89%E9%97%AE%E9%A2%98%29?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/雅安新闻综合.png" group-title="四川广电",雅安新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E9%9B%85%E5%AE%89%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/雅安文化生活.png" group-title="四川广电",雅安文化生活
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E9%9B%85%E5%AE%89%E6%96%87%E5%8C%96%E7%94%9F%E6%B4%BB?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/德阳新闻综合.png" group-title="四川广电",德阳新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%BE%B7%E9%98%B3%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/德阳文旅科教.png" group-title="四川广电",德阳文旅科教
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%BE%B7%E9%98%B3%E6%96%87%E6%97%85%E7%A7%91%E6%95%99?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",绵阳新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E7%BB%B5%E9%98%B3%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88%28%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%89?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",绵阳科技生活
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E7%BB%B5%E9%98%B3%E7%A7%91%E6%8A%80%E7%94%9F%E6%B4%BB%28%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%89?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/内江综合.png" group-title="四川广电",内江综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%86%85%E6%B1%9F%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",内江科教
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%86%85%E6%B1%9F%E7%A7%91%E6%95%99?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/自贡综合.png" group-title="四川广电",自贡综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E8%87%AA%E8%B4%A1%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/自贡文化生活.png" group-title="四川广电",自贡文化生活
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E8%87%AA%E8%B4%A1%E6%96%87%E5%8C%96%E7%94%9F%E6%B4%BB?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/乐山新闻综合.png" group-title="四川广电",乐山新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E4%B9%90%E5%B1%B1%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/乐山文旅生活.png" group-title="四川广电",乐山文旅生活
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E4%B9%90%E5%B1%B1%E6%96%87%E6%97%85%E7%94%9F%E6%B4%BB?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/宜宾新闻综合.png" group-title="四川广电",宜宾新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%AE%9C%E5%AE%BE%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/宜宾公共频道.png" group-title="四川广电",宜宾公共频道
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%AE%9C%E5%AE%BE%E5%85%AC%E5%85%B1%E9%A2%91%E9%81%93?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/泸州新闻综合.png" group-title="四川广电",泸州新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E6%B3%B8%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/泸州科教生活.png" group-title="四川广电",泸州科教生活
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E6%B3%B8%E5%B7%9E%E7%A7%91%E6%95%99%E7%94%9F%E6%B4%BB?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/遂宁综合.png" group-title="四川广电",遂宁综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E9%81%82%E5%AE%81%E7%BB%BC%E5%90%88%28%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%89?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/遂宁文化生活.png" group-title="四川广电",遂宁文化生活
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E9%81%82%E5%AE%81%E6%96%87%E5%8C%96%E7%94%9F%E6%B4%BB%28%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%89?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/资阳新闻综合.png" group-title="四川广电",资阳新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E8%B5%84%E9%98%B3%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/眉山综合.png" group-title="四川广电",眉山综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E7%9C%89%E5%B1%B1%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/眉山文旅乡村.png" group-title="四川广电",眉山文旅乡村
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E7%9C%89%E5%B1%B1%E6%96%87%E6%97%85%E4%B9%A1%E6%9D%91?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",南充综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%8D%97%E5%85%85%E7%BB%BC%E5%90%88%28%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%89?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",南充科教生活
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%8D%97%E5%85%85%E7%A7%91%E6%95%99%E7%94%9F%E6%B4%BB%28%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%89?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",广安新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%B9%BF%E5%AE%89%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",广安文旅乡村
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%B9%BF%E5%AE%89%E6%96%87%E6%97%85%E4%B9%A1%E6%9D%91?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广元综合.png" group-title="四川广电",广元综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%B9%BF%E5%85%83%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广元文化生活.png" group-title="四川广电",广元文化生活
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%B9%BF%E5%85%83%E6%96%87%E5%8C%96%E7%94%9F%E6%B4%BB?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/巴中综合.png" group-title="四川广电",巴中综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%B7%B4%E4%B8%AD%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",巴中文旅生活
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E5%B7%B4%E4%B8%AD%E6%96%87%E6%97%85%E7%94%9F%E6%B4%BB?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",达州新闻综合
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E8%BE%BE%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",达州文化生活
+http://117.174.72.21:5130/%E5%9B%9B%E5%B7%9D%E5%B8%82%E5%B7%9E%E5%8F%B0/%E8%BE%BE%E5%B7%9E%E6%96%87%E5%8C%96%E7%94%9F%E6%B4%BB%28%E6%9C%89%E9%97%AE%E9%A2%98%EF%BC%89?r2h-token=66668888
+#EXTINF:-1 tvg-id="CHC家庭影院 (shanghai)" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC家庭影院.png" group-title="四川广电",CHC家庭影院
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/CHC%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",CHC动作影院
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/CHC%E5%8A%A8%E4%BD%9C%E5%BD%B1%E9%99%A2?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",CHC影迷影院
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/CHC%E5%BD%B1%E8%BF%B7%E5%BD%B1%E9%99%A2?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/华数4K.png" group-title="四川广电",华数4K
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/%E5%8D%8E%E6%95%B04K?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV热播剧场.png" group-title="四川广电",IPTV热播剧场
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E7%83%AD%E6%92%AD%E5%89%A7%E5%9C%BA?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV经典电影.png" group-title="四川广电",IPTV经典电影
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E7%BB%8F%E5%85%B8%E7%94%B5%E5%BD%B1?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV谍战剧场.png" group-title="四川广电",IPTV谍战剧场
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E8%B0%8D%E6%88%98%E5%89%A7%E5%9C%BA?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV城市剧场.png" group-title="四川广电",IPTV城市剧场
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E5%9F%8E%E5%B8%82%E5%89%A7%E5%9C%BA?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV军旅剧场.png" group-title="四川广电",IPTV军旅剧场
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E5%86%9B%E6%97%85%E5%89%A7%E5%9C%BA?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV古装剧场.png" group-title="四川广电",IPTV古装剧场
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E5%8F%A4%E8%A3%85%E5%89%A7%E5%9C%BA?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV家庭影院.png" group-title="四川广电",IPTV家庭影院
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV喜剧影院.png" group-title="四川广电",IPTV喜剧影院
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E5%96%9C%E5%89%A7%E5%BD%B1%E9%99%A2?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV武侠剧场.png" group-title="四川广电",IPTV武侠剧场
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E6%AD%A6%E4%BE%A0%E5%89%A7%E5%9C%BA?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV光影.png" group-title="四川广电",IPTV光影
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E5%85%89%E5%BD%B1?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV星影.png" group-title="四川广电",IPTV星影
+http://117.174.72.21:5130/%E5%8D%8E%E6%95%B0%E9%A2%91%E9%81%93/IPTV%E6%98%9F%E5%BD%B1?r2h-token=66668888
+#EXTINF:-1 tvg-id="睛彩篮球" tvg-name="睛彩篮球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/睛彩篮球.png" group-title="四川广电",睛彩篮球
+http://117.174.72.21:5130/%E4%BD%93%E8%82%B2%E5%8F%B0/%E7%9D%9B%E5%BD%A9%E7%AF%AE%E7%90%83?r2h-token=66668888
+#EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/睛彩竞技.png" group-title="四川广电",睛彩竞技
+http://117.174.72.21:5130/%E4%BD%93%E8%82%B2%E5%8F%B0/%E7%9D%9B%E5%BD%A9%E7%AB%9E%E6%8A%80?r2h-token=66668888
+#EXTINF:-1 tvg-id="睛彩青少" tvg-name="睛彩青少" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/睛彩青少.png" group-title="四川广电",睛彩青少
+http://117.174.72.21:5130/%E4%BD%93%E8%82%B2%E5%8F%B0/%E7%9D%9B%E5%BD%A9%E9%9D%92%E5%B0%91?r2h-token=66668888
+#EXTINF:-1 tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/睛彩广场舞.png" group-title="四川广电",睛彩广场舞
+http://117.174.72.21:5130/%E4%BD%93%E8%82%B2%E5%8F%B0/%E7%9D%9B%E5%BD%A9%E5%B9%BF%E5%9C%BA%E8%88%9E?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",移动通知
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E7%A7%BB%E5%8A%A8%E9%80%9A%E7%9F%A5?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/咪视界4K.png" group-title="四川广电",咪视界4K
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C4K?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界直播
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C%E7%9B%B4%E6%92%AD?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界1
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C1?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界2
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C2?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界3
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C3?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界4
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C4?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界5
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C5?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界6
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C6?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界7
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C7?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界8
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C8?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界9
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C9?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界10
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C10?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界11
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C11?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界12
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C12?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界13
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C13?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界14
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C14?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界15
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C15?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界16
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C16?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界17
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C17?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界18
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C18?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界19
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C19?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界20
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C20?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界21
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C21?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界22
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C22?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界23
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C23?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",咪视界24
+http://117.174.72.21:5130/%E5%92%AA%E8%A7%86%E7%95%8C/%E5%92%AA%E8%A7%86%E7%95%8C24?r2h-token=66668888
+#EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/优漫卡通.png" group-title="四川广电",优漫卡通
+http://117.174.72.21:5130/%E5%8A%A8%E7%94%BB%E5%8D%A1%E9%80%9A/%E4%BC%98%E6%BC%AB%E5%8D%A1%E9%80%9A?r2h-token=66668888
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="四川广电",金鹰卡通
+http://117.174.72.21:5130/%E5%8A%A8%E7%94%BB%E5%8D%A1%E9%80%9A/%E9%87%91%E9%B9%B0%E5%8D%A1%E9%80%9A?r2h-token=66668888
+#EXTINF:-1 tvg-id="卡酷少儿 (shanghai)" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/卡酷少儿.png" group-title="四川广电",卡酷少儿
+http://117.174.72.21:5130/%E5%8A%A8%E7%94%BB%E5%8D%A1%E9%80%9A/%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF?r2h-token=66668888
+#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="四川广电",嘉佳卡通
+http://117.174.72.21:5130/%E5%8A%A8%E7%94%BB%E5%8D%A1%E9%80%9A/%E5%98%89%E4%BD%B3%E5%8D%A1%E9%80%9A?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/动画.png" group-title="四川广电",动画
+http://117.174.72.21:5130/%E5%8A%A8%E7%94%BB%E5%8D%A1%E9%80%9A/%E5%8A%A8%E7%94%BB?r2h-token=66668888
+#EXTINF:-1 tvg-id="新动漫" tvg-name="新动漫" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/新动漫.png" group-title="四川广电",新动漫
+http://117.174.72.21:5130/%E5%8A%A8%E7%94%BB%E5%8D%A1%E9%80%9A/%E6%96%B0%E5%8A%A8%E6%BC%AB?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",CCTV经典
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/CCTV%E7%BB%8F%E5%85%B8?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/newtv家庭剧场.png" group-title="四川广电",NEWTV家庭剧场
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/NEWTV%E5%AE%B6%E5%BA%AD%E5%89%A7%E5%9C%BA?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",CCTV高网频道
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/CCTV%E9%AB%98%E7%BD%91%E9%A2%91%E9%81%93?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",CCTV国学频道
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/CCTV%E5%9B%BD%E5%AD%A6%E9%A2%91%E9%81%93?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv世界地理" tvg-name="cctv世界地理" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV世界地理.png" group-title="四川广电",CCTV世界地理
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/CCTV%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",CCTV戏曲频道
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/CCTV%E6%88%8F%E6%9B%B2%E9%A2%91%E9%81%93?r2h-token=66668888
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="四川广电",CCTV1
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/CCTV1?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",天府经曲
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E5%A4%A9%E5%BA%9C%E7%BB%8F%E6%9B%B2?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",天府军旅
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E5%A4%A9%E5%BA%9C%E5%86%9B%E6%97%85?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",天府教育
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E5%A4%A9%E5%BA%9C%E6%95%99%E8%82%B2?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",天府辣妈
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E5%A4%A9%E5%BA%9C%E8%BE%A3%E5%A6%88?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",天府风尚
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E5%A4%A9%E5%BA%9C%E9%A3%8E%E5%B0%9A?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",天府名医
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E5%A4%A9%E5%BA%9C%E5%90%8D%E5%8C%BB?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",天府魔力
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E5%A4%A9%E5%BA%9C%E9%AD%94%E5%8A%9B?r2h-token=66668888
+#EXTINF:-1 tvg-id="央广购物 (shanghai)" tvg-name="央广购物" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央广购物.png" group-title="四川广电",央广购物
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E5%A4%AE%E5%B9%BF%E8%B4%AD%E7%89%A9?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",购物频道
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E8%B4%AD%E7%89%A9%E9%A2%91%E9%81%93?r2h-token=66668888
+#EXTINF:-1 group-title="四川广电",购物频道
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E8%B4%AD%E7%89%A9%E9%A2%91%E9%81%93/2?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/聚鲨环球精选.png" group-title="四川广电",聚鲨环球精选
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E8%81%9A%E9%B2%A8%E7%8E%AF%E7%90%83%E7%B2%BE%E9%80%89?r2h-token=66668888
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/快乐购.png" group-title="四川广电",快乐购
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E5%BF%AB%E4%B9%90%E8%B4%AD?r2h-token=66668888
+#EXTINF:-1 tvg-id="好享购物 (shanghai)" tvg-name="好享购物" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/好享购物.png" group-title="四川广电",好享购物
+http://117.174.72.21:5130/%E5%85%B6%E5%AE%83%E5%8F%B0/%E5%A5%BD%E4%BA%AB%E8%B4%AD%E7%89%A9?r2h-token=66668888
 #EXTINF:-1 group-title="虎牙轮播",名侦探柯南剧场版
 http://cfss.cc/cdn/huya/30080236.flv
 #EXTINF:-1 group-title="虎牙轮播",火影忍者
