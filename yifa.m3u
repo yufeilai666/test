@@ -941,24 +941,6 @@ http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 http://v2hcdn.jdshipin.com/enew/enew.stream/chunklist_w103.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBJ1.png" group-title="极速港台",TVBJ1
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="极速港台",中视
-rtmp://f13h.mine.nu/sat/tv091
-#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="极速港台",华视
-rtmp://f13h.mine.nu/sat/tv111
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="极速港台",台视
-rtmp://f13h.mine.nu/sat/tv071
-#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="极速港台",民视
-rtmp://f13h.mine.nu/sat/tv051
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="极速港台",纬来体育
-http://mtw.so/5yqGDH
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="极速港台",纬来体育
-rtmp://f13h.mine.nu/sat/tv721
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來育樂.png" group-title="极速港台",纬来育乐
-rtmp://f13h.mine.nu/sat/tv701
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="极速港台",纬来日本
-rtmp://f13h.mine.nu/sat/tv771
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="极速港台",东森超视
-rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="极速港台2",中天新闻
 rtmp://demo2.anj365.com/live/xiangjiaoge-ztxw
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/镜新闻台.png" group-title="极速港台2",镜新闻台
@@ -1155,20 +1137,6 @@ http://iptv.4666888.xyz/iptv2A.php?id=63
 http://iptv.4666888.xyz/iptv2A.php?id=64
 #EXTINF:-1 group-title="极速风云",綜藝大贏家
 http://iptv.4666888.xyz/iptv2A.php?id=65
-#EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="极速369",民視新聞
-http://211.72.174.95:8117/0.ts
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="极速369",中視
-http://211.72.174.95:8113/0.ts
-#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="极速369",華視
-http://211.72.174.95:8114/0.ts
-#EXTINF:-1 tvg-id="公視" tvg-name="公視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="极速369",公視
-http://211.72.174.95:8116/0.ts
-#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="极速369",民視
-http://211.72.174.95:8115/0.ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="极速369",台視
-http://211.72.174.95:8112/0.ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="极速369",東森新聞
-http://211.72.174.95:8138/0.ts
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb翡翠台.png" group-title="极速258",TVB翡翠台
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUVBMebB-0s_t1mmJvMNHiXq_bJ2Cb2_rkjs8_iAgPWb6Uqr2eMUAeqv_AORRwOjT5IsFjfMAEPHWh0K8XgyZp-kp75ipWTJ1kV4iF8QOP3rntz-s7PorCqKLpfUkL0F9TFX40JOL29gGYjauDNUGTA3wF2DZDn9_EcYPOvgRFk0gXPTUutVYbeawjtj-qfBr_GkWTNUMnCqxHyxDrWFpXDQ.m3u8?u=1756878715
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/TVB明珠台.png" group-title="极速258",TVB明珠台
@@ -1483,46 +1451,48 @@ http://119.91.7.169:2026/TW.php?id=中天新闻台
 http://119.91.7.169:2026/TW.php?id=中视新闻
 #EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台.png" group-title="四季台湾",寰宇新闻台
 http://119.91.7.169:2026/TW.php?id=寰宇新闻台
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="四季台湾",凤凰香港
-http://47.104.163.156:50/台湾.php?id=fhhk
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tvb翡翠台.png" group-title="四季台湾",TVB翡翠台
-http://47.104.163.156:50/台湾.php?id=tvbfc
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/TVB明珠台.png" group-title="四季台湾",TVB明珠台
-http://47.104.163.156:50/台湾.php?id=tvbmzt
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVB无线新闻.png" group-title="四季台湾",TVB无线新闻
-http://47.104.163.156:50/台湾.php?id=tvbwxxw
-#EXTINF:-1 group-title="四季台湾",TVB J2
-http://47.104.163.156:50/台湾.php?id=tvbj2
-#EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB星河.png" group-title="四季台湾",TVB星河
-http://47.104.163.156:50/台湾.php?id=tvbxh
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/TVB经典.png" group-title="四季台湾",TVB经典
-http://47.104.163.156:50/台湾.php?id=tvbjd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天綜合.png" group-title="四季台湾",中天综合
-http://47.104.163.156:50/台湾.php?id=ztzh
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
-http://47.104.163.156:50/台湾.php?id=ztxw
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天娛樂.png" group-title="四季台湾",中天娱乐
-http://47.104.163.156:50/台湾.php?id=ztyl
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天亞洲.png" group-title="四季台湾",中天亚洲
-http://47.104.163.156:50/台湾.php?id=ztyz
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森綜合.png" group-title="四季台湾",东森综合
-http://47.104.163.156:50/台湾.php?id=dszh
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="四季台湾",东森新闻
-http://47.104.163.156:50/台湾.php?id=dsxw
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森電影.png" group-title="四季台湾",东森电影
-http://47.104.163.156:50/台湾.php?id=dsdy
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森戲劇.png" group-title="四季台湾",东森戏剧
-http://47.104.163.156:50/台湾.php?id=dsxj
-#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="四季台湾",TVBS
-http://47.104.163.156:50/台湾.php?id=tvbs
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="四季台湾",TVBS新闻
-http://47.104.163.156:50/台湾.php?id=tvbsxw
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="四季台湾",HBO
-http://47.104.163.156:50/台湾.php?id=hbohd
-#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/AXN.png" group-title="四季台湾",AXN
-http://47.104.163.156:50/台湾.php?id=axn
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="四季台湾",MTV Live
-http://47.104.163.156:50/台湾.php?id=mtv
+#EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="四季台湾",民視新聞
+http://211.72.174.95:8117/0.ts
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="四季台湾",中視
+http://211.72.174.95:8113/0.ts
+#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="四季台湾",華視
+http://211.72.174.95:8114/0.ts
+#EXTINF:-1 tvg-id="公視" tvg-name="公視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="四季台湾",公視
+http://211.72.174.95:8116/0.ts
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="四季台湾",民視
+http://211.72.174.95:8115/0.ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="四季台湾",台視
+http://211.72.174.95:8112/0.ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="四季台湾",東森新聞
+http://211.72.174.95:8138/0.ts
+#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="四季台湾",华视
+rtmp://9hv1.mine.nu/sat/tv111
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="四季台湾",民视
+rtmp://9hv1.mine.nu/sat/tv051
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="四季台湾",台视
+rtmp://9hv1.mine.nu/sat/tv071
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="四季台湾",中视
+rtmp://9hv1.mine.nu/sat/tv091
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="四季台湾",东森超视
+rtmp://9hv1.mine.nu/sat/tv331
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="四季台湾",非凡新闻
+rtmp://9hv1.mine.nu/sat/tv581
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="四季台湾",纬来日本
+rtmp://9hv1.mine.nu/sat/tv771
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="四季台湾",纬来体育
+rtmp://9hv1.mine.nu/sat/tv721
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來育樂.png" group-title="四季台湾",纬来育乐
+rtmp://9hv1.mine.nu/sat/tv701
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/MOMOTV.png" group-title="四季台湾",MoMoTV
+rtmp://9hv1.mine.nu/sat/tv761
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="四季台湾",东森超视
+rtmp://9hv1.mine.nu/sat/tv331
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MOMO綜合.png" group-title="四季台湾",MoMo综合
+rtmp://9hv1.mine.nu/sat/tv761
+#EXTINF:-1 group-title="四季台湾",ELEVEN体育1
+rtmp://9hv1.mine.nu/sat/tv731
+#EXTINF:-1 group-title="四季台湾",ELEVEN体育2
+rtmp://9hv1.mine.nu/sat/tv741
 #EXTINF:-1 tvg-id="靖天育樂台" tvg-name="靖天育樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天育乐台.png" group-title="四季台湾2",靖天育樂台
 http://clawcloud.goiptv.de5.net/litv.php?id=4gtv-4gtv062&token=xiatianshigou
 #EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森新聞台.png" group-title="四季台湾2",東森新聞台
