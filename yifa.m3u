@@ -971,6 +971,22 @@ http://67.220.71.199:2347/livehttpplay?channel_id=30031
 http://67.220.71.199:2347/livehttpplay?channel_id=20142
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="极速港台2",博斯網球
 http://67.220.71.199:2347/livehttpplay?channel_id=42026
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW爆谷台.png" group-title="极速NOW",Now爆谷台
+https://iptv.707626.xyz/live/stream-now-91y5/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW星影台.png" group-title="极速NOW",Now星影台
+https://iptv.707626.xyz/live/stream-now-x1vz/master.m3u8
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速NOW",翡翠台
+https://iptv.707626.xyz/live/stream-0958b9c6/master.m3u8
+#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="极速NOW",中天新聞台
+https://iptv.707626.xyz/live/stream-ch-c6gd/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/功夫台.png" group-title="极速NOW",功夫台
+https://iptv.707626.xyz/live/stream-ch-j3ol/master.m3u8
+#EXTINF:-1 tvg-id="年代新聞" tvg-name="年代新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/年代新闻.png" group-title="极速NOW",年代新闻
+https://iptv.707626.xyz/live/stream-ch-flf6/master.m3u8
+#EXTINF:-1 tvg-id="LS TIME 龙祥时代" tvg-name="龙祥时代" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙祥时代.png" group-title="极速NOW",龙祥时代
+https://iptv.707626.xyz/live/stream-ch-cpzy/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/星河台.png" group-title="极速NOW",星河台
+https://iptv.707626.xyz/live/stream-ch-6n45/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新聞台.png" group-title="极速NOW",Now新聞台
 https://t.ttvb.eu.org/tvb/now-332/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW财经台.png" group-title="极速NOW",Now財經台
@@ -1603,6 +1619,88 @@ http://fy27.zbds.top:57799/stream/mytv/JUHD/master.m3u8
 http://fy27.zbds.top:57799/stream/mytv/TVO/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黃金翡翠台.png" group-title="MyTVSuper",黄金翡翠台
 http://fy27.zbds.top:57799/stream/mytv/TVG/master.m3u8
+#EXTINF:-1 group-title="tvheadend",港台電視 31
+http://hk2.star2hk.com:2095/stream/channelid/1602635863?ticket=9072b3bbe3394cde32108d1de236d3a3d25e5c1a&profile=pass
+#EXTINF:-1 group-title="tvheadend",港台電視 32
+http://hk2.star2hk.com:2095/stream/channelid/1554897652?ticket=267ba07158b7b01ce1be2739367db9023146bda8&profile=pass
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="tvheadend",CCTV1
+http://hk2.star2hk.com:2095/stream/channelid/1154412102?ticket=a4622728d460d3d52fb9c4a5b92c6cbca5978499&profile=pass
+#EXTINF:-1 group-title="tvheadend",中國環球電視網紀錄頻道 (CGTN紀錄頻道)
+http://hk2.star2hk.com:2095/stream/channelid/92030211?ticket=3ce8ca5263ea22e997bc045933fa1232682f16cc&profile=pass
+#EXTINF:-1 group-title="tvheadend",CGTN 英語頻道
+http://hk2.star2hk.com:2095/stream/channelid/1252262921?ticket=c9ed9c7c9c9537d710dca7118126e52bae49d0fa&profile=pass
+#EXTINF:-1 group-title="tvheadend",*HOY 國際財經台
+http://hk2.star2hk.com:2095/stream/channelid/1434742824?ticket=148f20004f2cd3a23df23facb719932280426b95&profile=pass
+#EXTINF:-1 group-title="tvheadend",*HOY TV
+http://hk2.star2hk.com:2095/stream/channelid/1307960423?ticket=0e67e9c3a7fcd725f1bc72e181b6e23f181677d0&profile=pass
+#EXTINF:-1 group-title="tvheadend",*HOY 資訊台
+http://hk2.star2hk.com:2095/stream/channelid/350823040?ticket=11a5834d00cad370091141cd94b77a36d09677a2&profile=pass
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="tvheadend",翡翠台
+http://hk2.star2hk.com:2095/stream/channelid/566288828?ticket=5e4741f66a86558744ff8969fa3499eb39b2784a&profile=pass
+#EXTINF:-1 group-title="tvheadend",TVB Plus
+http://hk2.star2hk.com:2095/stream/channelid/840351826?ticket=a7aa265ff7e5ab9e5936010cba8db8569660de6e&profile=pass
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="tvheadend",無綫新聞台
+http://hk2.star2hk.com:2095/stream/channelid/1828814827?ticket=8fd16e5308624a086c15cbf88da211930ac8476a&profile=pass
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="tvheadend",明珠台
+http://hk2.star2hk.com:2095/stream/channelid/1213894766?ticket=7430e9c2f60d6c0a813b463e6b0cc9b2146aabe3&profile=pass
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視香港台.png" group-title="tvheadend",鳳凰衛視香港台
+http://hk2.star2hk.com:2095/stream/channelid/1218293550?ticket=532b6a8ac1b7d440377cce033760290446bf0bf4&profile=pass
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/VIUTVSIX.png" group-title="tvheadend",ViuTVsix
+http://hk2.star2hk.com:2095/stream/channelid/313510044?ticket=66d738a479d37534ea9118b4fb9f1851ce863b38&profile=pass
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="tvheadend",ViuTV
+http://hk2.star2hk.com:2095/stream/channelid/423210254?ticket=6702241924516fcda7da694813a5919da3f714f8&profile=pass
+#EXTINF:-1 group-title="tvheadend",港台電視 31
+http://hk2.star2hk.com:55555/stream/channelid/1602635863?ticket=4b1059d5e0fd3761890c373e8f231a68ae929ba7&profile=pass
+#EXTINF:-1 group-title="tvheadend",港台電視 32
+http://hk2.star2hk.com:55555/stream/channelid/1554897652?ticket=88d77f88e23d07d4c5d9e262515319c3e085df2a&profile=pass
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="tvheadend",CCTV1
+http://hk2.star2hk.com:55555/stream/channelid/1154412102?ticket=d479c34914f1148f1fc223ecc4854d22bed2d01b&profile=pass
+#EXTINF:-1 group-title="tvheadend",中國環球電視網紀錄頻道 (CGTN紀錄頻道)
+http://hk2.star2hk.com:55555/stream/channelid/92030211?ticket=6266c4a381408e014da2a2f0ce2fbc831097f48d&profile=pass
+#EXTINF:-1 group-title="tvheadend",CGTN 英語頻道
+http://hk2.star2hk.com:55555/stream/channelid/1252262921?ticket=9e2c88a6160fcd1b4ae262a1763ea35e4ab71c69&profile=pass
+#EXTINF:-1 group-title="tvheadend",*HOY 國際財經台
+http://hk2.star2hk.com:55555/stream/channelid/1434742824?ticket=26fdab6fca65f1b0884dbf22edff3d68ff6d05da&profile=pass
+#EXTINF:-1 group-title="tvheadend",*HOY TV
+http://hk2.star2hk.com:55555/stream/channelid/1307960423?ticket=28697bbb7b0c159c8df92ef98804e4bbbb585da6&profile=pass
+#EXTINF:-1 group-title="tvheadend",*HOY 資訊台
+http://hk2.star2hk.com:55555/stream/channelid/350823040?ticket=1090bf12b02d04d0cfe9ce4315d6f6200f44302e&profile=pass
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="tvheadend",翡翠台
+http://hk2.star2hk.com:55555/stream/channelid/566288828?ticket=3b2aa04c930660c48fe187d6aa336fa0d4f3f01a&profile=pass
+#EXTINF:-1 group-title="tvheadend",TVB Plus
+http://hk2.star2hk.com:55555/stream/channelid/840351826?ticket=fcf10eee1ee3457ae518e10daa8fa8f981ffd4cd&profile=pass
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="tvheadend",無綫新聞台
+http://hk2.star2hk.com:55555/stream/channelid/1828814827?ticket=6ebd1a6aeb68cb53971e8da9fff7d110e3253e00&profile=pass
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="tvheadend",明珠台
+http://hk2.star2hk.com:55555/stream/channelid/1213894766?ticket=1772cb1be4912f1acfd3160ddf8861a49bb3bf83&profile=pass
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視香港台.png" group-title="tvheadend",鳳凰衛視香港台
+http://hk2.star2hk.com:55555/stream/channelid/1218293550?ticket=5dc3511db0c194df5bb47a307e8096dda9bb88f8&profile=pass
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/VIUTVSIX.png" group-title="tvheadend",ViuTVsix
+http://hk2.star2hk.com:55555/stream/channelid/313510044?ticket=e15382416220920327ca656f2da9703c73399243&profile=pass
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="tvheadend",ViuTV
+http://hk2.star2hk.com:55555/stream/channelid/423210254?ticket=53881c20a0c7f85171f04efe36731f1354ca7c83&profile=pass
+#EXTINF:-1 group-title="tvheadend",港台電視 31
+http://2:2@113.89.101.85:9981/stream/channelid/1838780937?profile=htsp
+#EXTINF:-1 group-title="tvheadend",港台電視 32
+http://2:2@113.89.101.85:9981/stream/channelid/1136133890?profile=htsp
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="tvheadend",CCTV1
+http://2:2@113.89.101.85:9981/stream/channelid/539067480?profile=htsp
+#EXTINF:-1 group-title="tvheadend",中國環球電視網紀錄頻道 (CGTN紀錄頻道)
+http://2:2@113.89.101.85:9981/stream/channelid/1934804729?profile=htsp
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="tvheadend",翡翠台
+http://2:2@113.89.101.85:9981/stream/channelid/347433525?profile=htsp
+#EXTINF:-1 group-title="tvheadend",TVB Plus
+http://2:2@113.89.101.85:9981/stream/channelid/1354578766?profile=htsp
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="tvheadend",無綫新聞台
+http://2:2@113.89.101.85:9981/stream/channelid/1040261915?profile=htsp
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="tvheadend",明珠台
+http://2:2@113.89.101.85:9981/stream/channelid/924340760?profile=htsp
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視香港台.png" group-title="tvheadend",鳳凰衛視香港台
+http://2:2@113.89.101.85:9981/stream/channelid/1091885173?profile=htsp
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/VIUTVSIX.png" group-title="tvheadend",ViuTVsix
+http://2:2@113.89.101.85:9981/stream/channelid/2144013391?profile=htsp
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="tvheadend",ViuTV
+http://2:2@113.89.101.85:9981/stream/channelid/446485537?profile=htsp
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
 rtmp://demo2.anj365.com/live/xiangjiaoge-ztxw
 #EXTINF:-1 group-title="四季台湾",中天新闻(备)
@@ -10719,118 +10817,6 @@ http://183.214.23.16:2380/hw1live.rxip.sc96655.com.huan.tv/live/stxwHD_2000.m3u8
 http://183.214.23.16:2380/hw1live.rxip.sc96655.com.huan.tv/live/gxt_2000.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/峨眉山综合.png" group-title="蜀小果线2380",峨眉山综合
 http://183.214.23.16:2380/hw1live.rxip.sc96655.com.huan.tv/live/emsxw_2000.m3u8
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="山西秒开",CCTV1
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv1
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="山西秒开",CCTV2
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv2
-#EXTINF:-1 group-title="山西秒开",IPTV3
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv3
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="山西秒开",CCTV4
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv4
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="山西秒开",CCTV5
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv5
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="山西秒开",CCTV5+
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv5p
-#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="山西秒开",CCTV6
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv6
-#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="山西秒开",CCTV7
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv7
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="山西秒开",CCTV8
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv8
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="山西秒开",CCTV9
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv9
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="山西秒开",CCTV10
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv10
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="山西秒开",CCTV11
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv11
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="山西秒开",CCTV12
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv12
-#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="山西秒开",CCTV13
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv13
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="山西秒开",CCTV14
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv14
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="山西秒开",CCTV15
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv15
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="山西秒开",吉林卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=jlws
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="山西秒开",江西卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=jxws
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="山西秒开",广西卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=gxws
-#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="山西秒开",云南卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=ynws
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="山西秒开",浙江卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=zjws
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="山西秒开",河南卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=hnws
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="山西秒开",海南卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=live1046
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="山西秒开",湖北卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=hbws
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="山西秒开",山东卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=sdws
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="山西秒开",广东卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=gdws
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="山西秒开",天津卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=tjws
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="山西秒开",湖南卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=hunanws
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="山西秒开",东方卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=dfws
-#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="山西秒开",宁夏卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=linxws
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="山西秒开",甘肃卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=gsws
-#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="山西秒开",山西卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=sxws
-#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="山西秒开",贵州卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=gzws
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="山西秒开",河北卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=hebeiws
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="山西秒开",安徽卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=ahws
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="山西秒开",黑龙江卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=hljws
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="山西秒开",辽宁卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=lnws
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="山西秒开",重庆卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cqws
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="山西秒开",四川卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=scws
-#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="山西秒开",陕西卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=shxws
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="山西秒开",深圳卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=szws
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="山西秒开",北京卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=bjws
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="山西秒开",青海卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=qhws
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="山西秒开",江苏卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=jsws
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/山西公共.png" group-title="山西秒开",山西公共
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=live1970
-#EXTINF:-1 group-title="山西秒开",山西经济资讯
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=live1924
-#EXTINF:-1 tvg-id="山西影视" tvg-name="山西影视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/山西影视.png" group-title="山西秒开",山西影视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=live2016
-#EXTINF:-1 group-title="山西秒开",山西科教
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=live2062
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="山西秒开",东南卫视
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=dnws
-#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="山西秒开",CCTV17
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=cctv17
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/黄河电视台.png" group-title="山西秒开",黄河电视台
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=custom2
-#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰纪实.png" group-title="山西秒开",金鹰纪实
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=custom3
-#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/法治天地.png" group-title="山西秒开",法治天地
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=custom1
-#EXTINF:-1 tvg-id="cctv怀旧剧场" tvg-name="cctv怀旧剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV怀旧剧场.png" group-title="山西秒开",CCTV怀旧剧场
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=custom4
-#EXTINF:-1 tvg-id="cctv风云足球" tvg-name="cctv风云足球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV风云足球.png" group-title="山西秒开",CCTV风云足球
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=custom5
-#EXTINF:-1 tvg-id="cctv风云音乐" tvg-name="cctv风云音乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV风云音乐.png" group-title="山西秒开",CCTV风云音乐
-http://nn.7x9d.cn/mk.php?ip=yun.cnar.net:3000&id=custom7
 #EXTINF:-1 group-title="虎牙轮播",名侦探柯南剧场版
 http://cfss.cc/cdn/huya/30080236.flv
 #EXTINF:-1 group-title="虎牙轮播",火影忍者
