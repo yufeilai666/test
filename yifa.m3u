@@ -1451,6 +1451,22 @@ http://2:2@113.89.101.85:9981/stream/channelid/1091885173?profile=htsp
 http://2:2@113.89.101.85:9981/stream/channelid/2144013391?profile=htsp
 #EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="tvheadend",ViuTV
 http://2:2@113.89.101.85:9981/stream/channelid/446485537?profile=htsp
+#EXTINF:-1 tvg-id="爆谷台" tvg-name="爆谷台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爆谷台.png" group-title="四季台湾",爆谷台
+rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-bg
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="四季台湾",翡翠台
+rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fct
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="四季台湾",无线新闻
+rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-wxxw
+#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="四季台湾",凤凰中文
+rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fhzw
+#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="四季台湾",凤凰资讯
+rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fhzx
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="四季台湾",凤凰香港
+rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fhxg
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY77.png" group-title="四季台湾",hoy77
+rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-hoy77
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY78.png" group-title="四季台湾",hoy78
+rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-hoy78
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
 rtmp://demo2.anj365.com/live/xiangjiaoge-ztxw
 #EXTINF:-1 group-title="四季台湾",中天新闻(备)
@@ -1503,6 +1519,10 @@ rtmp://9hv1.mine.nu/sat/tv761
 rtmp://9hv1.mine.nu/sat/tv731
 #EXTINF:-1 group-title="四季台湾",ELEVEN体育2
 rtmp://9hv1.mine.nu/sat/tv741
+#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="四季台湾",凤凰资讯
+http://mytvsuper.webn.cc:2052/live/stream-f8063c3794481a17/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="四季台湾",台视
+http://dbmlasvgas.sylu.net:8880/stream/39363be5-2940-4d89-875a-cea6c9a93369/playlist.m3u8
 #EXTINF:-1 tvg-id="靖天育樂台" tvg-name="靖天育樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天育乐台.png" group-title="四季台湾2",靖天育樂台
 http://clawcloud.goiptv.de5.net/litv.php?id=4gtv-4gtv062&token=xiatianshigou
 #EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森新聞台.png" group-title="四季台湾2",東森新聞台
@@ -6248,157 +6268,157 @@ http://cdn6.bkpcp.top/tl/tuiliu.php?id=jlws
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="咪咕央视",黑龙江卫视
 http://cdn6.bkpcp.top/tl/tuiliu.php?id=hljws
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="咪咕央视2",CCTV1
-http://117.72.203.216:3000/608807420
+http://119.29.108.65:5080/608807420
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="咪咕央视2",CCTV2
-http://117.72.203.216:3000/631780532
+http://119.29.108.65:5080/631780532
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="咪咕央视2",CCTV3
-http://117.72.203.216:3000/624878271
+http://119.29.108.65:5080/624878271
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="咪咕央视2",CCTV4
-http://117.72.203.216:3000/631780421
+http://119.29.108.65:5080/631780421
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="咪咕央视2",CCTV5
-http://117.72.203.216:3000/641886683
+http://119.29.108.65:5080/641886683
 #EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="咪咕央视2",CCTV5+
-http://117.72.203.216:3000/641886773
+http://119.29.108.65:5080/641886773
 #EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="咪咕央视2",CCTV6
-http://117.72.203.216:3000/624878396
+http://119.29.108.65:5080/624878396
 #EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="咪咕央视2",CCTV7
-http://117.72.203.216:3000/673168121
+http://119.29.108.65:5080/673168121
 #EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="咪咕央视2",CCTV8
-http://117.72.203.216:3000/624878356
+http://119.29.108.65:5080/624878356
 #EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="咪咕央视2",CCTV9
-http://117.72.203.216:3000/673168140
+http://119.29.108.65:5080/673168140
 #EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="咪咕央视2",CCTV10
-http://117.72.203.216:3000/624878405
+http://119.29.108.65:5080/624878405
 #EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="咪咕央视2",CCTV11
-http://117.72.203.216:3000/667987558
+http://119.29.108.65:5080/667987558
 #EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="咪咕央视2",CCTV12
-http://117.72.203.216:3000/673168185
+http://119.29.108.65:5080/673168185
 #EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="咪咕央视2",CCTV13
-http://117.72.203.216:3000/608807423
+http://119.29.108.65:5080/608807423
 #EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="咪咕央视2",CCTV14
-http://117.72.203.216:3000/624878440
+http://119.29.108.65:5080/624878440
 #EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="咪咕央视2",CCTV15
-http://117.72.203.216:3000/673168223
+http://119.29.108.65:5080/673168223
 #EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="咪咕央视2",CCTV17
-http://117.72.203.216:3000/673168256
+http://119.29.108.65:5080/673168256
 #EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4欧洲.png" group-title="咪咕央视2",CCTV4欧洲
-http://117.72.203.216:3000/608807419
+http://119.29.108.65:5080/608807419
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="咪咕央视2",CCTV4美洲
-http://117.72.203.216:3000/608807416
+http://119.29.108.65:5080/608807416
 #EXTINF:-1 group-title="咪咕央视2",CGTN外语纪录
-http://117.72.203.216:3000/609006487
+http://119.29.108.65:5080/609006487
 #EXTINF:-1 tvg-id="cgtn阿拉伯语" tvg-name="cgtn阿拉伯语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN阿拉伯语.png" group-title="咪咕央视2",CGTN阿拉伯语
-http://117.72.203.216:3000/609154345
+http://119.29.108.65:5080/609154345
 #EXTINF:-1 tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN西班牙语.png" group-title="咪咕央视2",CGTN西班牙语
-http://117.72.203.216:3000/609006450
+http://119.29.108.65:5080/609006450
 #EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="咪咕央视2",CGTN法语
-http://117.72.203.216:3000/609006476
+http://119.29.108.65:5080/609006476
 #EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="咪咕央视2",CGTN俄语
-http://117.72.203.216:3000/609006446
+http://119.29.108.65:5080/609006446
 #EXTINF:-1 tvg-id="老故事" tvg-name="老故事" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/老故事.png" group-title="咪咕央视2",老故事
-http://117.72.203.216:3000/884121956
+http://119.29.108.65:5080/884121956
 #EXTINF:-1 tvg-id="发现之旅" tvg-name="发现之旅" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/发现之旅.png" group-title="咪咕央视2",发现之旅
-http://117.72.203.216:3000/624878970
+http://119.29.108.65:5080/624878970
 #EXTINF:-1 tvg-id="中学生" tvg-name="中学生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中学生.png" group-title="咪咕央视2",中学生
-http://117.72.203.216:3000/708869532
+http://119.29.108.65:5080/708869532
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="咪咕央视2",CGTN
-http://117.72.203.216:3000/609017205
+http://119.29.108.65:5080/609017205
 #EXTINF:-1 group-title="咪咕央视2",赛事最经典
-http://117.72.203.216:3000/646596895
+http://119.29.108.65:5080/646596895
 #EXTINF:-1 group-title="咪咕央视2",体坛名栏汇
-http://117.72.203.216:3000/629943305
+http://119.29.108.65:5080/629943305
 #EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四海钓鱼.png" group-title="咪咕央视2",四海钓鱼
-http://117.72.203.216:3000/637444975
+http://119.29.108.65:5080/637444975
 #EXTINF:-1 tvg-id="陕西体育" tvg-name="陕西体育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/陕西体育.png" group-title="咪咕央视2",陕西体育
-http://117.72.203.216:3000/956909356
+http://119.29.108.65:5080/956909356
 #EXTINF:-1 tvg-id="武术世界" tvg-name="武术世界" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/武術世界.png" group-title="咪咕央视2",武术世界
-http://117.72.203.216:3000/958475359
+http://119.29.108.65:5080/958475359
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/快乐垂钓.png" group-title="咪咕央视2",快乐垂钓
-http://117.72.203.216:3000/961930263
+http://119.29.108.65:5080/961930263
 #EXTINF:-1 tvg-id="辽宁体育" tvg-name="辽宁体育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/辽宁体育.png" group-title="咪咕央视2",辽宁体育
-http://117.72.203.216:3000/962067526
+http://119.29.108.65:5080/962067526
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="咪咕央视2",东方卫视
-http://117.72.203.216:3000/651632648
+http://119.29.108.65:5080/651632648
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="咪咕央视2",江苏卫视
-http://117.72.203.216:3000/623899368
+http://119.29.108.65:5080/623899368
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="咪咕央视2",广东卫视
-http://117.72.203.216:3000/608831231
+http://119.29.108.65:5080/608831231
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="咪咕央视2",北京卫视
-http://117.72.203.216:3000/630287636
+http://119.29.108.65:5080/630287636
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="咪咕央视2",辽宁卫视
-http://117.72.203.216:3000/630291707
+http://119.29.108.65:5080/630291707
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="咪咕央视2",河北卫视
-http://117.72.203.216:3000/962042070
+http://119.29.108.65:5080/962042070
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="咪咕央视2",江西卫视
-http://117.72.203.216:3000/783847495
+http://119.29.108.65:5080/783847495
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="咪咕央视2",河南卫视
-http://117.72.203.216:3000/790187291
+http://119.29.108.65:5080/790187291
 #EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="咪咕央视2",陕西卫视
-http://117.72.203.216:3000/738910838
+http://119.29.108.65:5080/738910838
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="咪咕央视2",大湾区卫视
-http://117.72.203.216:3000/608917627
+http://119.29.108.65:5080/608917627
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="咪咕央视2",湖北卫视
-http://117.72.203.216:3000/947472496
+http://119.29.108.65:5080/947472496
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="咪咕央视2",吉林卫视
-http://117.72.203.216:3000/947472500
+http://119.29.108.65:5080/947472500
 #EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="咪咕央视2",青海卫视
-http://117.72.203.216:3000/947472506
+http://119.29.108.65:5080/947472506
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="咪咕央视2",东南卫视
-http://117.72.203.216:3000/849116810
+http://119.29.108.65:5080/849116810
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="咪咕央视2",海南卫视
-http://117.72.203.216:3000/947472502
+http://119.29.108.65:5080/947472502
 #EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海峡卫视.png" group-title="咪咕央视2",海峡卫视
-http://117.72.203.216:3000/849119120
+http://119.29.108.65:5080/849119120
 #EXTINF:-1 tvg-id="中国农林卫视" tvg-name="中国农林卫视" group-title="咪咕央视2",中国农林卫视
-http://117.72.203.216:3000/956904896
+http://119.29.108.65:5080/956904896
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="咪咕央视2",兵团卫视
-http://117.72.203.216:3000/956923145
+http://119.29.108.65:5080/956923145
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="咪咕央视2",宁夏卫视
-http://117.72.203.216:3000/738910535
+http://119.29.108.65:5080/738910535
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="咪咕央视2",重庆卫视
-http://117.72.203.216:3000/738910914
+http://119.29.108.65:5080/738910914
 #EXTINF:-1 tvg-id="三沙卫视 (shanghai)" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三沙卫视.png" group-title="咪咕央视2",三沙卫视
-http://117.72.203.216:3000/961023778
+http://119.29.108.65:5080/961023778
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/经典香港电影.webp" group-title="咪咕央视2",经典香港电影
-http://117.72.203.216:3000/625703337
+http://119.29.108.65:5080/625703337
 #EXTINF:-1 group-title="咪咕央视2",抗战经典影片
-http://117.72.203.216:3000/617432318
+http://119.29.108.65:5080/617432318
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新片放映厅.png" group-title="咪咕央视2",新片放映厅
-http://117.72.203.216:3000/619495952
+http://119.29.108.65:5080/619495952
 #EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC影迷电影.png" group-title="咪咕央视2",CHC影迷电影
-http://117.72.203.216:3000/952383261
+http://119.29.108.65:5080/952383261
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC动作电影.png" group-title="咪咕央视2",CHC动作电影
-http://117.72.203.216:3000/644368714
+http://119.29.108.65:5080/644368714
 #EXTINF:-1 tvg-id="CHC家庭影院 (shanghai)" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC家庭影院.png" group-title="咪咕央视2",CHC家庭影院
-http://117.72.203.216:3000/644368373
+http://119.29.108.65:5080/644368373
 #EXTINF:-1 group-title="咪咕央视2",和美乡途轮播台
-http://117.72.203.216:3000/713591450
+http://119.29.108.65:5080/713591450
 #EXTINF:-1 group-title="咪咕央视2",南方影视
-http://117.72.203.216:3000/614961829
+http://119.29.108.65:5080/614961829
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国天气.png" group-title="咪咕央视2",中国天气
-http://117.72.203.216:3000/959986621
+http://119.29.108.65:5080/959986621
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="咪咕央视2",中国教育1台
-http://117.72.203.216:3000/923287154
+http://119.29.108.65:5080/923287154
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="咪咕央视2",中国教育2台
-http://117.72.203.216:3000/923287211
+http://119.29.108.65:5080/923287211
 #EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="咪咕央视2",中国教育4台
-http://117.72.203.216:3000/923287339
+http://119.29.108.65:5080/923287339
 #EXTINF:-1 group-title="咪咕央视2",最强综艺趴
-http://117.72.203.216:3000/629942228
+http://119.29.108.65:5080/629942228
 #EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="咪咕央视2",嘉佳卡通
-http://117.72.203.216:3000/614952364
+http://119.29.108.65:5080/614952364
 #EXTINF:-1 group-title="咪咕央视2",经典动画大集合
-http://117.72.203.216:3000/629942219
+http://119.29.108.65:5080/629942219
 #EXTINF:-1 tvg-id="新动漫" tvg-name="新动漫" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/新动漫.png" group-title="咪咕央视2",新动漫
-http://117.72.203.216:3000/961930269
+http://119.29.108.65:5080/961930269
 #EXTINF:-1 group-title="咪咕央视2",新动力量创一流
-http://117.72.203.216:3000/713589837
+http://119.29.108.65:5080/713589837
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中华特产.png" group-title="咪咕央视2",中华特产
-http://117.72.203.216:3000/959986618
+http://119.29.108.65:5080/959986618
 #EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/环球旅游.png" group-title="咪咕央视2",环球旅游
-http://117.72.203.216:3000/958475356
+http://119.29.108.65:5080/958475356
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/茶.png" group-title="咪咕央视2",茶
-http://117.72.203.216:3000/961930369
+http://119.29.108.65:5080/961930369
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="咪咕央视2",CCTV1
 http://119.29.13.205:1234/608807420
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="咪咕央视2",CCTV2
