@@ -1455,6 +1455,8 @@ http://2:2@113.89.101.85:9981/stream/channelid/446485537?profile=htsp
 rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-bg
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="四季台湾",翡翠台
 rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fct
+#EXTINF:-1 group-title="四季台湾",翡翠台(备)
+rtmp://www.hz-hengsheng.com/live/xiangjiaoge-fc
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="四季台湾",无线新闻
 rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-wxxw
 #EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="四季台湾",凤凰中文
