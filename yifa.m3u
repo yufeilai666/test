@@ -1451,8 +1451,8 @@ http://2:2@113.89.101.85:9981/stream/channelid/1091885173?profile=htsp
 http://2:2@113.89.101.85:9981/stream/channelid/2144013391?profile=htsp
 #EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="tvheadend",ViuTV
 http://2:2@113.89.101.85:9981/stream/channelid/446485537?profile=htsp
-#EXTINF:-1 tvg-id="爆谷台" tvg-name="爆谷台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爆谷台.png" group-title="四季台湾",爆谷台
-rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-bg
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="四季台湾",TVBplus
+rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-tvbplus
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="四季台湾",翡翠台
 rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fct
 #EXTINF:-1 group-title="四季台湾",翡翠台(备)
