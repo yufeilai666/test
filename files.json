@@ -7,11 +7,6 @@
       "referer": "",
       "encoding": ""
     },
-    "catvod_smart.m3u": {
-      "url": "https://live.catvod.com/smart.php",
-      "user_agent": "catvod.com",
-      "referer": "https://live.catvod.com/"
-    },
     "lzo_live.m3u": {
       "url": "http://lzo.xh.sd/tvbox/live.txt",
       "user_agent": "AptvPlayer/2.7.4",
@@ -47,6 +42,7 @@
   "epg_url": {
     "51zmt_all.xml.gz": "http://epg.51zmt.top:8000/e1.xml.gz",
     "51zmt_gat.xml.gz": "http://epg.51zmt.top:8000/e2.xml.gz",
+    "112114_pp.xml.gz": "https://epg.112114.xyz/pp.xml.gz",
     "erw_all.xml.gz": "http://e.erw.cc/e.xml.gz",
     "epghebeiiptv.xml": "https://epg.mb6.top/heiptv.xml",
     "judy_4gtv.xml": "https://raw.githubusercontent.com/myhomebox/EPG/main/output/4g.xml",
