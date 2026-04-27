@@ -8,7 +8,7 @@
       "encoding": ""
     },
     "lzo_live.m3u": {
-      "url": "http://lzo.xh.sd/tvbox/live.txt",
+      "url": "http://免.kak.si/tvbox/live.txt",
       "user_agent": "AptvPlayer/2.7.4",
       "referer": ""
     },
@@ -43,7 +43,7 @@
     "51zmt_all.xml.gz": "http://epg.51zmt.top:8000/e1.xml.gz",
     "51zmt_gat.xml.gz": "http://epg.51zmt.top:8000/e2.xml.gz",
     "112114_pp.xml.gz": "https://epg.112114.xyz/pp.xml.gz",
-    "erw_all.xml.gz": "http://e.erw.cc/e.xml.gz",
+    "erw_all.xml.gz": "https://raw.githubusercontent.com/kuke31/xmlgz/main/e.xml.gz",
     "epghebeiiptv.xml": "https://epg.mb6.top/heiptv.xml",
     "judy_4gtv.xml": "https://raw.githubusercontent.com/myhomebox/EPG/main/output/4g.xml",
     "judy_hami.xml": "https://raw.githubusercontent.com/myhomebox/EPG/main/output/hami.xml",
