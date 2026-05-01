@@ -2417,7 +2417,7 @@ http://124.222.114.206/sxtv.php?id=st1
 http://124.222.114.206/sxtv.php?id=st2
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="广东荔枝网",揭阳综合
 http://hls-jyrtv.jyrtv.tv/stjy2020/zhpd.m3u8
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="广东荔枝网",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="广东荔枝网",揭阳生活
 http://hls-jyrtv.jyrtv.tv/stjy2020/ggpd.m3u8
 #EXTINF:-1 group-title="广东荔枝网",潮州综合1
 http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20250301
@@ -2497,7 +2497,7 @@ http://zmylivestream.nfnews.com/zmy_slive/25319.m3u8
 http://zmylivestream.nfnews.com/zmy_slive/20811.m3u8
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="广东酒店",揭阳综合
 http://hls-jyrtv.jyrtv.tv/stjy2020/ggpd.m3u8
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="广东酒店",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="广东酒店",揭阳生活
 http://hls-jyrtv.jyrtv.tv/stjy2020/ggpd.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湛江综合.png" group-title="广东酒店",湛江综合
 http://gbtv-hls-wjq.zjwtv.com/zjtv/zhpd.m3u8
@@ -2617,7 +2617,7 @@ http://14.152.102.71:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 http://14.152.102.71:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://pr.19760929.xyz:9688/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://pr.19760929.xyz:9688/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://pr.19760929.xyz:9688/udp/239.77.0.25:5146
@@ -2651,7 +2651,7 @@ http://pr.19760929.xyz:9688/udp/239.77.0.217:5146
 http://pr.19760929.xyz:9688/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://www.1328099.xyz:9688/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://www.1328099.xyz:9688/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://www.1328099.xyz:9688/udp/239.77.0.25:5146
@@ -2685,7 +2685,7 @@ http://www.1328099.xyz:9688/udp/239.77.0.217:5146
 http://www.1328099.xyz:9688/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://hongzhijiaoyu.net:8188/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://hongzhijiaoyu.net:8188/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://hongzhijiaoyu.net:8188/udp/239.77.0.25:5146
@@ -2719,7 +2719,7 @@ http://hongzhijiaoyu.net:8188/udp/239.77.0.217:5146
 http://hongzhijiaoyu.net:8188/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://iptv.xxika.net:8188/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://iptv.xxika.net:8188/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://iptv.xxika.net:8188/udp/239.77.0.25:5146
@@ -2753,7 +2753,7 @@ http://iptv.xxika.net:8188/udp/239.77.0.217:5146
 http://iptv.xxika.net:8188/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://lsa.familyds.com:8188/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://lsa.familyds.com:8188/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://lsa.familyds.com:8188/udp/239.77.0.25:5146
@@ -2787,7 +2787,7 @@ http://lsa.familyds.com:8188/udp/239.77.0.217:5146
 http://lsa.familyds.com:8188/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://www.yahao.host:4022/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://www.yahao.host:4022/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://www.yahao.host:4022/udp/239.77.0.25:5146
@@ -2821,7 +2821,7 @@ http://www.yahao.host:4022/udp/239.77.0.217:5146
 http://www.yahao.host:4022/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://rfx2018.55555.io:2345/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://rfx2018.55555.io:2345/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://rfx2018.55555.io:2345/udp/239.77.0.25:5146
@@ -2855,7 +2855,7 @@ http://rfx2018.55555.io:2345/udp/239.77.0.217:5146
 http://rfx2018.55555.io:2345/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://gdyd.7259.cc.cd:4111/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://gdyd.7259.cc.cd:4111/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://gdyd.7259.cc.cd:4111/udp/239.77.0.25:5146
@@ -2889,7 +2889,7 @@ http://gdyd.7259.cc.cd:4111/udp/239.77.0.217:5146
 http://gdyd.7259.cc.cd:4111/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://gdyd.7259.cc.cd:4014/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://gdyd.7259.cc.cd:4014/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://gdyd.7259.cc.cd:4014/udp/239.77.0.25:5146
@@ -2923,7 +2923,7 @@ http://gdyd.7259.cc.cd:4014/udp/239.77.0.217:5146
 http://gdyd.7259.cc.cd:4014/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://gdyd.7259.cc.cd:4013/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://gdyd.7259.cc.cd:4013/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://gdyd.7259.cc.cd:4013/udp/239.77.0.25:5146
@@ -2957,7 +2957,7 @@ http://gdyd.7259.cc.cd:4013/udp/239.77.0.217:5146
 http://gdyd.7259.cc.cd:4013/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://jiange.dns.navy:10001/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://jiange.dns.navy:10001/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://jiange.dns.navy:10001/udp/239.77.0.25:5146
@@ -2991,7 +2991,7 @@ http://jiange.dns.navy:10001/udp/239.77.0.217:5146
 http://jiange.dns.navy:10001/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://wmh.wmh.ink:6633/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://wmh.wmh.ink:6633/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://wmh.wmh.ink:6633/udp/239.77.0.25:5146
@@ -3025,7 +3025,7 @@ http://wmh.wmh.ink:6633/udp/239.77.0.217:5146
 http://wmh.wmh.ink:6633/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://www.syy3.top:3861/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://www.syy3.top:3861/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://www.syy3.top:3861/udp/239.77.0.25:5146
@@ -3059,7 +3059,7 @@ http://www.syy3.top:3861/udp/239.77.0.217:5146
 http://www.syy3.top:3861/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://lbyjlt.vv5678.cn:8880/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://lbyjlt.vv5678.cn:8880/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://lbyjlt.vv5678.cn:8880/udp/239.77.0.25:5146
@@ -3093,7 +3093,7 @@ http://lbyjlt.vv5678.cn:8880/udp/239.77.0.217:5146
 http://lbyjlt.vv5678.cn:8880/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://plex.cyruslee.top:8888/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://plex.cyruslee.top:8888/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://plex.cyruslee.top:8888/udp/239.77.0.25:5146
@@ -3127,7 +3127,7 @@ http://plex.cyruslee.top:8888/udp/239.77.0.217:5146
 http://plex.cyruslee.top:8888/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://jellyfin.cyruslee.top:8888/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://jellyfin.cyruslee.top:8888/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://jellyfin.cyruslee.top:8888/udp/239.77.0.25:5146
@@ -3161,7 +3161,7 @@ http://jellyfin.cyruslee.top:8888/udp/239.77.0.217:5146
 http://jellyfin.cyruslee.top:8888/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://www.3344.uk:8888/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://www.3344.uk:8888/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://www.3344.uk:8888/udp/239.77.0.25:5146
@@ -3195,7 +3195,7 @@ http://www.3344.uk:8888/udp/239.77.0.217:5146
 http://www.3344.uk:8888/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://ikuai.cyruslee.top:8888/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://ikuai.cyruslee.top:8888/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://ikuai.cyruslee.top:8888/udp/239.77.0.25:5146
@@ -3229,7 +3229,7 @@ http://ikuai.cyruslee.top:8888/udp/239.77.0.217:5146
 http://ikuai.cyruslee.top:8888/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://vp.maomizi.cc:9530/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://vp.maomizi.cc:9530/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://vp.maomizi.cc:9530/udp/239.77.0.25:5146
@@ -3263,7 +3263,7 @@ http://vp.maomizi.cc:9530/udp/239.77.0.217:5146
 http://vp.maomizi.cc:9530/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://bot22.top:19999/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://bot22.top:19999/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://bot22.top:19999/udp/239.77.0.25:5146
@@ -3297,7 +3297,7 @@ http://bot22.top:19999/udp/239.77.0.217:5146
 http://bot22.top:19999/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://xhzza.v6.navy:34040/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://xhzza.v6.navy:34040/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://xhzza.v6.navy:34040/udp/239.77.0.25:5146
@@ -3331,7 +3331,7 @@ http://xhzza.v6.navy:34040/udp/239.77.0.217:5146
 http://xhzza.v6.navy:34040/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://yanshifen.top:8889/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://yanshifen.top:8889/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://yanshifen.top:8889/udp/239.77.0.25:5146
@@ -3365,7 +3365,7 @@ http://yanshifen.top:8889/udp/239.77.0.217:5146
 http://yanshifen.top:8889/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://www.maomizi.cn:9527/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://www.maomizi.cn:9527/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://www.maomizi.cn:9527/udp/239.77.0.25:5146
@@ -3399,7 +3399,7 @@ http://www.maomizi.cn:9527/udp/239.77.0.217:5146
 http://www.maomizi.cn:9527/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://ruoshui.uno:30001/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://ruoshui.uno:30001/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://ruoshui.uno:30001/udp/239.77.0.25:5146
@@ -3433,7 +3433,7 @@ http://ruoshui.uno:30001/udp/239.77.0.217:5146
 http://ruoshui.uno:30001/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://113.81.20.24:8188/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://113.81.20.24:8188/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://113.81.20.24:8188/udp/239.77.0.25:5146
@@ -3467,7 +3467,7 @@ http://113.81.20.24:8188/udp/239.77.0.217:5146
 http://113.81.20.24:8188/udp/239.77.0.250:5146
 #EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="揭阳IPTV",揭阳综合
 http://61.145.188.90:50055/udp/239.77.0.229:5146
-#EXTINF:-1 tvg-id="揭阳生活" tvg-name="揭阳生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="揭阳IPTV",揭阳生活
 http://61.145.188.90:50055/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/汕尾综合.png" group-title="揭阳IPTV",汕尾综合
 http://61.145.188.90:50055/udp/239.77.0.25:5146
