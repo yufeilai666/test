@@ -57,7 +57,7 @@ jobs:
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '8.1'  # 指定PHP 8.1版本
+        php-version: '8.2'  # 指定PHP 8.2版本
         
     # 步骤4: 安装Python依赖包
     - name: Install Python dependencies
