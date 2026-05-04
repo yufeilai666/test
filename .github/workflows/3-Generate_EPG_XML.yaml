@@ -42,20 +42,20 @@ jobs:
     steps:
     # 步骤1: 检出当前仓库代码
     - name: Checkout current repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         token: ${{ secrets.PAT_TOKEN }}  # 使用个人访问令牌进行认证
         fetch-depth: 1  # 获取最新git历史记录
 
     # 步骤2: 设置Python环境
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v6
       with:
         python-version: '3.9'  # 指定Python 3.9版本
 
     # 步骤3: 设置PHP环境
     - name: Set up PHP
-      uses: shivammathur/setup-php@v2
+      uses: shivammathur/setup-php@v6
       with:
         php-version: '8.2'  # 指定PHP 8.2版本
         extensions: curl, xml, mbstring  # 一键安装所需扩展
@@ -77,7 +77,7 @@ jobs:
 
     # 步骤6: 直接检出私有仓库的epg_scripts分支
     - name: Checkout private repository (epg_scripts branch)
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         repository: ${{ github.repository_owner }}/tvepg  # 私有仓库
         token: ${{ secrets.PAT_TOKEN }}  # 使用个人访问令牌
