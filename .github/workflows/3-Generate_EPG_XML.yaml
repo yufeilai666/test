@@ -55,7 +55,7 @@ jobs:
 
     # 步骤3: 设置PHP环境
     - name: Set up PHP
-      uses: shivammathur/setup-php@v6
+      uses: shivammathur/setup-php@v2
       with:
         php-version: '8.2'  # 指定PHP 8.2版本
         extensions: curl, xml, mbstring  # 一键安装所需扩展
