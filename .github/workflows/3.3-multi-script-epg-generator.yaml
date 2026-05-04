@@ -38,7 +38,7 @@ jobs:
     steps:
     # 步骤1: 检出私有仓库的epg_scripts分支到临时目录
     - name: Checkout private repo scripts branch
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         repository: ${{ env.PRIVATE_REPO }}
         ref: epg_scripts
@@ -47,7 +47,7 @@ jobs:
 
     # 步骤2: 检出私有仓库的主分支到另一个临时目录（用于推送）
     - name: Checkout private repo main branch
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         repository: ${{ env.PRIVATE_REPO }}
         ref: main
@@ -63,7 +63,7 @@ jobs:
 
     # 步骤4: 设置Python环境
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v6
       with:
         python-version: '3.9'
 
