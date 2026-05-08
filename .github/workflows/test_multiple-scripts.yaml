@@ -21,7 +21,7 @@ name: update_xml_2_test-epg_N_py_2_tvepg-epg_scripts
 #   - 支持双向同步：从私有仓库拉取脚本，并将生成文件推送回私有仓库
 #
 # 触发条件:
-#   - 定时触发: 每日UTC 19:10（北京时间3:10）自动运行
+#   - 定时触发: 近似每隔5天的UTC时间 19:10（北京时间3:10）自动运行
 #   - 手动触发: 可在GitHub Actions页面手动执行
 #
 # 前置要求:
@@ -36,9 +36,9 @@ name: update_xml_2_test-epg_N_py_2_tvepg-epg_scripts
 
 on:
   workflow_dispatch:  # 手动触发 - 可在GitHub Actions页面手动运行此工作流
-  # schedule:
-    # 定时触发 - 每天UTC时间19点10分（北京时间凌晨3点10分）自动运行
-    # - cron: '10 19 * * *'
+  schedule:
+    # 定时触发 - 近似每隔5天的UTC时间19点10分（北京时间凌晨3点10分）自动运行
+    - cron: '10 19 1,6,11,16,21,26 * *'
 
 jobs:
   generate-epg:
