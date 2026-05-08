@@ -973,6 +973,12 @@ http://67.220.71.199:2347/livehttpplay?channel_id=20142
 http://67.220.71.199:2347/livehttpplay?channel_id=42026
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速NOW",翡翠台
 https://flv-play.clouda.com/live/fc-oG2vUiheKLJzdVprWHCECxdMNCOog9HMxnt6IoIZG07iNnIYLtElHP4EpcB9tiErfUyqWLD2NQ5zlbYxAFHiNt.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="极速NOW",无线新闻
+https://flv-play.clouda.com/live/wxxw-PrjYXHNt8mryMgEqtujqXAFlhFyikJj6FxMLBgaPIvfG8jFcYPL1RDavsEcwOc7teWgx4EwkFM9xphPmgWpNN4.flv
+#EXTINF:-1 group-title="极速NOW",TVB plus
+https://flv-play.clouda.com/live/tvb-2VHDPgWQ8xRwBFCabyiXImeAHX2KhGA3QCIqMzGFsc0lipfw0Pw9wNG6qOG8LADAiIEGqo9DbPIdLsxBxyFpNA.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速NOW",明珠台
+https://flv-play.clouda.com/live/mz-dnyjgkXIxzCPvOCTONq8y8kIGcBB5GC4Kx9LOcL6lz8omT5vej9YY3gaCDTOndbkl9UQUGJvriuccFaiCTplkj.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW爆谷.png" group-title="极速NOW",Now爆谷
 rtmp://8.149.234.17/live/xianajiaoge-bg
 #EXTINF:-1 group-title="极速NOW",Now星影
