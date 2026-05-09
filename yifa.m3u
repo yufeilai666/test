@@ -1195,6 +1195,10 @@ https://a3f1b2.kylintv.tv/live/formosatv_iphone.m3u8
 https://a3f1b2.kylintv.tv/live/daai_iphone.m3u8
 #EXTINF:-1 tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好消息2台.png" group-title="四季台湾",好消息2台
 https://a3f1b2.kylintv.tv/live/gdtv2_iphone.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
+http://dbmlasvgas.sylu.cc:8880/stream/fc083553-b5ac-4889-b44c-eeff668130c1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="四季台湾",台视
+http://dbmlasvgas.sylu.cc:8880/stream/e307e16f-43bf-496f-9955-7440569a3e83/playlist.m3u8
 #EXTINF:-1 tvg-id="靖天育樂台" tvg-name="靖天育樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天育乐台.png" group-title="四季台湾2",靖天育樂台
 http://clawcloud.goiptv.de5.net/litv.php?id=4gtv-4gtv062&token=xiatianshigou
 #EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森新聞台.png" group-title="四季台湾2",東森新聞台
