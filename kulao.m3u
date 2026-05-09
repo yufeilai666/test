@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="✈️TG频道@stymei1",更新时间2026.5.8
+#EXTINF:-1 group-title="✈️TG频道@stymei1",更新时间2026.5.9
 https://k0u3cydy43y9zw2408x8760xfx5xx9z.djvod.ndcimgs.com/upic/2026/03/07/21/BMjAyNjAzMDcyMTIyMzlfNDI0MDI5NTBfMTg5Nzk0ODUxNjg5XzFfMw==_b_Bc33d39ac3524c256f9ddabce4588794b.mp4
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🔥[三网1]央卫视直播",CCTV1
 http://47.108.228.131:12193/live_ywzh.php?id=1
@@ -367,6 +367,28 @@ http://107.150.60.122/live/cctv15hd.m3u8
 http://107.150.60.122/live/cctv16hd.m3u8
 #EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="🔥[三网3]央卫视直播",CCTV17
 http://107.150.60.122/live/cctv17hd.m3u8
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="🔥[三网3]央卫视直播",CCTV4K
+http://107.150.60.122/live/cctv4k.m3u8
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8K.png" group-title="🔥[三网3]央卫视直播",CCTV8K
+http://107.150.60.122/live/cctv8k.m3u8
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="🔥[三网3]央卫视直播",中国教育1台
+https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001020/index.m3u8?streamid=f4b36de9e0ed50412e1fe3fbed4262a8&streamkey=06Au6xOXDlDEab661Jj4JZtB5rtbWJNHTgnSAVTvFlBNzzUBYjIEDgT9mS4Z4uWlLecUluW7TiiSPKV9p8qg7uORC8NHkZGp2wYI0D2H51xbeR6S&token=1776221422-a453c0c847327165-0-68e4509e1d03b7b6d7c3b8c927e72a7a
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="🔥[三网3]央卫视直播",中国教育4台
+https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001348/index.m3u8?streamid=37d60172a2bbb0d41f072d29213e6264&streamkey=06Au6xOXDlDEaapIVa7cpJhfzHs3AaqeIMjrUSQi1ZhQNbtlQYu45U2p26oN78H5M54F7fWWjiWa5JbgizqfzftqDt06P5Nj3CWuFMU3yFOgiX5n&token=1776221467-8fa99b3b879bacd8-0-b09602326b577119089417591328a91d
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CETV早期教育.png" group-title="🔥[三网3]央卫视直播",CETV早期教育
+https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001680/index.m3u8?streamid=2c224135515a11c735f7351c17434a62&streamkey=070kmnWlSO6tVzLyh1sXZ20iCOCRLXoHmCsz0IqkkXJJD0eYMb2A5kwULwbki6Baf4Z2bJfsbp07kt5WoqgWvFeVzbkW96tGU7nFRu0brwnn5lybIRJA&token=1776221300-cf453e64c67843de-0-4539fce56dec116202db007052b0029c
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="🔥[三网3]央卫视直播",CGTN
+https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CGTN记录.png" group-title="🔥[三网3]央卫视直播",CGTN记录
+https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+#EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="🔥[三网3]央卫视直播",CGTN俄语
+https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+#EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="🔥[三网3]央卫视直播",CGTN法语
+https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8
+#EXTINF:-1 tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN西班牙语.png" group-title="🔥[三网3]央卫视直播",CGTN西班牙语
+https://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
+#EXTINF:-1 tvg-id="cgtn阿拉伯语" tvg-name="cgtn阿拉伯语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN阿拉伯语.png" group-title="🔥[三网3]央卫视直播",CGTN阿拉伯语
+https://arabic-liveali.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="🔥[三网3]央卫视直播",东南卫视
 http://107.150.60.122/live/dnwshd.m3u8
 #EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="🔥[三网3]央卫视直播",天津卫视
@@ -389,6 +411,34 @@ http://107.150.60.122/live/lnwshd.m3u8
 http://107.150.60.122/live/cqwshd.m3u8
 #EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="🔥[三网3]央卫视直播",陕西卫视
 http://107.150.60.122/live/snwshd.m3u8
+#EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海峡卫视.png" group-title="🔥[三网3]央卫视直播",海峡卫视
+http://wine600.i234.me:4567/rtp/239.61.2.151:8894
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="🔥[三网3]央卫视直播",云南卫视
+http://home.szjim.top:4000/udp/239.253.43.37:5146
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="🔥[三网3]央卫视直播",青海卫视
+http://home.szjim.top:4000/udp/239.253.43.125:5146
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="🔥[三网3]央卫视直播",甘肃卫视
+http://pplee.vicp.net:4022/udp/233.18.204.110:5140
+#EXTINF:-1 tvg-id="三沙卫视 (shanghai)" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三沙卫视.png" group-title="🔥[三网3]央卫视直播",三沙卫视
+http://pplee.vicp.net:4022/udp/233.18.204.172:5140
+#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="🔥[三网3]央卫视直播",山西卫视
+http://pplee.vicp.net:4022/udp/233.18.204.211:5140
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="🔥[三网3]央卫视直播",吉林卫视
+http://pplee.vicp.net:4022/udp/233.18.204.108:5140
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="🔥[三网3]央卫视直播",黑龙江卫视
+http://pplee.vicp.net:4022/udp/233.18.204.90:5140
+#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="🔥[三网3]央卫视直播",陕西卫视
+http://pplee.vicp.net:4022/udp/233.18.204.223:5140
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="🔥[三网3]央卫视直播",内蒙古卫视
+http://pplee.vicp.net:4022/udp/233.18.204.217:5140
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="🔥[三网3]央卫视直播",兵团卫视
+http://pplee.vicp.net:4022/udp/233.18.204.221:5140
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="🔥[三网3]央卫视直播",西藏卫视
+http://pplee.vicp.net:4022/udp/233.18.204.222:5140
+#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="🔥[三网3]央卫视直播",宁夏卫视
+http://pplee.vicp.net:4022/udp/233.18.204.230:5140
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="🔥[三网3]央卫视直播",新疆卫视
+http://pplee.vicp.net:4022/udp/233.18.204.220:5140
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🔥[三网4]央卫视直播",CCTV1
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="🔥[三网4]央卫视直播",CCTV2
@@ -489,300 +539,6 @@ http://61.184.46.85:85/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0$�
 http://61.184.46.85:85/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0$荆州电信
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="🔥[三网4]央卫视直播",东南卫视
 http://61.184.46.85:85/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0$荆州电信
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🔥[三网5]央卫视直播",CCTV1
-http://120.76.248.139/live/bfgd/4200000484.m3u8
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🔥[三网5]央卫视直播",CCTV1
-http://120.76.248.139/live/bfgd/4200000488.m3u8
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🔥[三网5]央卫视直播",CCTV1
-http://120.76.248.139/live/bfgd/4200000489.m3u8
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🔥[三网5]央卫视直播",CCTV1
-http://120.76.248.139/live/bfgd/4200000201.m3u8
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="🔥[三网5]央卫视直播",CCTV2
-http://120.76.248.139/live/bfgd/4200000061.m3u8
-#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="🔥[三网5]央卫视直播",CCTV3
-http://120.76.248.139/live/bfgd/4200000062.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="🔥[三网5]央卫视直播",CCTV4
-http://120.76.248.139/live/bfgd/4200000063.m3u8
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="🔥[三网5]央卫视直播",CCTV5
-http://120.76.248.139/live/bfgd/4200000064.m3u8
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="🔥[三网5]央卫视直播",CCTV5+
-http://120.76.248.139/live/bfgd/4200000246.m3u8
-#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="🔥[三网5]央卫视直播",CCTV6
-http://120.76.248.139/live/bfgd/4200000065.m3u8
-#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="🔥[三网5]央卫视直播",CCTV7
-http://120.76.248.139/live/bfgd/4200000127.m3u8
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="🔥[三网5]央卫视直播",CCTV8
-http://120.76.248.139/live/bfgd/4200000066.m3u8
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="🔥[三网5]央卫视直播",CCTV9
-http://120.76.248.139/live/bfgd/4200000128.m3u8
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="🔥[三网5]央卫视直播",CCTV10
-http://120.76.248.139/live/bfgd/4200000129.m3u8
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="🔥[三网5]央卫视直播",CCTV11
-http://120.76.248.139/live/bfgd/4200000130.m3u8
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="🔥[三网5]央卫视直播",CCTV12
-http://120.76.248.139/live/bfgd/4200000131.m3u8
-#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="🔥[三网5]央卫视直播",CCTV13
-http://120.76.248.139/live/bfgd/4200000067.m3u8
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="🔥[三网5]央卫视直播",CCTV14
-http://120.76.248.139/live/bfgd/4200000132.m3u8
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="🔥[三网5]央卫视直播",CCTV15
-http://120.76.248.139/live/bfgd/4200000133.m3u8
-#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="🔥[三网5]央卫视直播",CCTV17
-http://120.76.248.139/live/bfgd/4200000204.m3u8
-#EXTINF:-1 tvg-id="cgtn阿拉伯语" tvg-name="cgtn阿拉伯语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN阿拉伯语.png" group-title="🔥[三网5]央卫视直播",CGTN阿拉伯语
-http://120.76.248.139/live/bfgd/4200000308.m3u8
-#EXTINF:-1 tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN西班牙语.png" group-title="🔥[三网5]央卫视直播",CGTN西班牙语
-http://120.76.248.139/live/bfgd/4200000306.m3u8
-#EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="🔥[三网5]央卫视直播",CGTN法语
-http://120.76.248.139/live/bfgd/4200000307.m3u8
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="🔥[三网5]央卫视直播",CGTN
-http://120.76.248.139/live/bfgd/4200000134.m3u8
-#EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="🔥[三网5]央卫视直播",CGTN俄语
-http://120.76.248.139/live/bfgd/4200000309.m3u8
-#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="🔥[三网5]央卫视直播",中国教育1台
-http://120.76.248.139/live/bfgd/4200000135.m3u8
-#EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="🔥[三网5]央卫视直播",中国教育2台
-http://120.76.248.139/live/bfgd/4200000492.m3u8
-#EXTINF:-1 tvg-id="cctv电视指南" tvg-name="cctv电视指南" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV电视指南.png" group-title="🔥[三网5]央卫视直播",CCTV电视指南
-http://120.76.248.139/live/bfgd/4200000164.m3u8
-#EXTINF:-1 tvg-id="cctv风云足球" tvg-name="cctv风云足球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV风云足球.png" group-title="🔥[三网5]央卫视直播",CCTV风云足球
-http://120.76.248.139/live/bfgd/4200000225.m3u8
-#EXTINF:-1 tvg-id="cctv怀旧剧场" tvg-name="cctv怀旧剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV怀旧剧场.png" group-title="🔥[三网5]央卫视直播",CCTV怀旧剧场
-http://120.76.248.139/live/bfgd/4200000224.m3u8
-#EXTINF:-1 tvg-id="cctv女性时尚" tvg-name="cctv女性时尚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV女性时尚.png" group-title="🔥[三网5]央卫视直播",CCTV女性时尚
-http://120.76.248.139/live/bfgd/4200000176.m3u8
-#EXTINF:-1 tvg-id="cctv世界地理" tvg-name="cctv世界地理" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CCTV世界地理.png" group-title="🔥[三网5]央卫视直播",CCTV世界地理
-http://120.76.248.139/live/bfgd/4200000177.m3u8
-#EXTINF:-1 tvg-id="老故事" tvg-name="老故事" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/老故事.png" group-title="🔥[三网5]央卫视直播",老故事
-http://120.76.248.139/live/bfgd/4200000166.m3u8
-#EXTINF:-1 tvg-id="发现之旅" tvg-name="发现之旅" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/发现之旅.png" group-title="🔥[三网5]央卫视直播",发现之旅
-http://120.76.248.139/live/bfgd/4200000151.m3u8
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="🔥[三网5]央卫视直播",安徽卫视
-http://120.76.248.139/live/bfgd/4200000096.m3u8
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="🔥[三网5]央卫视直播",北京卫视
-http://120.76.248.139/live/bfgd/4200000083.m3u8
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="🔥[三网5]央卫视直播",兵团卫视
-http://120.76.248.139/live/bfgd/4200000124.m3u8
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="🔥[三网5]央卫视直播",重庆卫视
-http://120.76.248.139/live/bfgd/4200000107.m3u8
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="🔥[三网5]央卫视直播",东方卫视
-http://120.76.248.139/live/bfgd/4200000093.m3u8
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="🔥[三网5]央卫视直播",东南卫视
-http://120.76.248.139/live/bfgd/4200000483.m3u8
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="🔥[三网5]央卫视直播",广东卫视
-http://120.76.248.139/live/bfgd/4200000092.m3u8
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="🔥[三网5]央卫视直播",甘肃卫视
-http://120.76.248.139/live/bfgd/4200000119.m3u8
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="🔥[三网5]央卫视直播",广西卫视
-http://120.76.248.139/live/bfgd/4200000116.m3u8
-#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="🔥[三网5]央卫视直播",贵州卫视
-http://120.76.248.139/live/bfgd/4200000101.m3u8
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="🔥[三网5]央卫视直播",河南卫视
-http://120.76.248.139/live/bfgd/4200000339.m3u8
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="🔥[三网5]央卫视直播",湖北卫视
-http://120.76.248.139/live/bfgd/4200000102.m3u8
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="🔥[三网5]央卫视直播",河北卫视
-http://120.76.248.139/live/bfgd/4200000108.m3u8
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="🔥[三网5]央卫视直播",黑龙江卫视
-http://120.76.248.139/live/bfgd/4200000095.m3u8
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="🔥[三网5]央卫视直播",湖南卫视
-http://120.76.248.139/live/bfgd/4200000086.m3u8
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="🔥[三网5]央卫视直播",吉林卫视
-http://120.76.248.139/live/bfgd/4200000097.m3u8
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="🔥[三网5]央卫视直播",江苏卫视
-http://120.76.248.139/live/bfgd/4200000085.m3u8
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="🔥[三网5]央卫视直播",江西卫视
-http://120.76.248.139/live/bfgd/4200000098.m3u8
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="🔥[三网5]央卫视直播",辽宁卫视
-http://120.76.248.139/live/bfgd/4200000141.m3u8
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="🔥[三网5]央卫视直播",辽宁卫视
-http://120.76.248.139/live/bfgd/4200000185.m3u8
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="🔥[三网5]央卫视直播",辽宁卫视
-http://120.76.248.139/live/bfgd/4200000058.m3u8
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="🔥[三网5]央卫视直播",海南卫视
-http://120.76.248.139/live/bfgd/4200000473.m3u8
-#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="🔥[三网5]央卫视直播",内蒙古卫视
-http://120.76.248.139/live/bfgd/4200000110.m3u8
-#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="🔥[三网5]央卫视直播",宁夏卫视
-http://120.76.248.139/live/bfgd/4200000118.m3u8
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="🔥[三网5]央卫视直播",青海卫视
-http://120.76.248.139/live/bfgd/4200000111.m3u8
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="🔥[三网5]央卫视直播",四川卫视
-http://120.76.248.139/live/bfgd/4200000103.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/教育卫视.png" group-title="🔥[三网5]央卫视直播",教育卫视
-http://120.76.248.139/live/bfgd/4200000112.m3u8
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="🔥[三网5]央卫视直播",山东卫视
-http://120.76.248.139/live/bfgd/4200000099.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/农林卫视.png" group-title="🔥[三网5]央卫视直播",农林卫视
-http://120.76.248.139/live/bfgd/4200000122.m3u8
-#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="🔥[三网5]央卫视直播",陕西卫视
-http://120.76.248.139/live/bfgd/4200000512.m3u8
-#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="🔥[三网5]央卫视直播",山西卫视
-http://120.76.248.139/live/bfgd/4200000109.m3u8
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="🔥[三网5]央卫视直播",深圳卫视
-http://120.76.248.139/live/bfgd/4200000100.m3u8
-#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="🔥[三网5]央卫视直播",新疆卫视
-http://120.76.248.139/live/bfgd/4200000150.m3u8
-#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="🔥[三网5]央卫视直播",西藏卫视
-http://120.76.248.139/live/bfgd/4200000121.m3u8
-#EXTINF:-1 tvg-id="延边卫视 (shanghai)" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/延边卫视.png" group-title="🔥[三网5]央卫视直播",延边卫视
-http://120.76.248.139/live/bfgd/4200000117.m3u8
-#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="🔥[三网5]央卫视直播",云南卫视
-http://120.76.248.139/live/bfgd/4200000482.m3u8
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="🔥[三网5]央卫视直播",浙江卫视
-http://120.76.248.139/live/bfgd/4200000094.m3u8
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🔥[三网6]央卫视直播",CCTV1
-http://119.123.176.65:8086/hls/2/index.m3u8
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="🔥[三网6]央卫视直播",CCTV2
-http://119.123.176.65:8086/hls/3/index.m3u8
-#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="🔥[三网6]央卫视直播",CCTV3
-http://119.123.176.65:8086/hls/4/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="🔥[三网6]央卫视直播",CCTV4
-http://119.123.176.65:8086/hls/5/index.m3u8
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="🔥[三网6]央卫视直播",CCTV5
-http://119.123.176.65:8086/hls/6/index.m3u8
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="🔥[三网6]央卫视直播",CCTV5+
-http://119.123.176.65:8086/hls/252/index.m3u8
-#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="🔥[三网6]央卫视直播",CCTV6
-http://119.123.176.65:8086/hls/7/index.m3u8
-#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="🔥[三网6]央卫视直播",CCTV7
-http://119.123.176.65:8086/hls/8/index.m3u8
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="🔥[三网6]央卫视直播",CCTV8
-http://119.123.176.65:8086/hls/9/index.m3u8
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="🔥[三网6]央卫视直播",CCTV9
-http://119.123.176.65:8086/hls/10/index.m3u8
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="🔥[三网6]央卫视直播",CCTV10
-http://119.123.176.65:8086/hls/11/index.m3u8
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="🔥[三网6]央卫视直播",CCTV11
-http://119.123.176.65:8086/hls/12/index.m3u8
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="🔥[三网6]央卫视直播",CCTV12
-http://119.123.176.65:8086/hls/13/index.m3u8
-#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="🔥[三网6]央卫视直播",CCTV13
-http://119.123.176.65:8086/hls/14/index.m3u8
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="🔥[三网6]央卫视直播",CCTV14
-http://119.123.176.65:8086/hls/15/index.m3u8
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="🔥[三网6]央卫视直播",CCTV15
-http://119.123.176.65:8086/hls/16/index.m3u8
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="🔥[三网6]央卫视直播",CCTV16
-http://119.123.176.65:8086/hls/17/index.m3u8
-#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="🔥[三网6]央卫视直播",CCTV17
-http://home.szjim.top:4000/udp/239.77.1.121:5146
-#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="🔥[三网6]央卫视直播",CCTV4K
-http://107.150.60.122/live/cctv4k.m3u8
-#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8K.png" group-title="🔥[三网6]央卫视直播",CCTV8K
-http://107.150.60.122/live/cctv8k.m3u8
-#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="🔥[三网6]央卫视直播",中国教育1台
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001020/index.m3u8?streamid=f4b36de9e0ed50412e1fe3fbed4262a8&streamkey=06Au6xOXDlDEab661Jj4JZtB5rtbWJNHTgnSAVTvFlBNzzUBYjIEDgT9mS4Z4uWlLecUluW7TiiSPKV9p8qg7uORC8NHkZGp2wYI0D2H51xbeR6S&token=1776221422-a453c0c847327165-0-68e4509e1d03b7b6d7c3b8c927e72a7a
-#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="🔥[三网6]央卫视直播",中国教育4台
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001348/index.m3u8?streamid=37d60172a2bbb0d41f072d29213e6264&streamkey=06Au6xOXDlDEaapIVa7cpJhfzHs3AaqeIMjrUSQi1ZhQNbtlQYu45U2p26oN78H5M54F7fWWjiWa5JbgizqfzftqDt06P5Nj3CWuFMU3yFOgiX5n&token=1776221467-8fa99b3b879bacd8-0-b09602326b577119089417591328a91d
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CETV早期教育.png" group-title="🔥[三网6]央卫视直播",CETV早期教育
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001680/index.m3u8?streamid=2c224135515a11c735f7351c17434a62&streamkey=070kmnWlSO6tVzLyh1sXZ20iCOCRLXoHmCsz0IqkkXJJD0eYMb2A5kwULwbki6Baf4Z2bJfsbp07kt5WoqgWvFeVzbkW96tGU7nFRu0brwnn5lybIRJA&token=1776221300-cf453e64c67843de-0-4539fce56dec116202db007052b0029c
-#EXTINF:-1 tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云足球.png" group-title="🔥[三网6]央卫视直播",风云足球
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001590/index.m3u8?streamid=927ac8a2bbea16a44fbdc8cd59deabc8&streamkey=0WsC3jqv5pZMcVlxFBNnufmiOCXFZigfn61ogjSwht3bqXevILtdE9S00t1S31TUcNtpNMycyrjLcmhMwenwuh8FAxcPIPYTEQUX1MDXgmTdP03V9WzCfa1iP&token=1775754113-ea7ee6d53b99caad-0-c93511c176fc0c319dc73b7c39050be7
-#EXTINF:-1 group-title="🔥[三网6]央卫视直播",高尔夫·网球
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001630/index.m3u8?streamid=451d321c7d5df14c154d41bfc36818ba&streamkey=092SzM8qh4GNZmlKrvbt7mLZrzFoKIOqJdHt2nxkKtoF5ZUsM4NzxcyxIp5WijxjSYyXXwQDNngGki637GlXWDse1Uzt8LfJEkILVW7BrgEPyPuWVKaDDpkTovJ2&token=1775754157-c2543fc8a8d8012d-0-9fc91cf1ced6693d27f53ad1922fbda8
-#EXTINF:-1 tvg-id="央视文化精品 (shanghai)" tvg-name="央视文化精品" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视文化精品.png" group-title="🔥[三网6]央卫视直播",央视文化精品
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001670/index.m3u8?streamid=618d33181dba2b51e9d3752d73d737b8&streamkey=0BeWwyHBmiCHyS40J1tisoH3ivjrXhzz03oQbO5uiXsRKSS8kvCliHls9zj3gCGKqzJGZJSNE6Evbwmw4OinJFa3A7rvlVNctyhssTQDHow2JgnP7kv4mVoKgkDCCSyt8M3n&token=1775754194-77abd02e1989ddc1-0-d8b4892968a6f3343a776beca71cbdc8
-#EXTINF:-1 tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云音乐.png" group-title="🔥[三网6]央卫视直播",风云音乐
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001660/index.m3u8?streamid=be37d16b874e7ba11dd383d7ecd75752&streamkey=02BjlnRKVk4w1Oyqq9aXRB4YtWxqlybIfl2lS5mkFVN5iNWAFYdKIFbyaEPKZTNBgIoU9bQc4m8PrS8Pw3iTRKs635HzsGgAANSe4AgbCngHqxM1kM6le1OCEWm&token=1775754243-94f06a5cf0b92094-0-743c505a12a44d0e7fd5d08f14b11504
-#EXTINF:-1 tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/第一剧场.png" group-title="🔥[三网6]央卫视直播",第一剧场
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001621/index.m3u8?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&streamkey=07xclP9QQ7A17NHSunxvhUhDmEAgCJHPSWwcmXXGtD5B1ctgr4sNGjOLgDUiqhY3hbKKrXCg3V0Mv4oFIdXvsvsAV0LnOhkY1hZzilPs1GDH833k0xqsPako&token=1775754265-e70414852ba80d73-0-504af0de169af5289009509fea184863
-#EXTINF:-1 tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/怀旧剧场.png" group-title="🔥[三网6]央卫视直播",怀旧剧场
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001640/index.m3u8?streamid=7e5d1abdddde08f588234f3f640f75ff&streamkey=092SzM8qh4GNZm8Sly0j0xG8Sg3yHIQW1svsz2WNbj7O78R6ErBo1ngfNZaXyLnHcB0EzcN18Jgg3T7PGY4Z4bPJb3uh7m1yZZAwSv5g1hznMWXe2xIsEOmyaW5R&token=1775754296-fcd63ac210d4c1d1-0-41aa2d5111a454de23251c36585cb18c
-#EXTINF:-1 tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云剧场.png" group-title="🔥[三网6]央卫视直播",风云剧场
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001650/index.m3u8?streamid=31e7b5b7032d25dd215a4069cdee1a48&streamkey=092SzM8qh4GNZmZA3rm8J5tyW0EBV9e1AcX3sOzPl60Tq40QwOQfr22hYT4Oi6v014YyjkURGvT8w8zB2Bg7NMOzBw6DeNLMEQIayEUyn5osgQLPrBIXv36KIO42&token=1775754322-08f47393d1a6d3c0-0-3f3c56613652db4d2f081625481d962a
-#EXTINF:-1 tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/世界地理.png" group-title="🔥[三网6]央卫视直播",世界地理
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710
-#EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/兵器科技.png" group-title="🔥[三网6]央卫视直播",兵器科技
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001610/index.m3u8?streamid=530cb4e58bbc48b7fc26f5e0a2e47966&streamkey=01vY5fRxC8VyKflowXIjpDe18KG4zb4IJYt7IRjkmP139PykAFJm2e4f2ggI7qaYyYDdV2jg7DGq8J4XWj9dVR3dpcOhYSRLSKkLA4lKNSIEwluGcrMvak9&token=1775754372-8861cea21b137ebe-0-f503dcc0151e7ea385857ea5cfa73aa0
-#EXTINF:-1 tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/女性时尚.png" group-title="🔥[三网6]央卫视直播",女性时尚
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001571/index.m3u8?streamid=15732e48a35953bb064f0ffb4197035c&streamkey=092SzM8qh4GNZnGRAOz6y3nvNrssZJcflnNDbtwifQsVSBFB4hpwpDInl50YKu2zt1eb26JJwNN5CopCgczz7WZR3dtJlHFGA3m8Sgjvc2xB9twEzATcT54y15wY&token=1775754397-43927d95ab17a1ae-0-d7fc3f2a8df09c74d345181b73c6c670
-#EXTINF:-1 tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视台球.png" group-title="🔥[三网6]央卫视直播",央视台球
-https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001600/index.m3u8?streamid=04540cf3fa4df50b6e2fd9166c021d4b&streamkey=02BjlnRKVk4w1Ojwl0Q41u7qasJwePv45M3Tx7aAax93Zq5QEnEH7qLpHsyWobOiWCvunmJFhnRmIfEOv4rl3BaZDf4HVH0GjcLnULEFcC6BRgqtB3rX8Ah1RRq&token=1775754426-3ba023cd7fae153a-0-83a101ff80611422cb2ee97dc79dde3f
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/卫生健康.png" group-title="🔥[三网6]央卫视直播",卫生健康
-http://home.szjim.top:4000/udp/239.77.0.212:5146
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="🔥[三网6]央卫视直播",CGTN
-https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CGTN记录.png" group-title="🔥[三网6]央卫视直播",CGTN记录
-https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
-#EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="🔥[三网6]央卫视直播",CGTN俄语
-https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
-#EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="🔥[三网6]央卫视直播",CGTN法语
-https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8
-#EXTINF:-1 tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN西班牙语.png" group-title="🔥[三网6]央卫视直播",CGTN西班牙语
-https://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
-#EXTINF:-1 tvg-id="cgtn阿拉伯语" tvg-name="cgtn阿拉伯语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN阿拉伯语.png" group-title="🔥[三网6]央卫视直播",CGTN阿拉伯语
-https://arabic-liveali.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="🔥[三网6]央卫视直播",广东卫视
-http://119.123.176.65:8086/hls/44/index.m3u8
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="🔥[三网6]央卫视直播",广西卫视
-http://119.123.176.65:8086/hls/48/index.m3u8
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="🔥[三网6]央卫视直播",海南卫视
-http://119.123.176.65:8086/hls/50/index.m3u8
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="🔥[三网6]央卫视直播",河南卫视
-http://119.123.176.65:8086/hls/52/index.m3u8
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="🔥[三网6]央卫视直播",湖北卫视
-http://119.123.176.65:8086/hls/54/index.m3u8
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="🔥[三网6]央卫视直播",湖南卫视
-http://119.123.176.65:8086/hls/55/index.m3u8
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="🔥[三网6]央卫视直播",江苏卫视
-http://119.123.176.65:8086/hls/59/index.m3u8
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="🔥[三网6]央卫视直播",深圳卫视
-http://119.123.176.65:8086/hls/79/index.m3u8
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="🔥[三网6]央卫视直播",四川卫视
-http://119.123.176.65:8086/hls/82/index.m3u8
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="🔥[三网6]央卫视直播",重庆卫视
-http://119.123.176.65:8086/hls/100/index.m3u8
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="🔥[三网6]央卫视直播",浙江卫视
-http://119.123.176.65:8086/hls/101/index.m3u8
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="🔥[三网6]央卫视直播",东方卫视
-http://119.123.176.65:8086/hls/129/index.m3u8
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="🔥[三网6]央卫视直播",北京卫视
-http://119.123.176.65:8086/hls/131/index.m3u8
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="🔥[三网6]央卫视直播",江西卫视
-http://119.123.176.65:8086/hls/132/index.m3u8
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="🔥[三网6]央卫视直播",山东卫视
-http://119.123.176.65:8086/hls/133/index.m3u8
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="🔥[三网6]央卫视直播",安徽卫视
-http://119.123.176.65:8086/hls/137/index.m3u8
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="🔥[三网6]央卫视直播",东南卫视
-http://119.123.176.65:8086/hls/161/index.m3u8
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="🔥[三网6]央卫视直播",天津卫视
-http://119.123.176.65:8086/hls/140/index.m3u8
-#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="🔥[三网6]央卫视直播",贵州卫视
-http://119.123.176.65:8086/hls/143/index.m3u8
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="🔥[三网6]央卫视直播",河北卫视
-http://119.123.176.65:8086/hls/144/index.m3u8
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="🔥[三网6]央卫视直播",辽宁卫视
-http://119.123.176.65:8086/hls/251/index.m3u8
-#EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海峡卫视.png" group-title="🔥[三网6]央卫视直播",海峡卫视
-http://wine600.i234.me:4567/rtp/239.61.2.151:8894
-#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="🔥[三网6]央卫视直播",云南卫视
-http://home.szjim.top:4000/udp/239.253.43.37:5146
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="🔥[三网6]央卫视直播",青海卫视
-http://home.szjim.top:4000/udp/239.253.43.125:5146
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="🔥[三网6]央卫视直播",甘肃卫视
-http://pplee.vicp.net:4022/udp/233.18.204.110:5140
-#EXTINF:-1 tvg-id="三沙卫视 (shanghai)" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三沙卫视.png" group-title="🔥[三网6]央卫视直播",三沙卫视
-http://pplee.vicp.net:4022/udp/233.18.204.172:5140
-#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="🔥[三网6]央卫视直播",山西卫视
-http://pplee.vicp.net:4022/udp/233.18.204.211:5140
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="🔥[三网6]央卫视直播",吉林卫视
-http://pplee.vicp.net:4022/udp/233.18.204.108:5140
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="🔥[三网6]央卫视直播",黑龙江卫视
-http://pplee.vicp.net:4022/udp/233.18.204.90:5140
-#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="🔥[三网6]央卫视直播",陕西卫视
-http://pplee.vicp.net:4022/udp/233.18.204.223:5140
-#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="🔥[三网6]央卫视直播",内蒙古卫视
-http://pplee.vicp.net:4022/udp/233.18.204.217:5140
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="🔥[三网6]央卫视直播",兵团卫视
-http://pplee.vicp.net:4022/udp/233.18.204.221:5140
-#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="🔥[三网6]央卫视直播",西藏卫视
-http://pplee.vicp.net:4022/udp/233.18.204.222:5140
-#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="🔥[三网6]央卫视直播",宁夏卫视
-http://pplee.vicp.net:4022/udp/233.18.204.230:5140
-#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="🔥[三网6]央卫视直播",新疆卫视
-http://pplee.vicp.net:4022/udp/233.18.204.220:5140
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🔥[电信]央卫视直播",CCTV1
 http://107.150.60.122/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="🔥[电信]央卫视直播",CCTV2
@@ -2161,224 +1917,26 @@ https://liveh34.vtvprime.vn/hls/PHUTHOTV/03.m3u8
 https://liveh12.vtvprime.vn/hls/DANANGTV/03.m3u8
 #EXTINF:-1 group-title="🇻🇳越南直播",DANANG2
 https://liveh34.vtvprime.vn/hls/DANANG2/04.m3u8
-#EXTINF:-1 group-title="🇯🇵日本直播",NHK G HD (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
-#EXTINF:-1 group-title="🇯🇵日本直播",NHK E HD (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
-#EXTINF:-1 group-title="🇯🇵日本直播",NTV HD (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
-#EXTINF:-1 group-title="🇯🇵日本直播",TBS HD (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
-#EXTINF:-1 group-title="🇯🇵日本直播",Fuji TV HD (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05
-#EXTINF:-1 group-title="🇯🇵日本直播",TV Asahi HD (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd06
-#EXTINF:-1 group-title="🇯🇵日本直播",TV Tokyo HD (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd07
-#EXTINF:-1 group-title="🇯🇵日本直播",TOKYO MX1 HD (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd08
-#EXTINF:-1 group-title="🇯🇵日本直播",NHK G (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01
-#EXTINF:-1 group-title="🇯🇵日本直播",NHK E (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02
-#EXTINF:-1 group-title="🇯🇵日本直播",NTV (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03
-#EXTINF:-1 group-title="🇯🇵日本直播",TBS (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04
-#EXTINF:-1 group-title="🇯🇵日本直播",Fuji TV (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05
-#EXTINF:-1 group-title="🇯🇵日本直播",TV Asahi (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06
-#EXTINF:-1 group-title="🇯🇵日本直播",TV Tokyo (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07
-#EXTINF:-1 group-title="🇯🇵日本直播",TOKYO MX1 (Primehome)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08
-#EXTINF:-1 group-title="🇯🇵日本直播",NHKG
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",NHKG
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",NHKBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",NHKBSP4K
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",NHKG
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",NHKE
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",日本テレビ
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",日本テレビ
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04&isp=4
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbs.png" group-title="🇯🇵日本直播",TBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04&isp=4
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbs.png" group-title="🇯🇵日本直播",TBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",フジテレビ
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",フジテレビ
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",テレビ朝日
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",テレビ朝日
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",テレビ東京
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",テレビ東京
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",BS日テレ
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",BSTBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",BSフジ
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",BS朝日
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",BSテレ東
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",ディスカバリー
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",ナショジオ
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",ヒストリー
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",アニマルプラネット
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs24&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",旅チャンネル
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",MONDOTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",JCOM
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",東映
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",日本映画
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",ムービープラス
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",衛星劇場
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",スカイA
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",WOWOWプライム
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",WOWOWライブ
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",WOWOWシネマ
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",スターチャンネル1
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",スターチャンネル2
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs27&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",スターチャンネル3
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs28&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",ホームドラマ
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",時代劇
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",ファミリー劇場
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",宝塚歌劇
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",歌謡ポップス
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",GAORA
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17&isp=4
-#EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mtv.png" group-title="🇯🇵日本直播",MTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",ミュージックジャパン
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",LaLa
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",スペースシャワー
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",JSports1
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",JSports2
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",JSports3
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",JSports4
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",ゴルフネットワーク
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",BS釣りビジョン
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",銀河
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",日テレG+
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02&isp=4
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbsnews.png" group-title="🇯🇵日本直播",TBSNEWS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",フジテレビNEXT
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26&isp=4
-#EXTINF:-1 group-title="🇯🇵日本直播",pigoo
-https://nl.utako.moe/pigoo/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本直播",Neco Channel
-https://nl.utako.moe/neco/index.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",ABN TV (720p)
-https://vod2.abn.co.kr/IPHONE/abn.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",Arirang Radio (720p)
-http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",BBS Buddhist Broadcasting (1080p)
-http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",CGNTV South Korea (1080p)
-https://du35ivadp6cxj.cloudfront.net/out/v1/81781d23cbbf490990b2aa9181d4ce19/CGNWebLiveKR.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",CJ OnStyle (540p)
-https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",EWTN Africa Asia (720p)
-https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",EWTN Asia-Pacific (720p) [Not 24/7]
-https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
 #EXTINF:-1 group-title="🇰🇷韩国直播",GCN24 Korean (720p)
 http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8
 #EXTINF:-1 group-title="🇰🇷韩国直播",GoodTV (1080p)
 http://mobliestream.c3tv.com:1935/live/goodtv.sdp/playlist.m3u8
 #EXTINF:-1 group-title="🇰🇷韩国直播",Gugbang TV (1080p) [Not 24/7]
 http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",Home & Shopping (720p)
-https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",KBS 1TV [Not 24/7]
-http://mytv.dothome.co.kr/ch/public/1.php
-#EXTINF:-1 group-title="🇰🇷韩国直播",KBS 2TV [Not 24/7]
-http://mytv.dothome.co.kr/ch/public/3.php
-#EXTINF:-1 group-title="🇰🇷韩国直播",KBS Drama (480p)
-http://mytv.dothome.co.kr/ch/catv/2.php
-#EXTINF:-1 group-title="🇰🇷韩国直播",KBS Life (480p)
-http://mytv.dothome.co.kr/ch/catv/5.php
-#EXTINF:-1 group-title="🇰🇷韩国直播",KBS LiveCam DokDo (540p)
-http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",KCTV 광주 CH05 (720p) [Not 24/7]
-http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",Lotte OneTV (720p)
-https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",MBC Andong (안동 MBC) (360p) [Not 24/7]
-http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
 #EXTINF:-1 group-title="🇰🇷韩国直播",MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]
 https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",MBC Jeju (제주 MBC) (352p) [Not 24/7]
-https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
 #EXTINF:-1 group-title="🇰🇷韩国直播",MBC Mokpo (목포 MBC) (720p) [Not 24/7]
 http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
 #EXTINF:-1 group-title="🇰🇷韩国直播",MBC Yeosu (여수 MBC)[Not 24/7]
 https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",NHTV (720p)
-http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",SBS CJB (540p) [Not 24/7]
-http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
 #EXTINF:-1 group-title="🇰🇷韩国直播",SBS JTV (406p) [Not 24/7]
 http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",Shopping NT (720p)
-https://live.shoppingntmall.com/live/10011.m3u8
 #EXTINF:-1 group-title="🇰🇷韩国直播",tvchosun2
 http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
 #EXTINF:-1 group-title="🇰🇷韩国直播",tvchosun
 http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",BBS
-http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1216149699.m3u8
 #EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="🇰🇷韩国直播",EBS1
 http://ebsonairios.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="EBS2" tvg-name="EBS2" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBS2.png" group-title="🇰🇷韩国直播",EBS2
-http://ebsonairios.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBSE.png" group-title="🇰🇷韩国直播",EBSe
 http://ebsonairios.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="🇰🇷韩国直播",EBS1
@@ -2387,114 +1945,16 @@ http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
 http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8
 #EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="🇰🇷韩国直播",EBS1
 http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8
-#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="🇰🇷韩国直播",EBS1
-http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/groundwavetablet500k.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",EBSi
-http://ebsonairios.ebs.co.kr/plus1tablet500k/tablet500k/plus1tablet500k.index.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",EBS+2
-http://ebsonairios.ebs.co.kr/plus2tablet500k/tablet500k/plus2tablet500k.index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBSE.png" group-title="🇰🇷韩国直播",EBSe
-http://ebsonairios.ebs.co.kr/plus3tablet500k/tablet500k/plus3tablet500k.index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="🇰🇷韩国直播",KCTV
-http://119.77.96.184:1935/chn05/chn05/chunklist_w1306745753.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",tvN1
-https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?
-#EXTINF:-1 group-title="🇰🇷韩国直播",tvN2
-https://d21dxaer0ypwk1.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6m2cy2rylsvo-ssai-prd/54ac8e25_eb5a_4f10_ba20_ffb254f0a16c/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.service_id=KRBC32000261J
-#EXTINF:-1 group-title="🇰🇷韩国直播",tvN3
-https://d25mdvvpht3395.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p8ea370fl7r4f-ssai-prd/82f296fd_2916_45b7_b799_525a4226957a/hls/playlist.m3u8?
-#EXTINF:-1 group-title="🇰🇷韩国直播",tvN5
-https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?tvN
-#EXTINF:-1 group-title="🇰🇷韩国直播",KBS世界
-https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="🇰🇷韩国直播",Arirang
-http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="🇰🇷韩国直播",Arirang
-http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",EBS 2
-http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8?
 #EXTINF:-1 group-title="🇰🇷韩国直播",JTV
 http://61.85.197.53:1935/jtv_live/myStream/chunklist_w1542137203.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="🇰🇷韩国直播",KCTV
-http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",C
-http://112.175.51.214:1935/live/myStream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",TV
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tv1.png" group-title="🇰🇷韩国直播",TV1
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TV3.png" group-title="🇰🇷韩国直播",TV3
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=630
-#EXTINF:-1 group-title="🇰🇷韩国直播",TV4
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=644
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/14.png" group-title="🇰🇷韩国直播",14
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=14
-#EXTINF:-1 group-title="🇰🇷韩国直播",EBS少儿
-http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/chunklist_w1965791004.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",韩国EBS1
-http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8?zshijd
-#EXTINF:-1 group-title="🇰🇷韩国直播",韩国EBS2
-http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8?zshijd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="🇰🇷韩国直播",Arirang
-http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="🇰🇷韩国直播",KCTV
-http://119.77.96.184:1935/chn05/chn05/chunklist.m3u
-#EXTINF:-1 group-title="🇰🇷韩国直播",声优广播
-http://www.uniqueradio.jp/agplayerf/hls/Active.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="🇰🇷韩国直播",KCTV
-http://119.77.96.184:1935/chn05/chn05/chunklist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",CJB
-http://1.222.207.80:1935/live/cjbtv/chunklist_w1357270949.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="🇰🇷韩国直播",Arirang
-http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch/master.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",BBS佛教广播
-http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="🇰🇷韩国直播",Arirang
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbtv.png" group-title="🇰🇷韩国直播",HBTV
-http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ANTV.png" group-title="🇰🇷韩国直播",ANTV
-http://antvlive.ab5c6921.cdnviet.com/antv/chunklist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",Arirang Radio
-http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",BTN
-http://btn.nowcdn.co.kr/btn/btnlive01/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",CPBC
-http://onair1.cpbc.co.kr:1935/tv/smil:live.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",EBS-KIDS
-http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",GCN教会
-http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_high/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mbn.png" group-title="🇰🇷韩国直播",MBN
-http://mytv.dothome.co.kr/ch/catv/54.php
-#EXTINF:-1 group-title="🇰🇷韩国直播",NewKID2
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=878
-#EXTINF:-1 group-title="🇰🇷韩国直播",NewKID4
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=888
-#EXTINF:-1 group-title="🇰🇷韩国直播",NewKID4
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=872
-#EXTINF:-1 group-title="🇰🇷韩国直播",韩国音乐
-http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国直播",RNA
-http://5ddfc48289114.streamlock.net/CHsoom/LIVE/playist.m3u8
-#EXTINF:-1 group-title="🇺🇸美国直播",NBC 4 New York
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/82291
-#EXTINF:-1 group-title="🇺🇸美国直播",NBC 4 Los Angeles
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/8482
-#EXTINF:-1 group-title="🇺🇸美国直播",NBC 5 Chicago
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/41046
 #EXTINF:-1 group-title="🇺🇸美国直播",CBS 2 New York
 http://stream.cammonitorplus.net/1810/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🇺🇸美国直播",CBS 2 Los Angeles
 http://bgdc.live:25461/catrinamcdermott/catrinamcdermott/215482
-#EXTINF:-1 group-title="🇺🇸美国直播",CBS 2 Chicago
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/14811
 #EXTINF:-1 group-title="🇺🇸美国直播",ABC 7 New York
 http://hardcoremedia.xyz/ymgiaxkw/5Hr5ZQuVfU/142490
 #EXTINF:-1 group-title="🇺🇸美国直播",ABC 7 Los Angeles
 http://epicboss.live/bjune@teksavvy.com/5193594414/46372
-#EXTINF:-1 group-title="🇺🇸美国直播",ABC 7 Chicago
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/284536
 #EXTINF:-1 group-title="🇺🇸美国直播",FOX 5 New York
 http://hardcoremedia.xyz/ymgiaxkw/5Hr5ZQuVfU/10056
 #EXTINF:-1 group-title="🇺🇸美国直播",FOX 11 Los Angeles
@@ -2503,10 +1963,6 @@ http://bgdc.live:25461/catrinamcdermott/catrinamcdermott/215728
 http://bgdc.live:25461/catrinamcdermott/catrinamcdermott/215737
 #EXTINF:-1 group-title="🇺🇸美国直播",USA Network
 http://190.11.225.124:5000/live/usa_hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TNT.png" group-title="🇺🇸美国直播",TNT
-https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbs.png" group-title="🇺🇸美国直播",TBS
-https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/A&E.png" group-title="🇺🇸美国直播",A&E
 http://23.239.31.26:8989/aande/index.m3u8
 #EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mtv.png" group-title="🇺🇸美国直播",MTV
@@ -2521,8 +1977,6 @@ http://bgdc.live:25461/catrinamcdermott/catrinamcdermott/10373
 https://d4whmvwm0rdvi.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-linear/61a276d1-8291-4018-aba2-146304f96043/4.m3u8
 #EXTINF:-1 group-title="🇺🇸美国直播",Comedy TV
 http://hardcoremedia.xyz/live/rabdsbmz/3731346838/261524.ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/BET.png" group-title="🇺🇸美国直播",BET
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/2278
 #EXTINF:-1 group-title="🇺🇸美国直播",Pop
 http://bgdc.live:25461/catrinamcdermott/catrinamcdermott/51112
 #EXTINF:-1 group-title="🇺🇸美国直播",fuse
@@ -2531,44 +1985,14 @@ http://23.237.104.106:8080/USA_FUSE/index.m3u8
 http://23.237.104.106:8080/USA_E/index.m3u8
 #EXTINF:-1 group-title="🇺🇸美国直播",WE TV
 http://23.237.104.106:8080/USA_WE_TV/mpegts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/TRUTV.png" group-title="🇺🇸美国直播",truTV
-https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 group-title="🇺🇸美国直播",Adult Swim
-https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 group-title="🇺🇸美国直播",BUZZR
-https://buzzrota-web.amagi.tv/1080p-vtt/index.m3u8
 #EXTINF:-1 group-title="🇺🇸美国直播",AXS TV
 http://23.239.31.26:8989/axstv/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/VICE.png" group-title="🇺🇸美国直播",VICE
 https://d1ocru52bkg5e9.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-tqr9z4dqrkb9m/b07d20d9-38d3-44e4-a74d-386f99542384/3.m3u8
 #EXTINF:-1 group-title="🇺🇸美国直播",Game Show Network
 http://bgdc.live:25461/catrinamcdermott/catrinamcdermott/10404
-#EXTINF:-1 group-title="🇺🇸美国直播",Game Show Central
-https://pb-bunear28tuvaw.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-bunear28tuvaw/ffedf9d2-4bba-4fbc-a4bd-4ad02664142c/2.m3u8
-#EXTINF:-1 group-title="🇨🇦加拿大直播",CTV Toronto CA
-http://bgdc.live:25461/catrinamcdermott/catrinamcdermott/190861
-#EXTINF:-1 group-title="🇨🇦加拿大直播",CTV2 Vancouver CA
-http://1tv41.icu:8080/Y06DNq/295733/57316
-#EXTINF:-1 group-title="🇨🇦加拿大直播",CBC Toronto CA
-http://bgdc.live:25461/catrinamcdermott/catrinamcdermott/190940
-#EXTINF:-1 group-title="🇨🇦加拿大直播",CBC Vancouver CA
-http://epicboss.live/bjune@teksavvy.com/5193594414/19337
-#EXTINF:-1 group-title="🇨🇦加拿大直播",Citytv Toronto CA
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/1727
-#EXTINF:-1 group-title="🇨🇦加拿大直播",Makeful TV CA
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/9228
-#EXTINF:-1 group-title="🇨🇦加拿大直播",TVO CA
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/304557
-#EXTINF:-1 group-title="🇨🇦加拿大直播",W Network CA
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/9200
-#EXTINF:-1 group-title="🇨🇦加拿大直播",CTV Gets Real CA
-https://dyibab6iv1p6i.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4j7c245x3pz3r/04f2cd9d-c459-4f57-a79f-473d1b3ca65a/3.m3u8
 #EXTINF:-1 group-title="🇬🇧英国直播",BBC One UK
 http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/1155
-#EXTINF:-1 group-title="🇬🇧英国直播",BBC Two UK
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/283047
-#EXTINF:-1 group-title="🇬🇧英国直播",BBC Three UK
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/291212
 #EXTINF:-1 group-title="🇬🇧英国直播",BBC Four UK
 http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/1158
 #EXTINF:-1 group-title="🇬🇧英国直播",ITV1 UK
@@ -2585,14 +2009,10 @@ http://epicboss.live/bjune@teksavvy.com/5193594414/9442
 http://epicboss.live/bjune@teksavvy.com/5193594414/9441
 #EXTINF:-1 group-title="🇬🇧英国直播",E4 UK
 http://epicboss.live/bjune@teksavvy.com/5193594414/9437
-#EXTINF:-1 group-title="🇬🇧英国直播",More4 UK
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/280284
 #EXTINF:-1 group-title="🇬🇧英国直播",FILM4 UK
 http://hardcoremedia.xyz/ymgiaxkw/5Hr5ZQuVfU/241985
 #EXTINF:-1 group-title="🇬🇧英国直播",4seven UK
 http://hardcoremedia.xyz/ymgiaxkw/5Hr5ZQuVfU/241939
-#EXTINF:-1 group-title="🇬🇧英国直播",Sky One UK
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/304767
 #EXTINF:-1 group-title="🇬🇧英国直播",U & Gold UK
 http://epicboss.live/bjune@teksavvy.com/5193594414/30171
 #EXTINF:-1 group-title="🇬🇧英国直播",S4C UK
@@ -2601,14 +2021,6 @@ http://hardcoremedia.xyz/ymgiaxkw/5Hr5ZQuVfU/242020
 http://epicboss.live/bjune@teksavvy.com/5193594414/4628
 #EXTINF:-1 group-title="🇮🇪爱尔兰直播",RTE 2 IE
 http://epicboss.live/bjune@teksavvy.com/5193594414/4627
-#EXTINF:-1 group-title="🇮🇪爱尔兰直播",Virgin Media One IE
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/122200
-#EXTINF:-1 group-title="🇮🇪爱尔兰直播",Virgin Media Two IE
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/11683
-#EXTINF:-1 group-title="🇮🇪爱尔兰直播",Virgin Media Three IE
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/7995
-#EXTINF:-1 group-title="🇮🇪爱尔兰直播",Virgin Media Four IE
-http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/304761
 #EXTINF:-1 group-title="🇮🇪爱尔兰直播",TG4 IE
 http://epicboss.live/bjune@teksavvy.com/5193594414/14365
 #EXTINF:-1 group-title="🌏全球直播",🇦🇹奥地利Moviesphere
@@ -2821,6 +2233,216 @@ https://live.ottiptv.cc/huya/20753449
 https://live.ottiptv.cc/huya/20072763
 #EXTINF:-1 group-title="🏀体育直播",扇耳光专场
 https://live.ottiptv.cc/huya/30631765
+#EXTINF:-1 group-title="🏀[海外]体育直播",STAR SPORTS 1 ENG LOW QUALITY
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=702533&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",STAR SPORTS 2 ENG LOW QUALITY
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=702543&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",STAR SPORTS 1 HINDI
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=702561&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",STAR SPORTS 1 FHD (50FPS)
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=703296&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",STAR SPORTS 2 FHD (50 FPS)
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=703297&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",STAR SPORTS 1 HINDI FHD (50 FPS)
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=703298&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",STAR 4K
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=703299&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",ADD FREE WILLOW HINDI MATCH 1
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=703300&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",ADD FREE WILLOW ENG MATCH 1
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=703301&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN SPORTS 4K 1
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652310&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN SPORTS  4K 2
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652311&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN SPORTS  4K 3
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652312&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN SPORTS 4K 4
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652313&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN SPORTS 4K 5
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652314&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN SPORTS 4K 6
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652315&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN SPORTS 4K 7
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652316&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN SPORTS 4K 8
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652317&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN SPORTS 4K 9
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652318&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN Sport English 2 4k
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652319&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN Sport French 4k 1
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652320&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN Sport French 4k 2
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652321&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports Global 4K
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652322&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Xtra 4K 1
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652323&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Xtra 4K 2
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652324&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",beIN Xtra 4K  3
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652325&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Xtra 4K 5
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652326&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Xtra 4K 6
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652327&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Xtra 4K 4
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652328&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sport AFC 3 4K
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652329&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sport AFC 4 4K
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652330&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sport AFC 5 4K
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652331&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sport NBA 4K
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652332&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports HD1 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652333&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports HD2 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652334&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports HD3 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652335&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports HD4 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652336&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports HD5 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652337&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports HD6 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652338&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports HD7 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652339&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports HD8 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652340&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports HD9 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652341&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Xtra HD1 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652342&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Xtra HD2 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652343&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Xtra HD3 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652344&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports English 1 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652345&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports English 2 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652346&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports French HD1 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652347&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Bein Sports French HD2 1080
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=652348&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",AU: Fox Sports 501
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=4748&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",AU: Fox Sports 503
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=4750&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",AU: Fox Sports 504
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=4751&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",AU: Fox Sports 505
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=4752&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",AU: Fox Sports 506
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=4753&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",AU: Fox Sports 507
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=4754&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",AU: Fox Sports News
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=5442&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",|AU| FOX Sports 502
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=415535&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",| SKY SPORTS NEWS
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=122408&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",| SKY SPORTS MAIN EVENT
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=122409&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",| SKY SPORTS PREMIER LEAGUE
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=122410&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",| SKY SPORTS FOOTBALL
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=122411&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",| SKY SPORTS CRICKET
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=122412&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",| SKY SPORTS ACTION
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=122413&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",| SKY SPORTS PLUS
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=122414&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",| SKY SPORTS RACING
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=122415&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",| SKY SPORTS MIX
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=122416&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",| SKY SPORTS GOLF
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=122417&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",LA LIGA TV (4K)
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=148270&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",UK SD : TNT Sport 3
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=148559&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",UK SD : TNT Sport 2
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=148560&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",UK SD : TNT Sport 1
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=148561&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",UK SD : Euronews
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=148676&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Sky Sports Plus SD Hevc
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=148678&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Sky Sports Cricket SD Hevc
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=148679&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Sky Sports F1 SD Hevc
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=148680&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Sky Sports Golf SD Hevc
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=148682&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Sky Sports mix SD Hevc
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=148684&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",SKY SPORTS Plus
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186620&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",SKY SPORTS MIX
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186621&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",SKY SPORTS MIX
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186622&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",SKY SPORTS NEWS
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186623&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",SKY SPORTS NEWS
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186624&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",SKY SPORTS BOX OFFICE
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186625&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",SKY SPORTS BOX OFFICE
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186626&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",TNT SPORT 2
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186628&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",TNT SPORT 3
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186629&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",TNT SPORT 4
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186630&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",TNT SPORT 5
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186631&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",TNT SPORT 6
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186632&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",TNT SPORT 9
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186635&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",EUROSPORT 1
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186637&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",EUROSPORT 2
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186638&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",PREMIER SPORT 1
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186639&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",Premier Sport 2
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186640&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",RACING TV
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186642&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",UK: SKY SPORTS RACING
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=186643&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",SKY SPORTS BOX OFFICE
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=201548&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",IN: STAR SPORTS 1 (4K).
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=98864&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",IN: STAR SPORTS 2 (4K).
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=98865&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",IN: STAR SPORTS 1 HINDI (4K).
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=98866&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",IN: STAR SPORTS SELECT 1 (4K).
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=98867&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",IN: START SPORTS SELECT 2 (4K).
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=98868&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",IN: TEN 1 (4K).
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=98861&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",IN: TEN 2 (4K).
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=98862&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",IN: TEN 3 (4K).
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=98863&ext=ts
+#EXTINF:-1 group-title="🏀[海外]体育直播",IN: SONY TEN 5 (4K).
+https://amaira.pages.dev/xtreamscript/amaira/play?tk=CwgvWGBSFxFOeldbdUxnQHQdJVUnFXldahAgGSABJwMSFRxTXVh6QGQOdFZ6GWFRcUZyTXFUeBVqVxcUAgACBQ&id=98870&ext=ts
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/邵氏电影.png" group-title="🎞️电影直播",邵氏电影
 http://38.75.136.137:98/gslb/dsdqpub/lbssdy.m3u8?auth=testpub
 #EXTINF:-1 group-title="🎞️电影直播",邵氏武侠
@@ -3792,67 +3414,69 @@ https://live01.qujigeq.cn/live/72005900.m3u8
 #EXTINF:-1 group-title="🏀蜘蛛直播",美芽
 https://live01.qujigeq.cn/live/00685871.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",小杜杜
-https://live06.zqty88.com/live/66619329.m3u8
+https://live06.zuqiu106.com/live/66619329.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",热巴
-https://live06.zqty88.com/live/10397139.flv
+https://live06.zuqiu106.com/live/10397139.flv
 #EXTINF:-1 group-title="🏀zuqiu直播",阿梨
-https://live06.zqty88.com/live/52765809.m3u8
+https://live06.zuqiu106.com/live/52765809.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",蜜糖
-https://live06.zqty88.com/live/39492499.m3u8
+https://live06.zuqiu106.com/live/39492499.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",夜猫
-https://live06.zqty88.com/live/13882370.m3u8
+https://live06.zuqiu106.com/live/13882370.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",森林聊球
-https://live06.zqty88.com/live/15781071.m3u8
+https://live06.zuqiu106.com/live/15781071.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",天禄
-https://live06.zqty88.com/live/47337902.m3u8
+https://live06.zuqiu106.com/live/47337902.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",山鸡
-https://live06.zqty88.com/live/95005714.m3u8
+https://live06.zuqiu106.com/live/95005714.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",老马聊球
-https://live06.zqty88.com/live/03735870.m3u8
+https://live06.zuqiu106.com/live/03735870.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",欢喜宝哥
-https://live06.zqty88.com/live/99354599.m3u8
+https://live06.zuqiu106.com/live/99354599.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",老班长
-https://live06.zqty88.com/live/95826850.m3u8
+https://live06.zuqiu106.com/live/95826850.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",利哥
-https://live06.zqty88.com/live/73853999.m3u8
+https://live06.zuqiu106.com/live/73853999.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",小北聊球
-https://live06.zqty88.com/live/25364189.m3u8
+https://live06.zuqiu106.com/live/25364189.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",威少
-https://live06.zqty88.com/live/23048255.m3u8
+https://live06.zuqiu106.com/live/23048255.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",奈奈
-https://live06.zqty88.com/live/36571087.m3u8
+https://live06.zuqiu106.com/live/36571087.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",暖暖
-https://live06.zqty88.com/live/58398678.m3u8
+https://live06.zuqiu106.com/live/58398678.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",城北徐公
-https://live06.zqty88.com/live/15960426.m3u8
+https://live06.zuqiu106.com/live/15960426.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",阿酷
-https://live06.zqty88.com/live/42573743.m3u8
+https://live06.zuqiu106.com/live/42573743.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",足球六六
-https://live06.zqty88.com/live/81400757.m3u8
+https://live06.zuqiu106.com/live/81400757.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",六哥
-https://live06.zqty88.com/live/60487662.m3u8
+https://live06.zuqiu106.com/live/60487662.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",赖斯
-https://live06.zqty88.com/live/64907352.m3u8
+https://live06.zuqiu106.com/live/64907352.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",若林
-https://live06.zqty88.com/live/32168392.m3u8
+https://live06.zuqiu106.com/live/32168392.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",豆豆
-https://live06.zqty88.com/live/36664869.m3u8
+https://live06.zuqiu106.com/live/36664869.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",可可
-https://live06.zqty88.com/live/57260225.m3u8
+https://live06.zuqiu106.com/live/57260225.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",章鱼妹
-https://live06.zqty88.com/live/11533559.m3u8
+https://live06.zuqiu106.com/live/11533559.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",米苏
-https://live06.zqty88.com/live/25685442.m3u8
+https://live06.zuqiu106.com/live/25685442.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",多金妹妹
-https://live06.zqty88.com/live/45743553.m3u8
+https://live06.zuqiu106.com/live/45743553.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",老于
-https://live06.zqty88.com/live/98011824.m3u8
+https://live06.zuqiu106.com/live/98011824.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",卡尔
-https://live06.zqty88.com/live/03646838.m3u8
+https://live06.zuqiu106.com/live/03646838.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",奉先
-https://live06.zqty88.com/live/56185622.m3u8
+https://live06.zuqiu106.com/live/56185622.m3u8
+#EXTINF:-1 group-title="🏀zuqiu直播",希希
+https://live06.zuqiu106.com/live/08624066.m3u8
 #EXTINF:-1 group-title="🏀zuqiu直播",茉莉
-https://live06.zqty88.com/live/98871911.flv
+https://live06.zuqiu106.com/live/98871911.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/至臻视界4K.png" group-title="🏀[三网]咪视界直播",至臻视界4K
 http://156.238.248.80:8100/TVOD/3000000010000015686.m3u8?token=8520
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/咪视界4K.png" group-title="🏀[三网]咪视界直播",咪视界4K
