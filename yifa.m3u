@@ -809,9 +809,9 @@ http://mytv.cdn.loc.cc/o12.php?id=mzt
 http://cdn6.163189.xyz/163189/hoy
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOYTV.png" group-title="极速港台",HOYTV
 http://cdn.163189.xyz/163189/hoy
-#EXTINF:-1 tvg-id="HOY國際財經台" tvg-name="HOY國際財經台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY國際財經台.png" group-title="极速港台",HOY国际财经台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY國際財經台.png" group-title="极速港台",HOY国际财经台
 https://cdn11.163189.xyz/163189/2c86601a7180416e
-#EXTINF:-1 tvg-id="HOY資訊台" tvg-name="HOY資訊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY资讯台.png" group-title="极速港台",HOY资讯台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY资讯台.png" group-title="极速港台",HOY资讯台
 http://cdn.163189.xyz/163189/hoy78
 #EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速港台",VIUTV
 https://cdn10.163189.xyz/stream/163189/viu/
@@ -945,7 +945,7 @@ http://67.220.71.199:2347/livehttpplay?channel_id=30026
 http://67.220.71.199:2347/livehttpplay?channel_id=30023
 #EXTINF:-1 group-title="极速港台2",MYTV SUPER 1
 http://67.220.71.199:2347/livehttpplay?channel_id=13022
-#EXTINF:-1 group-title="极速港台2",HOY 77
+#EXTINF:-1 tvg-id="HOY 77" tvg-name="HOY 77" group-title="极速港台2",HOY 77
 http://67.220.71.199:2347/livehttpplay?channel_id=20152
 #EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速港台2",VIUTV
 http://67.220.71.199:2347/livehttpplay?channel_id=20131
@@ -977,6 +977,52 @@ http://67.220.71.199:2347/livehttpplay?channel_id=30031
 http://67.220.71.199:2347/livehttpplay?channel_id=20142
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="极速港台2",博斯網球
 http://67.220.71.199:2347/livehttpplay?channel_id=42026
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" group-title="极速港台2",廣東體育4K
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=12028
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB亚洲剧台.png" group-title="极速港台2",TVB亞洲劇臺
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=13022
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速港台2",無線新聞台
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=20123
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速港台2",明珠台
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=20125
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="极速港台2",廣東體育
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=20130
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速港台2",ViuTV
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=20131
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/viutv6.png" group-title="极速港台2",ViuTV6
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=20132
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/岭南戏曲.png" group-title="极速港台2",嶺南戲曲
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=20142
+#EXTINF:-1 group-title="极速港台2",珠江臺
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=20144
+#EXTINF:-1 group-title="极速港台2",HOY TV
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=20152
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/港台电视31.png" group-title="极速港台2",港臺電視31
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=20203
+#EXTINF:-1 group-title="极速港台2",TVB plus 超清
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30023
+#EXTINF:-1 group-title="极速港台2",無線新聞台超清
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30024
+#EXTINF:-1 group-title="极速港台2",翡翠台超清
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30025
+#EXTINF:-1 group-title="极速港台2",明珠台超清
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30026
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/港台电视32.png" group-title="极速港台2",港臺電視32
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30028
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" group-title="极速港台2",CCTV 4K
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30029
+#EXTINF:-1 group-title="极速港台2",廣東體育超清
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30031
+#EXTINF:-1 group-title="极速港台2",ViuTV HD+
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30032
+#EXTINF:-1 group-title="极速港台2",ViuTV6 HD+
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30033
+#EXTINF:-1 group-title="极速港台2",港臺電視31超清
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30066
+#EXTINF:-1 group-title="极速港台2",港臺電視32超清
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=30067
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="极速港台2",博斯網球
+http://smteu.huayitv.vip:8080/livehttpplay?channel_id=42026
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速NOW",翡翠台
 https://flv-play.clouda.com/live/fc-oG2vUiheKLJzdVprWHCECxdMNCOog9HMxnt6IoIZG07iNnIYLtElHP4EpcB9tiErfUyqWLD2NQ5zlbYxAFHiNt.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="极速NOW",无线新闻
@@ -1444,417 +1490,417 @@ http://zwg6818.vicp.net:28000/bysid/83
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視香港台.png" group-title="TVH有线",鳳凰衛視香港台
 http://zwg6818.vicp.net:28000/bysid/85
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="TVH有线",CCTV1
-http://clnas0001.top:9981/stream/channelid/1644429989?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1644429989?profile=pass
 #EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="TVH有线",CCTV2
-http://clnas0001.top:9981/stream/channelid/151327893?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/151327893?profile=pass
 #EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="TVH有线",CCTV3
-http://clnas0001.top:9981/stream/channelid/1149350553?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1149350553?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="TVH有线",CCTV4
-http://clnas0001.top:9981/stream/channelid/409039125?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/409039125?profile=pass
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="TVH有线",CCTV5
-http://clnas0001.top:9981/stream/channelid/1406818519?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1406818519?profile=pass
 #EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="TVH有线",CCTV6
-http://clnas0001.top:9981/stream/channelid/136551173?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/136551173?profile=pass
 #EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="TVH有线",CCTV7
-http://clnas0001.top:9981/stream/channelid/789031216?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/789031216?profile=pass
 #EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="TVH有线",CCTV8
-http://clnas0001.top:9981/stream/channelid/299838124?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/299838124?profile=pass
 #EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="TVH有线",CCTV9
-http://clnas0001.top:9981/stream/channelid/1719683045?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1719683045?profile=pass
 #EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="TVH有线",CCTV10
-http://clnas0001.top:9981/stream/channelid/1423095694?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1423095694?profile=pass
 #EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="TVH有线",CCTV11
-http://clnas0001.top:9981/stream/channelid/1467234848?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1467234848?profile=pass
 #EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="TVH有线",CCTV12
-http://clnas0001.top:9981/stream/channelid/1864939799?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1864939799?profile=pass
 #EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="TVH有线",CCTV13
-http://clnas0001.top:9981/stream/channelid/2090632621?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2090632621?profile=pass
 #EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="TVH有线",CCTV14
-http://clnas0001.top:9981/stream/channelid/1439446400?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1439446400?profile=pass
 #EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="TVH有线",CCTV15
-http://clnas0001.top:9981/stream/channelid/226737819?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/226737819?profile=pass
 #EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="TVH有线",CCTV5+
-http://clnas0001.top:9981/stream/channelid/766097598?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/766097598?profile=pass
 #EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="TVH有线",CCTV17
-http://clnas0001.top:9981/stream/channelid/1798704314?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1798704314?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/4K乐享超清专区.png" group-title="TVH有线",4K乐享超清专区
-http://clnas0001.top:9981/stream/channelid/158479548?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/158479548?profile=pass
 #EXTINF:-1 group-title="TVH有线",4K少儿专区
-http://clnas0001.top:9981/stream/channelid/1623972449?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1623972449?profile=pass
 #EXTINF:-1 group-title="TVH有线",4K纪实专区
-http://clnas0001.top:9981/stream/channelid/692129963?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/692129963?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/4K视界专区.png" group-title="TVH有线",4K视界专区
-http://clnas0001.top:9981/stream/channelid/1192909080?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1192909080?profile=pass
 #EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="TVH有线",CCTV4K
-http://clnas0001.top:9981/stream/channelid/690307528?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/690307528?profile=pass
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视4K.png" group-title="TVH有线",东方卫视4K
-http://clnas0001.top:9981/stream/channelid/1248517242?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1248517242?profile=pass
 #EXTINF:-1 group-title="TVH有线",亲子趣学4K专区
-http://clnas0001.top:9981/stream/channelid/1038400597?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1038400597?profile=pass
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视4K.png" group-title="TVH有线",北京卫视4K
-http://clnas0001.top:9981/stream/channelid/1480951990?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1480951990?profile=pass
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视4K.png" group-title="TVH有线",北京卫视4K
-http://clnas0001.top:9981/stream/channelid/662033263?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/662033263?profile=pass
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视4K.png" group-title="TVH有线",四川卫视4K
-http://clnas0001.top:9981/stream/channelid/923108987?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/923108987?profile=pass
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视4K.png" group-title="TVH有线",山东卫视4K
-http://clnas0001.top:9981/stream/channelid/224133703?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/224133703?profile=pass
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视4K.png" group-title="TVH有线",广东卫视4K
-http://clnas0001.top:9981/stream/channelid/148176740?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/148176740?profile=pass
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/江苏卫视4K.png" group-title="TVH有线",江苏卫视4K
-http://clnas0001.top:9981/stream/channelid/94323415?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/94323415?profile=pass
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视4K.png" group-title="TVH有线",浙江卫视4K
-http://clnas0001.top:9981/stream/channelid/214075293?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/214075293?profile=pass
 #EXTINF:-1 group-title="TVH有线",深圳卫视4K（50P）
-http://clnas0001.top:9981/stream/channelid/1717047522?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1717047522?profile=pass
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南卫视4K.png" group-title="TVH有线",湖南卫视4K
-http://clnas0001.top:9981/stream/channelid/460386344?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/460386344?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱上4K专区.png" group-title="TVH有线",爱上4K专区
-http://clnas0001.top:9981/stream/channelid/2095311381?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2095311381?profile=pass
 #EXTINF:-1 group-title="TVH有线",绚影4K专区
-http://clnas0001.top:9981/stream/channelid/345274984?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/345274984?profile=pass
 #EXTINF:-1 tvg-id="鳳凰衛視中文台" tvg-name="鳳凰衛視中文台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視中文台.png" group-title="TVH有线",凤凰卫视中文台
-http://clnas0001.top:9981/stream/channelid/2064247055?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2064247055?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視資訊台.png" group-title="TVH有线",凤凰卫视资讯台
-http://clnas0001.top:9981/stream/channelid/2121009931?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2121009931?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/星空卫视.png" group-title="TVH有线",星空卫视
-http://clnas0001.top:9981/stream/channelid/1901935715?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1901935715?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/channelv.png" group-title="TVH有线",CHANNELV
-http://clnas0001.top:9981/stream/channelid/1771266480?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1771266480?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/鳳凰衛視香港台.png" group-title="TVH有线",凤凰卫视香港台
-http://clnas0001.top:9981/stream/channelid/708226058?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/708226058?profile=pass
 #EXTINF:-1 tvg-id="亞洲新聞台" tvg-name="亞洲新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/亚洲新闻台.png" group-title="TVH有线",亚洲新闻台
-http://clnas0001.top:9981/stream/channelid/1611434059?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1611434059?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ARIRANGTV.png" group-title="TVH有线",ARIRANGTV
-http://clnas0001.top:9981/stream/channelid/781054328?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/781054328?profile=pass
 #EXTINF:-1 group-title="TVH有线",NHKWORLDJPN
-http://clnas0001.top:9981/stream/channelid/727527010?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/727527010?profile=pass
 #EXTINF:-1 tvg-id="DW" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DW.png" group-title="TVH有线",DW
-http://clnas0001.top:9981/stream/channelid/1570753547?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1570753547?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/卡塔尔半岛电视台.png" group-title="TVH有线",卡塔尔半岛电视台
-http://clnas0001.top:9981/stream/channelid/1740806967?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1740806967?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRTWORLD.png" group-title="TVH有线",TRTWORLD
-http://clnas0001.top:9981/stream/channelid/995659942?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/995659942?profile=pass
 #EXTINF:-1 group-title="TVH有线",KARTOONCHANNEL
-http://clnas0001.top:9981/stream/channelid/1797065406?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1797065406?profile=pass
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="TVH有线",CGTN
-http://clnas0001.top:9981/stream/channelid/330603301?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/330603301?profile=pass
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="TVH有线",CGTN
-http://clnas0001.top:9981/stream/channelid/489113662?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/489113662?profile=pass
 #EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="TVH有线",CGTN法语
-http://clnas0001.top:9981/stream/channelid/785551730?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/785551730?profile=pass
 #EXTINF:-1 group-title="TVH有线",星空国际
-http://clnas0001.top:9981/stream/channelid/2057589667?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2057589667?profile=pass
 #EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/动漫秀场.png" group-title="TVH有线",动漫秀场
-http://clnas0001.top:9981/stream/channelid/1912852200?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1912852200?profile=pass
 #EXTINF:-1 tvg-id="卡酷少儿 (shanghai)" tvg-name="卡酷少儿" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/卡酷少儿.png" group-title="TVH有线",卡酷少儿
-http://clnas0001.top:9981/stream/channelid/1796633409?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1796633409?profile=pass
 #EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="TVH有线",嘉佳卡通
-http://clnas0001.top:9981/stream/channelid/85484277?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/85484277?profile=pass
 #EXTINF:-1 group-title="TVH有线",宝宝动画专区
-http://clnas0001.top:9981/stream/channelid/1999641850?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1999641850?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/江苏优漫卡通.png" group-title="TVH有线",江苏优漫卡通
-http://clnas0001.top:9981/stream/channelid/1028343845?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1028343845?profile=pass
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="TVH有线",金鹰卡通
-http://clnas0001.top:9981/stream/channelid/1815549618?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1815549618?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青春动漫专区.png" group-title="TVH有线",青春动漫专区
-http://clnas0001.top:9981/stream/channelid/654623691?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/654623691?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/求索纪录.png" group-title="TVH有线",求索纪录
-http://clnas0001.top:9981/stream/channelid/729762286?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/729762286?profile=pass
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC动作电影.png" group-title="TVH有线",CHC动作电影
-http://clnas0001.top:9981/stream/channelid/1743737274?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1743737274?profile=pass
 #EXTINF:-1 tvg-id="CHC家庭影院 (shanghai)" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC家庭影院.png" group-title="TVH有线",CHC家庭影院
-http://clnas0001.top:9981/stream/channelid/1234614713?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1234614713?profile=pass
 #EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CHC影迷电影.png" group-title="TVH有线",CHC影迷电影
-http://clnas0001.top:9981/stream/channelid/730467663?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/730467663?profile=pass
 #EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東方财经.png" group-title="TVH有线",东方财经
-http://clnas0001.top:9981/stream/channelid/1267487368?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1267487368?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国交通.png" group-title="TVH有线",中国交通
-http://clnas0001.top:9981/stream/channelid/152732606?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/152732606?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国天气.png" group-title="TVH有线",中国天气
-http://clnas0001.top:9981/stream/channelid/235773020?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/235773020?profile=pass
 #EXTINF:-1 tvg-id="乐游 (shanghai)" tvg-name="乐游" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/乐游.png" group-title="TVH有线",乐游
-http://clnas0001.top:9981/stream/channelid/1238213264?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1238213264?profile=pass
 #EXTINF:-1 group-title="TVH有线",乐龄学堂专区
-http://clnas0001.top:9981/stream/channelid/34331367?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/34331367?profile=pass
 #EXTINF:-1 tvg-id="书画频道" tvg-name="书画频道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/书画频道.png" group-title="TVH有线",书画频道
-http://clnas0001.top:9981/stream/channelid/1499121174?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1499121174?profile=pass
 #EXTINF:-1 group-title="TVH有线",健康养生专区
-http://clnas0001.top:9981/stream/channelid/141417436?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/141417436?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/先锋乒羽.png" group-title="TVH有线",先锋乒羽
-http://clnas0001.top:9981/stream/channelid/779451772?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/779451772?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/全球大片专区.png" group-title="TVH有线",全球大片专区
-http://clnas0001.top:9981/stream/channelid/332628978?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/332628978?profile=pass
 #EXTINF:-1 group-title="TVH有线",军事高清专区
-http://clnas0001.top:9981/stream/channelid/618926742?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/618926742?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/华语影院专区.png" group-title="TVH有线",华语影院专区
-http://clnas0001.top:9981/stream/channelid/1201361962?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1201361962?profile=pass
 #EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四海钓鱼.png" group-title="TVH有线",四海钓鱼
-http://clnas0001.top:9981/stream/channelid/1612342284?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1612342284?profile=pass
 #EXTINF:-1 group-title="TVH有线",地理高清专区
-http://clnas0001.top:9981/stream/channelid/859884507?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/859884507?profile=pass
 #EXTINF:-1 group-title="TVH有线",墨宝高清专区
-http://clnas0001.top:9981/stream/channelid/1391939423?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1391939423?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/大爱四川高清专区.png" group-title="TVH有线",大爱四川高清专区
-http://clnas0001.top:9981/stream/channelid/1261252106?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1261252106?profile=pass
 #EXTINF:-1 group-title="TVH有线",大爱旅游高清专区
-http://clnas0001.top:9981/stream/channelid/359176666?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/359176666?profile=pass
 #EXTINF:-1 group-title="TVH有线",大爱时尚高清专区
-http://clnas0001.top:9981/stream/channelid/1725624486?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1725624486?profile=pass
 #EXTINF:-1 group-title="TVH有线",大爱生活高清专区
-http://clnas0001.top:9981/stream/channelid/1652812863?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1652812863?profile=pass
 #EXTINF:-1 tvg-id="天元围棋" tvg-name="天元围棋" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/天元围棋.png" group-title="TVH有线",天元围棋
-http://clnas0001.top:9981/stream/channelid/1429204105?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1429204105?profile=pass
 #EXTINF:-1 tvg-id="家庭理财 (shanghai)" tvg-name="家庭理财" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/家庭理财.png" group-title="TVH有线",家庭理财
-http://clnas0001.top:9981/stream/channelid/386524971?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/386524971?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/导视专区.png" group-title="TVH有线",导视专区
-http://clnas0001.top:9981/stream/channelid/281849946?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/281849946?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/少儿动画高清专区.png" group-title="TVH有线",少儿动画高清专区
-http://clnas0001.top:9981/stream/channelid/1054368403?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1054368403?profile=pass
 #EXTINF:-1 group-title="TVH有线",少儿天地专区
-http://clnas0001.top:9981/stream/channelid/1529920639?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1529920639?profile=pass
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/快乐垂钓.png" group-title="TVH有线",快乐垂钓
-http://clnas0001.top:9981/stream/channelid/1393741815?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1393741815?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/戏曲专区.png" group-title="TVH有线",戏曲专区
-http://clnas0001.top:9981/stream/channelid/1777238170?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1777238170?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/戏曲精选专区.png" group-title="TVH有线",戏曲精选专区
-http://clnas0001.top:9981/stream/channelid/194193951?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/194193951?profile=pass
 #EXTINF:-1 group-title="TVH有线",收视指南专区
-http://clnas0001.top:9981/stream/channelid/1381259998?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1381259998?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/星光院线专区.png" group-title="TVH有线",星光院线专区
-http://clnas0001.top:9981/stream/channelid/482825087?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/482825087?profile=pass
 #EXTINF:-1 group-title="TVH有线",来钓鱼吧专区
-http://clnas0001.top:9981/stream/channelid/1664646009?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1664646009?profile=pass
 #EXTINF:-1 tvg-id="梨园" tvg-name="梨园" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/梨園.png" group-title="TVH有线",梨园
-http://clnas0001.top:9981/stream/channelid/1141902283?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1141902283?profile=pass
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/欢笑剧场.png" group-title="TVH有线",欢笑剧场
-http://clnas0001.top:9981/stream/channelid/495251171?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/495251171?profile=pass
 #EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/法治天地.png" group-title="TVH有线",法治天地
-http://clnas0001.top:9981/stream/channelid/506310005?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/506310005?profile=pass
 #EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/游戏风云.png" group-title="TVH有线",游戏风云
-http://clnas0001.top:9981/stream/channelid/717259041?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/717259041?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/热播剧场专区.png" group-title="TVH有线",热播剧场专区
-http://clnas0001.top:9981/stream/channelid/1680687603?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1680687603?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/热门剧场专区.png" group-title="TVH有线",热门剧场专区
-http://clnas0001.top:9981/stream/channelid/612829795?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/612829795?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱体育专区.png" group-title="TVH有线",爱体育专区
-http://clnas0001.top:9981/stream/channelid/1040657117?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1040657117?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱体育专区.png" group-title="TVH有线",爱体育专区
-http://clnas0001.top:9981/stream/channelid/880022651?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/880022651?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱动漫专区
-http://clnas0001.top:9981/stream/channelid/689716280?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/689716280?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱历史专区
-http://clnas0001.top:9981/stream/channelid/646064972?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/646064972?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱喜剧专区
-http://clnas0001.top:9981/stream/channelid/1591782494?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1591782494?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱奇谈专区
-http://clnas0001.top:9981/stream/channelid/402505463?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/402505463?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱宠宠物专区
-http://clnas0001.top:9981/stream/channelid/2043036164?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2043036164?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱幼教专区
-http://clnas0001.top:9981/stream/channelid/1700743527?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1700743527?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱悬疑专区
-http://clnas0001.top:9981/stream/channelid/1667935321?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1667935321?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱旅行专区
-http://clnas0001.top:9981/stream/channelid/631229667?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/631229667?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱浪漫专区
-http://clnas0001.top:9981/stream/channelid/1053716378?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1053716378?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱玩具专区
-http://clnas0001.top:9981/stream/channelid/882884606?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/882884606?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱生活高清专区
-http://clnas0001.top:9981/stream/channelid/225360531?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/225360531?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱科幻专区
-http://clnas0001.top:9981/stream/channelid/1530050251?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1530050251?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱谍战专区
-http://clnas0001.top:9981/stream/channelid/592357038?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/592357038?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱赛车专区
-http://clnas0001.top:9981/stream/channelid/1724007016?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1724007016?profile=pass
 #EXTINF:-1 group-title="TVH有线",爱院线专区
-http://clnas0001.top:9981/stream/channelid/1367643087?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1367643087?profile=pass
 #EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/环球旅游.png" group-title="TVH有线",环球旅游
-http://clnas0001.top:9981/stream/channelid/1166147312?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1166147312?profile=pass
 #EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/生活時尚.png" group-title="TVH有线",生活时尚
-http://clnas0001.top:9981/stream/channelid/605136205?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/605136205?profile=pass
 #EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/生活時尚.png" group-title="TVH有线",生活时尚
-http://clnas0001.top:9981/stream/channelid/1848359668?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1848359668?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/电竞天堂.png" group-title="TVH有线",电竞天堂
-http://clnas0001.top:9981/stream/channelid/586231319?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/586231319?profile=pass
 #EXTINF:-1 group-title="TVH有线",百变课堂专区
-http://clnas0001.top:9981/stream/channelid/466344504?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/466344504?profile=pass
 #EXTINF:-1 group-title="TVH有线",看天下精选专区
-http://clnas0001.top:9981/stream/channelid/918215411?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/918215411?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/精彩导视.png" group-title="TVH有线",精彩导视
-http://clnas0001.top:9981/stream/channelid/169435220?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/169435220?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/精彩影视.png" group-title="TVH有线",精彩影视
-http://clnas0001.top:9981/stream/channelid/20669588?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/20669588?profile=pass
 #EXTINF:-1 group-title="TVH有线",精彩推荐专区
-http://clnas0001.top:9981/stream/channelid/468496144?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/468496144?profile=pass
 #EXTINF:-1 group-title="TVH有线",红色影院专区
-http://clnas0001.top:9981/stream/channelid/2017474703?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2017474703?profile=pass
 #EXTINF:-1 tvg-id="經典劇場" tvg-name="經典劇場" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典剧场.png" group-title="TVH有线",经典剧场
-http://clnas0001.top:9981/stream/channelid/2007674855?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2007674855?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典电影专区.png" group-title="TVH有线",经典电影专区
-http://clnas0001.top:9981/stream/channelid/1555528610?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1555528610?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/茶频道.png" group-title="TVH有线",茶频道
-http://clnas0001.top:9981/stream/channelid/1558514050?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1558514050?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/蓉城先锋专区.png" group-title="TVH有线",蓉城先锋专区
-http://clnas0001.top:9981/stream/channelid/1651814276?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1651814276?profile=pass
 #EXTINF:-1 group-title="TVH有线",解密高清专区
-http://clnas0001.top:9981/stream/channelid/7929122?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/7929122?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/谍战剧场专区.png" group-title="TVH有线",谍战剧场专区
-http://clnas0001.top:9981/stream/channelid/179497904?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/179497904?profile=pass
 #EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/财富天下.png" group-title="TVH有线",财富天下
-http://clnas0001.top:9981/stream/channelid/945934407?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/945934407?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/足球高清专区.png" group-title="TVH有线",足球高清专区
-http://clnas0001.top:9981/stream/channelid/220236738?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/220236738?profile=pass
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/都市剧场.png" group-title="TVH有线",都市剧场
-http://clnas0001.top:9981/stream/channelid/1304627377?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1304627377?profile=pass
 #EXTINF:-1 group-title="TVH有线",金熊猫卡通高清专区
-http://clnas0001.top:9981/stream/channelid/820188763?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/820188763?profile=pass
 #EXTINF:-1 tvg-id="金色学堂 (shanghai)" tvg-name="金色学堂" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/金色学堂.png" group-title="TVH有线",金色学堂
-http://clnas0001.top:9981/stream/channelid/1768223431?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1768223431?profile=pass
 #EXTINF:-1 group-title="TVH有线",音乐现场高清专区
-http://clnas0001.top:9981/stream/channelid/1595707099?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1595707099?profile=pass
 #EXTINF:-1 group-title="TVH有线",魅力时尚高清专区
-http://clnas0001.top:9981/stream/channelid/274690834?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/274690834?profile=pass
 #EXTINF:-1 group-title="TVH有线",麻辣体育专区
-http://clnas0001.top:9981/stream/channelid/1610176921?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1610176921?profile=pass
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="TVH有线",中国教育1台
-http://clnas0001.top:9981/stream/channelid/117063950?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/117063950?profile=pass
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="TVH有线",中国教育2台
-http://clnas0001.top:9981/stream/channelid/599778590?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/599778590?profile=pass
 #EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="TVH有线",中国教育4台
-http://clnas0001.top:9981/stream/channelid/676630329?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/676630329?profile=pass
 #EXTINF:-1 tvg-id="三沙卫视 (shanghai)" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三沙卫视.png" group-title="TVH有线",三沙卫视
-http://clnas0001.top:9981/stream/channelid/1947895336?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1947895336?profile=pass
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="TVH有线",东南卫视
-http://clnas0001.top:9981/stream/channelid/519784185?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/519784185?profile=pass
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="TVH有线",东方卫视
-http://clnas0001.top:9981/stream/channelid/989863441?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/989863441?profile=pass
 #EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="TVH有线",云南卫视
-http://clnas0001.top:9981/stream/channelid/248916351?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/248916351?profile=pass
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="TVH有线",兵团卫视
-http://clnas0001.top:9981/stream/channelid/1958634510?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1958634510?profile=pass
 #EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="TVH有线",内蒙古卫视
-http://clnas0001.top:9981/stream/channelid/746878296?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/746878296?profile=pass
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="TVH有线",北京卫视
-http://clnas0001.top:9981/stream/channelid/859157583?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/859157583?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京纪实科教.png" group-title="TVH有线",北京纪实科教
-http://clnas0001.top:9981/stream/channelid/765319189?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/765319189?profile=pass
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/厦门卫视.png" group-title="TVH有线",厦门卫视
-http://clnas0001.top:9981/stream/channelid/1040920062?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1040920062?profile=pass
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="TVH有线",吉林卫视
-http://clnas0001.top:9981/stream/channelid/289206431?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/289206431?profile=pass
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="TVH有线",四川卫视
-http://clnas0001.top:9981/stream/channelid/1962493847?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1962493847?profile=pass
 #EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="TVH有线",天津卫视
-http://clnas0001.top:9981/stream/channelid/1646257421?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1646257421?profile=pass
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="TVH有线",宁夏卫视
-http://clnas0001.top:9981/stream/channelid/2050222477?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2050222477?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安多卫视.png" group-title="TVH有线",安多卫视
-http://clnas0001.top:9981/stream/channelid/1487108322?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1487108322?profile=pass
 #EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="TVH有线",安徽卫视
-http://clnas0001.top:9981/stream/channelid/728473999?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/728473999?profile=pass
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="TVH有线",山东卫视
-http://clnas0001.top:9981/stream/channelid/1752122378?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1752122378?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东教育卫视.png" group-title="TVH有线",山东教育卫视
-http://clnas0001.top:9981/stream/channelid/452248498?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/452248498?profile=pass
 #EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="TVH有线",山西卫视
-http://clnas0001.top:9981/stream/channelid/364423548?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/364423548?profile=pass
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="TVH有线",广东卫视
-http://clnas0001.top:9981/stream/channelid/54874627?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/54874627?profile=pass
 #EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="TVH有线",广西卫视
-http://clnas0001.top:9981/stream/channelid/1029296804?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1029296804?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/康巴卫视.png" group-title="TVH有线",康巴卫视
-http://clnas0001.top:9981/stream/channelid/723972668?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/723972668?profile=pass
 #EXTINF:-1 tvg-id="延边卫视 (shanghai)" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/延边卫视.png" group-title="TVH有线",延边卫视
-http://clnas0001.top:9981/stream/channelid/372035518?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/372035518?profile=pass
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="TVH有线",新疆卫视
-http://clnas0001.top:9981/stream/channelid/1804730280?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1804730280?profile=pass
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="TVH有线",江苏卫视
-http://clnas0001.top:9981/stream/channelid/433895705?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/433895705?profile=pass
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="TVH有线",江西卫视
-http://clnas0001.top:9981/stream/channelid/1257693358?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1257693358?profile=pass
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="TVH有线",河北卫视
-http://clnas0001.top:9981/stream/channelid/1953481492?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1953481492?profile=pass
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="TVH有线",河南卫视
-http://clnas0001.top:9981/stream/channelid/1691501464?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1691501464?profile=pass
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="TVH有线",浙江卫视
-http://clnas0001.top:9981/stream/channelid/5657564?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/5657564?profile=pass
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="TVH有线",海南卫视
-http://clnas0001.top:9981/stream/channelid/1080688761?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1080688761?profile=pass
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="TVH有线",深圳卫视
-http://clnas0001.top:9981/stream/channelid/237611055?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/237611055?profile=pass
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="TVH有线",湖北卫视
-http://clnas0001.top:9981/stream/channelid/1615453167?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1615453167?profile=pass
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="TVH有线",湖南卫视
-http://clnas0001.top:9981/stream/channelid/2111718441?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2111718441?profile=pass
 #EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="TVH有线",甘肃卫视
-http://clnas0001.top:9981/stream/channelid/1805347430?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1805347430?profile=pass
 #EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="TVH有线",西藏卫视
-http://clnas0001.top:9981/stream/channelid/479575457?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/479575457?profile=pass
 #EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="TVH有线",贵州卫视
-http://clnas0001.top:9981/stream/channelid/1504194237?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1504194237?profile=pass
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="TVH有线",辽宁卫视
-http://clnas0001.top:9981/stream/channelid/1267949461?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1267949461?profile=pass
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="TVH有线",重庆卫视
-http://clnas0001.top:9981/stream/channelid/74793527?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/74793527?profile=pass
 #EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰纪实.png" group-title="TVH有线",金鹰纪实
-http://clnas0001.top:9981/stream/channelid/455582868?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/455582868?profile=pass
 #EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="TVH有线",陕西卫视
-http://clnas0001.top:9981/stream/channelid/711290911?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/711290911?profile=pass
 #EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="TVH有线",青海卫视
-http://clnas0001.top:9981/stream/channelid/18002046?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/18002046?profile=pass
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="TVH有线",黑龙江卫视
-http://clnas0001.top:9981/stream/channelid/978020991?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/978020991?profile=pass
 #EXTINF:-1 tvg-id="SCTV2" tvg-name="SCTV2" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sctv2.png" group-title="TVH有线",SCTV2
-http://clnas0001.top:9981/stream/channelid/406106102?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/406106102?profile=pass
 #EXTINF:-1 tvg-id="SCTV3" tvg-name="SCTV3" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sctv3.png" group-title="TVH有线",SCTV3
-http://clnas0001.top:9981/stream/channelid/1543579572?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1543579572?profile=pass
 #EXTINF:-1 tvg-id="SCTV4" tvg-name="SCTV4" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sctv4.png" group-title="TVH有线",SCTV4
-http://clnas0001.top:9981/stream/channelid/1194077336?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1194077336?profile=pass
 #EXTINF:-1 tvg-id="SCTV5" tvg-name="SCTV5" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sctv5.png" group-title="TVH有线",SCTV5
-http://clnas0001.top:9981/stream/channelid/808292010?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/808292010?profile=pass
 #EXTINF:-1 group-title="TVH有线",SCTV6
-http://clnas0001.top:9981/stream/channelid/1750534599?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1750534599?profile=pass
 #EXTINF:-1 tvg-id="SCTV7" tvg-name="SCTV7" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sctv7.png" group-title="TVH有线",SCTV7
-http://clnas0001.top:9981/stream/channelid/874875345?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/874875345?profile=pass
 #EXTINF:-1 group-title="TVH有线",SCTV科教
-http://clnas0001.top:9981/stream/channelid/1760803948?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1760803948?profile=pass
 #EXTINF:-1 group-title="TVH有线",云看熊猫专区
-http://clnas0001.top:9981/stream/channelid/814671682?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/814671682?profile=pass
 #EXTINF:-1 tvg-id="四川乡村" tvg-name="四川乡村" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/四川乡村.png" group-title="TVH有线",四川乡村
-http://clnas0001.top:9981/stream/channelid/68085278?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/68085278?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/峨眉电影.png" group-title="TVH有线",峨眉电影
-http://clnas0001.top:9981/stream/channelid/1712522669?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1712522669?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/热门综艺高清专区.png" group-title="TVH有线",热门综艺高清专区
-http://clnas0001.top:9981/stream/channelid/2083812284?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2083812284?profile=pass
 #EXTINF:-1 group-title="TVH有线",熊猫体娱高清专区
-http://clnas0001.top:9981/stream/channelid/685237998?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/685237998?profile=pass
 #EXTINF:-1 group-title="TVH有线",熊猫少儿高清专区
-http://clnas0001.top:9981/stream/channelid/82676141?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/82676141?profile=pass
 #EXTINF:-1 group-title="TVH有线",熊猫影院专区
-http://clnas0001.top:9981/stream/channelid/797129647?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/797129647?profile=pass
 #EXTINF:-1 group-title="TVH有线",熊猫新闻高清专区
-http://clnas0001.top:9981/stream/channelid/2024524644?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/2024524644?profile=pass
 #EXTINF:-1 group-title="TVH有线",熊猫爱生活高清专区
-http://clnas0001.top:9981/stream/channelid/1232590543?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1232590543?profile=pass
 #EXTINF:-1 tvg-id="CDTV1" tvg-name="CDTV1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CDTV1.png" group-title="TVH有线",CDTV1
-http://clnas0001.top:9981/stream/channelid/1353208572?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1353208572?profile=pass
 #EXTINF:-1 tvg-id="CDTV2" tvg-name="CDTV2" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CDTV2.png" group-title="TVH有线",CDTV2
-http://clnas0001.top:9981/stream/channelid/1465964324?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1465964324?profile=pass
 #EXTINF:-1 tvg-id="CDTV3" tvg-name="CDTV3" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CDTV3.png" group-title="TVH有线",CDTV3
-http://clnas0001.top:9981/stream/channelid/299204796?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/299204796?profile=pass
 #EXTINF:-1 tvg-id="CDTV4" tvg-name="CDTV4" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CDTV4.png" group-title="TVH有线",CDTV4
-http://clnas0001.top:9981/stream/channelid/311446068?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/311446068?profile=pass
 #EXTINF:-1 tvg-id="CDTV5" tvg-name="CDTV5" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CDTV5.png" group-title="TVH有线",CDTV5
-http://clnas0001.top:9981/stream/channelid/1447917698?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1447917698?profile=pass
 #EXTINF:-1 tvg-id="CDTV6" tvg-name="CDTV6" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CDTV6.png" group-title="TVH有线",CDTV6
-http://clnas0001.top:9981/stream/channelid/710682769?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/710682769?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CDTV8.png" group-title="TVH有线",CDTV8
-http://clnas0001.top:9981/stream/channelid/1912006958?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/1912006958?profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/I成都.png" group-title="TVH有线",I成都
-http://clnas0001.top:9981/stream/channelid/874305947?profile=pass
+http://admin:admin@clnas0001.top:9981/stream/channelid/874305947?profile=pass
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="jake极速",翡翠台
 https://test.946985.filegear-sg.me/proxy/a90eb73e1798ca2d
 #EXTINF:-1 group-title="jake极速",TVB Plus
