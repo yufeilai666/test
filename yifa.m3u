@@ -1293,7 +1293,7 @@ http://clawcloud.goiptv.de5.net/litv.php?id=litv-ftv09&token=xiatianshigou
 http://clawcloud.goiptv.de5.net/litv.php?id=4gtv-4gtv158&token=xiatianshigou
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="四季台湾2",中視
 http://clawcloud.goiptv.de5.net/litv.php?id=4gtv-4gtv040&token=xiatianshigou
-#EXTINF:-1 group-title="四季台湾2",博斯魅力台
+#EXTINF:-1 tvg-id="博斯魅力台" tvg-name="博斯魅力台" group-title="四季台湾2",博斯魅力台
 http://clawcloud.goiptv.de5.net/litv.php?id=litv-xinchuang04&token=xiatianshigou
 #EXTINF:-1 group-title="四季台湾2",Nice TV靖天歡樂台
 http://clawcloud.goiptv.de5.net/litv.php?id=4gtv-4gtv054&token=xiatianshigou
@@ -1307,7 +1307,7 @@ http://clawcloud.goiptv.de5.net/litv.php?id=litv-xinchuang06&token=xiatianshigou
 http://clawcloud.goiptv.de5.net/litv.php?id=litv-longturn14&token=xiatianshigou
 #EXTINF:-1 tvg-id="三立新聞iNEWS" tvg-name="三立新聞iNEWS" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/三立新聞INEWS.png" group-title="四季台湾2",三立新聞iNEWS
 http://clawcloud.goiptv.de5.net/litv.php?id=iNEWS&token=xiatianshigou
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯高球台.png" group-title="四季台湾2",博斯高球台
+#EXTINF:-1 tvg-id="博斯高球台" tvg-name="博斯高球台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯高球台.png" group-title="四季台湾2",博斯高球台
 http://clawcloud.goiptv.de5.net/litv.php?id=litv-xinchuang05&token=xiatianshigou
 #EXTINF:-1 tvg-id="博斯運動二台" tvg-name="博斯運動二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯运动二台.png" group-title="四季台湾2",博斯運動二台
 http://clawcloud.goiptv.de5.net/litv.php?id=litv-xinchuang08&token=xiatianshigou
@@ -2069,11 +2069,11 @@ https://test.946985.filegear-sg.me/proxy/f6f78c765df2ddeb
 https://test.946985.filegear-sg.me/proxy/8c1685ac3675f3bf
 #EXTINF:-1 tvg-id="博斯無限二台" tvg-name="博斯無限二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯无限二台.png" group-title="jake极速",博斯無限二台
 https://test.946985.filegear-sg.me/proxy/24f2e151f6966ed2
-#EXTINF:-1 group-title="jake极速",博斯魅力台
+#EXTINF:-1 tvg-id="博斯魅力台" tvg-name="博斯魅力台" group-title="jake极速",博斯魅力台
 https://test.946985.filegear-sg.me/proxy/6ecb3fd3fb9772b2
 #EXTINF:-1 tvg-id="博斯高球二台" tvg-name="博斯高球二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯高球二台.png" group-title="jake极速",博斯高球二台
 https://test.946985.filegear-sg.me/proxy/a573f9ed005869ad
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯高球台.png" group-title="jake极速",博斯高球台
+#EXTINF:-1 tvg-id="博斯高球台" tvg-name="博斯高球台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/博斯高球台.png" group-title="jake极速",博斯高球台
 https://test.946985.filegear-sg.me/proxy/2378932ea39d747e
 #EXTINF:-1 tvg-id="博斯運動二台" tvg-name="博斯運動二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯运动二台.png" group-title="jake极速",博斯運動二台
 https://test.946985.filegear-sg.me/proxy/1fcd92d2d3d63f7f
