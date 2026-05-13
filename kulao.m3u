@@ -171,7 +171,7 @@ http://47.108.228.131:12193/live_ywzh.php?id=119
 http://47.108.228.131:12193/live_ywzh.php?id=120
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中华特产.png" group-title="🔥[三网1]央卫视直播",中华特产
 http://47.108.228.131:12193/live_ywzh.php?id=121
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/环球旅游.png" group-title="🔥[三网1]央卫视直播",环球旅游
+#EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/环球旅游.png" group-title="🔥[三网1]央卫视直播",环球旅游
 http://47.108.228.131:12193/live_ywzh.php?id=122
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🔥[三网2]央卫视直播",CCTV1
 http://192.151.150.154/live/cctv1hd.m3u8
