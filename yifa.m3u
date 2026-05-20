@@ -821,7 +821,7 @@ https://cdn10.163189.xyz/stream/163189/viu6/
 http://cdn.163189.xyz/163189/rthk31
 #EXTINF:-1 group-title="极速港台",RTHK 32
 http://cdn.163189.xyz/163189/rthk32
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速港台",凤凰中文
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速港台",凤凰中文
 http://cdn6.163189.xyz/163189/fhzw
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="极速港台",凤凰资讯
 http://cdn6.163189.xyz/163189/fhzx
@@ -993,13 +993,13 @@ rtmp://pulltx-live.genshuixue.com/live/xiangjiaoge-bg
 http://feilong123.vip/409990236/hktv.php?id=1
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="极速NOW",凤凰香港
 http://feilong123.vip/409990236/hktv.php?id=2
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速NOW",凤凰中文
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速NOW",凤凰中文
 http://feilong123.vip/409990236/hktv.php?id=3
-#EXTINF:-1 group-title="极速NOW",NOW体育1
+#EXTINF:-1 tvg-id="now體育1 4k" tvg-name="now體育1 4k" group-title="极速NOW",NOW体育1
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382843&extension=ts&play_token=KANAeecxcz
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育2.png" group-title="极速NOW",NOW体育2
+#EXTINF:-1 tvg-id="now體育2 4k" tvg-name="now體育2 4k" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育2.png" group-title="极速NOW",NOW体育2
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382842&extension=ts&play_token=MCoDoR8s9G
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育3.png" group-title="极速NOW",NOW体育3
+#EXTINF:-1 tvg-id="now體育3 4k" tvg-name="now體育3 4k" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育3.png" group-title="极速NOW",NOW体育3
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382841&extension=ts&play_token=5uiKCGTNCF
 #EXTINF:-1 group-title="极速NOW",NOW体育4
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382840&extension=ts&play_token=eoeYdjrkUg
@@ -1017,11 +1017,11 @@ http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382834&e
 http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW英超1台.png" group-title="极速NOW",NOW英超1台
 http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
-#EXTINF:-1 group-title="极速NOW",NOW体育1
+#EXTINF:-1 tvg-id="now體育1 4k" tvg-name="now體育1 4k" group-title="极速NOW",NOW体育1
 http://206.212.246.239/live/Cori/123456/236720.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育2.png" group-title="极速NOW",NOW体育2
+#EXTINF:-1 tvg-id="now體育2 4k" tvg-name="now體育2 4k" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育2.png" group-title="极速NOW",NOW体育2
 http://206.212.246.239/live/Cori/123456/236721.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育3.png" group-title="极速NOW",NOW体育3
+#EXTINF:-1 tvg-id="now體育3 4k" tvg-name="now體育3 4k" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW体育3.png" group-title="极速NOW",NOW体育3
 http://206.212.246.239/live/Cori/123456/236722.m3u8
 #EXTINF:-1 group-title="极速NOW",NOW体育4
 http://206.212.246.239/live/Cori/123456/236723.m3u8
@@ -1131,7 +1131,7 @@ http://iptv.4666888.xyz/iptv2A.php?id=5
 http://iptv.4666888.xyz/iptv2A.php?id=6
 #EXTINF:-1 group-title="极速风云",SkyTennis+
 http://iptv.4666888.xyz/iptv2A.php?id=62
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速风云",鳳凰中文
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速风云",鳳凰中文
 http://iptv.4666888.xyz/iptv2A.php?id=27
 #EXTINF:-1 group-title="极速风云",TVB黃金華劇
 http://iptv.4666888.xyz/iptv2A.php?id=34
@@ -4897,7 +4897,7 @@ http://m.061899.xyz/mg/cetv1
 http://m.061899.xyz/mg/cetv2
 #EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="咪咕央视",中国教育4台
 http://m.061899.xyz/mg/cetv4
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="咪咕央视",凤凰中文
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="咪咕央视",凤凰中文
 http://m.061899.xyz/mg/fhzw
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="咪咕央视",凤凰资讯
 http://m.061899.xyz/mg/fhzx
@@ -5229,7 +5229,7 @@ http://k.061899.xyz/k.php?id=zjlxc
 http://k.061899.xyz/k.php?id=zqzyp
 #EXTINF:-1 group-title="咪咕央视",金色剧场
 http://k.061899.xyz/k.php?id=jsjc
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="咪咕央视",凤凰中文
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="咪咕央视",凤凰中文
 http://k.061899.xyz/k.php?id=fhzw
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="咪咕央视",凤凰资讯
 http://k.061899.xyz/k.php?id=fhzx
@@ -9605,7 +9605,7 @@ http://huixingy.top:18888/rtsp/220.191.136.24/PLTV/88888913/224/3221229461/13430
 http://huixingy.top:18888/rtsp/220.191.136.24/PLTV/88888913/224/3221229462/134307486.smil
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="浙江电信rtp2",新疆卫视
 http://huixingy.top:18888/rtsp/220.191.136.24/PLTV/88888913/224/3221229459/134307257.smil
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="浙江电信rtp2",凤凰中文
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="浙江电信rtp2",凤凰中文
 http://huixingy.top:18888/rtsp/220.191.136.24/PLTV/88888913/224/3221229422/110077577.smil
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="浙江电信rtp2",凤凰资讯
 http://huixingy.top:18888/rtsp/220.191.136.24/PLTV/88888913/224/3221229423/110077527.smil

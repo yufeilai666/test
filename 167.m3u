@@ -1833,7 +1833,7 @@ p3p://167.114.175.6:55331/63efe58900033edcf25265146c7b5b6e
 p3p://167.114.175.6:55331/5fdeca5300094f496d38d7f8255f4c4f
 #EXTINF:-1 tvg-id="LOVENATURE" tvg-name="LOVENATURE" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/LoveNature.png" group-title="新马MS",LoveNature
 p3p://167.114.175.6:55331/5fe96780000bf31b96adee2068cf1132
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HITS Movies.png" group-title="新马MS",Hits Movies
+#EXTINF:-1 tvg-id="HITS MOVIES" tvg-name="HITS MOVIES" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HITS Movies.png" group-title="新马MS",Hits Movies
 p3p://167.114.175.6:55331/5fe7e6cb000d17db90cf9c5a45ff17b9
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Astro AEC.png" group-title="新马MS",Astro Aec
 p3p://167.114.175.6:55331/65d2076700055a834d9db070558f658e
@@ -1965,7 +1965,7 @@ p3p://167.114.175.6:55331/5fe6f99b000795818d31176f38c42fc9
 p3p://167.114.175.6:55331/5fe7ee3900072cc790eca08f51983f0f
 #EXTINF:-1 group-title="新马MS",History马来
 p3p://167.114.175.6:55331/5fe7e68e000270df90ceab575c346366
-#EXTINF:-1 tvg-id="東森亞洲" tvg-name="東森亞洲" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东森亚洲.png" group-title="新马MS",东森亚洲
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东森亚洲.png" group-title="新马MS",东森亚洲
 p3p://167.114.175.6:55331/644519cf000cb5973f24f5b402296409
 #EXTINF:-1 group-title="新马MS",TVB Magic
 p3p://167.114.175.6:55331/64bcf85500083b2d135ffe1a3ef73b5c
