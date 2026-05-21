@@ -1061,14 +1061,10 @@ http://206.212.246.239/live/Cori/123456/236726.m3u8
 http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/313830.m3u8
 #EXTINF:-1 group-title="极速NOW",NOW体育4K 1
 http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/641325.m3u8
-#EXTINF:-1 group-title="极速NOW",NOW体育4K 1 粤语
-http://154.222.16.140:9999/2746691
 #EXTINF:-1 group-title="极速NOW",NOW英超 TV
 http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/313829.m3u8
 #EXTINF:-1 group-title="极速NOW",NOW英超1
 http://206.212.246.239/live/Cori/123456/236727.m3u8
-#EXTINF:-1 group-title="极速NOW",NOW英超1粤语
-http://154.222.16.140:9999/2746690
 #EXTINF:-1 group-title="极速NOW",NOW英超2
 http://206.212.246.239/live/Cori/123456/236728.m3u8
 #EXTINF:-1 group-title="极速NOW",NOW英超3
@@ -1805,1152 +1801,1466 @@ https://test.946985.filegear-sg.me/proxy/fef9924d15fe3615
 https://test.946985.filegear-sg.me/proxy/496083282139729f
 #EXTINF:-1 tvg-id="龍華電影台" tvg-name="龍華電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华电影台.png" group-title="极速9469",龍華電影台
 https://test.946985.filegear-sg.me/proxy/3e25c26d79d21d2d
-#EXTINF:-1 group-title="国外UK",COZI TV SD
+#EXTINF:-1 group-title="美国US",COZI TV SD
 http://108.181.20.255:27347/livehttpplay?channel_id=23000
-#EXTINF:-1 group-title="国外UK",TELEXITOS SD
+#EXTINF:-1 group-title="美国US",TELEXITOS SD
 http://108.181.20.255:27347/livehttpplay?channel_id=23001
-#EXTINF:-1 group-title="国外UK",TELEMUNDO WEST
+#EXTINF:-1 group-title="美国US",TELEMUNDO WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23002
-#EXTINF:-1 group-title="国外UK",TELEMUNDO EAST
+#EXTINF:-1 group-title="美国US",TELEMUNDO EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23003
-#EXTINF:-1 group-title="国外UK",TELEMUNDO MOUNTAIN
+#EXTINF:-1 group-title="美国US",TELEMUNDO MOUNTAIN
 http://108.181.20.255:27347/livehttpplay?channel_id=23004
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Golf Channel.png" group-title="国外UK",GOLF CHANNEL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Golf Channel.png" group-title="美国US",GOLF CHANNEL
 http://108.181.20.255:27347/livehttpplay?channel_id=23005
-#EXTINF:-1 group-title="国外UK",UNIVERSAL KIDS
+#EXTINF:-1 group-title="美国US",UNIVERSAL KIDS
 http://108.181.20.255:27347/livehttpplay?channel_id=23006
-#EXTINF:-1 group-title="国外UK",TV ONE
+#EXTINF:-1 group-title="美国US",TV ONE
 http://108.181.20.255:27347/livehttpplay?channel_id=23007
-#EXTINF:-1 group-title="国外UK",E! WEST
+#EXTINF:-1 group-title="美国US",E! WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23008
-#EXTINF:-1 group-title="国外UK",MTV WEST
+#EXTINF:-1 group-title="美国US",MTV WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23009
-#EXTINF:-1 group-title="国外UK",NICK EAST
+#EXTINF:-1 group-title="美国US",NICK EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23010
-#EXTINF:-1 group-title="国外UK",MTV HITS
+#EXTINF:-1 group-title="美国US",MTV HITS
 http://108.181.20.255:27347/livehttpplay?channel_id=23011
-#EXTINF:-1 group-title="国外UK",PARAMOUND  WEST
+#EXTINF:-1 group-title="美国US",PARAMOUND  WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23012
-#EXTINF:-1 group-title="国外UK",PARAMOUND CANADÁ
+#EXTINF:-1 group-title="美国US",PARAMOUND CANADÁ
 http://108.181.20.255:27347/livehttpplay?channel_id=23013
-#EXTINF:-1 group-title="国外UK",LOGO EAST
+#EXTINF:-1 group-title="美国US",LOGO EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23014
-#EXTINF:-1 group-title="国外UK",CMT WEST
+#EXTINF:-1 group-title="美国US",CMT WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23015
-#EXTINF:-1 group-title="国外UK",AFN prime pacific
+#EXTINF:-1 group-title="美国US",AFN prime pacific
 http://108.181.20.255:27347/livehttpplay?channel_id=23016
-#EXTINF:-1 group-title="国外UK",AFN family
+#EXTINF:-1 group-title="美国US",AFN family
 http://108.181.20.255:27347/livehttpplay?channel_id=23017
-#EXTINF:-1 group-title="国外UK",AFN movie
+#EXTINF:-1 group-title="美国US",AFN movie
 http://108.181.20.255:27347/livehttpplay?channel_id=23018
-#EXTINF:-1 group-title="国外UK",AFN spectrum
+#EXTINF:-1 group-title="美国US",AFN spectrum
 http://108.181.20.255:27347/livehttpplay?channel_id=23019
-#EXTINF:-1 group-title="国外UK",AFN sports
+#EXTINF:-1 group-title="美国US",AFN sports
 http://108.181.20.255:27347/livehttpplay?channel_id=23020
-#EXTINF:-1 group-title="国外UK",AFN sports 2
+#EXTINF:-1 group-title="美国US",AFN sports 2
 http://108.181.20.255:27347/livehttpplay?channel_id=23021
-#EXTINF:-1 group-title="国外UK",LAS ESTRELLAS
+#EXTINF:-1 group-title="美国US",LAS ESTRELLAS
 http://108.181.20.255:27347/livehttpplay?channel_id=23022
-#EXTINF:-1 group-title="国外UK",LAS ESTRELLAS HD -1HORA
+#EXTINF:-1 group-title="美国US",LAS ESTRELLAS HD -1HORA
 http://108.181.20.255:27347/livehttpplay?channel_id=23023
-#EXTINF:-1 group-title="国外UK",LAS ESTRELLAS HD -2HORA
+#EXTINF:-1 group-title="美国US",LAS ESTRELLAS HD -2HORA
 http://108.181.20.255:27347/livehttpplay?channel_id=23024
-#EXTINF:-1 group-title="国外UK",CANAL 5
+#EXTINF:-1 group-title="美国US",CANAL 5
 http://108.181.20.255:27347/livehttpplay?channel_id=23025
-#EXTINF:-1 group-title="国外UK",CANAL 5 HD -1 HORA
+#EXTINF:-1 group-title="美国US",CANAL 5 HD -1 HORA
 http://108.181.20.255:27347/livehttpplay?channel_id=23026
-#EXTINF:-1 group-title="国外UK",NU9VE
+#EXTINF:-1 group-title="美国US",NU9VE
 http://108.181.20.255:27347/livehttpplay?channel_id=23027
-#EXTINF:-1 group-title="国外UK",AZTECA1
+#EXTINF:-1 group-title="美国US",AZTECA1
 http://108.181.20.255:27347/livehttpplay?channel_id=23028
-#EXTINF:-1 group-title="国外UK",AZTECA1 HD -HORAS
+#EXTINF:-1 group-title="美国US",AZTECA1 HD -HORAS
 http://108.181.20.255:27347/livehttpplay?channel_id=23029
-#EXTINF:-1 group-title="国外UK",ADN 40
+#EXTINF:-1 group-title="美国US",ADN 40
 http://108.181.20.255:27347/livehttpplay?channel_id=23030
-#EXTINF:-1 group-title="国外UK",a mas+
+#EXTINF:-1 group-title="美国US",a mas+
 http://108.181.20.255:27347/livehttpplay?channel_id=23031
-#EXTINF:-1 group-title="国外UK",SKYSPORTS LA LIGA(DEMO)
+#EXTINF:-1 group-title="美国US",SKYSPORTS LA LIGA(DEMO)
 http://108.181.20.255:27347/livehttpplay?channel_id=23032
-#EXTINF:-1 group-title="国外UK",FutTV
+#EXTINF:-1 group-title="美国US",FutTV
 http://108.181.20.255:27347/livehttpplay?channel_id=23033
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/TRUTV.png" group-title="国外UK",truTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/TRUTV.png" group-title="美国US",truTV
 http://108.181.20.255:27347/livehttpplay?channel_id=23034
-#EXTINF:-1 tvg-id="DREAMWORKS" tvg-name="DREAMWORKS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DREAMWORKS.png" group-title="国外UK",DREAMWORKS
+#EXTINF:-1 tvg-id="DREAMWORKS" tvg-name="DREAMWORKS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DREAMWORKS.png" group-title="美国US",DREAMWORKS
 http://108.181.20.255:27347/livehttpplay?channel_id=23035
-#EXTINF:-1 group-title="国外UK",GOLDEN
+#EXTINF:-1 group-title="美国US",GOLDEN
 http://108.181.20.255:27347/livehttpplay?channel_id=23036
-#EXTINF:-1 group-title="国外UK",Europa/europa
+#EXTINF:-1 group-title="美国US",Europa/europa
 http://108.181.20.255:27347/livehttpplay?channel_id=23037
-#EXTINF:-1 group-title="国外UK",GOLDEN EDGE
+#EXTINF:-1 group-title="美国US",GOLDEN EDGE
 http://108.181.20.255:27347/livehttpplay?channel_id=23038
-#EXTINF:-1 group-title="国外UK",GOLDEN PREMIER
+#EXTINF:-1 group-title="美国US",GOLDEN PREMIER
 http://108.181.20.255:27347/livehttpplay?channel_id=23039
-#EXTINF:-1 group-title="国外UK",ÚNICABLE
+#EXTINF:-1 group-title="美国US",ÚNICABLE
 http://108.181.20.255:27347/livehttpplay?channel_id=23040
-#EXTINF:-1 group-title="国外UK",BANDAMAX
+#EXTINF:-1 group-title="美国US",BANDAMAX
 http://108.181.20.255:27347/livehttpplay?channel_id=23041
-#EXTINF:-1 group-title="国外UK",TELEMUNDO
+#EXTINF:-1 group-title="美国US",TELEMUNDO
 http://108.181.20.255:27347/livehttpplay?channel_id=23042
-#EXTINF:-1 group-title="国外UK",DISTRITO COMEDIA
+#EXTINF:-1 group-title="美国US",DISTRITO COMEDIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23043
-#EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" group-title="国外UK",NICK JR
+#EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" group-title="美国US",NICK JR
 http://108.181.20.255:27347/livehttpplay?channel_id=23044
-#EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Cartoon Network.png" group-title="国外UK",CARTOON NETWORK
+#EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Cartoon Network.png" group-title="美国US",CARTOON NETWORK
 http://108.181.20.255:27347/livehttpplay?channel_id=23045
-#EXTINF:-1 group-title="国外UK",GOLDEN
+#EXTINF:-1 group-title="美国US",GOLDEN
 http://108.181.20.255:27347/livehttpplay?channel_id=23046
-#EXTINF:-1 group-title="国外UK",GOLDEN EDGE
+#EXTINF:-1 group-title="美国US",GOLDEN EDGE
 http://108.181.20.255:27347/livehttpplay?channel_id=23047
-#EXTINF:-1 group-title="国外UK",TUDN MX
+#EXTINF:-1 group-title="美国US",TUDN MX
 http://108.181.20.255:27347/livehttpplay?channel_id=23048
-#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Family.png" group-title="国外UK",HBO FAMILY
+#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HBO Family.png" group-title="美国US",HBO FAMILY
 http://108.181.20.255:27347/livehttpplay?channel_id=23049
-#EXTINF:-1 group-title="国外UK",UNIVERSAL PREMIER
+#EXTINF:-1 group-title="美国US",UNIVERSAL PREMIER
 http://108.181.20.255:27347/livehttpplay?channel_id=23050
-#EXTINF:-1 group-title="国外UK",UNIVERSAL CINEMA
+#EXTINF:-1 group-title="美国US",UNIVERSAL CINEMA
 http://108.181.20.255:27347/livehttpplay?channel_id=23051
-#EXTINF:-1 group-title="国外UK",UNIVERSAL CRIME
+#EXTINF:-1 group-title="美国US",UNIVERSAL CRIME
 http://108.181.20.255:27347/livehttpplay?channel_id=23052
-#EXTINF:-1 group-title="国外UK",UNIVERSAL REALITYKIT
+#EXTINF:-1 group-title="美国US",UNIVERSAL REALITYKIT
 http://108.181.20.255:27347/livehttpplay?channel_id=23053
-#EXTINF:-1 group-title="国外UK",FOX PREMIUM
+#EXTINF:-1 group-title="美国US",FOX PREMIUM
 http://108.181.20.255:27347/livehttpplay?channel_id=23054
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/FOX Sports 3.png" group-title="国外UK",FOX SPORTS 3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/FOX Sports 3.png" group-title="美国US",FOX SPORTS 3
 http://108.181.20.255:27347/livehttpplay?channel_id=23055
-#EXTINF:-1 group-title="国外UK",GOLTV
+#EXTINF:-1 group-title="美国US",GOLTV
 http://108.181.20.255:27347/livehttpplay?channel_id=23056
-#EXTINF:-1 group-title="国外UK",Hallmark East
+#EXTINF:-1 group-title="美国US",Hallmark East
 http://108.181.20.255:27347/livehttpplay?channel_id=23057
-#EXTINF:-1 group-title="国外UK",Hallmark West
+#EXTINF:-1 group-title="美国US",Hallmark West
 http://108.181.20.255:27347/livehttpplay?channel_id=23058
-#EXTINF:-1 group-title="国外UK",Hallmark Movie East
+#EXTINF:-1 group-title="美国US",Hallmark Movie East
 http://108.181.20.255:27347/livehttpplay?channel_id=23059
-#EXTINF:-1 group-title="国外UK",Hallmark Movie west
+#EXTINF:-1 group-title="美国US",Hallmark Movie west
 http://108.181.20.255:27347/livehttpplay?channel_id=23060
-#EXTINF:-1 group-title="国外UK",Hallmark Drama
+#EXTINF:-1 group-title="美国US",Hallmark Drama
 http://108.181.20.255:27347/livehttpplay?channel_id=23061
-#EXTINF:-1 group-title="国外UK",BET Caribe
+#EXTINF:-1 group-title="美国US",BET Caribe
 http://108.181.20.255:27347/livehttpplay?channel_id=23062
-#EXTINF:-1 group-title="国外UK",BET Canadá
+#EXTINF:-1 group-title="美国US",BET Canadá
 http://108.181.20.255:27347/livehttpplay?channel_id=23063
-#EXTINF:-1 group-title="国外UK",BET East
+#EXTINF:-1 group-title="美国US",BET East
 http://108.181.20.255:27347/livehttpplay?channel_id=23064
-#EXTINF:-1 group-title="国外UK",BET Her Caribe
+#EXTINF:-1 group-title="美国US",BET Her Caribe
 http://108.181.20.255:27347/livehttpplay?channel_id=23065
-#EXTINF:-1 group-title="国外UK",BET BET West
+#EXTINF:-1 group-title="美国US",BET BET West
 http://108.181.20.255:27347/livehttpplay?channel_id=23066
-#EXTINF:-1 group-title="国外UK",OXYGEN West
+#EXTINF:-1 group-title="美国US",OXYGEN West
 http://108.181.20.255:27347/livehttpplay?channel_id=23067
-#EXTINF:-1 group-title="国外UK",OXYGEN EAST
+#EXTINF:-1 group-title="美国US",OXYGEN EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23068
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/USA.png" group-title="国外UK",USA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/USA.png" group-title="美国US",USA
 http://108.181.20.255:27347/livehttpplay?channel_id=23069
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/BRAVO.png" group-title="国外UK",BRAVO
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/BRAVO.png" group-title="美国US",BRAVO
 http://108.181.20.255:27347/livehttpplay?channel_id=23070
-#EXTINF:-1 group-title="国外UK",SyFy East
+#EXTINF:-1 group-title="美国US",SyFy East
 http://108.181.20.255:27347/livehttpplay?channel_id=23071
-#EXTINF:-1 group-title="国外UK",MGM+
+#EXTINF:-1 group-title="美国US",MGM+
 http://108.181.20.255:27347/livehttpplay?channel_id=23072
-#EXTINF:-1 group-title="国外UK",MGM+WEST
+#EXTINF:-1 group-title="美国US",MGM+WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23073
-#EXTINF:-1 group-title="国外UK",MGM+HITS
+#EXTINF:-1 group-title="美国US",MGM+HITS
 http://108.181.20.255:27347/livehttpplay?channel_id=23074
-#EXTINF:-1 group-title="国外UK",MGM+MARQUE
+#EXTINF:-1 group-title="美国US",MGM+MARQUE
 http://108.181.20.255:27347/livehttpplay?channel_id=23075
-#EXTINF:-1 group-title="国外UK",MGM+DRIVE
+#EXTINF:-1 group-title="美国US",MGM+DRIVE
 http://108.181.20.255:27347/livehttpplay?channel_id=23076
-#EXTINF:-1 group-title="国外UK",CMT EAST
+#EXTINF:-1 group-title="美国US",CMT EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23077
-#EXTINF:-1 group-title="国外UK",MTV EAST
+#EXTINF:-1 group-title="美国US",MTV EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23078
-#EXTINF:-1 group-title="国外UK",NICK WEST
+#EXTINF:-1 group-title="美国US",NICK WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23079
-#EXTINF:-1 group-title="国外UK",VH1 WEST
+#EXTINF:-1 group-title="美国US",VH1 WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23080
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="国外UK",MTV LIVE
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MTV Live.png" group-title="美国US",MTV LIVE
 http://108.181.20.255:27347/livehttpplay?channel_id=23081
-#EXTINF:-1 group-title="国外UK",PARAMOUND EAST
+#EXTINF:-1 group-title="美国US",PARAMOUND EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23082
-#EXTINF:-1 group-title="国外UK",COMEDY WEST
+#EXTINF:-1 group-title="美国US",COMEDY WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23083
-#EXTINF:-1 group-title="国外UK",REVOLT
+#EXTINF:-1 group-title="美国US",REVOLT
 http://108.181.20.255:27347/livehttpplay?channel_id=23084
-#EXTINF:-1 group-title="国外UK",Story
+#EXTINF:-1 group-title="美国US",Story
 http://108.181.20.255:27347/livehttpplay?channel_id=23085
-#EXTINF:-1 group-title="国外UK",UNIVERSO EAST
+#EXTINF:-1 group-title="美国US",UNIVERSO EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23086
-#EXTINF:-1 group-title="国外UK",UNIVERSO WEST
+#EXTINF:-1 group-title="美国US",UNIVERSO WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23087
-#EXTINF:-1 group-title="国外UK",UNIVISION EAST
+#EXTINF:-1 group-title="美国US",UNIVISION EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23088
-#EXTINF:-1 group-title="国外UK",UNIVISION WEST
+#EXTINF:-1 group-title="美国US",UNIVISION WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23089
-#EXTINF:-1 group-title="国外UK",GALAVISION EAST
+#EXTINF:-1 group-title="美国US",GALAVISION EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23090
-#EXTINF:-1 group-title="国外UK",GALAVISION WEST
+#EXTINF:-1 group-title="美国US",GALAVISION WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23091
-#EXTINF:-1 group-title="国外UK",UNIVISION TUDN USA
+#EXTINF:-1 group-title="美国US",UNIVISION TUDN USA
 http://108.181.20.255:27347/livehttpplay?channel_id=23092
-#EXTINF:-1 group-title="国外UK",UNIMAS EAST
+#EXTINF:-1 group-title="美国US",UNIMAS EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23093
-#EXTINF:-1 group-title="国外UK",UNIMAS WEST
+#EXTINF:-1 group-title="美国US",UNIMAS WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23094
-#EXTINF:-1 group-title="国外UK",Pac-12 Network
+#EXTINF:-1 group-title="美国US",Pac-12 Network
 http://108.181.20.255:27347/livehttpplay?channel_id=23095
-#EXTINF:-1 group-title="国外UK",MAVTV HD WEST
+#EXTINF:-1 group-title="美国US",MAVTV HD WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23096
-#EXTINF:-1 group-title="国外UK",HGTV HD WEST
+#EXTINF:-1 group-title="美国US",HGTV HD WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23097
-#EXTINF:-1 group-title="国外UK",FOOD NETWORK HD WEST
+#EXTINF:-1 group-title="美国US",FOOD NETWORK HD WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23098
-#EXTINF:-1 group-title="国外UK",TRAVEL CHANNEL HD WEST
+#EXTINF:-1 group-title="美国US",TRAVEL CHANNEL HD WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23099
-#EXTINF:-1 group-title="国外UK",GREAT AMERICAN FAMILY WEST
+#EXTINF:-1 group-title="美国US",GREAT AMERICAN FAMILY WEST
 http://108.181.20.255:27347/livehttpplay?channel_id=23100
-#EXTINF:-1 group-title="国外UK",MAGNOLIA HD WES
+#EXTINF:-1 group-title="美国US",MAGNOLIA HD WES
 http://108.181.20.255:27347/livehttpplay?channel_id=23101
-#EXTINF:-1 group-title="国外UK",Newsnation (WGNA)
+#EXTINF:-1 group-title="美国US",Newsnation (WGNA)
 http://108.181.20.255:27347/livehttpplay?channel_id=23102
-#EXTINF:-1 group-title="国外UK",MLB NETWORK
+#EXTINF:-1 group-title="美国US",MLB NETWORK
 http://108.181.20.255:27347/livehttpplay?channel_id=23103
-#EXTINF:-1 group-title="国外UK",A&amp;E
+#EXTINF:-1 group-title="美国US",A&amp;E
 http://108.181.20.255:27347/livehttpplay?channel_id=23104
-#EXTINF:-1 group-title="国外UK",HISTORY EAST USA
+#EXTINF:-1 group-title="美国US",HISTORY EAST USA
 http://108.181.20.255:27347/livehttpplay?channel_id=23105
-#EXTINF:-1 group-title="国外UK",LIFETIME EAST
+#EXTINF:-1 group-title="美国US",LIFETIME EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23106
-#EXTINF:-1 group-title="国外UK",LMN
+#EXTINF:-1 group-title="美国US",LMN
 http://108.181.20.255:27347/livehttpplay?channel_id=23107
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/FYI.png" group-title="国外UK",fyi
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/FYI.png" group-title="美国US",fyi
 http://108.181.20.255:27347/livehttpplay?channel_id=23108
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/VICE.png" group-title="国外UK",Vice
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/VICE.png" group-title="美国US",Vice
 http://108.181.20.255:27347/livehttpplay?channel_id=23109
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/BRAVO.png" group-title="国外UK",bravo
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/BRAVO.png" group-title="美国US",bravo
 http://108.181.20.255:27347/livehttpplay?channel_id=23110
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/SYFY.png" group-title="国外UK",SyFy
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/SYFY.png" group-title="美国US",SyFy
 http://108.181.20.255:27347/livehttpplay?channel_id=23111
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/USA.png" group-title="国外UK",USA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/USA.png" group-title="美国US",USA
 http://108.181.20.255:27347/livehttpplay?channel_id=23112
-#EXTINF:-1 group-title="国外UK",E! EAST
+#EXTINF:-1 group-title="美国US",E! EAST
 http://108.181.20.255:27347/livehttpplay?channel_id=23113
-#EXTINF:-1 group-title="国外UK",TV ONE
+#EXTINF:-1 group-title="美国US",TV ONE
 http://108.181.20.255:27347/livehttpplay?channel_id=23114
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CNBC.png" group-title="国外UK",CNBC
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CNBC.png" group-title="美国US",CNBC
 http://108.181.20.255:27347/livehttpplay?channel_id=23115
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MSNBC.png" group-title="国外UK",MSNBC
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/MSNBC.png" group-title="美国US",MSNBC
 http://108.181.20.255:27347/livehttpplay?channel_id=23116
-#EXTINF:-1 group-title="国外UK",CNBC WORLD
+#EXTINF:-1 group-title="美国US",CNBC WORLD
 http://108.181.20.255:27347/livehttpplay?channel_id=23117
-#EXTINF:-1 group-title="国外UK",PARAMOUND CARIBE
+#EXTINF:-1 group-title="美国US",PARAMOUND CARIBE
 http://108.181.20.255:27347/livehttpplay?channel_id=23118
-#EXTINF:-1 group-title="国外UK",COMEDY CARIBE
+#EXTINF:-1 group-title="美国US",COMEDY CARIBE
 http://108.181.20.255:27347/livehttpplay?channel_id=23119
-#EXTINF:-1 group-title="国外UK",CHV HD CHILE
+#EXTINF:-1 group-title="美国US",CHV HD CHILE
 http://108.181.20.255:27347/livehttpplay?channel_id=23500
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/nick.png" group-title="国外UK",NICK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/nick.png" group-title="美国US",NICK
 http://108.181.20.255:27347/livehttpplay?channel_id=23501
-#EXTINF:-1 group-title="国外UK",TNT SERIES HD COLOMBIA
+#EXTINF:-1 group-title="美国US",TNT SERIES HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23502
-#EXTINF:-1 group-title="国外UK",ESPN 4
+#EXTINF:-1 group-title="美国US",ESPN 4
 http://108.181.20.255:27347/livehttpplay?channel_id=23503
-#EXTINF:-1 group-title="国外UK",DHE
+#EXTINF:-1 group-title="美国US",DHE
 http://108.181.20.255:27347/livehttpplay?channel_id=23504
-#EXTINF:-1 group-title="国外UK",ESPN EXTRA
+#EXTINF:-1 group-title="美国US",ESPN EXTRA
 http://108.181.20.255:27347/livehttpplay?channel_id=23505
-#EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Cartoon Network.png" group-title="国外UK",CARTOON NETWORK
+#EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Cartoon Network.png" group-title="美国US",CARTOON NETWORK
 http://108.181.20.255:27347/livehttpplay?channel_id=23506
-#EXTINF:-1 group-title="国外UK",DISCOVERY KIDS
+#EXTINF:-1 group-title="美国US",DISCOVERY KIDS
 http://108.181.20.255:27347/livehttpplay?channel_id=23507
-#EXTINF:-1 group-title="国外UK",FOX SPORTS 2 HD ARGENTINA
+#EXTINF:-1 group-title="美国US",FOX SPORTS 2 HD ARGENTINA
 http://108.181.20.255:27347/livehttpplay?channel_id=23508
-#EXTINF:-1 group-title="国外UK",BABY FIRTS
+#EXTINF:-1 group-title="美国US",BABY FIRTS
 http://108.181.20.255:27347/livehttpplay?channel_id=23509
-#EXTINF:-1 group-title="国外UK",SEÑAL COLOMBIA
+#EXTINF:-1 group-title="美国US",SEÑAL COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23510
-#EXTINF:-1 group-title="国外UK",ESPN 2 LATIONAMERICA
+#EXTINF:-1 group-title="美国US",ESPN 2 LATIONAMERICA
 http://108.181.20.255:27347/livehttpplay?channel_id=23511
-#EXTINF:-1 group-title="国外UK",CANAL 1 HD COLOMBIA
+#EXTINF:-1 group-title="美国US",CANAL 1 HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23512
-#EXTINF:-1 group-title="国外UK",CARACOL HD COLOMBIA
+#EXTINF:-1 group-title="美国US",CARACOL HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23513
-#EXTINF:-1 group-title="国外UK",REDMAS HD COLOMBIA
+#EXTINF:-1 group-title="美国US",REDMAS HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23514
-#EXTINF:-1 group-title="国外UK",RCN HD COLOMBIA
+#EXTINF:-1 group-title="美国US",RCN HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23515
-#EXTINF:-1 group-title="国外UK",FOXSPORTS 3 HD ARGENTINA
+#EXTINF:-1 group-title="美国US",FOXSPORTS 3 HD ARGENTINA
 http://108.181.20.255:27347/livehttpplay?channel_id=23516
-#EXTINF:-1 group-title="国外UK",DISNEY CHANELL
+#EXTINF:-1 group-title="美国US",DISNEY CHANELL
 http://108.181.20.255:27347/livehttpplay?channel_id=23517
-#EXTINF:-1 group-title="国外UK",ESPN 3 HD COLOMBIA
+#EXTINF:-1 group-title="美国US",ESPN 3 HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23518
-#EXTINF:-1 group-title="国外UK",TELETICA CANAL 7 COSTA RICA
+#EXTINF:-1 group-title="美国US",TELETICA CANAL 7 COSTA RICA
 http://108.181.20.255:27347/livehttpplay?channel_id=23519
-#EXTINF:-1 group-title="国外UK",UNIVERSAL REALITY
+#EXTINF:-1 group-title="美国US",UNIVERSAL REALITY
 http://108.181.20.255:27347/livehttpplay?channel_id=23520
-#EXTINF:-1 group-title="国外UK",UNIVERSAL CINEMA
+#EXTINF:-1 group-title="美国US",UNIVERSAL CINEMA
 http://108.181.20.255:27347/livehttpplay?channel_id=23521
-#EXTINF:-1 group-title="国外UK",UNIVERSAL PREMIER
+#EXTINF:-1 group-title="美国US",UNIVERSAL PREMIER
 http://108.181.20.255:27347/livehttpplay?channel_id=23522
-#EXTINF:-1 group-title="国外UK",ESPN PREMIUM
+#EXTINF:-1 group-title="美国US",ESPN PREMIUM
 http://108.181.20.255:27347/livehttpplay?channel_id=23523
-#EXTINF:-1 group-title="国外UK",CANAL 13 HD CHILE
+#EXTINF:-1 group-title="美国US",CANAL 13 HD CHILE
 http://108.181.20.255:27347/livehttpplay?channel_id=23524
-#EXTINF:-1 group-title="国外UK",TELEAMAZONAS HD ECUADOR
+#EXTINF:-1 group-title="美国US",TELEAMAZONAS HD ECUADOR
 http://108.181.20.255:27347/livehttpplay?channel_id=23525
-#EXTINF:-1 group-title="国外UK",24 HORAS HD (CHILE)
+#EXTINF:-1 group-title="美国US",24 HORAS HD (CHILE)
 http://108.181.20.255:27347/livehttpplay?channel_id=23526
-#EXTINF:-1 group-title="国外UK",CITY TV SD
+#EXTINF:-1 group-title="美国US",CITY TV SD
 http://108.181.20.255:27347/livehttpplay?channel_id=23527
-#EXTINF:-1 group-title="国外UK",RCN NOVELAS SD
+#EXTINF:-1 group-title="美国US",RCN NOVELAS SD
 http://108.181.20.255:27347/livehttpplay?channel_id=23528
-#EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" group-title="国外UK",NICK JR
+#EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" group-title="美国US",NICK JR
 http://108.181.20.255:27347/livehttpplay?channel_id=23529
-#EXTINF:-1 group-title="国外UK",LIFE TIME
+#EXTINF:-1 group-title="美国US",LIFE TIME
 http://108.181.20.255:27347/livehttpplay?channel_id=23530
-#EXTINF:-1 group-title="国外UK",ESPN HD COLOMBIA
+#EXTINF:-1 group-title="美国US",ESPN HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23531
-#EXTINF:-1 group-title="国外UK",TELEANTIOQUIA HD COLOMBIA
+#EXTINF:-1 group-title="美国US",TELEANTIOQUIA HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23532
-#EXTINF:-1 group-title="国外UK",TELEPACIFICO HD COLOMBIA
+#EXTINF:-1 group-title="美国US",TELEPACIFICO HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23533
-#EXTINF:-1 group-title="国外UK",TELECARIBE HD COLOMBIA
+#EXTINF:-1 group-title="美国US",TELECARIBE HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23534
-#EXTINF:-1 group-title="国外UK",IVC HD VENEZUELA
+#EXTINF:-1 group-title="美国US",IVC HD VENEZUELA
 http://108.181.20.255:27347/livehttpplay?channel_id=23535
-#EXTINF:-1 group-title="国外UK",EUROPA
+#EXTINF:-1 group-title="美国US",EUROPA
 http://108.181.20.255:27347/livehttpplay?channel_id=23536
-#EXTINF:-1 group-title="国外UK",DIRECTV SPORTS COLOMBIA
+#EXTINF:-1 group-title="美国US",DIRECTV SPORTS COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23537
-#EXTINF:-1 group-title="国外UK",DIRECTV SPORTS2 HD COLOMBIA
+#EXTINF:-1 group-title="美国US",DIRECTV SPORTS2 HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23538
-#EXTINF:-1 group-title="国外UK",DIRECTV SPORTS+ HD COLOMBIA
+#EXTINF:-1 group-title="美国US",DIRECTV SPORTS+ HD COLOMBIA
 http://108.181.20.255:27347/livehttpplay?channel_id=23539
-#EXTINF:-1 group-title="国外UK",DIRECTV SPORTS FIGHT
+#EXTINF:-1 group-title="美国US",DIRECTV SPORTS FIGHT
 http://108.181.20.255:27347/livehttpplay?channel_id=23540
-#EXTINF:-1 group-title="国外UK",TC ECUADOR
+#EXTINF:-1 group-title="美国US",TC ECUADOR
 http://108.181.20.255:27347/livehttpplay?channel_id=23541
-#EXTINF:-1 group-title="国外UK",WIN SPORTS PREMIUM  COL
+#EXTINF:-1 group-title="美国US",WIN SPORTS PREMIUM  COL
 http://108.181.20.255:27347/livehttpplay?channel_id=23542
-#EXTINF:-1 group-title="国外UK",PX SPORTS
+#EXTINF:-1 group-title="美国US",PX SPORTS
 http://108.181.20.255:27347/livehttpplay?channel_id=23543
-#EXTINF:-1 group-title="国外UK",ON DIRECTV
+#EXTINF:-1 group-title="美国US",ON DIRECTV
 http://108.181.20.255:27347/livehttpplay?channel_id=23544
-#EXTINF:-1 group-title="国外UK",TV CORTOS
+#EXTINF:-1 group-title="美国US",TV CORTOS
 http://108.181.20.255:27347/livehttpplay?channel_id=23545
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Food Network.png" group-title="国外UK",FOOD NETWORK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Food Network.png" group-title="美国US",FOOD NETWORK
 http://108.181.20.255:27347/livehttpplay?channel_id=23546
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HGTV.png" group-title="国外UK",HGTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HGTV.png" group-title="美国US",HGTV
 http://108.181.20.255:27347/livehttpplay?channel_id=23547
-#EXTINF:-1 group-title="国外UK",WinSports
+#EXTINF:-1 group-title="美国US",WinSports
 http://108.181.20.255:27347/livehttpplay?channel_id=23548
-#EXTINF:-1 group-title="国外UK",Tigo sports costa rica
+#EXTINF:-1 group-title="美国US",Tigo sports costa rica
 http://108.181.20.255:27347/livehttpplay?channel_id=23549
-#EXTINF:-1 group-title="国外UK",UNIVERSAL COMEDY
+#EXTINF:-1 group-title="美国US",UNIVERSAL COMEDY
 http://108.181.20.255:27347/livehttpplay?channel_id=23550
-#EXTINF:-1 group-title="国外UK",UNIVERTSAL CRIMEN
+#EXTINF:-1 group-title="美国US",UNIVERTSAL CRIMEN
 http://108.181.20.255:27347/livehttpplay?channel_id=23551
-#EXTINF:-1 group-title="国外UK",MOVISTAR DEPORTES PERU
+#EXTINF:-1 group-title="美国US",MOVISTAR DEPORTES PERU
 http://108.181.20.255:27347/livehttpplay?channel_id=23552
-#EXTINF:-1 group-title="国外UK",CANAL DE FUTBOL
+#EXTINF:-1 group-title="美国US",CANAL DE FUTBOL
 http://108.181.20.255:27347/livehttpplay?channel_id=23553
-#EXTINF:-1 group-title="国外UK",GOL PERU
+#EXTINF:-1 group-title="美国US",GOL PERU
 http://108.181.20.255:27347/livehttpplay?channel_id=23554
-#EXTINF:-1 tvg-id="LOVE NATURE 4K" tvg-name="LOVE NATURE 4K" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Love Nature.png" group-title="国外UK",LOVE NATURE
+#EXTINF:-1 tvg-id="LOVE NATURE 4K" tvg-name="LOVE NATURE 4K" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Love Nature.png" group-title="美国US",LOVE NATURE
 http://108.181.20.255:27347/livehttpplay?channel_id=23555
-#EXTINF:-1 group-title="国外UK",GOL TV ECUADOR
+#EXTINF:-1 group-title="美国US",GOL TV ECUADOR
 http://108.181.20.255:27347/livehttpplay?channel_id=23556
-#EXTINF:-1 group-title="国外UK",CNN CHILE
+#EXTINF:-1 group-title="美国US",CNN CHILE
 http://108.181.20.255:27347/livehttpplay?channel_id=23557
-#EXTINF:-1 group-title="国外UK",TNT SPORTS CHILE
+#EXTINF:-1 group-title="美国US",TNT SPORTS CHILE
 http://108.181.20.255:27347/livehttpplay?channel_id=23558
-#EXTINF:-1 group-title="国外UK",FOX SPORTS CHILE
+#EXTINF:-1 group-title="美国US",FOX SPORTS CHILE
 http://108.181.20.255:27347/livehttpplay?channel_id=23559
-#EXTINF:-1 group-title="国外UK",ESPN2 HD CHILE
+#EXTINF:-1 group-title="美国US",ESPN2 HD CHILE
 http://108.181.20.255:27347/livehttpplay?channel_id=23560
-#EXTINF:-1 group-title="国外UK",AMERICA TV HD PERU
+#EXTINF:-1 group-title="美国US",AMERICA TV HD PERU
 http://108.181.20.255:27347/livehttpplay?channel_id=23561
-#EXTINF:-1 group-title="国外UK",LATINA
+#EXTINF:-1 group-title="美国US",LATINA
 http://108.181.20.255:27347/livehttpplay?channel_id=23562
-#EXTINF:-1 group-title="国外UK",MEGA TV
+#EXTINF:-1 group-title="美国US",MEGA TV
 http://108.181.20.255:27347/livehttpplay?channel_id=23563
-#EXTINF:-1 group-title="国外UK2",KCBS-TV CBS 2 (Los Angeles CA)
+#EXTINF:-1 group-title="美国US2",KCBS-TV CBS 2 (Los Angeles CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2637.ts
-#EXTINF:-1 group-title="国外UK2",KNBC-TV NBC 4 (Los Angeles CA)
+#EXTINF:-1 group-title="美国US2",KNBC-TV NBC 4 (Los Angeles CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2453.ts
-#EXTINF:-1 group-title="国外UK2",KTLA-TV CW 5 (Los Angeles CA)
+#EXTINF:-1 group-title="美国US2",KTLA-TV CW 5 (Los Angeles CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/87547.ts
-#EXTINF:-1 group-title="国外UK2",KABC-TV ABC 7 (Los Angeles CA)
+#EXTINF:-1 group-title="美国US2",KABC-TV ABC 7 (Los Angeles CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2684.ts
-#EXTINF:-1 group-title="国外UK2",KCAL-TV CBS/Ind. 9 (Los Angeles CA)
+#EXTINF:-1 group-title="美国US2",KCAL-TV CBS/Ind. 9 (Los Angeles CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/87548.ts
-#EXTINF:-1 group-title="国外UK2",KTTV-TV FOX 11 (Los Angeles CA)
+#EXTINF:-1 group-title="美国US2",KTTV-TV FOX 11 (Los Angeles CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2550.ts
-#EXTINF:-1 group-title="国外UK2",KCOP-TV MyNetworkTV 13 (FOX 11+) (Los Angeles CA)
+#EXTINF:-1 group-title="美国US2",KCOP-TV MyNetworkTV 13 (FOX 11+) (Los Angeles CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2478.ts
-#EXTINF:-1 group-title="国外UK2",KSWB-TV FOX 5/69 (San Diego CA)
+#EXTINF:-1 group-title="美国US2",KSWB-TV FOX 5/69 (San Diego CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2534.ts
-#EXTINF:-1 group-title="国外UK2",KNSD-TV NBC 7/39 (San Diego CA)
+#EXTINF:-1 group-title="美国US2",KNSD-TV NBC 7/39 (San Diego CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2439.ts
-#EXTINF:-1 group-title="国外UK2",KFMB-TV CBS 8.1 (CBS 8+) (San Diego CA)
+#EXTINF:-1 group-title="美国US2",KFMB-TV CBS 8.1 (CBS 8+) (San Diego CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2623.ts
-#EXTINF:-1 group-title="国外UK2",KFMB-DT CW/MyNetworkTV 8.2 (San Diego CA)
+#EXTINF:-1 group-title="美国US2",KFMB-DT CW/MyNetworkTV 8.2 (San Diego CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/446862.ts
-#EXTINF:-1 group-title="国外UK2",KGTV-TV ABC 10 (San Diego CA)
+#EXTINF:-1 group-title="美国US2",KGTV-TV ABC 10 (San Diego CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2670.ts
-#EXTINF:-1 group-title="国外UK2",KUSI-TV Ind. 51 (San Diego CA)
+#EXTINF:-1 group-title="美国US2",KUSI-TV Ind. 51 (San Diego CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/710371.ts
-#EXTINF:-1 group-title="国外UK2",KESQ-TV ABC 3 (Palm Springs CA)
+#EXTINF:-1 group-title="美国US2",KESQ-TV ABC 3 (Palm Springs CA)
 http://nocable.cc:8080/live/darriusthomas115@gmail.com/darriusthomas115@2025/121235.ts
-#EXTINF:-1 group-title="国外UK2",KDFX-CA FOX 11/33 (Palm Springs CA)
+#EXTINF:-1 group-title="美国US2",KDFX-CA FOX 11/33 (Palm Springs CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/696419.ts
-#EXTINF:-1 group-title="国外UK2",KMIR-TV NBC 36 (Palm Springs CA)
+#EXTINF:-1 group-title="美国US2",KMIR-TV NBC 36 (Palm Springs CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89444.ts
-#EXTINF:-1 group-title="国外UK2",KTVU-TV FOX 2 (San Francisco CA)
+#EXTINF:-1 group-title="美国US2",KTVU-TV FOX 2 (San Francisco CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2533.ts
-#EXTINF:-1 group-title="国外UK2",KRON-TV CW 4 (San Francisco CA)
+#EXTINF:-1 group-title="美国US2",KRON-TV CW 4 (San Francisco CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/597171.ts
-#EXTINF:-1 group-title="国外UK2",KGO-TV ABC 7 (San Francisco CA)
+#EXTINF:-1 group-title="美国US2",KGO-TV ABC 7 (San Francisco CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2669.ts
-#EXTINF:-1 group-title="国外UK2",KNTV-TV NBC 10 (San Francisco CA)
+#EXTINF:-1 group-title="美国US2",KNTV-TV NBC 10 (San Francisco CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2438.ts
-#EXTINF:-1 group-title="国外UK2",KICU-TV MyNetworkTV 36 (FOX 2+) (San Francisco CA)
+#EXTINF:-1 group-title="美国US2",KICU-TV MyNetworkTV 36 (FOX 2+) (San Francisco CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89459.ts
-#EXTINF:-1 group-title="国外UK2",KPYX-TV/KBCW-TV Ind. 44 (KPIX+) (San Francisco CA)
+#EXTINF:-1 group-title="美国US2",KPYX-TV/KBCW-TV Ind. 44 (KPIX+) (San Francisco CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/34433.ts
-#EXTINF:-1 group-title="国外UK2",KCRA-TV NBC 3 (Sacramento CA)
+#EXTINF:-1 group-title="美国US2",KCRA-TV NBC 3 (Sacramento CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2440.ts
-#EXTINF:-1 group-title="国外UK2",KXTV-TV ABC 10 (Sacramento CA)
+#EXTINF:-1 group-title="美国US2",KXTV-TV ABC 10 (Sacramento CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2674.ts
-#EXTINF:-1 group-title="国外UK2",KOVR-TV CBS 13 (Stockton/Sacramento CA)
+#EXTINF:-1 group-title="美国US2",KOVR-TV CBS 13 (Stockton/Sacramento CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2625.ts
-#EXTINF:-1 group-title="国外UK2",KTXL-TV FOX 40 (Sacramento CA)
+#EXTINF:-1 group-title="美国US2",KTXL-TV FOX 40 (Sacramento CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2537.ts
-#EXTINF:-1 group-title="国外UK2",KMAX-TV CW 31 (Sacramento CA)
+#EXTINF:-1 group-title="美国US2",KMAX-TV CW 31 (Sacramento CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89447.ts
-#EXTINF:-1 group-title="国外UK2",KSEE-TV NBC 24 (Fresno CA)
+#EXTINF:-1 group-title="美国US2",KSEE-TV NBC 24 (Fresno CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89432.ts
-#EXTINF:-1 group-title="国外UK2",KMPH-TV FOX 26 (Fresno CA)
+#EXTINF:-1 group-title="美国US2",KMPH-TV FOX 26 (Fresno CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/434317.ts
-#EXTINF:-1 group-title="国外UK2",KFSN-TV ABC 30 (Fresno CA)
+#EXTINF:-1 group-title="美国US2",KFSN-TV ABC 30 (Fresno CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2688.ts
-#EXTINF:-1 group-title="国外UK2",KGPE-TV CBS 47 (Fresno CA)
+#EXTINF:-1 group-title="美国US2",KGPE-TV CBS 47 (Fresno CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89431.ts
-#EXTINF:-1 group-title="国外UK2",WFRE-TV CW 59 (Fresno CA)
+#EXTINF:-1 group-title="美国US2",WFRE-TV CW 59 (Fresno CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/629104.ts
-#EXTINF:-1 group-title="国外UK2",KGET-TV NBC 17 (Bakerfield CA)
+#EXTINF:-1 group-title="美国US2",KGET-TV NBC 17 (Bakerfield CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89427.ts
-#EXTINF:-1 group-title="国外UK2",KERO-TV ABC 23 (Bakerfield CA)
+#EXTINF:-1 group-title="美国US2",KERO-TV ABC 23 (Bakerfield CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/512981.ts
-#EXTINF:-1 group-title="国外UK2",KBAK-TV CBS 29 (Bakerfield CA)
+#EXTINF:-1 group-title="美国US2",KBAK-TV CBS 29 (Bakerfield CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89426.ts
-#EXTINF:-1 group-title="国外UK2",KBFX-CD FOX 58 (Bakerfield CA)
+#EXTINF:-1 group-title="美国US2",KBFX-CD FOX 58 (Bakerfield CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/512982.ts
-#EXTINF:-1 group-title="国外UK2",KEYT-TV ABC 3 (Santa Barbara CA)
+#EXTINF:-1 group-title="美国US2",KEYT-TV ABC 3 (Santa Barbara CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/446727.ts
-#EXTINF:-1 group-title="国外UK2",KION-TV CBS 5/46 (Monterey CA)
+#EXTINF:-1 group-title="美国US2",KION-TV CBS 5/46 (Monterey CA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89441.ts
-#EXTINF:-1 group-title="国外UK2",WCBS-TV CBS 2 (New York NY)
+#EXTINF:-1 group-title="美国US2",WCBS-TV CBS 2 (New York NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89712.ts
-#EXTINF:-1 group-title="国外UK2",WNBC-TV NBC 4 (New York NY)
+#EXTINF:-1 group-title="美国US2",WNBC-TV NBC 4 (New York NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89714.ts
-#EXTINF:-1 group-title="国外UK2",WNYW-TV FOX 5 (New York NY)
+#EXTINF:-1 group-title="美国US2",WNYW-TV FOX 5 (New York NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2544.ts
-#EXTINF:-1 group-title="国外UK2",WABC-TV ABC 7 (New York NY)
+#EXTINF:-1 group-title="美国US2",WABC-TV ABC 7 (New York NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/3606.ts
-#EXTINF:-1 group-title="国外UK2",WWOR-TV MyNetworkTV 9 (FOX 5+) (New York NY)
+#EXTINF:-1 group-title="美国US2",WWOR-TV MyNetworkTV 9 (FOX 5+) (New York NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/597173.ts
-#EXTINF:-1 group-title="国外UK2",WPIX-TV CW 11 (PIX 11+) (New York NY)
+#EXTINF:-1 group-title="美国US2",WPIX-TV CW 11 (PIX 11+) (New York NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/93093.ts
-#EXTINF:-1 group-title="国外UK2",WLNY-TV CBS/Ind. 10/55 (New York NY)
+#EXTINF:-1 group-title="美国US2",WLNY-TV CBS/Ind. 10/55 (New York NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89717.ts
-#EXTINF:-1 group-title="国外UK2",WBBM-TV CBS 2 (Chicago IL)
+#EXTINF:-1 group-title="美国US2",WBBM-TV CBS 2 (Chicago IL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2648.ts
-#EXTINF:-1 group-title="国外UK2",WMAQ-TV NBC 5 (Chicago IL)
+#EXTINF:-1 group-title="美国US2",WMAQ-TV NBC 5 (Chicago IL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2464.ts
-#EXTINF:-1 group-title="国外UK2",WLS-TV ABC 7 (Chicago IL)
+#EXTINF:-1 group-title="美国US2",WLS-TV ABC 7 (Chicago IL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2695.ts
-#EXTINF:-1 group-title="国外UK2",WGN-TV CW 9 (Chicago IL)
+#EXTINF:-1 group-title="美国US2",WGN-TV CW 9 (Chicago IL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/85340.ts
-#EXTINF:-1 group-title="国外UK2",WFLD-TV FOX 32 (Chicago IL)
+#EXTINF:-1 group-title="美国US2",WFLD-TV FOX 32 (Chicago IL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2567.ts
-#EXTINF:-1 group-title="国外UK2",WPWR-TV MyNetworkTV 50 (FOX+) (Chicago IL)
+#EXTINF:-1 group-title="美国US2",WPWR-TV MyNetworkTV 50 (FOX+) (Chicago IL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/92927.ts
-#EXTINF:-1 group-title="国外UK2",WJBK-TV FOX 2 (Detroit MI)
+#EXTINF:-1 group-title="美国US2",WJBK-TV FOX 2 (Detroit MI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2558.ts
-#EXTINF:-1 group-title="国外UK2",WDIV-TV NBC 4 (Detroit MI)
+#EXTINF:-1 group-title="美国US2",WDIV-TV NBC 4 (Detroit MI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2459.ts
-#EXTINF:-1 group-title="国外UK2",WXYZ-TV ABC 7 (Detroit MI)
+#EXTINF:-1 group-title="美国US2",WXYZ-TV ABC 7 (Detroit MI)
 https://fl1.moveonjoy.com/MI_DETROIT_ABC/mpegts
-#EXTINF:-1 group-title="国外UK2",WKBD-TV CW 50 (Detroit MI)
+#EXTINF:-1 group-title="美国US2",WKBD-TV CW 50 (Detroit MI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89623.ts
-#EXTINF:-1 group-title="国外UK2",WWJ-TV CBS 62 (Detroit MI)
+#EXTINF:-1 group-title="美国US2",WWJ-TV CBS 62 (Detroit MI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/88065.ts
-#EXTINF:-1 group-title="国外UK2",WCCO-TV CBS 4 (Minneapolis/St. Paul MN)
+#EXTINF:-1 group-title="美国US2",WCCO-TV CBS 4 (Minneapolis/St. Paul MN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2634.ts
-#EXTINF:-1 group-title="国外UK2",KSTP-TV ABC 5 (Minneapolis/St. Paul MN)
+#EXTINF:-1 group-title="美国US2",KSTP-TV ABC 5 (Minneapolis/St. Paul MN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2673.ts
-#EXTINF:-1 group-title="国外UK2",KMSP-TV FOX 9 (Minneapolis/St. Paul MN)
+#EXTINF:-1 group-title="美国US2",KMSP-TV FOX 9 (Minneapolis/St. Paul MN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2547.ts
-#EXTINF:-1 group-title="国外UK2",KARE-TV NBC 11 (Minneapolis/St. Paul MN)
+#EXTINF:-1 group-title="美国US2",KARE-TV NBC 11 (Minneapolis/St. Paul MN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2450.ts
-#EXTINF:-1 group-title="国外UK2",WUCW-TV CW 23 (Minneapolis/St. Paul MN)
+#EXTINF:-1 group-title="美国US2",WUCW-TV CW 23 (Minneapolis/St. Paul MN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38311.ts
-#EXTINF:-1 group-title="国外UK2",KYW-TV CBS 3 (Philadelphia PA)
+#EXTINF:-1 group-title="美国US2",KYW-TV CBS 3 (Philadelphia PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2629.ts
-#EXTINF:-1 group-title="国外UK2",WPVI-TV ABC 6 (Philadelphia PA)
+#EXTINF:-1 group-title="美国US2",WPVI-TV ABC 6 (Philadelphia PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2678.ts
-#EXTINF:-1 group-title="国外UK2",WCAU-TV NBC 10 (Philadelphia PA)
+#EXTINF:-1 group-title="美国US2",WCAU-TV NBC 10 (Philadelphia PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2445.ts
-#EXTINF:-1 group-title="国外UK2",WHPL-TV CW 17 (Philadelphia PA)
+#EXTINF:-1 group-title="美国US2",WHPL-TV CW 17 (Philadelphia PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/433308.ts
-#EXTINF:-1 group-title="国外UK2",WTXF-TV FOX 29 (Philadelphia PA)
+#EXTINF:-1 group-title="美国US2",WTXF-TV FOX 29 (Philadelphia PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2540.ts
-#EXTINF:-1 group-title="国外UK2",WPSG-TV Ind. Philly 57 (Philadelphia PA)
+#EXTINF:-1 group-title="美国US2",WPSG-TV Ind. Philly 57 (Philadelphia PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/34426.ts
-#EXTINF:-1 group-title="国外UK2",WBZ-TV CBS 4 (Boston MA)
+#EXTINF:-1 group-title="美国US2",WBZ-TV CBS 4 (Boston MA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/88036.ts
-#EXTINF:-1 group-title="国外UK2",WCVB-TV ABC 5 (Boston MA)
+#EXTINF:-1 group-title="美国US2",WCVB-TV ABC 5 (Boston MA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2697.ts
-#EXTINF:-1 group-title="国外UK2",WBTS-LD NBC 10 (Boston MA)
+#EXTINF:-1 group-title="美国US2",WBTS-LD NBC 10 (Boston MA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2467.ts
-#EXTINF:-1 group-title="国外UK2",WFXT-CD FOX 25 (Boston MA)
+#EXTINF:-1 group-title="美国US2",WFXT-CD FOX 25 (Boston MA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2570.ts
-#EXTINF:-1 group-title="国外UK2",WSBK-TV Ind. 38 (Boston MA)
+#EXTINF:-1 group-title="美国US2",WSBK-TV Ind. 38 (Boston MA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/92926.ts
-#EXTINF:-1 group-title="国外UK2",WLVI-TV CW 56 (Boston MA)
+#EXTINF:-1 group-title="美国US2",WLVI-TV CW 56 (Boston MA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/629809.ts
-#EXTINF:-1 group-title="国外UK2",KDKA-TV CBS 2 (Pittsburgh PA)
+#EXTINF:-1 group-title="美国US2",KDKA-TV CBS 2 (Pittsburgh PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2627.ts
-#EXTINF:-1 group-title="国外UK2",WTAE-TV ABC 4 (Pittsburgh PA)
+#EXTINF:-1 group-title="美国US2",WTAE-TV ABC 4 (Pittsburgh PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2676.ts
-#EXTINF:-1 group-title="国外UK2",WPXI-TV NBC 11 (Pittsburgh PA)
+#EXTINF:-1 group-title="美国US2",WPXI-TV NBC 11 (Pittsburgh PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2443.ts
-#EXTINF:-1 group-title="国外UK2",WPCW-TV CW 19 (KDKA+) (Pittsburgh PA)
+#EXTINF:-1 group-title="美国US2",WPCW-TV CW 19 (KDKA+) (Pittsburgh PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/34432.ts
-#EXTINF:-1 group-title="国外UK2",WPGH-CD FOX 53 (Pittsburgh PA)
+#EXTINF:-1 group-title="美国US2",WPGH-CD FOX 53 (Pittsburgh PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2538.ts
-#EXTINF:-1 group-title="国外UK2",WICU-TV NBC 12 (Erie PA)
+#EXTINF:-1 group-title="美国US2",WICU-TV NBC 12 (Erie PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/510266.ts
-#EXTINF:-1 group-title="国外UK2",WJET-TV ABC 24 (Erie PA)
+#EXTINF:-1 group-title="美国US2",WJET-TV ABC 24 (Erie PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/510265.ts
-#EXTINF:-1 group-title="国外UK2",WSEE-TV CBS 35.1 (Erie PA)
+#EXTINF:-1 group-title="美国US2",WSEE-TV CBS 35.1 (Erie PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/510267.ts
-#EXTINF:-1 group-title="国外UK2",WSEE-DT CW 35.2 (Erie PA)
+#EXTINF:-1 group-title="美国US2",WSEE-DT CW 35.2 (Erie PA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/510264.ts
-#EXTINF:-1 group-title="国外UK2",WFXP-CD TV FOX 66 (Hartford CT)
+#EXTINF:-1 group-title="美国US2",WFXP-CD TV FOX 66 (Hartford CT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/510268.ts
-#EXTINF:-1 group-title="国外UK2",WFSB-TV CBS 3 (Hartford CT)
+#EXTINF:-1 group-title="美国US2",WFSB-TV CBS 3 (Hartford CT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/629116.ts
-#EXTINF:-1 group-title="国外UK2",WTNH-TV ABC 8 (Hartford CT)
+#EXTINF:-1 group-title="美国US2",WTNH-TV ABC 8 (Hartford CT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2693.ts
-#EXTINF:-1 group-title="国外UK2",WVIT-TV NBC 30 (Hartford CT)
+#EXTINF:-1 group-title="美国US2",WVIT-TV NBC 30 (Hartford CT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2456.ts
-#EXTINF:-1 group-title="国外UK2",WTIC-CD TV FOX 61 (Hartford CT)
+#EXTINF:-1 group-title="美国US2",WTIC-CD TV FOX 61 (Hartford CT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2556.ts
-#EXTINF:-1 group-title="国外UK2",WFOR-TV CBS 4 (Miami FL)
+#EXTINF:-1 group-title="美国US2",WFOR-TV CBS 4 (Miami FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2636.ts
-#EXTINF:-1 group-title="国外UK2",WTVJ-TV NBC 6 (Miami FL)
+#EXTINF:-1 group-title="美国US2",WTVJ-TV NBC 6 (Miami FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2452.ts
-#EXTINF:-1 group-title="国外UK2",WSVN-TV FOX 7 (Miami FL)
+#EXTINF:-1 group-title="美国US2",WSVN-TV FOX 7 (Miami FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/3641.ts
-#EXTINF:-1 group-title="国外UK2",WPLG-TV ABC 10 (Miami FL)
+#EXTINF:-1 group-title="美国US2",WPLG-TV ABC 10 (Miami FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/3605.ts
-#EXTINF:-1 group-title="国外UK2",WBFS-TV CW/MyNetworkTV 33 (Miami FL)
+#EXTINF:-1 group-title="美国US2",WBFS-TV CW/MyNetworkTV 33 (Miami FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38327.ts
-#EXTINF:-1 group-title="国外UK2",WSFL-TV CW/Ind. 39 (Miami FL)
+#EXTINF:-1 group-title="美国US2",WSFL-TV CW/Ind. 39 (Miami FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/433867.ts
-#EXTINF:-1 group-title="国外UK2",WFLA-TV NBC 8 (Tampa Bay FL)
+#EXTINF:-1 group-title="美国US2",WFLA-TV NBC 8 (Tampa Bay FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/59890.ts
-#EXTINF:-1 group-title="国外UK2",WTVT-TV FOX 13 (Tampa Bay FL)
+#EXTINF:-1 group-title="美国US2",WTVT-TV FOX 13 (Tampa Bay FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2504.ts
-#EXTINF:-1 group-title="国外UK2",WFTS-TV ABC 28 (Tampa Bay FL)
+#EXTINF:-1 group-title="美国US2",WFTS-TV ABC 28 (Tampa Bay FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2666.ts
-#EXTINF:-1 group-title="国外UK2",WTOG-TV Ind. 44 (Tampa Bay FL)
+#EXTINF:-1 group-title="美国US2",WTOG-TV Ind. 44 (Tampa Bay FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89505.ts
-#EXTINF:-1 group-title="国外UK2",WESH-TV NBC 2 (Orlando FL)
+#EXTINF:-1 group-title="美国US2",WESH-TV NBC 2 (Orlando FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89484.ts
-#EXTINF:-1 group-title="国外UK2",WKMG-TV CBS 6 (Orlando FL)
+#EXTINF:-1 group-title="美国US2",WKMG-TV CBS 6 (Orlando FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2630.ts
-#EXTINF:-1 group-title="国外UK2",WFTV-TV ABC 9 (Orlando FL)
+#EXTINF:-1 group-title="美国US2",WFTV-TV ABC 9 (Orlando FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2679.ts
-#EXTINF:-1 group-title="国外UK2",WKCF-TV CW 18 (Orlando FL)
+#EXTINF:-1 group-title="美国US2",WKCF-TV CW 18 (Orlando FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/333488.ts
-#EXTINF:-1 group-title="国外UK2",WOFL-TV FOX 35 (Orlando FL)
+#EXTINF:-1 group-title="美国US2",WOFL-TV FOX 35 (Orlando FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2541.ts
-#EXTINF:-1 group-title="国外UK2",WACX-TV 55.1 SuperChannel Orlando (Orlando FL)
+#EXTINF:-1 group-title="美国US2",WACX-TV 55.1 SuperChannel Orlando (Orlando FL)
 https://632c1f303ef2e.streamlock.net/live/live/playlist.m3u8
-#EXTINF:-1 group-title="国外UK2",WRBW-TV MyNetworkTV 65 (FOX 35+) (Orlando FL)
+#EXTINF:-1 group-title="美国US2",WRBW-TV MyNetworkTV 65 (FOX 35+) (Orlando FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/383407.ts
-#EXTINF:-1 group-title="国外UK2",WNBW-DT NBC 9 (Gainsville FL)
+#EXTINF:-1 group-title="美国US2",WNBW-DT NBC 9 (Gainsville FL)
 https://fl1.moveonjoy.com/FL_Gainesville_NBC/mpegts
-#EXTINF:-1 group-title="国外UK2",WCJB-TV ABC 20 (Gainsville FL)
+#EXTINF:-1 group-title="美国US2",WCJB-TV ABC 20 (Gainsville FL)
 https://fl1.moveonjoy.com/FL_GAINESVILLE_ABC/mpegts
-#EXTINF:-1 group-title="国外UK2",WOGX-TV FOX 51 (Ocala/Gainsville FL)
+#EXTINF:-1 group-title="美国US2",WOGX-TV FOX 51 (Ocala/Gainsville FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89499.ts
-#EXTINF:-1 group-title="国外UK2",WWSB-TV ABC 7 (Sarasota FL)
+#EXTINF:-1 group-title="美国US2",WWSB-TV ABC 7 (Sarasota FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/112252.ts
-#EXTINF:-1 group-title="国外UK2",KOB-TV NBC 4 (Albuquerque NM)
+#EXTINF:-1 group-title="美国US2",KOB-TV NBC 4 (Albuquerque NM)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/77964.ts
-#EXTINF:-1 group-title="国外UK2",KOAT-TV ABC 7 (Albuquerque NM)
+#EXTINF:-1 group-title="美国US2",KOAT-TV ABC 7 (Albuquerque NM)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38302.ts
-#EXTINF:-1 group-title="国外UK2",KRQE-TV CBS 13.1 (Albuquerque NM)
+#EXTINF:-1 group-title="美国US2",KRQE-TV CBS 13.1 (Albuquerque NM)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/77965.ts
-#EXTINF:-1 group-title="国外UK2",KRQE-TV FOX 13.2 (Albuquerque NM)
+#EXTINF:-1 group-title="美国US2",KRQE-TV FOX 13.2 (Albuquerque NM)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89695.ts
-#EXTINF:-1 group-title="国外UK2",KDBC-TV CBS 4 (El Paso TX)
+#EXTINF:-1 group-title="美国US2",KDBC-TV CBS 4 (El Paso TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89826.ts
-#EXTINF:-1 group-title="国外UK2",KVIA-TV ABC 7 (El Paso TX)
+#EXTINF:-1 group-title="美国US2",KVIA-TV ABC 7 (El Paso TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38309.ts
-#EXTINF:-1 group-title="国外UK2",KTSM-TV NBC 9 (El Paso TX)
+#EXTINF:-1 group-title="美国US2",KTSM-TV NBC 9 (El Paso TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89827.ts
-#EXTINF:-1 group-title="国外UK2",KFOX-TV FOX 14 (El Paso TX)
+#EXTINF:-1 group-title="美国US2",KFOX-TV FOX 14 (El Paso TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/566739.ts
-#EXTINF:-1 group-title="国外UK2",KIII-TV ABC 3 (Corpus Christi TX)
+#EXTINF:-1 group-title="美国US2",KIII-TV ABC 3 (Corpus Christi TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/721023.ts
-#EXTINF:-1 group-title="国外UK2",KRIS-TV NBC 6 (Corpus Christi TX)
+#EXTINF:-1 group-title="美国US2",KRIS-TV NBC 6 (Corpus Christi TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89823.ts
-#EXTINF:-1 group-title="国外UK2",KZTV-TV CBS 10 (Corpus Christi TX)
+#EXTINF:-1 group-title="美国US2",KZTV-TV CBS 10 (Corpus Christi TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89822.ts
-#EXTINF:-1 group-title="国外UK2",KCBD-TV NBC 11 (Lubbock TX)
+#EXTINF:-1 group-title="美国US2",KCBD-TV NBC 11 (Lubbock TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38305.ts
-#EXTINF:-1 group-title="国外UK2",KLBK-TV CBS 13 (Lubbock TX)
+#EXTINF:-1 group-title="美国US2",KLBK-TV CBS 13 (Lubbock TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38304.ts
-#EXTINF:-1 group-title="国外UK2",KAMC-TV ABC 28 (Lubbock TX)
+#EXTINF:-1 group-title="美国US2",KAMC-TV ABC 28 (Lubbock TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38303.ts
-#EXTINF:-1 group-title="国外UK2",KJTV-TV FOX 34 (Lubbock TX)
+#EXTINF:-1 group-title="美国US2",KJTV-TV FOX 34 (Lubbock TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89843.ts
-#EXTINF:-1 group-title="国外UK2",KCWX-TV MyNetworkTV 2 (San Antonio TX)
+#EXTINF:-1 group-title="美国US2",KCWX-TV MyNetworkTV 2 (San Antonio TX)
 http://65.36.6.216:1935/live/kcwx.smil/playlist.m3u8
-#EXTINF:-1 group-title="国外UK2",WOAI-TV NBC 4.1 (San Antonio TX)
+#EXTINF:-1 group-title="美国US2",WOAI-TV NBC 4.1 (San Antonio TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89853.ts
-#EXTINF:-1 group-title="国外UK2",KENS-TV CBS 5 (San Antonio TX)
+#EXTINF:-1 group-title="美国US2",KENS-TV CBS 5 (San Antonio TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2624.ts
-#EXTINF:-1 group-title="国外UK2",KSAT-TV ABC 12 (San Antonio TX)
+#EXTINF:-1 group-title="美国US2",KSAT-TV ABC 12 (San Antonio TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2671.ts
-#EXTINF:-1 group-title="国外UK2",KABB-TV FOX 29 (San Antonio TX)
+#EXTINF:-1 group-title="美国US2",KABB-TV FOX 29 (San Antonio TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2535.ts
-#EXTINF:-1 group-title="国外UK2",KMYS-TV CW 35 & WOAI-DT 4.2 (San Antonio TX)
+#EXTINF:-1 group-title="美国US2",KMYS-TV CW 35 & WOAI-DT 4.2 (San Antonio TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/629971.ts
-#EXTINF:-1 group-title="国外UK2",KDFW-TV FOX 4 (Ft. Worth/Dallas TX)
+#EXTINF:-1 group-title="美国US2",KDFW-TV FOX 4 (Ft. Worth/Dallas TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89824.ts
-#EXTINF:-1 group-title="国外UK2",KXAS-TV NBC 5 (Ft. Worth/Dallas TX)
+#EXTINF:-1 group-title="美国US2",KXAS-TV NBC 5 (Ft. Worth/Dallas TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2461.ts
-#EXTINF:-1 group-title="国外UK2",WFAA-TV ABC 8 (Ft. Worth/Dallas TX)
+#EXTINF:-1 group-title="美国US2",WFAA-TV ABC 8 (Ft. Worth/Dallas TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2692.ts
-#EXTINF:-1 group-title="国外UK2",KTVT-TV CBS 11 (Ft. Worth/Dallas TX)
+#EXTINF:-1 group-title="美国US2",KTVT-TV CBS 11 (Ft. Worth/Dallas TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2645.ts
-#EXTINF:-1 group-title="国外UK2",KTXA-TV Ind. 21 (Ft. Worth/Dallas TX)
+#EXTINF:-1 group-title="美国US2",KTXA-TV Ind. 21 (Ft. Worth/Dallas TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38295.ts
-#EXTINF:-1 group-title="国外UK2",KDFI-TV MyNetworkTV/FOX 27 (More27) (Ft. Worth/Dallas TX)
+#EXTINF:-1 group-title="美国US2",KDFI-TV MyNetworkTV/FOX 27 (More27) (Ft. Worth/Dallas TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/597158.ts
-#EXTINF:-1 group-title="国外UK2",KDAFF-TV CW 39 (Ft. Worth/Dallas TX)
+#EXTINF:-1 group-title="美国US2",KDAFF-TV CW 39 (Ft. Worth/Dallas TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/597161.ts
-#EXTINF:-1 group-title="国外UK2",KPRC-TV NBC 2 (Houston TX)
+#EXTINF:-1 group-title="美国US2",KPRC-TV NBC 2 (Houston TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2455.ts
-#EXTINF:-1 group-title="国外UK2",KHOU-TV CBS 8 (Houston TX)
+#EXTINF:-1 group-title="美国US2",KHOU-TV CBS 8 (Houston TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2640.ts
-#EXTINF:-1 group-title="国外UK2",KTRK-TV ABC 13 (Houston TX)
+#EXTINF:-1 group-title="美国US2",KTRK-TV ABC 13 (Houston TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2687.ts
-#EXTINF:-1 group-title="国外UK2",KTXH-TV MyNetworkTV 20 (My20 Vision) (Houston TX)
+#EXTINF:-1 group-title="美国US2",KTXH-TV MyNetworkTV 20 (My20 Vision) (Houston TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/50091.ts
-#EXTINF:-1 group-title="国外UK2",KRIV-TV FOX 26 (Houston TX)
+#EXTINF:-1 group-title="美国US2",KRIV-TV FOX 26 (Houston TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89836.ts
-#EXTINF:-1 group-title="国外UK2",KIAH-TV CW 39 (Houston TX)
+#EXTINF:-1 group-title="美国US2",KIAH-TV CW 39 (Houston TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/643838.ts
-#EXTINF:-1 group-title="国外UK2",KTBC-TV FOX 7 (Austin TX)
+#EXTINF:-1 group-title="美国US2",KTBC-TV FOX 7 (Austin TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38241.ts
-#EXTINF:-1 group-title="国外UK2",KVUE-TV ABC 24 (Austin TX)
+#EXTINF:-1 group-title="美国US2",KVUE-TV ABC 24 (Austin TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38241.ts
-#EXTINF:-1 group-title="国外UK2",KXAN-TV NBC 36 (Austin TX)
+#EXTINF:-1 group-title="美国US2",KXAN-TV NBC 36 (Austin TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/85342.ts
-#EXTINF:-1 group-title="国外UK2",KEYE-TV CBS 42 (Austin TX)
+#EXTINF:-1 group-title="美国US2",KEYE-TV CBS 42 (Austin TX)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/85343.ts
-#EXTINF:-1 group-title="国外UK2",WWL-TV CBS 4 (New Orleans LA)
+#EXTINF:-1 group-title="美国US2",WWL-TV CBS 4 (New Orleans LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2632.ts
-#EXTINF:-1 group-title="国外UK2",WDSU-TV NBC 6 (New Orleans LA)
+#EXTINF:-1 group-title="美国US2",WDSU-TV NBC 6 (New Orleans LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2448.ts
-#EXTINF:-1 group-title="国外UK2",WVUE-TV FOX 8 (New Orleans LA)
+#EXTINF:-1 group-title="美国US2",WVUE-TV FOX 8 (New Orleans LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2545.ts
-#EXTINF:-1 group-title="国外UK2",WGNO-TV ABC 26 (New Orleans LA)
+#EXTINF:-1 group-title="美国US2",WGNO-TV ABC 26 (New Orleans LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/510034.ts
-#EXTINF:-1 group-title="国外UK2",WBRZ-TV ABC 2 (Baton Rouge LA)
+#EXTINF:-1 group-title="美国US2",WBRZ-TV ABC 2 (Baton Rouge LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38252.ts
-#EXTINF:-1 group-title="国外UK2",WAFB-TV CBS 9 (Baton Rouge LA)
+#EXTINF:-1 group-title="美国US2",WAFB-TV CBS 9 (Baton Rouge LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38253.ts
-#EXTINF:-1 group-title="国外UK2",WVLA-TV NBC 33 (Baton Rouge LA)
+#EXTINF:-1 group-title="美国US2",WVLA-TV NBC 33 (Baton Rouge LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89590.ts
-#EXTINF:-1 group-title="国外UK2",WGMB-TV FOX 44 (Baton Rouge LA)
+#EXTINF:-1 group-title="美国US2",WGMB-TV FOX 44 (Baton Rouge LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89589.ts
-#EXTINF:-1 group-title="国外UK2",KTBS-TV ABC 3 (Shreveport LA)
+#EXTINF:-1 group-title="美国US2",KTBS-TV ABC 3 (Shreveport LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38325.ts
-#EXTINF:-1 group-title="国外UK2",KTAL-TV NBC 6 (Shreveport LA)
+#EXTINF:-1 group-title="美国US2",KTAL-TV NBC 6 (Shreveport LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89602.ts
-#EXTINF:-1 group-title="国外UK2",KSLA-TV CBS 12 (Shreveport LA)
+#EXTINF:-1 group-title="美国US2",KSLA-TV CBS 12 (Shreveport LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89600.ts
-#EXTINF:-1 group-title="国外UK2",KMSS-TV FOX 33 (Shreveport LA)
+#EXTINF:-1 group-title="美国US2",KMSS-TV FOX 33 (Shreveport LA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89601.ts
-#EXTINF:-1 group-title="国外UK2",KTVK-TV 3TV CBS/Ind. 3 (Phoenix AZ)
+#EXTINF:-1 group-title="美国US2",KTVK-TV 3TV CBS/Ind. 3 (Phoenix AZ)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38298.ts
-#EXTINF:-1 group-title="国外UK2",KPHO-TV CBS 5 (Phoenix AZ)
+#EXTINF:-1 group-title="美国US2",KPHO-TV CBS 5 (Phoenix AZ)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2628.ts
-#EXTINF:-1 group-title="国外UK2",KSAZ-TV FOX 10.1 (Phoenix AZ)
+#EXTINF:-1 group-title="美国US2",KSAZ-TV FOX 10.1 (Phoenix AZ)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2539.ts
-#EXTINF:-1 group-title="国外UK2",KSAZ-DT FOX Xtra 10.2/KUTP-TV MyNetworkTV 45 (Phoenix AZ)
+#EXTINF:-1 group-title="美国US2",KSAZ-DT FOX Xtra 10.2/KUTP-TV MyNetworkTV 45 (Phoenix AZ)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/600290.ts
-#EXTINF:-1 group-title="国外UK2",KPNX-TV NBC 12 (Phoenix AZ)
+#EXTINF:-1 group-title="美国US2",KPNX-TV NBC 12 (Phoenix AZ)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2444.ts
-#EXTINF:-1 group-title="国外UK2",KNXV-TV ABC 15 (Phoenix AZ)
+#EXTINF:-1 group-title="美国US2",KNXV-TV ABC 15 (Phoenix AZ)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2677.ts
-#EXTINF:-1 group-title="国外UK2",KVOA-TV NBC 4 (Tucson AZ)
+#EXTINF:-1 group-title="美国US2",KVOA-TV NBC 4 (Tucson AZ)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89422.ts
-#EXTINF:-1 group-title="国外UK2",KGUN-TV ABC 9 (Tucson AZ)
+#EXTINF:-1 group-title="美国US2",KGUN-TV ABC 9 (Tucson AZ)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/600301.ts
-#EXTINF:-1 group-title="国外UK2",KMSB-TV FOX 11 (Tucson AZ)
+#EXTINF:-1 group-title="美国US2",KMSB-TV FOX 11 (Tucson AZ)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89421.ts
-#EXTINF:-1 group-title="国外UK2",KOLD-TV CBS 13 (Tucson AZ)
+#EXTINF:-1 group-title="美国US2",KOLD-TV CBS 13 (Tucson AZ)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89420.ts
-#EXTINF:-1 group-title="国外UK2",KSNV-TV NBC 3 (Las Vegas NV)
+#EXTINF:-1 group-title="美国US2",KSNV-TV NBC 3 (Las Vegas NV)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38257.ts
-#EXTINF:-1 group-title="国外UK2",KVVU-TV FOX 5 (Las Vegas NV)
+#EXTINF:-1 group-title="美国US2",KVVU-TV FOX 5 (Las Vegas NV)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89699.ts
-#EXTINF:-1 group-title="国外UK2",KLAS-TV CBS 8 (Las Vegas NV)
+#EXTINF:-1 group-title="美国US2",KLAS-TV CBS 8 (Las Vegas NV)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89700.ts
-#EXTINF:-1 group-title="国外UK2",KTNV-TV ABC 13 (Las Vegas NV)
+#EXTINF:-1 group-title="美国US2",KTNV-TV ABC 13 (Las Vegas NV)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38255.ts
-#EXTINF:-1 group-title="国外UK2",KVCW-TV CW 33 (Las Vegas NV)
+#EXTINF:-1 group-title="美国US2",KVCW-TV CW 33 (Las Vegas NV)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/34441.ts
-#EXTINF:-1 group-title="国外UK2",WJXT-TV 4 Ind. (Jacksonville FL)
+#EXTINF:-1 group-title="美国US2",WJXT-TV 4 Ind. (Jacksonville FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/607668.ts
-#EXTINF:-1 group-title="国外UK2",WTLV-TV NBC 12 (Jacksonville FL)
+#EXTINF:-1 group-title="美国US2",WTLV-TV NBC 12 (Jacksonville FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2454.ts
-#EXTINF:-1 group-title="国外UK2",WCWJ-TV CW 17 (Jacksonville FL)
+#EXTINF:-1 group-title="美国US2",WCWJ-TV CW 17 (Jacksonville FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/607669.ts
-#EXTINF:-1 group-title="国外UK2",WJXX-TV ABC 25 (Jacksonville FL)
+#EXTINF:-1 group-title="美国US2",WJXX-TV ABC 25 (Jacksonville FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38245.ts
-#EXTINF:-1 group-title="国外UK2",WFOX-TV FOX 30 (Jacksonville FL)
+#EXTINF:-1 group-title="美国US2",WFOX-TV FOX 30 (Jacksonville FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89491.ts
-#EXTINF:-1 group-title="国外UK2",WJAX-TV CBS 47 (Jacksonville FL)
+#EXTINF:-1 group-title="美国US2",WJAX-TV CBS 47 (Jacksonville FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89490.ts
-#EXTINF:-1 group-title="国外UK2",WPTV-TV NBC 5 (West Palm Beach FL)
+#EXTINF:-1 group-title="美国US2",WPTV-TV NBC 5 (West Palm Beach FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89512.ts
-#EXTINF:-1 group-title="国外UK2",WPEC-TV CBS 12 (West Palm Beach FL)
+#EXTINF:-1 group-title="美国US2",WPEC-TV CBS 12 (West Palm Beach FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89510.ts
-#EXTINF:-1 group-title="国外UK2",WPBF-TV ABC 25 (West Palm Beach FL)
+#EXTINF:-1 group-title="美国US2",WPBF-TV ABC 25 (West Palm Beach FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/672344.ts
-#EXTINF:-1 group-title="国外UK2",WFLX-TV FOX 29 (West Palm Beach FL)
+#EXTINF:-1 group-title="美国US2",WFLX-TV FOX 29 (West Palm Beach FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89511.ts
-#EXTINF:-1 group-title="国外UK2",WTVX-TV CW 34 (West Palm Beach FL)
+#EXTINF:-1 group-title="美国US2",WTVX-TV CW 34 (West Palm Beach FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/630216.ts
-#EXTINF:-1 group-title="国外UK2",WFTX-TV FOX 4 (Naples FL)
+#EXTINF:-1 group-title="美国US2",WFTX-TV FOX 4 (Naples FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89482.ts
-#EXTINF:-1 group-title="国外UK2",WZVN-TV ABC 7 (Naples FL)
+#EXTINF:-1 group-title="美国US2",WZVN-TV ABC 7 (Naples FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38258.ts
-#EXTINF:-1 group-title="国外UK2",WINK-TV CBS 11 (Naples FL)
+#EXTINF:-1 group-title="美国US2",WINK-TV CBS 11 (Naples FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89486.ts
-#EXTINF:-1 group-title="国外UK2",WBBH-TV NBC 20 (Naples FL)
+#EXTINF:-1 group-title="美国US2",WBBH-TV NBC 20 (Naples FL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89487.ts
-#EXTINF:-1 group-title="国外UK2",KARK-TV NBC 4 (Litlle Rock AR)
+#EXTINF:-1 group-title="美国US2",KARK-TV NBC 4 (Litlle Rock AR)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89411.ts
-#EXTINF:-1 group-title="国外UK2",KATV-TV ABC 7 (Litlle Rock AR)
+#EXTINF:-1 group-title="美国US2",KATV-TV ABC 7 (Litlle Rock AR)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/525686.ts
-#EXTINF:-1 group-title="国外UK2",KTHV-TV CBS 11 (Litlle Rock AR)
+#EXTINF:-1 group-title="美国US2",KTHV-TV CBS 11 (Litlle Rock AR)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89409.ts
-#EXTINF:-1 group-title="国外UK2",KLRT-TV FOX 16 (Litlle Rock AR)
+#EXTINF:-1 group-title="美国US2",KLRT-TV FOX 16 (Litlle Rock AR)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89410.ts
-#EXTINF:-1 group-title="国外UK2",WBRC-TV FOX 6 (Birmingham AL)
+#EXTINF:-1 group-title="美国US2",WBRC-TV FOX 6 (Birmingham AL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/75346.ts
-#EXTINF:-1 group-title="国外UK2",WVTM-TV NBC 13 (Birmingham AL)
+#EXTINF:-1 group-title="美国US2",WVTM-TV NBC 13 (Birmingham AL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/75348.ts
-#EXTINF:-1 group-title="国外UK2",WIAT-TV CBS 42 (Birmingham AL)
+#EXTINF:-1 group-title="美国US2",WIAT-TV CBS 42 (Birmingham AL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/75347.ts
-#EXTINF:-1 group-title="国外UK2",WABM-TV ABC 68 (Birmingham AL)
+#EXTINF:-1 group-title="美国US2",WABM-TV ABC 68 (Birmingham AL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38263.ts
-#EXTINF:-1 group-title="国外UK2",WHNT-TV CBS 19 (Huntsville AL)
+#EXTINF:-1 group-title="美国US2",WHNT-TV CBS 19 (Huntsville AL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/75356.ts
-#EXTINF:-1 group-title="国外UK2",WAAY-TV ABC 31 (Huntsville AL)
+#EXTINF:-1 group-title="美国US2",WAAY-TV ABC 31 (Huntsville AL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38262.ts
-#EXTINF:-1 group-title="国外UK2",WAFF-TV NBC 48 (Huntsville AL)
+#EXTINF:-1 group-title="美国US2",WAFF-TV NBC 48 (Huntsville AL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/75355.ts
-#EXTINF:-1 group-title="国外UK2",WZDX-TV FOX 54 (Huntsville AL)
+#EXTINF:-1 group-title="美国US2",WZDX-TV FOX 54 (Huntsville AL)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/75354.ts
-#EXTINF:-1 group-title="国外UK2",KTVI-TV FOX 2 (St. Louis MO)
+#EXTINF:-1 group-title="美国US2",KTVI-TV FOX 2 (St. Louis MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2505.ts
-#EXTINF:-1 group-title="国外UK2",KMOV-TV CBS 4 (St. Louis MO)
+#EXTINF:-1 group-title="美国US2",KMOV-TV CBS 4 (St. Louis MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2619.ts
-#EXTINF:-1 group-title="国外UK2",KSDK-TV NBC 5 (St. Louis MO)
+#EXTINF:-1 group-title="美国US2",KSDK-TV NBC 5 (St. Louis MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2430.ts
-#EXTINF:-1 group-title="国外UK2",KPLR-TV CW 11 (St. Louis MO)
+#EXTINF:-1 group-title="美国US2",KPLR-TV CW 11 (St. Louis MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/597163.ts
-#EXTINF:-1 group-title="国外UK2",KDNL-TV ABC 30 (St. Louis MO)
+#EXTINF:-1 group-title="美国US2",KDNL-TV ABC 30 (St. Louis MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2667.ts
-#EXTINF:-1 group-title="国外UK2",KOMU-TV NBC 8.1 (Jefferson City MO)
+#EXTINF:-1 group-title="美国US2",KOMU-TV NBC 8.1 (Jefferson City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38274.ts
-#EXTINF:-1 group-title="国外UK2",KOMU-DT CW+ 8.3 (Jefferson City MO)
+#EXTINF:-1 group-title="美国US2",KOMU-DT CW+ 8.3 (Jefferson City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/629880.ts
-#EXTINF:-1 group-title="国外UK2",KRCG-TV CBS 13 (Jefferson City MO)
+#EXTINF:-1 group-title="美国US2",KRCG-TV CBS 13 (Jefferson City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38272.ts
-#EXTINF:-1 group-title="国外UK2",KMIZ-TV ABC 17.1 (Jefferson City MO)
+#EXTINF:-1 group-title="美国US2",KMIZ-TV ABC 17.1 (Jefferson City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38271.ts
-#EXTINF:-1 group-title="国外UK2",KMIZ-DT MyNetworkTV 17.3 (Jefferson City MO)
+#EXTINF:-1 group-title="美国US2",KMIZ-DT MyNetworkTV 17.3 (Jefferson City MO)
 http://cvtv.cvalley.net/hls/KZOUMYZOU/KZOUMYZOU.m3u8
-#EXTINF:-1 group-title="国外UK2",KQFX-TV FOX 22 (Jefferson City MO)
+#EXTINF:-1 group-title="美国US2",KQFX-TV FOX 22 (Jefferson City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38273.ts
-#EXTINF:-1 group-title="国外UK2",KCTV-TV CBS 5 (Kansas City MO)
+#EXTINF:-1 group-title="美国US2",KCTV-TV CBS 5 (Kansas City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2638.ts
-#EXTINF:-1 group-title="国外UK2",KMBC-TV ABC 9 (Kansas City MO)
+#EXTINF:-1 group-title="美国US2",KMBC-TV ABC 9 (Kansas City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2685.ts
-#EXTINF:-1 group-title="国外UK2",WDAF-TV FOX 4 (Kansas City MO)
+#EXTINF:-1 group-title="美国US2",WDAF-TV FOX 4 (Kansas City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2552.ts
-#EXTINF:-1 group-title="国外UK2",KCWE-TV CW 29 (Kansas City MO)
+#EXTINF:-1 group-title="美国US2",KCWE-TV CW 29 (Kansas City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/629896.ts
-#EXTINF:-1 group-title="国外UK2",KSHB-TV NBC 41 (Kansas City MO)
+#EXTINF:-1 group-title="美国US2",KSHB-TV NBC 41 (Kansas City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89644.ts
-#EXTINF:-1 group-title="国外UK2",KMCI-TV Ind./NBC 38 (Kansas City MO)
+#EXTINF:-1 group-title="美国US2",KMCI-TV Ind./NBC 38 (Kansas City MO)
 http://cvtv.cvalley.net/hls/KMCIIND/KMCIIND.m3u8
-#EXTINF:-1 group-title="国外UK2",KSMO-TV MyNetworkTV 62 (Kansas City MO)
+#EXTINF:-1 group-title="美国US2",KSMO-TV MyNetworkTV 62 (Kansas City MO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38288.ts
-#EXTINF:-1 group-title="国外UK2",WREG-TV CBS 3 (Memphis TN)
+#EXTINF:-1 group-title="美国US2",WREG-TV CBS 3 (Memphis TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/81884.ts
-#EXTINF:-1 group-title="国外UK2",WMC-TV NBC 5 (Memphis TN)
+#EXTINF:-1 group-title="美国US2",WMC-TV NBC 5 (Memphis TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/81883.ts
-#EXTINF:-1 group-title="国外UK2",WHBQ-TV FOX 13 (Memphis TN)
+#EXTINF:-1 group-title="美国US2",WHBQ-TV FOX 13 (Memphis TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/81882.ts
-#EXTINF:-1 group-title="国外UK2",WYPL-TV 18 (Memphis TN)
+#EXTINF:-1 group-title="美国US2",WYPL-TV 18 (Memphis TN)
 https://reflect-memphis.cablecast.tv/live-2/live/live.m3u8
-#EXTINF:-1 group-title="国外UK2",WATN-TV ABC 24 (Memphis TN)
+#EXTINF:-1 group-title="美国US2",WATN-TV ABC 24 (Memphis TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38251.ts
-#EXTINF:-1 group-title="国外UK2",WKRN-TV ABC 2 (Nashville TN)
+#EXTINF:-1 group-title="美国US2",WKRN-TV ABC 2 (Nashville TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2681.ts
-#EXTINF:-1 group-title="国外UK2",WSMV-TV NBC 4 (Nashville TN)
+#EXTINF:-1 group-title="美国US2",WSMV-TV NBC 4 (Nashville TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2449.ts
-#EXTINF:-1 group-title="国外UK2",WTVF-TV CBS 5 (Nashville TN)
+#EXTINF:-1 group-title="美国US2",WTVF-TV CBS 5 (Nashville TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2633.ts
-#EXTINF:-1 group-title="国外UK2",WZTV-TV FOX 17.1 (Nashville TN)
+#EXTINF:-1 group-title="美国US2",WZTV-TV FOX 17.1 (Nashville TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2546.ts
-#EXTINF:-1 group-title="国外UK2",WUXP-TV MyNetworkTV 30 (Nashville TN)
+#EXTINF:-1 group-title="美国US2",WUXP-TV MyNetworkTV 30 (Nashville TN)
 http://kstv.us:8080/live/N427DpynGE/7049166651/49093.ts
-#EXTINF:-1 group-title="国外UK2",WNAB-TV CW 58 (Nashville TN)
+#EXTINF:-1 group-title="美国US2",WNAB-TV CW 58 (Nashville TN)
 http://kstv.us:8080/live/N427DpynGE/7049166651/49091.ts
-#EXTINF:-1 group-title="国外UK2",WATE-TV ABC 6 (Knoxville TN)
+#EXTINF:-1 group-title="美国US2",WATE-TV ABC 6 (Knoxville TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/620009.ts
-#EXTINF:-1 group-title="国外UK2",WVLT-TV CBS 8 (Knoxville TN)
+#EXTINF:-1 group-title="美国US2",WVLT-TV CBS 8 (Knoxville TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89802.ts
-#EXTINF:-1 group-title="国外UK2",WBIR-TV NBC 10 (Knoxville TN)
+#EXTINF:-1 group-title="美国US2",WBIR-TV NBC 10 (Knoxville TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89804.ts
-#EXTINF:-1 group-title="国外UK2",WTNZ-TV FOX 43 (Knoxville TN)
+#EXTINF:-1 group-title="美国US2",WTNZ-TV FOX 43 (Knoxville TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89803.ts
-#EXTINF:-1 group-title="国外UK2",WRCB-TV NBC 3 (Chattanooga TN)
+#EXTINF:-1 group-title="美国US2",WRCB-TV NBC 3 (Chattanooga TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/74688.ts
-#EXTINF:-1 group-title="国外UK2",WTVC-TV ABC 9.1 (Chattanooga TN)
+#EXTINF:-1 group-title="美国US2",WTVC-TV ABC 9.1 (Chattanooga TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/74690.ts
-#EXTINF:-1 group-title="国外UK2",WTVC-DT FOX 9.2 (Chattanooga TN)
+#EXTINF:-1 group-title="美国US2",WTVC-DT FOX 9.2 (Chattanooga TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/74689.ts
-#EXTINF:-1 group-title="国外UK2",WDEF-TV CBS 12 (Chattanooga TN)
+#EXTINF:-1 group-title="美国US2",WDEF-TV CBS 12 (Chattanooga TN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89799.ts
-#EXTINF:-1 group-title="国外UK2",WSB-TV ABC 2 (Atlanta GA)
+#EXTINF:-1 group-title="美国US2",WSB-TV ABC 2 (Atlanta GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2699.ts
-#EXTINF:-1 group-title="国外UK2",WAGA-TV FOX 5 (Atlanta GA)
+#EXTINF:-1 group-title="美国US2",WAGA-TV FOX 5 (Atlanta GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2574.ts
-#EXTINF:-1 group-title="国外UK2",WXIA-TV NBC 11 (Atlanta GA)
+#EXTINF:-1 group-title="美国US2",WXIA-TV NBC 11 (Atlanta GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2469.ts
-#EXTINF:-1 group-title="国外UK2",WPCH-TV Peachtree TV CW 17 (Atlanta GA)
+#EXTINF:-1 group-title="美国US2",WPCH-TV Peachtree TV CW 17 (Atlanta GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38244.ts
-#EXTINF:-1 group-title="国外UK2",WUPA-TV CBS 69 (Atlanta GA)
+#EXTINF:-1 group-title="美国US2",WUPA-TV CBS 69 (Atlanta GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/34430.ts
-#EXTINF:-1 group-title="国外UK2",WJBF-TV ABC 6 (Augusta GA)
+#EXTINF:-1 group-title="美国US2",WJBF-TV ABC 6 (Augusta GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38284.ts
-#EXTINF:-1 group-title="国外UK2",WRDW-DT CBS 12 (Augusta GA)
+#EXTINF:-1 group-title="美国US2",WRDW-DT CBS 12 (Augusta GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89519.ts
-#EXTINF:-1 group-title="国外UK2",WAGT-TV NBC 26 (Augusta GA)
+#EXTINF:-1 group-title="美国US2",WAGT-TV NBC 26 (Augusta GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89521.ts
-#EXTINF:-1 group-title="国外UK2",WFXG-TV FOX 54 (Augusta GA)
+#EXTINF:-1 group-title="美国US2",WFXG-TV FOX 54 (Augusta GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89520.ts
-#EXTINF:-1 group-title="国外UK2",WRBL-DT CBS 3 (Columbus GA)
+#EXTINF:-1 group-title="美国US2",WRBL-DT CBS 3 (Columbus GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/640216.ts
-#EXTINF:-1 group-title="国外UK2",WTVM-TV ABC 9 (Columbus GA)
+#EXTINF:-1 group-title="美国US2",WTVM-TV ABC 9 (Columbus GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/600289.ts
-#EXTINF:-1 group-title="国外UK2",WLTZ-TV NBC 38 (Columbus GA)
+#EXTINF:-1 group-title="美国US2",WLTZ-TV NBC 38 (Columbus GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89523.ts
-#EXTINF:-1 group-title="国外UK2",WTVX-TV FOX 54 (Columbus GA)
+#EXTINF:-1 group-title="美国US2",WTVX-TV FOX 54 (Columbus GA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/630216.ts
-#EXTINF:-1 group-title="国外UK2",WBTV-TV CBS 3 (Charlotte NC)
+#EXTINF:-1 group-title="美国US2",WBTV-TV CBS 3 (Charlotte NC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2649.ts
-#EXTINF:-1 group-title="国外UK2",WSOC-TV ABC 9 (Charlotte NC)
+#EXTINF:-1 group-title="美国US2",WSOC-TV ABC 9 (Charlotte NC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2696.ts
-#EXTINF:-1 group-title="国外UK2",WCNC-TV NBC 36 (Charlotte NC)
+#EXTINF:-1 group-title="美国US2",WCNC-TV NBC 36 (Charlotte NC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2465.ts
-#EXTINF:-1 group-title="国外UK2",WJZY-TV FOX 46 (Charlotte NC)
+#EXTINF:-1 group-title="美国US2",WJZY-TV FOX 46 (Charlotte NC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/510776.ts
-#EXTINF:-1 group-title="国外UK2",WRAL-TV NBC 5 (Raleigh NC)
+#EXTINF:-1 group-title="美国US2",WRAL-TV NBC 5 (Raleigh NC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2441.ts
-#EXTINF:-1 group-title="国外UK2",WTVD-TV ABC 11 (Raleigh NC)
+#EXTINF:-1 group-title="美国US2",WTVD-TV ABC 11 (Raleigh NC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/542959.ts
-#EXTINF:-1 group-title="国外UK2",WNCN-TV CBS 17 (Raleigh NC)
+#EXTINF:-1 group-title="美国US2",WNCN-TV CBS 17 (Raleigh NC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89668.ts
-#EXTINF:-1 group-title="国外UK2",WLFL-TV CW 22 (Raleigh NC)
+#EXTINF:-1 group-title="美国US2",WLFL-TV CW 22 (Raleigh NC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/93154.ts
-#EXTINF:-1 group-title="国外UK2",WRAZ-TV FOX 50 (Raleigh NC)
+#EXTINF:-1 group-title="美国US2",WRAZ-TV FOX 50 (Raleigh NC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89672.ts
-#EXTINF:-1 group-title="国外UK2",KWGN-TV CW 2 (Denver CO)
+#EXTINF:-1 group-title="美国US2",KWGN-TV CW 2 (Denver CO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/630653.ts
-#EXTINF:-1 group-title="国外UK2",KCNC-TV CBS 4 (Denver CO)
+#EXTINF:-1 group-title="美国US2",KCNC-TV CBS 4 (Denver CO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2644.ts
-#EXTINF:-1 group-title="国外UK2",KMGH-TV ABC 7 (Denver CO)
+#EXTINF:-1 group-title="美国US2",KMGH-TV ABC 7 (Denver CO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2691.ts
-#EXTINF:-1 group-title="国外UK2",KUSA-TV NBC 9 (Denver CO)
+#EXTINF:-1 group-title="美国US2",KUSA-TV NBC 9 (Denver CO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/606993.ts
-#EXTINF:-1 group-title="国外UK2",KDVR-TV FOX 31 (Denver CO)
+#EXTINF:-1 group-title="美国US2",KDVR-TV FOX 31 (Denver CO)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2560.ts
-#EXTINF:-1 group-title="国外UK2",KMTV-TV CBS 3 (Omaha NE)
+#EXTINF:-1 group-title="美国US2",KMTV-TV CBS 3 (Omaha NE)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89685.ts
-#EXTINF:-1 group-title="国外UK2",WOWT-TV NBC 6 (Omaha NE)
+#EXTINF:-1 group-title="美国US2",WOWT-TV NBC 6 (Omaha NE)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/61809.ts
-#EXTINF:-1 group-title="国外UK2",KETV-TV ABC 13 (Omaha NE)
+#EXTINF:-1 group-title="美国US2",KETV-TV ABC 13 (Omaha NE)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/735645.ts
-#EXTINF:-1 group-title="国外UK2",KPTM-TV FOX 42 (Omaha NE)
+#EXTINF:-1 group-title="美国US2",KPTM-TV FOX 42 (Omaha NE)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/61811.ts
-#EXTINF:-1 group-title="国外UK2",WRIC-TV ABC 8 (Richmond VA)
+#EXTINF:-1 group-title="美国US2",WRIC-TV ABC 8 (Richmond VA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38247.ts
-#EXTINF:-1 group-title="国外UK2",WWBT-TV NBC 12 (Richmond VA)
+#EXTINF:-1 group-title="美国US2",WWBT-TV NBC 12 (Richmond VA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89869.ts
-#EXTINF:-1 group-title="国外UK2",WRLH-TV FOX 35 (Richmond VA)
+#EXTINF:-1 group-title="美国US2",WRLH-TV FOX 35 (Richmond VA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/630652.ts
-#EXTINF:-1 group-title="国外UK2",WRC-TV NBC 4 (Washington DC)
+#EXTINF:-1 group-title="美国US2",WRC-TV NBC 4 (Washington DC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2428.ts
-#EXTINF:-1 group-title="国外UK2",WTTG-TV FOX 5 (Washington DC)
+#EXTINF:-1 group-title="美国US2",WTTG-TV FOX 5 (Washington DC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2503.ts
-#EXTINF:-1 group-title="国外UK2",WJLA-TV ABC 7 (Washington DC)
+#EXTINF:-1 group-title="美国US2",WJLA-TV ABC 7 (Washington DC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2665.ts
-#EXTINF:-1 group-title="国外UK2",WUSA-TV CBS 9 (Washington DC)
+#EXTINF:-1 group-title="美国US2",WUSA-TV CBS 9 (Washington DC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/559692.ts
-#EXTINF:-1 group-title="国外UK2",WDVM-TV Ind. 25 (Washington DC)
+#EXTINF:-1 group-title="美国US2",WDVM-TV Ind. 25 (Washington DC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/723847.ts
-#EXTINF:-1 group-title="国外UK2",WRDC-TV MyNetworkTV 28 (Washington DC)
+#EXTINF:-1 group-title="美国US2",WRDC-TV MyNetworkTV 28 (Washington DC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2475.ts
-#EXTINF:-1 group-title="国外UK2",WCDW-TV CW 50 (Washington DC)
+#EXTINF:-1 group-title="美国US2",WCDW-TV CW 50 (Washington DC)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/630645.ts
-#EXTINF:-1 group-title="国外UK2",WMAR-TV ABC 2 (Baltimore MD)
+#EXTINF:-1 group-title="美国US2",WMAR-TV ABC 2 (Baltimore MD)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2698.ts
-#EXTINF:-1 group-title="国外UK2",WBAL-TV NBC 11 (Baltimore MD)
+#EXTINF:-1 group-title="美国US2",WBAL-TV NBC 11 (Baltimore MD)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2468.ts
-#EXTINF:-1 group-title="国外UK2",WJZ-TV CBS 13 (Baltimore MD)
+#EXTINF:-1 group-title="美国US2",WJZ-TV CBS 13 (Baltimore MD)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2651.ts
-#EXTINF:-1 group-title="国外UK2",WBFF-TV FOX 45 (Baltimore MD)
+#EXTINF:-1 group-title="美国US2",WBFF-TV FOX 45 (Baltimore MD)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2572.ts
-#EXTINF:-1 group-title="国外UK2",WNUV-TV CW 54 (Baltimore MD)
+#EXTINF:-1 group-title="美国US2",WNUV-TV CW 54 (Baltimore MD)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/34434.ts
-#EXTINF:-1 group-title="国外UK2",KUTV-TV CBS 2 (Salt Lake City UT)
+#EXTINF:-1 group-title="美国US2",KUTV-TV CBS 2 (Salt Lake City UT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89862.ts
-#EXTINF:-1 group-title="国外UK2",KTVX-TV ABC 4 (Salt Lake City UT)
+#EXTINF:-1 group-title="美国US2",KTVX-TV ABC 4 (Salt Lake City UT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2672.ts
-#EXTINF:-1 group-title="国外UK2",KSL-TV NBC 5 (Salt Lake City UT)
+#EXTINF:-1 group-title="美国US2",KSL-TV NBC 5 (Salt Lake City UT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/591882.ts
-#EXTINF:-1 group-title="国外UK2",KSTU-TV FOX 13 (Salt Lake City UT)
+#EXTINF:-1 group-title="美国US2",KSTU-TV FOX 13 (Salt Lake City UT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2536.ts
-#EXTINF:-1 group-title="国外UK2",KFOR-TV NBC 4 (Oklahoma City OK)
+#EXTINF:-1 group-title="美国US2",KFOR-TV NBC 4 (Oklahoma City OK)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/42490.ts
-#EXTINF:-1 group-title="国外UK2",KOCO-TV ABC 5 (Oklahoma City OK)
+#EXTINF:-1 group-title="美国US2",KOCO-TV ABC 5 (Oklahoma City OK)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38268.ts
-#EXTINF:-1 group-title="国外UK2",KWTV-TV CBS 9 (Oklahoma City OK)
+#EXTINF:-1 group-title="美国US2",KWTV-TV CBS 9 (Oklahoma City OK)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/42488.ts
-#EXTINF:-1 group-title="国外UK2",KOKH-TV FOX 25 (Oklahoma City OK)
+#EXTINF:-1 group-title="美国US2",KOKH-TV FOX 25 (Oklahoma City OK)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/42489.ts
-#EXTINF:-1 group-title="国外UK2",KOCB-TV CW 34 (Oklahoma City OK)
+#EXTINF:-1 group-title="美国US2",KOCB-TV CW 34 (Oklahoma City OK)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/34444.ts
-#EXTINF:-1 group-title="国外UK2",WCMH-TV NBC 4 (Columbus OH)
+#EXTINF:-1 group-title="美国US2",WCMH-TV NBC 4 (Columbus OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/51092.ts
-#EXTINF:-1 group-title="国外UK2",WSYX-TV ABC 6 (Columbus OH)
+#EXTINF:-1 group-title="美国US2",WSYX-TV ABC 6 (Columbus OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/112254.ts
-#EXTINF:-1 group-title="国外UK2",WBNS-TV CBS 10 (Columbus OH)
+#EXTINF:-1 group-title="美国US2",WBNS-TV CBS 10 (Columbus OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2646.ts
-#EXTINF:-1 group-title="国外UK2",WWHO-TV CW 53 (Columbus OH)
+#EXTINF:-1 group-title="美国US2",WWHO-TV CW 53 (Columbus OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/629939.ts
-#EXTINF:-1 group-title="国外UK2",WKYC-TV NBC 3 (Cleveland OH)
+#EXTINF:-1 group-title="美国US2",WKYC-TV NBC 3 (Cleveland OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2462.ts
-#EXTINF:-1 group-title="国外UK2",WEWS-TV ABC 5 (Cleveland OH)
+#EXTINF:-1 group-title="美国US2",WEWS-TV ABC 5 (Cleveland OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2694.ts
-#EXTINF:-1 group-title="国外UK2",WJW-TV FOX 8 (Cleveland OH)
+#EXTINF:-1 group-title="美国US2",WJW-TV FOX 8 (Cleveland OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2566.ts
-#EXTINF:-1 group-title="国外UK2",WOIO CBS 19 (Cleveland OH)
+#EXTINF:-1 group-title="美国US2",WOIO CBS 19 (Cleveland OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2647.ts
-#EXTINF:-1 group-title="国外UK2",WLWT-TV NBC 5 (Cincinnati OH)
+#EXTINF:-1 group-title="美国US2",WLWT-TV NBC 5 (Cincinnati OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2463.ts
-#EXTINF:-1 group-title="国外UK2",WCPO-TV ABC 9 (Cincinnati OH)
+#EXTINF:-1 group-title="美国US2",WCPO-TV ABC 9 (Cincinnati OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/62431.ts
-#EXTINF:-1 group-title="国外UK2",WKRC-TV CBS 12 (Cincinnati OH)
+#EXTINF:-1 group-title="美国US2",WKRC-TV CBS 12 (Cincinnati OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/30136.ts
-#EXTINF:-1 group-title="国外UK2",WSTR-TV MyNetworkTV 64 (Cincinnati OH)
+#EXTINF:-1 group-title="美国US2",WSTR-TV MyNetworkTV 64 (Cincinnati OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/433309.ts
-#EXTINF:-1 group-title="国外UK2",WDTN-TV NBC 2 (Dayton OH)
+#EXTINF:-1 group-title="美国US2",WDTN-TV NBC 2 (Dayton OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/70149.ts
-#EXTINF:-1 group-title="国外UK2",WHIO-TV CBS 7 (Dayton OH)
+#EXTINF:-1 group-title="美国US2",WHIO-TV CBS 7 (Dayton OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/70151.ts
-#EXTINF:-1 group-title="国外UK2",WKEF-TV ABC 22 (Dayton OH)
+#EXTINF:-1 group-title="美国US2",WKEF-TV ABC 22 (Dayton OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38322.ts
-#EXTINF:-1 group-title="国外UK2",WRGT-TV FOX 45 (Dayton OH)
+#EXTINF:-1 group-title="美国US2",WRGT-TV FOX 45 (Dayton OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/70150.ts
-#EXTINF:-1 group-title="国外UK2",WTOL-TV CBS 7 (Toledo OH)
+#EXTINF:-1 group-title="美国US2",WTOL-TV CBS 7 (Toledo OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89738.ts
-#EXTINF:-1 group-title="国外UK2",WTVG-TV ABC 13 (Toledo OH)
+#EXTINF:-1 group-title="美国US2",WTVG-TV ABC 13 (Toledo OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/564741.ts
-#EXTINF:-1 group-title="国外UK2",WNWO-TV NBC 24 (Toledo OH)
+#EXTINF:-1 group-title="美国US2",WNWO-TV NBC 24 (Toledo OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89740.ts
-#EXTINF:-1 group-title="国外UK2",WUPW-TV FOX 36 (Toledo OH)
+#EXTINF:-1 group-title="美国US2",WUPW-TV FOX 36 (Toledo OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89739.ts
-#EXTINF:-1 group-title="国外UK2",WLIO-TV NBC 8 (Lima OH)
+#EXTINF:-1 group-title="美国US2",WLIO-TV NBC 8 (Lima OH)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89735.ts
-#EXTINF:-1 group-title="国外UK2",WTTV-TV CBS 4 (Indianapolis IN)
+#EXTINF:-1 group-title="美国US2",WTTV-TV CBS 4 (Indianapolis IN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/61807.ts
-#EXTINF:-1 group-title="国外UK2",WRTV-TV ABC 6 (Indianapolis IN)
+#EXTINF:-1 group-title="美国US2",WRTV-TV ABC 6 (Indianapolis IN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2686.ts
-#EXTINF:-1 group-title="国外UK2",WTHR-TV NBC 13 (Indianapolis IN)
+#EXTINF:-1 group-title="美国US2",WTHR-TV NBC 13 (Indianapolis IN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/56256.ts
-#EXTINF:-1 group-title="国外UK2",WXIN-TV FOX 59 (Indianapolis IN)
+#EXTINF:-1 group-title="美国US2",WXIN-TV FOX 59 (Indianapolis IN)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2554.ts
-#EXTINF:-1 group-title="国外UK2",WGRZ-TV NBC 2 (Buffalo NY)
+#EXTINF:-1 group-title="美国US2",WGRZ-TV NBC 2 (Buffalo NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2466.ts
-#EXTINF:-1 group-title="国外UK2",WIVB-TV CBS 4 (Buffalo NY)
+#EXTINF:-1 group-title="美国US2",WIVB-TV CBS 4 (Buffalo NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/30133.ts
-#EXTINF:-1 group-title="国外UK2",WKBW-TV ABC 7 (Buffalo NY)
+#EXTINF:-1 group-title="美国US2",WKBW-TV ABC 7 (Buffalo NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38280.ts
-#EXTINF:-1 group-title="国外UK2",WNLO-TV CW 23 (Buffalo NY)
+#EXTINF:-1 group-title="美国US2",WNLO-TV CW 23 (Buffalo NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/3048.ts
-#EXTINF:-1 group-title="国外UK2",WUTV-TV FOX 29 (Buffalo NY)
+#EXTINF:-1 group-title="美国US2",WUTV-TV FOX 29 (Buffalo NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/446824.ts
-#EXTINF:-1 group-title="国外UK2",WNYO-TV MyNetworkTV 49 (Buffalo NY)
+#EXTINF:-1 group-title="美国US2",WNYO-TV MyNetworkTV 49 (Buffalo NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38281.ts
-#EXTINF:-1 group-title="国外UK2",WRGB-TV CBS 6 (Albany NY)
+#EXTINF:-1 group-title="美国US2",WRGB-TV CBS 6 (Albany NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89720.ts
-#EXTINF:-1 group-title="国外UK2",WTEN-TV ABC 10 (Albany NY)
+#EXTINF:-1 group-title="美国US2",WTEN-TV ABC 10 (Albany NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/64027.ts
-#EXTINF:-1 group-title="国外UK2",WNYT-TV NBC 13 (Albany NY)
+#EXTINF:-1 group-title="美国US2",WNYT-TV NBC 13 (Albany NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/63932.ts
-#EXTINF:-1 group-title="国外UK2",WCWN-TV CW 15 (Albany NY)
+#EXTINF:-1 group-title="美国US2",WCWN-TV CW 15 (Albany NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/34440.ts
-#EXTINF:-1 group-title="国外UK2",WXXA-TV FOX 23 (Albany NY)
+#EXTINF:-1 group-title="美国US2",WXXA-TV FOX 23 (Albany NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/63931.ts
-#EXTINF:-1 group-title="国外UK2",WSTM-TV NBC 3 (Syracuse NY)
+#EXTINF:-1 group-title="美国US2",WSTM-TV NBC 3 (Syracuse NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38314.ts
-#EXTINF:-1 group-title="国外UK2",WTVH-TV CBS 5 (Syracuse NY)
+#EXTINF:-1 group-title="美国US2",WTVH-TV CBS 5 (Syracuse NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/87037.ts
-#EXTINF:-1 group-title="国外UK2",WSYR-TV ABC 9 (Syracuse  NY)
+#EXTINF:-1 group-title="美国US2",WSYR-TV ABC 9 (Syracuse  NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38313.ts
-#EXTINF:-1 group-title="国外UK2",WSYT-TV FOX 68 (Syracuse NY)
+#EXTINF:-1 group-title="美国US2",WSYT-TV FOX 68 (Syracuse NY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/87038.ts
-#EXTINF:-1 group-title="国外UK2",WCSH-TV NBC 6 (Portland ME)
+#EXTINF:-1 group-title="美国US2",WCSH-TV NBC 6 (Portland ME)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89617.ts
-#EXTINF:-1 group-title="国外UK2",WGME-TV CBS 13 (Portland ME)
+#EXTINF:-1 group-title="美国US2",WGME-TV CBS 13 (Portland ME)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89616.ts
-#EXTINF:-1 group-title="国外UK2",WPFO-TV FOX 23 (Portland ME)
+#EXTINF:-1 group-title="美国US2",WPFO-TV FOX 23 (Portland ME)
 http://cdn1host.online:2999/live/kratorius/opLcbhlXaT/2163.ts
-#EXTINF:-1 group-title="国外UK2",KATU-TV ABC 2 (Portland OR)
+#EXTINF:-1 group-title="美国US2",KATU-TV ABC 2 (Portland OR)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2675.ts
-#EXTINF:-1 group-title="国外UK2",KOIN-TV CBS 6 (Portland OR)
+#EXTINF:-1 group-title="美国US2",KOIN-TV CBS 6 (Portland OR)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89760.ts
-#EXTINF:-1 group-title="国外UK2",KGW-TV NBC 8 (Portland OR)
+#EXTINF:-1 group-title="美国US2",KGW-TV NBC 8 (Portland OR)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2442.ts
-#EXTINF:-1 group-title="国外UK2",KPTV-TV FOX 12 (Portland OR)
+#EXTINF:-1 group-title="美国US2",KPTV-TV FOX 12 (Portland OR)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89761.ts
-#EXTINF:-1 group-title="国外UK2",WLBT-TV NBC 3 (Jackson MS)
+#EXTINF:-1 group-title="美国US2",WLBT-TV NBC 3 (Jackson MS)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/102602.ts
-#EXTINF:-1 group-title="国外UK2",WJTV-TV CBS 12.1 (Jackson MS)
+#EXTINF:-1 group-title="美国US2",WJTV-TV CBS 12.1 (Jackson MS)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/102600.ts
-#EXTINF:-1 group-title="国外UK2",WJTV-DT CW 12.2 (Jackson MS)
+#EXTINF:-1 group-title="美国US2",WJTV-DT CW 12.2 (Jackson MS)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/629826.ts
-#EXTINF:-1 group-title="国外UK2",WAPT-TV ABC 16 (Jackson MS)
+#EXTINF:-1 group-title="美国US2",WAPT-TV ABC 16 (Jackson MS)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/565748.ts
-#EXTINF:-1 group-title="国外UK2",WDBD-TV FOX 40 (Jackson MS)
+#EXTINF:-1 group-title="美国US2",WDBD-TV FOX 40 (Jackson MS)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/102601.ts
-#EXTINF:-1 group-title="国外UK2",WISC-TV CBS 3 (Madison WI)
+#EXTINF:-1 group-title="美国US2",WISC-TV CBS 3 (Madison WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89895.ts
-#EXTINF:-1 group-title="国外UK2",WMTV-TV NBC 15 (Madison WI)
+#EXTINF:-1 group-title="美国US2",WMTV-TV NBC 15 (Madison WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89896.ts
-#EXTINF:-1 group-title="国外UK2",WKOW-TV ABC 27 (Madison WI)
+#EXTINF:-1 group-title="美国US2",WKOW-TV ABC 27 (Madison WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38321.ts
-#EXTINF:-1 group-title="国外UK2",WMSN-TV FOX 47 (Madison WI)
+#EXTINF:-1 group-title="美国US2",WMSN-TV FOX 47 (Madison WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/529233.ts
-#EXTINF:-1 group-title="国外UK2",WTMJ-TV NBC 4 (Milwaukee WI)
+#EXTINF:-1 group-title="美国US2",WTMJ-TV NBC 4 (Milwaukee WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89899.ts
-#EXTINF:-1 group-title="国外UK2",WITI-TV FOX 6 (Milwaukee WI)
+#EXTINF:-1 group-title="美国US2",WITI-TV FOX 6 (Milwaukee WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2548.ts
-#EXTINF:-1 group-title="国外UK2",WVTV-TV CW 18 (Milwaukee WI)
+#EXTINF:-1 group-title="美国US2",WVTV-TV CW 18 (Milwaukee WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38328.ts
-#EXTINF:-1 group-title="国外UK2",WISN-TV ABC 12 (Milwaukee WI)
+#EXTINF:-1 group-title="美国US2",WISN-TV ABC 12 (Milwaukee WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2682.ts
-#EXTINF:-1 group-title="国外UK2",WDJT-TV CBS 58 (Milwaukee WI)
+#EXTINF:-1 group-title="美国US2",WDJT-TV CBS 58 (Milwaukee WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2635.ts
-#EXTINF:-1 group-title="国外UK2",WBAY-TV ABC 2 (Green Bay WI)
+#EXTINF:-1 group-title="美国US2",WBAY-TV ABC 2 (Green Bay WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38282.ts
-#EXTINF:-1 group-title="国外UK2",WFRV-TV CBS 5 (Green Bay WI)
+#EXTINF:-1 group-title="美国US2",WFRV-TV CBS 5 (Green Bay WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89890.ts
-#EXTINF:-1 group-title="国外UK2",WLUK-TV FOX 11 (Green Bay WI)
+#EXTINF:-1 group-title="美国US2",WLUK-TV FOX 11 (Green Bay WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2557.ts
-#EXTINF:-1 group-title="国外UK2",WCWF-TV CW 14 (Green Bay WI)
+#EXTINF:-1 group-title="美国US2",WCWF-TV CW 14 (Green Bay WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38283.ts
-#EXTINF:-1 group-title="国外UK2",WBGA-TV NBC 26 (Green Bay WI)
+#EXTINF:-1 group-title="美国US2",WBGA-TV NBC 26 (Green Bay WI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/631821.ts
-#EXTINF:-1 group-title="国外UK2",KREM-TV CBS 2 (Spokane WA)
-http://cbsplaylistserver.aws.syncbak.com/mpl/20160401/865666/5743360/media.m3u8?request_token=Z1-ZrI8l37vCBmH6YKlQZNFcvAXYiLJN8c0K9gQTvqeAS2QJAdKCNfJi781AV_GZ0FiNd9AuyH162KN25KKJ1iwvz5KrioIJ6D1yPHrvpZ68JmiHTY6U93wIgD_NiMxFXxR_tw_MCi_hka74r9ng6aLxngs2p8TTSlCW71SMmjHsk4wN7kcHLDtoRtcivA&CMCD=mtp%3D111600%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22ac2d9503-527a-4258-a660-a8841776bd7c%22
-#EXTINF:-1 group-title="国外UK2",KOMO-TV ABC 4 (Seattle WA)
+#EXTINF:-1 group-title="美国US2",KOMO-TV ABC 4 (Seattle WA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2668.ts
-#EXTINF:-1 group-title="国外UK2",KING-TV NBC 5 (Seattle WA)
+#EXTINF:-1 group-title="美国US2",KING-TV NBC 5 (Seattle WA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2437.ts
-#EXTINF:-1 group-title="国外UK2",KIRO-TV CBS 7 (Seattle WA)
+#EXTINF:-1 group-title="美国US2",KIRO-TV CBS 7 (Seattle WA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/2621.ts
-#EXTINF:-1 group-title="国外UK2",KSTW-TV Ind. 11 (Seattle WA)
+#EXTINF:-1 group-title="美国US2",KSTW-TV Ind. 11 (Seattle WA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/34428.ts
-#EXTINF:-1 group-title="国外UK2",KCPQ-TV FOX 13 (Seattle WA)
+#EXTINF:-1 group-title="美国US2",KCPQ-TV FOX 13 (Seattle WA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89885.ts
-#EXTINF:-1 group-title="国外UK2",KZJO-TV FOX 13+/MyNetworkTV 22 (Seattle WA)
+#EXTINF:-1 group-title="美国US2",KZJO-TV FOX 13+/MyNetworkTV 22 (Seattle WA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/730458.ts
-#EXTINF:-1 group-title="国外UK2",KUNS-TV CW 51 (Seattle WA)
+#EXTINF:-1 group-title="美国US2",KUNS-TV CW 51 (Seattle WA)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/597174.ts
-#EXTINF:-1 group-title="国外UK2",WAVE-TV NBC 3 (Louisville KY)
+#EXTINF:-1 group-title="美国US2",WAVE-TV NBC 3 (Louisville KY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/70148.ts
-#EXTINF:-1 group-title="国外UK2",WHAS-TV ABC 11 (Louisville KY)
+#EXTINF:-1 group-title="美国US2",WHAS-TV ABC 11 (Louisville KY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38240.ts
-#EXTINF:-1 group-title="国外UK2",WLKY-TV CBS 32 (Louisville KY)
+#EXTINF:-1 group-title="美国US2",WLKY-TV CBS 32 (Louisville KY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/93167.ts
-#EXTINF:-1 group-title="国外UK2",WDRB-TV FOX 41 (Louisville KY)
+#EXTINF:-1 group-title="美国US2",WDRB-TV FOX 41 (Louisville KY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/70147.ts
-#EXTINF:-1 group-title="国外UK2",WLEX-TV NBC 18 (Lexington KY)
+#EXTINF:-1 group-title="美国US2",WLEX-TV NBC 18 (Lexington KY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/93171.ts
-#EXTINF:-1 group-title="国外UK2",WKYT-TV CBS 27.1 (Lexington KY)
+#EXTINF:-1 group-title="美国US2",WKYT-TV CBS 27.1 (Lexington KY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/93166.ts
-#EXTINF:-1 group-title="国外UK2",WKYT-DT CW 27.2 (Lexington KY)
+#EXTINF:-1 group-title="美国US2",WKYT-DT CW 27.2 (Lexington KY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/629725.ts
-#EXTINF:-1 group-title="国外UK2",WTVQ-TV ABC 36 (Lexington KY)
+#EXTINF:-1 group-title="美国US2",WTVQ-TV ABC 36 (Lexington KY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38296.ts
-#EXTINF:-1 group-title="国外UK2",WDKY-TV FOX 56 (Lexington KY)
+#EXTINF:-1 group-title="美国US2",WDKY-TV FOX 56 (Lexington KY)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89580.ts
-#EXTINF:-1 group-title="国外UK2",KTVM-TV NBC 20 (Butte MT)
+#EXTINF:-1 group-title="美国US2",KTVM-TV NBC 20 (Butte MT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89661.ts
-#EXTINF:-1 group-title="国外UK2",KTVQ-TV CBS 2 (Billings MT)
+#EXTINF:-1 group-title="美国US2",KTVQ-TV CBS 2 (Billings MT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/555994.ts
-#EXTINF:-1 group-title="国外UK2",KHMT-TV FOX 4 (Billings MT)
+#EXTINF:-1 group-title="美国US2",KHMT-TV FOX 4 (Billings MT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/555995.ts
-#EXTINF:-1 group-title="国外UK2",KSVI-TV ABC 6 (Billings MT)
+#EXTINF:-1 group-title="美国US2",KSVI-TV ABC 6 (Billings MT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/555996.ts
-#EXTINF:-1 group-title="国外UK2",KLUR-TV NBC 8 (Billings MT)
+#EXTINF:-1 group-title="美国US2",KLUR-TV NBC 8 (Billings MT)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89660.ts
-#EXTINF:-1 group-title="国外UK2",KTUU-TV NBC 2 (Anchorage AK)
+#EXTINF:-1 group-title="美国US2",KTUU-TV NBC 2 (Anchorage AK)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38320.ts
-#EXTINF:-1 group-title="国外UK2",KTBY-TV FOX 4 (Anchorage AK)
+#EXTINF:-1 group-title="美国US2",KTBY-TV FOX 4 (Anchorage AK)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38319.ts
-#EXTINF:-1 group-title="国外UK2",KYUR-TV ABC 13 (Anchorage AK)
+#EXTINF:-1 group-title="美国US2",KYUR-TV ABC 13 (Anchorage AK)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38317.ts
-#EXTINF:-1 group-title="国外UK2",KTVA-TV CBS 22 (Anchorage AK)
+#EXTINF:-1 group-title="美国US2",KTVA-TV CBS 22 (Anchorage AK)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38318.ts
-#EXTINF:-1 group-title="国外UK2",KHON-TV FOX 2.1 (Honolulu HI)
+#EXTINF:-1 group-title="美国US2",KHON-TV FOX 2.1 (Honolulu HI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89531.ts
-#EXTINF:-1 group-title="国外UK2",KHON-DT CW 2.2 (Honolulu HI)
+#EXTINF:-1 group-title="美国US2",KHON-DT CW 2.2 (Honolulu HI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/629649.ts
-#EXTINF:-1 group-title="国外UK2",KITV-TV ABC 4 (Honolulu HI)
+#EXTINF:-1 group-title="美国US2",KITV-TV ABC 4 (Honolulu HI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38312.ts
-#EXTINF:-1 group-title="国外UK2",KGMB-TV CBS 5 (Honolulu HI)
+#EXTINF:-1 group-title="美国US2",KGMB-TV CBS 5 (Honolulu HI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89530.ts
-#EXTINF:-1 group-title="国外UK2",KHNL-TV NBC 13 (Honolulu HI)
+#EXTINF:-1 group-title="美国US2",KHNL-TV NBC 13 (Honolulu HI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89532.ts
+#EXTINF:-1 group-title="日本",NHK G HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+#EXTINF:-1 group-title="日本",NHK E HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+#EXTINF:-1 group-title="日本",NTV HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+#EXTINF:-1 group-title="日本",TBS HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+#EXTINF:-1 group-title="日本",Fuji TV HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05
+#EXTINF:-1 group-title="日本",TV Asahi HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd06
+#EXTINF:-1 group-title="日本",TV Tokyo HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd07
+#EXTINF:-1 group-title="日本",TOKYO MX1 HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd08
+#EXTINF:-1 group-title="日本",NHK G (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01
+#EXTINF:-1 group-title="日本",NHK E (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02
+#EXTINF:-1 group-title="日本",NTV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03
+#EXTINF:-1 group-title="日本",TBS (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04
+#EXTINF:-1 group-title="日本",Fuji TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05
+#EXTINF:-1 group-title="日本",TV Asahi (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06
+#EXTINF:-1 group-title="日本",TV Tokyo (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07
+#EXTINF:-1 group-title="日本",TOKYO MX1 (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08
+#EXTINF:-1 group-title="日本",NHK G Osaka (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
+#EXTINF:-1 group-title="日本",MBS (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
+#EXTINF:-1 group-title="日本",ABC (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
+#EXTINF:-1 group-title="日本",Kansai TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
+#EXTINF:-1 group-title="日本",ytv (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
+#EXTINF:-1 group-title="日本",TV Osaka (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05
+#EXTINF:-1 group-title="日本",SUN (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07
+#EXTINF:-1 group-title="日本",NHK BS (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
+#EXTINF:-1 group-title="日本",BS NTV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02
+#EXTINF:-1 group-title="日本",BS Asahi (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03
+#EXTINF:-1 group-title="日本",BS TBS (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04
+#EXTINF:-1 group-title="日本",BS TV Tokyo (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05
+#EXTINF:-1 group-title="日本",BS Fuji (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06
+#EXTINF:-1 group-title="日本",NHK BS4K (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
+#EXTINF:-1 group-title="日本",WOWOW Prime (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12
+#EXTINF:-1 group-title="日本",WOWOW Cinema (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07
+#EXTINF:-1 group-title="日本",WOWOW Live (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20
+#EXTINF:-1 group-title="日本",BS 10 Star Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08
+#EXTINF:-1 group-title="日本",JSport 1 (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18
+#EXTINF:-1 group-title="日本",JSport 2 (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19
+#EXTINF:-1 group-title="日本",JSport 3 (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21
+#EXTINF:-1 group-title="日本",JSport 4 (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22
+#EXTINF:-1 group-title="日本",Green Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14
+#EXTINF:-1 group-title="日本",Animax (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15
+#EXTINF:-1 group-title="日本",Nihon Eiga Senmon (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23
+#EXTINF:-1 group-title="日本",Sky A (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01
+#EXTINF:-1 group-title="日本",Fishing Vision (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25
+#EXTINF:-1 group-title="日本",Disney Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
+#EXTINF:-1 group-title="日本",JCOM BS (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31
+#EXTINF:-1 group-title="日本",Jidaigeki Senmon (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04
+#EXTINF:-1 group-title="日本",Toei Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
+#EXTINF:-1 group-title="日本",Eisei Gekijo (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22
+#EXTINF:-1 group-title="日本",Family Gekijyo (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20
+#EXTINF:-1 group-title="日本",Movie Plus (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14
+#EXTINF:-1 group-title="日本",Home Drama Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05
+#EXTINF:-1 group-title="日本",Tabi Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12
+#EXTINF:-1 group-title="日本",Fuji TV Next (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26
+#EXTINF:-1 group-title="日本",Sky A  (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01
+#EXTINF:-1 group-title="日本",GAORA SPORTS (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17
+#EXTINF:-1 group-title="日本",Golf Network (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03
+#EXTINF:-1 group-title="日本",Nittele G+ (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02
+#EXTINF:-1 group-title="日本",Mondo TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21
+#EXTINF:-1 group-title="日本",Channel Ginga (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29
+#EXTINF:-1 group-title="日本",Space Shower TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26
+#EXTINF:-1 group-title="日本",Music Japan TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06
+#EXTINF:-1 group-title="日本",Kayo Pops (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13
+#EXTINF:-1 group-title="日本",MTV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18
+#EXTINF:-1 group-title="日本",LaLa TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19
+#EXTINF:-1 group-title="日本",Takarazuka Sky Stage (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28
+#EXTINF:-1 group-title="日本",Kids Staton TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
+#EXTINF:-1 group-title="日本",Cartoon Network (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs25
+#EXTINF:-1 group-title="日本",National Geographic Japan (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10
+#EXTINF:-1 group-title="日本",Disney Junior (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23
+#EXTINF:-1 group-title="日本",Discovery Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08
+#EXTINF:-1 group-title="日本",Animal Planet (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs24
+#EXTINF:-1 group-title="日本",History (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09
+#EXTINF:-1 group-title="日本",CNNj (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16
+#EXTINF:-1 group-title="日本",BBC News (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
+#EXTINF:-1 group-title="日本",TBS News (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
+#EXTINF:-1 group-title="日本",pigoo
+https://nl.utako.moe/pigoo/index.m3u8
+#EXTINF:-1 group-title="日本",Neco Channel
+https://nl.utako.moe/neco/index.m3u8
+#EXTINF:-1 group-title="韩国",ABN TV (720p)
+https://vod2.abn.co.kr/IPHONE/abn.m3u8
+#EXTINF:-1 group-title="韩国",Arirang Radio (720p)
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+#EXTINF:-1 group-title="韩国",BBS Buddhist Broadcasting (1080p)
+http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
+#EXTINF:-1 group-title="韩国",CGNTV South Korea (1080p)
+https://du35ivadp6cxj.cloudfront.net/out/v1/81781d23cbbf490990b2aa9181d4ce19/CGNWebLiveKR.m3u8
+#EXTINF:-1 group-title="韩国",CJ OnStyle (540p)
+https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8
+#EXTINF:-1 group-title="韩国",EWTN Africa Asia (720p)
+https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
+#EXTINF:-1 group-title="韩国",EWTN Asia-Pacific (720p) [Not 24/7]
+https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
+#EXTINF:-1 group-title="韩国",GCN24 Korean (720p)
+http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8
+#EXTINF:-1 group-title="韩国",GoodTV (1080p)
+http://mobliestream.c3tv.com:1935/live/goodtv.sdp/playlist.m3u8
+#EXTINF:-1 group-title="韩国",Gugbang TV (1080p) [Not 24/7]
+http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
+#EXTINF:-1 group-title="韩国",Home & Shopping (720p)
+https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
+#EXTINF:-1 group-title="韩国",KBS 1TV [Not 24/7]
+http://mytv.dothome.co.kr/ch/public/1.php
+#EXTINF:-1 group-title="韩国",KBS 2TV [Not 24/7]
+http://mytv.dothome.co.kr/ch/public/3.php
+#EXTINF:-1 group-title="韩国",KBS Drama (480p)
+http://mytv.dothome.co.kr/ch/catv/2.php
+#EXTINF:-1 group-title="韩国",KBS Life (480p)
+http://mytv.dothome.co.kr/ch/catv/5.php
+#EXTINF:-1 group-title="韩国",KBS LiveCam DokDo (540p)
+http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
+#EXTINF:-1 group-title="韩国",KCTV 광주 CH05 (720p) [Not 24/7]
+http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
+#EXTINF:-1 group-title="韩国",Lotte OneTV (720p)
+https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8
+#EXTINF:-1 group-title="韩国",MBC Andong (안동 MBC) (360p) [Not 24/7]
+http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
+#EXTINF:-1 group-title="韩国",MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]
+https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8
+#EXTINF:-1 group-title="韩国",MBC Jeju (제주 MBC) (352p) [Not 24/7]
+https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
+#EXTINF:-1 group-title="韩国",MBC Mokpo (목포 MBC) (720p) [Not 24/7]
+http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
+#EXTINF:-1 group-title="韩国",MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
+https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
+#EXTINF:-1 group-title="韩国",NHTV (720p)
+http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8
+#EXTINF:-1 group-title="韩国",SBS CJB (540p) [Not 24/7]
+http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
+#EXTINF:-1 group-title="韩国",SBS JTV (406p) [Not 24/7]
+http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
+#EXTINF:-1 group-title="韩国",Shopping NT (720p)
+https://live.shoppingntmall.com/live/10011.m3u8
+#EXTINF:-1 group-title="韩国",tvchosun2
+http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
+#EXTINF:-1 group-title="韩国",tvchosun
+http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8
+#EXTINF:-1 group-title="韩国",BBS
+http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1216149699.m3u8
+#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国",EBS1
+http://ebsonairios.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8
+#EXTINF:-1 tvg-id="EBS2" tvg-name="EBS2" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBS2.png" group-title="韩国",EBS2
+http://ebsonairios.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBSE.png" group-title="韩国",EBSe
+http://ebsonairios.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国",EBS1
+http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
+#EXTINF:-1 tvg-id="EBS2" tvg-name="EBS2" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBS2.png" group-title="韩国",EBS2
+http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8
+#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国",EBS1
+http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8
+#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国",EBS1
+http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/groundwavetablet500k.m3u8
+#EXTINF:-1 group-title="韩国",EBSi
+http://ebsonairios.ebs.co.kr/plus1tablet500k/tablet500k/plus1tablet500k.index.m3u8
+#EXTINF:-1 group-title="韩国",EBS+2
+http://ebsonairios.ebs.co.kr/plus2tablet500k/tablet500k/plus2tablet500k.index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBSE.png" group-title="韩国",EBSe
+http://ebsonairios.ebs.co.kr/plus3tablet500k/tablet500k/plus3tablet500k.index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国",KCTV
+http://119.77.96.184:1935/chn05/chn05/chunklist_w1306745753.m3u8
+#EXTINF:-1 group-title="韩国",tvN1
+https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?
+#EXTINF:-1 group-title="韩国",tvN2
+https://d21dxaer0ypwk1.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6m2cy2rylsvo-ssai-prd/54ac8e25_eb5a_4f10_ba20_ffb254f0a16c/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.service_id=KRBC32000261J
+#EXTINF:-1 group-title="韩国",tvN3
+https://d25mdvvpht3395.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p8ea370fl7r4f-ssai-prd/82f296fd_2916_45b7_b799_525a4226957a/hls/playlist.m3u8?
+#EXTINF:-1 group-title="韩国",tvN5
+https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?tvN Movies
+#EXTINF:-1 group-title="韩国",KBS世界
+https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国",Arirang
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国",Arirang
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 group-title="韩国",EBS 2
+http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8?
+#EXTINF:-1 group-title="韩国",JTV
+http://61.85.197.53:1935/jtv_live/myStream/chunklist_w1542137203.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国",KCTV
+http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8
+#EXTINF:-1 group-title="韩国",C
+http://112.175.51.214:1935/live/myStream/playlist.m3u8
+#EXTINF:-1 group-title="韩国",TV
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tv1.png" group-title="韩国",TV1
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TV3.png" group-title="韩国",TV3
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=630
+#EXTINF:-1 group-title="韩国",TV4
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=644
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/14.png" group-title="韩国",14
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=14
+#EXTINF:-1 group-title="韩国",EBS少儿
+http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/chunklist_w1965791004.m3u8
+#EXTINF:-1 group-title="韩国",韩国EBS1
+http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8?zshijd
+#EXTINF:-1 group-title="韩国",韩国EBS2
+http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8?zshijd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国",Arirang
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国",KCTV
+http://119.77.96.184:1935/chn05/chn05/chunklist.m3u
+#EXTINF:-1 group-title="韩国",声优广播
+http://www.uniqueradio.jp/agplayerf/hls/Active.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国",KCTV
+http://119.77.96.184:1935/chn05/chn05/chunklist.m3u8
+#EXTINF:-1 group-title="韩国",CJB
+http://1.222.207.80:1935/live/cjbtv/chunklist_w1357270949.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国",Arirang
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch/master.m3u8
+#EXTINF:-1 group-title="韩国",BBS佛教广播
+http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国",Arirang
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbtv.png" group-title="韩国",HBTV
+http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ANTV.png" group-title="韩国",ANTV
+http://antvlive.ab5c6921.cdnviet.com/antv/chunklist.m3u8
+#EXTINF:-1 group-title="韩国",Arirang Radio
+http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+#EXTINF:-1 group-title="韩国",BTN
+http://btn.nowcdn.co.kr/btn/btnlive01/playlist.m3u8
+#EXTINF:-1 group-title="韩国",CPBC
+http://onair1.cpbc.co.kr:1935/tv/smil:live.smil/playlist.m3u8
+#EXTINF:-1 group-title="韩国",EBS-KIDS
+http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/playlist.m3u8
+#EXTINF:-1 group-title="韩国",GCN教会
+http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_high/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mbn.png" group-title="韩国",MBN
+http://mytv.dothome.co.kr/ch/catv/54.php
+#EXTINF:-1 group-title="韩国",NewKID2
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=878
+#EXTINF:-1 group-title="韩国",NewKID4
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=888
+#EXTINF:-1 group-title="韩国",NewKID4
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=872
+#EXTINF:-1 group-title="韩国",韩国音乐
+http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
+#EXTINF:-1 group-title="韩国",RNA
+http://5ddfc48289114.streamlock.net/CHsoom/LIVE/playist.m3u8
 #EXTINF:-1 group-title="抖音直播",水水家猪蹄
 https://cdn-3.ttvb.eu.org/douyin/ssjzt777
 #EXTINF:-1 group-title="抖音直播",格格睡醒了
