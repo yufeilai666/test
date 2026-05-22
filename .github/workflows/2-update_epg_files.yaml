@@ -29,6 +29,8 @@ jobs:
       run: mkdir -p epg
       
     - name: Download EPG files with retry
+      env:
+        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}   # 私有仓库 Token
       run: |
         cat > download_epg.py << 'EOF'
         import json
@@ -63,9 +65,26 @@ jobs:
             beijing_time = datetime.now(beijing_tz)
             return beijing_time.strftime('%H:%M:%S')
 
+        # 获取私有仓库 Token
+        pat_token = os.environ.get("PAT_TOKEN", "")
+
+        def get_download_url(original_url):
+            """如果 URL 中包含 PAT_TOKEN 占位符，则替换为实际 Token"""
+            if "PAT_TOKEN" in original_url:
+            # url 为“https://用户名:个人访问令牌@github.com/用户名/私有仓库/raw/main/文件路径”
+                if pat_token:
+                    new_url = original_url.replace("PAT_TOKEN", pat_token)
+                    print(f"[{format_time()}] 🔐 检测到私有仓库文件，替换 URL 中占位符，使用带 Token 的 URL")
+                    return new_url
+                else:
+                    print(f"[{format_time()}] ⚠️ PAT_TOKEN 未设置，将尝试原始 URL（可能失败）")
+                    return original_url
+            return original_url
+
         def download_single_epg(item):
             global success_count, fail_count
-            filename, url = item
+            filename, original_url = item
+            url = get_download_url(original_url)
             max_retries = 5  # 最大重试次数
             retry_delay = 1.5  # 重试延迟秒数
             
