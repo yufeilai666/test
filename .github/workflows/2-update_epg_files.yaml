@@ -68,23 +68,24 @@ jobs:
         # 获取私有仓库 Token
         pat_token = os.environ.get("PAT_TOKEN", "")
 
-        def get_download_url(original_url):
-            """如果 URL 中包含 PAT_TOKEN 占位符，则替换为实际 Token"""
-            if "PAT_TOKEN" in original_url:
-            # url 为“https://用户名:个人访问令牌@github.com/用户名/私有仓库/raw/main/文件路径”
-                if pat_token:
-                    new_url = original_url.replace("PAT_TOKEN", pat_token)
-                    print(f"[{format_time()}] 🔐 检测到私有仓库文件，替换 URL 中占位符，使用带 Token 的 URL")
-                    return new_url
-                else:
-                    print(f"[{format_time()}] ⚠️ PAT_TOKEN 未设置，将尝试原始 URL（可能失败）")
-                    return original_url
-            return original_url
+        def get_url_and_headers(original_url):
+            """返回 (真实URL, headers字典)，对私有仓库自动添加 Authorization"""
+            headers = {
+                'User-Agent': 'AptvPlayer/2.1.2',
+                'Accept-Encoding': 'gzip'
+            }
+            # 检查是否是私有仓库 URL（这里判断标准：raw.githubusercontent.com 且需要 token）
+            # 你的私有仓库是 yufeilai666/tvepg，而其他公共文件不需要认证
+            if "yufeilai666/tvepg" in original_url and pat_token:
+                headers['Authorization'] = f'token {pat_token}'
+                with print_lock:
+                    print(f"[{format_time()}] 🔐 为私有仓库添加认证头: {original_url}")
+            return original_url, headers
 
         def download_single_epg(item):
             global success_count, fail_count
             filename, original_url = item
-            url = get_download_url(original_url)
+            url, headers = get_url_and_headers(original_url)
             max_retries = 5  # 最大重试次数
             retry_delay = 1.5  # 重试延迟秒数
             
@@ -98,12 +99,6 @@ jobs:
             for attempt in range(max_retries):
                 try:
                     add_log(f"🚀 开始下载: {filename} (尝试 {attempt + 1}/{max_retries})")
-                    
-                    # 设置请求头
-                    headers = {
-                        'User-Agent': 'AptvPlayer/2.1.2',
-                        'Accept-Encoding': 'gzip'
-                    }
                     
                     # 下载文件
                     response = requests.get(url, headers=headers, timeout=60)
