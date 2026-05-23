@@ -50,7 +50,6 @@
     "51zmt_gat.xml.gz": "http://epg.51zmt.top:8000/e2.xml.gz",
     "112114_pp.xml.gz": "https://epg.112114.xyz/pp.xml.gz",
     "erw_all.xml.gz": "https://raw.githubusercontent.com/kuke31/xmlgz/main/e.xml.gz",
-    "epghebeiiptv.xml": "https://epg.mb6.top/heiptv.xml",
     "judy_4gtv.xml": "https://raw.githubusercontent.com/myhomebox/EPG/main/output/4g.xml",
     "judy_hami.xml": "https://raw.githubusercontent.com/myhomebox/EPG/main/output/hami.xml",
     "judy_ofiii.xml": "https://raw.githubusercontent.com/myhomebox/EPG/main/output/ofiii.xml",
@@ -58,6 +57,8 @@
     "judy_tbc.xml": "https://raw.githubusercontent.com/myhomebox/EPG/refs/heads/main/output/epg_tbc.xml",
     "jsnzkpg_gdiptv.xml": "https://raw.githubusercontent.com/Tzwcard/ChinaTelecom-GuangdongIPTV-RTP-List/refs/heads/master/epg.xml",
     "mytvsuper_3party.xml": "https://mytvsuperepg.860775.xyz/epg.xml",
-    "cn_epg_14days.xml": "https://raw.githubusercontent.com/yufeilai666/tvepg/main/cn_epg_14days.xml"
+    "cn_epg_14days.xml": "https://raw.githubusercontent.com/yufeilai666/tvepg/main/cn_epg_14days.xml",
+    "epghebeiiptv.xml": "https://raw.githubusercontent.com/yufeilai666/tvepg/main/epghebei.xml",
+    "51zmt_difang.xml": "https://raw.githubusercontent.com/yufeilai666/tvepg/main/epgdifang.xml"
   }
 }
