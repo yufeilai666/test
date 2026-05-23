@@ -69,23 +69,23 @@ jobs:
         pat_token = os.environ.get("PAT_TOKEN", "")
 
         def get_url_and_headers(original_url):
-            """返回 (真实URL, headers字典)，对私有仓库自动添加 Authorization"""
+            """返回 (url, headers, auth_msg)，对私有仓库自动添加 Authorization"""
             headers = {
                 'User-Agent': 'AptvPlayer/2.1.2',
                 'Accept-Encoding': 'gzip'
             }
+            auth_msg = None
             # 检查是否是私有仓库 URL（这里判断标准：raw.githubusercontent.com 且需要 token）
             # 你的私有仓库是 yufeilai666/tvepg，而其他公共文件不需要认证
             if "yufeilai666/tvepg" in original_url and pat_token:
                 headers['Authorization'] = f'token {pat_token}'
-                with print_lock:
-                    print(f"[{format_time()}] 🔐 为私有仓库添加认证头: {original_url}")
-            return original_url, headers
+                auth_msg = f"🔐 为私有仓库添加认证头: {original_url}"
+            return original_url, headers, auth_msg
 
         def download_single_epg(item):
             global success_count, fail_count
             filename, original_url = item
-            url, headers = get_url_and_headers(original_url)
+            url, headers, auth_msg = get_url_and_headers(original_url)
             max_retries = 5  # 最大重试次数
             retry_delay = 1.5  # 重试延迟秒数
             
@@ -94,6 +94,10 @@ jobs:
             
             def add_log(message):
                 all_logs.append(f"[{format_time()}] {message}")
+            
+            # 如果有认证提示，加入日志（在开始下载之前）
+            if auth_msg:
+                add_log(auth_msg)
             
             result = False
             for attempt in range(max_retries):
