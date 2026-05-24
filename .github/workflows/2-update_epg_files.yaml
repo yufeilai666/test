@@ -75,11 +75,9 @@ jobs:
                 'Accept-Encoding': 'gzip'
             }
             auth_msg = None
-            # 检查是否是私有仓库 URL（这里判断标准：raw.githubusercontent.com 且需要 token）
-            # 你的私有仓库是 yufeilai666/tvepg，而其他公共文件不需要认证
             if "yufeilai666/tvepg" in original_url and pat_token:
                 headers['Authorization'] = f'token {pat_token}'
-                auth_msg = f"🔐 为私有仓库添加认证头: {original_url}"
+                auth_msg = f"🔐 添加认证头"
             return original_url, headers, auth_msg
 
         def download_single_epg(item):
