@@ -727,7 +727,7 @@ p3p://167.114.175.6:55331/5fe6fce400011e568d3deaf35a511da9
 p3p://167.114.175.6:55331/64be9bb50006c1b519c62cba356951a9
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CNBC.png" group-title="新闻News",CNBC
 p3p://167.114.175.6:55331/5fe7ed9d000bee7690ea4066318039ec
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
 p3p://167.114.175.6:55331/5fe7ee3900072cc790eca08f51983f0f
 #EXTINF:-1 group-title="新闻News",CNN us
 p3p://167.114.175.6:55331/62ca114100072864c847817e53ba1492
@@ -777,13 +777,13 @@ p3p://fccsen.dyndns.tv:29706/59bc7fe40002bfa9586064da5fe27f17
 p3p://fccsen.dyndns.tv:29706/59bc801000090e075861125817955ece
 #EXTINF:-1 group-title="新闻News",ABC news  au
 p3p://167.114.175.6:55331/616af6760009c76c78b2265b3bf645df
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
 p3p://fccsen.dyndns.tv:29706/5a7e6aa2000db3e039783dac0a1c0882
 #EXTINF:-1 group-title="新闻News",I24 News
 p3p://fccsen.dyndns.tv:29706/5a5170e800076ff389c911f013481fb8
 #EXTINF:-1 group-title="新闻News",FRANCE 24 Direct
 p3p://fccsen.dyndns.tv:29706/5a7f52b400093c5c3d02c2d5213a441e
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新闻News",Bloomberg
 p3p://fccsen.dyndns.tv:29706/61e758680001022ae082a6d70c3062b9
 #EXTINF:-1 group-title="新闻News",CNBC Awaaz
 p3p://fccsen.dyndns.tv:29706/5c59a4b20000133a37961cd816a4385b
@@ -1017,7 +1017,7 @@ p3p://167.114.175.6:55331/621e1827000d7a3a288a84ae70c44b0d
 p3p://167.114.175.6:55331/621e16b0000ec4772884cc295a1614a8
 #EXTINF:-1 group-title="音悦台",Classica古典音乐
 p3p://167.114.175.6:55331/6452b4f1000c38e8744ac80744c33d67
-#EXTINF:-1 group-title="音悦台",Mezzo Live
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="音悦台",Mezzo Live
 p3p://167.114.175.6:55331/6452bcb000039d52746907f4476f5e7b
 #EXTINF:-1 tvg-id="CMusic" tvg-name="CMusic" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CMusic.png" group-title="音悦台",CMUSIC
 p3p://167.114.175.6:55331/64e368dc000e5b23a986c9d62f9604df
@@ -1765,7 +1765,7 @@ p3p://167.114.175.6:55331/6484e089000a5e7a38440c1e1ace3b27
 p3p://167.114.175.6:55331/644f9623000a4051681a72d66bfc0191
 #EXTINF:-1 group-title="台湾TW",Classica古典音乐
 p3p://167.114.175.6:55331/6452b4f1000c38e8744ac80744c33d67
-#EXTINF:-1 group-title="台湾TW",Mezzo Live
+#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="台湾TW",Mezzo Live
 p3p://167.114.175.6:55331/6452bcb000039d52746907f4476f5e7b
 #EXTINF:-1 tvg-id="豬哥亮歌廳秀" tvg-name="豬哥亮歌廳秀" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/猪哥亮歌厅秀.png" group-title="台湾TW",猪哥亮歌厅秀
 p3p://167.114.175.6:55331/6452bbf2000d02457466242b0e5c5ea2
@@ -1961,7 +1961,7 @@ p3p://167.114.175.6:55331/5fe6fc1b000ac7f68d3adc447a2f6dff
 p3p://167.114.175.6:55331/5fe6fbc100001f378d3979f96c3c56d3
 #EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NICKELODEON.png" group-title="新马MS",Nickelodeon
 p3p://167.114.175.6:55331/5fe6f99b000795818d31176f38c42fc9
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新马MS",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新马MS",Bloomberg
 p3p://167.114.175.6:55331/5fe7ee3900072cc790eca08f51983f0f
 #EXTINF:-1 group-title="新马MS",History马来
 p3p://167.114.175.6:55331/5fe7e68e000270df90ceab575c346366
@@ -1993,7 +1993,7 @@ p3p://167.114.175.6:55331/656b06be00029e16bb452713093c6af9
 p3p://167.114.175.6:55331/64bd05ac0000680a139417f110dd4659
 #EXTINF:-1 group-title="新马MS",Astro Arenabola 2
 p3p://167.114.175.6:55331/64bd0692000e510013979df27f954b02
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新马MS",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="新马MS",Bloomberg
 p3p://fccsen.dyndns.tv:29706/61e758680001022ae082a6d70c3062b9
 #EXTINF:-1 group-title="新马MS",Zee World
 p3p://fccsen.dyndns.tv:29706/614be3d6000446728143b55f3f6f422a
@@ -3477,7 +3477,7 @@ p3p://fccsen.dyndns.tv:29706/5da51e77000af0554668f4872a89003b
 p3p://fccsen.dyndns.tv:29706/5da88bb300039f0c53cba50744e74fe0
 #EXTINF:-1 group-title="英国UK",ABC news  au
 p3p://167.114.175.6:55331/616af6760009c76c78b2265b3bf645df
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="英国UK",Bloomberg
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="英国UK",Bloomberg
 p3p://fccsen.dyndns.tv:29706/5a7e6aa2000db3e039783dac0a1c0882
 #EXTINF:-1 group-title="英国UK",HBO 1 EU
 p3p://fccsen.dyndns.tv:29706/5a7f5d8b0006c8863d2d1a0954875116
