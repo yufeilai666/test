@@ -945,7 +945,7 @@ http://67.220.71.199:2347/livehttpplay?channel_id=30026
 http://67.220.71.199:2347/livehttpplay?channel_id=30023
 #EXTINF:-1 group-title="极速港台2",MYTV SUPER 1
 http://67.220.71.199:2347/livehttpplay?channel_id=13022
-#EXTINF:-1 group-title="极速港台2",HOY 77
+#EXTINF:-1 tvg-id="HOY 77" tvg-name="HOY 77" group-title="极速港台2",HOY 77
 http://67.220.71.199:2347/livehttpplay?channel_id=20152
 #EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速港台2",VIUTV
 http://67.220.71.199:2347/livehttpplay?channel_id=20131
