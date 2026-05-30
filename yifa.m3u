@@ -931,52 +931,6 @@ http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 http://v2hcdn.jdshipin.com/enew/enew.stream/chunklist_w103.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBJ1.png" group-title="极速港台",TVBJ1
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速港台2",无线新闻台
-http://67.220.71.199:2347/livehttpplay?channel_id=20123
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/無綫新聞台.png" group-title="极速港台2",无线新闻台
-http://67.220.71.199:2347/livehttpplay?channel_id=30024
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台2",翡翠台
-http://67.220.71.199:2347/livehttpplay?channel_id=30025
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速港台2",明珠台
-http://67.220.71.199:2347/livehttpplay?channel_id=20125
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="极速港台2",明珠台
-http://67.220.71.199:2347/livehttpplay?channel_id=30026
-#EXTINF:-1 group-title="极速港台2",TVB PLUS
-http://67.220.71.199:2347/livehttpplay?channel_id=30023
-#EXTINF:-1 group-title="极速港台2",MYTV SUPER 1
-http://67.220.71.199:2347/livehttpplay?channel_id=13022
-#EXTINF:-1 tvg-id="HOY 77" tvg-name="HOY 77" group-title="极速港台2",HOY 77
-http://67.220.71.199:2347/livehttpplay?channel_id=20152
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速港台2",VIUTV
-http://67.220.71.199:2347/livehttpplay?channel_id=20131
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="极速港台2",VIUTV
-http://67.220.71.199:2347/livehttpplay?channel_id=30032
-#EXTINF:-1 group-title="极速港台2",VIUTV 6
-http://67.220.71.199:2347/livehttpplay?channel_id=20132
-#EXTINF:-1 group-title="极速港台2",VIUTV 6
-http://67.220.71.199:2347/livehttpplay?channel_id=30033
-#EXTINF:-1 group-title="极速港台2",RTHK 31
-http://67.220.71.199:2347/livehttpplay?channel_id=30066
-#EXTINF:-1 group-title="极速港台2",RTHK 32
-http://67.220.71.199:2347/livehttpplay?channel_id=20203
-#EXTINF:-1 group-title="极速港台2",RTHK 32
-http://67.220.71.199:2347/livehttpplay?channel_id=30028
-#EXTINF:-1 group-title="极速港台2",RTHK 32
-http://67.220.71.199:2347/livehttpplay?channel_id=30067
-#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" group-title="极速港台2",CCTV 4K
-http://67.220.71.199:2347/livehttpplay?channel_id=30029
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="极速港台2",广东珠江
-http://67.220.71.199:2347/livehttpplay?channel_id=20144
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="极速港台2",广东体育
-http://67.220.71.199:2347/livehttpplay?channel_id=12028
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="极速港台2",广东体育
-http://67.220.71.199:2347/livehttpplay?channel_id=20130
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="极速港台2",广东体育
-http://67.220.71.199:2347/livehttpplay?channel_id=30031
-#EXTINF:-1 tvg-id="广东岭南戏曲" tvg-name="广东岭南戏曲" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东岭南戏曲.png" group-title="极速港台2",广东岭南戏曲
-http://67.220.71.199:2347/livehttpplay?channel_id=20142
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯網球.png" group-title="极速港台2",博斯網球
-http://67.220.71.199:2347/livehttpplay?channel_id=42026
 #EXTINF:-1 group-title="极速NOW",凤凰咨询
 http://feilong123.vip/409990236/hktv.php?id=1
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰香港.png" group-title="极速NOW",凤凰香港
