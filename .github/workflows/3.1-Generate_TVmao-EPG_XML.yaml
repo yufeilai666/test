@@ -31,9 +31,9 @@ name: 3.1 Generate TVmao_EPG XML
 
 on:
   workflow_dispatch:  # 手动触发 - 可在GitHub Actions页面手动运行此工作流
-  schedule:
-    # 定时触发 - 每天UTC时间4点40分、18点10分、（北京时间凌晨2点10分、中午12点40分）自动运行
-    - cron: '40 4,18 * * *'
+  # schedule:
+    # 定时触发 - 每天UTC时间5点40分、18点10分、（北京时间凌晨2点10分、中午13点40分）自动运行
+    # - cron: '40 5,18 * * *'
 
 jobs:
   generate-epg:
