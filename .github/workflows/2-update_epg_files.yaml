@@ -2,8 +2,8 @@ name: 2 Update EPG Files
 
 on:
   workflow_dispatch:  # 手动触发
-  schedule:
-    - cron: '30 */4 * * *'  # UTC时间每4小时的30分钟运行
+  # schedule:
+    # - cron: '30 */4 * * *'  # UTC时间每4小时的30分钟运行
 
 jobs:
   update-epg:
