@@ -18,8 +18,8 @@ name: 3.3 Resilient Multi-Script EPG Generator (Cross-Repository)
 
 # 触发条件配置
 on:
-  schedule:
-    - cron: '5 1,5,9,13,17,21 * * *'
+  # schedule:
+    # - cron: '5 1,5,9,13,17,21 * * *'
   workflow_dispatch:
 
 # 作业定义
