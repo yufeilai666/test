@@ -42,7 +42,7 @@ jobs:
 
     - name: Copy script from scripts branch
       run: |
-        cp scripts/get_tvgo_epg.py ./
+        cp scripts/get_lstimes_ca_epg.py ./
 
     - name: Create epg directory if not exists
       run: |
@@ -51,27 +51,27 @@ jobs:
     - name: Run EPG processor
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-      run: python get_tvgo_epg.py
+      run: python get_lstimes_ca_epg.py
 
     - name: Move generated file to epg directory
       run: |
-        if [ -f tvgo.xml ]; then
-          mv tvgo.xml epg/
-          # mv debug_*.html epg/
+        if [ -f lstimes_ca_epg.xml ]; then
+          mv lstimes_ca_epg.xml epg/
+          mv debug_*.html epg/
           echo "✅ 文件已移动到 epg 目录"
         else
-          echo "❌ 错误：tvgo.xml 文件未生成"
+          echo "❌ 错误：lstimes_ca_epg.xml 文件未生成"
           exit 1
         fi
 
     - name: Check if file exists in epg directory
       id: file_check
       run: |
-        if [ -f epg/tvgo.xml ]; then
-          echo "✅ epg/tvgo.xml 文件已生成"
+        if [ -f epg/lstimes_ca_epg.xml ]; then
+          echo "✅ epg/lstimes_ca_epg.xml 文件已生成"
           echo "file_exists=true" >> $GITHUB_OUTPUT
         else
-          echo "❌ 错误：epg/tvgo.xml 文件未找到"
+          echo "❌ 错误：epg/lstimes_ca_epg.xml 文件未找到"
           echo "file_exists=false" >> $GITHUB_OUTPUT
           exit 1
         fi
@@ -85,22 +85,22 @@ jobs:
       id: check_changes
       if: steps.file_check.outputs.file_exists == 'true'
       run: |
-        # 只检查epg目录下的tvgo.xml文件
+        # 只检查epg目录下的lstimes_ca_epg.xml文件
         git status --porcelain epg/
-        if git status --porcelain epg/ | grep -q "tvgo.xml"; then
-          echo "🛠 检测到 epg/tvgo.xml 变更"
+        if git status --porcelain epg/ | grep -q "lstimes_ca_epg.xml"; then
+          echo "🛠 检测到 epg/lstimes_ca_epg.xml 变更"
           echo "has_changes=true" >> $GITHUB_OUTPUT
         else
-          echo "ℹ️ 没有检测到 epg/tvgo.xml 的变更"
+          echo "ℹ️ 没有检测到 epg/lstimes_ca_epg.xml 的变更"
           echo "has_changes=false" >> $GITHUB_OUTPUT
         fi
 
     - name: Add and commit changes
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
-        git add epg/tvgo.xml
-        # git add epg/debug_*.html
-        git commit -m "Update EPG: tvgo.xml节目单 $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+        git add epg/lstimes_ca_epg.xml
+        git add epg/debug_*.html
+        git commit -m "Update EPG: lstimes_ca_epg.xml节目单 $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
         echo "✅ 已提交变更"
 
     - name: Push changes
