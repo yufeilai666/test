@@ -552,6 +552,7 @@ class TVScheduleConverter:
                 'X-Requested-With': 'XMLHttpRequest',
                 'Accept': 'application/json, text/javascript, */*; q=0.01',
                 'Referer': referer_url,
+                "lang": "en",
                 'Accept-Language': 'en-US,en;q=0.9' if 'en/schedule' in referer_url else 'zh-CN,zh;q=0.9'
 }
 
