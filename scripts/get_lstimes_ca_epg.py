@@ -958,9 +958,9 @@ class TVScheduleConverter:
             rough_string = ET.tostring(tv, encoding='utf-8')
             reparsed = minidom.parseString(rough_string)
             pretty_xml = reparsed.toprettyxml(indent="  ", encoding='utf-8')
-            with open("lstimes_ca_null.xml", 'wb') as f:
+            with open("lstimes_ca_epg.xml", 'wb') as f:
                 f.write(pretty_xml)
-            print("⚠️ 已创建空的 lstimes_ca_null.xml 文件")
+            print("⚠️ 已创建空的 lstimes_ca_epg.xml 文件")
             return None
 
         # 获取英文节目表（仅输出日期范围）
