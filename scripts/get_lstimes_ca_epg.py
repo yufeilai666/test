@@ -539,7 +539,7 @@ class TVScheduleConverter:
             'action': 'extvs_get_schedule_simple',
             'param_shortcode': param_shortcode_encoded,
             'date': timestamp,
-            'chanel': chanel_selected
+            'chanel': chanel_selected,
             "lang": "en"
         }
 
