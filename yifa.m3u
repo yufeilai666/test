@@ -965,6 +965,40 @@ http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382837&e
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382836&extension=ts&play_token=jSAYXQsMoY
 #EXTINF:-1 tvg-id="now體育" tvg-name="now體育" group-title="极速NOW",NOW体育
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382834&extension=ts&play_token=JBOlpsgTKU
+#EXTINF:-1 group-title="极速NOW",HUB SPORTS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1451817
+#EXTINF:-1 group-title="极速NOW",HUB SPORTS 1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/280827
+#EXTINF:-1 group-title="极速NOW",HUB SPORTS 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/280828
+#EXTINF:-1 group-title="极速NOW",HUB SPORTS 3
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/280829
+#EXTINF:-1 group-title="极速NOW",HUB SPORTS 4
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/280830
+#EXTINF:-1 group-title="极速NOW",HUB SPORTS 5
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/280831
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Now Sports.png" group-title="极速NOW",NOW SPORTS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1451767
+#EXTINF:-1 group-title="极速NOW",SKY SPORTS NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236217
+#EXTINF:-1 group-title="极速NOW",SKY SPORTS ACTION
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236226
+#EXTINF:-1 group-title="极速NOW",SKY SPORTS CRICKET
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236223
+#EXTINF:-1 group-title="极速NOW",SKY SPORTS F1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236225
+#EXTINF:-1 group-title="极速NOW",SKY SPORTS FOOTBALL
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236220
+#EXTINF:-1 group-title="极速NOW",SKY SPORTS GOLF
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236224
+#EXTINF:-1 group-title="极速NOW",SKY SPORTS MAIN EVENT
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236218
+#EXTINF:-1 group-title="极速NOW",SKY SPORTS MIX
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236228
+#EXTINF:-1 group-title="极速NOW",SKY SPORTS PREMIER LEAGUE
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236219
+#EXTINF:-1 group-title="极速NOW",SKY SPORTS RACING
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236227
 #EXTINF:-1 group-title="极速NOW",德甲1
 http://seatv.xyz/live/AJ1JASYJMX68G3Z/DxPObqOcKG/1138922.m3u8
 #EXTINF:-1 group-title="极速NOW",德甲1
@@ -2639,539 +2673,609 @@ http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/38312.ts
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89530.ts
 #EXTINF:-1 group-title="美国US2",KHNL-TV NBC 13 (Honolulu HI)
 http://s.rocketdns.info:8080/live/Z3nXfkOnf0/Madt8rUvmN/89532.ts
-#EXTINF:-1 group-title="英国UK(挂梯子)",London TV
-http://81.137.213.119:4206/bysid/32842
-#EXTINF:-1 group-title="英国UK(挂梯子)",High Street TV
-http://81.137.213.119:4206/bysid/34176
-#EXTINF:-1 group-title="英国UK(挂梯子)",wedotv Movies UK
-http://81.137.213.119:4206/bysid/34496
-#EXTINF:-1 group-title="英国UK(挂梯子)",U&DaveJaVu
-http://81.137.213.119:4206/bysid/34624
-#EXTINF:-1 group-title="英国UK(挂梯子)",TLC+1
-http://81.137.213.119:4206/bysid/34688
-#EXTINF:-1 group-title="英国UK(挂梯子)",QUEST+1
-http://81.137.213.119:4206/bysid/34752
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC TWO
-http://81.137.213.119:4202/bysid/17472
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC ONE Lon
-http://81.137.213.119:4202/bysid/17536
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ITV1.png" group-title="英国UK(挂梯子)",ITV1
-http://81.137.213.119:4202/bysid/17604
-#EXTINF:-1 group-title="英国UK(挂梯子)",Channel 4
-http://81.137.213.119:4202/bysid/17664
-#EXTINF:-1 group-title="英国UK(挂梯子)",
-http://81.137.213.119:4202/bysid/17728
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC THREE
-http://81.137.213.119:4202/bysid/17920
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC FOUR
-http://81.137.213.119:4202/bysid/18048
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/uk/bbc/cbbc.png" group-title="英国UK(挂梯子)",CBBC
-http://81.137.213.119:4202/bysid/18112
-#EXTINF:-1 tvg-id="Cbeebies" tvg-name="Cbeebies" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/uk/cbeebies.png" group-title="英国UK(挂梯子)",CBeebies
-http://81.137.213.119:4202/bysid/18176
-#EXTINF:-1 group-title="英国UK(挂梯子)",U&Eden
-http://81.137.213.119:4202/bysid/19968
-#EXTINF:-1 group-title="英国UK(挂梯子)",LEGEND XTRA
-http://81.137.213.119:4202/bysid/20032
-#EXTINF:-1 group-title="英国UK(挂梯子)",TBN UK
-http://81.137.213.119:4202/bysid/20160
-#EXTINF:-1 group-title="英国UK(挂梯子)",5SELECT
-http://81.137.213.119:4202/bysid/20256
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC ONE Lon
-http://81.137.213.119:4200/bysid/4164
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC TWO
-http://81.137.213.119:4200/bysid/4287
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC THREE
-http://81.137.213.119:4200/bysid/4288
+#EXTINF:-1 group-title="英国UK(挂梯子)",UK ULTRA
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1451783
+#EXTINF:-1 group-title="英国UK(挂梯子)",SERVICE INFORMATION
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1515133
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/uk/bbc1.png" group-title="英国UK(挂梯子)",BBC1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693835
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/uk/bbc2.png" group-title="英国UK(挂梯子)",BBC2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693836
 #EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" group-title="英国UK(挂梯子)",BBC NEWS
-http://81.137.213.119:4200/bysid/4352
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC Red Button
-http://81.137.213.119:4200/bysid/4416
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC FOUR
-http://81.137.213.119:4200/bysid/4544
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/uk/bbc/cbbc.png" group-title="英国UK(挂梯子)",CBBC
-http://81.137.213.119:4200/bysid/4608
-#EXTINF:-1 tvg-id="Cbeebies" tvg-name="Cbeebies" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/uk/cbeebies.png" group-title="英国UK(挂梯子)",CBeebies
-http://81.137.213.119:4200/bysid/4672
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC Parliament
-http://81.137.213.119:4200/bysid/4736
-#EXTINF:-1 group-title="英国UK(挂梯子)",BBC RB 1
-http://81.137.213.119:4200/bysid/7168
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ITV1.png" group-title="英国UK(挂梯子)",ITV1
-http://81.137.213.119:4201/bysid/8261
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ITV3.png" group-title="英国UK(挂梯子)",ITV3
-http://81.137.213.119:4201/bysid/8294
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ITV2.png" group-title="英国UK(挂梯子)",ITV2
-http://81.137.213.119:4201/bysid/8325
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ITV4.png" group-title="英国UK(挂梯子)",ITV4
-http://81.137.213.119:4201/bysid/8330
-#EXTINF:-1 group-title="英国UK(挂梯子)",ITV Quiz
-http://81.137.213.119:4201/bysid/8340
-#EXTINF:-1 group-title="英国UK(挂梯子)",ITV1+1
-http://81.137.213.119:4201/bysid/8361
-#EXTINF:-1 group-title="英国UK(挂梯子)",Channel 4
-http://81.137.213.119:4201/bysid/8384
-#EXTINF:-1 group-title="英国UK(挂梯子)",Film4
-http://81.137.213.119:4201/bysid/8385
-#EXTINF:-1 group-title="英国UK(挂梯子)",More 4
-http://81.137.213.119:4201/bysid/8442
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693834
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA FAMILY
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138166
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA ACTION
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138160
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS ACTION
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/190954
+#EXTINF:-1 group-title="英国UK(挂梯子)",ALIBI
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693833
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/us/bloomberg.png" group-title="英国UK(挂梯子)",Bloomberg
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693837
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/boomerang.png" group-title="英国UK(挂梯子)",Boomerang
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693838
+#EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Cartoon Network.png" group-title="英国UK(挂梯子)",Cartoon Network
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693839
+#EXTINF:-1 group-title="英国UK(挂梯子)",CHANNEL 4
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693840
+#EXTINF:-1 tvg-id="Channel 5" tvg-name="Channel 5" group-title="英国UK(挂梯子)",CHANNEL 5
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693841
+#EXTINF:-1 tvg-id="COLORS" tvg-name="COLORS" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/COLORS.png" group-title="英国UK(挂梯子)",Colors
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693842
+#EXTINF:-1 group-title="英国UK(挂梯子)",Comedy Central
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693843
+#EXTINF:-1 group-title="英国UK(挂梯子)",Crime Investigation
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693844
+#EXTINF:-1 group-title="英国UK(挂梯子)",Dazn PPV
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693897
+#EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DISCOVERY.png" group-title="英国UK(挂梯子)",Discovery
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693845
 #EXTINF:-1 group-title="英国UK(挂梯子)",E4
-http://81.137.213.119:4201/bysid/8448
-#EXTINF:-1 group-title="英国UK(挂梯子)",Channel 4+1
-http://81.137.213.119:4201/bysid/8452
-#EXTINF:-1 group-title="英国UK(挂梯子)",E4+1
-http://81.137.213.119:4201/bysid/8458
-#EXTINF:-1 group-title="英国UK(挂梯子)",4seven
-http://81.137.213.119:4201/bysid/8460
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/5.png" group-title="英国UK(挂梯子)",5
-http://81.137.213.119:4201/bysid/8500
-#EXTINF:-1 group-title="英国UK(挂梯子)",That's 20th Century
-http://81.137.213.119:4201/bysid/8700
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Sky News.png" group-title="英国UK(挂梯子)",Sky News
-http://81.137.213.119:4204/bysid/22080
-#EXTINF:-1 group-title="英国UK(挂梯子)",Sky Mix
-http://81.137.213.119:4204/bysid/22208
-#EXTINF:-1 group-title="英国UK(挂梯子)",Sky Arts
-http://81.137.213.119:4204/bysid/22144
-#EXTINF:-1 group-title="英国UK(挂梯子)",Challenge
-http://81.137.213.119:4204/bysid/22226
-#EXTINF:-1 group-title="英国UK(挂梯子)",U&Drama+1
-http://81.137.213.119:4204/bysid/22336
-#EXTINF:-1 group-title="英国UK(挂梯子)",U&Dave
-http://81.137.213.119:4204/bysid/22272
-#EXTINF:-1 group-title="英国UK(挂梯子)",E4 Extra
-http://81.137.213.119:4204/bysid/22368
-#EXTINF:-1 group-title="英国UK(挂梯子)",ADULT smileTV3
-http://81.137.213.119:4204/bysid/22400
-#EXTINF:-1 group-title="英国UK(挂梯子)",That's TV 2
-http://81.137.213.119:4204/bysid/23152
-#EXTINF:-1 group-title="英国UK(挂梯子)",Mast Have Ideas
-http://81.137.213.119:4204/bysid/23680
-#EXTINF:-1 group-title="英国UK(挂梯子)",Really
-http://81.137.213.119:4204/bysid/23712
-#EXTINF:-1 group-title="英国UK(挂梯子)",Quest Red
-http://81.137.213.119:4204/bysid/23744
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Food Network.png" group-title="英国UK(挂梯子)",Food Network
-http://81.137.213.119:4204/bysid/23040
-#EXTINF:-1 group-title="英国UK(挂梯子)",SonLife
-http://81.137.213.119:4204/bysid/23184
-#EXTINF:-1 group-title="英国UK(挂梯子)",That's 70s
-http://81.137.213.119:4204/bysid/23904
-#EXTINF:-1 group-title="英国UK(挂梯子)",Great TV
-http://81.137.213.119:4204/bysid/23968
-#EXTINF:-1 group-title="英国UK(挂梯子)",ADULT Section
-http://81.137.213.119:4204/bysid/24128
-#EXTINF:-1 group-title="英国UK(挂梯子)",Film4+1
-http://81.137.213.119:4204/bysid/22464
-#EXTINF:-1 group-title="英国UK(挂梯子)",Gemporia
-http://81.137.213.119:4204/bysid/24448
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Star.png" group-title="英国UK(挂梯子)",STAR
-http://81.137.213.119:4203/bysid/12928
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/USA.png" group-title="英国UK(挂梯子)",USA
-http://81.137.213.119:4203/bysid/12992
-#EXTINF:-1 group-title="英国UK(挂梯子)",+1
-http://81.137.213.119:4203/bysid/13024
-#EXTINF:-1 group-title="英国UK(挂梯子)",Blaze
-http://81.137.213.119:4203/bysid/14384
-#EXTINF:-1 group-title="英国UK(挂梯子)",Blaze+1
-http://81.137.213.119:4203/bysid/14388
-#EXTINF:-1 group-title="英国UK(挂梯子)",Great Action
-http://81.137.213.119:4203/bysid/15576
-#EXTINF:-1 group-title="英国UK(挂梯子)",Great Movies
-http://81.137.213.119:4203/bysid/15584
-#EXTINF:-1 group-title="英国UK(挂梯子)",ITV4+1
-http://81.137.213.119:4203/bysid/15920
-#EXTINF:-1 group-title="英国UK(挂梯子)",ITV2+1
-http://81.137.213.119:4203/bysid/15952
-#EXTINF:-1 group-title="英国UK(挂梯子)",ITV3+1
-http://81.137.213.119:4203/bysid/16016
-#EXTINF:-1 group-title="英国UK(挂梯子)",5ACTION
-http://81.137.213.119:4203/bysid/16112
-#EXTINF:-1 group-title="英国UK(挂梯子)",LEGEND
-http://81.137.213.119:4203/bysid/14480
-#EXTINF:-1 group-title="英国UK(挂梯子)",TRUE CRIME
-http://81.137.213.119:4203/bysid/14448
-#EXTINF:-1 group-title="英国UK(挂梯子)",TRUE CRIME XTRA
-http://81.137.213.119:4203/bysid/14456
-#EXTINF:-1 group-title="英国UK(挂梯子)",U&Drama
-http://81.137.213.119:4203/bysid/16208
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/qvc.png" group-title="英国UK(挂梯子)",QVC
-http://81.137.213.119:4203/bysid/13120
-#EXTINF:-1 group-title="英国UK(挂梯子)",QVC2
-http://81.137.213.119:4203/bysid/14416
-#EXTINF:-1 group-title="英国UK(挂梯子)",TJC
-http://81.137.213.119:4203/bysid/15592
-#EXTINF:-1 group-title="英国UK(挂梯子)",WildEarth
-http://81.137.213.119:4203/bysid/14464
-#EXTINF:-1 group-title="英国UK(挂梯子)",Together TV
-http://81.137.213.119:4203/bysid/16364
-#EXTINF:-1 group-title="英国UK(挂梯子)",Shop On TV
-http://81.137.213.119:4203/bysid/16394
-#EXTINF:-1 group-title="英国UK(挂梯子)",U&W
-http://81.137.213.119:4203/bysid/12298
-#EXTINF:-1 group-title="英国UK(挂梯子)",Great TV
-http://81.137.213.119:4205/bysid/27168
-#EXTINF:-1 group-title="英国UK(挂梯子)",Jewellery Maker
-http://81.137.213.119:4205/bysid/27200
-#EXTINF:-1 group-title="英国UK(挂梯子)",Shop Unlimited
-http://81.137.213.119:4205/bysid/27232
-#EXTINF:-1 group-title="英国UK(挂梯子)",Great Romance
-http://81.137.213.119:4205/bysid/27296
-#EXTINF:-1 group-title="英国UK(挂梯子)",Together TV+1
-http://81.137.213.119:4205/bysid/27392
-#EXTINF:-1 group-title="英国UK(挂梯子)",ADULT Xpanded TV
-http://81.137.213.119:4205/bysid/27648
-#EXTINF:-1 group-title="英国UK(挂梯子)",ADULT Babestn
-http://81.137.213.119:4205/bysid/27904
-#EXTINF:-1 group-title="英国UK(挂梯子)",That's TV (UK)
-http://81.137.213.119:4205/bysid/27936
-#EXTINF:-1 group-title="英国UK(挂梯子)",PBS America
-http://81.137.213.119:4205/bysid/27968
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tlc.png" group-title="英国UK(挂梯子)",TLC
-http://81.137.213.119:4205/bysid/28000
-#EXTINF:-1 group-title="英国UK(挂梯子)",U&Yesterday
-http://81.137.213.119:4205/bysid/25792
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693846
+#EXTINF:-1 group-title="英国UK(挂梯子)",Eurosports 1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693847
+#EXTINF:-1 group-title="英国UK(挂梯子)",Eurosports 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693848
+#EXTINF:-1 group-title="英国UK(挂梯子)",FILM 4
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693849
 #EXTINF:-1 group-title="英国UK(挂梯子)",GB News
-http://81.137.213.119:4205/bysid/27360
-#EXTINF:-1 group-title="英国UK(挂梯子)",That's 60s
-http://81.137.213.119:4205/bysid/28032
-#EXTINF:-1 group-title="英国UK(挂梯子)",TalkingPictures TV
-http://81.137.213.119:4205/bysid/28224
-#EXTINF:-1 group-title="英国UK(挂梯子)",QUEST
-http://81.137.213.119:4205/bysid/27328
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/DMAX.png" group-title="英国UK(挂梯子)",DMAX
-http://81.137.213.119:4205/bysid/27680
-#EXTINF:-1 group-title="英国UK(挂梯子)",ADULT Section
-http://81.137.213.119:4205/bysid/27584
-#EXTINF:-1 group-title="英国UK(挂梯子)",POP UP
-http://81.137.213.119:4205/bysid/27424
-#EXTINF:-1 group-title="英国UK(挂梯子)",Rewind TV
-http://81.137.213.119:4205/bysid/27744
-#EXTINF:-1 group-title="英国UK(挂梯子)",HobbyMaker
-http://81.137.213.119:4205/bysid/27840
-#EXTINF:-1 group-title="英国UK(挂梯子)",Ideal World
-http://81.137.213.119:4205/bysid/25920
-#EXTINF:-1 group-title="英国UK(挂梯子)",Great Mystery
-http://81.137.213.119:4205/bysid/27872
-#EXTINF:-1 group-title="英国UK(挂梯子)",Great Player
-http://81.137.213.119:4205/bysid/28352
-#EXTINF:-1 group-title="英国UK(挂梯子)",Great TV +1
-http://81.137.213.119:4205/bysid/28384
-#EXTINF:-1 group-title="日本(挂梯子)",NHKG
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693850
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GOLD.png" group-title="英国UK(挂梯子)",GOLD
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693851
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ITV1.png" group-title="英国UK(挂梯子)",ITV1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693855
+#EXTINF:-1 group-title="英国UK(挂梯子)",ITV 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693852
+#EXTINF:-1 group-title="英国UK(挂梯子)",ITV 3
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693853
+#EXTINF:-1 group-title="英国UK(挂梯子)",ITV 4
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693854
+#EXTINF:-1 group-title="英国UK(挂梯子)",LFC
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693856
+#EXTINF:-1 group-title="英国UK(挂梯子)",More4
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693857
+#EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mtv.png" group-title="英国UK(挂梯子)",MTV
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693858
+#EXTINF:-1 tvg-id="MUTV" tvg-name="MUTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sg/mutv.png" group-title="英国UK(挂梯子)",MUTV
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693859
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Nat Geo Wild.png" group-title="英国UK(挂梯子)",Nat Geo WIld
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693860
+#EXTINF:-1 group-title="英国UK(挂梯子)",National Geo
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693861
+#EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" group-title="英国UK(挂梯子)",Nick Jr
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693863
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/nick.png" group-title="英国UK(挂梯子)",NICK
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693862
+#EXTINF:-1 group-title="英国UK(挂梯子)",RTE 1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693865
+#EXTINF:-1 group-title="英国UK(挂梯子)",RTE 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693866
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY ARTS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693867
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY ATLANTIC
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693868
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY COMEDY
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693869
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CRIME
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693870
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY HISTORY 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693872
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY KIDS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693873
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Sky News.png" group-title="英国UK(挂梯子)",SKY NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693875
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SHOWCASE
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693876
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138133
+#EXTINF:-1 group-title="英国UK(挂梯子)",Sky Sports News
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693881
+#EXTINF:-1 group-title="英国UK(挂梯子)",Sky Sports Football
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693877
+#EXTINF:-1 group-title="英国UK(挂梯子)",Sky Sports Golf
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693878
+#EXTINF:-1 group-title="英国UK(挂梯子)",Sky Sports Main Events
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693879
+#EXTINF:-1 group-title="英国UK(挂梯子)",Sky Sports Mix
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693880
+#EXTINF:-1 group-title="英国UK(挂梯子)",Sky Sports Premier League
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693882
+#EXTINF:-1 group-title="英国UK(挂梯子)",Sky Sports Racing
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693883
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY WITNESS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693884
+#EXTINF:-1 tvg-id="Sony MAX" tvg-name="Sony MAX" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Sony MAX.png" group-title="英国UK(挂梯子)",SONY MAX
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693885
+#EXTINF:-1 group-title="英国UK(挂梯子)",SONY TV
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693886
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/SYFY.png" group-title="英国UK(挂梯子)",SYFY
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693887
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tlc.png" group-title="英国UK(挂梯子)",TLC
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693888
+#EXTINF:-1 group-title="英国UK(挂梯子)",UTSAV GOLD
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693889
+#EXTINF:-1 group-title="英国UK(挂梯子)",UTSAV PLUS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693890
+#EXTINF:-1 group-title="英国UK(挂梯子)",Viaplay 1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693891
+#EXTINF:-1 group-title="英国UK(挂梯子)",Viaplay 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693892
+#EXTINF:-1 group-title="英国UK(挂梯子)",Virgin 1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693893
+#EXTINF:-1 group-title="英国UK(挂梯子)",VIRGIN 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693894
+#EXTINF:-1 group-title="英国UK(挂梯子)",Watch
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693895
+#EXTINF:-1 tvg-id="Zee TV" tvg-name="Zee TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Zee TV.png" group-title="英国UK(挂梯子)",Zee Tv
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693896
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA PREMIERE
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138157
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA HITS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138161
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA COMEDY
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138164
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA DRAMA
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138165
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA SCIFI & HORROR
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138162
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA THRILLER
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138163
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA GREATS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138159
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA SELECT
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138158
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA ANIMATION
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138167
+#EXTINF:-1 group-title="英国UK(挂梯子)",PREMIER SPORTS 1 IR
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138151
+#EXTINF:-1 group-title="英国UK(挂梯子)",PREMIER SPORTS 1 UK
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138153
+#EXTINF:-1 group-title="英国UK(挂梯子)",PREMIER SPORTS 2 IR
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138152
+#EXTINF:-1 group-title="英国UK(挂梯子)",PREMIER SPORTS 2 UK
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138154
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS MAIN EVENT
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138134
+#EXTINF:-1 group-title="英国UK(挂梯子)",TNT SPORTS 4
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/190957
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA PREMIER
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/190958
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS MIX
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/190955
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS PREMIER LEAGUE
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/190956
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS FOOTBALL
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138135
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS CRICKET
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138140
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS GOLF
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138139
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS F1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138141
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS ARENA
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138137
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY SPORTS RACING
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138143
+#EXTINF:-1 group-title="英国UK(挂梯子)",BOXNATION
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138168
+#EXTINF:-1 group-title="英国UK(挂梯子)",TNT SPORT 1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138145
+#EXTINF:-1 group-title="英国UK(挂梯子)",TNT SPORT 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138146
+#EXTINF:-1 group-title="英国UK(挂梯子)",TNT SPORT 3
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138147
+#EXTINF:-1 group-title="英国UK(挂梯子)",TNT SPORT 4
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138148
+#EXTINF:-1 group-title="英国UK(挂梯子)",TNT SPORTS 1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/309614
+#EXTINF:-1 group-title="英国UK(挂梯子)",TNT SPORTS 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/309613
+#EXTINF:-1 group-title="英国UK(挂梯子)",TNT SPORTS 3
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/309612
+#EXTINF:-1 group-title="英国UK(挂梯子)",TNT SPORTS 4
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/309611
+#EXTINF:-1 group-title="英国UK(挂梯子)",Sky Nature
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693874
+#EXTINF:-1 group-title="英国UK(挂梯子)",RACING UK
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693864
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/news.png" group-title="英国UK(挂梯子)",NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1491133
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY NEWS ᴴᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/10536
+#EXTINF:-1 group-title="英国UK(挂梯子)",SKY  NEWS ᴴᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/13639
+#EXTINF:-1 group-title="英国UK(挂梯子)",BLOOMBERG NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/13642
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC NEWS ᴴᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/10582
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC PARLIAMENT
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/77363
+#EXTINF:-1 tvg-id="BBC World News" tvg-name="BBC World News" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBC World News.png" group-title="英国UK(挂梯子)",BBC WORLD NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/13645
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC ONE NEWS ᴴᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/77360
+#EXTINF:-1 group-title="英国UK(挂梯子)",CNN ᴴᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/10576
+#EXTINF:-1 tvg-id="Euronews" tvg-name="Euronews" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/euronews.png" group-title="英国UK(挂梯子)",EURONEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/246753
+#EXTINF:-1 tvg-id="Euronews" tvg-name="Euronews" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/euronews.png" group-title="英国UK(挂梯子)",EURONEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/13638
+#EXTINF:-1 group-title="英国UK(挂梯子)",ALJAZEERA NEWS ᴴᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/13644
+#EXTINF:-1 group-title="英国UK(挂梯子)",GB NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/148668
+#EXTINF:-1 group-title="英国UK(挂梯子)",CBS NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/246756
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Fox News.png" group-title="英国UK(挂梯子)",FOX NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/13640
+#EXTINF:-1 group-title="英国UK(挂梯子)",RTE NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/13643
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC GENERAL
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1451779
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC 1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/22246
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC ᴴᴰ 1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/10580
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/22244
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC ᴴᴰ 2
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/10579
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC ᴴᴰ 3 CBBC ᴴᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/10578
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC 4
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/22243
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC CBBC ᴴᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/10581
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC 2 Northern Ireland
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690833
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC ALBA
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690824
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC FOUR
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690823
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC One Channel Islands
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690825
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC One North East & Cumbria
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690827
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC One Northern Ireland
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690822
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC One North West
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690828
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC One South East
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690829
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC One Wales
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690821
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC One West
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690830
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC One Yorkshire & Lincolnshire
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690826
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC One Yorkshire
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690831
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC Red Button 1
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690832
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC SCOTLAND ˢᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690818
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC SCOTLAND ᴴᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690819
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC SCOTLAND ᴴᴰ
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690820
+#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" group-title="英国UK(挂梯子)",BBC NEWS
+http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/22242
+#EXTINF:-1 group-title="日本JP(挂梯子)",NHKG
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",NHKE
+#EXTINF:-1 group-title="日本JP(挂梯子)",NHKE
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ntv.png" group-title="日本(挂梯子)",NTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ntv.png" group-title="日本JP(挂梯子)",NTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbs.png" group-title="日本(挂梯子)",TBS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbs.png" group-title="日本JP(挂梯子)",TBS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",FujiTV
+#EXTINF:-1 group-title="日本JP(挂梯子)",FujiTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",TVAsahi
+#EXTINF:-1 group-title="日本JP(挂梯子)",TVAsahi
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd06&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",TVTokyo
+#EXTINF:-1 group-title="日本JP(挂梯子)",TVTokyo
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd07&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tokyomx1.png" group-title="日本(挂梯子)",TOKYOMX1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tokyomx1.png" group-title="日本JP(挂梯子)",TOKYOMX1
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd08&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",NHKG
+#EXTINF:-1 group-title="日本JP(挂梯子)",NHKG
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",NHKE
+#EXTINF:-1 group-title="日本JP(挂梯子)",NHKE
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ntv.png" group-title="日本(挂梯子)",NTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ntv.png" group-title="日本JP(挂梯子)",NTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbs.png" group-title="日本(挂梯子)",TBS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbs.png" group-title="日本JP(挂梯子)",TBS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",FujiTV
+#EXTINF:-1 group-title="日本JP(挂梯子)",FujiTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",TVAsahi
+#EXTINF:-1 group-title="日本JP(挂梯子)",TVAsahi
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",TVTokyo
+#EXTINF:-1 group-title="日本JP(挂梯子)",TVTokyo
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tokyomx1.png" group-title="日本(挂梯子)",TOKYOMX1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tokyomx1.png" group-title="日本JP(挂梯子)",TOKYOMX1
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",NHKGOsaka
+#EXTINF:-1 group-title="日本JP(挂梯子)",NHKGOsaka
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",MBS
+#EXTINF:-1 group-title="日本JP(挂梯子)",MBS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ABC.png" group-title="日本(挂梯子)",ABC
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ABC.png" group-title="日本JP(挂梯子)",ABC
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",KansaiTV
+#EXTINF:-1 group-title="日本JP(挂梯子)",KansaiTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",ytv
+#EXTINF:-1 group-title="日本JP(挂梯子)",ytv
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",TVOsaka
+#EXTINF:-1 group-title="日本JP(挂梯子)",TVOsaka
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",SUN
+#EXTINF:-1 group-title="日本JP(挂梯子)",SUN
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",NHKBS
+#EXTINF:-1 group-title="日本JP(挂梯子)",NHKBS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",BSNTV
+#EXTINF:-1 group-title="日本JP(挂梯子)",BSNTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",BSAsahi
+#EXTINF:-1 group-title="日本JP(挂梯子)",BSAsahi
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",BSTBS
+#EXTINF:-1 group-title="日本JP(挂梯子)",BSTBS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",BSTVTokyo
+#EXTINF:-1 group-title="日本JP(挂梯子)",BSTVTokyo
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",BSFuji
+#EXTINF:-1 group-title="日本JP(挂梯子)",BSFuji
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",NHKBS4K
+#EXTINF:-1 group-title="日本JP(挂梯子)",NHKBS4K
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",WOWOWPrime
+#EXTINF:-1 group-title="日本JP(挂梯子)",WOWOWPrime
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",WOWOWCinema
+#EXTINF:-1 group-title="日本JP(挂梯子)",WOWOWCinema
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",WOWOWLive
+#EXTINF:-1 group-title="日本JP(挂梯子)",WOWOWLive
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",BS10StarChannel
+#EXTINF:-1 group-title="日本JP(挂梯子)",BS10StarChannel
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",JSport1
+#EXTINF:-1 group-title="日本JP(挂梯子)",JSport1
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",JSport2
+#EXTINF:-1 group-title="日本JP(挂梯子)",JSport2
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",JSport3
+#EXTINF:-1 group-title="日本JP(挂梯子)",JSport3
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",JSport4
+#EXTINF:-1 group-title="日本JP(挂梯子)",JSport4
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",GreenChannel
+#EXTINF:-1 group-title="日本JP(挂梯子)",GreenChannel
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-id="Animax" tvg-name="Animax" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ANIMAX.png" group-title="日本(挂梯子)",Animax
+#EXTINF:-1 tvg-id="Animax" tvg-name="Animax" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ANIMAX.png" group-title="日本JP(挂梯子)",Animax
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",NihonEigaSenmon
+#EXTINF:-1 group-title="日本JP(挂梯子)",NihonEigaSenmon
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",SkyA
+#EXTINF:-1 group-title="日本JP(挂梯子)",SkyA
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",FishingVision
+#EXTINF:-1 group-title="日本JP(挂梯子)",FishingVision
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DISNEYCHANNEL.png" group-title="日本(挂梯子)",DisneyChannel
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DISNEYCHANNEL.png" group-title="日本JP(挂梯子)",DisneyChannel
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",JCOMBS
+#EXTINF:-1 group-title="日本JP(挂梯子)",JCOMBS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",JidaigekiSenmon
+#EXTINF:-1 group-title="日本JP(挂梯子)",JidaigekiSenmon
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",ToeiChannel
+#EXTINF:-1 group-title="日本JP(挂梯子)",ToeiChannel
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",EiseiGekijo
+#EXTINF:-1 group-title="日本JP(挂梯子)",EiseiGekijo
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",FamilyGekijyo
+#EXTINF:-1 group-title="日本JP(挂梯子)",FamilyGekijyo
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",MoviePlus
+#EXTINF:-1 group-title="日本JP(挂梯子)",MoviePlus
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",HomeDramaChannel
+#EXTINF:-1 group-title="日本JP(挂梯子)",HomeDramaChannel
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",TabiChannel
+#EXTINF:-1 group-title="日本JP(挂梯子)",TabiChannel
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",FujiTVNext
+#EXTINF:-1 group-title="日本JP(挂梯子)",FujiTVNext
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",SkyA
+#EXTINF:-1 group-title="日本JP(挂梯子)",SkyA
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",GAORASPORTS
+#EXTINF:-1 group-title="日本JP(挂梯子)",GAORASPORTS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",GolfNetwork
+#EXTINF:-1 group-title="日本JP(挂梯子)",GolfNetwork
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",NitteleG+
+#EXTINF:-1 group-title="日本JP(挂梯子)",NitteleG+
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",MondoTV
+#EXTINF:-1 group-title="日本JP(挂梯子)",MondoTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",ChannelGinga
+#EXTINF:-1 group-title="日本JP(挂梯子)",ChannelGinga
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/SPACESHOWERTV.png" group-title="日本(挂梯子)",SpaceShowerTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/SPACESHOWERTV.png" group-title="日本JP(挂梯子)",SpaceShowerTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",MusicJapanTV
+#EXTINF:-1 group-title="日本JP(挂梯子)",MusicJapanTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",KayoPops
+#EXTINF:-1 group-title="日本JP(挂梯子)",KayoPops
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mtv.png" group-title="日本(挂梯子)",MTV
+#EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mtv.png" group-title="日本JP(挂梯子)",MTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",LaLaTV
+#EXTINF:-1 group-title="日本JP(挂梯子)",LaLaTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",TakarazukaSkyStage
+#EXTINF:-1 group-title="日本JP(挂梯子)",TakarazukaSkyStage
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",KidsStatonTV
+#EXTINF:-1 group-title="日本JP(挂梯子)",KidsStatonTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CartoonNetwork.png" group-title="日本(挂梯子)",CartoonNetwork
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CartoonNetwork.png" group-title="日本JP(挂梯子)",CartoonNetwork
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs25&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",NationalGeographicJapan
+#EXTINF:-1 group-title="日本JP(挂梯子)",NationalGeographicJapan
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DISNEYJUNIOR.png" group-title="日本(挂梯子)",DisneyJunior
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DISNEYJUNIOR.png" group-title="日本JP(挂梯子)",DisneyJunior
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DISCOVERYCHANNEL.png" group-title="日本(挂梯子)",DiscoveryChannel
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DISCOVERYCHANNEL.png" group-title="日本JP(挂梯子)",DiscoveryChannel
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/animalplanet.png" group-title="日本(挂梯子)",AnimalPlanet
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/animalplanet.png" group-title="日本JP(挂梯子)",AnimalPlanet
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs24&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-id="History" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/history.png" group-title="日本(挂梯子)",History
+#EXTINF:-1 tvg-id="History" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/history.png" group-title="日本JP(挂梯子)",History
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",CNNj
+#EXTINF:-1 group-title="日本JP(挂梯子)",CNNj
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-id="BBCNEWS" tvg-name="BBCNEWS" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBCNEWS.png" group-title="日本(挂梯子)",BBCNews
+#EXTINF:-1 tvg-id="BBCNEWS" tvg-name="BBCNEWS" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBCNEWS.png" group-title="日本JP(挂梯子)",BBCNews
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbsnews.png" group-title="日本(挂梯子)",TBSNews
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbsnews.png" group-title="日本JP(挂梯子)",TBSNews
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本(挂梯子)",pigoo
+#EXTINF:-1 group-title="日本JP(挂梯子)",pigoo
 https://nl.utako.moe/pigoo/index.m3u8
-#EXTINF:-1 group-title="日本(挂梯子)",NecoChannel
+#EXTINF:-1 group-title="日本JP(挂梯子)",NecoChannel
 https://nl.utako.moe/neco/index.m3u8
-#EXTINF:-1 group-title="韩国",ABN TV (720p)
+#EXTINF:-1 group-title="韩国KR",ABN TV (720p)
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
-#EXTINF:-1 group-title="韩国",Arirang Radio (720p)
+#EXTINF:-1 group-title="韩国KR",Arirang Radio (720p)
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="韩国",BBS Buddhist Broadcasting (1080p)
+#EXTINF:-1 group-title="韩国KR",BBS Buddhist Broadcasting (1080p)
 http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
-#EXTINF:-1 group-title="韩国",CGNTV South Korea (1080p)
+#EXTINF:-1 group-title="韩国KR",CGNTV South Korea (1080p)
 https://du35ivadp6cxj.cloudfront.net/out/v1/81781d23cbbf490990b2aa9181d4ce19/CGNWebLiveKR.m3u8
-#EXTINF:-1 group-title="韩国",CJ OnStyle (540p)
+#EXTINF:-1 group-title="韩国KR",CJ OnStyle (540p)
 https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8
-#EXTINF:-1 group-title="韩国",EWTN Africa Asia (720p)
+#EXTINF:-1 group-title="韩国KR",EWTN Africa Asia (720p)
 https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
-#EXTINF:-1 group-title="韩国",EWTN Asia-Pacific (720p) [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",EWTN Asia-Pacific (720p) [Not 24/7]
 https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
-#EXTINF:-1 group-title="韩国",GCN24 Korean (720p)
+#EXTINF:-1 group-title="韩国KR",GCN24 Korean (720p)
 http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8
-#EXTINF:-1 group-title="韩国",GoodTV (1080p)
+#EXTINF:-1 group-title="韩国KR",GoodTV (1080p)
 http://mobliestream.c3tv.com:1935/live/goodtv.sdp/playlist.m3u8
-#EXTINF:-1 group-title="韩国",Gugbang TV (1080p) [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",Gugbang TV (1080p) [Not 24/7]
 http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
-#EXTINF:-1 group-title="韩国",Home & Shopping (720p)
+#EXTINF:-1 group-title="韩国KR",Home & Shopping (720p)
 https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
-#EXTINF:-1 group-title="韩国",KBS 1TV [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",KBS 1TV [Not 24/7]
 http://mytv.dothome.co.kr/ch/public/1.php
-#EXTINF:-1 group-title="韩国",KBS 2TV [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",KBS 2TV [Not 24/7]
 http://mytv.dothome.co.kr/ch/public/3.php
-#EXTINF:-1 group-title="韩国",KBS Drama (480p)
+#EXTINF:-1 group-title="韩国KR",KBS Drama (480p)
 http://mytv.dothome.co.kr/ch/catv/2.php
-#EXTINF:-1 group-title="韩国",KBS Life (480p)
+#EXTINF:-1 group-title="韩国KR",KBS Life (480p)
 http://mytv.dothome.co.kr/ch/catv/5.php
-#EXTINF:-1 group-title="韩国",KBS LiveCam DokDo (540p)
+#EXTINF:-1 group-title="韩国KR",KBS LiveCam DokDo (540p)
 http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
-#EXTINF:-1 group-title="韩国",KCTV 광주 CH05 (720p) [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",KCTV 광주 CH05 (720p) [Not 24/7]
 http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
-#EXTINF:-1 group-title="韩国",Lotte OneTV (720p)
+#EXTINF:-1 group-title="韩国KR",Lotte OneTV (720p)
 https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8
-#EXTINF:-1 group-title="韩国",MBC Andong (안동 MBC) (360p) [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",MBC Andong (안동 MBC) (360p) [Not 24/7]
 http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
-#EXTINF:-1 group-title="韩国",MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]
 https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8
-#EXTINF:-1 group-title="韩国",MBC Jeju (제주 MBC) (352p) [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",MBC Jeju (제주 MBC) (352p) [Not 24/7]
 https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
-#EXTINF:-1 group-title="韩国",MBC Mokpo (목포 MBC) (720p) [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",MBC Mokpo (목포 MBC) (720p) [Not 24/7]
 http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
-#EXTINF:-1 group-title="韩国",MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
 https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
-#EXTINF:-1 group-title="韩国",NHTV (720p)
+#EXTINF:-1 group-title="韩国KR",NHTV (720p)
 http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8
-#EXTINF:-1 group-title="韩国",SBS CJB (540p) [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",SBS CJB (540p) [Not 24/7]
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
-#EXTINF:-1 group-title="韩国",SBS JTV (406p) [Not 24/7]
+#EXTINF:-1 group-title="韩国KR",SBS JTV (406p) [Not 24/7]
 http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
-#EXTINF:-1 group-title="韩国",Shopping NT (720p)
+#EXTINF:-1 group-title="韩国KR",Shopping NT (720p)
 https://live.shoppingntmall.com/live/10011.m3u8
-#EXTINF:-1 group-title="韩国",tvchosun2
+#EXTINF:-1 group-title="韩国KR",tvchosun2
 http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
-#EXTINF:-1 group-title="韩国",tvchosun
+#EXTINF:-1 group-title="韩国KR",tvchosun
 http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8
-#EXTINF:-1 group-title="韩国",BBS
+#EXTINF:-1 group-title="韩国KR",BBS
 http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1216149699.m3u8
-#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国",EBS1
+#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国KR",EBS1
 http://ebsonairios.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="EBS2" tvg-name="EBS2" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBS2.png" group-title="韩国",EBS2
+#EXTINF:-1 tvg-id="EBS2" tvg-name="EBS2" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBS2.png" group-title="韩国KR",EBS2
 http://ebsonairios.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBSE.png" group-title="韩国",EBSe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBSE.png" group-title="韩国KR",EBSe
 http://ebsonairios.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国",EBS1
+#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国KR",EBS1
 http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
-#EXTINF:-1 tvg-id="EBS2" tvg-name="EBS2" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBS2.png" group-title="韩国",EBS2
+#EXTINF:-1 tvg-id="EBS2" tvg-name="EBS2" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBS2.png" group-title="韩国KR",EBS2
 http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8
-#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国",EBS1
+#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国KR",EBS1
 http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8
-#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国",EBS1
+#EXTINF:-1 tvg-id="EBS1" tvg-name="EBS1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ebs1.png" group-title="韩国KR",EBS1
 http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/groundwavetablet500k.m3u8
-#EXTINF:-1 group-title="韩国",EBSi
+#EXTINF:-1 group-title="韩国KR",EBSi
 http://ebsonairios.ebs.co.kr/plus1tablet500k/tablet500k/plus1tablet500k.index.m3u8
-#EXTINF:-1 group-title="韩国",EBS+2
+#EXTINF:-1 group-title="韩国KR",EBS+2
 http://ebsonairios.ebs.co.kr/plus2tablet500k/tablet500k/plus2tablet500k.index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBSE.png" group-title="韩国",EBSe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/EBSE.png" group-title="韩国KR",EBSe
 http://ebsonairios.ebs.co.kr/plus3tablet500k/tablet500k/plus3tablet500k.index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国",KCTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国KR",KCTV
 http://119.77.96.184:1935/chn05/chn05/chunklist_w1306745753.m3u8
-#EXTINF:-1 group-title="韩国",tvN1
+#EXTINF:-1 group-title="韩国KR",tvN1
 https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?
-#EXTINF:-1 group-title="韩国",tvN2
+#EXTINF:-1 group-title="韩国KR",tvN2
 https://d21dxaer0ypwk1.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6m2cy2rylsvo-ssai-prd/54ac8e25_eb5a_4f10_ba20_ffb254f0a16c/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.service_id=KRBC32000261J
-#EXTINF:-1 group-title="韩国",tvN3
+#EXTINF:-1 group-title="韩国KR",tvN3
 https://d25mdvvpht3395.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p8ea370fl7r4f-ssai-prd/82f296fd_2916_45b7_b799_525a4226957a/hls/playlist.m3u8?
-#EXTINF:-1 group-title="韩国",tvN5
+#EXTINF:-1 group-title="韩国KR",tvN5
 https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?tvN Movies
-#EXTINF:-1 group-title="韩国",KBS世界
+#EXTINF:-1 group-title="韩国KR",KBS世界
 https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国",Arirang
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国KR",Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国",Arirang
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国KR",Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="韩国",EBS 2
+#EXTINF:-1 group-title="韩国KR",EBS 2
 http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8?
-#EXTINF:-1 group-title="韩国",JTV
+#EXTINF:-1 group-title="韩国KR",JTV
 http://61.85.197.53:1935/jtv_live/myStream/chunklist_w1542137203.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国",KCTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国KR",KCTV
 http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8
-#EXTINF:-1 group-title="韩国",C
+#EXTINF:-1 group-title="韩国KR",C
 http://112.175.51.214:1935/live/myStream/playlist.m3u8
-#EXTINF:-1 group-title="韩国",TV
+#EXTINF:-1 group-title="韩国KR",TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tv1.png" group-title="韩国",TV1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tv1.png" group-title="韩国KR",TV1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TV3.png" group-title="韩国",TV3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TV3.png" group-title="韩国KR",TV3
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=630
-#EXTINF:-1 group-title="韩国",TV4
+#EXTINF:-1 group-title="韩国KR",TV4
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=644
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/14.png" group-title="韩国",14
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/14.png" group-title="韩国KR",14
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=14
-#EXTINF:-1 group-title="韩国",EBS少儿
+#EXTINF:-1 group-title="韩国KR",EBS少儿
 http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/chunklist_w1965791004.m3u8
-#EXTINF:-1 group-title="韩国",韩国EBS1
+#EXTINF:-1 group-title="韩国KR",韩国EBS1
 http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8?zshijd
-#EXTINF:-1 group-title="韩国",韩国EBS2
+#EXTINF:-1 group-title="韩国KR",韩国EBS2
 http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8?zshijd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国",Arirang
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国KR",Arirang
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国",KCTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国KR",KCTV
 http://119.77.96.184:1935/chn05/chn05/chunklist.m3u
-#EXTINF:-1 group-title="韩国",声优广播
+#EXTINF:-1 group-title="韩国KR",声优广播
 http://www.uniqueradio.jp/agplayerf/hls/Active.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国",KCTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kctv.png" group-title="韩国KR",KCTV
 http://119.77.96.184:1935/chn05/chn05/chunklist.m3u8
-#EXTINF:-1 group-title="韩国",CJB
+#EXTINF:-1 group-title="韩国KR",CJB
 http://1.222.207.80:1935/live/cjbtv/chunklist_w1357270949.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国",Arirang
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国KR",Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch/master.m3u8
-#EXTINF:-1 group-title="韩国",BBS佛教广播
+#EXTINF:-1 group-title="韩国KR",BBS佛教广播
 http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国",Arirang
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/kr/arirang.png" group-title="韩国KR",Arirang
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbtv.png" group-title="韩国",HBTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbtv.png" group-title="韩国KR",HBTV
 http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ANTV.png" group-title="韩国",ANTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ANTV.png" group-title="韩国KR",ANTV
 http://antvlive.ab5c6921.cdnviet.com/antv/chunklist.m3u8
-#EXTINF:-1 group-title="韩国",Arirang Radio
+#EXTINF:-1 group-title="韩国KR",Arirang Radio
 http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="韩国",BTN
+#EXTINF:-1 group-title="韩国KR",BTN
 http://btn.nowcdn.co.kr/btn/btnlive01/playlist.m3u8
-#EXTINF:-1 group-title="韩国",CPBC
+#EXTINF:-1 group-title="韩国KR",CPBC
 http://onair1.cpbc.co.kr:1935/tv/smil:live.smil/playlist.m3u8
-#EXTINF:-1 group-title="韩国",EBS-KIDS
+#EXTINF:-1 group-title="韩国KR",EBS-KIDS
 http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/playlist.m3u8
-#EXTINF:-1 group-title="韩国",GCN教会
+#EXTINF:-1 group-title="韩国KR",GCN教会
 http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_high/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mbn.png" group-title="韩国",MBN
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mbn.png" group-title="韩国KR",MBN
 http://mytv.dothome.co.kr/ch/catv/54.php
-#EXTINF:-1 group-title="韩国",NewKID2
+#EXTINF:-1 group-title="韩国KR",NewKID2
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=878
-#EXTINF:-1 group-title="韩国",NewKID4
+#EXTINF:-1 group-title="韩国KR",NewKID4
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=888
-#EXTINF:-1 group-title="韩国",NewKID4
+#EXTINF:-1 group-title="韩国KR",NewKID4
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=872
-#EXTINF:-1 group-title="韩国",韩国音乐
+#EXTINF:-1 group-title="韩国KR",韩国音乐
 http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
-#EXTINF:-1 group-title="韩国",RNA
+#EXTINF:-1 group-title="韩国KR",RNA
 http://5ddfc48289114.streamlock.net/CHsoom/LIVE/playist.m3u8
 #EXTINF:-1 group-title="抖音直播",水水家猪蹄
 https://cdn-3.ttvb.eu.org/douyin/ssjzt777
