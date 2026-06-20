@@ -135,6 +135,7 @@ jobs:
           "get_asiasatv_epg.py"
           # "get_epg_from_pw_api.py"
           "get_huangguatv_epg.py"
+          "get_rthk_epg.py"
         )
         
         # 存储失败脚本的数组，用于错误报告
