@@ -970,20 +970,6 @@ http://push.cdn1.hls123.de:8080/streams/8nsrl4s4evv/index.m3u8
 #EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="极速港台2",重温经典
 http://push.cdn1.hls123.de:8080/streams/g0jj471jied/index.m3u8
 #EXTINF:-1 group-title="2026世界杯",咪咕频道
-https://live01-cn-ali.kbazwa.com/live/80427327.m3u8
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="2026世界杯",广东体育
-https://live01-cn-ali.kbazwa.com/live/90149826.m3u8
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="2026世界杯",CCTV5
-https://live01-cn-ali.kbazwa.com/live/20233432.m3u8
-#EXTINF:-1 tvg-id="澳門體育" tvg-name="澳門體育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/澳门体育.png" group-title="2026世界杯",澳门体育
-https://live01-cn-ali.kbazwa.com/live/38143826.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育1.png" group-title="2026世界杯",ELTA体育1
-https://live01-cn-ali.kbazwa.com/live/16697898.m3u8
-#EXTINF:-1 group-title="2026世界杯",NOW618
-https://live01-cn-ali.kbazwa.com/live/83083629.m3u8
-#EXTINF:-1 group-title="2026世界杯",小红书
-https://live01-cn-ali.kbazwa.com/live/22539477.m3u8
-#EXTINF:-1 group-title="2026世界杯",咪咕频道
 https://live.666666.zip/stream/80427327.m3u8
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="2026世界杯",广东体育
 https://live.666666.zip/stream/90149826.m3u8
@@ -993,10 +979,24 @@ https://live.666666.zip/stream/20233432.m3u8
 https://live.666666.zip/stream/38143826.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育1.png" group-title="2026世界杯",ELTA体育1
 https://live.666666.zip/stream/16697898.m3u8
-#EXTINF:-1 group-title="2026世界杯",NOW618
-https://live.666666.zip/stream/83083629.m3u8
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="2026世界杯",CCTV5+
+https://live.666666.zip/stream/79635460.m3u8
 #EXTINF:-1 group-title="2026世界杯",小红书
 https://live.666666.zip/stream/22539477.m3u8
+#EXTINF:-1 group-title="2026世界杯",咪咕频道
+https://live13a.jynrrs.com/live/80427327.m3u8
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="2026世界杯",广东体育
+https://live13a.jynrrs.com/live/90149826.m3u8
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="2026世界杯",CCTV5
+https://live13a.jynrrs.com/live/20233432.m3u8
+#EXTINF:-1 tvg-id="澳門體育" tvg-name="澳門體育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/澳门体育.png" group-title="2026世界杯",澳门体育
+https://live13a.jynrrs.com/live/38143826.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育1.png" group-title="2026世界杯",ELTA体育1
+https://live13a.jynrrs.com/live/16697898.m3u8
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="2026世界杯",CCTV5+
+https://live13a.jynrrs.com/live/79635460.m3u8
+#EXTINF:-1 group-title="2026世界杯",小红书
+https://live13a.jynrrs.com/live/22539477.m3u8
 #EXTINF:-1 group-title="2026世界杯",凤凰咨询
 http://feilong123.vip/409990236/hktv.php?id=1
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰香港.png" group-title="2026世界杯",凤凰香港
@@ -2673,160 +2673,6 @@ http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690819
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690820
 #EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" group-title="英国UK(挂梯子)",BBC NEWS
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/22242
-#EXTINF:-1 group-title="日本JP(挂梯子)",NHKG
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",NHKE
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ntv.png" group-title="日本JP(挂梯子)",NTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbs.png" group-title="日本JP(挂梯子)",TBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",FujiTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",TVAsahi
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd06&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",TVTokyo
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd07&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tokyomx1.png" group-title="日本JP(挂梯子)",TOKYOMX1
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd08&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",NHKG
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",NHKE
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ntv.png" group-title="日本JP(挂梯子)",NTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbs.png" group-title="日本JP(挂梯子)",TBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",FujiTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",TVAsahi
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",TVTokyo
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tokyomx1.png" group-title="日本JP(挂梯子)",TOKYOMX1
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",NHKGOsaka
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",MBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ABC.png" group-title="日本JP(挂梯子)",ABC
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",KansaiTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",ytv
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",TVOsaka
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",SUN
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",NHKBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",BSNTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",BSAsahi
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",BSTBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",BSTVTokyo
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",BSFuji
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",NHKBS4K
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",WOWOWPrime
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",WOWOWCinema
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",WOWOWLive
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",BS10StarChannel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",JSport1
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",JSport2
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",JSport3
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",JSport4
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",GreenChannel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-id="Animax" tvg-name="Animax" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ANIMAX.png" group-title="日本JP(挂梯子)",Animax
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",NihonEigaSenmon
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",SkyA
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",FishingVision
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DISNEYCHANNEL.png" group-title="日本JP(挂梯子)",DisneyChannel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",JCOMBS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",JidaigekiSenmon
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",ToeiChannel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",EiseiGekijo
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",FamilyGekijyo
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",MoviePlus
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",HomeDramaChannel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",TabiChannel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",FujiTVNext
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",SkyA
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",GAORASPORTS
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",GolfNetwork
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",NitteleG+
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",MondoTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",ChannelGinga
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/SPACESHOWERTV.png" group-title="日本JP(挂梯子)",SpaceShowerTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",MusicJapanTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",KayoPops
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mtv.png" group-title="日本JP(挂梯子)",MTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",LaLaTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",TakarazukaSkyStage
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",KidsStatonTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CartoonNetwork.png" group-title="日本JP(挂梯子)",CartoonNetwork
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs25&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",NationalGeographicJapan
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DISNEYJUNIOR.png" group-title="日本JP(挂梯子)",DisneyJunior
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DISCOVERYCHANNEL.png" group-title="日本JP(挂梯子)",DiscoveryChannel
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/animalplanet.png" group-title="日本JP(挂梯子)",AnimalPlanet
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs24&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-id="History" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/history.png" group-title="日本JP(挂梯子)",History
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",CNNj
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-id="BBCNEWS" tvg-name="BBCNEWS" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/BBCNEWS.png" group-title="日本JP(挂梯子)",BBCNews
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/tbsnews.png" group-title="日本JP(挂梯子)",TBSNews
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11&isp=10&bind=0&uin=159413&playseek=
-#EXTINF:-1 group-title="日本JP(挂梯子)",pigoo
-https://nl.utako.moe/pigoo/index.m3u8
-#EXTINF:-1 group-title="日本JP(挂梯子)",NecoChannel
-https://nl.utako.moe/neco/index.m3u8
 #EXTINF:-1 group-title="韩国KR",ABN TV (720p)
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
 #EXTINF:-1 group-title="韩国KR",Arirang Radio (720p)
