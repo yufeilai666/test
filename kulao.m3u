@@ -1893,7 +1893,7 @@ http://o11.163189.xyz/stream/live/ccm/
 http://o11.163189.xyz/stream/live/typd/
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="🔮港澳台直播",无线新闻
 http://cdn6.163189.xyz/163189/wxxw
-#EXTINF:-1 tvg-id="香港衛視" tvg-name="香港衛視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/香港卫视.png" group-title="🔮港澳台直播",香港卫视
+#EXTINF:-1 tvg-id="香港卫视" tvg-name="香港卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/香港卫视.png" group-title="🔮港澳台直播",香港卫视
 https://hkstv.tv/api/m3u8-proxy?url=http%3A%2F%2Fwebcast.hkstv.tv%2Flivestream%2Fmutfysrq%2Fplaylist.m3u8
 #EXTINF:-1 tvg-id="娱乐新闻" tvg-name="娱乐新闻" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/娱乐新闻.png" group-title="🔮港澳台直播",娱乐新闻
 http://cdn6.163189.xyz/163189/ylxw
