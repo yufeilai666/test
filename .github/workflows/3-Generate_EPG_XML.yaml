@@ -67,12 +67,10 @@ jobs:
         # 安装Python脚本可能需要的库
         pip install requests beautifulsoup4 lxml pytz httpx loguru aiohttp
 
-    # 步骤5: 安装PHP扩展
+    # 步骤5: 安装PHP扩展（已注释，如需可取消）
     # - name: Install PHP dependencies
       # run: |
-        # 更新包管理器
         # sudo apt-get update
-        # 安装PHP脚本可能需要的扩展
         # sudo apt-get install -y php-curl php-xml php-mbstring        
 
     # 步骤6: 直接检出私有仓库的epg_scripts分支
@@ -196,8 +194,8 @@ jobs:
           for failed in "${failed_scripts[@]}"; do
             echo "  - $failed"
           done
-          # 如果有脚本失败，退出状态为非零，使工作流标记为失败
-          exit 1
+          # 注意：这里不再执行 exit 1，单个脚本失败不会导致整个工作流失败
+          # 仅报告失败，工作流将继续执行后续步骤
         fi
 
     # 步骤8: 清理依赖脚本（确保不提交到仓库）
