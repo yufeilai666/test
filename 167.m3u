@@ -1917,7 +1917,7 @@ p3p://167.114.175.6:55331/6491c86300014b4e6aad8a5b5aa15eef
 p3p://167.114.175.6:55331/63f58870000f0bfa0856949f79897dd5
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/cartoon.png" group-title="新马MS",CARTOON
 p3p://167.114.175.6:55331/5fe7e52500054b3590c929e9016b3ecb
-#EXTINF:-1 tvg-id="Astro Cricket" tvg-name="Astro Cricket" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Astro Cricket.png" group-title="新马MS",Astro Cricket
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Astro Cricket.png" group-title="新马MS",Astro Cricket
 p3p://167.114.175.6:55331/5fe7e312000e326190c1120560b323e1
 #EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/hbo.png" group-title="新马MS",HBO
 p3p://167.114.175.6:55331/5fe6c3b3000ae0538c5e86154ed52a5b
@@ -2441,7 +2441,7 @@ p3p://167.114.175.6:55331/63fd56ec000b5f0d26d4fe1b07963493
 p3p://167.114.175.6:55331/6253066c00049259f74b05224cf375e6
 #EXTINF:-1 tvg-id="彩虹頻道" tvg-name="彩虹頻道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/彩虹頻道.png" group-title="私人频道",彩虹频道
 p3p://167.114.175.6:55331/63fd589300099ff426db7203798a21f9
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/极限电影.png" group-title="私人频道",极限电影
+#EXTINF:-1 tvg-id="極限電影" tvg-name="極限電影" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/极限电影.png" group-title="私人频道",极限电影
 p3p://167.114.175.6:55331/6109e9bb0005fd87fd9ce5ea2c1f18d3
 #EXTINF:-1 group-title="私人频道",西方OFFICE场景
 p3p://167.114.175.6:55331/6403cb9f0003a839400cad904b301253
