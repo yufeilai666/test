@@ -217,9 +217,22 @@ jobs:
         BEIJING_TIME=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')
         echo "beijing_time=$BEIJING_TIME" >> $GITHUB_OUTPUT
         echo "⏲️ 当前北京时间: $BEIJING_TIME"
+
+    # 新增步骤：获取实际变更的文件名（仅当有变更时）
+    - name: Get changed files
+      if: steps.check_changes.outputs.changes == 'true'
+      id: changed_files
+      run: |
+        # 从暂存区提取 epg/ 目录下的变更文件名，以逗号分隔
+        CHANGED=$(git diff --staged --name-only -- epg/ | tr '\n' ',' | sed 's/,$//')
+        echo "changed_files=$CHANGED" >> $GITHUB_OUTPUT
+        echo "📝 变更文件: $CHANGED"
         
     - name: Commit and push if changes
       if: steps.check_changes.outputs.changes == 'true'
       run: |
-        git commit -m "🔄 自动更新EPG文件 [${{ steps.beijing_time.outputs.beijing_time }}]"
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        CHANGED="${{ steps.changed_files.outputs.changed_files }}"
+        git commit -m "🔄 自动更新 EPG 文件 [${{ steps.beijing_time.outputs.beijing_time }}] | 变更: $CHANGED"
         git push
