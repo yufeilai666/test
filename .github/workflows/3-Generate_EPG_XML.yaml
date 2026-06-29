@@ -289,7 +289,7 @@ jobs:
           
           # 构建提交信息（如果有文件列表则附加）
           if [ -n "$FILE_LIST" ]; then
-            COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME] | $FILE_LIST"
+            COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME] | 变更: $FILE_LIST"
           else
             COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME]"
           fi

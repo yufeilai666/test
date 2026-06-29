@@ -200,7 +200,7 @@ jobs:
         ls -la *.xml 2>/dev/null || echo "⚠️ 无XML文件"
         cd ..
 
-    # 步骤8: 提交和推送到私有仓库
+    # 步骤8: 提交和推送到私有仓库（已改进：检测实际变更并记录文件名）
     - name: Commit and Push to Private Repository
       if: always()
       env:
@@ -220,20 +220,27 @@ jobs:
         # 添加所有XML文件变更
         git add --all *.xml
         
-        # 检查是否有实际变更
-        if git diff-index --quiet HEAD --; then
+        # 检查暂存区是否有实际变更（使用 --cached，因为已add）
+        if git diff --cached --quiet; then
           echo "ℹ️ 没有检测到XML文件变更，跳过提交"
+          exit 0
+        fi
+        
+        # 获取变更的文件名列表（暂存区）
+        changed_files=$(git diff --cached --name-only | tr '\n' ',' | sed 's/,$//')
+        if [ -z "$changed_files" ]; then
+          echo "ℹ️ 无变更文件，跳过提交"
           exit 0
         fi
         
         # 获取失败脚本信息
         failed_scripts="${{ steps.generate-step.outputs.failed_scripts }}"
         
-        # 构造提交信息
+        # 构造提交信息（含时间、时区及变更文件列表）
         now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-        commit_msg="✅ 自动更新 EPG 文件: $now_time"
+        commit_msg="🔄 自动更新 EPG 文件 $now_time CST | 变更: $changed_files"
         
-        # 如果有失败脚本，在提交信息中注明
+        # 如果有失败脚本，追加到提交信息
         if [ -n "$failed_scripts" ]; then
           commit_msg+=" (⚠️ 部分失败: ${failed_scripts})"
         fi
