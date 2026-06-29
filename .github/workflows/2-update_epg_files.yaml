@@ -218,13 +218,13 @@ jobs:
         echo "beijing_time=$BEIJING_TIME" >> $GITHUB_OUTPUT
         echo "⏲️ 当前北京时间: $BEIJING_TIME"
 
-    # 新增步骤：获取实际变更的文件名（仅当有变更时）
+    # 新增步骤：获取实际变更的文件名（仅当有变更时），并去除路径前缀
     - name: Get changed files
       if: steps.check_changes.outputs.changes == 'true'
       id: changed_files
       run: |
-        # 从暂存区提取 epg/ 目录下的变更文件名，以逗号分隔
-        CHANGED=$(git diff --staged --name-only -- epg/ | tr '\n' ',' | sed 's/,$//')
+        # 从暂存区提取 epg/ 目录下的变更文件名，移除 "epg/" 前缀，以逗号分隔
+        CHANGED=$(git diff --staged --name-only -- epg/ | sed 's|^epg/||' | tr '\n' ',' | sed 's/,$//')
         echo "changed_files=$CHANGED" >> $GITHUB_OUTPUT
         echo "📝 变更文件: $CHANGED"
         
