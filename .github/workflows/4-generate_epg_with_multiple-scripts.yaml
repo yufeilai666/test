@@ -72,12 +72,10 @@ jobs:
         # 安装Python脚本可能需要的库
         pip install requests beautifulsoup4 lxml pytz httpx aiohttp loguru
 
-    # 步骤5: 安装PHP扩展
+    # 步骤5: 安装PHP扩展（已注释，如需可取消）
     # - name: Install PHP dependencies
       # run: |
-        # 更新包管理器
         # sudo apt-get update
-        # 安装PHP脚本可能需要的扩展
         # sudo apt-get install -y php-curl php-xml php-mbstring        
 
     # 步骤6: 检出私有仓库的epg_scripts分支
@@ -170,7 +168,7 @@ jobs:
         
         echo "===================================="
 
-    # 步骤8: 定义并执行主脚本数组
+    # 步骤8: 定义并执行主脚本数组（含耗时统计）
     - name: Define and execute main scripts
       id: execute-scripts
       run: |
@@ -217,11 +215,16 @@ jobs:
           # 复制脚本从临时目录到当前工作目录
           cp "private_repo_temp/$script" "./$script"
           
+          # 记录开始时间（秒）
+          start_time=$(date +%s)
+          
           # 根据文件扩展名选择执行方式
           if [[ "$script" == *.php ]]; then
             # 执行PHP脚本，如果失败则记录错误
             php "$script" || {
-              echo "❌ 错误: PHP脚本 $script 执行失败"
+              end_time=$(date +%s)
+              duration=$((end_time - start_time))
+              echo "❌ 错误: PHP脚本 $script 执行失败 (耗时 ${duration} 秒)"
               failed_scripts+=("$script")
               rm -f "$script"  # 清理脚本文件
               echo "::endgroup::"
@@ -235,7 +238,9 @@ jobs:
             if [ $python_exit_code -eq 0 ]; then
               echo "$python_output"
             else
-              echo "❌ 错误: Python脚本 $script 执行失败"
+              end_time=$(date +%s)
+              duration=$((end_time - start_time))
+              echo "❌ 错误: Python脚本 $script 执行失败 (耗时 ${duration} 秒)"
               echo "输出: $python_output"
               failed_scripts+=("$script")
               rm -f "$script"  # 清理脚本文件
@@ -245,8 +250,10 @@ jobs:
           fi
           
           # 执行成功后删除主脚本文件，不保留在仓库中
+          end_time=$(date +%s)
+          duration=$((end_time - start_time))
           rm -f "$script"
-          echo "✅ 主脚本 $script 执行成功"
+          echo "✅ 主脚本 $script 执行成功 (耗时 ${duration} 秒)"
           echo "::endgroup::"
         done
         
@@ -423,7 +430,7 @@ jobs:
           fi
         done
 
-    # 步骤10: 推送生成的文件到私有仓库
+    # 步骤10: 推送生成的文件到私有仓库（提交信息附带文件列表）
     - name: Push generated files to private repository
       if: env.HAS_PRIVATE_REPO_FILES == 'true'
       run: |
@@ -449,8 +456,18 @@ jobs:
         if git diff --staged --quiet; then
           echo "ℹ️ 私有仓库没有更改可提交"
         else
-          # 提交更改，包含北京时间信息
-          git commit -m "🤖 自动更新脚本生成的文件 [北京时间: $BEIJING_TIME]"
+          # 获取本次实际要提交的文件列表
+          FILE_LIST=$(git diff --staged --name-only | tr '\n' ', ' | sed 's/,$//')
+          
+          # 构建提交信息
+          if [ -n "$FILE_LIST" ]; then
+            COMMIT_MSG="🤖 自动更新脚本生成的文件 [北京时间: $BEIJING_TIME] | 变更: $FILE_LIST"
+          else
+            COMMIT_MSG="🤖 自动更新脚本生成的文件 [北京时间: $BEIJING_TIME]"
+          fi
+          
+          # 提交更改，包含北京时间信息和文件列表
+          git commit -m "$COMMIT_MSG"
           
           # 推送更改到远程仓库的epg_scripts分支
           git push origin epg_scripts
@@ -517,7 +534,7 @@ jobs:
         }
         echo "✅ 已同步到最新远程状态"
 
-    # 步骤15: 获取北京时间并提交更改到当前仓库（含重试机制）
+    # 步骤15: 获取北京时间并提交更改到当前仓库（含重试机制，提交信息含变更文件列表）
     - name: Get Beijing time and commit changes to current repository
       run: |
         # 设置时区为北京时间并获取格式化的时间字符串
@@ -532,8 +549,18 @@ jobs:
           if git diff --staged --quiet; then
             echo "ℹ️ 当前仓库没有更改可提交"
           else
-            # 提交更改，包含北京时间信息
-            git commit -m "🔄 Download EPG数据 [北京时间: $BEIJING_TIME]"
+            # 获取本次实际要提交的文件列表（仅文件名，去掉epg/前缀）
+            FILE_LIST=$(git diff --staged --name-only | sed 's#^epg/##' | tr '\n' ', ' | sed 's/,$//')
+            
+            # 构建提交信息（如果有文件列表则附加）
+            if [ -n "$FILE_LIST" ]; then
+              COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME] | 变更: $FILE_LIST"
+            else
+              COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME]"
+            fi
+            
+            # 提交更改，包含北京时间信息和文件列表
+            git commit -m "$COMMIT_MSG"
             
             # 尝试推送更改到远程仓库（最多3次）
             MAX_RETRIES=3
