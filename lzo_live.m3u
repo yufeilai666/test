@@ -21,7 +21,7 @@ http://74.91.26.218:82/live/jade.m3u8
 http://74.91.26.218:82/live/inews.m3u8
 #EXTINF:-1 group-title="刘公子港湾",新加坡中文
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
-#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視台灣台.png" group-title="刘公子港湾",民视台湾台
+#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视台湾台.png" group-title="刘公子港湾",民视台湾台
 http://74.91.26.218:82/live/ftvtw.m3u8
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="刘公子港湾",TVBS
 http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
@@ -31,9 +31,9 @@ http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 group-title="刘公子港湾",TVBS a
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="刘公子港湾",台视
+#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="刘公子港湾",台视
 rtmp://f13h.mine.nu/sat/tv071
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视.png" group-title="刘公子港湾",中视
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視.png" group-title="刘公子港湾",中视
 rtmp://f13h.mine.nu/sat/tv091
 #EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="刘公子港湾",华视
 rtmp://f13h.mine.nu/sat/tv111
@@ -43,11 +43,11 @@ rtmp://f13h.mine.nu/sat/tv051
 rtmp://f13h.mine.nu/sat/tv721
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來育樂.png" group-title="刘公子港湾",纬来育乐
 rtmp://f13h.mine.nu/sat/tv701
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來日本.png" group-title="刘公子港湾",纬来日本
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/纬来日本.png" group-title="刘公子港湾",纬来日本
 rtmp://f13h.mine.nu/sat/tv771
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森財經.png" group-title="刘公子港湾",东森财经
 rtmp://f13h.mine.nu/sat/tv571
-#EXTINF:-1 tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森超視.png" group-title="刘公子港湾",东森超视
+#EXTINF:-1 tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森超视.png" group-title="刘公子港湾",东森超视
 rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="刘公子港湾",非凡新闻
 rtmp://f13h.mine.nu/sat/tv581
@@ -123,7 +123,7 @@ http://38.64.72.148/hls/modn/list/4002/chunklist0.m3u8
 http://38.64.72.148/hls/modn/list/4003/chunklist0.m3u8
 #EXTINF:-1 group-title="刘公子港湾",面包
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-id="香港卫视" tvg-name="香港卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/香港卫视.png" group-title="刘公子港湾",香港卫视
+#EXTINF:-1 tvg-id="香港卫视" tvg-name="香港卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/香港衛視.png" group-title="刘公子港湾",香港卫视
 rtmp://zhibo.hkstv.tv/livestream/mutfysrq#http://www.hkstv.tv/player/flash/SewisePlayer.swf?autoStart=true&programId=mutfysrq&type=m3u8&serverPath=http://lives.hkstv.tv:5080/api/player/&server=live&volume=1&url=live://lives.hkstv.tv:5080/mutfysrq/hls#http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8#http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0#http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 #EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="🛰央卫视IPV4",CCTV1
 http://120.76.248.139/live/bfgd/4200000201.m3u8
