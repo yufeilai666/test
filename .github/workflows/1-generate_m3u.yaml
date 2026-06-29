@@ -131,9 +131,17 @@ jobs:
         if ! git diff --staged --quiet; then
           # 获取北京时间
           BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-          echo "⌚️ 当前北京时间：$BEIJING_TIME"
           
-          git commit -m "🔄 Auto-generated TV M3U files [$BEIJING_TIME UTC+8] [skip ci]"
+          # 获取暂存区变更的 .m3u 文件名（逗号分隔）
+          CHANGED_FILES=$(git diff --staged --name-only -- '*.m3u' | tr '\n' ',' | sed 's/,$//')
+          if [ -z "$CHANGED_FILES" ]; then
+            CHANGED_FILES="unknown"
+          fi
+          
+          COMMIT_MSG="🔄 Auto-generated TV M3U files [$BEIJING_TIME UTC+8] [skip ci] | 变更: $CHANGED_FILES"
+          echo "Commit message: $COMMIT_MSG"
+          
+          git commit -m "$COMMIT_MSG"
           
           # 添加 push 重试机制
           max_push_retries=3
