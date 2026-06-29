@@ -130,28 +130,22 @@ jobs:
           echo "$output"
           echo "::endgroup::"
           
-          # 失败判定条件
+          # 失败判定条件（与原始逻辑保持一致）
           if [ $exit_code -ne 0 ]; then
             echo "❌ $script 执行失败 (退出码: $exit_code)"
             failed_scripts+=("$script")
           elif [ "$script" = "epg-fixer.php" ]; then
-            # 对EPG修复脚本的特殊错误检测
-            # 首先检查是否有最终成功状态
             if echo "$output" | grep -q "处理状态: 成功"; then
               echo "✅ $script 执行成功（重试后成功）"
             elif echo "$output" | grep -q "处理状态: 部分成功"; then
-              # 部分成功不算完全失败，但需要在提交信息中注明
               echo "⚠️ $script 部分成功（有失败源）"
-              # 这里不加入failed_scripts，因为部分文件生成成功
             elif echo "$output" | grep -q "处理状态: 完全失败"; then
               echo "❌ $script 所有源处理失败"
               failed_scripts+=("$script")
-            # 如果没有检测到最终状态，再检查其他错误
             elif echo "$output" | grep -q -E "(错误：EPG_CONFIG环境变量未设置|错误：无法解析EPG_CONFIG环境变量中的JSON数据|错误：EPG_CONFIG中未找到chuanliu.xml和cqunicom.xml配置|错误：未找到任何有效的EPG源配置|错误：必需扩展未启用)"; then
               echo "❌ $script 环境变量配置错误"
               failed_scripts+=("$script")
             elif echo "$output" | grep -q -E "(Fatal error|致命错误|Uncaught Exception|未捕获的异常|无法加载XML内容|XML解析错误|解压失败|保存失败)"; then
-              # 注意：移除了"下载失败"检查，因为可能有重试成功的情况
               echo "❌ $script 执行过程中出现严重错误"
               failed_scripts+=("$script")
             else
@@ -170,15 +164,30 @@ jobs:
           echo "==================================="
         done
         
-        # 将生成的XML文件复制到私有仓库目录
-        if ls *.xml 1> /dev/null 2>&1; then
-          echo "🛠 复制XML文件到私有仓库目录..."
-          cp -v *.xml ../private-repo/
+        # ---- 复制 .xml 和 .xml.gz 文件（循环复制，安全处理空格） ----
+        echo "🛠 复制XML文件到私有仓库目录..."
+        # 收集源文件列表
+        source_files=()
+        for f in *.xml *.xml.gz; do
+          if [ -f "$f" ]; then
+            source_files+=("$f")
+          fi
+        done
+        
+        if [ ${#source_files[@]} -gt 0 ]; then
+          # 确保目标目录存在
+          mkdir -p ../private-repo
+          # 循环复制
+          for f in "${source_files[@]}"; do
+            cp -v "$f" ../private-repo/
+          done
+          # ---- 恢复原始日志风格：显示"复制的文件:"标题 ----
           echo "📝 复制的文件:"
-          ls -la *.xml
+          ls -la ../private-repo/*.xml ../private-repo/*.xml.gz 2>/dev/null || true
         else
-          echo "⚠️ 未找到XML文件"
+          echo "⚠️ 未找到XML文件（.xml 或 .xml.gz）"
         fi
+        # ---- 复制结束 ----
         
         # 返回工作目录
         cd ..
@@ -197,10 +206,10 @@ jobs:
         cd ./private-repo
         git status --porcelain
         echo "🗞 当前目录的XML文件:"
-        ls -la *.xml 2>/dev/null || echo "⚠️ 无XML文件"
+        ls -la *.xml *.xml.gz 2>/dev/null || echo "⚠️ 无XML文件（.xml 或 .xml.gz）"
         cd ..
 
-    # 步骤8: 提交和推送到私有仓库（已改进：检测实际变更并记录文件名）
+    # 步骤8: 提交和推送到私有仓库（改进版）
     - name: Commit and Push to Private Repository
       if: always()
       env:
@@ -214,59 +223,61 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         
-        # 设置带认证的远程URL（指向私有仓库）
+        # 设置带认证的远程URL
         git remote set-url origin https://x-access-token:$PAT_TOKEN@github.com/$PRIVATE_REPO.git
         
-        # 添加所有XML文件变更
-        git add --all *.xml
+        # ---- 强制添加所有 .xml 和 .xml.gz 文件（忽略 .gitignore） ----
+        git add -f *.xml *.xml.gz 2>/dev/null || true
         
-        # 检查暂存区是否有实际变更（使用 --cached，因为已add）
+        # ---- 精确检测暂存区是否有变更 ----
         if git diff --cached --quiet; then
-          echo "ℹ️ 没有检测到XML文件变更，跳过提交"
+          echo "ℹ️ 没有检测到暂存区变更，跳过提交"
           exit 0
         fi
         
-        # 获取变更的文件名列表（暂存区）
-        changed_files=$(git diff --cached --name-only | tr '\n' ',' | sed 's/,$//')
+        # ---- 获取变更文件列表（仅文件名，不含路径） ----
+        changed_files=$(git diff --cached --name-only | xargs -n1 basename | tr '\n' ',' | sed 's/,$//')
         if [ -z "$changed_files" ]; then
           echo "ℹ️ 无变更文件，跳过提交"
           exit 0
         fi
+        echo "📄 变更文件: $changed_files"
         
-        # 获取失败脚本信息
+        # ---- 获取失败脚本信息 ----
         failed_scripts="${{ steps.generate-step.outputs.failed_scripts }}"
         
-        # 构造提交信息（含时间、时区及变更文件列表）
+        # ---- 构造提交信息 ----
         now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
         commit_msg="🔄 自动更新 EPG 文件 $now_time CST | 变更: $changed_files"
-        
-        # 如果有失败脚本，追加到提交信息
         if [ -n "$failed_scripts" ]; then
           commit_msg+=" (⚠️ 部分失败: ${failed_scripts})"
         fi
-        
-        # 提交变更
         echo "ℹ️ 提交信息: $commit_msg"
+        
+        # ---- 提交 ----
         git commit -m "$commit_msg"
         
-        # 推送重试机制
+        # ---- 推送重试机制（包含 pull --rebase 失败处理） ----
         max_retries=3
         retry_delay=5
         
         for ((i=1; i<=max_retries; i++)); do
           echo "ℹ️ 推送尝试 ($i/$max_retries)"
           
-          # 先拉取最新变更避免冲突
-          git pull --rebase origin main
+          # 先拉取最新变更，若失败则尝试中止 rebase 并重试
+          if ! git pull --rebase origin main; then
+            echo "⚠️ git pull --rebase 失败，尝试中止 rebase 并重试..."
+            git rebase --abort 2>/dev/null || true
+            # 如果 pull 失败，我们继续尝试 push，但很可能失败；若失败，等待后重试
+          fi
           
           # 尝试推送到私有仓库
           if git push origin main; then
             echo "✅ 推送到私有仓库成功"
             
-            # 列出更新的文件
-            updated_files=$(git diff --name-only HEAD^ HEAD 2>/dev/null || git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "⚠️ 无法获取文件变更列表")
-            echo "📝 更新的文件:"
-            echo "$updated_files"
+            # 列出更新的文件（仅显示文件名）
+            updated_files=$(git diff --name-only HEAD^ HEAD 2>/dev/null | xargs -n1 basename | tr '\n' ',' | sed 's/,$//' || echo "⚠️ 无法获取文件变更列表")
+            echo "📝 更新的文件: $updated_files"
             
             break
           fi
@@ -297,8 +308,8 @@ jobs:
           
           echo "::error::有 ${#failed_array[@]} 个脚本执行失败"
           
-          # 检查是否至少有一个脚本成功生成了文件
-          if ls ./private-repo/*.xml 1> /dev/null 2>&1; then
+          # 检查是否至少有一个脚本成功生成了文件（包括 .xml 和 .xml.gz）
+          if ls ./private-repo/*.xml ./private-repo/*.xml.gz 1> /dev/null 2>&1; then
             echo "ℹ️ 有脚本失败，工作流标记为失败"
             echo "ℹ️ 成功生成了部分EPG文件并已推送到私有仓库"
           else
