@@ -443,6 +443,9 @@ jobs:
         git config user.name "GitHub Actions Bot"
         git config user.email "actions@github.com"
         
+        # 设置远程URL为包含PAT_TOKEN的格式，确保后续git操作有权限
+        git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository_owner }}/tvepg.git
+        
         # 拉取最新更改，避免冲突
         git pull origin epg_scripts
         
@@ -524,10 +527,12 @@ jobs:
         git config user.name "GitHub Actions"  # 设置提交者名称
         git config user.email "actions@github.com"  # 设置提交者邮箱
 
-    # 步骤14: 拉取远程仓库最新更改（避免提交冲突）
-    - name: Pull latest changes from remote
+    # 步骤14: 设置当前仓库的远程URL（包含token）并拉取最新更改（避免提交冲突）
+    - name: Set remote URL and pull latest changes
       run: |
-        echo "🔄 拉取远程仓库最新更改..."
+        echo "🔄 设置远程URL并拉取远程仓库最新更改..."
+        # 设置远程URL为包含PAT_TOKEN的格式
+        git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
         # 使用rebase策略，自动暂存本地更改
         git pull origin ${{ github.ref_name }} --rebase --autostash || {
           echo "⚠️ 拉取失败，可能没有新的更改，继续执行..."
