@@ -38,8 +38,7 @@ jobs:
       - name: 安装 Python 依赖
         run: |
           pip install pillow numpy
-          pip install paddlepaddle==2.5.2 -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html
-          pip install paddleocr
+          pip install paddlepaddle==3.0.0 paddleocr==3.7.0
 
       # 5. 运行位于私有仓库 epg_scripts 分支中的主脚本
       - name: 运行爬虫脚本
