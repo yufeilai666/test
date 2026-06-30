@@ -975,30 +975,22 @@ https://live.666666.zip/stream/80427327.m3u8
 https://live.666666.zip/stream/90149826.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="2026世界杯",CCTV5
 https://live.666666.zip/stream/20233432.m3u8
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="2026世界杯",CCTV5
+https://live.666666.zip/cctv/5.m3u8
 #EXTINF:-1 tvg-id="澳門體育" tvg-name="澳門體育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/澳门体育.png" group-title="2026世界杯",澳门体育
 https://live.666666.zip/stream/38143826.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育1.png" group-title="2026世界杯",ELTA体育1
 https://live.666666.zip/stream/16697898.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育1.png" group-title="2026世界杯",ELTA体育1
+https://live.666666.zip/elta/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育2.png" group-title="2026世界杯",ELTA体育2
 https://live.666666.zip/stream/28361755.m3u8
 #EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="2026世界杯",CCTV5+
 https://live.666666.zip/stream/79635460.m3u8
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="2026世界杯",CCTV5+
+https://live.666666.zip/cctv/5p.m3u8
 #EXTINF:-1 group-title="2026世界杯",小红书1
 https://live.666666.zip/xiaohongshu/1.m3u8
-#EXTINF:-1 group-title="2026世界杯",咪咕频道
-https://live06.zuqiu106.com/live/80427327.m3u8
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="2026世界杯",广东体育
-https://live06.zuqiu106.com/live/90149826.m3u8
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="2026世界杯",CCTV5
-https://live06.zuqiu106.com/live/20233432.m3u8
-#EXTINF:-1 tvg-id="澳門體育" tvg-name="澳門體育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/澳门体育.png" group-title="2026世界杯",澳门体育
-https://live06.zuqiu106.com/live/38143826.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育1.png" group-title="2026世界杯",ELTA体育1
-https://live06.zuqiu106.com/live/16697898.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育2.png" group-title="2026世界杯",ELTA体育2
-https://live06.zuqiu106.com/live/28361755.m3u8
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="2026世界杯",CCTV5+
-https://live06.zuqiu106.com/live/79635460.m3u8
 #EXTINF:-1 group-title="2026世界杯",小红书2
 https://live.666666.zip/xiaohongshu/2.m3u8
 #EXTINF:-1 group-title="2026世界杯",咪咕1
@@ -1214,7 +1206,7 @@ rtmp://221.4.216.91/live/332123-ztxw
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
 rtmp://ai.unispc.com/live/nb-py-ztxw
 #EXTINF:-1 group-title="四季台湾",中天新闻(备)
-http://jnzq.ohoyee.com:9080/live/332332-ztxw2.m3u8
+rtmp://play.gzxdby.com/live/332332-ztxw2
 #EXTINF:-1 group-title="四季台湾",中天新闻(备)
 rtmp://media.atmsiot.com/live/ztxw
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/镜新闻台.png" group-title="四季台湾",镜新闻台
@@ -13130,9 +13122,9 @@ http://play.modujx11.com/20251203/rBDQ6tn5/3742kb/hls/index.m3u8
 #EXTINF:-1 group-title="2025韩剧",操控游戏第12集
 http://play.modujx11.com/20251203/lmTYcy2Y/3556kb/hls/index.m3u8
 #EXTINF:-1 group-title="私密频道_169169",惊艳1
-rtmp://112.29.121.74/live/易發TV-jyt
+rtmp://play.gzxdby.com/live/易發TV-jyt
 #EXTINF:-1 group-title="私密频道_169169",香蕉2
-rtmp://112.29.121.74/live/易發TV-xjt
+rtmp://play.gzxdby.com/live/易發TV-xjt
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/惊艳.png" group-title="私密频道_169169",惊艳
 http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
 #EXTINF:-1 group-title="私密频道_169169",潘多啦
