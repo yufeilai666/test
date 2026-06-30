@@ -23,27 +23,26 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}       # 拉取私库的 PAT
           path: epg_scripts                     # 克隆到本地 epg_scripts 文件夹
         
-      - name: 设置 Python 3.11
+      - name: 设置 Python 3.10
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.10'
 
       # 3. 安装系统依赖 (Tesseract 和中文包)
       - name: 安装系统依赖
         run: |
           sudo apt-get update
-          sudo apt-get install -y libgl1 libglib2.0-0 libsm6 libxrender1 libfontconfig1
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
 
       # 4. 安装 Python 依赖
       - name: 安装 Python 依赖
         run: |
-          pip install pillow numpy
-          pip install paddlepaddle==3.3.0 paddleocr==3.7.0
+          pip install pillow pytesseract
 
       # 5. 运行位于私有仓库 epg_scripts 分支中的主脚本
       - name: 运行爬虫脚本
-        env:
-          FLAGS_enable_pir_api: 0
+        # env:
+          # FLAGS_enable_pir_api: 0
         run: python epg_scripts/fetch_preview_cwjd.py
 
       # 6. 将生成的 XML 推送到当前公共仓库的 epg 目录
