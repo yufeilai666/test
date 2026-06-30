@@ -42,8 +42,8 @@ jobs:
 
       # 5. 运行位于私有仓库 epg_scripts 分支中的主脚本
       - name: 运行爬虫脚本
-        # env:
-          # FLAGS_enable_pir_api: 0
+        env:
+          FLAGS_enable_pir_api: 0
         run: python epg_scripts/fetch_preview_cwjd.py
 
       # 6. 将生成的 XML 推送到当前公共仓库的 epg 目录
