@@ -138,7 +138,7 @@ jobs:
             CHANGED_FILES="unknown"
           fi
           
-          COMMIT_MSG="🔄 Auto-generated TV M3U files [$BEIJING_TIME UTC+8] [skip ci] | 变更: $CHANGED_FILES"
+          COMMIT_MSG="🔄 Auto-generated TV M3U files [$BEIJING_TIME UTC+8] [skip ci] | change: $CHANGED_FILES"
           echo "Commit message: $COMMIT_MSG"
           
           git commit -m "$COMMIT_MSG"

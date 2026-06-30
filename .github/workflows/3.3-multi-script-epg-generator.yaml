@@ -248,7 +248,7 @@ jobs:
         
         # ---- 构造提交信息 ----
         now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-        commit_msg="🔄 自动更新 EPG 文件 $now_time CST | 变更: $changed_files"
+        commit_msg="🔄 自动更新 EPG 文件 $now_time UTC+8 | 变更: $changed_files"
         if [ -n "$failed_scripts" ]; then
           commit_msg+=" (⚠️ 部分失败: ${failed_scripts})"
         fi

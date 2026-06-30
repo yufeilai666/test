@@ -234,5 +234,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         CHANGED="${{ steps.changed_files.outputs.changed_files }}"
-        git commit -m "🔄 自动更新 EPG 文件 [${{ steps.beijing_time.outputs.beijing_time }}] | 变更: $CHANGED"
+        git commit -m "🔄 自动更新 EPG 文件 [${{ steps.beijing_time.outputs.beijing_time }} UTC+8] | 变更: $CHANGED"
         git push
