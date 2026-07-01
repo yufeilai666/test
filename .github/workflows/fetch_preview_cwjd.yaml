@@ -20,10 +20,10 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 🔥 极简版：仅安装 requests，通过 env 显式传递 Secrets
+      # 🔥 核心修复：安装 requests + pillow(图像处理) + numpy(空白检测)
       - name: 安装依赖并解析
         run: |
-          pip install requests
+          pip install requests pillow numpy
           python epg_scripts/fetch_preview_cwjd.py
         env:
           BAIDU_OCR_API_KEY: ${{ secrets.BAIDU_OCR_API_KEY }}
