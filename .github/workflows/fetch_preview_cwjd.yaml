@@ -22,14 +22,18 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 3. 🔥 核心修正：拉取官方飞桨镜像，安装 PaddleOCR，并绕过 PIR 引擎崩溃
-      - name: 使用官方 Docker 镜像解析节目单
+      # 3. 🔥 容器内隔离安装 PaddleOCR，彻底隔离宿主机环境
+      - name: 在独立容器内安装并运行解析脚本
         run: |
           docker run --rm \
             -v ${{ github.workspace }}:/workspace \
             -e FLAGS_enable_pir_api=0 \
-            paddlepaddle/paddle:latest-cpu \
-            bash -c "pip install paddleocr && python /workspace/epg_scripts/fetch_preview_cwjd.py"
+            python:3.11-slim \
+            bash -c "\
+              apt-get update && \
+              apt-get install -y libgl1-mesa-glx libglib2.0-0 && \
+              pip install paddlepaddle paddleocr pillow numpy && \
+              python /workspace/epg_scripts/fetch_preview_cwjd.py"
 
       # 4. 提交并推送结果到当前仓库
       - name: 提交并推送结果
