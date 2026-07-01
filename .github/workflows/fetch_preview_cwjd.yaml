@@ -9,11 +9,9 @@ jobs:
   fetch-program:
     runs-on: ubuntu-latest
     steps:
-      # 1. 检出当前公共仓库
       - name: 检出当前仓库
         uses: actions/checkout@v4
 
-      # 2. 检出私有脚本仓库
       - name: 检出私有脚本仓库分支
         uses: actions/checkout@v4
         with:
@@ -22,7 +20,7 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 3. 🔥 终极修复版：增加了 -w /workspace 指定容器工作目录
+      # 🔥 唯一修改：指定 paddlepaddle==2.6.2，放弃 PIR 引擎
       - name: 在独立容器内安装并运行解析脚本
         run: |
           docker run --rm \
@@ -33,10 +31,9 @@ jobs:
             bash -c "\
               apt-get update && \
               apt-get install -y libgl1 libglib2.0-0 libgomp1 && \
-              pip install paddlepaddle paddleocr pillow numpy && \
+              pip install paddlepaddle==2.6.2 paddleocr pillow numpy && \
               python epg_scripts/fetch_preview_cwjd.py"
 
-      # 4. 提交并推送结果到当前仓库
       - name: 提交并推送结果
         run: |
           git config --global user.name "github-actions[bot]"
