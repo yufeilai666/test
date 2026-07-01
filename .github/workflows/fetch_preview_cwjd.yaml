@@ -20,15 +20,14 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 🔥 Tesseract 环境安装
-      - name: 安装 Tesseract 和依赖
+      # 🔥 核心修复：安装 requests + pillow(图像处理) + numpy(空白检测)
+      - name: 安装依赖并解析
         run: |
-          sudo apt-get update
-          sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
-          pip install pillow pytesseract numpy
-
-      - name: 运行解析脚本
-        run: python epg_scripts/fetch_preview_cwjd.py
+          pip install requests pillow numpy
+          python epg_scripts/fetch_preview_cwjd.py
+        env:
+          BAIDU_OCR_API_KEY: ${{ secrets.BAIDU_OCR_API_KEY }}
+          BAIDU_OCR_SECRET_KEY: ${{ secrets.BAIDU_OCR_SECRET_KEY }}
 
       - name: 提交并推送结果
         run: |
