@@ -9,9 +9,11 @@ jobs:
   fetch-program:
     runs-on: ubuntu-latest
     steps:
+      # 1. 检出当前公共仓库
       - name: 检出当前仓库
         uses: actions/checkout@v4
 
+      # 2. 检出私有脚本仓库
       - name: 检出私有脚本仓库分支
         uses: actions/checkout@v4
         with:
@@ -20,20 +22,22 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 🔥 终极绝杀：锁定 numpy==1.23.5，同时兼容 imgaug 和 paddleocr 2.6.0
-      - name: 在独立容器内安装并运行解析脚本
+      # 3. 🔥 唯一需要安装的系统依赖，独立 C++ 程序，绝无崩溃
+      - name: 安装 Tesseract 系统依赖
         run: |
-          docker run --rm \
-            -v ${{ github.workspace }}:/workspace \
-            -w /workspace \
-            -e FLAGS_enable_pir_api=0 \
-            python:3.11-slim \
-            bash -c "\
-              apt-get update && \
-              apt-get install -y libgl1 libglib2.0-0 libgomp1 build-essential swig python3-dev && \
-              pip install paddlepaddle==2.6.2 paddleocr==2.6.0 pillow numpy==1.23.5 && \
-              python epg_scripts/fetch_preview_cwjd.py"
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
 
+      # 4. 安装轻量级 Python 依赖
+      - name: 安装 Python 依赖
+        run: |
+          pip install pillow pytesseract
+
+      # 5. 运行解析脚本
+      - name: 运行解析脚本
+        run: python epg_scripts/fetch_preview_cwjd.py
+
+      # 6. 推送结果
       - name: 提交并推送结果
         run: |
           git config --global user.name "github-actions[bot]"
