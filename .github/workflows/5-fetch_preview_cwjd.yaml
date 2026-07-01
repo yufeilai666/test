@@ -15,7 +15,7 @@ jobs:
     outputs:
       has_image: ${{ steps.check.outputs.has_image }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - id: check
         run: |
           IMG_COUNT=$(find epg/cwjd_ocr -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.bmp" \) | wc -l)
@@ -28,10 +28,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出当前仓库
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 检出私有脚本仓库分支
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: yufeilai666/tvepg
           ref: epg_scripts
