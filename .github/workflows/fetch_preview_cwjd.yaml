@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 🔥 最终补丁：加入 swig
+      # 🔥 锁定 paddleocr==2.6.0 + 安装 python3-dev
       - name: 在独立容器内安装并运行解析脚本
         run: |
           docker run --rm \
@@ -30,8 +30,8 @@ jobs:
             python:3.11-slim \
             bash -c "\
               apt-get update && \
-              apt-get install -y libgl1 libglib2.0-0 libgomp1 build-essential swig && \
-              pip install paddlepaddle==2.6.2 paddleocr==2.7.0.3 pillow numpy && \
+              apt-get install -y libgl1 libglib2.0-0 libgomp1 build-essential swig python3-dev && \
+              pip install paddlepaddle==2.6.2 paddleocr==2.6.0 pillow numpy && \
               python epg_scripts/fetch_preview_cwjd.py"
 
       - name: 提交并推送结果
