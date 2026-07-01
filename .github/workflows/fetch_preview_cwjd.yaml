@@ -1,4 +1,4 @@
-name: 重温经典频道每周节目单抓取
+name: 每周节目单抓取
 
 on:
   schedule:
@@ -11,25 +11,25 @@ jobs:
     steps:
       # 1. 检出当前公共仓库
       - name: 检出当前仓库
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       # 2. 检出私有脚本仓库
       - name: 检出私有脚本仓库分支
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           repository: yufeilai666/tvepg
           ref: epg_scripts
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 3. 🔥 核心黑科技：直接使用官方 Docker 镜像运行 PaddleOCR
-      # 彻底绕开本地 Python 环境安装，永不崩溃
-      - name: 使用官方 PaddleOCR Docker 镜像解析节目单
+      # 3. 🔥 核心修正：拉取官方飞桨镜像，安装 PaddleOCR，并绕过 PIR 引擎崩溃
+      - name: 使用官方 Docker 镜像解析节目单
         run: |
           docker run --rm \
             -v ${{ github.workspace }}:/workspace \
-            paddlepaddle/paddleocr:latest-cpu \
-            python /workspace/epg_scripts/fetch_preview_cwjd.py
+            -e FLAGS_enable_pir_api=0 \
+            paddlepaddle/paddle:latest-cpu \
+            bash -c "pip install paddleocr && python /workspace/epg_scripts/fetch_preview_cwjd.py"
 
       # 4. 提交并推送结果到当前仓库
       - name: 提交并推送结果
