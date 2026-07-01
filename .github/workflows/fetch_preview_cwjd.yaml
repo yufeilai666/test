@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 🔥 锁定 paddleocr==2.6.0 + 安装 python3-dev
+      # 🔥 终极绝杀：强制锁定 numpy==1.24.4，绕开 imgaug 崩溃
       - name: 在独立容器内安装并运行解析脚本
         run: |
           docker run --rm \
@@ -31,7 +31,7 @@ jobs:
             bash -c "\
               apt-get update && \
               apt-get install -y libgl1 libglib2.0-0 libgomp1 build-essential swig python3-dev && \
-              pip install paddlepaddle==2.6.2 paddleocr==2.6.0 pillow numpy && \
+              pip install paddlepaddle==2.6.2 paddleocr==2.6.0 pillow numpy==1.24.4 && \
               python epg_scripts/fetch_preview_cwjd.py"
 
       - name: 提交并推送结果
