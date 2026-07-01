@@ -2,14 +2,11 @@ name: 5「重温经典频道」每周节目单抓取
 
 on:
   workflow_dispatch:
-  # schedule:
-    # - cron: '0 22 * * *'
   push:
     paths:
       - 'epg/cwjd_ocr/**'
 
 jobs:
-  # 🔥 前置检查作业：用极少的资源判断是否包含有效图片
   check-image:
     runs-on: ubuntu-latest
     outputs:
@@ -21,7 +18,6 @@ jobs:
           IMG_COUNT=$(find epg/cwjd_ocr -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.bmp" \) | wc -l)
           echo "has_image=$([ $IMG_COUNT -gt 0 ] && echo true || echo false)" >> $GITHUB_OUTPUT
 
-  # 🔥 核心绝杀：如果是 push 事件并且没有检测到图片，整个 fetch-program 作业直接跳过！
   fetch-program:
     needs: check-image
     if: github.event_name != 'push' || needs.check-image.outputs.has_image == 'true'
@@ -43,7 +39,7 @@ jobs:
           pip install requests pillow
 
       - name: 运行解析脚本（带 3 次重试）
-        uses: nick-fields/retry@v3
+        uses: nick-fields/retry@v4
         with:
           timeout_minutes: 10
           max_attempts: 3
@@ -53,7 +49,7 @@ jobs:
           BAIDU_OCR_SECRET_KEY: ${{ secrets.BAIDU_OCR_SECRET_KEY }}
 
       - name: 提交并推送结果（带 3 次重试）
-        uses: nick-fields/retry@v3
+        uses: nick-fields/retry@v4
         with:
           timeout_minutes: 5
           max_attempts: 3
@@ -62,7 +58,8 @@ jobs:
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
             git pull origin ${{ github.ref_name }} --rebase --autostash
             git add epg/cwjd_epg.xml
-            if ! git diff --quiet && git diff --staged --quiet; then
+            # 🔥 修复：判断暂存区是否有变更
+            if ! git diff --cached --quiet; then
               git commit -m "Bot: 更新节目单 XML [skip ci]"
               git push https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
             else
