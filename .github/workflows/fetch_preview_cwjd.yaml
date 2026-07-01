@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 🔥 唯一改动：安装编译工具 build-essential
+      # 🔥 最终补丁：加入 swig
       - name: 在独立容器内安装并运行解析脚本
         run: |
           docker run --rm \
@@ -30,7 +30,7 @@ jobs:
             python:3.11-slim \
             bash -c "\
               apt-get update && \
-              apt-get install -y libgl1 libglib2.0-0 libgomp1 build-essential && \
+              apt-get install -y libgl1 libglib2.0-0 libgomp1 build-essential swig && \
               pip install paddlepaddle==2.6.2 paddleocr==2.7.0.3 pillow numpy && \
               python epg_scripts/fetch_preview_cwjd.py"
 
