@@ -1,0 +1,70 @@
+name: 5「重温经典频道」每周节目单抓取
+
+on:
+  workflow_dispatch:
+  # schedule:
+    # - cron: '0 22 * * *'
+  push:
+    paths:
+      - 'epg/cwjd_ocr/**'
+
+jobs:
+  # 🔥 前置检查作业：用极少的资源判断是否包含有效图片
+  check-image:
+    runs-on: ubuntu-latest
+    outputs:
+      has_image: ${{ steps.check.outputs.has_image }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: check
+        run: |
+          IMG_COUNT=$(find epg/cwjd_ocr -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.bmp" \) | wc -l)
+          echo "has_image=$([ $IMG_COUNT -gt 0 ] && echo true || echo false)" >> $GITHUB_OUTPUT
+
+  # 🔥 核心绝杀：如果是 push 事件并且没有检测到图片，整个 fetch-program 作业直接跳过！
+  fetch-program:
+    needs: check-image
+    if: github.event_name != 'push' || needs.check-image.outputs.has_image == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出当前仓库
+        uses: actions/checkout@v4
+
+      - name: 检出私有脚本仓库分支
+        uses: actions/checkout@v4
+        with:
+          repository: yufeilai666/tvepg
+          ref: epg_scripts
+          token: ${{ secrets.PAT_TOKEN }}
+          path: epg_scripts
+
+      - name: 安装依赖
+        run: |
+          pip install requests pillow
+
+      - name: 运行解析脚本（带 3 次重试）
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: python epg_scripts/fetch_preview_cwjd.py
+        env:
+          BAIDU_OCR_API_KEY: ${{ secrets.BAIDU_OCR_API_KEY }}
+          BAIDU_OCR_SECRET_KEY: ${{ secrets.BAIDU_OCR_SECRET_KEY }}
+
+      - name: 提交并推送结果（带 3 次重试）
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          command: |
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git pull origin ${{ github.ref_name }} --rebase --autostash
+            git add epg/cwjd_epg.xml
+            if ! git diff --quiet && git diff --staged --quiet; then
+              git commit -m "Bot: 更新节目单 XML [skip ci]"
+              git push https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
+            else
+              echo "✅ 没有新变更，跳过推送。"
+            fi
