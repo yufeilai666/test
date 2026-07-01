@@ -970,15 +970,15 @@ http://push.cdn1.hls123.de:8080/streams/8nsrl4s4evv/index.m3u8
 #EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="极速港台2",重温经典
 http://push.cdn1.hls123.de:8080/streams/g0jj471jied/index.m3u8
 #EXTINF:-1 group-title="2026世界杯",咪咕频道
-https://live.666666.zip/stream/80427327.m3u8
+https://live.666666.zip/migu/1.m3u8
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="2026世界杯",广东体育
-https://live.666666.zip/stream/90149826.m3u8
+http://cdn2.163189.xyz/163189/gdty
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="2026世界杯",CCTV5
 https://live.666666.zip/stream/20233432.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="2026世界杯",CCTV5
 https://live.666666.zip/cctv/5.m3u8
 #EXTINF:-1 tvg-id="澳門體育" tvg-name="澳門體育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/澳门体育.png" group-title="2026世界杯",澳门体育
-https://live.666666.zip/stream/38143826.m3u8
+http://cdn6.163189.xyz/163189/amty
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育1.png" group-title="2026世界杯",ELTA体育1
 https://live.666666.zip/stream/16697898.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育1.png" group-title="2026世界杯",ELTA体育1
@@ -993,6 +993,8 @@ https://live.666666.zip/cctv/5p.m3u8
 https://live.666666.zip/xiaohongshu/1.m3u8
 #EXTINF:-1 group-title="2026世界杯",小红书2
 https://live.666666.zip/xiaohongshu/2.m3u8
+#EXTINF:-1 group-title="2026世界杯",NOW618
+https://live.666666.zip/yueyu/index.m3u8
 #EXTINF:-1 group-title="2026世界杯",咪咕1
 https://www.rtmpcdn.com/live/migu1.m3u8
 #EXTINF:-1 group-title="2026世界杯",咪咕2
