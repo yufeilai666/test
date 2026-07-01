@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 🔥 唯一修改：指定 paddlepaddle==2.6.2，放弃 PIR 引擎
+      # 🔥 精确锁定 paddlepaddle 和 paddleocr 版本，彻底消除底层 API 冲突
       - name: 在独立容器内安装并运行解析脚本
         run: |
           docker run --rm \
@@ -31,7 +31,7 @@ jobs:
             bash -c "\
               apt-get update && \
               apt-get install -y libgl1 libglib2.0-0 libgomp1 && \
-              pip install paddlepaddle==2.6.2 paddleocr pillow numpy && \
+              pip install paddlepaddle==2.6.2 paddleocr==2.7.0.3 pillow numpy && \
               python epg_scripts/fetch_preview_cwjd.py"
 
       - name: 提交并推送结果
