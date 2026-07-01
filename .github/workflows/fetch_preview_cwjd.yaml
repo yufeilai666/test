@@ -9,11 +9,9 @@ jobs:
   fetch-program:
     runs-on: ubuntu-latest
     steps:
-      # 1. 检出当前公共仓库
       - name: 检出当前仓库
         uses: actions/checkout@v4
 
-      # 2. 检出私有脚本仓库
       - name: 检出私有脚本仓库分支
         uses: actions/checkout@v4
         with:
@@ -22,22 +20,15 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 3. 🔥 唯一需要安装的系统依赖，独立 C++ 程序，绝无崩溃
-      - name: 安装 Tesseract 系统依赖
+      # 🔥 极简版：仅安装 requests，通过 env 显式传递 Secrets
+      - name: 安装依赖并解析
         run: |
-          sudo apt-get update
-          sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
+          pip install requests
+          python epg_scripts/fetch_preview_cwjd.py
+        env:
+          BAIDU_OCR_API_KEY: ${{ secrets.BAIDU_OCR_API_KEY }}
+          BAIDU_OCR_SECRET_KEY: ${{ secrets.BAIDU_OCR_SECRET_KEY }}
 
-      # 4. 安装轻量级 Python 依赖
-      - name: 安装 Python 依赖
-        run: |
-          pip install pillow pytesseract
-
-      # 5. 运行解析脚本
-      - name: 运行解析脚本
-        run: python epg_scripts/fetch_preview_cwjd.py
-
-      # 6. 推送结果
       - name: 提交并推送结果
         run: |
           git config --global user.name "github-actions[bot]"
