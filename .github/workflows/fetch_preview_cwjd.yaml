@@ -22,7 +22,7 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 3. 🔥 最终已修正的纯净容器方案：替换了过时的 libgl1-mesa-glx
+      # 3. 🔥 容器内完整隔离方案（加入 libgomp1，彻底解决导入崩溃）
       - name: 在独立容器内安装并运行解析脚本
         run: |
           docker run --rm \
@@ -31,7 +31,7 @@ jobs:
             python:3.11-slim \
             bash -c "\
               apt-get update && \
-              apt-get install -y libgl1 libglib2.0-0 && \
+              apt-get install -y libgl1 libglib2.0-0 libgomp1 && \
               pip install paddlepaddle paddleocr pillow numpy && \
               python /workspace/epg_scripts/fetch_preview_cwjd.py"
 
