@@ -1,0 +1,46 @@
+name: 每周节目单抓取
+
+on:
+  schedule:
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-program:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 检出当前公共仓库
+      - name: 检出当前仓库
+        uses: actions/checkout@v4
+
+      # 2. 检出私有脚本仓库
+      - name: 检出私有脚本仓库分支
+        uses: actions/checkout@v4
+        with:
+          repository: yufeilai666/tvepg
+          ref: epg_scripts
+          token: ${{ secrets.PAT_TOKEN }}
+          path: epg_scripts
+
+      # 3. 🔥 终极核弹方案：使用纯净的 Python 容器隔离运行
+      # 在这个容器里面，不存在任何宿主机环境的历史遗留坑
+      - name: 在 Docker 容器内安装 PaddleOCR 并运行
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}:/workspace \
+            -e FLAGS_enable_pir_api=0 \
+            python:3.11-slim \
+            bash -c "\
+              apt-get update && \
+              apt-get install -y libgl1-mesa-glx libglib2.0-0 && \
+              pip install paddlepaddle paddleocr pillow numpy && \
+              python /workspace/epg_scripts/fetch_preview_cwjd.py"
+
+      # 4. 提交并推送结果到当前仓库
+      - name: 提交并推送结果
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add epg/cwjd_epg.xml
+          git diff --quiet && git diff --staged --quiet || git commit -m "Bot: 更新节目单 XML [skip ci]"
+          git push https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
