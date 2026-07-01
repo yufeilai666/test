@@ -22,18 +22,19 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: epg_scripts
 
-      # 3. 🔥 容器内完整隔离方案（加入 libgomp1，彻底解决导入崩溃）
+      # 3. 🔥 终极修复版：增加了 -w /workspace 指定容器工作目录
       - name: 在独立容器内安装并运行解析脚本
         run: |
           docker run --rm \
             -v ${{ github.workspace }}:/workspace \
+            -w /workspace \
             -e FLAGS_enable_pir_api=0 \
             python:3.11-slim \
             bash -c "\
               apt-get update && \
               apt-get install -y libgl1 libglib2.0-0 libgomp1 && \
               pip install paddlepaddle paddleocr pillow numpy && \
-              python /workspace/epg_scripts/fetch_preview_cwjd.py"
+              python epg_scripts/fetch_preview_cwjd.py"
 
       # 4. 提交并推送结果到当前仓库
       - name: 提交并推送结果
