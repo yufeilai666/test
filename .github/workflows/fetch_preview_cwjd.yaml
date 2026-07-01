@@ -25,7 +25,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
-          pip install pillow pytesseract
+          pip install pillow pytesseract numpy
 
       - name: 运行解析脚本
         run: python epg_scripts/fetch_preview_cwjd.py
