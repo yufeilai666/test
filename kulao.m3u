@@ -1685,9 +1685,9 @@ http://cdn6.163189.xyz/163189/wxxw
 https://hkstv.tv/api/m3u8-proxy?url=http%3A%2F%2Fwebcast.hkstv.tv%2Flivestream%2Fmutfysrq%2Fplaylist.m3u8
 #EXTINF:-1 tvg-id="娱乐新闻" tvg-name="娱乐新闻" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/娱乐新闻.png" group-title="🔮港澳台直播",娱乐新闻
 http://cdn6.163189.xyz/163189/ylxw
-#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="🔮港澳台直播",重温经典
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="🔮港澳台直播",重温经典
 http://8.138.7.223/tv/cwjd.php
-#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="🔮港澳台直播",重温经典
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="🔮港澳台直播",重温经典
 http://cdn6.163189.xyz/163189/cwjd
 #EXTINF:-1 group-title="🔮港澳台直播",美亚C+
 http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
@@ -1801,7 +1801,7 @@ http://push.cdn1.hls123.de:8080/streams/2r8ba88ujh6/index.m3u8
 http://push.cdn1.hls123.de:8080/streams/gese9d57376/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/澳门莲花.png" group-title="🔮[备用]港澳台直播",澳门莲花
 http://push.cdn1.hls123.de:8080/streams/8nsrl4s4evv/index.m3u8
-#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="🔮[备用]港澳台直播",重温经典
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="🔮[备用]港澳台直播",重温经典
 http://push.cdn1.hls123.de:8080/streams/g0jj471jied/index.m3u8
 #EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰中文.png" group-title="🔮[备用]港澳台直播",凤凰中文
 https://cdn6.163189.xyz/163189/fhzw
@@ -1841,7 +1841,7 @@ https://cdn6.163189.xyz/163189/amzy
 https://cdn6.163189.xyz/163189/amlh
 #EXTINF:-1 group-title="🔮[备用]港澳台直播",央视综合
 https://cdn6.163189.xyz/163189/cctv1
-#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="🔮[备用]港澳台直播",重温经典
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重溫經典.png" group-title="🔮[备用]港澳台直播",重温经典
 https://cdn6.163189.xyz/163189/cwjd
 #EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="🔮[备用]港澳台直播",龙华电影
 https://cdn8.163189.xyz/163189/lhdy
