@@ -1197,10 +1197,6 @@ http://211.72.174.95:8115/0.ts
 http://211.72.174.95:8112/0.ts
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="四季台湾",東森新聞
 http://211.72.174.95:8138/0.ts
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="四季台湾",凤凰资讯
-http://mytvsuper.webn.cc:2052/live/stream-f8063c3794481a17/index.m3u8
-#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="四季台湾",台视
-http://dbmlasvgas.sylu.net:8880/stream/39363be5-2940-4d89-875a-cea6c9a93369/playlist.m3u8
 #EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視.png" group-title="四季台湾",民视
 rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視.png" group-title="四季台湾",中视
@@ -1227,38 +1223,6 @@ rtmp://f13h.mine.nu/sat/tv731
 rtmp://f13h.mine.nu/sat/tv741
 #EXTINF:-1 group-title="四季台湾",momo'tv
 rtmp://f13h.mine.nu/sat/tv761
-#EXTINF:-1 tvg-id="民視影劇台" tvg-name="民視影劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视影剧台.png" group-title="四季台湾",民视影剧台
-https://cdn12.178.indevs.in/163189/73d93f1c22fa91d7
-#EXTINF:-1 tvg-id="公視戲劇" tvg-name="公視戲劇" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公视戏剧.png" group-title="四季台湾",公视戏剧
-https://cdn12.178.indevs.in/163189/2973b910e7719c08
-#EXTINF:-1 tvg-id="采昌影劇台" tvg-name="采昌影劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/采昌影劇台.png" group-title="四季台湾",采昌影剧台
-https://cdn12.178.indevs.in/163189/0a6204ed0261460c
-#EXTINF:-1 tvg-id="靖天映畫" tvg-name="靖天映畫" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天映畫.png" group-title="四季台湾",靖天映画
-https://cdn12.178.indevs.in/163189/bd4752bd7828b2bf
-#EXTINF:-1 tvg-id="靖天戲劇台" tvg-name="靖天戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天戏剧台.png" group-title="四季台湾",靖天戏剧台
-https://cdn12.178.indevs.in/163189/177d541552f78003
-#EXTINF:-1 tvg-id="靖天電影台" tvg-name="靖天電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天电影台.png" group-title="四季台湾",靖天电影台
-https://cdn12.178.indevs.in/163189/ed33509e03e78c7a
-#EXTINF:-1 tvg-id="靖洋戲劇台" tvg-name="靖洋戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖洋戏剧台.png" group-title="四季台湾",靖洋戏剧台
-https://cdn12.178.indevs.in/163189/25084ef5a2662aad
-#EXTINF:-1 tvg-id="影迷數位電影台" tvg-name="影迷數位電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/影迷數位電影台.png" group-title="四季台湾",影迷数位电影台
-https://cdn12.178.indevs.in/163189/a643783ec587540e
-#EXTINF:-1 tvg-id="amc電影台" tvg-name="amc電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/AMC電影台.png" group-title="四季台湾",amc电影台
-https://cdn12.178.indevs.in/163189/0bcf9bb8c452e56a
-#EXTINF:-1 tvg-id="CinemaWorld" tvg-name="CinemaWorld" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CinemaWorld.png" group-title="四季台湾",CinemaWorld
-https://cdn12.178.indevs.in/163189/6086cfe7a9756110
-#EXTINF:-1 group-title="四季台湾",My Cinema Europe
-https://cdn12.178.indevs.in/163189/5bda99f1c049edef
-#EXTINF:-1 tvg-id="經典電影台" tvg-name="經典電影台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典电影台.png" group-title="四季台湾",经典电影台
-https://cdn12.178.indevs.in/163189/61b8ea35ffce4630
-#EXTINF:-1 tvg-id="CMusic" tvg-name="CMusic" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CMusic.png" group-title="四季台湾",CMusic
-https://cdn12.178.indevs.in/163189/d396cb84b6c89889
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/DREAMWORKS梦工厂动画.png" group-title="四季台湾",DreamWorks梦工厂动画
-https://cdn12.178.indevs.in/163189/10395eb942c5a9b9
-#EXTINF:-1 tvg-id="精選動漫台" tvg-name="精選動漫台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/精選動漫台.png" group-title="四季台湾",精选动漫台
-https://cdn12.178.indevs.in/163189/e1d66f74bd2d4894
-#EXTINF:-1 tvg-id="金光布袋戲" tvg-name="金光布袋戲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金光布袋戲.png" group-title="四季台湾",金光布袋戏
-https://cdn12.178.indevs.in/163189/5479c245d9d580b5
 #EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视第一台.png" group-title="四季台湾2",民視第一台
 http://4gtv.cnlive.club/channel/nc56ba28/index.m3u8?q=1782639885837
 #EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视台湾台.png" group-title="四季台湾2",民視台灣台
@@ -13015,6 +12979,8 @@ http://play.modujx11.com/20251203/lmTYcy2Y/3556kb/hls/index.m3u8
 rtmp://112.29.121.74/live/易發TV-jyt
 #EXTINF:-1 group-title="私密频道_169169",香蕉2
 rtmp://112.29.121.74/live/易發TV-xjt
+#EXTINF:-1 group-title="私密频道_169169",惊艳2
+http://ctrl.yunshipin.bbroot.com:8080/streams/ds7fcf8th2/gc/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/惊艳.png" group-title="私密频道_169169",惊艳
 http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
 #EXTINF:-1 group-title="私密频道_169169",潘多啦
