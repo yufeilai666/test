@@ -1,0 +1,39 @@
+name: 每周节目单抓取
+
+on:
+  # schedule:
+    # - cron: '0 22 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-program:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出当前仓库
+        uses: actions/checkout@v4
+
+      - name: 检出私有脚本仓库分支
+        uses: actions/checkout@v4
+        with:
+          repository: yufeilai666/tvepg
+          ref: epg_scripts
+          token: ${{ secrets.PAT_TOKEN }}
+          path: epg_scripts
+
+      # 🔥 唯一改动：加入了 numpy
+      - name: 安装 Tesseract 和依赖
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
+          pip install pillow pytesseract numpy
+
+      - name: 运行解析脚本
+        run: python epg_scripts/fetch_preview_cwjd(TesseractOCR).py
+
+      - name: 提交并推送结果
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add epg/py_cwjd_epg.xml
+          git diff --quiet && git diff --staged --quiet || git commit -m "Bot: 更新节目单 XML [skip ci]"
+          git push https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
