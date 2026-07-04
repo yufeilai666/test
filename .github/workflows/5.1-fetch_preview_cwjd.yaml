@@ -1,0 +1,235 @@
+# ================================================================
+# 工作流名称：5.1「重温经典频道」每周节目单抓取
+# 功能说明：
+#   1. 支持多个 Python/PHP 脚本顺序执行。
+#   2. 每个脚本独立重试最多 3 次，失败不影响后续脚本。
+#   3. 统计每个脚本总耗时（含重试）。
+#   4. 脚本失败不会阻止最终推送，已生成的文件仍会提交。
+#   5. 自动识别 epg/ 目录下所有变更（新增/修改/删除），无视后缀。
+#   6. 提交信息包含北京时间（UTC+8）、变更文件列表、失败脚本（仅文件名）。
+# ================================================================
+name: 5.1「重温经典频道」每周节目单抓取
+
+on:
+  # 手动触发（便于调试或临时运行）
+  workflow_dispatch:
+  # 自动触发1：图片目录有变更时（保留，但可能不工作）
+  push:
+    branches: [ 'main' ]
+    paths:
+      - 'epg/cwjd_ocr/*'
+  # 自动触发2：由第一个工作流成功完成后触发（主用，保证可靠）
+  workflow_run:
+    workflows: ["5 Fetch WeChat CWJD Article Image (via RSS)"]
+    types:
+      - completed
+    branches:
+      - main
+
+jobs:
+  # --------------------------------------------------------------
+  # Job 1: 检查是否有新图片（决定是否继续主任务）
+  # 作用：避免无图片时仍执行 OCR 脚本，节省资源
+  # --------------------------------------------------------------
+  check-image:
+    runs-on: ubuntu-latest
+    outputs:
+      has_image: ${{ steps.check.outputs.has_image }}
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v6
+
+      - id: check
+        run: |
+          # 统计 epg/cwjd_ocr 根目录下的图片文件数量（支持常见格式）
+          IMG_COUNT=$(find epg/cwjd_ocr -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.bmp" \) | wc -l)
+          # 将结果输出为 job 的输出变量（true/false）
+          echo "has_image=$([ $IMG_COUNT -gt 0 ] && echo true || echo false)" >> $GITHUB_OUTPUT
+
+  # --------------------------------------------------------------
+  # Job 2: 主任务 — 解析图片并生成节目单
+  # 依赖 check-image，根据其输出决定是否执行
+  # --------------------------------------------------------------
+  fetch-program:
+    needs: check-image
+    # 只有存在图片时才执行（无论触发方式）
+    if: needs.check-image.outputs.has_image == 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+      # ----------------------------------------------------------
+      # 1. 检出代码
+      # ----------------------------------------------------------
+      - name: 检出当前仓库（用于提交结果）
+        uses: actions/checkout@v6
+
+      - name: 检出私有脚本仓库（含所有脚本）
+        uses: actions/checkout@v6
+        with:
+          repository: yufeilai666/tvepg
+          ref: epg_scripts
+          token: ${{ secrets.PAT_TOKEN }}
+          path: epg_scripts  # 脚本将放在 epg_scripts/ 目录下
+
+      # ----------------------------------------------------------
+      # 2. 环境准备
+      # ----------------------------------------------------------
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: xml, mbstring, curl
+
+      - name: 安装 Tesseract 和其他 Python 依赖
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
+          pip install requests pillow pytesseract numpy
+
+      # ----------------------------------------------------------
+      # 3. 核心：执行所有脚本（带独立重试、计时、错误收集）
+      # ----------------------------------------------------------
+      - name: 执行所有脚本
+        timeout-minutes: 10  # 整体超时，避免死循环
+        # 🔑 注入百度 OCR 密钥（供所有 Python/PHP 脚本使用）
+        env:
+          BAIDU_OCR_API_KEY: ${{ secrets.BAIDU_OCR_API_KEY }}
+          BAIDU_OCR_SECRET_KEY: ${{ secrets.BAIDU_OCR_SECRET_KEY }}
+        run: |
+          # 允许单个命令失败，继续执行后续脚本
+          set +e
+
+          # ====== 脚本列表（按需增删，支持 .py 和 .php） ======
+          scripts=(
+            "epg_scripts/fetch_preview_cwjd.py"
+            "epg_scripts/fetch_preview_cwjd_TesseractOCR.py"
+            # "epg_scripts/epg-generator.php"
+            # "epg_scripts/epg-fixer.php"
+          )
+
+          # ---- 用于记录失败脚本 ----
+          # 完整路径（供日志输出）
+          failed_full_paths=()
+          # 仅文件名（供提交信息使用）
+          failed_names=()
+
+          # ====== 自定义重试函数 ======
+          # 对每个脚本最多尝试3次，间隔2秒
+          retry() {
+            local max_attempts=3
+            local attempt=1
+            while [ $attempt -le $max_attempts ]; do
+              if eval "$@"; then
+                return 0
+              fi
+              echo "⚠️ 第 $attempt 次尝试失败，2 秒后重试..."
+              sleep 2
+              attempt=$((attempt + 1))
+            done
+            return 1
+          }
+
+          # ====== 遍历脚本列表 ======
+          for script in "${scripts[@]}"; do
+            # GitHub Actions 分组日志，便于阅读
+            echo "::group::执行 $script"
+            echo "=== 开始执行: $script ==="
+
+            # 检查脚本文件是否存在
+            if [ ! -f "$script" ]; then
+              echo "❌ 脚本文件不存在: $script"
+              failed_full_paths+=("$script")
+              failed_names+=("$(basename "$script")")
+              echo "::endgroup::"
+              continue
+            fi
+
+            # 根据扩展名决定执行命令
+            ext="${script##*.}"
+            if [ "$ext" = "py" ]; then
+              cmd="python $script"
+            elif [ "$ext" = "php" ]; then
+              cmd="php -f $script"
+            else
+              echo "❌ 不支持的脚本类型: $ext"
+              failed_full_paths+=("$script")
+              failed_names+=("$(basename "$script")")
+              echo "::endgroup::"
+              continue
+            fi
+
+            # ---- 计时开始（涵盖所有重试次数） ----
+            script_start=$(date +%s)
+            if retry "$cmd"; then
+              script_end=$(date +%s)
+              duration=$((script_end - script_start))
+              echo "✅ 脚本执行成功 (耗时 $duration 秒)"
+            else
+              script_end=$(date +%s)
+              duration=$((script_end - script_start))
+              echo "❌ 脚本重试 3 次后仍然失败 (耗时 $duration 秒)"
+              failed_full_paths+=("$script")
+              failed_names+=("$(basename "$script")")
+            fi
+
+            echo "::endgroup::"  # 结束分组
+          done
+
+          # ====== 输出失败脚本列表（仅提示，不阻断后续推送） ======
+          if [ ${#failed_full_paths[@]} -gt 0 ]; then
+            echo "❌ 以下脚本执行失败（但其他脚本生成的文件仍会被推送）："
+            for f in "${failed_full_paths[@]}"; do
+              echo "  - $f"
+            done
+            # 将失败脚本文件名（逗号分隔）存入环境变量，供提交信息使用
+            failed_names_str=$(IFS=','; echo "${failed_names[*]}")
+            echo "FAILED_SCRIPTS=$failed_names_str" >> $GITHUB_ENV
+          else
+            echo "✅ 所有脚本执行成功"
+          fi
+
+      # ----------------------------------------------------------
+      # 4. 提交并推送结果（无论脚本是否全部成功）
+      #    使用 if: always() 确保即使有失败也执行推送
+      # ----------------------------------------------------------
+      - name: 提交并推送结果（带 3 次重试）
+        if: always()
+        uses: nick-fields/retry@v4
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          command: |
+            # 配置 git 用户信息
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            # 拉取最新远程变更，避免推送冲突（自动变基）
+            git pull origin ${{ github.ref_name }} --rebase --autostash
+
+            # 暂存 epg/ 目录下所有变更（新增、修改、删除），不关心文件后缀
+            # 这样无论生成 .xml、.json、.gz 都能自动纳入提交
+            git add -A epg/
+            git reset epg/cwjd_ocr/  # 排除源图片目录
+
+            # 检查是否有实际变更
+            if ! git diff --cached --quiet; then
+              # 获取变更文件列表：仅文件名，不含路径，逗号分隔
+              files=$(git diff --cached --name-only | xargs -n1 basename | paste -sd ',' -)
+              # 获取当前北京时间（UTC+8）
+              bj_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M")
+              # 基础提交信息（包含时间和变更文件）
+              commit_msg="🤖 Bot: 更新节目单 [skip ci] [${bj_time} UTC+8] | 变更文件：$files"
+              # 如果有失败脚本，追加到提交信息（仅文件名，用逗号分隔）
+              if [ -n "$FAILED_SCRIPTS" ]; then
+                commit_msg="$commit_msg | 失败脚本：$FAILED_SCRIPTS"
+              fi
+              git commit -m "$commit_msg"
+              # 推送（使用 PAT 避免权限问题）
+              git push https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
+            else
+              echo "ℹ️ 没有新变更，跳过推送。"
+            fi
