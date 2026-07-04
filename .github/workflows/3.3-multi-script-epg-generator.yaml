@@ -136,7 +136,7 @@ jobs:
             failed_scripts+=("$script")
           elif [ "$script" = "epg-fixer.php" ]; then
             if echo "$output" | grep -q "处理状态: 成功"; then
-              echo "✅ $script 执行成功（重试后成功）"
+              echo "✅ $script 执行成功"
             elif echo "$output" | grep -q "处理状态: 部分成功"; then
               echo "⚠️ $script 部分成功（有失败源）"
             elif echo "$output" | grep -q "处理状态: 完全失败"; then
