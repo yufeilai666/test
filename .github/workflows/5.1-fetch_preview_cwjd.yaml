@@ -136,9 +136,13 @@ jobs:
 
           # ====== 遍历脚本列表 ======
           for script in "${scripts[@]}"; do
+            # 提取文件名（仅用于日志显示）
+            script_name=$(basename "$script")
+
             # GitHub Actions 分组日志，便于阅读
-            echo "::group::执行 $script"
-            echo "=== 开始执行: $script ==="
+            # ----- 修改点：只显示文件名，不显示完整路径 -----
+            echo "::group::执行 $script_name"
+            echo "=== 开始执行: $script_name ==="
 
             # 检查脚本文件是否存在
             if [ ! -f "$script" ]; then
