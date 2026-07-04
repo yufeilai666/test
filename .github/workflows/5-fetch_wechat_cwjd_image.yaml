@@ -47,6 +47,8 @@ jobs:
           max_attempts: 3
           command: |
             cd current_repo
+            
+            export LANG=en_US.UTF-8
 
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
