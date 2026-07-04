@@ -58,7 +58,7 @@ jobs:
             if ! git diff --cached --quiet; then
               files=$(git diff --cached --name-only | xargs -n1 basename | paste -sd ',' -)
               bj_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M")
-              commit_msg="🤖 Bot: 更新重温经典频道节目单图片 [skip ci] [${bj_time} UTC+8] | 变更文件：$files"
+              commit_msg="🤖 Bot: 更新重温经典频道节目单图片 [${bj_time} UTC+8] | 变更文件：$files"
               git commit -m "$commit_msg"
               git push origin HEAD:${{ github.ref_name }}
             else
