@@ -47,7 +47,7 @@ jobs:
           max_attempts: 3
           command: |
             cd current_repo
-            
+
             export LANG=en_US.UTF-8
 
             git config --global user.name "github-actions[bot]"
@@ -58,7 +58,12 @@ jobs:
             git add -A epg/cwjd_ocr/
 
             if ! git diff --cached --quiet; then
-              files=$(git diff --cached --name-only | xargs -n1 basename | paste -sd ',' -)
+              # 使用 Python 生成变更文件列表，避免 shell 转义
+              files=$(git diff --cached --name-only | python3 -c "
+            import sys, os
+            names = [os.path.basename(f) for f in sys.stdin.read().splitlines()]
+            print(','.join(names))
+            ")
               bj_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M")
               commit_msg="🤖 Bot: 更新重温经典频道节目单图片 [${bj_time} UTC+8] | 变更文件：$files"
               git commit -m "$commit_msg"
