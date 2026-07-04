@@ -1,0 +1,66 @@
+name: Fetch WeChat CWJD Article Image (via RSS)
+
+on:
+  schedule:
+    - cron: '50 9 */5 * *'   # 北京时间 17:50，每5天运行一次（从1号开始每隔5天）
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 签出当前公共仓库
+      - name: Checkout current repository
+        uses: actions/checkout@v6
+        with:
+          path: current_repo
+
+      # 2. 签出私有仓库的 epg_scripts 分支
+      - name: Checkout private repository (epg_scripts)
+        uses: actions/checkout@v6
+        with:
+          repository: yufeilai666/tvepg
+          ref: epg_scripts
+          token: ${{ secrets.PAT_TOKEN }}
+          path: private_repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      # 3. 运行脚本
+      - name: Run fetch script
+        run: python ../private_repo/fetch_wechat_cwjd_latest_image.py
+        working-directory: current_repo
+
+      # 4. 提交并推送结果到当前公共仓库（带 3 次重试）
+      - name: 提交并推送结果（带 3 次重试）
+        if: always()
+        uses: nick-fields/retry@v4
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          command: |
+            cd current_repo
+
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+            git pull origin ${{ github.ref_name }} --rebase --autostash
+
+            git add -A epg/cwjd_ocr/
+
+            if ! git diff --cached --quiet; then
+              files=$(git diff --cached --name-only | xargs -n1 basename | paste -sd ',' -)
+              bj_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M")
+              commit_msg="🤖 Bot: 更新重温经典频道节目单图片 [skip ci] [${bj_time} UTC+8] | 变更文件：$files"
+              git commit -m "$commit_msg"
+              git push origin HEAD:${{ github.ref_name }}
+            else
+              echo "ℹ️ 没有新变更，跳过推送。"
+            fi
