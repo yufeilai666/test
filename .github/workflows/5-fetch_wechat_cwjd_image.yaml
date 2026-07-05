@@ -14,6 +14,7 @@ jobs:
       - name: Checkout current repository
         uses: actions/checkout@v6
         with:
+          token: ${{ secrets.PAT_TOKEN }}
           path: current_repo
 
       # 2. 签出私有仓库的 epg_scripts 分支
@@ -67,7 +68,7 @@ jobs:
               bj_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M")
               commit_msg="🤖 Bot: 更新重温经典频道节目单图片 [${bj_time} UTC+8] | 变更文件：$files"
               git commit -m "$commit_msg"
-              git push origin HEAD:${{ github.ref_name }}
+              git push https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
             else
               echo "ℹ️ 没有新变更，跳过推送。"
             fi

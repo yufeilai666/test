@@ -17,14 +17,14 @@ on:
   push:
     branches: [ 'main' ]
     paths:
-      - 'epg/cwjd_ocr/*'
+      - 'epg/cwjd_ocr/**'
   # 自动触发2：由第一个工作流成功完成后触发（主用，保证可靠）
-  workflow_run:
-    workflows: ["5 Fetch WeChat CWJD Article Image (via RSS)"]
-    types:
-      - completed
-    branches:
-      - main
+  # workflow_run:
+    # workflows: ["5 Fetch WeChat CWJD Article Image (via RSS)"]
+    # types:
+      # - completed
+    # branches:
+      # - main
 
 jobs:
   # --------------------------------------------------------------
