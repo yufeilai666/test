@@ -50,6 +50,8 @@ jobs:
             cd current_repo
 
             export LANG=en_US.UTF-8
+            # 关闭 git 路径转义（可选，但避免路径显示问题）
+            git config --global core.quotepath false
 
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -67,7 +69,10 @@ jobs:
             ")
               bj_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M")
               commit_msg="🤖 Bot: 更新重温经典频道节目单图片 [${bj_time} UTC+8] | 变更文件：$files"
-              git commit -m "$commit_msg"
+              # 将提交信息写入临时文件，避免 shell 转义
+              echo "$commit_msg" > /tmp/commit_msg.txt
+              git commit -F /tmp/commit_msg.txt
+              # 使用 PAT_TOKEN 推送，触发 workflow_run 事件
               git push https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
             else
               echo "ℹ️ 没有新变更，跳过推送。"
