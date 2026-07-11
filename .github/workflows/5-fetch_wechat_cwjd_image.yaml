@@ -2,7 +2,7 @@ name: 5 Fetch WeChat CWJD Article Image (via RSS)
 
 on:
   # schedule:
-    # - cron: '20 10 */5 * *'   # 北京时间 18:20，每5天运行一次（从1号开始每隔5天）
+    # - cron: '20 10 */3 * *'   # 北京时间 18:20，每3天运行一次（从1号开始每隔3天）
   workflow_dispatch:
 
 jobs:
