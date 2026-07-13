@@ -89,7 +89,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
-          pip install requests pillow pytesseract
+          pip install requests pillow pytesseract easyocr numpy
 
       # ----------------------------------------------------------
       # 3. 核心：执行所有脚本（带独立重试、计时、错误收集）
@@ -106,8 +106,9 @@ jobs:
 
           # ====== 脚本列表（按需增删，支持 .py 和 .php） ======
           scripts=(
-            "epg_scripts/fetch_preview_cwjd.py"
+            # "epg_scripts/fetch_preview_cwjd.py"
             "epg_scripts/fetch_preview_cwjd_TesseractOCR.py"
+            "epg_scripts/fetch_preview_cwjd_EasyOCR.py"
             # "epg_scripts/epg-generator.php"
             # "epg_scripts/epg-fixer.php"
           )
