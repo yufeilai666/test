@@ -106,9 +106,9 @@ jobs:
 
           # ====== 脚本列表（按需增删，支持 .py 和 .php） ======
           scripts=(
-            # "epg_scripts/fetch_preview_cwjd.py"
-            "epg_scripts/fetch_preview_cwjd_TesseractOCR.py"
+            "epg_scripts/fetch_preview_cwjd.py"
             "epg_scripts/fetch_preview_cwjd_EasyOCR.py"
+            "epg_scripts/fetch_preview_cwjd_TesseractOCR.py"
             # "epg_scripts/epg-generator.php"
             # "epg_scripts/epg-fixer.php"
           )
