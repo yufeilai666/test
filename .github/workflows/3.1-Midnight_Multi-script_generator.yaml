@@ -32,8 +32,8 @@ name: 3.1 Midnight Multi-script generator
 on:
   workflow_dispatch:  # 手动触发 - 可在GitHub Actions页面手动运行此工作流
   # schedule:
-    # 定时触发 - 每天UTC时间16点05分、（北京时间凌晨0点05分）自动运行
-    # - cron: '05 16 * * *'
+    # 定时触发 - 每天UTC时间16点04分、（北京时间凌晨0点04分）自动运行
+    # - cron: '04 16 * * *'
 
 jobs:
   generate-epg:
