@@ -1288,13 +1288,13 @@ http://23.237.104.106:8080/USA_NBA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="2026世界杯",美国beIN体育
 http://23.237.104.106:8080/USA_BEIN/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
-rtmp://www.ipanlian.com/live/ztxw
+http://www.ipanlian.com:8080/live/222ztxw.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
-rtmp://jiaohesy.cn/live/ztxw
+http://111.0.115.129:8081/live/222ztxw.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
-rtmp://ai.gdjs.net.cn/live/332000-ztxw2
+http://8.148.24.139:8081/live/555ztxw.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
-rtmp://media.atmsiot.com/live/ztxw
+http://8.138.230.74:8081/live/111ztxw.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/镜新闻台.png" group-title="四季台湾",镜新闻台
 https://d36dgdk71xuzzg.cloudfront.net/v1/manifest/3a2ac8e6b6c76471996ebf627393d9c9417a60b6/linetv-6-627778910172-MediaTailor-production/81c30c93-82df-49c9-975c-61a17204cbba/1.m3u8
 #EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="四季台湾",TVBS新闻
@@ -1489,440 +1489,136 @@ http://4gtv.cnlive.club/channel/53488299/index.m3u8?q=1782639885837
 http://4gtv.cnlive.club/channel/n4ae53aed/index.m3u8?q=1782639885837
 #EXTINF:-1 group-title="四季台湾2",東離劍遊紀-FastTV飛速看
 http://4gtv.cnlive.club/channel/nb3eed91/index.m3u8?q=1782639885837
-#EXTINF:-1 group-title="斯玛特",44
-http://smt.aimy.qzz.io/?channel=44
-#EXTINF:-1 group-title="斯玛特",45
-http://smt.aimy.qzz.io/?channel=45
-#EXTINF:-1 group-title="斯玛特",46
-http://smt.aimy.qzz.io/?channel=46
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/47.png" group-title="斯玛特",47
-http://smt.aimy.qzz.io/?channel=47
-#EXTINF:-1 group-title="斯玛特",48
-http://smt.aimy.qzz.io/?channel=48
-#EXTINF:-1 group-title="斯玛特",49
-http://smt.aimy.qzz.io/?channel=49
-#EXTINF:-1 group-title="斯玛特",50
-http://smt.aimy.qzz.io/?channel=50
-#EXTINF:-1 group-title="斯玛特",51
-http://smt.aimy.qzz.io/?channel=51
-#EXTINF:-1 group-title="斯玛特",52
-http://smt.aimy.qzz.io/?channel=52
-#EXTINF:-1 group-title="斯玛特",53
-http://smt.aimy.qzz.io/?channel=53
-#EXTINF:-1 group-title="斯玛特",54
-http://smt.aimy.qzz.io/?channel=54
-#EXTINF:-1 group-title="斯玛特",55
-http://smt.aimy.qzz.io/?channel=55
-#EXTINF:-1 group-title="斯玛特",56
-http://smt.aimy.qzz.io/?channel=56
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/57.png" group-title="斯玛特",57
-http://smt.aimy.qzz.io/?channel=57
-#EXTINF:-1 group-title="斯玛特",58
-http://smt.aimy.qzz.io/?channel=58
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/59.png" group-title="斯玛特",59
-http://smt.aimy.qzz.io/?channel=59
-#EXTINF:-1 group-title="斯玛特",60
-http://smt.aimy.qzz.io/?channel=60
-#EXTINF:-1 group-title="斯玛特",61
-http://smt.aimy.qzz.io/?channel=61
-#EXTINF:-1 group-title="斯玛特",62
-http://smt.aimy.qzz.io/?channel=62
-#EXTINF:-1 group-title="斯玛特",63
-http://smt.aimy.qzz.io/?channel=63
-#EXTINF:-1 group-title="斯玛特",64
-http://smt.aimy.qzz.io/?channel=64
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/65.png" group-title="斯玛特",65
-http://smt.aimy.qzz.io/?channel=65
-#EXTINF:-1 group-title="斯玛特",66
-http://smt.aimy.qzz.io/?channel=66
-#EXTINF:-1 group-title="斯玛特",67
-http://smt.aimy.qzz.io/?channel=67
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/68.png" group-title="斯玛特",68
-http://smt.aimy.qzz.io/?channel=68
-#EXTINF:-1 group-title="斯玛特",69
-http://smt.aimy.qzz.io/?channel=69
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/70.png" group-title="斯玛特",70
-http://smt.aimy.qzz.io/?channel=70
-#EXTINF:-1 group-title="斯玛特",71
-http://smt.aimy.qzz.io/?channel=71
-#EXTINF:-1 group-title="斯玛特",72
-http://smt.aimy.qzz.io/?channel=72
-#EXTINF:-1 group-title="斯玛特",73
-http://smt.aimy.qzz.io/?channel=73
-#EXTINF:-1 group-title="斯玛特",74
-http://smt.aimy.qzz.io/?channel=74
-#EXTINF:-1 group-title="斯玛特",75
-http://smt.aimy.qzz.io/?channel=75
-#EXTINF:-1 group-title="斯玛特",76
-http://smt.aimy.qzz.io/?channel=76
-#EXTINF:-1 group-title="斯玛特",77
-http://smt.aimy.qzz.io/?channel=77
-#EXTINF:-1 group-title="斯玛特",78
-http://smt.aimy.qzz.io/?channel=78
-#EXTINF:-1 group-title="斯玛特",79
-http://smt.aimy.qzz.io/?channel=79
-#EXTINF:-1 group-title="斯玛特",80
-http://smt.aimy.qzz.io/?channel=80
-#EXTINF:-1 group-title="斯玛特",81
-http://smt.aimy.qzz.io/?channel=81
-#EXTINF:-1 group-title="斯玛特",82
-http://smt.aimy.qzz.io/?channel=82
-#EXTINF:-1 group-title="斯玛特",83
-http://smt.aimy.qzz.io/?channel=83
-#EXTINF:-1 group-title="斯玛特",84
-http://smt.aimy.qzz.io/?channel=84
-#EXTINF:-1 group-title="斯玛特",85
-http://smt.aimy.qzz.io/?channel=85
-#EXTINF:-1 group-title="斯玛特",86
-http://smt.aimy.qzz.io/?channel=86
-#EXTINF:-1 group-title="斯玛特",87
-http://smt.aimy.qzz.io/?channel=87
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/88.png" group-title="斯玛特",88
-http://smt.aimy.qzz.io/?channel=88
-#EXTINF:-1 group-title="斯玛特",89
-http://smt.aimy.qzz.io/?channel=89
-#EXTINF:-1 group-title="斯玛特",90
-http://smt.aimy.qzz.io/?channel=90
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/91.png" group-title="斯玛特",91
-http://smt.aimy.qzz.io/?channel=91
-#EXTINF:-1 group-title="斯玛特",92
-http://smt.aimy.qzz.io/?channel=92
-#EXTINF:-1 group-title="斯玛特",93
-http://smt.aimy.qzz.io/?channel=93
-#EXTINF:-1 group-title="斯玛特",94
-http://smt.aimy.qzz.io/?channel=94
-#EXTINF:-1 group-title="斯玛特",95
-http://smt.aimy.qzz.io/?channel=95
-#EXTINF:-1 group-title="斯玛特",96
-http://smt.aimy.qzz.io/?channel=96
-#EXTINF:-1 group-title="斯玛特",97
-http://smt.aimy.qzz.io/?channel=97
-#EXTINF:-1 group-title="斯玛特",98
-http://smt.aimy.qzz.io/?channel=98
-#EXTINF:-1 group-title="斯玛特",99
-http://smt.aimy.qzz.io/?channel=99
-#EXTINF:-1 group-title="斯玛特",100
-http://smt.aimy.qzz.io/?channel=100
-#EXTINF:-1 group-title="斯玛特",101
-http://smt.aimy.qzz.io/?channel=101
-#EXTINF:-1 group-title="斯玛特",102
-http://smt.aimy.qzz.io/?channel=102
-#EXTINF:-1 group-title="斯玛特",103
-http://smt.aimy.qzz.io/?channel=103
-#EXTINF:-1 group-title="斯玛特",104
-http://smt.aimy.qzz.io/?channel=104
-#EXTINF:-1 group-title="斯玛特",105
-http://smt.aimy.qzz.io/?channel=105
-#EXTINF:-1 group-title="斯玛特",106
-http://smt.aimy.qzz.io/?channel=106
-#EXTINF:-1 group-title="斯玛特",107
-http://smt.aimy.qzz.io/?channel=107
-#EXTINF:-1 group-title="斯玛特",108
-http://smt.aimy.qzz.io/?channel=108
-#EXTINF:-1 group-title="斯玛特",109
-http://smt.aimy.qzz.io/?channel=109
-#EXTINF:-1 group-title="斯玛特",110
-http://smt.aimy.qzz.io/?channel=110
-#EXTINF:-1 group-title="斯玛特",111
-http://smt.aimy.qzz.io/?channel=111
-#EXTINF:-1 group-title="斯玛特",112
-http://smt.aimy.qzz.io/?channel=112
-#EXTINF:-1 group-title="斯玛特",113
-http://smt.aimy.qzz.io/?channel=113
-#EXTINF:-1 group-title="斯玛特",114
-http://smt.aimy.qzz.io/?channel=114
-#EXTINF:-1 group-title="斯玛特",115
-http://smt.aimy.qzz.io/?channel=115
-#EXTINF:-1 group-title="斯玛特",116
-http://smt.aimy.qzz.io/?channel=116
-#EXTINF:-1 group-title="斯玛特",117
-http://smt.aimy.qzz.io/?channel=117
-#EXTINF:-1 group-title="斯玛特",118
-http://smt.aimy.qzz.io/?channel=118
-#EXTINF:-1 group-title="斯玛特",119
-http://smt.aimy.qzz.io/?channel=119
-#EXTINF:-1 group-title="斯玛特",120
-http://smt.aimy.qzz.io/?channel=120
-#EXTINF:-1 group-title="斯玛特",121
-http://smt.aimy.qzz.io/?channel=121
-#EXTINF:-1 group-title="斯玛特",122
-http://smt.aimy.qzz.io/?channel=122
-#EXTINF:-1 group-title="斯玛特",123
-http://smt.aimy.qzz.io/?channel=123
-#EXTINF:-1 group-title="斯玛特",124
-http://smt.aimy.qzz.io/?channel=124
-#EXTINF:-1 group-title="斯玛特",125
-http://smt.aimy.qzz.io/?channel=125
-#EXTINF:-1 group-title="斯玛特",126
-http://smt.aimy.qzz.io/?channel=126
-#EXTINF:-1 group-title="斯玛特",127
-http://smt.aimy.qzz.io/?channel=127
-#EXTINF:-1 group-title="斯玛特",128
-http://smt.aimy.qzz.io/?channel=128
-#EXTINF:-1 group-title="斯玛特",129
-http://smt.aimy.qzz.io/?channel=129
-#EXTINF:-1 group-title="斯玛特",130
-http://smt.aimy.qzz.io/?channel=130
-#EXTINF:-1 group-title="斯玛特",131
-http://smt.aimy.qzz.io/?channel=131
-#EXTINF:-1 group-title="斯玛特",132
-http://smt.aimy.qzz.io/?channel=132
-#EXTINF:-1 group-title="斯玛特",133
-http://smt.aimy.qzz.io/?channel=133
-#EXTINF:-1 group-title="斯玛特",134
-http://smt.aimy.qzz.io/?channel=134
-#EXTINF:-1 group-title="斯玛特",135
-http://smt.aimy.qzz.io/?channel=135
-#EXTINF:-1 group-title="斯玛特",136
-http://smt.aimy.qzz.io/?channel=136
-#EXTINF:-1 group-title="斯玛特",137
-http://smt.aimy.qzz.io/?channel=137
-#EXTINF:-1 group-title="斯玛特",138
-http://smt.aimy.qzz.io/?channel=138
-#EXTINF:-1 group-title="斯玛特",139
-http://smt.aimy.qzz.io/?channel=139
-#EXTINF:-1 group-title="斯玛特",140
-http://smt.aimy.qzz.io/?channel=140
-#EXTINF:-1 group-title="斯玛特",141
-http://smt.aimy.qzz.io/?channel=141
-#EXTINF:-1 group-title="斯玛特",142
-http://smt.aimy.qzz.io/?channel=142
-#EXTINF:-1 group-title="斯玛特",143
-http://smt.aimy.qzz.io/?channel=143
-#EXTINF:-1 group-title="斯玛特",144
-http://smt.aimy.qzz.io/?channel=144
-#EXTINF:-1 group-title="斯玛特",145
-http://smt.aimy.qzz.io/?channel=145
-#EXTINF:-1 group-title="斯玛特",146
-http://smt.aimy.qzz.io/?channel=146
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/147.png" group-title="斯玛特",147
-http://smt.aimy.qzz.io/?channel=147
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/148.png" group-title="斯玛特",148
-http://smt.aimy.qzz.io/?channel=148
-#EXTINF:-1 group-title="斯玛特",149
-http://smt.aimy.qzz.io/?channel=149
-#EXTINF:-1 group-title="斯玛特",150
-http://smt.aimy.qzz.io/?channel=150
-#EXTINF:-1 group-title="斯玛特",151
-http://smt.aimy.qzz.io/?channel=151
-#EXTINF:-1 group-title="斯玛特",152
-http://smt.aimy.qzz.io/?channel=152
-#EXTINF:-1 group-title="斯玛特",153
-http://smt.aimy.qzz.io/?channel=153
-#EXTINF:-1 group-title="斯玛特",154
-http://smt.aimy.qzz.io/?channel=154
-#EXTINF:-1 group-title="斯玛特",155
-http://smt.aimy.qzz.io/?channel=155
-#EXTINF:-1 group-title="斯玛特",156
-http://smt.aimy.qzz.io/?channel=156
-#EXTINF:-1 group-title="斯玛特",157
-http://smt.aimy.qzz.io/?channel=157
-#EXTINF:-1 group-title="斯玛特",158
-http://smt.aimy.qzz.io/?channel=158
-#EXTINF:-1 group-title="斯玛特",159
-http://smt.aimy.qzz.io/?channel=159
-#EXTINF:-1 group-title="斯玛特",160
-http://smt.aimy.qzz.io/?channel=160
-#EXTINF:-1 group-title="斯玛特",161
-http://smt.aimy.qzz.io/?channel=161
-#EXTINF:-1 group-title="斯玛特",162
-http://smt.aimy.qzz.io/?channel=162
-#EXTINF:-1 group-title="斯玛特",163
-http://smt.aimy.qzz.io/?channel=163
-#EXTINF:-1 group-title="斯玛特",164
-http://smt.aimy.qzz.io/?channel=164
-#EXTINF:-1 group-title="斯玛特",165
-http://smt.aimy.qzz.io/?channel=165
-#EXTINF:-1 group-title="斯玛特",166
-http://smt.aimy.qzz.io/?channel=166
-#EXTINF:-1 group-title="斯玛特",167
-http://smt.aimy.qzz.io/?channel=167
-#EXTINF:-1 group-title="斯玛特",168
-http://smt.aimy.qzz.io/?channel=168
-#EXTINF:-1 group-title="斯玛特",169
-http://smt.aimy.qzz.io/?channel=169
-#EXTINF:-1 group-title="斯玛特",170
-http://smt.aimy.qzz.io/?channel=170
-#EXTINF:-1 group-title="斯玛特",171
-http://smt.aimy.qzz.io/?channel=171
-#EXTINF:-1 group-title="斯玛特",172
-http://smt.aimy.qzz.io/?channel=172
-#EXTINF:-1 group-title="斯玛特",173
-http://smt.aimy.qzz.io/?channel=173
-#EXTINF:-1 group-title="斯玛特",174
-http://smt.aimy.qzz.io/?channel=174
-#EXTINF:-1 group-title="斯玛特",175
-http://smt.aimy.qzz.io/?channel=175
-#EXTINF:-1 group-title="斯玛特",176
-http://smt.aimy.qzz.io/?channel=176
-#EXTINF:-1 group-title="斯玛特",177
-http://smt.aimy.qzz.io/?channel=177
-#EXTINF:-1 group-title="斯玛特",178
-http://smt.aimy.qzz.io/?channel=178
-#EXTINF:-1 group-title="斯玛特",179
-http://smt.aimy.qzz.io/?channel=179
-#EXTINF:-1 group-title="斯玛特",180
-http://smt.aimy.qzz.io/?channel=180
-#EXTINF:-1 group-title="斯玛特",181
-http://smt.aimy.qzz.io/?channel=181
-#EXTINF:-1 group-title="斯玛特",182
-http://smt.aimy.qzz.io/?channel=182
-#EXTINF:-1 group-title="斯玛特",183
-http://smt.aimy.qzz.io/?channel=183
-#EXTINF:-1 group-title="斯玛特",184
-http://smt.aimy.qzz.io/?channel=184
-#EXTINF:-1 group-title="斯玛特",185
-http://smt.aimy.qzz.io/?channel=185
-#EXTINF:-1 group-title="斯玛特",186
-http://smt.aimy.qzz.io/?channel=186
-#EXTINF:-1 group-title="斯玛特",187
-http://smt.aimy.qzz.io/?channel=187
-#EXTINF:-1 group-title="斯玛特",188
-http://smt.aimy.qzz.io/?channel=188
-#EXTINF:-1 group-title="斯玛特",189
-http://smt.aimy.qzz.io/?channel=189
-#EXTINF:-1 group-title="斯玛特",190
-http://smt.aimy.qzz.io/?channel=190
-#EXTINF:-1 group-title="斯玛特",191
-http://smt.aimy.qzz.io/?channel=191
-#EXTINF:-1 group-title="斯玛特",192
-http://smt.aimy.qzz.io/?channel=192
-#EXTINF:-1 group-title="斯玛特",193
-http://smt.aimy.qzz.io/?channel=193
-#EXTINF:-1 group-title="斯玛特",194
-http://smt.aimy.qzz.io/?channel=194
-#EXTINF:-1 group-title="斯玛特",195
-http://smt.aimy.qzz.io/?channel=195
-#EXTINF:-1 group-title="斯玛特",196
-http://smt.aimy.qzz.io/?channel=196
-#EXTINF:-1 group-title="斯玛特",197
-http://smt.aimy.qzz.io/?channel=197
-#EXTINF:-1 group-title="斯玛特",198
-http://smt.aimy.qzz.io/?channel=198
-#EXTINF:-1 group-title="斯玛特",199
-http://smt.aimy.qzz.io/?channel=199
-#EXTINF:-1 group-title="斯玛特",200
-http://smt.aimy.qzz.io/?channel=200
-#EXTINF:-1 group-title="斯玛特",201
-http://smt.aimy.qzz.io/?channel=201
-#EXTINF:-1 group-title="斯玛特",202
-http://smt.aimy.qzz.io/?channel=202
-#EXTINF:-1 group-title="斯玛特",203
-http://smt.aimy.qzz.io/?channel=203
-#EXTINF:-1 group-title="斯玛特",204
-http://smt.aimy.qzz.io/?channel=204
-#EXTINF:-1 group-title="斯玛特",205
-http://smt.aimy.qzz.io/?channel=205
-#EXTINF:-1 group-title="斯玛特",206
-http://smt.aimy.qzz.io/?channel=206
-#EXTINF:-1 group-title="斯玛特",207
-http://smt.aimy.qzz.io/?channel=207
-#EXTINF:-1 group-title="斯玛特",208
-http://smt.aimy.qzz.io/?channel=208
-#EXTINF:-1 group-title="斯玛特",209
-http://smt.aimy.qzz.io/?channel=209
-#EXTINF:-1 group-title="斯玛特",210
-http://smt.aimy.qzz.io/?channel=210
-#EXTINF:-1 group-title="斯玛特",211
-http://smt.aimy.qzz.io/?channel=211
-#EXTINF:-1 group-title="斯玛特",212
-http://smt.aimy.qzz.io/?channel=212
-#EXTINF:-1 group-title="斯玛特",213
-http://smt.aimy.qzz.io/?channel=213
-#EXTINF:-1 group-title="斯玛特",214
-http://smt.aimy.qzz.io/?channel=214
-#EXTINF:-1 group-title="斯玛特",215
-http://smt.aimy.qzz.io/?channel=215
-#EXTINF:-1 group-title="斯玛特",216
-http://smt.aimy.qzz.io/?channel=216
-#EXTINF:-1 group-title="斯玛特",217
-http://smt.aimy.qzz.io/?channel=217
-#EXTINF:-1 group-title="斯玛特",218
-http://smt.aimy.qzz.io/?channel=218
-#EXTINF:-1 group-title="斯玛特",219
-http://smt.aimy.qzz.io/?channel=219
-#EXTINF:-1 group-title="斯玛特",220
-http://smt.aimy.qzz.io/?channel=220
-#EXTINF:-1 group-title="斯玛特",221
-http://smt.aimy.qzz.io/?channel=221
-#EXTINF:-1 group-title="斯玛特",222
-http://smt.aimy.qzz.io/?channel=222
-#EXTINF:-1 group-title="斯玛特",223
-http://smt.aimy.qzz.io/?channel=223
-#EXTINF:-1 group-title="斯玛特",224
-http://smt.aimy.qzz.io/?channel=224
-#EXTINF:-1 group-title="斯玛特",225
-http://smt.aimy.qzz.io/?channel=225
-#EXTINF:-1 group-title="斯玛特",226
-http://smt.aimy.qzz.io/?channel=226
-#EXTINF:-1 group-title="斯玛特",227
-http://smt.aimy.qzz.io/?channel=227
-#EXTINF:-1 group-title="斯玛特",228
-http://smt.aimy.qzz.io/?channel=228
-#EXTINF:-1 group-title="斯玛特",229
-http://smt.aimy.qzz.io/?channel=229
-#EXTINF:-1 group-title="斯玛特",230
-http://smt.aimy.qzz.io/?channel=230
-#EXTINF:-1 group-title="斯玛特",231
-http://smt.aimy.qzz.io/?channel=231
-#EXTINF:-1 group-title="斯玛特",232
-http://smt.aimy.qzz.io/?channel=232
-#EXTINF:-1 group-title="斯玛特",233
-http://smt.aimy.qzz.io/?channel=233
-#EXTINF:-1 group-title="斯玛特",234
-http://smt.aimy.qzz.io/?channel=234
-#EXTINF:-1 group-title="斯玛特",235
-http://smt.aimy.qzz.io/?channel=235
-#EXTINF:-1 group-title="斯玛特",236
-http://smt.aimy.qzz.io/?channel=236
-#EXTINF:-1 group-title="斯玛特",237
-http://smt.aimy.qzz.io/?channel=237
-#EXTINF:-1 group-title="斯玛特",238
-http://smt.aimy.qzz.io/?channel=238
-#EXTINF:-1 group-title="斯玛特",239
-http://smt.aimy.qzz.io/?channel=239
-#EXTINF:-1 group-title="斯玛特",240
-http://smt.aimy.qzz.io/?channel=240
-#EXTINF:-1 group-title="斯玛特",241
-http://smt.aimy.qzz.io/?channel=241
-#EXTINF:-1 group-title="斯玛特",242
-http://smt.aimy.qzz.io/?channel=242
-#EXTINF:-1 group-title="斯玛特",243
-http://smt.aimy.qzz.io/?channel=243
-#EXTINF:-1 group-title="斯玛特",244
-http://smt.aimy.qzz.io/?channel=244
-#EXTINF:-1 group-title="斯玛特",245
-http://smt.aimy.qzz.io/?channel=245
-#EXTINF:-1 group-title="斯玛特",246
-http://smt.aimy.qzz.io/?channel=246
-#EXTINF:-1 group-title="斯玛特",247
-http://smt.aimy.qzz.io/?channel=247
-#EXTINF:-1 group-title="斯玛特",248
-http://smt.aimy.qzz.io/?channel=248
-#EXTINF:-1 group-title="斯玛特",249
-http://smt.aimy.qzz.io/?channel=249
-#EXTINF:-1 group-title="斯玛特",250
-http://smt.aimy.qzz.io/?channel=250
-#EXTINF:-1 group-title="斯玛特",251
-http://smt.aimy.qzz.io/?channel=251
-#EXTINF:-1 group-title="斯玛特",252
-http://smt.aimy.qzz.io/?channel=252
-#EXTINF:-1 group-title="斯玛特",253
-http://smt.aimy.qzz.io/?channel=253
-#EXTINF:-1 group-title="斯玛特",254
-http://smt.aimy.qzz.io/?channel=254
-#EXTINF:-1 group-title="斯玛特",255
-http://smt.aimy.qzz.io/?channel=255
-#EXTINF:-1 group-title="斯玛特",256
-http://smt.aimy.qzz.io/?channel=256
-#EXTINF:-1 group-title="斯玛特",257
-http://smt.aimy.qzz.io/?channel=257
-#EXTINF:-1 group-title="斯玛特",258
-http://smt.aimy.qzz.io/?channel=258
-#EXTINF:-1 group-title="斯玛特",259
-http://smt.aimy.qzz.io/?channel=259
-#EXTINF:-1 group-title="斯玛特",260
-http://smt.aimy.qzz.io/?channel=260
+#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰中文.png" group-title="今日影视",凤凰中文
+http://b.xszhibo.dingtoo.com/live/Y0LWeJTJtJs43LGlV1sZEGvtO8cKvy14RKCOIFvfrkW0MZ20VjCtlS586Xrvyi.flv
+#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="今日影视",凤凰资讯
+http://b.xszhibo.dingtoo.com/live/WuZ31stTjtOacP1dlZwabsGuyKLfqEiNtfhU4lNYAL0BTBA39sjUqp2BeTNzLNP.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="今日影视",凤凰香港
+http://b.xszhibo.dingtoo.com/live/P2o4LqHlyXtxM7Tx7AQ3yE6rQckZpcjN2v4jsrrKpQ4DiCq3jCgQjDfeOvnZBw5.flv
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="今日影视",翡翠台
+http://b.xszhibo.dingtoo.com/live/wwlbRYvz7ZJIO3Vp3qUG07qium3d8AH2t1zh0ulNZ1g7E6nELdG38pFEB8XCRd.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="今日影视",TVBPlus
+http://b.xszhibo.dingtoo.com/live/yVI6fgS8qoJdAdxoDVhqdb2NzfUcaYsXWN1HAh4JxfOYSHv5nYbrkyp1Xk1j1Om.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="今日影视",无线新闻
+http://b.xszhibo.dingtoo.com/live/aggEURxB5rUDNt9BibxWRfOAxPc0smDRQ7gh2gc3lids4EtaurSDu1DrIzomE.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="今日影视",明珠台
+https://live-play-2.haoyishu.org/live/cf43ff8eaab8750d33d5e1f2283d727a.flv
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="今日影视",ViUTV
+http://b.xszhibo.dingtoo.com/live/xlYfYD5CxwnQUqLw46K6WkEcmTJUJ4rJ2ZqlE2spV92jbi80Ftn2FPVZThxiRQ.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/VIUTVSIX.png" group-title="今日影视",ViUTVSix
+http://b.xszhibo.dingtoo.com/live/miRkQ7LyaOSCRRz70EAPcjxNH8aYjm9BqBuJImZTD6N7oIZ52C930B85AkgB5VEU.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOYTV.png" group-title="今日影视",HOYTV
+http://b.xszhibo.dingtoo.com/live/gxy7W1xxjHaqHQJ7xnbvQIwGDj81aS5TMzKNsVNB9UUCD8J5FtqmlIM24u0VaR8.flv
+#EXTINF:-1 group-title="今日影视",HOY 资讯台
+http://b.xszhibo.dingtoo.com/live/waUkRgSy6Lu1GrDtzApRnnYThLX4DEiuomDNx7b1ax7nk7EJnyDaPnWeMzK1.flv
+#EXTINF:-1 group-title="今日影视",HOY 财经台
+http://b.xszhibo.dingtoo.com/live/08LyrejpBx5fsc8yXJpBtnywgK0uMNqxcBosB84w2KJoK9n4sb3sjTFTV7lomVi.flv
+#EXTINF:-1 group-title="今日影视",18 台
+http://b.xszhibo.dingtoo.com/live/ur9gtX6CGqNnIWHTSXv5Ay9oVfUSDNsNnfSA30BzHMw3DjMMdwwMfSD1vDem3J.flv
+#EXTINF:-1 group-title="今日影视",Now 新闻台
+http://b.xszhibo.dingtoo.com/live/YrSuGPmgMXvZcHpfiQnPzuNFUFwbrdQw2seHxH0jHzXVtZzVvzbJFIZfhQhlxm.flv
+#EXTINF:-1 group-title="今日影视",Now 财经台
+http://b.xszhibo.dingtoo.com/live/ZmcUDd211QmpUahyxooeWfnXAEhhOtUq7oMkvmhGTuX4LRmkpRAk4irfn9jwpP.flv
+#EXTINF:-1 group-title="今日影视",TVB 星河
+http://b.xszhibo.dingtoo.com/live/z5KKV4G8BMq9X0EiFk4xhFbg46dLXaSNFWpszYWAhZkGM6Xu4wXabHqInU6P.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/功夫台.png" group-title="今日影视",功夫台
+http://b.xszhibo.dingtoo.com/live/kaRCLsgB9HqMqBJk8wR6m8Llm1FO6UovXgJlmm2C4kcTtuM0MS9jhtjNEflGX.flv
+#EXTINF:-1 tvg-id="天映经典 (香港)" tvg-name="天映经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="今日影视",天映经典
+http://b.xszhibo.dingtoo.com/live/iXIMud8bCQiTCR7kgi0JsVJOa0AuPLjzXaa2VKAnkfQz3mJnKf9cEYQFeLMZV0l.flv
+#EXTINF:-1 tvg-id="美亞電影台" tvg-name="美亞電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美亞电影台.png" group-title="今日影视",美亚电影台
+http://b.xszhibo.dingtoo.com/live/TZLCHa1JSoWWgC8x6gSZteKqWrqQUCOTNUIrIH5nkyGESGNpaSOUaDcwxHye7xo.flv
+#EXTINF:-1 tvg-id="PopC (香港)" tvg-name="PopC" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/POPC.png" group-title="今日影视",POPC
+http://b.xszhibo.dingtoo.com/live/DHbF6dkCE7xysIgVbfKEOcaOWHD4oUf0chO5c9BC3ayBKB2tKyWnk8Qxpe88m.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国电影.png" group-title="今日影视",中国电影
+http://b.xszhibo.dingtoo.com/live/TLEazrASpFeeejJFJNjqCgcIEOuW2LyLaMn4kGqlwVazlseliJfRjIKQ1uy1Jgo.flv
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視.png" group-title="今日影视",中视
+http://bl02.pedrollo.org/live/CzHNBJqO6S8m96duWfkEJLM4hAooBmgJY1vcFf9TOYvhB.flv
+#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="今日影视",华视
+http://bl02.pedrollo.org/live/MmuOyRFC508jINsq9EBb8ZQpODagmV8Me9pLqjIWRJvxe.flv
+#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視.png" group-title="今日影视",民视
+http://bl02.pedrollo.org/live/EcWXiU0vDunsph5VkkjOsaAaED4LFxp9ZG6E53WwXETKf.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民視台灣.png" group-title="今日影视",民视台湾
+http://bl02.pedrollo.org/live/OdwsVYCzZfy7yPfhk4WwJE4m0g6cZH4kMR8RiOc7jm8N3.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视第一.png" group-title="今日影视",民视第一
+http://bl02.pedrollo.org/live/XngrEI9ZkrbiPY1XuBviLzcvFUlcBcuD3nN6bWxg5XoNG.flv
+#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="今日影视",台视
+http://bl02.pedrollo.org/live/PrteoJKQI3Np0nXyBw8pWUidwAULTzRgMdo4YvCQYtaM0.flv
+#EXTINF:-1 tvg-id="台視綜合" tvg-name="台視綜合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="今日影视",台视综合
+http://bl02.pedrollo.org/live/IoGhNWu9dkAaKxMj59b2tiEIQm82CmnCQ3GZ0O6FP8AQ2.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="今日影视",公视
+http://bl02.pedrollo.org/live/LvcZaj9DlumECW99Xo8wSqeK3LxJeSB3dHQKVu17JX9TZ.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天综合.png" group-title="今日影视",中天综合
+http://bl02.pedrollo.org/live/Jo9ZdL5DdLVGJ3J2KeF5vxi603r3uIKvjDARp1SlNXxrE.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大综合.png" group-title="今日影视",八大综合
+http://bl02.pedrollo.org/live/UfFGHJxWNcUbXrY4IRGVV3Sy3qkRXbTeIytNbQKvCTDT5.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大第一.png" group-title="今日影视",八大第一
+http://bl02.pedrollo.org/live/FtaDGp4nErbkLb76mVI8WznvqNUbZjPO9JSAjErFtsL4L.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森综合.png" group-title="今日影视",东森综合
+http://bl02.pedrollo.org/live/VzC8u0opjvYHLFQvIXBxZ3Jdkazee0bNnHoLwXAivbGUu.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森电影.png" group-title="今日影视",东森电影
+http://bl02.pedrollo.org/live/Awjee98NVvinibbURCNDAVKAe43w6QKqg1fzt5EdCrxoe.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="今日影视",纬來电影
+http://bl02.pedrollo.org/live/XgQZWHtUpKfX5awzRJh3kUs0rVxX9cADM0LlNG1Xf5B7Y.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立都会.png" group-title="今日影视",三立都会
+http://bl02.pedrollo.org/live/Dt52PetyfwxXwTZsTIIRP0JI6v7oURDfHbUhqCHeX0PzY.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/三立台灣.png" group-title="今日影视",三立台湾
+http://bl02.pedrollo.org/live/Cc4mglaNKFPz8wXOhjH4vWBWirjts0nrzQE1KqGsBTqIQ.flv
+#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华偶像.png" group-title="今日影视",龙华偶像
+http://bl02.pedrollo.org/live/MjjVfd6QBuvh0F5vQ78i2yAA2yTnE6kkPCkoYsg3HdpAC.flv
+#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="今日影视",龙华电影
+http://bl02.pedrollo.org/live/Qr07NiPprU30680gq3qV2r6xCMVeAJVXE7iOFtFlZWpZy.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華經典.png" group-title="今日影视",龙华经典
+http://bl02.pedrollo.org/live/Yv2HK8fX8M3IraCiro99alHDqNUxnROUu699JCBtYARLc.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好萊塢電影.png" group-title="今日影视",好萊塢电影
+http://bl02.pedrollo.org/live/VldSgGt65ZB6lbs3V4pFjspFV4I9m1vx8zIkYY3anF5vz.flv
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="今日影视",TVBS
+https://live-play-2.haoyishu.org/live/pbFjyBB6xHbgZLjEShgw8G8UBMqgmLRD427IPvok2q4XcIlckFzMjMTlk1U39BX5.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="今日影视",中天新闻
+https://live-play-2.haoyishu.org/live/skamQwgSWuiPg7hqnAllHldPw562Wl5xHEiHDzatArQAsIP5sPK6QGJUGSPfx.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="今日影视",东森新闻
+https://live-play-2.haoyishu.org/live/tX5Y2Q1xFCCH4xcHKhL7tmfNp9V9NVUQ4YKV69dRAhJbCYUcRdyyJcv1iZqeHd.flv
+#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视新闻.png" group-title="今日影视",华视新闻
+https://live-play-2.haoyishu.org/live/mNVynM5PEXSRkXbabPiZ9v0rqWQVQ5PJxiE03cDfaurMkkxNdbsrPW3CZ08nW.flv
+#EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视新闻.png" group-title="今日影视",中视新闻
+https://live-play-2.haoyishu.org/live/kv5GTMgEJdXgMND0VgHq3sT6iXEb7ol0sEObGrj9xLhb0ADe3DqAuHpJktQ1T0.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="今日影视",台视新闻
+https://live-play-2.haoyishu.org/live/JDSCs3hmldLPvTjGGmRuizTSetyLmUaAmvk57lktzXKGAmg4cg9MB1Rbnzir.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="今日影视",民视新闻
+https://live-play-2.haoyishu.org/live/STQc38jYmW33pLy2HyLEAtYvlxDHbHy02tGshdZAPubtBPOYRHnnL0PItaIfQQ.flv
+#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="今日影视",TVBS新闻
+https://live-play-2.haoyishu.org/live/keUdt5l3EwaMtFTfQyZvX7vmLpPdXySDcv4bmRiBiIFs7j9ezNgGJjNaBzkYvy.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立新聞.png" group-title="今日影视",三立新闻
+https://live-play-2.haoyishu.org/live/Iui4CgJ4gDX1Fyftperv23ETVEfFRjQhh2DCjvknkJh5em0nhVn9FHcQEbBX.flv
+#EXTINF:-1 tvg-id="年代新聞" tvg-name="年代新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/年代新闻.png" group-title="今日影视",年代新闻
+https://live-play-2.haoyishu.org/live/n5Ua6StEn86XkSV8jUkReHlLop0HIAx3o1l1ZIEc5vbTqsKQbW7N9dJGShLpe.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/壹新闻.png" group-title="今日影视",壹新闻
+https://live-play-2.haoyishu.org/live/HWbCPWYCulRf1AMavUHr7HpcRskoZSG9hcfye5gV79QEWluZAI6XswBGZpWIAU7.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="今日影视",非凡新闻
+https://live-play-2.haoyishu.org/live/dtvmjMuPcOEsu9ELYkQ8nICIWxI41O07HIzpaoHGCotHSQcDLLZ9E8jz9MW.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/镜新闻.png" group-title="今日影视",镜新闻
+https://live-play-2.haoyishu.org/live/YyumumxfglSJV1jN3W15KwLjGwBqpCRpQZRjgoLYPjE0eavK5QXHlbGwHHI3Asf.flv
+#EXTINF:-1 group-title="今日影视",环宇台湾
+https://live-play-2.haoyishu.org/live/Lt32SDbAHWlHpwZRILAQmtC4am0Wwr6DvthAVz7RGVOViDYIVJIr67T9fDJdRWP.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="今日影视",纬来体育
+http://bl02.pedrollo.org/live/EmuFBtp1szi0ibmQUbtqbXoB4751IdOvGLhskdfCV4PYr.flv
+#EXTINF:-1 group-title="今日影视",live体育
+http://flv-live-isc.zhaomi.cn/live/QuqdwSYfncFvgkSKazrXiG0Ac1jdDDphREFriSqg3I8nz.flv
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="今日影视",CCTV5
+http://public-live.qdbroadcast.com/live/cx_479511.flv
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="今日影视",广东体育
+http://public-live.qdbroadcast.com/live/cx_952391.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育1.png" group-title="今日影视",ELTA体育1
+https://live-play-2.haoyishu.org/live/NhVY5kYelhZmGaYm9YxYvWKirTDHFqR07njnMKhOlQEHlNNQPYhGg0lmtZIJ.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育2.png" group-title="今日影视",ELTA体育2
+https://live-play-2.haoyishu.org/live/ZMJEqx5G1DmpC1xjhOMJad7TQov6iOBkhTldsurSKSRUk1MT1nz8XMkry3gfe.flv
+#EXTINF:-1 group-title="今日影视",TSN1
+http://flv-live-isc.zhaomi.cn/live/IkrW3noZieI50ZClGGrpZ8JiB571XNsbTfodFWg9azV9c.flv
+#EXTINF:-1 group-title="今日影视",TSN2
+http://flv-live-isc.zhaomi.cn/live/JaV5RFfreItsPNg2vphkFB6zGEglpbrNWQ2KGr7KCf92c.flv
+#EXTINF:-1 group-title="今日影视",TSN3
+http://flv-live-isc.zhaomi.cn/live/PnVvFxX6sTjziHj3L7etsPbokMZdV69MAGwLUvOf35Y81.flv
+#EXTINF:-1 group-title="今日影视",TSN4
+http://flv-live-isc.zhaomi.cn/live/Dr7zUFD7864I3flq7LP8jRRQM8JEdhsnq4r1jS6Ru65t8.flv
 #EXTINF:-1 group-title="美国US",COZI TV SD
 http://108.181.20.255:27347/livehttpplay?channel_id=23000
 #EXTINF:-1 group-title="美国US",TELEXITOS SD
