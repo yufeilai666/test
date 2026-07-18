@@ -1288,7 +1288,7 @@ http://23.237.104.106:8080/USA_NBA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="2026世界杯",美国beIN体育
 http://23.237.104.106:8080/USA_BEIN/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
-http://www.shangguanlingjun.xyz:8081/live/666ztxw.m3u8
+rtmp://47.238.2.198/live/888ztxw
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
 http://111.0.115.129:8081/live/222ztxw.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
