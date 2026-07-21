@@ -58,7 +58,7 @@ jobs:
 
             git pull origin ${{ github.ref_name }} --rebase --autostash
 
-            git add -A epg/cwjd_ocr/
+            git add -A epg/cwjd_image/
 
             if ! git diff --cached --quiet; then
               # 使用 Python 生成变更文件列表，避免 shell 转义

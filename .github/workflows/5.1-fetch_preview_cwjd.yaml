@@ -17,7 +17,7 @@ on:
   push:
     branches: [ 'main' ]
     paths:
-      - 'epg/cwjd_ocr/**'
+      - 'epg/cwjd_image/**'
   # 自动触发2：由第一个工作流成功完成后触发（主用，保证可靠）
   # workflow_run:
     # workflows: ["5 Fetch WeChat CWJD Article Image (via RSS)"]
@@ -41,8 +41,8 @@ jobs:
 
       - id: check
         run: |
-          # 统计 epg/cwjd_ocr 根目录下的图片文件数量（支持常见格式）
-          IMG_COUNT=$(find epg/cwjd_ocr -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.bmp" \) | wc -l)
+          # 统计 epg/cwjd_image 根目录下的图片文件数量（支持常见格式）
+          IMG_COUNT=$(find epg/cwjd_image -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.bmp" \) | wc -l)
           # 将结果输出为 job 的输出变量（true/false）
           echo "has_image=$([ $IMG_COUNT -gt 0 ] && echo true || echo false)" >> $GITHUB_OUTPUT
 
@@ -218,7 +218,7 @@ jobs:
             # 暂存 epg/ 目录下所有变更（新增、修改、删除），不关心文件后缀
             # 这样无论生成 .xml、.json、.gz 都能自动纳入提交
             git add -A epg/
-            git reset epg/cwjd_ocr/  # 排除源图片目录
+            git reset epg/cwjd_image/  # 排除源图片目录
 
             # 检查是否有实际变更
             if ! git diff --cached --quiet; then
