@@ -995,6 +995,16 @@ http://116.77.239.26:44300/tsfile/live/0141_1.m3u8
 http://everydaytv.top/live/ggiptv/jade/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/凤凰中文台.png" group-title="极速港台2",凤凰中文台
 http://a68c7fdd1bed6600da71182507b4eab9.everydaytv.top/live/ggiptv/jade/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="极速港台2",中天新闻
+http://173.208.234.146/live/ctinews.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/美亞電影.png" group-title="极速港台2",美亚电影
+http://173.208.234.146/live/mymovie.m3u8
+#EXTINF:-1 tvg-id="天映频道 (新加坡)" tvg-name="天映频道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映频道.png" group-title="极速港台2",天映频道
+http://173.208.234.146/live/typd.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW星影台.png" group-title="极速港台2",NOW星影台
+http://173.208.234.146/live/nowxy.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW爆谷台.png" group-title="极速港台2",NOW爆谷台
+http://173.208.234.146/live/nowbg.m3u8
 #EXTINF:-1 tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV.png" group-title="极速港台2",SPOTV
 http://iptv.4666888.xyz/iptv2A.php?id=2
 #EXTINF:-1 tvg-id="SPOTV2" tvg-name="SPOTV2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SPOTV2.png" group-title="极速港台2",SPOTV2
