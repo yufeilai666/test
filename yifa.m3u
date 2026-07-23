@@ -1300,7 +1300,7 @@ http://hsjky.com.cn:8081/live/111ztxw.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="四季台湾",民視新聞
 http://211.72.174.95:8117/0.ts
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="四季台湾",台视新聞
-https://live.wcetv.com/hls/master-ttvnews.m3u8
+https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
 #EXTINF:-1 group-title="四季台湾",原視
 https://hc9lby9bzw8zcar.wcetv.com/hls/titv.m3u8
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視.png" group-title="四季台湾",中視
@@ -2137,6 +2137,8 @@ https://cdn-3.ttvb.eu.org/douyin/42347122605
 https://cdn-3.ttvb.eu.org/douyin/147258247158d
 #EXTINF:-1 group-title="抖音直播",朱朱
 https://cdn-3.ttvb.eu.org/douyin/36914825720a
+#EXTINF:-1 group-title="抖音直播",期许
+https://cdn-3.ttvb.eu.org/douyin/40332559204
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视网.png" group-title="抖音直播",央视网
 http://cfss.cc/cdn/dy/cctv.com.flv
 #EXTINF:-1 group-title="抖音直播",小央视频
@@ -8745,6 +8747,690 @@ https://live.264788.xyz/channel/fujianshaoer?streamid=e835a9456b847a72e1a0b8d64b
 https://live.264788.xyz/channel/fujianjiaoyu?streamid=250b5a0e97980f68e40f3f91ab10ac74&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/福建教育.png" group-title="福建iptv",福建教育
 https://live.264788.xyz/channel/fujianjiaoyu?streamid=506de4ec9af969dd23f9c901b53d9582&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="广州电信RTP",广东卫视
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="广州电信RTP",广东珠江
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E7%8F%A0%E6%B1%9F
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="广州电信RTP",广东新闻
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E6%96%B0%E9%97%BB
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="广州电信RTP",广东民生
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E6%B0%91%E7%94%9F
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="广州电信RTP",广东体育
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E4%BD%93%E8%82%B2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经济科教.png" group-title="广州电信RTP",经济科教
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%BB%8F%E6%B5%8E%E7%A7%91%E6%95%99
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="广州电信RTP",大湾区卫视
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%A7%E6%B9%BE%E5%8C%BA%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="广州电信RTP",广东影视
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E5%BD%B1%E8%A7%86
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="广州电信RTP",广东少儿
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E5%B0%91%E5%84%BF
+#EXTINF:-1 tvg-id="嘉佳卡通 (shanghai)" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="广州电信RTP",嘉佳卡通
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%98%89%E4%BD%B3%E5%8D%A1%E9%80%9A
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/岭南戏曲.png" group-title="广州电信RTP",岭南戏曲
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B2%AD%E5%8D%97%E6%88%8F%E6%9B%B2
+#EXTINF:-1 tvg-id="广州综合" tvg-name="广州综合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州综合.png" group-title="广州电信RTP",广州综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E5%B7%9E%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E5%B7%9E%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="广州新闻" tvg-name="广州新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州新闻.png" group-title="广州电信RTP",广州新闻
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E5%B7%9E%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E5%B7%9E%E6%96%B0%E9%97%BB
+#EXTINF:-1 group-title="广州电信RTP",深圳卫视时移专用(深圳卫视)
+http://218.13.148.152:5140/IPTV-%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%E6%97%B6%E7%A7%BB%E4%B8%93%E7%94%A8%28%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%29
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳都市频道.png" group-title="广州电信RTP",深圳都市频道
+http://218.13.148.152:5140/IPTV-%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E9%83%BD%E5%B8%82%E9%A2%91%E9%81%93
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳电视剧频道.png" group-title="广州电信RTP",深圳电视剧频道
+http://218.13.148.152:5140/IPTV-%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%89%A7%E9%A2%91%E9%81%93
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳少儿频道.png" group-title="广州电信RTP",深圳少儿频道
+http://218.13.148.152:5140/IPTV-%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E5%B0%91%E5%84%BF%E9%A2%91%E9%81%93
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳龙岗频道.png" group-title="广州电信RTP",深圳龙岗频道
+http://218.13.148.152:5140/IPTV-%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E9%BE%99%E5%B2%97%E9%A2%91%E9%81%93
+#EXTINF:-1 tvg-id="韶关新闻综合" tvg-name="韶关新闻综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/韶关新闻综合.png" group-title="广州电信RTP",韶关新闻综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E9%9F%B6%E5%85%B3%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湛江新闻综合.png" group-title="广州电信RTP",湛江新闻综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%B9%9B%E6%B1%9F%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湛江公共.png" group-title="广州电信RTP",湛江公共
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%B9%9B%E6%B1%9F%E5%85%AC%E5%85%B1
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="广州电信RTP",揭阳综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%8F%AD%E9%98%B3%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="广州电信RTP",揭阳生活
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%8F%AD%E9%98%B3%E7%94%9F%E6%B4%BB
+#EXTINF:-1 tvg-id="汕尾新闻综合" tvg-name="汕尾新闻综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕尾新闻综合.png" group-title="广州电信RTP",汕尾新闻综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%B1%95%E5%B0%BE%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕尾文化生活.png" group-title="广州电信RTP",汕尾文化生活
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%B1%95%E5%B0%BE%E6%96%87%E5%8C%96%E7%94%9F%E6%B4%BB
+#EXTINF:-1 tvg-id="江门综合" tvg-name="江门综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/江门综合.png" group-title="广州电信RTP",江门综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%B1%9F%E9%97%A8%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/HZTV-1.png" group-title="广州电信RTP",HZTV-1
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/HZTV-1
+#EXTINF:-1 group-title="广州电信RTP",HZTV-2
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/HZTV-2
+#EXTINF:-1 tvg-id="珠海" tvg-name="珠海" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/珠海.png" group-title="广州电信RTP",珠海
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E7%8F%A0%E6%B5%B7
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/肇庆综合.png" group-title="广州电信RTP",肇庆综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E8%82%87%E5%BA%86%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="肇庆生活服务" tvg-name="肇庆生活服务" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/肇庆生活服务.png" group-title="广州电信RTP",肇庆生活服务
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E8%82%87%E5%BA%86%E7%94%9F%E6%B4%BB%E6%9C%8D%E5%8A%A1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/河源综合.png" group-title="广州电信RTP",河源综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%B2%B3%E6%BA%90%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/河源公共.png" group-title="广州电信RTP",河源公共
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%B2%B3%E6%BA%90%E5%85%AC%E5%85%B1
+#EXTINF:-1 tvg-id="清远新闻综合" tvg-name="清远新闻综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/清远新闻综合.png" group-title="广州电信RTP",清远新闻综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%B8%85%E8%BF%9C%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="云浮综合" tvg-name="云浮综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮综合.png" group-title="广州电信RTP",云浮综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E4%BA%91%E6%B5%AE%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮文旅.png" group-title="广州电信RTP",云浮文旅
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E4%BA%91%E6%B5%AE%E6%96%87%E6%97%85
+#EXTINF:-1 tvg-id="茂名综合" tvg-name="茂名综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/茂名综合.png" group-title="广州电信RTP",茂名综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E8%8C%82%E5%90%8D%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/茂名公共.png" group-title="广州电信RTP",茂名公共
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E8%8C%82%E5%90%8D%E5%85%AC%E5%85%B1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="广州电信RTP",汕头综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%B1%95%E5%A4%B4%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="汕头经济生活" tvg-name="汕头经济生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头经济生活.png" group-title="广州电信RTP",汕头经济生活
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%B1%95%E5%A4%B4%E7%BB%8F%E6%B5%8E%E7%94%9F%E6%B4%BB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山公共.png" group-title="广州电信RTP",佛山公共
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E4%BD%9B%E5%B1%B1%E5%85%AC%E5%85%B1
+#EXTINF:-1 tvg-id="佛山南海" tvg-name="佛山南海" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山南海.png" group-title="广州电信RTP",佛山南海
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E4%BD%9B%E5%B1%B1%E5%8D%97%E6%B5%B7
+#EXTINF:-1 tvg-id="佛山顺德" tvg-name="佛山顺德" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山顺德.png" group-title="广州电信RTP",佛山顺德
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E4%BD%9B%E5%B1%B1%E9%A1%BA%E5%BE%B7
+#EXTINF:-1 tvg-id="佛山综合" tvg-name="佛山综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山综合.png" group-title="广州电信RTP",佛山综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E4%BD%9B%E5%B1%B1%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="东莞新闻综合" tvg-name="东莞新闻综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东莞新闻综合.png" group-title="广州电信RTP",东莞新闻综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E4%B8%9C%E8%8E%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东莞生活资讯.png" group-title="广州电信RTP",东莞生活资讯
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E4%B8%9C%E8%8E%9E%E7%94%9F%E6%B4%BB%E8%B5%84%E8%AE%AF
+#EXTINF:-1 tvg-id="中山综合" tvg-name="中山综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中山综合.png" group-title="广州电信RTP",中山综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E4%B8%AD%E5%B1%B1%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/香山文化.png" group-title="广州电信RTP",香山文化
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E9%A6%99%E5%B1%B1%E6%96%87%E5%8C%96
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="广州电信RTP",潮州综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%BD%AE%E5%B7%9E%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="广州电信RTP",潮州民生
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%BD%AE%E5%B7%9E%E6%B0%91%E7%94%9F
+#EXTINF:-1 tvg-id="梅州综合" tvg-name="梅州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/梅州综合.png" group-title="广州电信RTP",梅州综合
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E6%A2%85%E5%B7%9E%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/客家生活.png" group-title="广州电信RTP",客家生活
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E5%AE%A2%E5%AE%B6%E7%94%9F%E6%B4%BB
+#EXTINF:-1 tvg-id="阳江-1" tvg-name="阳江-1" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/阳江-1.png" group-title="广州电信RTP",阳江-1
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E9%98%B3%E6%B1%9F-1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/阳江-2.png" group-title="广州电信RTP",阳江-2
+http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E5%9C%B0%E6%96%B9%E5%8F%B0/%E9%98%B3%E6%B1%9F-2
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="广州电信RTP",CCTV1
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-1
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="广州电信RTP",CCTV2
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-2
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="广州电信RTP",CCTV3
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="广州电信RTP",CCTV4
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-4
+#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="广州电信RTP",CCTV4美洲
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV4%E4%B8%AD%E6%96%87%E5%9B%BD%E9%99%85%E7%BE%8E%E6%B4%B2
+#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4欧洲.png" group-title="广州电信RTP",CCTV4欧洲
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV4%E4%B8%AD%E6%96%87%E5%9B%BD%E9%99%85%E6%AC%A7%E6%B4%B2
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="广州电信RTP",CCTV5
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-5
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="广州电信RTP",CCTV5+
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV5%2B%E4%BD%93%E8%82%B2-%E6%B5%8B%E8%AF%95
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="广州电信RTP",CCTV6
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-6
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="广州电信RTP",CCTV8
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-8
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="广州电信RTP",CCTV9
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-9
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="广州电信RTP",CCTV11
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-11
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="广州电信RTP",CCTV12
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-12
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="广州电信RTP",CCTV13
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-13
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="广州电信RTP",CCTV14
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-14
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="广州电信RTP",CCTV15
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-15
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="广州电信RTP",CCTV16
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-16
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="广州电信RTP",CCTV17
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-17
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="广州电信RTP",CGTN
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CGTN%E8%8B%B1%E8%AF%AD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CGTN英文记录.png" group-title="广州电信RTP",CGTN英文记录
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CGTN%E8%8B%B1%E6%96%87%E8%AE%B0%E5%BD%95
+#EXTINF:-1 tvg-id="cgtn西班牙语" tvg-name="cgtn西班牙语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN西班牙语.png" group-title="广州电信RTP",CGTN西班牙语
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CGTN%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD
+#EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="广州电信RTP",CGTN法语
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CGTN%E6%B3%95%E8%AF%AD
+#EXTINF:-1 tvg-id="cgtn阿拉伯语" tvg-name="cgtn阿拉伯语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN阿拉伯语.png" group-title="广州电信RTP",CGTN阿拉伯语
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD
+#EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="广州电信RTP",CGTN俄语
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CGTN%E4%BF%84%E8%AF%AD
+#EXTINF:-1 group-title="广州电信RTP",湖南卫视时移专用(湖南卫视)
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E6%97%B6%E7%A7%BB%E4%B8%93%E7%94%A8%28%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%29
+#EXTINF:-1 group-title="广州电信RTP",浙江卫视时移专用(浙江卫视)
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86%E6%97%B6%E7%A7%BB%E4%B8%93%E7%94%A8%28%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86%29
+#EXTINF:-1 group-title="广州电信RTP",江苏卫视时移专用(江苏卫视)
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86%E6%97%B6%E7%A7%BB%E4%B8%93%E7%94%A8%28%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86%29
+#EXTINF:-1 group-title="广州电信RTP",东方卫视时移专用(东方卫视)
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%E6%97%B6%E7%A7%BB%E4%B8%93%E7%94%A8%28%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%29
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="广州电信RTP",安徽卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86
+#EXTINF:-1 group-title="广州电信RTP",北京卫视时移专用(北京卫视)
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%E6%97%B6%E7%A7%BB%E4%B8%93%E7%94%A8%28%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%29
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="广州电信RTP",天津卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86
+#EXTINF:-1 group-title="广州电信RTP",山东卫视时移专用(山东卫视)
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86%E6%97%B6%E7%A7%BB%E4%B8%93%E7%94%A8%28%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86%29
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="广州电信RTP",江西卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="广州电信RTP",湖北卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="广州电信RTP",辽宁卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="广州电信RTP",黑龙江卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="广州电信RTP",贵州卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86
+#EXTINF:-1 group-title="广州电信RTP",四川卫视时移专用(四川卫视)
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86%E6%97%B6%E7%A7%BB%E4%B8%93%E7%94%A8%28%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86%29
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="广州电信RTP",河南卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="广州电信RTP",云南卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="广州电信RTP",重庆卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="广州电信RTP",河北卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="广州电信RTP",东南卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="广州电信RTP",广西卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="广州电信RTP",吉林卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="陝西卫视" tvg-name="陝西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="广州电信RTP",陕西卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="广州电信RTP",内蒙古卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="广州电信RTP",青海卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="广州电信RTP",海南卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="广州电信RTP",宁夏卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="广州电信RTP",西藏卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="广州电信RTP",新疆卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="广州电信RTP",甘肃卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="广州电信RTP",兵团卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="三沙卫视 (shanghai)" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三沙卫视.png" group-title="广州电信RTP",三沙卫视
+http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="兵器科技 (shanghai)" tvg-name="兵器科技" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/兵器科技.png" group-title="广州电信RTP",兵器科技
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E5%85%B5%E5%99%A8%E7%A7%91%E6%8A%80
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/电视指南.png" group-title="广州电信RTP",电视指南
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E7%94%B5%E8%A7%86%E6%8C%87%E5%8D%97
+#EXTINF:-1 tvg-id="风云足球 (shanghai)" tvg-name="风云足球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云足球.png" group-title="广州电信RTP",风云足球
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E9%A3%8E%E4%BA%91%E8%B6%B3%E7%90%83
+#EXTINF:-1 tvg-id="央视台球 (shanghai)" tvg-name="央视台球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视台球.png" group-title="广州电信RTP",央视台球
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E5%A4%AE%E8%A7%86%E5%8F%B0%E7%90%83
+#EXTINF:-1 tvg-id="高尔夫网球 (shanghai)" tvg-name="高尔夫网球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/高尔夫网球.png" group-title="广州电信RTP",高尔夫网球
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E9%AB%98%E5%B0%94%E5%A4%AB%E7%BD%91%E7%90%83
+#EXTINF:-1 tvg-id="女性时尚 (shanghai)" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/女性时尚.png" group-title="广州电信RTP",女性时尚
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E5%A5%B3%E6%80%A7%E6%97%B6%E5%B0%9A
+#EXTINF:-1 tvg-id="世界地理 (shanghai)" tvg-name="世界地理" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/世界地理.png" group-title="广州电信RTP",世界地理
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86
+#EXTINF:-1 tvg-id="怀旧剧场 (shanghai)" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/怀旧剧场.png" group-title="广州电信RTP",怀旧剧场
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E6%80%80%E6%97%A7%E5%89%A7%E5%9C%BA
+#EXTINF:-1 tvg-id="风云剧场 (shanghai)" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云剧场.png" group-title="广州电信RTP",风云剧场
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E9%A3%8E%E4%BA%91%E5%89%A7%E5%9C%BA
+#EXTINF:-1 tvg-id="央视文化精品 (shanghai)" tvg-name="央视文化精品" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视文化精品.png" group-title="广州电信RTP",央视文化精品
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E5%A4%AE%E8%A7%86%E6%96%87%E5%8C%96%E7%B2%BE%E5%93%81
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视精品.png" group-title="广州电信RTP",央视精品
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E5%A4%AE%E8%A7%86%E7%B2%BE%E5%93%81
+#EXTINF:-1 tvg-id="第一剧场 (shanghai)" tvg-name="第一剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/第一剧场.png" group-title="广州电信RTP",第一剧场
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E7%AC%AC%E4%B8%80%E5%89%A7%E5%9C%BA
+#EXTINF:-1 tvg-id="风云音乐 (shanghai)" tvg-name="风云音乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云音乐.png" group-title="广州电信RTP",风云音乐
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E9%A3%8E%E4%BA%91%E9%9F%B3%E4%B9%90
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/卫生健康.png" group-title="广州电信RTP",卫生健康
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86%E7%BD%91%E5%8F%B0/%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7
+#EXTINF:-1 tvg-id="金鹰卡通 (shanghai)" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="广州电信RTP",金鹰卡通
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/%E9%87%91%E9%B9%B0%E5%8D%A1%E9%80%9A
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="广州电信RTP",中国教育1台
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/CETV-1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="广州电信RTP",中国教育4台
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/CETV4
+#EXTINF:-1 tvg-id="早期教育 (shanghai)" tvg-name="早期教育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/早期教育.png" group-title="广州电信RTP",早期教育
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/%E6%97%A9%E6%9C%9F%E6%95%99%E8%82%B2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国天气.png" group-title="广州电信RTP",中国天气
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/%E4%B8%AD%E5%9B%BD%E5%A4%A9%E6%B0%94
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/茶.png" group-title="广州电信RTP",茶
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/%E8%8C%B6
+#EXTINF:-1 tvg-id="快乐垂钓 (shanghai)" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/快乐垂钓.png" group-title="广州电信RTP",快乐垂钓
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93
+#EXTINF:-1 tvg-id="金鹰纪实 (shanghai)" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰纪实.png" group-title="广州电信RTP",金鹰纪实
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/%E9%87%91%E9%B9%B0%E7%BA%AA%E5%AE%9E
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/求索纪录.png" group-title="广州电信RTP",求索纪录
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/%E6%B1%82%E7%B4%A2%E7%BA%AA%E5%BD%95
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/天元围棋.png" group-title="广州电信RTP",天元围棋
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/%E5%A4%A9%E5%85%83%E5%9B%B4%E6%A3%8B
+#EXTINF:-1 tvg-id="睛彩青少" tvg-name="睛彩青少" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/睛彩青少.png" group-title="广州电信RTP",睛彩青少
+http://218.13.148.152:5140/IPTV-%E6%95%B0%E5%AD%97%E4%BB%98%E8%B4%B9/%E7%9D%9B%E5%BD%A9%E9%9D%92%E5%B0%91
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山公共.png" group-title="佛山电信RTP",佛山公共
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%BD%9B%E5%B1%B1%E5%85%AC%E5%85%B1
+#EXTINF:-1 tvg-id="佛山南海" tvg-name="佛山南海" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山南海.png" group-title="佛山电信RTP",佛山南海
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%BD%9B%E5%B1%B1%E5%8D%97%E6%B5%B7
+#EXTINF:-1 tvg-id="佛山顺德" tvg-name="佛山顺德" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山顺德.png" group-title="佛山电信RTP",佛山顺德
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%BD%9B%E5%B1%B1%E9%A1%BA%E5%BE%B7
+#EXTINF:-1 tvg-id="佛山综合" tvg-name="佛山综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山综合.png" group-title="佛山电信RTP",佛山综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%BD%9B%E5%B1%B1%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="佛山电信RTP",广东卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86
+#EXTINF:-1 group-title="佛山电信RTP",广东卫视4K超
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C4K%E8%B6%85
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东珠江.png" group-title="佛山电信RTP",广东珠江
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E7%8F%A0%E6%B1%9F
+#EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东新闻.png" group-title="佛山电信RTP",广东新闻
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E6%96%B0%E9%97%BB
+#EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东民生.png" group-title="佛山电信RTP",广东民生
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E6%B0%91%E7%94%9F
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="佛山电信RTP",广东体育
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E4%BD%93%E8%82%B2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东经济科教.png" group-title="佛山电信RTP",广东经济科教
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E7%BB%8F%E6%B5%8E
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="佛山电信RTP",大湾区卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%A7%E6%B9%BE%E5%8C%BA%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="广东影视" tvg-name="广东影视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东影视.png" group-title="佛山电信RTP",广东影视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E5%BD%B1%E8%A7%86
+#EXTINF:-1 tvg-id="广东少儿" tvg-name="广东少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广东少儿.png" group-title="佛山电信RTP",广东少儿
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E5%B0%91%E5%84%BF
+#EXTINF:-1 tvg-id="嘉佳卡通 (shanghai)" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="佛山电信RTP",嘉佳卡通
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%98%89%E4%BD%B3%E5%8D%A1%E9%80%9A
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/南方购物.png" group-title="佛山电信RTP",南方购物
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%8D%97%E6%96%B9%E8%B4%AD%E7%89%A9
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/南方购物.png" group-title="佛山电信RTP",南方购物
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%8D%97%E6%96%B9%E8%B4%AD%E7%89%A9/2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/岭南戏曲.png" group-title="佛山电信RTP",岭南戏曲
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B2%AD%E5%8D%97%E6%88%8F%E6%9B%B2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/现代教育.png" group-title="佛山电信RTP",现代教育
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%8E%B0%E4%BB%A3%E6%95%99%E8%82%B2
+#EXTINF:-1 tvg-id="广州综合" tvg-name="广州综合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州综合.png" group-title="佛山电信RTP",广州综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E5%B7%9E%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="广州新闻" tvg-name="广州新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州新闻.png" group-title="佛山电信RTP",广州新闻
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E5%B7%9E%E6%96%B0%E9%97%BB
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="佛山电信RTP",深圳卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="深圳都市" tvg-name="深圳都市" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳都市.png" group-title="佛山电信RTP",深圳都市
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E9%83%BD%E5%B8%82
+#EXTINF:-1 tvg-id="深圳电视剧" tvg-name="深圳电视剧" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳电视剧.png" group-title="佛山电信RTP",深圳电视剧
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%89%A7
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳财经生活.png" group-title="佛山电信RTP",深圳财经生活
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E8%B4%A2%E7%BB%8F%E7%94%9F%E6%B4%BB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳体育健康.png" group-title="佛山电信RTP",深圳体育健康
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E4%BD%93%E8%82%B2%E5%81%A5%E5%BA%B7
+#EXTINF:-1 tvg-id="深圳少儿" tvg-name="深圳少儿" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳少儿.png" group-title="佛山电信RTP",深圳少儿
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E5%B0%91%E5%84%BF
+#EXTINF:-1 tvg-id="深圳龙岗" tvg-name="深圳龙岗" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳龙岗.png" group-title="佛山电信RTP",深圳龙岗
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E9%BE%99%E5%B2%97
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/深圳宜和购物.png" group-title="佛山电信RTP",深圳宜和购物
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E5%AE%9C%E5%92%8C%E8%B4%AD%E7%89%A9
+#EXTINF:-1 group-title="佛山电信RTP",韶关新闻
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%9F%B6%E5%85%B3%E6%96%B0%E9%97%BB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湛江新闻综合.png" group-title="佛山电信RTP",湛江新闻综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B9%9B%E6%B1%9F%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湛江公共.png" group-title="佛山电信RTP",湛江公共
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B9%9B%E6%B1%9F%E5%85%AC%E5%85%B1
+#EXTINF:-1 tvg-id="揭阳综合" tvg-name="揭阳综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳综合.png" group-title="佛山电信RTP",揭阳综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%8F%AD%E9%98%B3%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/揭阳生活.png" group-title="佛山电信RTP",揭阳生活
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%8F%AD%E9%98%B3%E7%94%9F%E6%B4%BB
+#EXTINF:-1 tvg-id="汕尾新闻综合" tvg-name="汕尾新闻综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕尾新闻综合.png" group-title="佛山电信RTP",汕尾新闻综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B1%95%E5%B0%BE%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕尾文化生活.png" group-title="佛山电信RTP",汕尾文化生活
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B1%95%E5%B0%BE%E6%96%87%E5%8C%96%E7%94%9F%E6%B4%BB
+#EXTINF:-1 tvg-id="江门综合" tvg-name="江门综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/江门综合.png" group-title="佛山电信RTP",江门综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B1%9F%E9%97%A8%E7%BB%BC%E5%90%88
+#EXTINF:-1 group-title="佛山电信RTP",HZTV1
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/HZTV1
+#EXTINF:-1 group-title="佛山电信RTP",HZTV2
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/HZTV2
+#EXTINF:-1 group-title="佛山电信RTP",珠海新闻
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%8F%A0%E6%B5%B7%E6%96%B0%E9%97%BB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/肇庆综合.png" group-title="佛山电信RTP",肇庆综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%82%87%E5%BA%86%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="肇庆生活服务" tvg-name="肇庆生活服务" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/肇庆生活服务.png" group-title="佛山电信RTP",肇庆生活服务
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%82%87%E5%BA%86%E7%94%9F%E6%B4%BB%E6%9C%8D%E5%8A%A1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/河源综合.png" group-title="佛山电信RTP",河源综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B2%B3%E6%BA%90%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/河源公共.png" group-title="佛山电信RTP",河源公共
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B2%B3%E6%BA%90%E5%85%AC%E5%85%B1
+#EXTINF:-1 tvg-id="清远新闻综合" tvg-name="清远新闻综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/清远新闻综合.png" group-title="佛山电信RTP",清远新闻综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B8%85%E8%BF%9C%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="云浮综合" tvg-name="云浮综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮综合.png" group-title="佛山电信RTP",云浮综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%BA%91%E6%B5%AE%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮文旅.png" group-title="佛山电信RTP",云浮文旅
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%BA%91%E6%B5%AE%E6%96%87%E6%97%85
+#EXTINF:-1 tvg-id="茂名综合" tvg-name="茂名综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/茂名综合.png" group-title="佛山电信RTP",茂名综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%8C%82%E5%90%8D%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/茂名公共.png" group-title="佛山电信RTP",茂名公共
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%8C%82%E5%90%8D%E5%85%AC%E5%85%B1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头综合.png" group-title="佛山电信RTP",汕头综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B1%95%E5%A4%B4%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="汕头经济生活" tvg-name="汕头经济生活" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/汕头经济生活.png" group-title="佛山电信RTP",汕头经济生活
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B1%95%E5%A4%B4%E7%BB%8F%E6%B5%8E%E7%94%9F%E6%B4%BB
+#EXTINF:-1 group-title="佛山电信RTP",东莞新闻
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%B8%9C%E8%8E%9E%E6%96%B0%E9%97%BB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东莞生活资讯.png" group-title="佛山电信RTP",东莞生活资讯
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%B8%9C%E8%8E%9E%E7%94%9F%E6%B4%BB%E8%B5%84%E8%AE%AF
+#EXTINF:-1 tvg-id="中山综合" tvg-name="中山综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中山综合.png" group-title="佛山电信RTP",中山综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%B8%AD%E5%B1%B1%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/香山文化.png" group-title="佛山电信RTP",香山文化
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%A6%99%E5%B1%B1%E6%96%87%E5%8C%96
+#EXTINF:-1 tvg-id="潮州综合" tvg-name="潮州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州综合.png" group-title="佛山电信RTP",潮州综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%BD%AE%E5%B7%9E%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-id="潮州民生" tvg-name="潮州民生" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/潮州民生.png" group-title="佛山电信RTP",潮州民生
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%BD%AE%E5%B7%9E%E6%B0%91%E7%94%9F
+#EXTINF:-1 tvg-id="梅州综合" tvg-name="梅州综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/梅州综合.png" group-title="佛山电信RTP",梅州综合
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%A2%85%E5%B7%9E%E7%BB%BC%E5%90%88
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/客家生活.png" group-title="佛山电信RTP",客家生活
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%AE%A2%E5%AE%B6%E7%94%9F%E6%B4%BB
+#EXTINF:-1 group-title="佛山电信RTP",阳江1
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%98%B3%E6%B1%9F1
+#EXTINF:-1 group-title="佛山电信RTP",阳江2
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%98%B3%E6%B1%9F2
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4K.png" group-title="佛山电信RTP",CCTV4K
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV4K
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="佛山电信RTP",CCTV1
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV1
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="佛山电信RTP",CCTV2
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV2
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="佛山电信RTP",CCTV3
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="佛山电信RTP",CCTV4
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="佛山电信RTP",CCTV4
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV4/2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="佛山电信RTP",CCTV4
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV4/3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="佛山电信RTP",CCTV4
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV4/4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="佛山电信RTP",CCTV4
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV4/5
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="佛山电信RTP",CCTV5
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV5
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5+.png" group-title="佛山电信RTP",CCTV5+
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV5%2B
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="佛山电信RTP",CCTV6
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV6
+#EXTINF:-1 tvg-id="cctv7" tvg-name="cctv7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="佛山电信RTP",CCTV7
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV7
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="佛山电信RTP",CCTV8
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV8
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="佛山电信RTP",CCTV9
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV9
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="佛山电信RTP",CCTV10
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV10
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="佛山电信RTP",CCTV11
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV11
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="佛山电信RTP",CCTV11
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV11/2
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="佛山电信RTP",CCTV12
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV12
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="佛山电信RTP",CCTV13
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV13
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="佛山电信RTP",CCTV13
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV13/2
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="佛山电信RTP",CCTV14
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV14
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="佛山电信RTP",CCTV15
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV15
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="佛山电信RTP",CCTV15
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV15/2
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="佛山电信RTP",CCTV16
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV16
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="佛山电信RTP",CCTV17
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV17
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="佛山电信RTP",CCTV17
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV17/2
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="佛山电信RTP",CGTN
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CGTN
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="佛山电信RTP",CGTN
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CGTN/2
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="佛山电信RTP",CGTN
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CGTN/3
+#EXTINF:-1 tvg-id="cgtn法语" tvg-name="cgtn法语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN法语.png" group-title="佛山电信RTP",CGTN法语
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CGTN%E6%B3%95%E8%AF%AD
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="佛山电信RTP",CGTN
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CGTN/4
+#EXTINF:-1 tvg-id="cgtn俄语" tvg-name="cgtn俄语" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN俄语.png" group-title="佛山电信RTP",CGTN俄语
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CGTN%E4%BF%84%E8%AF%AD
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="佛山电信RTP",湖南卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="佛山电信RTP",浙江卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="佛山电信RTP",江苏卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="佛山电信RTP",东方卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="佛山电信RTP",安徽卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="佛山电信RTP",北京卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="佛山电信RTP",北京卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="佛山电信RTP",天津卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="佛山电信RTP",天津卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="佛山电信RTP",天津卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86/3
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="佛山电信RTP",天津卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86/4
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="佛山电信RTP",山东卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="佛山电信RTP",江西卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="佛山电信RTP",湖北卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="佛山电信RTP",湖北卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="佛山电信RTP",湖北卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86/3
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="佛山电信RTP",辽宁卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="佛山电信RTP",辽宁卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="佛山电信RTP",黑龙江卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="佛山电信RTP",黑龙江卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="佛山电信RTP",黑龙江卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86/3
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="佛山电信RTP",黑龙江卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86/4
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="佛山电信RTP",贵州卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="佛山电信RTP",贵州卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="佛山电信RTP",四川卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="佛山电信RTP",河南卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="佛山电信RTP",云南卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="佛山电信RTP",云南卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="佛山电信RTP",重庆卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="佛山电信RTP",重庆卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="佛山电信RTP",河北卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="佛山电信RTP",河北卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="佛山电信RTP",东南卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="佛山电信RTP",广西卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广西卫视.png" group-title="佛山电信RTP",广西卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="佛山电信RTP",吉林卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="佛山电信RTP",青海卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="佛山电信RTP",海南卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="佛山电信RTP",海南卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="佛山电信RTP",宁夏卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="佛山电信RTP",西藏卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="佛山电信RTP",西藏卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="佛山电信RTP",新疆卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="佛山电信RTP",新疆卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="佛山电信RTP",新疆卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86/3
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="佛山电信RTP",甘肃卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="佛山电信RTP",兵团卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="佛山电信RTP",兵团卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86/2
+#EXTINF:-1 tvg-id="三沙卫视 (shanghai)" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三沙卫视.png" group-title="佛山电信RTP",三沙卫视
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86
+#EXTINF:-1 tvg-id="兵器科技 (shanghai)" tvg-name="兵器科技" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/兵器科技.png" group-title="佛山电信RTP",兵器科技
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%85%B5%E5%99%A8%E7%A7%91%E6%8A%80
+#EXTINF:-1 tvg-id="兵器科技 (shanghai)" tvg-name="兵器科技" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/兵器科技.png" group-title="佛山电信RTP",兵器科技
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%85%B5%E5%99%A8%E7%A7%91%E6%8A%80/2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/电视指南.png" group-title="佛山电信RTP",电视指南
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%94%B5%E8%A7%86%E6%8C%87%E5%8D%97
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/电视指南.png" group-title="佛山电信RTP",电视指南
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%94%B5%E8%A7%86%E6%8C%87%E5%8D%97/2
+#EXTINF:-1 tvg-id="风云足球 (shanghai)" tvg-name="风云足球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云足球.png" group-title="佛山电信RTP",风云足球
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%A3%8E%E4%BA%91%E8%B6%B3%E7%90%83
+#EXTINF:-1 tvg-id="风云足球 (shanghai)" tvg-name="风云足球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云足球.png" group-title="佛山电信RTP",风云足球
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%A3%8E%E4%BA%91%E8%B6%B3%E7%90%83/2
+#EXTINF:-1 tvg-id="央视台球 (shanghai)" tvg-name="央视台球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视台球.png" group-title="佛山电信RTP",央视台球
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%AE%E8%A7%86%E5%8F%B0%E7%90%83
+#EXTINF:-1 tvg-id="央视台球 (shanghai)" tvg-name="央视台球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视台球.png" group-title="佛山电信RTP",央视台球
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%AE%E8%A7%86%E5%8F%B0%E7%90%83/2
+#EXTINF:-1 tvg-id="高尔夫网球 (shanghai)" tvg-name="高尔夫网球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/高尔夫网球.png" group-title="佛山电信RTP",高尔夫网球
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%AB%98%E5%B0%94%E5%A4%AB%E7%BD%91%E7%90%83
+#EXTINF:-1 tvg-id="高尔夫网球 (shanghai)" tvg-name="高尔夫网球" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/高尔夫网球.png" group-title="佛山电信RTP",高尔夫网球
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%AB%98%E5%B0%94%E5%A4%AB%E7%BD%91%E7%90%83/2
+#EXTINF:-1 tvg-id="女性时尚 (shanghai)" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/女性时尚.png" group-title="佛山电信RTP",女性时尚
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A5%B3%E6%80%A7%E6%97%B6%E5%B0%9A
+#EXTINF:-1 tvg-id="女性时尚 (shanghai)" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/女性时尚.png" group-title="佛山电信RTP",女性时尚
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A5%B3%E6%80%A7%E6%97%B6%E5%B0%9A/2
+#EXTINF:-1 tvg-id="世界地理 (shanghai)" tvg-name="世界地理" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/世界地理.png" group-title="佛山电信RTP",世界地理
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86
+#EXTINF:-1 tvg-id="世界地理 (shanghai)" tvg-name="世界地理" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/世界地理.png" group-title="佛山电信RTP",世界地理
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86/2
+#EXTINF:-1 tvg-id="怀旧剧场 (shanghai)" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/怀旧剧场.png" group-title="佛山电信RTP",怀旧剧场
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%80%80%E6%97%A7%E5%89%A7%E5%9C%BA
+#EXTINF:-1 tvg-id="怀旧剧场 (shanghai)" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/怀旧剧场.png" group-title="佛山电信RTP",怀旧剧场
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%80%80%E6%97%A7%E5%89%A7%E5%9C%BA/2
+#EXTINF:-1 tvg-id="风云剧场 (shanghai)" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云剧场.png" group-title="佛山电信RTP",风云剧场
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%A3%8E%E4%BA%91%E5%89%A7%E5%9C%BA
+#EXTINF:-1 tvg-id="风云剧场 (shanghai)" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云剧场.png" group-title="佛山电信RTP",风云剧场
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%A3%8E%E4%BA%91%E5%89%A7%E5%9C%BA/2
+#EXTINF:-1 tvg-id="央视文化精品 (shanghai)" tvg-name="央视文化精品" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视文化精品.png" group-title="佛山电信RTP",央视文化精品
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%AE%E8%A7%86%E6%96%87%E5%8C%96%E7%B2%BE%E5%93%81
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/央视精品.png" group-title="佛山电信RTP",央视精品
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%AE%E8%A7%86%E7%B2%BE%E5%93%81
+#EXTINF:-1 tvg-id="第一剧场 (shanghai)" tvg-name="第一剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/第一剧场.png" group-title="佛山电信RTP",第一剧场
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%AC%AC%E4%B8%80%E5%89%A7%E5%9C%BA
+#EXTINF:-1 tvg-id="第一剧场 (shanghai)" tvg-name="第一剧场" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/第一剧场.png" group-title="佛山电信RTP",第一剧场
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%AC%AC%E4%B8%80%E5%89%A7%E5%9C%BA/2
+#EXTINF:-1 tvg-id="风云音乐 (shanghai)" tvg-name="风云音乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云音乐.png" group-title="佛山电信RTP",风云音乐
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%A3%8E%E4%BA%91%E9%9F%B3%E4%B9%90
+#EXTINF:-1 tvg-id="风云音乐 (shanghai)" tvg-name="风云音乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/风云音乐.png" group-title="佛山电信RTP",风云音乐
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%A3%8E%E4%BA%91%E9%9F%B3%E4%B9%90/2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/卫生健康.png" group-title="佛山电信RTP",卫生健康
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7
+#EXTINF:-1 tvg-id="金鹰卡通 (shanghai)" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="佛山电信RTP",金鹰卡通
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%87%91%E9%B9%B0%E5%8D%A1%E9%80%9A
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="佛山电信RTP",中国教育1台
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CETV1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="佛山电信RTP",中国教育4台
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CETV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="佛山电信RTP",中国教育4台
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CETV4/2
+#EXTINF:-1 tvg-id="早期教育 (shanghai)" tvg-name="早期教育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/早期教育.png" group-title="佛山电信RTP",早期教育
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%97%A9%E6%9C%9F%E6%95%99%E8%82%B2
+#EXTINF:-1 tvg-id="早期教育 (shanghai)" tvg-name="早期教育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/早期教育.png" group-title="佛山电信RTP",早期教育
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%97%A9%E6%9C%9F%E6%95%99%E8%82%B2/2
+#EXTINF:-1 tvg-id="早期教育 (shanghai)" tvg-name="早期教育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/早期教育.png" group-title="佛山电信RTP",早期教育
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%97%A9%E6%9C%9F%E6%95%99%E8%82%B2/3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/茶.png" group-title="佛山电信RTP",茶
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E8%8C%B6
+#EXTINF:-1 tvg-id="快乐垂钓 (shanghai)" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/快乐垂钓.png" group-title="佛山电信RTP",快乐垂钓
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93
+#EXTINF:-1 tvg-id="金鹰纪实 (shanghai)" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰纪实.png" group-title="佛山电信RTP",金鹰纪实
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%87%91%E9%B9%B0%E7%BA%AA%E5%AE%9E
+#EXTINF:-1 tvg-id="金鹰纪实 (shanghai)" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰纪实.png" group-title="佛山电信RTP",金鹰纪实
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%87%91%E9%B9%B0%E7%BA%AA%E5%AE%9E/2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/求索纪录.png" group-title="佛山电信RTP",求索纪录
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B1%82%E7%B4%A2%E7%BA%AA%E5%BD%95
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/天元围棋.png" group-title="佛山电信RTP",天元围棋
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%A9%E5%85%83%E5%9B%B4%E6%A3%8B
+#EXTINF:-1 tvg-id="睛彩青少" tvg-name="睛彩青少" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/睛彩青少.png" group-title="佛山电信RTP",睛彩青少
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%9D%9B%E5%BD%A9%E9%9D%92%E5%B0%91
+#EXTINF:-1 tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/睛彩广场舞.png" group-title="佛山电信RTP",睛彩广场舞
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%9D%9B%E5%BD%A9%E5%B9%BF%E5%9C%BA%E8%88%9E
+#EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/睛彩竞技.png" group-title="佛山电信RTP",睛彩竞技
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%9D%9B%E5%BD%A9%E7%AB%9E%E6%8A%80
+#EXTINF:-1 tvg-id="睛彩篮球" tvg-name="睛彩篮球" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/睛彩篮球.png" group-title="佛山电信RTP",睛彩篮球
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%9D%9B%E5%BD%A9%E7%AF%AE%E7%90%83
+#EXTINF:-1 group-title="佛山电信RTP",IPTV1
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV1
+#EXTINF:-1 group-title="佛山电信RTP",IPTV2
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱综艺.png" group-title="佛山电信RTP",爱综艺
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%88%B1%E7%BB%BC%E8%89%BA
+#EXTINF:-1 group-title="佛山电信RTP",IPTV3
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV3
+#EXTINF:-1 group-title="佛山电信RTP",IPTV4
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱体育.png" group-title="佛山电信RTP",爱体育
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%88%B1%E4%BD%93%E8%82%B2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱体育.png" group-title="佛山电信RTP",爱体育
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%88%B1%E4%BD%93%E8%82%B2/2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱体育.png" group-title="佛山电信RTP",爱体育
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%88%B1%E4%BD%93%E8%82%B2/3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱电影.png" group-title="佛山电信RTP",爱电影
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%88%B1%E7%94%B5%E5%BD%B1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱电影.png" group-title="佛山电信RTP",爱电影
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%88%B1%E7%94%B5%E5%BD%B1/2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/爱大剧.png" group-title="佛山电信RTP",爱大剧
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%88%B1%E5%A4%A7%E5%89%A7
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV谍战剧场.png" group-title="佛山电信RTP",IPTV谍战剧场
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV%E8%B0%8D%E6%88%98%E5%89%A7%E5%9C%BA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV相声小品.png" group-title="佛山电信RTP",IPTV相声小品
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV%E7%9B%B8%E5%A3%B0%E5%B0%8F%E5%93%81
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV野外.png" group-title="佛山电信RTP",IPTV野外
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV%E9%87%8E%E5%A4%96
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV法治.png" group-title="佛山电信RTP",IPTV法治
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV%E6%B3%95%E6%B2%BB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/魅力时尚.png" group-title="佛山电信RTP",魅力时尚
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E9%AD%85%E5%8A%9B%E6%97%B6%E5%B0%9A
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/经典电影.png" group-title="佛山电信RTP",经典电影
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%BB%8F%E5%85%B8%E7%94%B5%E5%BD%B1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV经典电影.png" group-title="佛山电信RTP",IPTV经典电影
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV%E7%BB%8F%E5%85%B8%E7%94%B5%E5%BD%B1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/热播剧场.png" group-title="佛山电信RTP",热播剧场
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E7%83%AD%E6%92%AD%E5%89%A7%E5%9C%BA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV热播剧场.png" group-title="佛山电信RTP",IPTV热播剧场
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV%E7%83%AD%E6%92%AD%E5%89%A7%E5%9C%BA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/少儿动画.png" group-title="佛山电信RTP",少儿动画
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B0%91%E5%84%BF%E5%8A%A8%E7%94%BB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/IPTV少兒動畫.png" group-title="佛山电信RTP",IPTV少儿动画
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/IPTV%E5%B0%91%E5%84%BF%E5%8A%A8%E7%94%BB
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/收视指南.png" group-title="佛山电信RTP",收视指南
+http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%94%B6%E8%A7%86%E6%8C%87%E5%8D%97
 #EXTINF:-1 group-title="虎牙轮播",名侦探柯南剧场版
 http://cfss.cc/cdn/huya/30080236.flv
 #EXTINF:-1 group-title="虎牙轮播",火影忍者
