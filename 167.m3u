@@ -709,9 +709,9 @@ p3p://167.114.175.6:55331/621dbc3b00051ea5272370aa6e685347
 p3p://167.114.175.6:55331/6223b571000a13023e78ece5030b5b05
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="新闻News",CCTV4
 p3p://167.114.175.6:55331/61244d9c0006885d64b1b7591f6c12a0
-#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="新闻News",CCTV4美洲
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="新闻News",CCTV4美洲
 p3p://167.114.175.6:55331/602f0bd2000b47fda6b4b7f96224105e
-#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4欧洲.png" group-title="新闻News",CCTV4欧洲
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4欧洲.png" group-title="新闻News",CCTV4欧洲
 p3p://167.114.175.6:55331/602f097e000dad16a6aba08351fb40a9
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/凤凰美洲.png" group-title="新闻News",凤凰美洲
 p3p://167.114.175.6:55331/5fe00fca0004e627722fbe5a480a642f
@@ -1353,9 +1353,9 @@ https://ott-linear-channels.stingray.com/v1/master/734895816ccb1e836f8c1e81f7722
 p3p://167.114.175.6:55331/63fe69a800089af82b062bc65bb57f67
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="海外中文",CCTV4
 p3p://167.114.175.6:55331/61244d9c0006885d64b1b7591f6c12a0
-#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="海外中文",CCTV4美洲
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4美洲.png" group-title="海外中文",CCTV4美洲
 p3p://167.114.175.6:55331/602f0bd2000b47fda6b4b7f96224105e
-#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4欧洲.png" group-title="海外中文",CCTV4欧洲
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4欧洲.png" group-title="海外中文",CCTV4欧洲
 p3p://167.114.175.6:55331/602f097e000dad16a6aba08351fb40a9
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/凤凰美洲.png" group-title="海外中文",凤凰美洲
 p3p://167.114.175.6:55331/5fe00fca0004e627722fbe5a480a642f
@@ -1397,7 +1397,7 @@ p3p://167.114.175.6:55331/63ec4f4e0008eb5de44f9010114b61da
 p3p://167.114.175.6:55331/63ed165900087bdfe75912f50faf1572
 #EXTINF:-1 tvg-id="浙江国际" tvg-name="浙江国际" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/浙江国际.png" group-title="海外中文",浙江国际
 p3p://167.114.175.6:55331/612450b30005cf2a64bdc90559c1144c
-#EXTINF:-1 tvg-id="江苏国际" tvg-name="江苏国际" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/江苏国际.png" group-title="海外中文",江苏国际
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/江苏国际.png" group-title="海外中文",江苏国际
 p3p://167.114.175.6:55331/612452d9000988f164c62e6c0c3c67bd
 #EXTINF:-1 group-title="海外中文",东方国际
 p3p://167.114.175.6:55331/61245368000e60fd64c85e423a9e3cb2

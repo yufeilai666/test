@@ -95,7 +95,7 @@ http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
 http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/长城精品.png" group-title="刘公子港湾",长城精品
 http://38.64.72.148/hls/modn/list/4008/chunklist0.m3u8
-#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="刘公子港湾",大湾区卫视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/大湾区卫视.png" group-title="刘公子港湾",大湾区卫视
 http://38.64.72.148/hls/modn/list/4011/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="刘公子港湾",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
@@ -473,7 +473,7 @@ http://stream.thmz.com/wxtv4/playlist.m3u8
 http://stream.thmz.com/wxtv5/sd/live.m3u8
 #EXTINF:-1 group-title="📡江苏频道",无锡经济
 http://stream.thmz.com/wxtv5/playlist.m3u8
-#EXTINF:-1 tvg-id="江阴新闻综合" tvg-name="江阴新闻综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/江阴新闻综合.png" group-title="📡江苏频道",江阴新闻综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/江阴新闻综合.png" group-title="📡江苏频道",江阴新闻综合
 http://221.228.70.101:8080/live/xinwen.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/无锡都市资讯.png" group-title="📡江苏频道",无锡都市资讯
 http://stream.thmz.com/wxtv3/sd/live.m3u8
