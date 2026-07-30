@@ -51,7 +51,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
-        python-version: '3.9'  # 指定Python 3.9版本
+        python-version: '3.13'  # 指定Python 3.13版本
 
     # 步骤3: 设置PHP环境
     - name: Set up PHP

@@ -51,7 +51,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
-        python-version: '3.9'  # 指定Python 3.9版本
+        python-version: '3.13'  # 指定Python 3.13版本
 
     # 步骤3: 设置PHP环境
     - name: Set up PHP
@@ -65,7 +65,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip  # 升级pip到最新版本
         # 安装Python脚本可能需要的库
-        pip install requests beautifulsoup4 lxml pytz httpx aiohttp loguru
+        pip install requests beautifulsoup4 lxml pytz httpx aiohttp loguru curl_cffi
 
     # 步骤5: 安装PHP扩展（已注释，如需可取消）
     # - name: Install PHP dependencies
@@ -133,7 +133,7 @@ jobs:
           "get_asiasatv_epg.py"
           "get_kankannews_epg.py"
           "get_ofiii_epg.py"
-          # "get_epg_from_pw_api.py"
+          "get_fujianhaibotv_epg.py"
         )
         
         # 存储失败脚本的数组，用于错误报告
