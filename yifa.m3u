@@ -1103,7 +1103,7 @@ http://iptv.4666888.xyz/iptv2A.php?id=45
 http://iptv.4666888.xyz/iptv2A.php?id=60
 #EXTINF:-1 group-title="极速港台2",風雲恐怖電影
 http://iptv.4666888.xyz/iptv2A.php?id=59
-#EXTINF:-1 tvg-id="ROCK ACTION" tvg-name="ROCK ACTION" group-title="极速港台2",ROCK Action
+#EXTINF:-1 tvg-id="ROCK Action" tvg-name="ROCK Action" group-title="极速港台2",ROCK Action
 http://iptv.4666888.xyz/iptv2A.php?id=50
 #EXTINF:-1 group-title="极速港台2",梦工场动漫
 http://iptv.4666888.xyz/iptv2A.php?id=40
@@ -1339,7 +1339,7 @@ http://211.72.174.95:8114/0.ts
 http://211.72.174.95:8116/0.ts
 #EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視.png" group-title="四季台湾",民視
 http://211.72.174.95:8115/0.ts
-#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="四季台湾",台視
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="四季台湾",台視
 http://211.72.174.95:8112/0.ts
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="四季台湾",東森新聞
 http://211.72.174.95:8138/0.ts
@@ -1367,7 +1367,7 @@ http://220.135.241.47:8309/0.ts
 http://220.135.241.47:8311/0.ts
 #EXTINF:-1 tvg-id="民視新聞台" tvg-name="民視新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视新闻台.png" group-title="四季台湾",民視新聞台
 http://220.135.241.47:8310/0.ts
-#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="四季台湾",台視
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="四季台湾",台視
 http://220.135.241.47:8313/0.ts
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="四季台湾",台視新聞
 http://220.135.241.47:8314/0.ts
@@ -1403,11 +1403,11 @@ rtmp://f13h.mine.nu/sat/tv051
 rtmp://f13h.mine.nu/sat/tv091
 #EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="四季台湾",华视
 rtmp://f13h.mine.nu/sat/tv111
-#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="四季台湾",台视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="四季台湾",台视
 rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="四季台湾",非凡新闻
 rtmp://f13h.mine.nu/sat/tv581
-#EXTINF:-1 tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森超视.png" group-title="四季台湾",东森超视
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森超视.png" group-title="四季台湾",东森超视
 rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS.png" group-title="四季台湾",tvbs
 http://61.221.215.25:8800/hls/9/index.m3u8
@@ -1513,7 +1513,7 @@ http://4gtv.cnlive.club/channel/3f07b409/index.m3u8?q=1782639885837
 http://4gtv.cnlive.club/channel/48117ce7/index.m3u8?q=1782639885837
 #EXTINF:-1 tvg-id="金光布袋戲" tvg-name="金光布袋戲" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金光布袋戲.png" group-title="四季台湾2",金光布袋戲
 http://4gtv.cnlive.club/channel/n125d8ecd/index.m3u8?q=1782639885837
-#EXTINF:-1 tvg-id="ROCK ACTION" tvg-name="ROCK ACTION" group-title="四季台湾2",ROCK Action
+#EXTINF:-1 tvg-id="ROCK Action" tvg-name="ROCK Action" group-title="四季台湾2",ROCK Action
 http://4gtv.cnlive.club/channel/n21b197ce/index.m3u8?q=1782639885837
 #EXTINF:-1 tvg-id="采昌影劇台" tvg-name="采昌影劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/采昌影劇台.png" group-title="四季台湾2",采昌影劇台
 http://4gtv.cnlive.club/channel/n97ba44a/index.m3u8?q=1782639885837
@@ -1683,7 +1683,7 @@ http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1515133
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693835
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/uk/bbc2.png" group-title="英国UK(挂梯子)",BBC2
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693836
-#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" group-title="英国UK(挂梯子)",BBC NEWS
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC NEWS
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693834
 #EXTINF:-1 group-title="英国UK(挂梯子)",SKY CINEMA FAMILY
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/138166
@@ -1737,7 +1737,7 @@ http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693854
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693856
 #EXTINF:-1 group-title="英国UK(挂梯子)",More4
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693857
-#EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mtv.png" group-title="英国UK(挂梯子)",MTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/mtv.png" group-title="英国UK(挂梯子)",MTV
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693858
 #EXTINF:-1 tvg-id="MUTV" tvg-name="MUTV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/sg/mutv.png" group-title="英国UK(挂梯子)",MUTV
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693859
@@ -1961,7 +1961,7 @@ http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690818
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690819
 #EXTINF:-1 group-title="英国UK(挂梯子)",BBC SCOTLAND ᴴᴰ
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/690820
-#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" group-title="英国UK(挂梯子)",BBC NEWS
+#EXTINF:-1 group-title="英国UK(挂梯子)",BBC NEWS
 http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/22242
 #EXTINF:-1 group-title="韩国KR",ABN TV (720p)
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
