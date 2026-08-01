@@ -13,8 +13,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v6
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        
+        token: ${{ secrets.PAT_TOKEN }}   # 使用个人访问令牌，避免循环触发
+
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
@@ -27,10 +27,18 @@ jobs:
         
     - name: Create epg directory if not exists
       run: mkdir -p epg
+
+    - name: Create files.json from environment variable
+      env:
+        FILES_JSON: ${{ secrets.FILES_JSON }}
+      run: |
+        # 生成临时 files.json（不会被提交）
+        python -c "import os; open('files.json', 'w', encoding='utf-8').write(os.environ['FILES_JSON'])"
+        echo "✅ files.json created successfully"
       
     - name: Download EPG files with retry
       env:
-        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}   # 私有仓库 Token
+        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}   # 用于访问私有 EPG 源
       run: |
         cat > download_epg.py << 'EOF'
         import json
@@ -43,7 +51,7 @@ jobs:
         from datetime import datetime
         import pytz
 
-        # 读取配置文件
+        # 读取配置文件（从临时生成的文件）
         with open('files.json', 'r', encoding='utf-8') as f:
             config = json.load(f)
 
@@ -235,4 +243,4 @@ jobs:
         git config --local user.name "GitHub Action"
         CHANGED="${{ steps.changed_files.outputs.changed_files }}"
         git commit -m "🔄 自动更新 EPG 文件 [${{ steps.beijing_time.outputs.beijing_time }} UTC+8] | 变更: $CHANGED"
-        git push
+        git push  # 使用 PAT_TOKEN，已在 checkout 中设置
