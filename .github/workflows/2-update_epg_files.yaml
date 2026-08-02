@@ -50,6 +50,7 @@ jobs:
         from threading import Lock
         from datetime import datetime
         import pytz
+        import re  # 新增导入
 
         # 读取配置文件（从临时生成的文件）
         with open('files.json', 'r', encoding='utf-8') as f:
@@ -87,6 +88,12 @@ jobs:
                 headers['Authorization'] = f'token {pat_token}'
                 auth_msg = f"🔐 添加认证头"
             return original_url, headers, auth_msg
+
+        # ----- 新增：URL 脱敏函数 -----
+        def mask_url(text):
+            """将文本中的 http:// 或 https:// 后的域名替换为 ***，保留路径"""
+            # 匹配 http:// 或 https://，后跟域名部分（非/字符），替换为 ***/
+            return re.sub(r'(https?://)[^/]+/', r'\1***/', text)
 
         def download_single_epg(item):
             global success_count, fail_count
@@ -126,6 +133,8 @@ jobs:
                     
                 except Exception as e:
                     error_msg = str(e)
+                    # 对错误消息中的 URL 进行脱敏
+                    error_msg = mask_url(error_msg)
                     if "Read timed out" in error_msg:
                         error_msg = "连接超时"
                     elif "Connection broken" in error_msg:
@@ -175,7 +184,9 @@ jobs:
                     future.result()  # 获取结果，如果有异常会在这里抛出
                 except Exception as e:
                     with print_lock:
-                        print(f"[{format_time()}] ❌ 下载任务异常 {filename}: {str(e)}")
+                        # 同样对异常消息脱敏
+                        err_msg = mask_url(str(e))
+                        print(f"[{format_time()}] ❌ 下载任务异常 {filename}: {err_msg}")
                         print("─" * 22)
 
         print("=" * 36)
