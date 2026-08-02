@@ -375,9 +375,9 @@ https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8#http://ali-m-l.c
 http://live.shaoxing.com.cn/video/s10001-sxhb/index.m3u8#http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8#http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8?zzhed#http://live.shaoxing.com.cn/video/s10001-sxhb/index.m3u8?zzhed
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/之江纪录.png" group-title="📡浙江频道",之江纪录
 http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-id="广州综合" tvg-name="广州综合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州综合.png" group-title="📡广东频道",广州综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州综合.png" group-title="📡广东频道",广州综合
 http://php.jdshipin.com:8880/gztv.php?id=zhonghe
-#EXTINF:-1 tvg-id="广州新闻" tvg-name="广州新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州新闻.png" group-title="📡广东频道",广州新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州新闻.png" group-title="📡广东频道",广州新闻
 http://php.jdshipin.com:8880/gztv.php?id=xinwen
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广州影视.png" group-title="📡广东频道",广州影视
 http://php.jdshipin.com:8880/gztv.php?id=yingshi
@@ -385,17 +385,17 @@ http://php.jdshipin.com:8880/gztv.php?id=yingshi
 http://php.jdshipin.com:8880/gztv.php?id=fazhi
 #EXTINF:-1 group-title="📡广东频道",番禺电视台
 http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv
-#EXTINF:-1 tvg-id="东莞新闻综合" tvg-name="东莞新闻综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东莞新闻综合.png" group-title="📡广东频道",东莞新闻综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东莞新闻综合.png" group-title="📡广东频道",东莞新闻综合
 http://php.jdshipin.com:8880/0769.php?id=xwzh
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/东莞生活资讯.png" group-title="📡广东频道",东莞生活资讯
 http://php.jdshipin.com:8880/0769.php?id=shzx
-#EXTINF:-1 tvg-id="佛山综合" tvg-name="佛山综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山综合.png" group-title="📡广东频道",佛山综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山综合.png" group-title="📡广东频道",佛山综合
 http://php.jdshipin.com:8880/fstv.php?id=fszh
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山影视.png" group-title="📡广东频道",佛山影视
 http://php.jdshipin.com:8880/fstv.php?id=fsys
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山公共.png" group-title="📡广东频道",佛山公共
 http://php.jdshipin.com:8880/fstv.php?id=fsgg
-#EXTINF:-1 tvg-id="云浮综合" tvg-name="云浮综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮综合.png" group-title="📡广东频道",云浮综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮综合.png" group-title="📡广东频道",云浮综合
 https://livestream.oeeee.com/slive/17806.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/云浮文旅.png" group-title="📡广东频道",云浮文旅
 https://livestream.oeeee.com/slive/17807.m3u8
@@ -407,9 +407,9 @@ http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8
 https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_1386886203_9072137384/merged_1710422346229_219649_20_4796.m3u8#https://p2.vzan.com/slowlive/677282322271134305/live.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/南方购物.png" group-title="📡广东频道",南方购物
 https://s3.cn-northwest-1.amazonaws.com.cn/nanfanggouwu/gz/nfgw_720.m3u8
-#EXTINF:-1 tvg-id="广州综合" tvg-name="广州综合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州综合.png" group-title="📡广东频道",广州综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州综合.png" group-title="📡广东频道",广州综合
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=f0147ae6453a80f5989f382368b72aad&txTime=18d00acf487#https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=439b0fd2cf766b363c93a59cbcbe1370&txTime=18d00acf488#http://php.jdshipin.com:8880/gztv.php?id=zhonghe
-#EXTINF:-1 tvg-id="广州新闻" tvg-name="广州新闻" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州新闻.png" group-title="📡广东频道",广州新闻
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广州新闻.png" group-title="📡广东频道",广州新闻
 https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=6f73647cae387d01a3c2132074132a83&txTime=18d00acf487#http://php.jdshipin.com:8880/gztv.php?id=xinwen
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/广州法治.png" group-title="📡广东频道",广州法治
 https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=040cda8ae37088f2b96bea7b68bd0eb5&txTime=1903e5b8abe
@@ -429,13 +429,13 @@ https://live.yjtvw.com:8081/live/yjtv1.m3u8
 https://live.yjtvw.com:8081/live/yjtv2.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山公共.png" group-title="📡广东频道",佛山公共
 http://php.jdshipin.com:8880/fstv.php?id=fsgg
-#EXTINF:-1 tvg-id="佛山综合" tvg-name="佛山综合" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山综合.png" group-title="📡广东频道",佛山综合
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山综合.png" group-title="📡广东频道",佛山综合
 http://php.jdshipin.com:8880/fstv.php?id=fszh
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山影视.png" group-title="📡广东频道",佛山影视
 http://php.jdshipin.com:8880/fstv.php?id=fsys
-#EXTINF:-1 tvg-id="佛山南海" tvg-name="佛山南海" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山南海.png" group-title="📡广东频道",佛山南海
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山南海.png" group-title="📡广东频道",佛山南海
 http://php.jdshipin.com:8880/fstv.php?id=fsnh
-#EXTINF:-1 tvg-id="佛山顺德" tvg-name="佛山顺德" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山顺德.png" group-title="📡广东频道",佛山顺德
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山顺德.png" group-title="📡广东频道",佛山顺德
 http://php.jdshipin.com:8880/fstv.php?id=fssd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/佛山三水.png" group-title="📡广东频道",佛山三水
 http://php.jdshipin.com:8880/fstv.php?id=fsss
