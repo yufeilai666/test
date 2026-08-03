@@ -9,7 +9,7 @@ name: 3.1 Midnight Multi-script generator
 #   - 将生成的EPG数据推送到当前仓库的epg目录
 #
 # 主要特性:
-#   - 支持多语言多脚本（PHP 8.1 + Python 3.9）
+#   - 支持多语言多脚本（PHP 8.2 + Python 3.13）
 #   - 安全的私有仓库访问（使用PAT_TOKEN）
 #   - 自动错误处理和报告机制
 #   - 脚本执行后自动清理，不保留在公共仓库
@@ -133,6 +133,7 @@ jobs:
           "get_asiasatv_epg.py"
           "get_kankannews_epg.py"
           "get_ofiii_epg.py"
+          "get_tvbs_epg.py"
           "get_fujianhaibotv_epg.py"
         )
         
