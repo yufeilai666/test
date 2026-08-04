@@ -4,7 +4,7 @@
     <display-name>东方卫视</display-name>
   </channel>
   <channel id="上海新闻综合">
-    <display-name>新闻综合</display-name>
+    <display-name>上海新闻综合频道</display-name>
   </channel>
   <channel id="第一财经">
     <display-name>第一财经</display-name>
@@ -13,241 +13,11 @@
     <display-name>五星体育</display-name>
   </channel>
   <channel id="上海都市频道">
-    <display-name>都市频道</display-name>
+    <display-name>上海都市频道</display-name>
   </channel>
   <channel id="哈哈炫动">
     <display-name>哈哈炫动</display-name>
   </channel>
-  <programme start="20260803000000 +0800" stop="20260803000300 +0800" channel="东方卫视">
-    <title>电视连续剧：《对手》（9）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803000300 +0800" stop="20260803004600 +0800" channel="东方卫视">
-    <title>电视连续剧：《对手》（10）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803004600 +0800" stop="20260803013200 +0800" channel="东方卫视">
-    <title>电视连续剧：《庆余年第二季》（5）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803013200 +0800" stop="20260803021500 +0800" channel="东方卫视">
-    <title>电视连续剧：《庆余年第二季》（6）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803021500 +0800" stop="20260803030100 +0800" channel="东方卫视">
-    <title>电视连续剧：《庆余年第二季》（7）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803030100 +0800" stop="20260803034400 +0800" channel="东方卫视">
-    <title>电视连续剧：《庆余年第二季》（8）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803034400 +0800" stop="20260803043000 +0800" channel="东方卫视">
-    <title>电视连续剧：《庆余年第二季》（9）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803043000 +0800" stop="20260803051300 +0800" channel="东方卫视">
-    <title>电视连续剧：《庆余年第二季》（10）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803051300 +0800" stop="20260803055600 +0800" channel="东方卫视">
-    <title>电视连续剧：《庆余年第二季》（11）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803055600 +0800" stop="20260803065400 +0800" channel="东方卫视">
-    <title>纪录片：大江南（3）　江南一万年（上）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803065400 +0800" stop="20260803070000 +0800" channel="东方卫视">
-    <title>纪录片：我是党员2026（8）　赵宪珍</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803070000 +0800" stop="20260803085900 +0800" channel="东方卫视">
-    <title>中华人民共和国国歌＋看东方</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803085900 +0800" stop="20260803090200 +0800" channel="东方卫视">
-    <title>天气预报</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803090200 +0800" stop="20260803092500 +0800" channel="东方卫视">
-    <title>电视连续剧：《许我耀眼》（26）下</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803092500 +0800" stop="20260803101900 +0800" channel="东方卫视">
-    <title>电视连续剧：《许我耀眼》（27）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803101900 +0800" stop="20260803110800 +0800" channel="东方卫视">
-    <title>电视连续剧：《许我耀眼》（28）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803110800 +0800" stop="20260803120000 +0800" channel="东方卫视">
-    <title>电视连续剧：《许我耀眼》（29）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803120000 +0800" stop="20260803122600 +0800" channel="东方卫视">
-    <title>午间30分</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803122600 +0800" stop="20260803123000 +0800" channel="东方卫视">
-    <title>天气预报</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803123000 +0800" stop="20260803124200 +0800" channel="东方卫视">
-    <title>ShanghaiEye</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803124200 +0800" stop="20260803130800 +0800" channel="东方卫视">
-    <title>锚点（22）：探索大模型之外的通用智能途径</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803130800 +0800" stop="20260803135000 +0800" channel="东方卫视">
-    <title>电视连续剧：《都挺好》（13）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803135000 +0800" stop="20260803143300 +0800" channel="东方卫视">
-    <title>电视连续剧：《都挺好》（14）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803143300 +0800" stop="20260803151600 +0800" channel="东方卫视">
-    <title>电视连续剧：《都挺好》（15）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803151600 +0800" stop="20260803155800 +0800" channel="东方卫视">
-    <title>电视连续剧：《都挺好》（16）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803155800 +0800" stop="20260803164100 +0800" channel="东方卫视">
-    <title>电视连续剧：《都挺好》（17）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803164100 +0800" stop="20260803170700 +0800" channel="东方卫视">
-    <title>电视连续剧：《都挺好》（18）上</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803170700 +0800" stop="20260803173400 +0800" channel="东方卫视">
-    <title>东方新娱乐</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803173400 +0800" stop="20260803180000 +0800" channel="东方卫视">
-    <title>《名医话养生》（38）：全民健身日教你正确运动</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803180000 +0800" stop="20260803185700 +0800" channel="东方卫视">
-    <title>东方新闻</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803185700 +0800" stop="20260803190000 +0800" channel="东方卫视">
-    <title>天气预报</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803190000 +0800" stop="20260803193200 +0800" channel="东方卫视">
-    <title>转（中央台）新闻联播</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803193200 +0800" stop="20260803201100 +0800" channel="东方卫视">
-    <title>电视连续剧：《这一秒过火》（16）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803201100 +0800" stop="20260803205500 +0800" channel="东方卫视">
-    <title>电视连续剧：《这一秒过火》（17）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803205500 +0800" stop="20260803210700 +0800" channel="东方卫视">
-    <title>东方看大剧</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803210700 +0800" stop="20260803211000 +0800" channel="东方卫视">
-    <title>品质东方微剧场－《暗潮涌动》（24）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803211000 +0800" stop="20260803211200 +0800" channel="东方卫视">
-    <title>品质东方微剧场－《暗潮涌动》（25）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803211200 +0800" stop="20260803211500 +0800" channel="东方卫视">
-    <title>品质东方微剧场－《暗潮涌动》（26）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803211500 +0800" stop="20260803212000 +0800" channel="东方卫视">
-    <title>品质东方微剧场－《暗潮涌动》（27）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803212000 +0800" stop="20260803215900 +0800" channel="东方卫视">
-    <title>今晚</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803215900 +0800" stop="20260803220000 +0800" channel="东方卫视">
-    <title>天气预报</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803220000 +0800" stop="20260803224000 +0800" channel="东方卫视">
-    <title>这就是中国</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803224000 +0800" stop="20260803230600 +0800" channel="东方卫视">
-    <title>下一站</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803230600 +0800" stop="20260803232900 +0800" channel="东方卫视">
-    <title>电视连续剧：《成长的烦恼第三季》（19）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803232900 +0800" stop="20260803235000 +0800" channel="东方卫视">
-    <title>电视连续剧：《成长的烦恼第三季》（20）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803235000 +0800" stop="20260804000000 +0800" channel="东方卫视">
-    <title>中国经济圆桌会（第三十四期）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
   <programme start="20260804000000 +0800" stop="20260804002600 +0800" channel="东方卫视">
     <title>中国经济圆桌会（第三十四期）</title>
     <category>yufeilai666</category>
@@ -478,168 +248,233 @@
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803000000 +0800" stop="20260803003600 +0800" channel="上海新闻综合">
-    <title>24集连续剧：冰雪尖刀连（6）</title>
+  <programme start="20260805000000 +0800" stop="20260805004300 +0800" channel="东方卫视">
+    <title>电视连续剧：《庆余年第二季》（19）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803003600 +0800" stop="20260803011800 +0800" channel="上海新闻综合">
-    <title>24集连续剧：冰雪尖刀连（7）</title>
+  <programme start="20260805004300 +0800" stop="20260805012800 +0800" channel="东方卫视">
+    <title>电视连续剧：《庆余年第二季》（20）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803011800 +0800" stop="20260803060100 +0800" channel="上海新闻综合">
-    <title>祝您晚安</title>
+  <programme start="20260805012800 +0800" stop="20260805021200 +0800" channel="东方卫视">
+    <title>电视连续剧：《庆余年第二季》（21）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803060100 +0800" stop="20260803062800 +0800" channel="上海新闻综合">
-    <title>寻味（277）“清夏醒味”第二集：暑辣开筵</title>
+  <programme start="20260805021200 +0800" stop="20260805025900 +0800" channel="东方卫视">
+    <title>电视连续剧：《庆余年第二季》（22）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803062800 +0800" stop="20260803065300 +0800" channel="上海新闻综合">
-    <title>锚点（75）：数学为什么能够解释世界？</title>
+  <programme start="20260805025900 +0800" stop="20260805034200 +0800" channel="东方卫视">
+    <title>电视连续剧：《庆余年第二季》（23）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803065300 +0800" stop="20260803070000 +0800" channel="上海新闻综合">
-    <title>上海摩天轮：夕阳红</title>
+  <programme start="20260805034200 +0800" stop="20260805042700 +0800" channel="东方卫视">
+    <title>电视连续剧：《庆余年第二季》（24）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803070000 +0800" stop="20260803085500 +0800" channel="上海新闻综合">
-    <title>上海早晨</title>
+  <programme start="20260805042700 +0800" stop="20260805051000 +0800" channel="东方卫视">
+    <title>电视连续剧：《庆余年第二季》（25）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803085500 +0800" stop="20260803090500 +0800" channel="上海新闻综合">
-    <title>好物齐刷刷</title>
+  <programme start="20260805051000 +0800" stop="20260805055300 +0800" channel="东方卫视">
+    <title>电视连续剧：《庆余年第二季》（26）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803090500 +0800" stop="20260803095000 +0800" channel="上海新闻综合">
-    <title>49集连续剧：秋蝉（37）</title>
+  <programme start="20260805055300 +0800" stop="20260805065400 +0800" channel="东方卫视">
+    <title>纪录片：大江南（5）　霓裳云间（上）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803095000 +0800" stop="20260803103500 +0800" channel="上海新闻综合">
-    <title>49集连续剧：秋蝉（38）</title>
+  <programme start="20260805065400 +0800" stop="20260805070000 +0800" channel="东方卫视">
+    <title>纪录片：我是党员2026（10）　中共上海市商务委员会进口博览会协调处支部委员会</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803103500 +0800" stop="20260803110500 +0800" channel="上海新闻综合">
-    <title>《锚点》精选（1）：人工智能＋产业　像空气（AIR）一样</title>
+  <programme start="20260805070000 +0800" stop="20260805085900 +0800" channel="东方卫视">
+    <title>中华人民共和国国歌＋看东方</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803110500 +0800" stop="20260803120000 +0800" channel="上海新闻综合">
-    <title>民生一网通</title>
+  <programme start="20260805085900 +0800" stop="20260805090300 +0800" channel="东方卫视">
+    <title>天气预报</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803120000 +0800" stop="20260803123100 +0800" channel="上海新闻综合">
+  <programme start="20260805090300 +0800" stop="20260805094900 +0800" channel="东方卫视">
+    <title>电视连续剧：《风吹半夏》（2）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805094900 +0800" stop="20260805103300 +0800" channel="东方卫视">
+    <title>电视连续剧：《风吹半夏》（3）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805103300 +0800" stop="20260805111700 +0800" channel="东方卫视">
+    <title>电视连续剧：《风吹半夏》（4）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805111700 +0800" stop="20260805120000 +0800" channel="东方卫视">
+    <title>电视连续剧：《风吹半夏》（5）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805120000 +0800" stop="20260805122600 +0800" channel="东方卫视">
     <title>午间30分</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803123100 +0800" stop="20260803130000 +0800" channel="上海新闻综合">
-    <title>下一站（232）：沪上桃花源</title>
+  <programme start="20260805122600 +0800" stop="20260805123000 +0800" channel="东方卫视">
+    <title>天气预报</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803130000 +0800" stop="20260803134500 +0800" channel="上海新闻综合">
-    <title>24集连续剧：冰雪尖刀连（8）</title>
+  <programme start="20260805123000 +0800" stop="20260805124200 +0800" channel="东方卫视">
+    <title>ShanghaiEye</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803134500 +0800" stop="20260803143000 +0800" channel="上海新闻综合">
-    <title>24集连续剧：冰雪尖刀连（9）</title>
+  <programme start="20260805124200 +0800" stop="20260805130800 +0800" channel="东方卫视">
+    <title>锚点（29）：如何通向通用人工智能？</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803143000 +0800" stop="20260803151500 +0800" channel="上海新闻综合">
-    <title>24集连续剧：冰雪尖刀连（10）</title>
+  <programme start="20260805130800 +0800" stop="20260805135000 +0800" channel="东方卫视">
+    <title>电视连续剧：《都挺好》（24）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803151500 +0800" stop="20260803160000 +0800" channel="上海新闻综合">
-    <title>24集连续剧：冰雪尖刀连（11）</title>
+  <programme start="20260805135000 +0800" stop="20260805143300 +0800" channel="东方卫视">
+    <title>电视连续剧：《都挺好》（25）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803160000 +0800" stop="20260803163000 +0800" channel="上海新闻综合">
-    <title>永远的行走：与中国相遇（第三季）《林海寻踪》</title>
+  <programme start="20260805143300 +0800" stop="20260805151500 +0800" channel="东方卫视">
+    <title>电视连续剧：《都挺好》（26）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803163000 +0800" stop="20260803165500 +0800" channel="上海新闻综合">
-    <title>寻味（277）“清夏醒味”第二集：暑辣开筵</title>
+  <programme start="20260805151500 +0800" stop="20260805155800 +0800" channel="东方卫视">
+    <title>电视连续剧：《都挺好》（27）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803165500 +0800" stop="20260803172000 +0800" channel="上海新闻综合">
-    <title>爱上海（80）：走进张国立眼中“西部歌王”的《情歌》</title>
+  <programme start="20260805155800 +0800" stop="20260805164000 +0800" channel="东方卫视">
+    <title>电视连续剧：《都挺好》（28）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803172000 +0800" stop="20260803172900 +0800" channel="上海新闻综合">
-    <title>好物齐刷刷</title>
+  <programme start="20260805164000 +0800" stop="20260805170700 +0800" channel="东方卫视">
+    <title>电视连续剧：《都挺好》（29）上</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803172900 +0800" stop="20260803183000 +0800" channel="上海新闻综合">
-    <title>新闻坊</title>
+  <programme start="20260805170700 +0800" stop="20260805173300 +0800" channel="东方卫视">
+    <title>东方新娱乐</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803183000 +0800" stop="20260803191500 +0800" channel="上海新闻综合">
-    <title>新闻报道　新闻透视　观众中来　天气预报</title>
+  <programme start="20260805173300 +0800" stop="20260805180000 +0800" channel="东方卫视">
+    <title>《名医话养生》（40）：耳朵的小毛病，小心拖成大麻烦</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803191500 +0800" stop="20260803194800 +0800" channel="上海新闻综合">
-    <title>案件聚焦（3789）</title>
+  <programme start="20260805180000 +0800" stop="20260805185700 +0800" channel="东方卫视">
+    <title>东方新闻</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803194800 +0800" stop="20260803203200 +0800" channel="上海新闻综合">
-    <title>40集连续剧：罚罪Ⅱ（20）</title>
+  <programme start="20260805185700 +0800" stop="20260805190000 +0800" channel="东方卫视">
+    <title>天气预报</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803203200 +0800" stop="20260803211700 +0800" channel="上海新闻综合">
-    <title>40集连续剧：罚罪Ⅱ（21）</title>
+  <programme start="20260805190000 +0800" stop="20260805193200 +0800" channel="东方卫视">
+    <title>转（中央台）新闻联播</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803211700 +0800" stop="20260803212600 +0800" channel="上海新闻综合">
-    <title>上海摩天轮：夕阳红</title>
+  <programme start="20260805193200 +0800" stop="20260805201300 +0800" channel="东方卫视">
+    <title>电视连续剧：《这一秒过火》（20）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803212600 +0800" stop="20260803213000 +0800" channel="上海新闻综合">
-    <title>《新闻夜线》天气预报</title>
+  <programme start="20260805201300 +0800" stop="20260805205800 +0800" channel="东方卫视">
+    <title>电视连续剧：《这一秒过火》（21）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803213000 +0800" stop="20260803223000 +0800" channel="上海新闻综合">
-    <title>新闻夜线</title>
+  <programme start="20260805205800 +0800" stop="20260805211000 +0800" channel="东方卫视">
+    <title>东方看大剧</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803223000 +0800" stop="20260803230000 +0800" channel="上海新闻综合">
-    <title>中国考古报道（119）</title>
+  <programme start="20260805211000 +0800" stop="20260805211100 +0800" channel="东方卫视">
+    <title>品质东方微剧场－《暗潮涌动》（32）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803230000 +0800" stop="20260803232200 +0800" channel="上海新闻综合">
-    <title>案件聚焦（3789）</title>
+  <programme start="20260805211100 +0800" stop="20260805211300 +0800" channel="东方卫视">
+    <title>品质东方微剧场－《暗潮涌动》（33）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803232200 +0800" stop="20260804000000 +0800" channel="上海新闻综合">
-    <title>24集连续剧：冰雪尖刀连（8）</title>
+  <programme start="20260805211300 +0800" stop="20260805211600 +0800" channel="东方卫视">
+    <title>品质东方微剧场－《暗潮涌动》（34）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805211600 +0800" stop="20260805212000 +0800" channel="东方卫视">
+    <title>品质东方微剧场－《暗潮涌动》（35）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805212000 +0800" stop="20260805215900 +0800" channel="东方卫视">
+    <title>今晚</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805215900 +0800" stop="20260805220000 +0800" channel="东方卫视">
+    <title>天气预报</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805220000 +0800" stop="20260805222600 +0800" channel="东方卫视">
+    <title>锚点（77）：量子精密测量之下，暗物质还有多少藏身之地？</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805222600 +0800" stop="20260805225200 +0800" channel="东方卫视">
+    <title>两说（69）：下半年经济展望合辑：换挡与重构——内外需再平衡与新增长逻辑</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805225200 +0800" stop="20260805231200 +0800" channel="东方卫视">
+    <title>电视连续剧：《成长的烦恼第三季》（24）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805231200 +0800" stop="20260805233300 +0800" channel="东方卫视">
+    <title>电视连续剧：《成长的烦恼第三季》（25）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805233300 +0800" stop="20260805235800 +0800" channel="东方卫视">
+    <title>电视连续剧：《成长的烦恼第三季》（26）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805235800 +0800" stop="20260806000000 +0800" channel="东方卫视">
+    <title>电视连续剧：《庆余年第二季》（27）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
@@ -818,143 +653,168 @@
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803000000 +0800" stop="20260803002500 +0800" channel="第一财经">
-    <title>《第六交易日》</title>
+  <programme start="20260805000000 +0800" stop="20260805000700 +0800" channel="上海新闻综合">
+    <title>24集连续剧：冰雪尖刀连（12）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803002500 +0800" stop="20260803005000 +0800" channel="第一财经">
-    <title>从造样机到规模化交付　全产业链拆解人形机器人破圈关键丨数新风</title>
+  <programme start="20260805000700 +0800" stop="20260805004900 +0800" channel="上海新闻综合">
+    <title>24集连续剧：冰雪尖刀连（13）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803005000 +0800" stop="20260803011500 +0800" channel="第一财经">
-    <title>两说（68）对话高峰　　机器人：灵活的“肢体”和有趣的“灵魂”，一个都不能少</title>
+  <programme start="20260805004900 +0800" stop="20260805013100 +0800" channel="上海新闻综合">
+    <title>24集连续剧：冰雪尖刀连（14）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803011500 +0800" stop="20260803014000 +0800" channel="第一财经">
-    <title>《创时代—引领区观察》航标灯：创新模式如何支撑高质量出海</title>
+  <programme start="20260805013100 +0800" stop="20260805021300 +0800" channel="上海新闻综合">
+    <title>24集连续剧：冰雪尖刀连（15）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803014000 +0800" stop="20260803022300 +0800" channel="第一财经">
-    <title>2026陆家嘴金融沙龙（第20期）：资本市场向“新”改革新征程</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803022300 +0800" stop="20260803060300 +0800" channel="第一财经">
+  <programme start="20260805021300 +0800" stop="20260805060100 +0800" channel="上海新闻综合">
     <title>祝您晚安</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803060300 +0800" stop="20260803063000 +0800" channel="第一财经">
-    <title>《两说》2</title>
+  <programme start="20260805060100 +0800" stop="20260805063000 +0800" channel="上海新闻综合">
+    <title>锚点（76）：统计学，自适应的万能钥匙</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803063000 +0800" stop="20260803070000 +0800" channel="第一财经">
-    <title>《财经视频集萃－投资有看头》</title>
+  <programme start="20260805063000 +0800" stop="20260805070000 +0800" channel="上海新闻综合">
+    <title>中国考古报道（119）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803070000 +0800" stop="20260803080000 +0800" channel="第一财经">
-    <title>《公司与行业》</title>
+  <programme start="20260805070000 +0800" stop="20260805085500 +0800" channel="上海新闻综合">
+    <title>上海早晨</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803080000 +0800" stop="20260803090000 +0800" channel="第一财经">
-    <title>今日股市</title>
+  <programme start="20260805085500 +0800" stop="20260805090500 +0800" channel="上海新闻综合">
+    <title>好物齐刷刷</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803090000 +0800" stop="20260803092700 +0800" channel="第一财经">
-    <title>直播：市场零距离</title>
+  <programme start="20260805090500 +0800" stop="20260805095000 +0800" channel="上海新闻综合">
+    <title>49集连续剧：秋蝉（41）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803092700 +0800" stop="20260803114500 +0800" channel="第一财经">
-    <title>直播：市场零距离</title>
+  <programme start="20260805095000 +0800" stop="20260805103500 +0800" channel="上海新闻综合">
+    <title>49集连续剧：秋蝉（42）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803114500 +0800" stop="20260803120000 +0800" channel="第一财经">
-    <title>直播：市场零距离</title>
+  <programme start="20260805103500 +0800" stop="20260805110500 +0800" channel="上海新闻综合">
+    <title>《锚点》精选（3）：大模型是答案　那么问题是什么？</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803120000 +0800" stop="20260803123000 +0800" channel="第一财经">
-    <title>《创时代》－张江／论坛</title>
+  <programme start="20260805110500 +0800" stop="20260805120000 +0800" channel="上海新闻综合">
+    <title>民生一网通</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803123000 +0800" stop="20260803130000 +0800" channel="第一财经">
-    <title>《财经视频集萃》</title>
+  <programme start="20260805120000 +0800" stop="20260805123100 +0800" channel="上海新闻综合">
+    <title>午间30分</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803130000 +0800" stop="20260803153000 +0800" channel="第一财经">
-    <title>直播：市场零距离</title>
+  <programme start="20260805123100 +0800" stop="20260805130000 +0800" channel="上海新闻综合">
+    <title>摩登厨房（162）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803153000 +0800" stop="20260803160500 +0800" channel="第一财经">
-    <title>直播：市场零距离</title>
+  <programme start="20260805130000 +0800" stop="20260805134500 +0800" channel="上海新闻综合">
+    <title>24集连续剧：冰雪尖刀连（16）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803160500 +0800" stop="20260803163500 +0800" channel="第一财经">
-    <title>直播：投资有看头</title>
+  <programme start="20260805134500 +0800" stop="20260805143000 +0800" channel="上海新闻综合">
+    <title>24集连续剧：冰雪尖刀连（17）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803163500 +0800" stop="20260803171600 +0800" channel="第一财经">
-    <title>《陆家嘴金融沙龙》</title>
+  <programme start="20260805143000 +0800" stop="20260805151500 +0800" channel="上海新闻综合">
+    <title>24集连续剧：冰雪尖刀连（18）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803171600 +0800" stop="20260803180000 +0800" channel="第一财经">
-    <title>《财经视频集萃》</title>
+  <programme start="20260805151500 +0800" stop="20260805155800 +0800" channel="上海新闻综合">
+    <title>24集连续剧：冰雪尖刀连（19）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803180000 +0800" stop="20260803190000 +0800" channel="第一财经">
-    <title>直播：今日股市</title>
+  <programme start="20260805155800 +0800" stop="20260805163500 +0800" channel="上海新闻综合">
+    <title>文运中国（1）　生生不息</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803190000 +0800" stop="20260803200000 +0800" channel="第一财经">
-    <title>直播：公司与行业</title>
+  <programme start="20260805163500 +0800" stop="20260805170000 +0800" channel="上海新闻综合">
+    <title>申房在线（17）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803200000 +0800" stop="20260803210000 +0800" channel="第一财经">
-    <title>直播：谈股论金</title>
+  <programme start="20260805170000 +0800" stop="20260805172300 +0800" channel="上海新闻综合">
+    <title>东方110（3077）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803210000 +0800" stop="20260803214100 +0800" channel="第一财经">
-    <title>直播：财经夜行线</title>
+  <programme start="20260805172300 +0800" stop="20260805172900 +0800" channel="上海新闻综合">
+    <title>好物齐刷刷</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803214100 +0800" stop="20260803220300 +0800" channel="第一财经">
-    <title>《首席评论》</title>
+  <programme start="20260805172900 +0800" stop="20260805183000 +0800" channel="上海新闻综合">
+    <title>新闻坊</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803220300 +0800" stop="20260803223000 +0800" channel="第一财经">
-    <title>《创时代》－张江／论坛</title>
+  <programme start="20260805183000 +0800" stop="20260805191500 +0800" channel="上海新闻综合">
+    <title>新闻报道　新闻透视　观众中来　天气预报</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803223000 +0800" stop="20260803233000 +0800" channel="第一财经">
-    <title>今日股市</title>
+  <programme start="20260805191500 +0800" stop="20260805194800 +0800" channel="上海新闻综合">
+    <title>庭审纪实（1224）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803233000 +0800" stop="20260804000000 +0800" channel="第一财经">
-    <title>《财经视频集萃－投资有看头》</title>
+  <programme start="20260805194800 +0800" stop="20260805203200 +0800" channel="上海新闻综合">
+    <title>40集连续剧：罚罪Ⅱ（24）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805203200 +0800" stop="20260805212600 +0800" channel="上海新闻综合">
+    <title>40集连续剧：罚罪Ⅱ（25）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805212600 +0800" stop="20260805213000 +0800" channel="上海新闻综合">
+    <title>《新闻夜线》天气预报</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805213000 +0800" stop="20260805223000 +0800" channel="上海新闻综合">
+    <title>新闻夜线</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805223000 +0800" stop="20260805230000 +0800" channel="上海新闻综合">
+    <title>下一站（232）：沪上桃花源</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805230000 +0800" stop="20260805232500 +0800" channel="上海新闻综合">
+    <title>庭审纪实（1224）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805232500 +0800" stop="20260806000000 +0800" channel="上海新闻综合">
+    <title>24集连续剧：冰雪尖刀连（16）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
@@ -1098,173 +958,158 @@
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803000000 +0800" stop="20260803011000 +0800" channel="五星体育">
-    <title>2026斯诺克上海大师赛半决赛上半场：威尔逊－赵心童</title>
+  <programme start="20260805000000 +0800" stop="20260805004000 +0800" channel="第一财经">
+    <title>财经夜行线</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803011000 +0800" stop="20260803023500 +0800" channel="五星体育">
-    <title>2026斯诺克上海大师赛半决赛下半场：威尔逊－赵心童</title>
+  <programme start="20260805004000 +0800" stop="20260805011500 +0800" channel="第一财经">
+    <title>价值投研社－推动上市公司回购　助力股市长牛慢牛</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803023500 +0800" stop="20260803033000 +0800" channel="五星体育">
-    <title>2026美加墨世界杯E组小组赛第二轮：德国－科特迪瓦</title>
+  <programme start="20260805011500 +0800" stop="20260805014000 +0800" channel="第一财经">
+    <title>《2026下半年经济展望》黄益平：国内经济再平衡是高质量发展的必经之路</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803033000 +0800" stop="20260803042500 +0800" channel="五星体育">
-    <title>2025－26赛季NFL常规赛：巴尔的摩乌鸦－匹兹堡钢人队</title>
+  <programme start="20260805014000 +0800" stop="20260805023500 +0800" channel="第一财经">
+    <title>《公司与行业》</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803042500 +0800" stop="20260803051500 +0800" channel="五星体育">
-    <title>2025世界无人机足球锦标赛第6集</title>
+  <programme start="20260805023500 +0800" stop="20260805060300 +0800" channel="第一财经">
+    <title>祝您晚安</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803051500 +0800" stop="20260803053500 +0800" channel="五星体育">
-    <title>健身时代（2026－31）</title>
+  <programme start="20260805060300 +0800" stop="20260805061000 +0800" channel="第一财经">
+    <title>《总部面对面·在上海　创未来——电视版02ABB机器人：与上海智造共舞》</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803053500 +0800" stop="20260803055000 +0800" channel="五星体育">
-    <title>【五星精彩】NBA绝杀名场面集锦（2）</title>
+  <programme start="20260805061000 +0800" stop="20260805063000 +0800" channel="第一财经">
+    <title>算力与网络双轮驱动　如何重塑中国数字基建出海新格局？丨出海瞭望</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803055000 +0800" stop="20260803063000 +0800" channel="五星体育">
-    <title>2026世界一级方程式锦标赛摩纳哥站大奖赛</title>
+  <programme start="20260805063000 +0800" stop="20260805070000 +0800" channel="第一财经">
+    <title>投资有看头</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803063000 +0800" stop="20260803072700 +0800" channel="五星体育">
-    <title>2026上海浪琴环球马术冠军赛5．2晚场：1．50米争时赛（含附加赛）</title>
+  <programme start="20260805070000 +0800" stop="20260805080000 +0800" channel="第一财经">
+    <title>《公司与行业》</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803072700 +0800" stop="20260803082400 +0800" channel="五星体育">
-    <title>2026年沃尔沃中国公开赛</title>
+  <programme start="20260805080000 +0800" stop="20260805085600 +0800" channel="第一财经">
+    <title>今日股市</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803082400 +0800" stop="20260803085900 +0800" channel="五星体育">
-    <title>2025中国壁球公开赛女单半决赛1</title>
+  <programme start="20260805085600 +0800" stop="20260805090000 +0800" channel="第一财经">
+    <title>《总部面对面·在上海　创未来——电视版02ABB机器人：与上海智造共舞》</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803085900 +0800" stop="20260803095500 +0800" channel="五星体育">
-    <title>2026美加墨世界杯小组赛1／16决赛：瑞士－阿尔及利亚</title>
+  <programme start="20260805090000 +0800" stop="20260805120500 +0800" channel="第一财经">
+    <title>直播：市场零距离</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803095500 +0800" stop="20260803100000 +0800" channel="五星体育">
-    <title>健身时代精选</title>
+  <programme start="20260805120500 +0800" stop="20260805122500 +0800" channel="第一财经">
+    <title>《2026下半年经济展望》黄益平：国内经济再平衡是高质量发展的必经之路</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803100000 +0800" stop="20260803110000 +0800" channel="五星体育">
-    <title>弈棋耍大牌－上海三打一（3018）</title>
+  <programme start="20260805122500 +0800" stop="20260805123000 +0800" channel="第一财经">
+    <title>《总部面对面·在上海　创未来——电视版02ABB机器人：与上海智造共舞》</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803110000 +0800" stop="20260803120000 +0800" channel="五星体育">
-    <title>弈棋耍大牌4936</title>
+  <programme start="20260805123000 +0800" stop="20260805130000 +0800" channel="第一财经">
+    <title>两说（68）对话高峰　　机器人：灵活的“肢体”和有趣的“灵魂”，一个都不能少</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803120000 +0800" stop="20260803123000 +0800" channel="五星体育">
-    <title>健身时代精选</title>
+  <programme start="20260805130000 +0800" stop="20260805160500 +0800" channel="第一财经">
+    <title>直播：市场零距离</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803123000 +0800" stop="20260803131500 +0800" channel="五星体育">
-    <title>2026版－世界杯殿堂1954世界杯（上）</title>
+  <programme start="20260805160500 +0800" stop="20260805163500 +0800" channel="第一财经">
+    <title>直播：投资有看头</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803131500 +0800" stop="20260803140000 +0800" channel="五星体育">
-    <title>2026版－世界杯殿堂－1954世界杯（下）</title>
+  <programme start="20260805163500 +0800" stop="20260805165800 +0800" channel="第一财经">
+    <title>全球缺电重塑能源格局　哪些能源黄金赛道出海确定新最高？丨出海瞭望</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803140000 +0800" stop="20260803140500 +0800" channel="五星体育">
-    <title>健身时代精选</title>
+  <programme start="20260805165800 +0800" stop="20260805170500 +0800" channel="第一财经">
+    <title>《总部面对面·在上海　创未来——电视版02ABB机器人：与上海智造共舞》</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803140500 +0800" stop="20260803150000 +0800" channel="五星体育">
-    <title>2025－26赛季NFL常规赛：费城老鹰－洛杉矶闪电</title>
+  <programme start="20260805170500 +0800" stop="20260805173500 +0800" channel="第一财经">
+    <title>《创时代－引领区观察》“浦东科创新生代”系列1：给AI系上“安全带”</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803150000 +0800" stop="20260803153000 +0800" channel="五星体育">
-    <title>健身时代精选</title>
+  <programme start="20260805173500 +0800" stop="20260805180000 +0800" channel="第一财经">
+    <title>《2026下半年经济展望》黄益平：国内经济再平衡是高质量发展的必经之路</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803153000 +0800" stop="20260803160500 +0800" channel="五星体育">
-    <title>五星足球之看球组个局</title>
+  <programme start="20260805180000 +0800" stop="20260805185700 +0800" channel="第一财经">
+    <title>直播：今日股市</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803160500 +0800" stop="20260803161000 +0800" channel="五星体育">
-    <title>健身时代精选</title>
+  <programme start="20260805185700 +0800" stop="20260805190000 +0800" channel="第一财经">
+    <title>《总部面对面·在上海　创未来——电视版03赫力昂：在上海打造数字创新“健身房”》</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803161000 +0800" stop="20260803164800 +0800" channel="五星体育">
-    <title>2026中超第21轮：辽宁铁人－上海申花</title>
+  <programme start="20260805190000 +0800" stop="20260805200000 +0800" channel="第一财经">
+    <title>直播：公司与行业</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803164800 +0800" stop="20260803170000 +0800" channel="五星体育">
-    <title>【五星精彩】2026美加墨世界杯小组赛第三轮　J组　阿尔及利亚　vs　奥地利　赛事集锦</title>
+  <programme start="20260805200000 +0800" stop="20260805210000 +0800" channel="第一财经">
+    <title>直播：谈股论金</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803170000 +0800" stop="20260803173000 +0800" channel="五星体育">
-    <title>五星精彩－弈棋耍大牌精彩牌局（165）</title>
+  <programme start="20260805210000 +0800" stop="20260805214100 +0800" channel="第一财经">
+    <title>直播：财经夜行线</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803173000 +0800" stop="20260803180000 +0800" channel="五星体育">
-    <title>五星精彩－弈棋耍大牌精彩牌局（166）</title>
+  <programme start="20260805214100 +0800" stop="20260805220300 +0800" channel="第一财经">
+    <title>《2026经济展望》刘守英：　高质量发展土地功能要转变，构建“都市圈”要打造城乡连续体</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803180000 +0800" stop="20260803190000 +0800" channel="五星体育">
-    <title>弈棋耍大牌4939</title>
+  <programme start="20260805220300 +0800" stop="20260805223000 +0800" channel="第一财经">
+    <title>两说（68）对话高峰　　机器人：灵活的“肢体”和有趣的“灵魂”，一个都不能少</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803190000 +0800" stop="20260803193000 +0800" channel="五星体育">
-    <title>体育新闻</title>
+  <programme start="20260805223000 +0800" stop="20260805232700 +0800" channel="第一财经">
+    <title>今日股市</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803193000 +0800" stop="20260803213600 +0800" channel="五星体育">
-    <title>现场直播：2026年上海明日之星冠军杯足球小组赛</title>
+  <programme start="20260805232700 +0800" stop="20260805233000 +0800" channel="第一财经">
+    <title>《总部面对面·在上海　创未来——电视版03赫力昂：在上海打造数字创新“健身房”》</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803213600 +0800" stop="20260803215500 +0800" channel="五星体育">
-    <title>【五星精彩】2026美加墨世界杯1／16决赛　南非VS加拿大</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803215500 +0800" stop="20260803220000 +0800" channel="五星体育">
-    <title>健身时代精选</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803220000 +0800" stop="20260803230000 +0800" channel="五星体育">
-    <title>弈棋耍大牌－上海三打一（3019）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803230000 +0800" stop="20260804000000 +0800" channel="五星体育">
-    <title>2026斯诺克上海大师赛决赛上半场</title>
+  <programme start="20260805233000 +0800" stop="20260806000000 +0800" channel="第一财经">
+    <title>投资有看头</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
@@ -1428,228 +1273,178 @@
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803000000 +0800" stop="20260803000200 +0800" channel="上海都市频道">
-    <title>老好的生活（321）</title>
+  <programme start="20260805000000 +0800" stop="20260805005200 +0800" channel="五星体育">
+    <title>2026中国台球俱乐部职业联赛</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803000200 +0800" stop="20260803005500 +0800" channel="上海都市频道">
-    <title>新老娘舅（5302）</title>
+  <programme start="20260805005200 +0800" stop="20260805014700 +0800" channel="五星体育">
+    <title>2026美加墨世界杯H组小组赛第二轮：西班牙－沙特阿拉伯</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803005500 +0800" stop="20260803012000 +0800" channel="上海都市频道">
-    <title>人气美食（5100）</title>
+  <programme start="20260805014700 +0800" stop="20260805024200 +0800" channel="五星体育">
+    <title>2026美加墨世界杯C组小组赛第二轮：比利时－伊朗</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803012000 +0800" stop="20260803020600 +0800" channel="上海都市频道">
-    <title>美食纪录片：风味人间第二季（6）</title>
+  <programme start="20260805024200 +0800" stop="20260805033700 +0800" channel="五星体育">
+    <title>2026ATP1000马德里公开赛半决赛：辛纳－菲斯</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803020600 +0800" stop="20260803024700 +0800" channel="上海都市频道">
-    <title>X诊所（2446）守护宫颈远离病变</title>
+  <programme start="20260805033700 +0800" stop="20260805041200 +0800" channel="五星体育">
+    <title>2026中超联赛第13轮：成都蓉城－上海海港</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803024700 +0800" stop="20260803031200 +0800" channel="上海都市频道">
-    <title>乐活上海（390）</title>
+  <programme start="20260805041200 +0800" stop="20260805044700 +0800" channel="五星体育">
+    <title>2026中超联赛第13轮：上海申花－武汉三镇</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803031200 +0800" stop="20260803040500 +0800" channel="上海都市频道">
-    <title>新老娘舅（5311）</title>
+  <programme start="20260805044700 +0800" stop="20260805053700 +0800" channel="五星体育">
+    <title>2025世界无人机足球锦标赛第7集</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803040500 +0800" stop="20260803043100 +0800" channel="上海都市频道">
-    <title>人气美食（5101）</title>
+  <programme start="20260805053700 +0800" stop="20260805055000 +0800" channel="五星体育">
+    <title>【五星精彩】NBA绝杀名场面集锦（四）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803043100 +0800" stop="20260803045600 +0800" channel="上海都市频道">
-    <title>人气美食（5097）</title>
+  <programme start="20260805055000 +0800" stop="20260805063000 +0800" channel="五星体育">
+    <title>2026世界一级方程式锦标赛奥地利站　大奖赛</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803045600 +0800" stop="20260803053800 +0800" channel="上海都市频道">
-    <title>X诊所（2447）阿尔兹海默症居家照护指南</title>
+  <programme start="20260805063000 +0800" stop="20260805072700 +0800" channel="五星体育">
+    <title>2026上海浪琴环球马术冠军赛　下午场：1．60米浪琴大奖赛</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803053800 +0800" stop="20260803060000 +0800" channel="上海都市频道">
-    <title>纪录片真实影院（396）　云海谣　第三季（3）曲靖篇</title>
+  <programme start="20260805072700 +0800" stop="20260805082400 +0800" channel="五星体育">
+    <title>2026长三角国际铁人三项赛</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803060000 +0800" stop="20260803065800 +0800" channel="上海都市频道">
-    <title>新老娘舅（5302）</title>
+  <programme start="20260805082400 +0800" stop="20260805090000 +0800" channel="五星体育">
+    <title>2026年第六届亚洲沙滩运动会攀岩速度决赛</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803065800 +0800" stop="20260803072400 +0800" channel="上海都市频道">
-    <title>人气美食（5097）</title>
+  <programme start="20260805090000 +0800" stop="20260805095500 +0800" channel="五星体育">
+    <title>2026美加墨世界杯小组赛1／16决赛：哥伦比亚－加纳</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803072400 +0800" stop="20260803075000 +0800" channel="上海都市频道">
-    <title>乐活上海（393）</title>
+  <programme start="20260805095500 +0800" stop="20260805100000 +0800" channel="五星体育">
+    <title>健身时代精选</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803075000 +0800" stop="20260803083000 +0800" channel="上海都市频道">
-    <title>X诊所（2446）守护宫颈远离病变</title>
+  <programme start="20260805100000 +0800" stop="20260805110000 +0800" channel="五星体育">
+    <title>弈棋耍大牌－上海三打一（3020）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803083000 +0800" stop="20260803085500 +0800" channel="上海都市频道">
-    <title>人气美食（5101）</title>
+  <programme start="20260805110000 +0800" stop="20260805120000 +0800" channel="五星体育">
+    <title>弈棋耍大牌（4938）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803085500 +0800" stop="20260803092300 +0800" channel="上海都市频道">
-    <title>老好的生活（321）</title>
+  <programme start="20260805120000 +0800" stop="20260805123100 +0800" channel="五星体育">
+    <title>健身时代精选</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803092300 +0800" stop="20260803095200 +0800" channel="上海都市频道">
-    <title>开心全接触－淘最上海（4116）</title>
+  <programme start="20260805123100 +0800" stop="20260805131600 +0800" channel="五星体育">
+    <title>2026版－世界杯殿堂1958世界杯（上）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803095200 +0800" stop="20260803101200 +0800" channel="上海都市频道">
-    <title>开心全接触－极智装（1541）</title>
+  <programme start="20260805131600 +0800" stop="20260805135800 +0800" channel="五星体育">
+    <title>2026版－世界杯殿堂1958世界杯（下）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803101200 +0800" stop="20260803110600 +0800" channel="上海都市频道">
-    <title>好吃记得夸我（291）</title>
+  <programme start="20260805135800 +0800" stop="20260805140300 +0800" channel="五星体育">
+    <title>健身时代精选</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803110600 +0800" stop="20260803112300 +0800" channel="上海都市频道">
-    <title>都市焕新家（258）</title>
+  <programme start="20260805140300 +0800" stop="20260805150000 +0800" channel="五星体育">
+    <title>2025－26赛季NFL国联决赛：洛杉矶公羊－西雅图海鹰</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803112300 +0800" stop="20260803112900 +0800" channel="上海都市频道">
-    <title>都市圈＠AI科普荟（73）</title>
+  <programme start="20260805150000 +0800" stop="20260805153100 +0800" channel="五星体育">
+    <title>健身时代精选</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803112900 +0800" stop="20260803114600 +0800" channel="上海都市频道">
-    <title>36．7℃·妙手仁心（107）</title>
+  <programme start="20260805153100 +0800" stop="20260805160000 +0800" channel="五星体育">
+    <title>2026极速终点线3</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803114600 +0800" stop="20260803125000 +0800" channel="上海都市频道">
-    <title>纪录片真实影院（398）　长江口二号　下</title>
+  <programme start="20260805160000 +0800" stop="20260805160500 +0800" channel="五星体育">
+    <title>健身时代精选</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803125000 +0800" stop="20260803133100 +0800" channel="上海都市频道">
-    <title>X诊所（2447）阿尔兹海默症居家照护指南</title>
+  <programme start="20260805160500 +0800" stop="20260805170000 +0800" channel="五星体育">
+    <title>2024上海超级杯第二天（日场）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803133100 +0800" stop="20260803135700 +0800" channel="上海都市频道">
-    <title>乐活上海（393）</title>
+  <programme start="20260805170000 +0800" stop="20260805173000 +0800" channel="五星体育">
+    <title>五星精彩－弈棋耍大牌精彩牌局（169）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803135700 +0800" stop="20260803143900 +0800" channel="上海都市频道">
-    <title>36集连续剧：一路朝阳（8）</title>
+  <programme start="20260805173000 +0800" stop="20260805180000 +0800" channel="五星体育">
+    <title>五星精彩－弈棋耍大牌精彩牌局（170）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803143900 +0800" stop="20260803152300 +0800" channel="上海都市频道">
-    <title>36集连续剧：一路朝阳（9）</title>
+  <programme start="20260805180000 +0800" stop="20260805190000 +0800" channel="五星体育">
+    <title>弈棋耍大牌　4941</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803152300 +0800" stop="20260803161800 +0800" channel="上海都市频道">
-    <title>新老娘舅（5302）</title>
+  <programme start="20260805190000 +0800" stop="20260805193000 +0800" channel="五星体育">
+    <title>体育新闻</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803161800 +0800" stop="20260803164500 +0800" channel="上海都市频道">
-    <title>人气美食（5100）</title>
+  <programme start="20260805193000 +0800" stop="20260805201100 +0800" channel="五星体育">
+    <title>健身时代－正气操</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803164500 +0800" stop="20260803171100 +0800" channel="上海都市频道">
-    <title>乐活上海（393）</title>
+  <programme start="20260805201100 +0800" stop="20260805205800 +0800" channel="五星体育">
+    <title>2026年中国游泳公开赛暨全国春季游泳锦标赛各项决赛</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803171100 +0800" stop="20260803173300 +0800" channel="上海都市频道">
-    <title>开心全接触－极智装（1542）</title>
+  <programme start="20260805205800 +0800" stop="20260805215500 +0800" channel="五星体育">
+    <title>2026ATP1000印第安维尔斯大师赛决赛：梅德韦杰夫－辛纳</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803173300 +0800" stop="20260803180000 +0800" channel="上海都市频道">
-    <title>开心全接触－我们退休啦（2740）</title>
+  <programme start="20260805215500 +0800" stop="20260805220000 +0800" channel="五星体育">
+    <title>健身时代精选</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803180000 +0800" stop="20260803190000 +0800" channel="上海都市频道">
-    <title>新老娘舅（5312）　家中污水倒灌　物业为啥不肯赔？</title>
+  <programme start="20260805220000 +0800" stop="20260805230000 +0800" channel="五星体育">
+    <title>弈棋耍大牌－上海三打一（3021）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803190000 +0800" stop="20260803192800 +0800" channel="上海都市频道">
-    <title>乐活上海（394）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803192800 +0800" stop="20260803195400 +0800" channel="上海都市频道">
-    <title>人气美食（5102）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803195400 +0800" stop="20260803200100 +0800" channel="上海都市频道">
-    <title>都市圈＠AI科普荟（74）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803200100 +0800" stop="20260803202700 +0800" channel="上海都市频道">
-    <title>乐活上海（392）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803202700 +0800" stop="20260803205400 +0800" channel="上海都市频道">
-    <title>人气美食（5098）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803205400 +0800" stop="20260803213800 +0800" channel="上海都市频道">
-    <title>X诊所（2448）精准防治胃食管反流</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803213800 +0800" stop="20260803222900 +0800" channel="上海都市频道">
-    <title>纪录片真实影院（501）　代号221（1）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803222900 +0800" stop="20260803225000 +0800" channel="上海都市频道">
-    <title>开心全接触－极智装（1542）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803225000 +0800" stop="20260803231500 +0800" channel="上海都市频道">
-    <title>人气美食（5102）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803231500 +0800" stop="20260803234100 +0800" channel="上海都市频道">
-    <title>乐活上海（394）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803234100 +0800" stop="20260804000000 +0800" channel="上海都市频道">
-    <title>X诊所（2448）精准防治胃食管反流</title>
+  <programme start="20260805230000 +0800" stop="20260806000000 +0800" channel="五星体育">
+    <title>2026中国台球俱乐部职业联赛</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
@@ -1853,368 +1648,228 @@
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803000000 +0800" stop="20260803060000 +0800" channel="哈哈炫动">
-    <title>祝您晚安</title>
+  <programme start="20260805000000 +0800" stop="20260805002200 +0800" channel="上海都市频道">
+    <title>X诊所（2449）肺结节的科学应对</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803060000 +0800" stop="20260803060600 +0800" channel="哈哈炫动">
-    <title>星星班长一（1）</title>
+  <programme start="20260805002200 +0800" stop="20260805011500 +0800" channel="上海都市频道">
+    <title>新老娘舅（5313）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803060600 +0800" stop="20260803061400 +0800" channel="哈哈炫动">
-    <title>星星班长一（2）</title>
+  <programme start="20260805011500 +0800" stop="20260805020100 +0800" channel="上海都市频道">
+    <title>纪录片真实影院（502）　代号221（2）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803061400 +0800" stop="20260803062000 +0800" channel="哈哈炫动">
-    <title>星星班长一（3）</title>
+  <programme start="20260805020100 +0800" stop="20260805020600 +0800" channel="上海都市频道">
+    <title>都市圈＠AI科普荟（74）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803062000 +0800" stop="20260803062700 +0800" channel="哈哈炫动">
-    <title>星星班长一（4）</title>
+  <programme start="20260805020600 +0800" stop="20260805024700 +0800" channel="上海都市频道">
+    <title>X诊所（2448）精准防治胃食管反流</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803062700 +0800" stop="20260803063300 +0800" channel="哈哈炫动">
-    <title>星星班长一（5）</title>
+  <programme start="20260805024700 +0800" stop="20260805031300 +0800" channel="上海都市频道">
+    <title>乐活上海（394）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803063300 +0800" stop="20260803064000 +0800" channel="哈哈炫动">
-    <title>星星班长一（6）</title>
+  <programme start="20260805031300 +0800" stop="20260805040600 +0800" channel="上海都市频道">
+    <title>新老娘舅（5312）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803064000 +0800" stop="20260803064600 +0800" channel="哈哈炫动">
-    <title>星星班长一（7）</title>
+  <programme start="20260805040600 +0800" stop="20260805043100 +0800" channel="上海都市频道">
+    <title>人气美食（5102）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803064600 +0800" stop="20260803065200 +0800" channel="哈哈炫动">
-    <title>星星班长一（8）</title>
+  <programme start="20260805043100 +0800" stop="20260805051300 +0800" channel="上海都市频道">
+    <title>X诊所（2447）阿尔兹海默症居家照护指南</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803065200 +0800" stop="20260803070000 +0800" channel="哈哈炫动">
-    <title>星星班长之冒险空间（9）</title>
+  <programme start="20260805051300 +0800" stop="20260805060000 +0800" channel="上海都市频道">
+    <title>纪录片真实影院（501）　代号221（1）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803070000 +0800" stop="20260803070800 +0800" channel="哈哈炫动">
-    <title>女娲补天（4）</title>
+  <programme start="20260805060000 +0800" stop="20260805065800 +0800" channel="上海都市频道">
+    <title>新老娘舅（5313）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803070800 +0800" stop="20260803071700 +0800" channel="哈哈炫动">
-    <title>女娲补天（5）</title>
+  <programme start="20260805065800 +0800" stop="20260805072400 +0800" channel="上海都市频道">
+    <title>人气美食（5099）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803071700 +0800" stop="20260803073000 +0800" channel="哈哈炫动">
-    <title>女娲补天（6）</title>
+  <programme start="20260805072400 +0800" stop="20260805075300 +0800" channel="上海都市频道">
+    <title>乐活上海（395）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803073000 +0800" stop="20260803074300 +0800" channel="哈哈炫动">
-    <title>欢乐蹦蹦跳（1201）</title>
+  <programme start="20260805075300 +0800" stop="20260805083300 +0800" channel="上海都市频道">
+    <title>X诊所（2448）精准防治胃食管反流</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803074300 +0800" stop="20260803075700 +0800" channel="哈哈炫动">
-    <title>欢乐蹦蹦跳（1202）</title>
+  <programme start="20260805083300 +0800" stop="20260805085800 +0800" channel="上海都市频道">
+    <title>人气美食（5103）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803075700 +0800" stop="20260803082200 +0800" channel="哈哈炫动">
-    <title>棉花糖和云朵妈妈（79、80）</title>
+  <programme start="20260805085800 +0800" stop="20260805090500 +0800" channel="上海都市频道">
+    <title>都市圈＠SMG达人和朋友们（79）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803082200 +0800" stop="20260803083000 +0800" channel="哈哈炫动">
-    <title>星星班长之冒险空间（20）</title>
+  <programme start="20260805090500 +0800" stop="20260805093100 +0800" channel="上海都市频道">
+    <title>乐活上海（394）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803083000 +0800" stop="20260803085700 +0800" channel="哈哈炫动">
-    <title>棉花糖和云朵妈妈（81、82）</title>
+  <programme start="20260805093100 +0800" stop="20260805095900 +0800" channel="上海都市频道">
+    <title>开心全接触－淘最上海（4117）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803085700 +0800" stop="20260803092100 +0800" channel="哈哈炫动">
-    <title>棉花糖和云朵妈妈（83、84）</title>
+  <programme start="20260805095900 +0800" stop="20260805102000 +0800" channel="上海都市频道">
+    <title>开心全接触－极智装（1543）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803092100 +0800" stop="20260803092800 +0800" channel="哈哈炫动">
-    <title>星星班长之冒险空间（11）</title>
+  <programme start="20260805102000 +0800" stop="20260805111500 +0800" channel="上海都市频道">
+    <title>新老娘舅（5313）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803092800 +0800" stop="20260803095700 +0800" channel="哈哈炫动">
-    <title>棉花糖和云朵妈妈（85、86）</title>
+  <programme start="20260805111500 +0800" stop="20260805113200 +0800" channel="上海都市频道">
+    <title>都市焕新家（260）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803095700 +0800" stop="20260803102200 +0800" channel="哈哈炫动">
-    <title>棉花糖和云朵妈妈（87、88）</title>
+  <programme start="20260805113200 +0800" stop="20260805115100 +0800" channel="上海都市频道">
+    <title>36．7℃·妙手仁心（84）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803102200 +0800" stop="20260803103000 +0800" channel="哈哈炫动">
-    <title>星星班长之冒险空间（18）</title>
+  <programme start="20260805115100 +0800" stop="20260805124100 +0800" channel="上海都市频道">
+    <title>纪录片真实影院（502）　代号221（2）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803103000 +0800" stop="20260803105700 +0800" channel="哈哈炫动">
-    <title>棉花糖和云朵妈妈（89、90）</title>
+  <programme start="20260805124100 +0800" stop="20260805124700 +0800" channel="上海都市频道">
+    <title>都市圈＠AI科普荟（74）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803105700 +0800" stop="20260803110900 +0800" channel="哈哈炫动">
-    <title>海底小纵队在中国·中国之旅2（6）</title>
+  <programme start="20260805124700 +0800" stop="20260805132900 +0800" channel="上海都市频道">
+    <title>X诊所（2449）肺结节的科学应对</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803110900 +0800" stop="20260803112100 +0800" channel="哈哈炫动">
-    <title>海底小纵队在中国·中国之旅2（7）</title>
+  <programme start="20260805132900 +0800" stop="20260805135500 +0800" channel="上海都市频道">
+    <title>乐活上海（395）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803112100 +0800" stop="20260803112800 +0800" channel="哈哈炫动">
-    <title>星星班长之冒险空间（5）</title>
+  <programme start="20260805135500 +0800" stop="20260805143900 +0800" channel="上海都市频道">
+    <title>36集连续剧：一路朝阳（12）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803112800 +0800" stop="20260803120000 +0800" channel="哈哈炫动">
-    <title>新闻同学（1279）</title>
+  <programme start="20260805143900 +0800" stop="20260805152200 +0800" channel="上海都市频道">
+    <title>36集连续剧：一路朝阳（13）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803120000 +0800" stop="20260803122700 +0800" channel="哈哈炫动">
-    <title>犟驴小红军（9、10）</title>
+  <programme start="20260805152200 +0800" stop="20260805161700 +0800" channel="上海都市频道">
+    <title>新老娘舅（5313）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803122700 +0800" stop="20260803125200 +0800" channel="哈哈炫动">
-    <title>新大头儿子和小头爸爸5（475、476）</title>
+  <programme start="20260805161700 +0800" stop="20260805164300 +0800" channel="上海都市频道">
+    <title>人气美食（5103）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803125200 +0800" stop="20260803130000 +0800" channel="哈哈炫动">
-    <title>星星班长之冒险空间（14）</title>
+  <programme start="20260805164300 +0800" stop="20260805171100 +0800" channel="上海都市频道">
+    <title>乐活上海（395）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803130000 +0800" stop="20260803132600 +0800" channel="哈哈炫动">
-    <title>新大头儿子和小头爸爸5（477、478）</title>
+  <programme start="20260805171100 +0800" stop="20260805173300 +0800" channel="上海都市频道">
+    <title>开心全接触－极智装（1544）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803132600 +0800" stop="20260803135100 +0800" channel="哈哈炫动">
-    <title>新大头儿子和小头爸爸5（479、480）</title>
+  <programme start="20260805173300 +0800" stop="20260805180000 +0800" channel="上海都市频道">
+    <title>开心全接触－我们退休啦（2741）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803135100 +0800" stop="20260803135400 +0800" channel="哈哈炫动">
-    <title>茶婆婆渔婆婆蚕婆婆二（8）</title>
+  <programme start="20260805180000 +0800" stop="20260805190000 +0800" channel="上海都市频道">
+    <title>新老娘舅（5314）　开开心心去旅游　为啥一万多元“打了水漂”？</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803135400 +0800" stop="20260803140000 +0800" channel="哈哈炫动">
-    <title>茶婆婆渔婆婆蚕婆婆一（6）</title>
+  <programme start="20260805190000 +0800" stop="20260805192800 +0800" channel="上海都市频道">
+    <title>乐活上海（396）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803140000 +0800" stop="20260803142700 +0800" channel="哈哈炫动">
-    <title>新大头儿子和小头爸爸5（481、482）</title>
+  <programme start="20260805192800 +0800" stop="20260805195400 +0800" channel="上海都市频道">
+    <title>人气美食（5104）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803142700 +0800" stop="20260803145200 +0800" channel="哈哈炫动">
-    <title>新大头儿子和小头爸爸5（483、484）</title>
+  <programme start="20260805195400 +0800" stop="20260805200300 +0800" channel="上海都市频道">
+    <title>都市圈＠SMG达人和朋友们（80）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803145200 +0800" stop="20260803150000 +0800" channel="哈哈炫动">
-    <title>星星班长之冒险空间（1）</title>
+  <programme start="20260805200300 +0800" stop="20260805202900 +0800" channel="上海都市频道">
+    <title>乐活上海（394）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803150000 +0800" stop="20260803153000 +0800" channel="哈哈炫动">
-    <title>甜心格格5（3）</title>
+  <programme start="20260805202900 +0800" stop="20260805205600 +0800" channel="上海都市频道">
+    <title>人气美食（5100）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803153000 +0800" stop="20260803155700 +0800" channel="哈哈炫动">
-    <title>甜心格格5（4）</title>
+  <programme start="20260805205600 +0800" stop="20260805213900 +0800" channel="上海都市频道">
+    <title>X诊所（2450）肩痛不简单　辨证巧应对</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803155700 +0800" stop="20260803162100 +0800" channel="哈哈炫动">
-    <title>甜心格格5（5）</title>
+  <programme start="20260805213900 +0800" stop="20260805222900 +0800" channel="上海都市频道">
+    <title>纪录片真实影院（503）　代号221（3）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803162100 +0800" stop="20260803162400 +0800" channel="哈哈炫动">
-    <title>茶婆婆渔婆婆蚕婆婆一（5）</title>
+  <programme start="20260805222900 +0800" stop="20260805225000 +0800" channel="上海都市频道">
+    <title>开心全接触－极智装（1544）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803162400 +0800" stop="20260803163000 +0800" channel="哈哈炫动">
-    <title>茶婆婆渔婆婆蚕婆婆三（1）</title>
+  <programme start="20260805225000 +0800" stop="20260805231600 +0800" channel="上海都市频道">
+    <title>人气美食（5104）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803163000 +0800" stop="20260803165700 +0800" channel="哈哈炫动">
-    <title>甜心格格5（6）</title>
+  <programme start="20260805231600 +0800" stop="20260805234100 +0800" channel="上海都市频道">
+    <title>乐活上海（396）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
-  <programme start="20260803165700 +0800" stop="20260803171000 +0800" channel="哈哈炫动">
-    <title>海底小纵队第六季（5）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803171000 +0800" stop="20260803172200 +0800" channel="哈哈炫动">
-    <title>海底小纵队第六季（6）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803172200 +0800" stop="20260803173000 +0800" channel="哈哈炫动">
-    <title>星星班长之冒险空间（13）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803173000 +0800" stop="20260803174400 +0800" channel="哈哈炫动">
-    <title>愿望喵喵（15）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803174400 +0800" stop="20260803180000 +0800" channel="哈哈炫动">
-    <title>愿望喵喵（16）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803180000 +0800" stop="20260803181400 +0800" channel="哈哈炫动">
-    <title>迷你特工队之最强恐龙（15）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803181400 +0800" stop="20260803182900 +0800" channel="哈哈炫动">
-    <title>迷你特工队之最强恐龙（16）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803182900 +0800" stop="20260803184500 +0800" channel="哈哈炫动">
-    <title>爆裂飞车之晶码迷踪（10）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803184500 +0800" stop="20260803185100 +0800" channel="哈哈炫动">
-    <title>星星班长一（17）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803185100 +0800" stop="20260803190000 +0800" channel="哈哈炫动">
-    <title>星星班长一（18）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803190000 +0800" stop="20260803191200 +0800" channel="哈哈炫动">
-    <title>荧星梦工厂（574）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803191200 +0800" stop="20260803192500 +0800" channel="哈哈炫动">
-    <title>荧星梦工厂（575）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803192500 +0800" stop="20260803194500 +0800" channel="哈哈炫动">
-    <title>荧星梦工厂（576）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803194500 +0800" stop="20260803200000 +0800" channel="哈哈炫动">
-    <title>超级飞侠第十五季（18）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803200000 +0800" stop="20260803201400 +0800" channel="哈哈炫动">
-    <title>超级飞侠第十五季（19）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803201400 +0800" stop="20260803202900 +0800" channel="哈哈炫动">
-    <title>超级飞侠第十五季（20）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803202900 +0800" stop="20260803204500 +0800" channel="哈哈炫动">
-    <title>喜羊羊与灰太狼之发明大作战（6）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803204500 +0800" stop="20260803210200 +0800" channel="哈哈炫动">
-    <title>喜羊羊与灰太狼之发明大作战（7）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803210200 +0800" stop="20260803211800 +0800" channel="哈哈炫动">
-    <title>喜羊羊与灰太狼之发明大作战（8）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803211800 +0800" stop="20260803213500 +0800" channel="哈哈炫动">
-    <title>喜羊羊与灰太狼之发明大作战（9）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803213500 +0800" stop="20260803215100 +0800" channel="哈哈炫动">
-    <title>喜羊羊与灰太狼之发明大作战（10）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803215100 +0800" stop="20260803215400 +0800" channel="哈哈炫动">
-    <title>茶婆婆渔婆婆蚕婆婆二（7）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803215400 +0800" stop="20260803220000 +0800" channel="哈哈炫动">
-    <title>茶婆婆渔婆婆蚕婆婆三（6）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803220000 +0800" stop="20260803222700 +0800" channel="哈哈炫动">
-    <title>哈哈地球人第二季（1）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803222700 +0800" stop="20260803225200 +0800" channel="哈哈炫动">
-    <title>哈哈地球人第二季（2）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803225200 +0800" stop="20260803230000 +0800" channel="哈哈炫动">
-    <title>星星班长之冒险空间（12）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803230000 +0800" stop="20260803232700 +0800" channel="哈哈炫动">
-    <title>哈哈地球人第二季（3）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803232700 +0800" stop="20260803235200 +0800" channel="哈哈炫动">
-    <title>哈哈地球人第二季（4）</title>
-    <category>yufeilai666</category>
-    <category>kankannews</category>
-  </programme>
-  <programme start="20260803235200 +0800" stop="20260804000000 +0800" channel="哈哈炫动">
-    <title>星星班长之冒险空间（15）</title>
+  <programme start="20260805234100 +0800" stop="20260806000000 +0800" channel="上海都市频道">
+    <title>X诊所（2450）肩痛不简单　辨证巧应对</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
@@ -2590,6 +2245,361 @@
   </programme>
   <programme start="20260804235200 +0800" stop="20260805000000 +0800" channel="哈哈炫动">
     <title>星星班长之冒险空间（23）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805000000 +0800" stop="20260805060000 +0800" channel="哈哈炫动">
+    <title>祝您晚安</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805060000 +0800" stop="20260805060600 +0800" channel="哈哈炫动">
+    <title>星星班长一（17）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805060600 +0800" stop="20260805061400 +0800" channel="哈哈炫动">
+    <title>星星班长一（18）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805061400 +0800" stop="20260805062000 +0800" channel="哈哈炫动">
+    <title>星星班长一（19）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805062000 +0800" stop="20260805062700 +0800" channel="哈哈炫动">
+    <title>星星班长一（20）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805062700 +0800" stop="20260805063300 +0800" channel="哈哈炫动">
+    <title>星星班长一（21）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805063300 +0800" stop="20260805064000 +0800" channel="哈哈炫动">
+    <title>星星班长一（22）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805064000 +0800" stop="20260805064600 +0800" channel="哈哈炫动">
+    <title>星星班长一（23）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805064600 +0800" stop="20260805065200 +0800" channel="哈哈炫动">
+    <title>星星班长一（24）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805065200 +0800" stop="20260805070000 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（9）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805070000 +0800" stop="20260805070800 +0800" channel="哈哈炫动">
+    <title>女娲补天（10）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805070800 +0800" stop="20260805071700 +0800" channel="哈哈炫动">
+    <title>女娲补天（11）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805071700 +0800" stop="20260805073000 +0800" channel="哈哈炫动">
+    <title>女娲补天（12）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805073000 +0800" stop="20260805075700 +0800" channel="哈哈炫动">
+    <title>新闻同学（1279）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805075700 +0800" stop="20260805082200 +0800" channel="哈哈炫动">
+    <title>棉花糖和云朵妈妈（101、102）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805082200 +0800" stop="20260805083000 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（20）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805083000 +0800" stop="20260805090000 +0800" channel="哈哈炫动">
+    <title>棉花糖和云朵妈妈（103、104）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805090000 +0800" stop="20260805092500 +0800" channel="哈哈炫动">
+    <title>棉花糖和云朵妈妈（105、106）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805092500 +0800" stop="20260805095000 +0800" channel="哈哈炫动">
+    <title>棉花糖和云朵妈妈（107、108）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805095000 +0800" stop="20260805095800 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（15）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805095800 +0800" stop="20260805103000 +0800" channel="哈哈炫动">
+    <title>棉花糖和云朵妈妈（109、110）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805103000 +0800" stop="20260805105700 +0800" channel="哈哈炫动">
+    <title>棉花糖和云朵妈妈（111、112）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805105700 +0800" stop="20260805110900 +0800" channel="哈哈炫动">
+    <title>海底小纵队在中国·中国之旅2（10）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805110900 +0800" stop="20260805112100 +0800" channel="哈哈炫动">
+    <title>海底小纵队在中国·中国之旅2（11）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805112100 +0800" stop="20260805112800 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（7）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805112800 +0800" stop="20260805114000 +0800" channel="哈哈炫动">
+    <title>荧星梦工厂（574）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805114000 +0800" stop="20260805115300 +0800" channel="哈哈炫动">
+    <title>荧星梦工厂（575）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805115300 +0800" stop="20260805120700 +0800" channel="哈哈炫动">
+    <title>荧星梦工厂（576）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805120700 +0800" stop="20260805121400 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（1）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805121400 +0800" stop="20260805122000 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（6）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805122000 +0800" stop="20260805122800 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（18）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805122800 +0800" stop="20260805130000 +0800" channel="哈哈炫动">
+    <title>新大头儿子和小头爸爸5（495、496）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805130000 +0800" stop="20260805132600 +0800" channel="哈哈炫动">
+    <title>新大头儿子和小头爸爸5（497、498）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805132600 +0800" stop="20260805135100 +0800" channel="哈哈炫动">
+    <title>新大头儿子和小头爸爸5（499、500）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805135100 +0800" stop="20260805135400 +0800" channel="哈哈炫动">
+    <title>茶婆婆渔婆婆蚕婆婆二（9）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805135400 +0800" stop="20260805140000 +0800" channel="哈哈炫动">
+    <title>茶婆婆渔婆婆蚕婆婆一（3）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805140000 +0800" stop="20260805142700 +0800" channel="哈哈炫动">
+    <title>新大头儿子和小头爸爸5（501、502）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805142700 +0800" stop="20260805145200 +0800" channel="哈哈炫动">
+    <title>新大头儿子和小头爸爸英雄梦（1、2）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805145200 +0800" stop="20260805150000 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（14）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805150000 +0800" stop="20260805152700 +0800" channel="哈哈炫动">
+    <title>甜心格格5（11）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805152700 +0800" stop="20260805155200 +0800" channel="哈哈炫动">
+    <title>甜心格格5（12）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805155200 +0800" stop="20260805160000 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（23）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805160000 +0800" stop="20260805163000 +0800" channel="哈哈炫动">
+    <title>甜心格格5（13）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805163000 +0800" stop="20260805165700 +0800" channel="哈哈炫动">
+    <title>甜心格格5（14）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805165700 +0800" stop="20260805171000 +0800" channel="哈哈炫动">
+    <title>海底小纵队第六季（9）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805171000 +0800" stop="20260805172200 +0800" channel="哈哈炫动">
+    <title>海底小纵队第六季（10）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805172200 +0800" stop="20260805173000 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（13）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805173000 +0800" stop="20260805174400 +0800" channel="哈哈炫动">
+    <title>愿望喵喵（19）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805174400 +0800" stop="20260805180000 +0800" channel="哈哈炫动">
+    <title>愿望喵喵（20）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805180000 +0800" stop="20260805181400 +0800" channel="哈哈炫动">
+    <title>迷你特工队之最强恐龙（19）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805181400 +0800" stop="20260805183000 +0800" channel="哈哈炫动">
+    <title>迷你特工队之最强恐龙（20）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805183000 +0800" stop="20260805184500 +0800" channel="哈哈炫动">
+    <title>爆裂飞车之晶码迷踪（12）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805184500 +0800" stop="20260805185100 +0800" channel="哈哈炫动">
+    <title>星星班长一（21）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805185100 +0800" stop="20260805190000 +0800" channel="哈哈炫动">
+    <title>星星班长一（22）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805190000 +0800" stop="20260805191300 +0800" channel="哈哈炫动">
+    <title>欢乐蹦蹦跳（1201）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805191300 +0800" stop="20260805193000 +0800" channel="哈哈炫动">
+    <title>欢乐蹦蹦跳（1202）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805193000 +0800" stop="20260805194400 +0800" channel="哈哈炫动">
+    <title>超级飞侠第十六季（5）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805194400 +0800" stop="20260805195900 +0800" channel="哈哈炫动">
+    <title>超级飞侠第十六季（6）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805195900 +0800" stop="20260805201300 +0800" channel="哈哈炫动">
+    <title>超级飞侠第十六季（7）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805201300 +0800" stop="20260805202800 +0800" channel="哈哈炫动">
+    <title>超级飞侠第十六季（8）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805202800 +0800" stop="20260805204400 +0800" channel="哈哈炫动">
+    <title>喜羊羊与灰太狼之发明大作战（16）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805204400 +0800" stop="20260805210100 +0800" channel="哈哈炫动">
+    <title>喜羊羊与灰太狼之发明大作战（17）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805210100 +0800" stop="20260805211700 +0800" channel="哈哈炫动">
+    <title>喜羊羊与灰太狼之发明大作战（18）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805211700 +0800" stop="20260805213400 +0800" channel="哈哈炫动">
+    <title>喜羊羊与灰太狼之发明大作战（19）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805213400 +0800" stop="20260805215000 +0800" channel="哈哈炫动">
+    <title>喜羊羊与灰太狼之发明大作战（20）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805215000 +0800" stop="20260805215800 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（21）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805215800 +0800" stop="20260805223000 +0800" channel="哈哈炫动">
+    <title>哈哈地球人第二季（9）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805223000 +0800" stop="20260805225700 +0800" channel="哈哈炫动">
+    <title>哈哈地球人第二季（10）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805225700 +0800" stop="20260805232200 +0800" channel="哈哈炫动">
+    <title>哈哈地球人第二季（11）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805232200 +0800" stop="20260805233000 +0800" channel="哈哈炫动">
+    <title>星星班长之冒险空间（11）</title>
+    <category>yufeilai666</category>
+    <category>kankannews</category>
+  </programme>
+  <programme start="20260805233000 +0800" stop="20260806000000 +0800" channel="哈哈炫动">
+    <title>哈哈地球人第二季（12）</title>
     <category>yufeilai666</category>
     <category>kankannews</category>
   </programme>
