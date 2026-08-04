@@ -141,6 +141,7 @@ jobs:
           "get_gdtv_epg.py"
           "get_fujianhaibotv_epg.py"
           "get_cctv_epg.py"
+          "get_gxntv_epg.py"
         )
         
         # 存储失败脚本的数组，用于错误报告
