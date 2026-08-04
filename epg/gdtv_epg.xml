@@ -28,7 +28,7 @@
     <display-name>广东影视</display-name>
   </channel>
   <channel id="广东4K超高清">
-    <display-name>4K超高清</display-name>
+    <display-name>广东4K超高清</display-name>
   </channel>
   <channel id="广东少儿">
     <display-name>广东少儿</display-name>
@@ -42,156 +42,6 @@
   <channel id="广东移动">
     <display-name>广东移动</display-name>
   </channel>
-  <programme start="20260802002600 +0800" stop="20260802015600 +0800" channel="广东卫视4K">
-    <title>烽火列车</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802015600 +0800" stop="20260802050000 +0800" channel="广东卫视4K">
-    <title>纪录片</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802050000 +0800" stop="20260802054400 +0800" channel="广东卫视4K">
-    <title>长风渡(1)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802054400 +0800" stop="20260802063000 +0800" channel="广东卫视4K">
-    <title>长风渡(2)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802063000 +0800" stop="20260802065700 +0800" channel="广东卫视4K">
-    <title>广东新闻联播重播</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802065700 +0800" stop="20260802070000 +0800" channel="广东卫视4K">
-    <title>早间天气预报</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802070000 +0800" stop="20260802073200 +0800" channel="广东卫视4K">
-    <title>大美南粤</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802073200 +0800" stop="20260802083500 +0800" channel="广东卫视4K">
-    <title>生死线(35)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802083500 +0800" stop="20260802091700 +0800" channel="广东卫视4K">
-    <title>生死线(36)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802091700 +0800" stop="20260802100900 +0800" channel="广东卫视4K">
-    <title>生死线(37)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802100900 +0800" stop="20260802110100 +0800" channel="广东卫视4K">
-    <title>生死线(38)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802110100 +0800" stop="20260802115400 +0800" channel="广东卫视4K">
-    <title>生死线(39)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802115400 +0800" stop="20260802122700 +0800" channel="广东卫视4K">
-    <title>健康有道</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802122700 +0800" stop="20260802132000 +0800" channel="广东卫视4K">
-    <title>苍狼(17)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802132000 +0800" stop="20260802141000 +0800" channel="广东卫视4K">
-    <title>苍狼(18)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802141000 +0800" stop="20260802150100 +0800" channel="广东卫视4K">
-    <title>苍狼(19)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802150100 +0800" stop="20260802155000 +0800" channel="广东卫视4K">
-    <title>苍狼(20)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802155000 +0800" stop="20260802164200 +0800" channel="广东卫视4K">
-    <title>苍狼(21)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802164200 +0800" stop="20260802174300 +0800" channel="广东卫视4K">
-    <title>苍狼(22)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802174300 +0800" stop="20260802183000 +0800" channel="广东卫视4K">
-    <title>苍狼(23)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802183000 +0800" stop="20260802185600 +0800" channel="广东卫视4K">
-    <title>广东新闻联播</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802185600 +0800" stop="20260802190000 +0800" channel="广东卫视4K">
-    <title>天气预报</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802190000 +0800" stop="20260802193300 +0800" channel="广东卫视4K">
-    <title>转播中央台新闻联播</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802193300 +0800" stop="20260802203000 +0800" channel="广东卫视4K">
-    <title>冰雪尖刀连(17)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802203000 +0800" stop="20260802212000 +0800" channel="广东卫视4K">
-    <title>冰雪尖刀连(18)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802212000 +0800" stop="20260802215000 +0800" channel="广东卫视4K">
-    <title>从农场到餐桌</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802215000 +0800" stop="20260802224000 +0800" channel="广东卫视4K">
-    <title>秋蝉(11)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802224000 +0800" stop="20260802232500 +0800" channel="广东卫视4K">
-    <title>秋蝉(12)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802232500 +0800" stop="20260802235500 +0800" channel="广东卫视4K">
-    <title>南粤4K画卷</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802235500 +0800" stop="20260803011800 +0800" channel="广东卫视4K">
-    <title>战火中的青春</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
   <programme start="20260803011800 +0800" stop="20260803050000 +0800" channel="广东卫视4K">
     <title>纪录片</title>
     <category>yufeilai666</category>
@@ -487,153 +337,153 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802002600 +0800" stop="20260802015600 +0800" channel="广东卫视">
-    <title>烽火列车</title>
+  <programme start="20260804234000 +0800" stop="20260805012700 +0800" channel="广东卫视4K">
+    <title>永不消逝的电波</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802015600 +0800" stop="20260802050000 +0800" channel="广东卫视">
+  <programme start="20260805012700 +0800" stop="20260805050000 +0800" channel="广东卫视4K">
     <title>纪录片</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802050000 +0800" stop="20260802054400 +0800" channel="广东卫视">
-    <title>长风渡(1)</title>
+  <programme start="20260805050000 +0800" stop="20260805054400 +0800" channel="广东卫视4K">
+    <title>长风渡(7)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802054400 +0800" stop="20260802063000 +0800" channel="广东卫视">
-    <title>长风渡(2)</title>
+  <programme start="20260805054400 +0800" stop="20260805063000 +0800" channel="广东卫视4K">
+    <title>长风渡(8)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802063000 +0800" stop="20260802065700 +0800" channel="广东卫视">
+  <programme start="20260805063000 +0800" stop="20260805065700 +0800" channel="广东卫视4K">
     <title>广东新闻联播重播</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802065700 +0800" stop="20260802070000 +0800" channel="广东卫视">
+  <programme start="20260805065700 +0800" stop="20260805070000 +0800" channel="广东卫视4K">
     <title>早间天气预报</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802070000 +0800" stop="20260802073200 +0800" channel="广东卫视">
+  <programme start="20260805070000 +0800" stop="20260805073200 +0800" channel="广东卫视4K">
     <title>大美南粤</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802073200 +0800" stop="20260802083500 +0800" channel="广东卫视">
-    <title>生死线(35)</title>
+  <programme start="20260805073200 +0800" stop="20260805083300 +0800" channel="广东卫视4K">
+    <title>上海滩生死较量(2)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802083500 +0800" stop="20260802091700 +0800" channel="广东卫视">
-    <title>生死线(36)</title>
+  <programme start="20260805083300 +0800" stop="20260805091500 +0800" channel="广东卫视4K">
+    <title>上海滩生死较量(3)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802091700 +0800" stop="20260802100900 +0800" channel="广东卫视">
-    <title>生死线(37)</title>
+  <programme start="20260805091500 +0800" stop="20260805100800 +0800" channel="广东卫视4K">
+    <title>上海滩生死较量(4)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802100900 +0800" stop="20260802110100 +0800" channel="广东卫视">
-    <title>生死线(38)</title>
+  <programme start="20260805100800 +0800" stop="20260805105800 +0800" channel="广东卫视4K">
+    <title>上海滩生死较量(5)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802110100 +0800" stop="20260802115400 +0800" channel="广东卫视">
-    <title>生死线(39)</title>
+  <programme start="20260805105800 +0800" stop="20260805115000 +0800" channel="广东卫视4K">
+    <title>上海滩生死较量(6)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802115400 +0800" stop="20260802122700 +0800" channel="广东卫视">
+  <programme start="20260805115000 +0800" stop="20260805122000 +0800" channel="广东卫视4K">
     <title>健康有道</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802122700 +0800" stop="20260802132000 +0800" channel="广东卫视">
-    <title>苍狼(17)</title>
+  <programme start="20260805122000 +0800" stop="20260805131300 +0800" channel="广东卫视4K">
+    <title>苍狼(38)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802132000 +0800" stop="20260802141000 +0800" channel="广东卫视">
-    <title>苍狼(18)</title>
+  <programme start="20260805131300 +0800" stop="20260805140500 +0800" channel="广东卫视4K">
+    <title>苍狼(39)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802141000 +0800" stop="20260802150100 +0800" channel="广东卫视">
-    <title>苍狼(19)</title>
+  <programme start="20260805140500 +0800" stop="20260805145800 +0800" channel="广东卫视4K">
+    <title>苍狼(40)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802150100 +0800" stop="20260802155000 +0800" channel="广东卫视">
-    <title>苍狼(20)</title>
+  <programme start="20260805145800 +0800" stop="20260805155000 +0800" channel="广东卫视4K">
+    <title>苍狼(41)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802155000 +0800" stop="20260802164200 +0800" channel="广东卫视">
-    <title>苍狼(21)</title>
+  <programme start="20260805155000 +0800" stop="20260805164000 +0800" channel="广东卫视4K">
+    <title>苍狼(42)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802164200 +0800" stop="20260802174300 +0800" channel="广东卫视">
-    <title>苍狼(22)</title>
+  <programme start="20260805164000 +0800" stop="20260805174000 +0800" channel="广东卫视4K">
+    <title>苍狼(43)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802174300 +0800" stop="20260802183000 +0800" channel="广东卫视">
-    <title>苍狼(23)</title>
+  <programme start="20260805174000 +0800" stop="20260805182300 +0800" channel="广东卫视4K">
+    <title>苍狼(44)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802183000 +0800" stop="20260802185600 +0800" channel="广东卫视">
+  <programme start="20260805182300 +0800" stop="20260805183000 +0800" channel="广东卫视4K">
+    <title>广货行天下·每日新品</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805183000 +0800" stop="20260805185600 +0800" channel="广东卫视4K">
     <title>广东新闻联播</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802185600 +0800" stop="20260802190000 +0800" channel="广东卫视">
+  <programme start="20260805185600 +0800" stop="20260805190000 +0800" channel="广东卫视4K">
     <title>天气预报</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802190000 +0800" stop="20260802193300 +0800" channel="广东卫视">
+  <programme start="20260805190000 +0800" stop="20260805193300 +0800" channel="广东卫视4K">
     <title>转播中央台新闻联播</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802193300 +0800" stop="20260802203000 +0800" channel="广东卫视">
-    <title>冰雪尖刀连(17)</title>
+  <programme start="20260805193300 +0800" stop="20260805203000 +0800" channel="广东卫视4K">
+    <title>冰雪尖刀连(23)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802203000 +0800" stop="20260802212000 +0800" channel="广东卫视">
-    <title>冰雪尖刀连(18)</title>
+  <programme start="20260805203000 +0800" stop="20260805212000 +0800" channel="广东卫视4K">
+    <title>冰雪尖刀连(24完)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802212000 +0800" stop="20260802215000 +0800" channel="广东卫视">
-    <title>从农场到餐桌</title>
+  <programme start="20260805212000 +0800" stop="20260805214000 +0800" channel="广东卫视4K">
+    <title>晚间新闻</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802215000 +0800" stop="20260802224000 +0800" channel="广东卫视">
-    <title>秋蝉(11)</title>
+  <programme start="20260805214000 +0800" stop="20260805221200 +0800" channel="广东卫视4K">
+    <title>全世界中国味</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802224000 +0800" stop="20260802232500 +0800" channel="广东卫视">
-    <title>秋蝉(12)</title>
+  <programme start="20260805221200 +0800" stop="20260805225500 +0800" channel="广东卫视4K">
+    <title>秋蝉(17)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802232500 +0800" stop="20260802235500 +0800" channel="广东卫视">
-    <title>南粤4K画卷</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802235500 +0800" stop="20260803011800 +0800" channel="广东卫视">
-    <title>战火中的青春</title>
+  <programme start="20260805225500 +0800" stop="20260805233500 +0800" channel="广东卫视4K">
+    <title>秋蝉(18)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -932,78 +782,153 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802002500 +0800" stop="20260802010000 +0800" channel="广东珠江">
-    <title>今日关注(重播)</title>
+  <programme start="20260804234000 +0800" stop="20260805012700 +0800" channel="广东卫视">
+    <title>永不消逝的电波</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802010000 +0800" stop="20260802060000 +0800" channel="广东珠江">
-    <title>电视剧:海上嫁女记</title>
+  <programme start="20260805012700 +0800" stop="20260805050000 +0800" channel="广东卫视">
+    <title>纪录片</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802060000 +0800" stop="20260802070000 +0800" channel="广东珠江">
-    <title>系列短剧:外来媳妇本地郎</title>
+  <programme start="20260805050000 +0800" stop="20260805054400 +0800" channel="广东卫视">
+    <title>长风渡(7)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802070000 +0800" stop="20260802075000 +0800" channel="广东珠江">
-    <title>今日关注(重播)</title>
+  <programme start="20260805054400 +0800" stop="20260805063000 +0800" channel="广东卫视">
+    <title>长风渡(8)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802075000 +0800" stop="20260802170000 +0800" channel="广东珠江">
-    <title>传奇剧场:打狗棍</title>
+  <programme start="20260805063000 +0800" stop="20260805065700 +0800" channel="广东卫视">
+    <title>广东新闻联播重播</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802170000 +0800" stop="20260802171000 +0800" channel="广东珠江">
-    <title>人生一万年</title>
+  <programme start="20260805065700 +0800" stop="20260805070000 +0800" channel="广东卫视">
+    <title>早间天气预报</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802171000 +0800" stop="20260802175000 +0800" channel="广东珠江">
-    <title>粤韵风华</title>
+  <programme start="20260805070000 +0800" stop="20260805073200 +0800" channel="广东卫视">
+    <title>大美南粤</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802175000 +0800" stop="20260802180000 +0800" channel="广东珠江">
-    <title>羊城警讯</title>
+  <programme start="20260805073200 +0800" stop="20260805083300 +0800" channel="广东卫视">
+    <title>上海滩生死较量(2)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802180000 +0800" stop="20260802190000 +0800" channel="广东珠江">
-    <title>珠江新闻</title>
+  <programme start="20260805083300 +0800" stop="20260805091500 +0800" channel="广东卫视">
+    <title>上海滩生死较量(3)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802190000 +0800" stop="20260802200000 +0800" channel="广东珠江">
-    <title>系列短剧:外来媳妇本地郎</title>
+  <programme start="20260805091500 +0800" stop="20260805100800 +0800" channel="广东卫视">
+    <title>上海滩生死较量(4)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802200000 +0800" stop="20260802210000 +0800" channel="广东珠江">
-    <title>珠江剧场:寒山令29</title>
+  <programme start="20260805100800 +0800" stop="20260805105800 +0800" channel="广东卫视">
+    <title>上海滩生死较量(5)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802210000 +0800" stop="20260802214000 +0800" channel="广东珠江">
-    <title>今日关注</title>
+  <programme start="20260805105800 +0800" stop="20260805115000 +0800" channel="广东卫视">
+    <title>上海滩生死较量(6)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802214000 +0800" stop="20260802224000 +0800" channel="广东珠江">
-    <title>王牌剧场:玉海棠22</title>
+  <programme start="20260805115000 +0800" stop="20260805122000 +0800" channel="广东卫视">
+    <title>健康有道</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802224000 +0800" stop="20260802233500 +0800" channel="广东珠江">
-    <title>王牌剧场:玉海棠23</title>
+  <programme start="20260805122000 +0800" stop="20260805131300 +0800" channel="广东卫视">
+    <title>苍狼(38)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802233500 +0800" stop="20260803002500 +0800" channel="广东珠江">
-    <title>王牌剧场:玉海棠24</title>
+  <programme start="20260805131300 +0800" stop="20260805140500 +0800" channel="广东卫视">
+    <title>苍狼(39)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805140500 +0800" stop="20260805145800 +0800" channel="广东卫视">
+    <title>苍狼(40)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805145800 +0800" stop="20260805155000 +0800" channel="广东卫视">
+    <title>苍狼(41)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805155000 +0800" stop="20260805164000 +0800" channel="广东卫视">
+    <title>苍狼(42)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805164000 +0800" stop="20260805174000 +0800" channel="广东卫视">
+    <title>苍狼(43)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805174000 +0800" stop="20260805182300 +0800" channel="广东卫视">
+    <title>苍狼(44)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805182300 +0800" stop="20260805183000 +0800" channel="广东卫视">
+    <title>广货行天下·每日新品</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805183000 +0800" stop="20260805185600 +0800" channel="广东卫视">
+    <title>广东新闻联播</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805185600 +0800" stop="20260805190000 +0800" channel="广东卫视">
+    <title>天气预报</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805190000 +0800" stop="20260805193300 +0800" channel="广东卫视">
+    <title>转播中央台新闻联播</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805193300 +0800" stop="20260805203000 +0800" channel="广东卫视">
+    <title>冰雪尖刀连(23)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805203000 +0800" stop="20260805212000 +0800" channel="广东卫视">
+    <title>冰雪尖刀连(24完)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805212000 +0800" stop="20260805214000 +0800" channel="广东卫视">
+    <title>晚间新闻</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805214000 +0800" stop="20260805221200 +0800" channel="广东卫视">
+    <title>全世界中国味</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805221200 +0800" stop="20260805225500 +0800" channel="广东卫视">
+    <title>秋蝉(17)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805225500 +0800" stop="20260805233500 +0800" channel="广东卫视">
+    <title>秋蝉(18)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -1157,228 +1082,73 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802000000 +0800" stop="20260802003000 +0800" channel="广东新闻">
-    <title>专题</title>
+  <programme start="20260804235500 +0800" stop="20260805005500 +0800" channel="广东珠江">
+    <title>今日关注(重播)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802003000 +0800" stop="20260802010000 +0800" channel="广东新闻">
-    <title>今日焦点</title>
+  <programme start="20260805005500 +0800" stop="20260805060000 +0800" channel="广东珠江">
+    <title>电视剧:海上嫁女记</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802010000 +0800" stop="20260802014000 +0800" channel="广东新闻">
-    <title>今日一线</title>
+  <programme start="20260805060000 +0800" stop="20260805070000 +0800" channel="广东珠江">
+    <title>系列短剧:外来媳妇本地郎</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802014000 +0800" stop="20260802014500 +0800" channel="广东新闻">
-    <title>文明观察</title>
+  <programme start="20260805070000 +0800" stop="20260805081500 +0800" channel="广东珠江">
+    <title>今日关注(重播)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802014500 +0800" stop="20260802020500 +0800" channel="广东新闻">
-    <title>权威访谈</title>
+  <programme start="20260805081500 +0800" stop="20260805170000 +0800" channel="广东珠江">
+    <title>传奇剧场:打狗棍</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802020500 +0800" stop="20260802054000 +0800" channel="广东新闻">
+  <programme start="20260805170000 +0800" stop="20260805171000 +0800" channel="广东珠江">
+    <title>人生一万年</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805171000 +0800" stop="20260805175000 +0800" channel="广东珠江">
+    <title>粤韵风华</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805175000 +0800" stop="20260805180000 +0800" channel="广东珠江">
+    <title>今日财经</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805180000 +0800" stop="20260805190000 +0800" channel="广东珠江">
+    <title>珠江新闻</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805190000 +0800" stop="20260805200000 +0800" channel="广东珠江">
+    <title>珠江剧场:寒山令34</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805200000 +0800" stop="20260805210000 +0800" channel="广东珠江">
+    <title>珠江剧场:寒山令35</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805210000 +0800" stop="20260805220000 +0800" channel="广东珠江">
     <title>今日关注</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802054000 +0800" stop="20260802060000 +0800" channel="广东新闻">
-    <title>权威访谈</title>
+  <programme start="20260805220000 +0800" stop="20260805230000 +0800" channel="广东珠江">
+    <title>王牌剧场:玉海棠29</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802060000 +0800" stop="20260802063000 +0800" channel="广东新闻">
-    <title>直播广东</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802063000 +0800" stop="20260802070100 +0800" channel="广东新闻">
-    <title>广粤甄选</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802070100 +0800" stop="20260802073500 +0800" channel="广东新闻">
-    <title>今日关注</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802073500 +0800" stop="20260802074500 +0800" channel="广东新闻">
-    <title>人大代表</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802074500 +0800" stop="20260802080000 +0800" channel="广东新闻">
-    <title>文明观察</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802080000 +0800" stop="20260802083000 +0800" channel="广东新闻">
-    <title>广东新闻联播</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802083000 +0800" stop="20260802090000 +0800" channel="广东新闻">
-    <title>专题</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802090000 +0800" stop="20260802093000 +0800" channel="广东新闻">
-    <title>今日焦点</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802093000 +0800" stop="20260802100000 +0800" channel="广东新闻">
-    <title>广粤甄选</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802100000 +0800" stop="20260802103000 +0800" channel="广东新闻">
-    <title>正点播报</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802103000 +0800" stop="20260802110000 +0800" channel="广东新闻">
-    <title>专题</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802110000 +0800" stop="20260802113000 +0800" channel="广东新闻">
-    <title>正点播报</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802113000 +0800" stop="20260802120000 +0800" channel="广东新闻">
-    <title>专题</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802120000 +0800" stop="20260802123000 +0800" channel="广东新闻">
-    <title>午间30分</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802123000 +0800" stop="20260802130000 +0800" channel="广东新闻">
-    <title>专题</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802130000 +0800" stop="20260802133000 +0800" channel="广东新闻">
-    <title>正点播报</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802133000 +0800" stop="20260802140000 +0800" channel="广东新闻">
-    <title>专题</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802140000 +0800" stop="20260802144000 +0800" channel="广东新闻">
-    <title>正点播报</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802144000 +0800" stop="20260802150000 +0800" channel="广东新闻">
-    <title>广粤甄选</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802150000 +0800" stop="20260802153000 +0800" channel="广东新闻">
-    <title>正点播报</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802153000 +0800" stop="20260802160000 +0800" channel="广东新闻">
-    <title>广粤甄选</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802160000 +0800" stop="20260802163000 +0800" channel="广东新闻">
-    <title>正点播报</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802163000 +0800" stop="20260802170000 +0800" channel="广东新闻">
-    <title>广粤甄选</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802170000 +0800" stop="20260802173000 +0800" channel="广东新闻">
-    <title>正点播报</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802173000 +0800" stop="20260802180000 +0800" channel="广东新闻">
-    <title>专题</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802180000 +0800" stop="20260802183000 +0800" channel="广东新闻">
-    <title>新闻大视野</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802183000 +0800" stop="20260802190000 +0800" channel="广东新闻">
-    <title>专题</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802190000 +0800" stop="20260802192500 +0800" channel="广东新闻">
-    <title>正点报道</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802192500 +0800" stop="20260802193000 +0800" channel="广东新闻">
-    <title>天气预报</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802193000 +0800" stop="20260802200000 +0800" channel="广东新闻">
-    <title>广东新闻联播</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802200000 +0800" stop="20260802203000 +0800" channel="广东新闻">
-    <title>大湾区经济新闻</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802203000 +0800" stop="20260802210000 +0800" channel="广东新闻">
-    <title>今日焦点</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802210000 +0800" stop="20260802213000 +0800" channel="广东新闻">
-    <title>广粤甄选</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802213000 +0800" stop="20260802221500 +0800" channel="广东新闻">
-    <title>今日一线</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802221500 +0800" stop="20260802223000 +0800" channel="广东新闻">
-    <title>文明观察</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802223000 +0800" stop="20260802230000 +0800" channel="广东新闻">
-    <title>新闻夜线</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802230000 +0800" stop="20260802233500 +0800" channel="广东新闻">
-    <title>今日关注</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802233500 +0800" stop="20260803000000 +0800" channel="广东新闻">
-    <title>新闻大视野</title>
+  <programme start="20260805230000 +0800" stop="20260805235500 +0800" channel="广东珠江">
+    <title>王牌剧场:玉海棠30</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -1807,83 +1577,213 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802070500 +0800" stop="20260802081500 +0800" channel="广东民生">
-    <title>DV现场</title>
+  <programme start="20260804230000 +0800" stop="20260805000000 +0800" channel="广东新闻">
+    <title>今日关注</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802081500 +0800" stop="20260802095000 +0800" channel="广东民生">
-    <title>宜居大湾区</title>
+  <programme start="20260805000000 +0800" stop="20260805003000 +0800" channel="广东新闻">
+    <title>专题</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802095000 +0800" stop="20260802110000 +0800" channel="广东民生">
-    <title>哈尔滨1944&lt;br /&gt;</title>
+  <programme start="20260805003000 +0800" stop="20260805010000 +0800" channel="广东新闻">
+    <title>今日焦点</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802110000 +0800" stop="20260802120000 +0800" channel="广东民生">
-    <title>外来媳妇本地郎</title>
+  <programme start="20260805010000 +0800" stop="20260805014500 +0800" channel="广东新闻">
+    <title>今日一线</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802120000 +0800" stop="20260802131500 +0800" channel="广东民生">
-    <title>DV现场</title>
+  <programme start="20260805014500 +0800" stop="20260805020500 +0800" channel="广东新闻">
+    <title>老广的味道</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802131500 +0800" stop="20260802150500 +0800" channel="广东民生">
-    <title>哈尔滨1944&lt;br /&gt;</title>
+  <programme start="20260805020500 +0800" stop="20260805054000 +0800" channel="广东新闻">
+    <title>今日关注</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802150500 +0800" stop="20260802162500 +0800" channel="广东民生">
-    <title>外来媳妇本地郎</title>
+  <programme start="20260805054000 +0800" stop="20260805060000 +0800" channel="广东新闻">
+    <title>社会纵横</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802162500 +0800" stop="20260802180000 +0800" channel="广东民生">
-    <title>前夜</title>
+  <programme start="20260805060000 +0800" stop="20260805063000 +0800" channel="广东新闻">
+    <title>直播广东</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802180000 +0800" stop="20260802184500 +0800" channel="广东民生">
-    <title>外来媳妇本地郎</title>
+  <programme start="20260805063000 +0800" stop="20260805070100 +0800" channel="广东新闻">
+    <title>广粤甄选</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802184500 +0800" stop="20260802190000 +0800" channel="广东民生">
-    <title>DV严选</title>
+  <programme start="20260805070100 +0800" stop="20260805080000 +0800" channel="广东新闻">
+    <title>今日关注</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802190000 +0800" stop="20260802201200 +0800" channel="广东民生">
-    <title>DV现场(5512)</title>
+  <programme start="20260805080000 +0800" stop="20260805083000 +0800" channel="广东新闻">
+    <title>广东新闻联播</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802201200 +0800" stop="20260802203500 +0800" channel="广东民生">
-    <title>最紧要健康(1887)</title>
+  <programme start="20260805083000 +0800" stop="20260805090000 +0800" channel="广东新闻">
+    <title>专题</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802203500 +0800" stop="20260802211100 +0800" channel="广东民生">
-    <title>宜居大湾区(228)</title>
+  <programme start="20260805090000 +0800" stop="20260805100000 +0800" channel="广东新闻">
+    <title>今日焦点</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802211100 +0800" stop="20260802212000 +0800" channel="广东民生">
-    <title>快乐长门人</title>
+  <programme start="20260805100000 +0800" stop="20260805103000 +0800" channel="广东新闻">
+    <title>正点播报</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802212000 +0800" stop="20260802225600 +0800" channel="广东民生">
-    <title>民生休闲剧场:哈尔滨1944(5-6)&lt;br /&gt;</title>
+  <programme start="20260805103000 +0800" stop="20260805110000 +0800" channel="广东新闻">
+    <title>专题</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802225600 +0800" stop="20260803070500 +0800" channel="广东民生">
-    <title>DV现场</title>
+  <programme start="20260805110000 +0800" stop="20260805113000 +0800" channel="广东新闻">
+    <title>正点播报</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805113000 +0800" stop="20260805120000 +0800" channel="广东新闻">
+    <title>专题</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805120000 +0800" stop="20260805123000 +0800" channel="广东新闻">
+    <title>午间30分</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805123000 +0800" stop="20260805130000 +0800" channel="广东新闻">
+    <title>专题</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805130000 +0800" stop="20260805133000 +0800" channel="广东新闻">
+    <title>正点播报</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805133000 +0800" stop="20260805140000 +0800" channel="广东新闻">
+    <title>专题</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805140000 +0800" stop="20260805144000 +0800" channel="广东新闻">
+    <title>正点播报</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805144000 +0800" stop="20260805150000 +0800" channel="广东新闻">
+    <title>广粤甄选</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805150000 +0800" stop="20260805153000 +0800" channel="广东新闻">
+    <title>正点播报</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805153000 +0800" stop="20260805160000 +0800" channel="广东新闻">
+    <title>广粤甄选</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805160000 +0800" stop="20260805163000 +0800" channel="广东新闻">
+    <title>正点播报</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805163000 +0800" stop="20260805170000 +0800" channel="广东新闻">
+    <title>广粤甄选</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805170000 +0800" stop="20260805173000 +0800" channel="广东新闻">
+    <title>正点播报</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805173000 +0800" stop="20260805180000 +0800" channel="广东新闻">
+    <title>专题</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805180000 +0800" stop="20260805183000 +0800" channel="广东新闻">
+    <title>正点播报</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805183000 +0800" stop="20260805190000 +0800" channel="广东新闻">
+    <title>专题</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805190000 +0800" stop="20260805192500 +0800" channel="广东新闻">
+    <title>正点播报</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805192500 +0800" stop="20260805193000 +0800" channel="广东新闻">
+    <title>天气预报</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805193000 +0800" stop="20260805200000 +0800" channel="广东新闻">
+    <title>广东新闻联播</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805200000 +0800" stop="20260805203000 +0800" channel="广东新闻">
+    <title>直播广东</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805203000 +0800" stop="20260805210000 +0800" channel="广东新闻">
+    <title>今日焦点</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805210000 +0800" stop="20260805211000 +0800" channel="广东新闻">
+    <title>社会纵横</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805211000 +0800" stop="20260805213000 +0800" channel="广东新闻">
+    <title>广粤甄选</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805213000 +0800" stop="20260805220500 +0800" channel="广东新闻">
+    <title>今日一线</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805220500 +0800" stop="20260805222000 +0800" channel="广东新闻">
+    <title>广粤甄选</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805222000 +0800" stop="20260805223000 +0800" channel="广东新闻">
+    <title>社会纵横</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805223000 +0800" stop="20260805230000 +0800" channel="广东新闻">
+    <title>新闻夜线</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -2042,193 +1942,83 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802001200 +0800" stop="20260802003800 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第3轮 南非vs韩国</title>
+  <programme start="20260804230000 +0800" stop="20260805070500 +0800" channel="广东民生">
+    <title>DV现场</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802003800 +0800" stop="20260802010400 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 葡萄牙vs刚果(金)</title>
+  <programme start="20260805070500 +0800" stop="20260805081500 +0800" channel="广东民生">
+    <title>DV现场</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802010400 +0800" stop="20260802013000 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第2轮 哥伦比亚vs刚果(金)</title>
+  <programme start="20260805081500 +0800" stop="20260805095000 +0800" channel="广东民生">
+    <title>哈尔滨1944</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802013000 +0800" stop="20260802015600 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯半决赛 法国vs西班牙</title>
+  <programme start="20260805095000 +0800" stop="20260805110000 +0800" channel="广东民生">
+    <title>外来媳妇本地郎</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802015600 +0800" stop="20260802022200 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯半决赛 英格兰vs阿根廷</title>
+  <programme start="20260805110000 +0800" stop="20260805120000 +0800" channel="广东民生">
+    <title>热搜榜中榜</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802022200 +0800" stop="20260802024800 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 伊拉克vs挪威</title>
+  <programme start="20260805120000 +0800" stop="20260805131500 +0800" channel="广东民生">
+    <title>DV现场</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802024800 +0800" stop="20260802031400 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第2轮 挪威vs塞内加尔</title>
+  <programme start="20260805131500 +0800" stop="20260805150500 +0800" channel="广东民生">
+    <title>哈尔滨1944</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802031400 +0800" stop="20260802034000 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第3轮 挪威vs法国</title>
+  <programme start="20260805150500 +0800" stop="20260805162500 +0800" channel="广东民生">
+    <title>外来媳妇本地郎</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802034000 +0800" stop="20260802040600 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第2轮 乌拉圭vs佛得角</title>
+  <programme start="20260805162500 +0800" stop="20260805180000 +0800" channel="广东民生">
+    <title>前夜</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802040600 +0800" stop="20260802041600 +0800" channel="广东体育">
-    <title>重播 十分好球(世界杯版)</title>
+  <programme start="20260805180000 +0800" stop="20260805184500 +0800" channel="广东民生">
+    <title>外来媳妇本地郎</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802041600 +0800" stop="20260802044800 +0800" channel="广东体育">
-    <title>重播 劲速天地(202623)</title>
+  <programme start="20260805184500 +0800" stop="20260805190000 +0800" channel="广东民生">
+    <title>DV严选</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802044800 +0800" stop="20260802054300 +0800" channel="广东体育">
-    <title>重播 2026年广东省城市篮球联赛3-4名决赛首回合 中山vs广州</title>
+  <programme start="20260805190000 +0800" stop="20260805202200 +0800" channel="广东民生">
+    <title>DV现场(5515)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802054300 +0800" stop="20260802060900 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 荷兰vs日本</title>
+  <programme start="20260805202200 +0800" stop="20260805204000 +0800" channel="广东民生">
+    <title>全民帮帮忙(1336)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802060900 +0800" stop="20260802063700 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第2轮 荷兰vs瑞典</title>
+  <programme start="20260805204000 +0800" stop="20260805210500 +0800" channel="广东民生">
+    <title>热搜榜中榜(701)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802063700 +0800" stop="20260802070300 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 美国vs巴拉圭</title>
+  <programme start="20260805210500 +0800" stop="20260805212000 +0800" channel="广东民生">
+    <title>宜居大湾区平日版(318)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802070300 +0800" stop="20260802073100 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第2轮 美国vs澳大利亚</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802073100 +0800" stop="20260802080500 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 英格兰vs克罗地亚</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802080500 +0800" stop="20260802084030 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第2轮 英格兰vs加纳</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802084030 +0800" stop="20260802091300 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯1/8决赛 加拿大vs摩洛哥</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802091300 +0800" stop="20260802094130 +0800" channel="广东体育">
-    <title>重播 珠江少年派(30)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802094130 +0800" stop="20260802102200 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯1/8决赛 巴拉圭vs法国</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802102200 +0800" stop="20260802104000 +0800" channel="广东体育">
-    <title>重播 十分好球(世界杯版)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802104000 +0800" stop="20260802112530 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯1/16决赛 法国vs瑞典</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802112530 +0800" stop="20260802120000 +0800" channel="广东体育">
-    <title>重播 2026年广东省城市足球超级联赛第4轮精编版 中山vs珠海</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802120000 +0800" stop="20260802131700 +0800" channel="广东体育">
-    <title>重播 出奇智胜(916)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802131700 +0800" stop="20260802135300 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯1/8决赛 巴西vs挪威</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802135300 +0800" stop="20260802142700 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯1/8决赛 墨西哥vs英格兰</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802142700 +0800" stop="20260802150130 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯1/8决赛 葡萄牙vs西班牙</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802150130 +0800" stop="20260802155430 +0800" channel="广东体育">
-    <title>重播 2026年广东省城市足球超级联赛第5轮精编版 东莞vs潮州</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802155430 +0800" stop="20260802162400 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯1/8决赛 阿根廷vs埃及</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802162400 +0800" stop="20260802170300 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯1/8决赛 瑞士vs哥伦比亚</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802170300 +0800" stop="20260802173600 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯1/16决赛 荷兰vs摩洛哥</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802173600 +0800" stop="20260802185100 +0800" channel="广东体育">
-    <title>首播 羽乐无限:2026世界羽联世界巡回赛日本公开赛精选(4)5</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802185100 +0800" stop="20260802192000 +0800" channel="广东体育">
-    <title>首播 2026年广东省城市足球超级联赛常规赛(西区)第9轮 湛江vs广州</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802192000 +0800" stop="20260802212000 +0800" channel="广东体育">
-    <title>直播 2026年亚洲大学生篮球联赛小组赛(19:30清华大学vs悉尼大学)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802212000 +0800" stop="20260802215430 +0800" channel="广东体育">
-    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第2轮 葡萄牙vs乌兹别克斯</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802215430 +0800" stop="20260802231530 +0800" channel="广东体育">
-    <title>重播 出奇智胜(915)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802231530 +0800" stop="20260803003400 +0800" channel="广东体育">
-    <title>首播 2026年广东省城市篮球联赛总决赛第二场 东莞vs深圳</title>
+  <programme start="20260805212000 +0800" stop="20260805230000 +0800" channel="广东民生">
+    <title>民生休闲剧场:哈尔滨1944(11-12)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -2557,98 +2347,163 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802003500 +0800" stop="20260802012500 +0800" channel="大湾区卫视">
-    <title>湾区文化坊</title>
+  <programme start="20260804234100 +0800" stop="20260805011100 +0800" channel="广东体育">
+    <title>首播 2026F1第7站巴塞罗那-加泰罗尼亚大奖赛正赛</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802012500 +0800" stop="20260802013500 +0800" channel="大湾区卫视">
-    <title>笑口组</title>
+  <programme start="20260805011100 +0800" stop="20260805013700 +0800" channel="广东体育">
+    <title>重播 2026年广东省城市足球超级联赛常规赛(西区)第9轮 湛江vs广州</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802013500 +0800" stop="20260802020000 +0800" channel="大湾区卫视">
-    <title>我爱返寻味</title>
+  <programme start="20260805013700 +0800" stop="20260805023300 +0800" channel="广东体育">
+    <title>重播 2026年广东省城市篮球联赛总决赛第二场 东莞vs深圳</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802020000 +0800" stop="20260802060000 +0800" channel="大湾区卫视">
-    <title>72家房客</title>
+  <programme start="20260805023300 +0800" stop="20260805025900 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 阿根廷vs阿尔及利亚</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802060000 +0800" stop="20260802065200 +0800" channel="大湾区卫视">
-    <title>湾区文化坊</title>
+  <programme start="20260805025900 +0800" stop="20260805032500 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第2轮 阿根廷vs奥地利</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802065200 +0800" stop="20260802070000 +0800" channel="大湾区卫视">
-    <title>我爱返寻味</title>
+  <programme start="20260805032500 +0800" stop="20260805035100 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第3轮 约旦vs阿根廷</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802070000 +0800" stop="20260802075000 +0800" channel="大湾区卫视">
-    <title>城事特搜——超级大湾区(重播)</title>
+  <programme start="20260805035100 +0800" stop="20260805041700 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 比利时vs埃及</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802075000 +0800" stop="20260802152000 +0800" channel="大湾区卫视">
-    <title>短剧连环炮:72家房客</title>
+  <programme start="20260805041700 +0800" stop="20260805044300 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第2轮 比利时vs伊朗</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802152000 +0800" stop="20260802153000 +0800" channel="大湾区卫视">
-    <title>每日运动派</title>
+  <programme start="20260805044300 +0800" stop="20260805052000 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第3轮 新西兰vs比利时</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802153000 +0800" stop="20260802183000 +0800" channel="大湾区卫视">
-    <title>短剧连环炮:72家房客</title>
+  <programme start="20260805052000 +0800" stop="20260805054300 +0800" channel="广东体育">
+    <title>重播 2026年CBA全明星周末三分球、技巧赛</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802183000 +0800" stop="20260802184000 +0800" channel="大湾区卫视">
-    <title>笑口组</title>
+  <programme start="20260805054300 +0800" stop="20260805072300 +0800" channel="广东体育">
+    <title>重播 2026F1第6站摩纳哥大奖赛正赛</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802184000 +0800" stop="20260802193000 +0800" channel="大湾区卫视">
-    <title>城事特搜——超级大湾区</title>
+  <programme start="20260805072300 +0800" stop="20260805081100 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 乌兹别克斯坦vs哥伦比亚</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802193000 +0800" stop="20260802200000 +0800" channel="大湾区卫视">
-    <title>我爱返寻味</title>
+  <programme start="20260805081100 +0800" stop="20260805085430 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第2轮 哥伦比亚vs刚果(金)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802200000 +0800" stop="20260802203500 +0800" channel="大湾区卫视">
-    <title>湾区最新闻</title>
+  <programme start="20260805085430 +0800" stop="20260805092630 +0800" channel="广东体育">
+    <title>重播 2026年广东省城市足球超级联赛常规赛(西区)第8轮 云浮vs中山</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802203500 +0800" stop="20260802210000 +0800" channel="大湾区卫视">
-    <title>笑口组</title>
+  <programme start="20260805092630 +0800" stop="20260805103900 +0800" channel="广东体育">
+    <title>重播 2026年广东省城市篮球联赛半决赛首回合 广州vs深圳</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802210000 +0800" stop="20260802215500 +0800" channel="大湾区卫视">
-    <title>72家房客</title>
+  <programme start="20260805103900 +0800" stop="20260805112230 +0800" channel="广东体育">
+    <title>重播 劲速天地(202624)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802215500 +0800" stop="20260802223000 +0800" channel="大湾区卫视">
-    <title>湾区生活+</title>
+  <programme start="20260805112230 +0800" stop="20260805120000 +0800" channel="广东体育">
+    <title>重播 2026年广东省城市足球超级联赛第6轮精编版 梅州vs清远</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802223000 +0800" stop="20260802232000 +0800" channel="大湾区卫视">
-    <title>城事特搜——超级大湾区(重播)</title>
+  <programme start="20260805120000 +0800" stop="20260805131700 +0800" channel="广东体育">
+    <title>重播 出奇智胜(918)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802232000 +0800" stop="20260803003500 +0800" channel="大湾区卫视">
-    <title>72家房客</title>
+  <programme start="20260805131700 +0800" stop="20260805135300 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 墨西哥vs南非</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805135300 +0800" stop="20260805145630 +0800" channel="广东体育">
+    <title>重播 2026年广东省城市篮球联赛总决赛第一场 深圳vs东莞</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805145630 +0800" stop="20260805155630 +0800" channel="广东体育">
+    <title>重播 2026年广东省城市足球超级联赛常规赛(西区)第9轮 湛江vs广州</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805155630 +0800" stop="20260805162630 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 韩国vs捷克</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805162630 +0800" stop="20260805165500 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯小组赛第1轮 加拿大vs波黑</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805165500 +0800" stop="20260805182000 +0800" channel="广东体育">
+    <title>首播(台标右移)羽乐无限:2026世界羽联世界巡回赛印尼公开赛精选(1)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805182000 +0800" stop="20260805190000 +0800" channel="广东体育">
+    <title>重播 2026年广东省城市足球超级联赛常规赛(东区)第8轮补赛 深圳vs汕头</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805190000 +0800" stop="20260805192330 +0800" channel="广东体育">
+    <title>直播 体育世界</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805192330 +0800" stop="20260805202600 +0800" channel="广东体育">
+    <title>重播 2026年广东省城市篮球联赛半决赛首回合 广州vs深圳</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805202600 +0800" stop="20260805205800 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯1/4决赛 挪威vs英格兰</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805205800 +0800" stop="20260805212830 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯1/4决赛 西班牙vs比利时</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805212830 +0800" stop="20260805220000 +0800" channel="广东体育">
+    <title>重播 美加墨赛场:2026年美加墨世界杯1/4决赛 阿根廷vs瑞士</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805220000 +0800" stop="20260805230300 +0800" channel="广东体育">
+    <title>首播 出奇智胜(919)</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805230300 +0800" stop="20260805233200 +0800" channel="广东体育">
+    <title>重播 2026中甲第16轮精编版 宁波俱乐部vs广东广州豹</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -2817,118 +2672,93 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802004500 +0800" stop="20260802013500 +0800" channel="大湾区卫视（海外版）">
+  <programme start="20260804232000 +0800" stop="20260805003500 +0800" channel="大湾区卫视">
+    <title>72家房客</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805003500 +0800" stop="20260805012500 +0800" channel="大湾区卫视">
     <title>湾区文化坊</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802013500 +0800" stop="20260802015000 +0800" channel="大湾区卫视（海外版）">
-    <title>我爱返寻味</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802015000 +0800" stop="20260802020000 +0800" channel="大湾区卫视（海外版）">
+  <programme start="20260805012500 +0800" stop="20260805013500 +0800" channel="大湾区卫视">
     <title>笑口组</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802020000 +0800" stop="20260802025000 +0800" channel="大湾区卫视（海外版）">
+  <programme start="20260805013500 +0800" stop="20260805020000 +0800" channel="大湾区卫视">
+    <title>我爱返寻味</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805020000 +0800" stop="20260805025500 +0800" channel="大湾区卫视">
     <title>湾区最新闻</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802025000 +0800" stop="20260802052000 +0800" channel="大湾区卫视（海外版）">
-    <title>午夜经典剧场</title>
+  <programme start="20260805025500 +0800" stop="20260805060000 +0800" channel="大湾区卫视">
+    <title>72家房客</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802052000 +0800" stop="20260802060000 +0800" channel="大湾区卫视（海外版）">
-    <title>今日广东</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802060000 +0800" stop="20260802061000 +0800" channel="大湾区卫视（海外版）">
-    <title>每日运动派</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802061000 +0800" stop="20260802070000 +0800" channel="大湾区卫视（海外版）">
+  <programme start="20260805060000 +0800" stop="20260805065200 +0800" channel="大湾区卫视">
     <title>湾区文化坊</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802070000 +0800" stop="20260802070100 +0800" channel="大湾区卫视（海外版）">
-    <title>国歌</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802070100 +0800" stop="20260802080000 +0800" channel="大湾区卫视（海外版）">
-    <title>大美南粤</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802080000 +0800" stop="20260802081500 +0800" channel="大湾区卫视（海外版）">
-    <title>笑口组</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802081500 +0800" stop="20260802090500 +0800" channel="大湾区卫视（海外版）">
-    <title>城事特搜</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802090500 +0800" stop="20260802170000 +0800" channel="大湾区卫视（海外版）">
-    <title>经典剧场</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802170000 +0800" stop="20260802183000 +0800" channel="大湾区卫视（海外版）">
-    <title>大美南粤</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802183000 +0800" stop="20260802184000 +0800" channel="大湾区卫视（海外版）">
-    <title>笑口组</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802184000 +0800" stop="20260802193000 +0800" channel="大湾区卫视（海外版）">
-    <title>城事特搜</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802193000 +0800" stop="20260802200000 +0800" channel="大湾区卫视（海外版）">
+  <programme start="20260805065200 +0800" stop="20260805071500 +0800" channel="大湾区卫视">
     <title>我爱返寻味</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802200000 +0800" stop="20260802210500 +0800" channel="大湾区卫视（海外版）">
-    <title>直播:湾区最新闻</title>
+  <programme start="20260805071500 +0800" stop="20260805075000 +0800" channel="大湾区卫视">
+    <title>城事特搜(重播)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802210500 +0800" stop="20260802215500 +0800" channel="大湾区卫视（海外版）">
-    <title>晚间剧场</title>
+  <programme start="20260805075000 +0800" stop="20260805152000 +0800" channel="大湾区卫视">
+    <title>短剧连环炮:72家房客</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802215500 +0800" stop="20260802223000 +0800" channel="大湾区卫视（海外版）">
-    <title>湾区生活家</title>
+  <programme start="20260805152000 +0800" stop="20260805153000 +0800" channel="大湾区卫视">
+    <title>每日运动派</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802223000 +0800" stop="20260802225500 +0800" channel="大湾区卫视（海外版）">
+  <programme start="20260805153000 +0800" stop="20260805183000 +0800" channel="大湾区卫视">
+    <title>短剧连环炮:72家房客</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805183000 +0800" stop="20260805184000 +0800" channel="大湾区卫视">
+    <title>笑口组</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805184000 +0800" stop="20260805193000 +0800" channel="大湾区卫视">
     <title>城事特搜</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802225500 +0800" stop="20260802232500 +0800" channel="大湾区卫视（海外版）">
+  <programme start="20260805193000 +0800" stop="20260805200000 +0800" channel="大湾区卫视">
     <title>我爱返寻味</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802232500 +0800" stop="20260803003000 +0800" channel="大湾区卫视（海外版）">
-    <title>笑口组</title>
+  <programme start="20260805200000 +0800" stop="20260805210000 +0800" channel="大湾区卫视">
+    <title>湾区最新闻</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805210000 +0800" stop="20260805231000 +0800" channel="大湾区卫视">
+    <title>72家房客</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805231000 +0800" stop="20260805232000 +0800" channel="大湾区卫视">
+    <title>纪录/在路上</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -3127,43 +2957,103 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802001500 +0800" stop="20260802061000 +0800" channel="广东影视">
-    <title>午夜剧场</title>
+  <programme start="20260804230000 +0800" stop="20260805003000 +0800" channel="大湾区卫视（海外版）">
+    <title>老友剧场</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802061000 +0800" stop="20260802084500 +0800" channel="广东影视">
-    <title>醒晨剧场一:骑士的手套(15-18)</title>
+  <programme start="20260805003000 +0800" stop="20260805013000 +0800" channel="大湾区卫视（海外版）">
+    <title>湾区文化坊</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802084500 +0800" stop="20260802105000 +0800" channel="广东影视">
-    <title>醒晨剧场二:双刺(36-37)</title>
+  <programme start="20260805013000 +0800" stop="20260805020000 +0800" channel="大湾区卫视（海外版）">
+    <title>我爱返寻味</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802105000 +0800" stop="20260802160000 +0800" channel="广东影视">
-    <title>午间大强档:&lt;span style="font-family: Verdana, 宋体, Tahoma, Arial, sans-serif;"&gt;区小队&lt;/span&gt;(35-39)&lt;br /&gt;</title>
+  <programme start="20260805020000 +0800" stop="20260805025500 +0800" channel="大湾区卫视（海外版）">
+    <title>湾区最新闻</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802160000 +0800" stop="20260802183500 +0800" channel="广东影视">
-    <title>剧无霸前战剧场:战火中青春之血染风采(38-40)</title>
+  <programme start="20260805025500 +0800" stop="20260805060000 +0800" channel="大湾区卫视（海外版）">
+    <title>午夜经典剧场</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802183500 +0800" stop="20260802185000 +0800" channel="广东影视">
-    <title>微短剧</title>
+  <programme start="20260805060000 +0800" stop="20260805061000 +0800" channel="大湾区卫视（海外版）">
+    <title>每日运动派</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802185000 +0800" stop="20260802223500 +0800" channel="广东影视">
-    <title>剧无霸剧场:利箭纵横(5-9)&lt;br /&gt;</title>
+  <programme start="20260805061000 +0800" stop="20260805070000 +0800" channel="大湾区卫视（海外版）">
+    <title>湾区文化坊</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802223500 +0800" stop="20260803001500 +0800" channel="广东影视">
-    <title>剧无霸经典剧场:终极对决(14-16)</title>
+  <programme start="20260805070000 +0800" stop="20260805070100 +0800" channel="大湾区卫视（海外版）">
+    <title>国歌</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805070100 +0800" stop="20260805080000 +0800" channel="大湾区卫视（海外版）">
+    <title>大美南粤</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805080000 +0800" stop="20260805081500 +0800" channel="大湾区卫视（海外版）">
+    <title>笑口组</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805081500 +0800" stop="20260805090500 +0800" channel="大湾区卫视（海外版）">
+    <title>城事特搜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805090500 +0800" stop="20260805170000 +0800" channel="大湾区卫视（海外版）">
+    <title>经典剧场</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805170000 +0800" stop="20260805183000 +0800" channel="大湾区卫视（海外版）">
+    <title>大美南粤</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805183000 +0800" stop="20260805184000 +0800" channel="大湾区卫视（海外版）">
+    <title>笑口组</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805184000 +0800" stop="20260805193000 +0800" channel="大湾区卫视（海外版）">
+    <title>城事特搜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805193000 +0800" stop="20260805200000 +0800" channel="大湾区卫视（海外版）">
+    <title>我爱返寻味</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805200000 +0800" stop="20260805210500 +0800" channel="大湾区卫视（海外版）">
+    <title>直播:湾区最新闻</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805210500 +0800" stop="20260805215500 +0800" channel="大湾区卫视（海外版）">
+    <title>晚间剧场</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805215500 +0800" stop="20260805221500 +0800" channel="大湾区卫视（海外版）">
+    <title>纪录中国</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805221500 +0800" stop="20260805230000 +0800" channel="大湾区卫视（海外版）">
+    <title>湾区生活带</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -3252,83 +3142,48 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802032500 +0800" stop="20260802063000 +0800" channel="广东4K超高清">
-    <title>4K深夜剧场</title>
+  <programme start="20260804223500 +0800" stop="20260805001500 +0800" channel="广东影视">
+    <title>剧无霸经典剧场:终极对决(20-22)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802063000 +0800" stop="20260802080000 +0800" channel="广东4K超高清">
-    <title>综艺荟</title>
+  <programme start="20260805001500 +0800" stop="20260805061000 +0800" channel="广东影视">
+    <title>午夜剧场</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802080000 +0800" stop="20260802100000 +0800" channel="广东4K超高清">
-    <title>举案说法</title>
+  <programme start="20260805061000 +0800" stop="20260805084500 +0800" channel="广东影视">
+    <title>醒晨剧场一:骑士的手套(27-30)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802100000 +0800" stop="20260802120000 +0800" channel="广东4K超高清">
-    <title>七十二家房客</title>
+  <programme start="20260805084500 +0800" stop="20260805105000 +0800" channel="广东影视">
+    <title>醒晨剧场二:双刺(42-43)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802120000 +0800" stop="20260802124500 +0800" channel="广东4K超高清">
-    <title>茶余饭后</title>
+  <programme start="20260805105000 +0800" stop="20260805160000 +0800" channel="广东影视">
+    <title>午间大强档:区小队(50-51)兄弟们上(1-3)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802124500 +0800" stop="20260802130500 +0800" channel="广东4K超高清">
-    <title>动画片</title>
+  <programme start="20260805160000 +0800" stop="20260805183500 +0800" channel="广东影视">
+    <title>剧无霸前战剧场:尖锋之烈焰青春(3-5)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802130500 +0800" stop="20260802134000 +0800" channel="广东4K超高清">
-    <title>举案说法</title>
+  <programme start="20260805183500 +0800" stop="20260805185000 +0800" channel="广东影视">
+    <title>有请大医生</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802134000 +0800" stop="20260802170000 +0800" channel="广东4K超高清">
-    <title>下午茶剧场</title>
+  <programme start="20260805185000 +0800" stop="20260805222000 +0800" channel="广东影视">
+    <title>剧无霸剧场:利箭纵横(20-24)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802170000 +0800" stop="20260802180000 +0800" channel="广东4K超高清">
-    <title>大美南粤</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802180000 +0800" stop="20260802184000 +0800" channel="广东4K超高清">
-    <title>新鲜驾到</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802184000 +0800" stop="20260802190000 +0800" channel="广东4K超高清">
-    <title>综艺荟</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802190000 +0800" stop="20260802203000 +0800" channel="广东4K超高清">
-    <title>4K经典剧场</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802203000 +0800" stop="20260802210000 +0800" channel="广东4K超高清">
-    <title>爱宠笑园</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802210000 +0800" stop="20260802214000 +0800" channel="广东4K超高清">
-    <title>律师有嘢讲</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802214000 +0800" stop="20260802225000 +0800" channel="广东4K超高清">
-    <title>纪录片</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802225000 +0800" stop="20260803032500 +0800" channel="广东4K超高清">
-    <title>深夜剧场</title>
+  <programme start="20260805222000 +0800" stop="20260805223500 +0800" channel="广东影视">
+    <title>广东电影报道+有请大医生</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -3497,33 +3352,88 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802000000 +0800" stop="20260802060000 +0800" channel="广东少儿">
-    <title>午夜剧场</title>
+  <programme start="20260804225000 +0800" stop="20260805032500 +0800" channel="广东4K超高清">
+    <title>深夜剧场</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802060000 +0800" stop="20260802080000 +0800" channel="广东少儿">
-    <title>早间卡通剧场《海底小纵队》</title>
+  <programme start="20260805032500 +0800" stop="20260805063000 +0800" channel="广东4K超高清">
+    <title>4K深夜剧场</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802080000 +0800" stop="20260802170000 +0800" channel="广东少儿">
-    <title>《开心超人》</title>
+  <programme start="20260805063000 +0800" stop="20260805070000 +0800" channel="广东4K超高清">
+    <title>综艺荟</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802170000 +0800" stop="20260802203000 +0800" channel="广东少儿">
-    <title>《巴啦啦小魔仙》</title>
+  <programme start="20260805070000 +0800" stop="20260805080000 +0800" channel="广东4K超高清">
+    <title>大美南粤</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802203000 +0800" stop="20260802204000 +0800" channel="广东少儿">
-    <title>《广府叻少年》</title>
+  <programme start="20260805080000 +0800" stop="20260805113000 +0800" channel="广东4K超高清">
+    <title>晨早剧场</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802204000 +0800" stop="20260803000000 +0800" channel="广东少儿">
-    <title>《巴啦啦小魔仙》</title>
+  <programme start="20260805113000 +0800" stop="20260805121000 +0800" channel="广东4K超高清">
+    <title>律师有嘢讲</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805121000 +0800" stop="20260805124500 +0800" channel="广东4K超高清">
+    <title>你会怎么做</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805124500 +0800" stop="20260805130500 +0800" channel="广东4K超高清">
+    <title>乐享生活荟</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805130500 +0800" stop="20260805134000 +0800" channel="广东4K超高清">
+    <title>举案说法</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805134000 +0800" stop="20260805170000 +0800" channel="广东4K超高清">
+    <title>下午茶剧场</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805170000 +0800" stop="20260805180000 +0800" channel="广东4K超高清">
+    <title>大美南粤</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805180000 +0800" stop="20260805182000 +0800" channel="广东4K超高清">
+    <title>新鲜驾到</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805182000 +0800" stop="20260805184000 +0800" channel="广东4K超高清">
+    <title>一起旅游吧</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805184000 +0800" stop="20260805190000 +0800" channel="广东4K超高清">
+    <title>最紧要健康</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805190000 +0800" stop="20260805212000 +0800" channel="广东4K超高清">
+    <title>4K经典剧场</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805212000 +0800" stop="20260805220000 +0800" channel="广东4K超高清">
+    <title>律师有嘢讲</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805220000 +0800" stop="20260805225000 +0800" channel="广东4K超高清">
+    <title>纪录片</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -3577,78 +3487,33 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802000000 +0800" stop="20260802061000 +0800" channel="嘉佳卡通">
-    <title>猪猪侠之超星五灵侠七</title>
+  <programme start="20260804191000 +0800" stop="20260805000000 +0800" channel="广东少儿">
+    <title>《喜羊羊与灰太狼之破界山海决》</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802061000 +0800" stop="20260802081000 +0800" channel="嘉佳卡通">
-    <title>喜羊羊与灰太狼之羊村守护者之九疯狂超能营</title>
+  <programme start="20260805000000 +0800" stop="20260805060000 +0800" channel="广东少儿">
+    <title>午夜剧场</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802081000 +0800" stop="20260802102000 +0800" channel="嘉佳卡通">
-    <title>巴啦啦小魔仙之曜星守护者一</title>
+  <programme start="20260805060000 +0800" stop="20260805080000 +0800" channel="广东少儿">
+    <title>早间卡通剧场《超级飞侠》</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802102000 +0800" stop="20260802110700 +0800" channel="嘉佳卡通">
-    <title>巴啦啦小魔仙之曜星守护者二</title>
+  <programme start="20260805080000 +0800" stop="20260805170000 +0800" channel="广东少儿">
+    <title>《开心超人》</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802110700 +0800" stop="20260802131000 +0800" channel="嘉佳卡通">
-    <title>奶龙之搞怪大作战</title>
+  <programme start="20260805170000 +0800" stop="20260805190000 +0800" channel="广东少儿">
+    <title>《奶龙》</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802131000 +0800" stop="20260802150100 +0800" channel="嘉佳卡通">
-    <title>小品一家人之密室大通关二</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802150100 +0800" stop="20260802150700 +0800" channel="嘉佳卡通">
-    <title>嘉佳全能星-邻里财聚 粤来粤亲</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802150700 +0800" stop="20260802154500 +0800" channel="嘉佳卡通">
-    <title>奇妙萌可之闪耀流星</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802154500 +0800" stop="20260802160800 +0800" channel="嘉佳卡通">
-    <title>奶龙之搞怪大作战</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802160800 +0800" stop="20260802181500 +0800" channel="嘉佳卡通">
-    <title>奶龙之奇妙冒险</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802181500 +0800" stop="20260802190200 +0800" channel="嘉佳卡通">
-    <title>飞狗莫柯之家有小短腿一</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802190200 +0800" stop="20260802192500 +0800" channel="嘉佳卡通">
-    <title>哈小浪之决战星末来</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802192500 +0800" stop="20260802194700 +0800" channel="嘉佳卡通">
-    <title>奶龙之搞怪大作战</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802194700 +0800" stop="20260802195900 +0800" channel="嘉佳卡通">
-    <title>咖宝车神之超能救援</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802195900 +0800" stop="20260803000000 +0800" channel="嘉佳卡通">
-    <title>喜羊羊与灰太狼之嘻哈闯世界四跨时空救兵</title>
+  <programme start="20260805190000 +0800" stop="20260805191000 +0800" channel="广东少儿">
+    <title>《南方小记者》</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -3822,158 +3687,83 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802000300 +0800" stop="20260802000800 +0800" channel="岭南戏曲">
-    <title>岭南大舞台:资讯(914)</title>
+  <programme start="20260804211700 +0800" stop="20260805000000 +0800" channel="嘉佳卡通">
+    <title>喜羊羊与灰太狼之发明大作战</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802000800 +0800" stop="20260802001200 +0800" channel="岭南戏曲">
-    <title>趣谈广州话(1952)</title>
+  <programme start="20260805000000 +0800" stop="20260805001100 +0800" channel="嘉佳卡通">
+    <title>喜羊羊与灰太狼之发明大作战</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802001200 +0800" stop="20260802060000 +0800" channel="岭南戏曲">
-    <title>剧场连线:杜鹃山(1)</title>
+  <programme start="20260805001100 +0800" stop="20260805035200 +0800" channel="嘉佳卡通">
+    <title>超级飞侠十八</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802060000 +0800" stop="20260802073600 +0800" channel="岭南戏曲">
-    <title>剧场连线:杜鹃山(1)</title>
+  <programme start="20260805035200 +0800" stop="20260805061200 +0800" channel="嘉佳卡通">
+    <title>超级飞侠十七</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802073600 +0800" stop="20260802074100 +0800" channel="岭南戏曲">
-    <title>岭南大舞台:资讯(914)</title>
+  <programme start="20260805061200 +0800" stop="20260805091400 +0800" channel="嘉佳卡通">
+    <title>喜羊羊与灰太狼之羊村守护者九</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802074100 +0800" stop="20260802074500 +0800" channel="岭南戏曲">
-    <title>趣谈广州话(1954)</title>
+  <programme start="20260805091400 +0800" stop="20260805103000 +0800" channel="嘉佳卡通">
+    <title>巴啦啦与小魔仙之曜星守护者二</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802074500 +0800" stop="20260802085300 +0800" channel="岭南戏曲">
-    <title>风雅潮韵:红军阿姆(1)</title>
+  <programme start="20260805103000 +0800" stop="20260805131600 +0800" channel="嘉佳卡通">
+    <title>喜羊羊与灰太狼之羊村守护者四</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802085300 +0800" stop="20260802093400 +0800" channel="岭南戏曲">
-    <title>粤剧有我地第三季:黄嘉裕</title>
+  <programme start="20260805131600 +0800" stop="20260805141200 +0800" channel="嘉佳卡通">
+    <title>奶龙搞怪大作战</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802093400 +0800" stop="20260802103000 +0800" channel="岭南戏曲">
-    <title>老倌学堂:陈韵红《梦会太湖》</title>
+  <programme start="20260805141200 +0800" stop="20260805150200 +0800" channel="嘉佳卡通">
+    <title>超级飞侠二十</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802103000 +0800" stop="20260802120800 +0800" channel="岭南戏曲">
-    <title>剧场连线:杜鹃山(1)</title>
+  <programme start="20260805150200 +0800" stop="20260805154000 +0800" channel="嘉佳卡通">
+    <title>奇妙萌可之闪耀流星</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802120800 +0800" stop="20260802121300 +0800" channel="岭南戏曲">
-    <title>岭南大舞台:资讯(914)</title>
+  <programme start="20260805154000 +0800" stop="20260805161100 +0800" channel="嘉佳卡通">
+    <title>哈小浪之决战星未来</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802121300 +0800" stop="20260802121700 +0800" channel="岭南戏曲">
-    <title>趣谈广州话(1955)</title>
+  <programme start="20260805161100 +0800" stop="20260805163700 +0800" channel="嘉佳卡通">
+    <title>《嗨！小喇叭》-超飞20季</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802121700 +0800" stop="20260802133800 +0800" channel="岭南戏曲">
-    <title>第二届《高手在民间》风腔粤曲演唱大赛(6)</title>
+  <programme start="20260805163700 +0800" stop="20260805185900 +0800" channel="嘉佳卡通">
+    <title>哈小浪之决战星未来</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802133800 +0800" stop="20260802141300 +0800" channel="岭南戏曲">
-    <title>红梅飘香:杨春荣</title>
+  <programme start="20260805185900 +0800" stop="20260805195900 +0800" channel="嘉佳卡通">
+    <title>超级飞侠二十</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802141300 +0800" stop="20260802141800 +0800" channel="岭南戏曲">
-    <title>岭南大舞台:资讯(914)</title>
+  <programme start="20260805195900 +0800" stop="20260805210900 +0800" channel="嘉佳卡通">
+    <title>喜羊羊与灰太狼之发明大作战</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802141800 +0800" stop="20260802142200 +0800" channel="岭南戏曲">
-    <title>趣谈广州话(1954)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802142200 +0800" stop="20260802155800 +0800" channel="岭南戏曲">
-    <title>剧场连线:杜鹃山(1)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802155800 +0800" stop="20260802160300 +0800" channel="岭南戏曲">
-    <title>岭南大舞台:资讯(914)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802160300 +0800" stop="20260802160700 +0800" channel="岭南戏曲">
-    <title>趣谈广州话(1955)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802160700 +0800" stop="20260802164600 +0800" channel="岭南戏曲">
-    <title>粤剧有我地第三季:黄嘉裕</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802164600 +0800" stop="20260802174600 +0800" channel="岭南戏曲">
-    <title>老倌学堂:陈韵红《梦会太湖》</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802174600 +0800" stop="20260802185100 +0800" channel="岭南戏曲">
-    <title>风雅潮韵:红军阿姆(2)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802185100 +0800" stop="20260802185600 +0800" channel="岭南戏曲">
-    <title>岭南大舞台:资讯(914)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802185600 +0800" stop="20260802190000 +0800" channel="岭南戏曲">
-    <title>趣谈广州话(1954)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802190000 +0800" stop="20260802203800 +0800" channel="岭南戏曲">
-    <title>剧场连线:杜鹃山(2)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802203800 +0800" stop="20260802204300 +0800" channel="岭南戏曲">
-    <title>岭南大舞台:资讯(914)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802204300 +0800" stop="20260802204800 +0800" channel="岭南戏曲">
-    <title>趣谈广州话(1955)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802204800 +0800" stop="20260802230400 +0800" channel="岭南戏曲">
-    <title>锦绣梨园:广东汉剧《李坚真》</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802230400 +0800" stop="20260802230900 +0800" channel="岭南戏曲">
-    <title>岭南大舞台:资讯(914)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802230900 +0800" stop="20260802231300 +0800" channel="岭南戏曲">
-    <title>趣谈广州话(1954)</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802231300 +0800" stop="20260803003000 +0800" channel="岭南戏曲">
-    <title>第二届《高手在民间》风腔粤曲演唱大赛(6)</title>
+  <programme start="20260805210900 +0800" stop="20260805211500 +0800" channel="嘉佳卡通">
+    <title>嗨！小喇叭-中华故事小课堂</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -4312,303 +4102,173 @@
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802000600 +0800" stop="20260802003100 +0800" channel="广东移动">
-    <title>南岭物语</title>
+  <programme start="20260804232900 +0800" stop="20260805003000 +0800" channel="岭南戏曲">
+    <title>老倌学堂:郭凤女《荔枝颂》</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802003100 +0800" stop="20260802003700 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
+  <programme start="20260805003000 +0800" stop="20260805060000 +0800" channel="岭南戏曲">
+    <title>剧场连线:梦断香销四十年(2)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802003700 +0800" stop="20260802004700 +0800" channel="广东移动">
-    <title>可爱香港</title>
+  <programme start="20260805060000 +0800" stop="20260805074100 +0800" channel="岭南戏曲">
+    <title>剧场连线:梦断香销四十年(2)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802004700 +0800" stop="20260802060000 +0800" channel="广东移动">
-    <title>不辞长做岭南人</title>
+  <programme start="20260805074100 +0800" stop="20260805074500 +0800" channel="岭南戏曲">
+    <title>戏人戏语(367)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802060000 +0800" stop="20260802062600 +0800" channel="广东移动">
-    <title>南岭物语</title>
+  <programme start="20260805074500 +0800" stop="20260805075000 +0800" channel="岭南戏曲">
+    <title>岭南大舞台:资讯(915)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802062600 +0800" stop="20260802063000 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
+  <programme start="20260805075000 +0800" stop="20260805075500 +0800" channel="岭南戏曲">
+    <title>趣谈广州话(1966)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802063000 +0800" stop="20260802072700 +0800" channel="广东移动">
-    <title>国乐大师</title>
+  <programme start="20260805075500 +0800" stop="20260805085900 +0800" channel="岭南戏曲">
+    <title>风雅潮韵:《辞郎洲》名段精选(2)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802072700 +0800" stop="20260802074300 +0800" channel="广东移动">
-    <title>可爱香港</title>
+  <programme start="20260805085900 +0800" stop="20260805093800 +0800" channel="岭南戏曲">
+    <title>红梅飘香:李仙花</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802074300 +0800" stop="20260802075400 +0800" channel="广东移动">
-    <title>不辞长做岭南人</title>
+  <programme start="20260805093800 +0800" stop="20260805110000 +0800" channel="岭南戏曲">
+    <title>第二届《高手在民间》风腔粤曲演唱大赛(6)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802075400 +0800" stop="20260802075800 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
+  <programme start="20260805110000 +0800" stop="20260805123700 +0800" channel="岭南戏曲">
+    <title>剧场连线:梦断香销四十年(2)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802075800 +0800" stop="20260802081700 +0800" channel="广东移动">
-    <title>潮玩迷你剧</title>
+  <programme start="20260805123700 +0800" stop="20260805124100 +0800" channel="岭南戏曲">
+    <title>戏人戏语(367)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802081700 +0800" stop="20260802084500 +0800" channel="广东移动">
-    <title>开平碉楼</title>
+  <programme start="20260805124100 +0800" stop="20260805124600 +0800" channel="岭南戏曲">
+    <title>岭南大舞台:资讯(915)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802084500 +0800" stop="20260802084900 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
+  <programme start="20260805124600 +0800" stop="20260805125000 +0800" channel="岭南戏曲">
+    <title>趣谈广州话(1966)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802084900 +0800" stop="20260802094000 +0800" channel="广东移动">
-    <title>国乐大师</title>
+  <programme start="20260805125000 +0800" stop="20260805134400 +0800" channel="岭南戏曲">
+    <title>老倌学堂:丁凡《魂牵珠玑巷》</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802094000 +0800" stop="20260802100200 +0800" channel="广东移动">
-    <title>可爱香港</title>
+  <programme start="20260805134400 +0800" stop="20260805142000 +0800" channel="岭南戏曲">
+    <title>红梅飘香:李仙花</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802100200 +0800" stop="20260802101300 +0800" channel="广东移动">
-    <title>不辞长做岭南人</title>
+  <programme start="20260805142000 +0800" stop="20260805142500 +0800" channel="岭南戏曲">
+    <title>岭南大舞台:资讯(915)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802101300 +0800" stop="20260802101700 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
+  <programme start="20260805142500 +0800" stop="20260805142900 +0800" channel="岭南戏曲">
+    <title>趣谈广州话(1966)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802101700 +0800" stop="20260802103600 +0800" channel="广东移动">
-    <title>潮玩迷你剧</title>
+  <programme start="20260805142900 +0800" stop="20260805160800 +0800" channel="岭南戏曲">
+    <title>剧场连线:梦断香销四十年(2)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802103600 +0800" stop="20260802110200 +0800" channel="广东移动">
-    <title>南岭物语</title>
+  <programme start="20260805160800 +0800" stop="20260805161200 +0800" channel="岭南戏曲">
+    <title>戏人戏语(367)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802110200 +0800" stop="20260802110700 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
+  <programme start="20260805161200 +0800" stop="20260805161700 +0800" channel="岭南戏曲">
+    <title>岭南大舞台:资讯(915)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802110700 +0800" stop="20260802112500 +0800" channel="广东移动">
-    <title>可爱香港</title>
+  <programme start="20260805161700 +0800" stop="20260805162100 +0800" channel="岭南戏曲">
+    <title>趣谈广州话(1966)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802112500 +0800" stop="20260802121500 +0800" channel="广东移动">
-    <title>国乐大师</title>
+  <programme start="20260805162100 +0800" stop="20260805174300 +0800" channel="岭南戏曲">
+    <title>第二届《高手在民间》风腔粤曲演唱大赛(6)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802121500 +0800" stop="20260802122600 +0800" channel="广东移动">
-    <title>不辞长做岭南人</title>
+  <programme start="20260805174300 +0800" stop="20260805184800 +0800" channel="岭南戏曲">
+    <title>风雅潮韵:《赵氏孤儿》名段精选(1)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802122600 +0800" stop="20260802123100 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
+  <programme start="20260805184800 +0800" stop="20260805185200 +0800" channel="岭南戏曲">
+    <title>戏人戏语(367)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802123100 +0800" stop="20260802124900 +0800" channel="广东移动">
-    <title>潮玩迷你剧</title>
+  <programme start="20260805185200 +0800" stop="20260805185700 +0800" channel="岭南戏曲">
+    <title>岭南大舞台:资讯(915)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802124900 +0800" stop="20260802131500 +0800" channel="广东移动">
-    <title>南岭物语</title>
+  <programme start="20260805185700 +0800" stop="20260805190000 +0800" channel="岭南戏曲">
+    <title>趣谈广州话(1966)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802131500 +0800" stop="20260802131900 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
+  <programme start="20260805190000 +0800" stop="20260805204300 +0800" channel="岭南戏曲">
+    <title>剧场连线:春花秋月何时了(1)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802131900 +0800" stop="20260802141000 +0800" channel="广东移动">
-    <title>国乐大师</title>
+  <programme start="20260805204300 +0800" stop="20260805204700 +0800" channel="岭南戏曲">
+    <title>戏人戏语(367)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802141000 +0800" stop="20260802143200 +0800" channel="广东移动">
-    <title>可爱香港</title>
+  <programme start="20260805204700 +0800" stop="20260805205200 +0800" channel="岭南戏曲">
+    <title>岭南大舞台:资讯(915)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802143200 +0800" stop="20260802144400 +0800" channel="广东移动">
-    <title>不辞长做岭南人</title>
+  <programme start="20260805205200 +0800" stop="20260805205700 +0800" channel="岭南戏曲">
+    <title>趣谈广州话(1966)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802144400 +0800" stop="20260802144800 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
+  <programme start="20260805205700 +0800" stop="20260805215300 +0800" channel="岭南戏曲">
+    <title>老倌学堂:丁凡《魂牵珠玑巷》</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802144800 +0800" stop="20260802150600 +0800" channel="广东移动">
-    <title>潮玩迷你剧</title>
+  <programme start="20260805215300 +0800" stop="20260805230700 +0800" channel="岭南戏曲">
+    <title>第二届《高手在民间》风腔粤曲演唱大赛(6)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802150600 +0800" stop="20260802153200 +0800" channel="广东移动">
-    <title>南岭物语</title>
+  <programme start="20260805230700 +0800" stop="20260805231200 +0800" channel="岭南戏曲">
+    <title>岭南大舞台:资讯(915)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
-  <programme start="20260802153200 +0800" stop="20260802153700 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802153700 +0800" stop="20260802162800 +0800" channel="广东移动">
-    <title>国乐大师</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802162800 +0800" stop="20260802165000 +0800" channel="广东移动">
-    <title>可爱香港</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802165000 +0800" stop="20260802170100 +0800" channel="广东移动">
-    <title>不辞长做岭南人</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802170100 +0800" stop="20260802172800 +0800" channel="广东移动">
-    <title>开平碉楼</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802172800 +0800" stop="20260802173200 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802173200 +0800" stop="20260802175100 +0800" channel="广东移动">
-    <title>潮玩迷你剧</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802175100 +0800" stop="20260802181700 +0800" channel="广东移动">
-    <title>南岭物语</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802181700 +0800" stop="20260802182300 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802182300 +0800" stop="20260802191400 +0800" channel="广东移动">
-    <title>国乐大师</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802191400 +0800" stop="20260802192900 +0800" channel="广东移动">
-    <title>可爱香港</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802192900 +0800" stop="20260802194200 +0800" channel="广东移动">
-    <title>不辞长作岭南人</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802194200 +0800" stop="20260802194700 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802194700 +0800" stop="20260802200800 +0800" channel="广东移动">
-    <title>潮玩迷你剧</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802200800 +0800" stop="20260802201200 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802201200 +0800" stop="20260802210300 +0800" channel="广东移动">
-    <title>国乐大师</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802210300 +0800" stop="20260802212500 +0800" channel="广东移动">
-    <title>可爱香港</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802212500 +0800" stop="20260802213800 +0800" channel="广东移动">
-    <title>不辞长作岭南人</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802213800 +0800" stop="20260802214200 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802214200 +0800" stop="20260802220200 +0800" channel="广东移动">
-    <title>潮玩迷你剧</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802220200 +0800" stop="20260802222700 +0800" channel="广东移动">
-    <title>南岭物语</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802222700 +0800" stop="20260802223100 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802223100 +0800" stop="20260802232200 +0800" channel="广东移动">
-    <title>国乐大师</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802232200 +0800" stop="20260802234000 +0800" channel="广东移动">
-    <title>可爱香港</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802234000 +0800" stop="20260802235300 +0800" channel="广东移动">
-    <title>不辞长作岭南人</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802235300 +0800" stop="20260802235700 +0800" channel="广东移动">
-    <title>移动创星音乐榜</title>
-    <category>yufeilai666</category>
-    <category>GDTV</category>
-  </programme>
-  <programme start="20260802235700 +0800" stop="20260803001600 +0800" channel="广东移动">
-    <title>潮玩迷你剧</title>
+  <programme start="20260805231200 +0800" stop="20260805231800 +0800" channel="岭南戏曲">
+    <title>趣谈广州话(1966)</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
   </programme>
@@ -5188,6 +4848,296 @@
     <category>GDTV</category>
   </programme>
   <programme start="20260804233300 +0800" stop="20260804233700 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260804233700 +0800" stop="20260805002700 +0800" channel="广东移动">
+    <title>野性广东</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805002700 +0800" stop="20260805005100 +0800" channel="广东移动">
+    <title>可爱香港</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805005100 +0800" stop="20260805060000 +0800" channel="广东移动">
+    <title>不辞长作岭南人</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805060000 +0800" stop="20260805062600 +0800" channel="广东移动">
+    <title>人参</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805062600 +0800" stop="20260805063000 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805063000 +0800" stop="20260805072700 +0800" channel="广东移动">
+    <title>野性广东</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805072700 +0800" stop="20260805074300 +0800" channel="广东移动">
+    <title>超级食材</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805074300 +0800" stop="20260805075900 +0800" channel="广东移动">
+    <title>不辞长作岭南人</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805075900 +0800" stop="20260805080400 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805080400 +0800" stop="20260805081000 +0800" channel="广东移动">
+    <title>潮玩迷你剧</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805081000 +0800" stop="20260805083600 +0800" channel="广东移动">
+    <title>人参</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805083600 +0800" stop="20260805084100 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805084100 +0800" stop="20260805093100 +0800" channel="广东移动">
+    <title>野性广东</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805093100 +0800" stop="20260805095400 +0800" channel="广东移动">
+    <title>超级食材</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805095400 +0800" stop="20260805101000 +0800" channel="广东移动">
+    <title>不辞长作岭南人</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805101000 +0800" stop="20260805101500 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805101500 +0800" stop="20260805102100 +0800" channel="广东移动">
+    <title>潮玩迷你剧</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805102100 +0800" stop="20260805104900 +0800" channel="广东移动">
+    <title>开平碉楼</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805104900 +0800" stop="20260805105400 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805105400 +0800" stop="20260805111300 +0800" channel="广东移动">
+    <title>超级食材</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805111300 +0800" stop="20260805120200 +0800" channel="广东移动">
+    <title>野性广东</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805120200 +0800" stop="20260805122300 +0800" channel="广东移动">
+    <title>不辞长作岭南人</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805122300 +0800" stop="20260805122900 +0800" channel="广东移动">
+    <title>潮玩迷你剧</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805122900 +0800" stop="20260805125500 +0800" channel="广东移动">
+    <title>人参</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805125500 +0800" stop="20260805130000 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805130000 +0800" stop="20260805135000 +0800" channel="广东移动">
+    <title>野性广东</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805135000 +0800" stop="20260805141300 +0800" channel="广东移动">
+    <title>超级食材</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805141300 +0800" stop="20260805142900 +0800" channel="广东移动">
+    <title>不辞长作岭南人</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805142900 +0800" stop="20260805143400 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805143400 +0800" stop="20260805144000 +0800" channel="广东移动">
+    <title>潮玩迷你剧</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805144000 +0800" stop="20260805150600 +0800" channel="广东移动">
+    <title>人参</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805150600 +0800" stop="20260805151000 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805151000 +0800" stop="20260805160100 +0800" channel="广东移动">
+    <title>野性广东</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805160100 +0800" stop="20260805162400 +0800" channel="广东移动">
+    <title>超级食材</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805162400 +0800" stop="20260805164000 +0800" channel="广东移动">
+    <title>不辞长作岭南人</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805164000 +0800" stop="20260805164400 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805164400 +0800" stop="20260805165000 +0800" channel="广东移动">
+    <title>潮玩迷你剧</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805165000 +0800" stop="20260805171600 +0800" channel="广东移动">
+    <title>人参</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805171600 +0800" stop="20260805172100 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805172100 +0800" stop="20260805181200 +0800" channel="广东移动">
+    <title>野性广东</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805181200 +0800" stop="20260805182800 +0800" channel="广东移动">
+    <title>超级食材</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805182800 +0800" stop="20260805184300 +0800" channel="广东移动">
+    <title>不辞长作岭南人</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805184300 +0800" stop="20260805184800 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805184800 +0800" stop="20260805185700 +0800" channel="广东移动">
+    <title>潮玩迷你剧</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805185700 +0800" stop="20260805190200 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805190200 +0800" stop="20260805195200 +0800" channel="广东移动">
+    <title>野性广东</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805195200 +0800" stop="20260805201500 +0800" channel="广东移动">
+    <title>超级食材</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805201500 +0800" stop="20260805203100 +0800" channel="广东移动">
+    <title>不辞长作岭南人</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805203100 +0800" stop="20260805203500 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805203500 +0800" stop="20260805204300 +0800" channel="广东移动">
+    <title>潮玩迷你剧</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805204300 +0800" stop="20260805210800 +0800" channel="广东移动">
+    <title>人参</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805210800 +0800" stop="20260805211300 +0800" channel="广东移动">
+    <title>移动创星音乐榜</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805211300 +0800" stop="20260805220400 +0800" channel="广东移动">
+    <title>野性广东</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805220400 +0800" stop="20260805222600 +0800" channel="广东移动">
+    <title>超级食材</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805222600 +0800" stop="20260805224700 +0800" channel="广东移动">
+    <title>不辞长作岭南人</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805224700 +0800" stop="20260805225500 +0800" channel="广东移动">
+    <title>潮玩迷你剧</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805225500 +0800" stop="20260805232000 +0800" channel="广东移动">
+    <title>人参</title>
+    <category>yufeilai666</category>
+    <category>GDTV</category>
+  </programme>
+  <programme start="20260805232000 +0800" stop="20260805232400 +0800" channel="广东移动">
     <title>移动创星音乐榜</title>
     <category>yufeilai666</category>
     <category>GDTV</category>
