@@ -9,7 +9,7 @@ name: 3 Generate EPG XML
 #   - 将生成的EPG数据推送到当前仓库的epg目录
 #
 # 主要特性:
-#   - 支持多语言多脚本（PHP 8.1 + Python 3.9）
+#   - 支持多语言多脚本（PHP 8.2 + Python 3.13）
 #   - 安全的私有仓库访问（使用PAT_TOKEN）
 #   - 自动错误处理和报告机制
 #   - 脚本执行后自动清理，不保留在公共仓库
@@ -126,7 +126,7 @@ jobs:
         # 可以轻松添加、移除或注释不需要的脚本
         scripts=(
           # "get_tvmao_epg.py"
-          "epganywhereusa.php"
+          "get_tvbanywhereusa_epg.php"
           # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）- 当前已禁用
           # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
           "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本 - 当前启用
