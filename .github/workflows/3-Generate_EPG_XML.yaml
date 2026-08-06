@@ -9,7 +9,7 @@ name: 3 Generate EPG XML
 #   - 将生成的EPG数据推送到当前仓库的epg目录
 #
 # 主要特性:
-#   - 支持多语言多脚本（PHP 8.2 + Python 3.13）
+#   - 支持多语言多脚本（PHP 8.2 + Python 3.x）
 #   - 安全的私有仓库访问（使用PAT_TOKEN）
 #   - 自动错误处理和报告机制
 #   - 脚本执行后自动清理，不保留在公共仓库
@@ -51,7 +51,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
-        python-version: '3.13'  # 指定Python 3.13版本
+        python-version: '3.x'  # 指定Python 3.x版本
 
     # 步骤3: 设置PHP环境
     - name: Set up PHP
@@ -119,7 +119,7 @@ jobs:
         # 输出依赖脚本数量，供后续步骤使用
         echo "dependency_count=${#dependency_scripts[@]}" >> $GITHUB_OUTPUT
 
-    # 步骤7: 定义并执行脚本数组（含耗时统计）
+    # 步骤7: 定义并执行脚本数组（含耗时统计，逐脚本即时保存）
     - name: Define and execute scripts
       run: |
         # 定义要获取并执行的脚本数组（PHP和Python）
@@ -144,8 +144,14 @@ jobs:
           "get_gxntv_epg.py"
         )
         
+        # 定义需要保存的文件后缀（可根据实际需要增删）
+        SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
+        
         # 存储失败脚本的数组，用于错误报告
         failed_scripts=()
+        
+        # 创建安全目录，用于暂存已生成的数据文件（避免后续脚本误删）
+        mkdir -p epg_safe
         
         # 循环执行每个脚本
         for script in "${scripts[@]}"; do
@@ -162,44 +168,88 @@ jobs:
           # 复制脚本从临时目录到当前工作目录
           cp "private_repo_temp/$script" "./$script"
           
+          # 记录执行前的所有文件（排除临时文件 .files_*）
+          find . -maxdepth 1 -type f ! -name ".files_*" | sed 's|^\./||' | sort > .files_before_${script}.txt
+          
+          # 初始化退出码
+          exit_code=0
+          
           # 记录开始时间（秒）
           start_time=$(date +%s)
           
           # 根据文件扩展名选择执行方式
+          # 重要：使用 || 捕获退出码，避免触发 set -e 导致整个脚本提前退出
           if [[ "$script" == *.php ]]; then
-            # 执行PHP脚本，如果失败则记录错误
-            php "$script" || {
-              end_time=$(date +%s)
-              duration=$((end_time - start_time))
-              echo "❌ 错误: PHP脚本 $script 执行失败 (耗时 ${duration} 秒)"
-              failed_scripts+=("$script")
-              rm -f "$script"  # 清理脚本文件
-              echo "::endgroup::"
-              continue
-            }
+            php "$script" || exit_code=$?
           elif [[ "$script" == *.py ]]; then
-            # 执行Python脚本，如果失败则记录错误
-            python "$script" || {
-              end_time=$(date +%s)
-              duration=$((end_time - start_time))
-              echo "❌ 错误: Python脚本 $script 执行失败 (耗时 ${duration} 秒)"
-              failed_scripts+=("$script")
-              rm -f "$script"  # 清理脚本文件
-              echo "::endgroup::"
-              continue
-            }
+            python "$script" || exit_code=$?
           fi
           
-          # 执行成功后删除脚本文件，不保留在仓库中
+          # 执行后删除主脚本文件，不保留在仓库中
           end_time=$(date +%s)
           duration=$((end_time - start_time))
           rm -f "$script"
+          
+          # 检查执行结果
+          if [ $exit_code -ne 0 ]; then
+            echo "❌ 错误: 脚本 $script 执行失败 (耗时 ${duration} 秒)"
+            failed_scripts+=("$script")
+            rm -f .files_before_${script}.txt
+            echo "::endgroup::"
+            continue
+          fi
+          
           echo "✅ 脚本 $script 执行成功 (耗时 ${duration} 秒)"
+          
+          # ---- 检测新增文件，并将匹配后缀的数据文件移入 epg_safe ----
+          find . -maxdepth 1 -type f ! -name ".files_*" | sed 's|^\./||' | sort > .files_after_${script}.txt
+          new_files=$(comm -13 .files_before_${script}.txt .files_after_${script}.txt | grep -v "^$" || true)
+          
+          if [ -n "$new_files" ]; then
+            echo "📁 检测到新生成的文件，检查后缀并移动..."
+            for file in $new_files; do
+              should_save=false
+              for ext in "${SAVE_EXTENSIONS[@]}"; do
+                if [[ "$file" == *"$ext" ]]; then
+                  should_save=true
+                  break
+                fi
+              done
+              
+              if [ "$should_save" = true ] && [ -f "$file" ]; then
+                mv "$file" "epg_safe/"
+                echo "  ✅ 已移动: $file -> epg_safe/"
+              else
+                echo "  ℹ️ 忽略非保存文件: $file"
+              fi
+            done
+          else
+            echo "ℹ️ 本脚本未生成新文件"
+          fi
+          
+          rm -f .files_before_${script}.txt .files_after_${script}.txt
           echo "::endgroup::"
         done
         
         # 清理临时目录，不保留私有仓库的副本
         rm -rf private_repo_temp
+        
+        # 所有脚本执行完毕后，检查 epg_safe 目录是否有内容
+        if [ "$(ls -A epg_safe 2>/dev/null)" ]; then
+          echo "HAS_EPG_FILES=true" >> $GITHUB_ENV
+        else
+          echo "HAS_EPG_FILES=false" >> $GITHUB_ENV
+        fi
+        
+        # 列出 epg_safe 目录内容（用于调试）
+        echo "===================================="
+        echo "📂 当前 epg_safe 目录内容（用于调试）:"
+        if [ -d "epg_safe" ] && [ "$(ls -A epg_safe 2>/dev/null)" ]; then
+          ls -la epg_safe/
+        else
+          echo "ℹ️ epg_safe 目录为空或不存在"
+        fi
+        echo "===================================="
         
         # 报告所有脚本的执行结果
         echo "=== 脚本执行结果 ==="
@@ -251,13 +301,29 @@ jobs:
       run: |
         mkdir -p epg  # 创建epg目录用于存放生成的XML文件
 
-    # 步骤10: 移动XML文件到epg目录
-    - name: Move XML files to epg directory
+    # 步骤10: 从安全目录移动数据文件到epg目录
+    - name: Move files from epg_safe to epg directory
+      if: env.HAS_EPG_FILES == 'true'
       run: |
-        # 查找当前目录下所有XML和XML.GZ文件并移动到epg目录
-        # 支持常规XML文件和压缩的XML.GZ文件
-        find . -maxdepth 1 -name "*.xml" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到XML文件"
-        find . -maxdepth 1 -name "*.xml.gz" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到XML.GZ文件"
+        echo "📁 从安全目录 epg_safe 移动数据文件到 epg..."
+        
+        # 移动前显示 epg_safe 内容
+        echo "📂 移动前 epg_safe 目录内容:"
+        if [ -d "epg_safe" ] && [ "$(ls -A epg_safe 2>/dev/null)" ]; then
+          ls -la epg_safe/
+        else
+          echo "ℹ️ epg_safe 目录为空"
+        fi
+        
+        if [ -d "epg_safe" ] && [ "$(ls -A epg_safe)" ]; then
+          mv epg_safe/* epg/
+          echo "✅ 已移动所有文件到 epg/"
+          echo "📊 epg目录内容:"
+          ls -la epg/
+          rmdir epg_safe 2>/dev/null || true
+        else
+          echo "ℹ️ epg_safe 目录为空，无需移动"
+        fi
 
     # 步骤11: 配置Git用户信息
     - name: Configure Git
