@@ -10,7 +10,7 @@ name: test_multiple-scripts
 #   - 将生成的Python备份文件推送到私有仓库tvepg的epg_scripts分支
 #
 # 主要特性:
-#   - 支持多语言多脚本（PHP 8.1 + Python 3.9）
+#   - 支持多语言多脚本（PHP 8.2 + Python 3.13）
 #   - 安全的私有仓库访问（使用PAT_TOKEN）
 #   - 自动错误处理和报告机制
 #   - 脚本执行后自动清理，不保留在公共仓库
@@ -56,7 +56,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
-        python-version: '3.9'  # 指定Python 3.9版本
+        python-version: '3.13'  # 指定Python 3.13版本
 
     # 步骤3: 设置PHP环境
     - name: Set up PHP
@@ -187,7 +187,7 @@ jobs:
           # "get_kbro_epg.py"
           # "get_celestial_epg.py"
           # "get_tvmao_epg.py"
-          "get_fujianhaibotv_epg.py"
+          "get_ctitv_epg.py"
         )
         
         # 记录执行前的文件列表
