@@ -70,7 +70,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip  # 升级pip到最新版本
         # 安装Python脚本可能需要的库
-        pip install requests beautifulsoup4 lxml pytz httpx aiohttp loguru curl_cffi
+        pip install requests beautifulsoup4 lxml pytz httpx aiohttp loguru
 
     # 步骤5: 安装PHP扩展（已注释，如需可取消）
     # - name: Install PHP dependencies
@@ -168,7 +168,7 @@ jobs:
         
         echo "===================================="
 
-    # 步骤8: 定义并执行主脚本数组（含耗时统计）
+    # 步骤8: 定义并执行主脚本数组（含耗时统计，逐脚本即时保存XML）
     - name: Define and execute main scripts
       id: execute-scripts
       run: |
@@ -189,8 +189,8 @@ jobs:
           # "get_tvmao_epg.py"
         )
         
-        # 记录执行前的文件列表
-        echo "📝 记录执行前的文件列表..."
+        # 记录执行前的非XML文件列表（用于后续检测.py/.php等需要推送私有仓库的文件）
+        echo "📝 记录执行前的文件列表（非XML）..."
         find . -maxdepth 1 -type f \( -name "*.py" -o -name "*.php" -o -name "*.txt" -o -name "*.json" \) | sed 's|^\./||' > .files_before.txt
         echo "执行前文件列表已保存到 .files_before.txt"
         echo "===================================="
@@ -198,9 +198,11 @@ jobs:
         # 存储失败脚本的数组，用于错误报告
         failed_scripts=()
         
-        # 存储生成的文件信息
+        # 存储生成的文件信息（仅用于私有仓库的.py/.php等）
         generated_files_for_private_repo=""  # 需要推送到私有仓库的文件
-        generated_files_for_current_repo=""  # 需要保留在当前仓库的文件
+        
+        # 创建安全目录，用于暂存已生成的XML文件（避免后续脚本误删）
+        mkdir -p epg_safe
         
         # 循环执行每个主脚本
         for script in "${scripts[@]}"; do
@@ -217,86 +219,95 @@ jobs:
           # 复制脚本从临时目录到当前工作目录
           cp "private_repo_temp/$script" "./$script"
           
+          # 记录脚本执行前的XML文件列表（用于识别本脚本生成的文件）
+          find . -maxdepth 1 -type f \( -name "*.xml" -o -name "*.xml.gz" \) | sed 's|^\./||' | sort > .xml_before_${script}.txt
+          
           # 记录开始时间（秒）
           start_time=$(date +%s)
           
           # 根据文件扩展名选择执行方式
           if [[ "$script" == *.php ]]; then
-            # 执行PHP脚本，如果失败则记录错误
-            php "$script" || {
-              end_time=$(date +%s)
-              duration=$((end_time - start_time))
-              echo "❌ 错误: PHP脚本 $script 执行失败 (耗时 ${duration} 秒)"
-              failed_scripts+=("$script")
-              rm -f "$script"  # 清理脚本文件
-              echo "::endgroup::"
-              continue
-            }
+            # 执行PHP脚本
+            php "$script"
+            exit_code=$?
           elif [[ "$script" == *.py ]]; then
-            # 执行Python脚本，如果失败则记录错误
-            python_output=$(python "$script" 2>&1)
-            python_exit_code=$?
-            
-            if [ $python_exit_code -eq 0 ]; then
-              echo "$python_output"
-            else
-              end_time=$(date +%s)
-              duration=$((end_time - start_time))
-              echo "❌ 错误: Python脚本 $script 执行失败 (耗时 ${duration} 秒)"
-              echo "输出: $python_output"
-              failed_scripts+=("$script")
-              rm -f "$script"  # 清理脚本文件
-              echo "::endgroup::"
-              continue
-            fi
+            # 执行Python脚本
+            python "$script"
+            exit_code=$?
           fi
           
-          # 执行成功后删除主脚本文件，不保留在仓库中
+          # 执行后删除主脚本文件，不保留在仓库中
           end_time=$(date +%s)
           duration=$((end_time - start_time))
           rm -f "$script"
-          echo "✅ 主脚本 $script 执行成功 (耗时 ${duration} 秒)"
-          echo "::endgroup::"
-        done
-        
-        # 记录执行后的文件列表
-        echo "📝 记录执行后的文件列表..."
-        find . -maxdepth 1 -type f \( -name "*.py" -o -name "*.php" -o -name "*.txt" -o -name "*.json" -o -name "*.xml" -o -name "*.xml.gz" \) | sed 's|^\./||' > .files_after.txt
-        
-        # 识别新生成的文件（执行后存在但执行前不存在的文件）
-        echo "🔍 检测新生成的文件..."
-        while IFS= read -r file; do
-          # 跳过空行和标记文件
-          if [ -z "$file" ] || [[ "$file" == ".dependencies_marker" ]] || [[ "$file" == ".files_before.txt" ]] || [[ "$file" == ".files_after.txt" ]]; then
+          
+          # 检查执行结果
+          if [ $exit_code -ne 0 ]; then
+            echo "❌ 错误: 脚本 $script 执行失败 (耗时 ${duration} 秒)"
+            failed_scripts+=("$script")
+            # 清理临时XML列表
+            rm -f .xml_before_${script}.txt
+            echo "::endgroup::"
             continue
           fi
           
-          # 检查文件是否在执行前不存在
+          echo "✅ 主脚本 $script 执行成功 (耗时 ${duration} 秒)"
+          
+          # ---- 关键改动：即时保存本脚本生成的 XML 文件 ----
+          # 找出执行后新增的 XML 文件
+          find . -maxdepth 1 -type f \( -name "*.xml" -o -name "*.xml.gz" \) | sed 's|^\./||' | sort > .xml_after_${script}.txt
+          # 比较差异，得到新增的文件
+          new_xml=$(comm -13 .xml_before_${script}.txt .xml_after_${script}.txt | grep -v "^$" || true)
+          
+          if [ -n "$new_xml" ]; then
+            echo "📁 检测到新生成的 XML 文件，立即移动到安全目录 epg_safe/"
+            for file in $new_xml; do
+              if [ -f "$file" ]; then
+                mv "$file" "epg_safe/"
+                echo "  ✅ 已移动: $file -> epg_safe/"
+              fi
+            done
+          else
+            echo "ℹ️ 本脚本未生成新的 XML 文件"
+          fi
+          
+          # 清理临时XML列表
+          rm -f .xml_before_${script}.txt .xml_after_${script}.txt
+          
+          echo "::endgroup::"
+        done
+        
+        # 所有脚本执行完毕后，检查 epg_safe 目录是否有内容，设置环境变量供后续步骤使用
+        if [ "$(ls -A epg_safe 2>/dev/null)" ]; then
+          echo "HAS_CURRENT_REPO_FILES=true" >> $GITHUB_ENV
+          echo "CURRENT_REPO_FILES=epg_safe/*" >> $GITHUB_ENV   # 标识用途，实际移动由步骤12完成
+        else
+          echo "HAS_CURRENT_REPO_FILES=false" >> $GITHUB_ENV
+        fi
+        
+        # ---- 原有逻辑：检测新生成的 .py/.php 等文件（用于推送到私有仓库） ----
+        # 记录执行后的文件列表（仅非XML文件）
+        echo "🔍 检测新生成的脚本/配置文件..."
+        find . -maxdepth 1 -type f \( -name "*.py" -o -name "*.php" -o -name "*.txt" -o -name "*.json" \) | sed 's|^\./||' > .files_after.txt
+        
+        # 识别新生成的文件（执行后存在但执行前不存在的文件，排除依赖标记等）
+        while IFS= read -r file; do
+          if [ -z "$file" ] || [[ "$file" == ".dependencies_marker" ]] || [[ "$file" == ".files_before.txt" ]] || [[ "$file" == ".files_after.txt" ]]; then
+            continue
+          fi
           if ! grep -qxF "$file" .files_before.txt; then
-            echo "📁 检测到新生成的文件: $file"
-            
-            # 根据文件类型分类
-            if [[ "$file" == *.py ]] || [[ "$file" == *.php ]]; then
-              # 这些类型的文件应该推送到私有仓库
-              generated_files_for_private_repo="$generated_files_for_private_repo $file"
-            elif [[ "$file" == *.xml ]] || [[ "$file" == *.xml.gz ]]; then
-              # XML文件应该保留在当前仓库的epg目录
-              generated_files_for_current_repo="$generated_files_for_current_repo $file"
-            fi
+            echo "📁 检测到新生成的脚本文件: $file"
+            generated_files_for_private_repo="$generated_files_for_private_repo $file"
           fi
         done < .files_after.txt
         
-        # 检测依赖文件是否被修改（比较文件内容）
+        # 检测依赖文件是否被修改（比较内容）
         echo "🔍 检测依赖文件是否被修改..."
         if [ -f ".dependencies_marker" ]; then
-          # 提取依赖文件列表
           dependency_files=$(sed -n '/DEPENDENCY_FILES_START/,/DEPENDENCY_FILES_END/p' .dependencies_marker | grep -v "DEPENDENCY_FILES" | grep -v "^$")
-          
           for dep_file in $dependency_files; do
             if [ -f "$dep_file" ]; then
-              # 检查文件是否在私有仓库中也有对应的文件
               if [ -f "private_repo_temp/$dep_file" ]; then
-                # 比较当前文件和私有仓库中的原始文件
                 if ! cmp -s "$dep_file" "private_repo_temp/$dep_file"; then
                   echo "📁 依赖文件被修改: $dep_file"
                   generated_files_for_private_repo="$generated_files_for_private_repo $dep_file"
@@ -304,8 +315,7 @@ jobs:
                   echo "ℹ️ 依赖文件未修改: $dep_file"
                 fi
               else
-                # 如果私有仓库中没有对应文件，但这个文件是我们创建的默认文件
-                # 检查它是否为空文件（默认的backup_channels_dict）
+                # 私有仓库中没有对应文件，可能是我们创建的默认文件
                 if [[ "$dep_file" == *"bbcable_backup_channels_dict.py"* ]]; then
                   file_content=$(cat "$dep_file" 2>/dev/null | tr -d '[:space:]')
                   if [ "$file_content" = "backup_channels_dict={}" ]; then
@@ -323,25 +333,17 @@ jobs:
         # 清理临时文件
         rm -f .files_before.txt .files_after.txt .dependencies_marker
         
-        # 清理复制的依赖文件
+        # 清理复制的依赖文件（但保留被修改的，以备推送）
         echo "===================================="
         echo "🧹 清理依赖脚本文件..."
-        
-        # 使用步骤7的输出获取复制的依赖脚本
         if [ -n "${{ steps.copy-dependencies.outputs.copied_dependencies }}" ]; then
           COPIED_DEPS="${{ steps.copy-dependencies.outputs.copied_dependencies }}"
           echo "从步骤输出获取复制的依赖脚本: $COPIED_DEPS"
-          
-          # 将依赖脚本字符串转换为数组
           IFS=' ' read -r -a dependency_array <<< "$COPIED_DEPS"
-          
           for dependency in "${dependency_array[@]}"; do
-            # 去除可能的空格
             dependency=$(echo "$dependency" | xargs)
             if [ -n "$dependency" ] && [ -f "$dependency" ]; then
-              # 检查这个依赖文件是否需要推送到私有仓库
               if [[ ! " $generated_files_for_private_repo " =~ " $dependency " ]]; then
-                # 不需要推送，可以清理
                 rm -f "$dependency"
                 echo "✅ 已清理未修改的依赖文件: $dependency"
               else
@@ -355,7 +357,7 @@ jobs:
         
         echo "✅ 文件清理完成!"
         
-        # 处理文件列表，移除首尾空格
+        # 设置私有仓库文件环境变量
         if [ -n "$generated_files_for_private_repo" ]; then
           generated_files_for_private_repo=$(echo $generated_files_for_private_repo | sed 's/^ *//;s/ *$//')
           echo "PRIVATE_REPO_FILES='$generated_files_for_private_repo'" >> $GITHUB_ENV
@@ -365,50 +367,34 @@ jobs:
           echo "HAS_PRIVATE_REPO_FILES=false" >> $GITHUB_ENV
         fi
         
-        if [ -n "$generated_files_for_current_repo" ]; then
-          generated_files_for_current_repo=$(echo $generated_files_for_current_repo | sed 's/^ *//;s/ *$//')
-          echo "CURRENT_REPO_FILES='$generated_files_for_current_repo'" >> $GITHUB_ENV
-          echo "HAS_CURRENT_REPO_FILES=true" >> $GITHUB_ENV
-        else
-          echo "CURRENT_REPO_FILES=''" >> $GITHUB_ENV
-          echo "HAS_CURRENT_REPO_FILES=false" >> $GITHUB_ENV
-        fi
-        
         # 报告所有脚本的执行结果
         echo "=== 脚本执行结果 ==="
         if [ ${#failed_scripts[@]} -eq 0 ]; then
           echo "✅ 所有主脚本执行成功!"
-          
-          # 报告依赖脚本状态 - 使用步骤7的输出
           if [ -n "${{ steps.copy-dependencies.outputs.failed_dependencies }}" ]; then
             echo "⚠️ 警告: 以下依赖脚本复制失败: ${{ steps.copy-dependencies.outputs.failed_dependencies }}"
           fi
-          
-          # 报告生成的文件
+          # 报告私有仓库文件
           if [ -n "$generated_files_for_private_repo" ]; then
             echo "📁 需要推送到私有仓库的文件: $generated_files_for_private_repo"
           else
             echo "ℹ️ 没有需要推送到私有仓库的文件"
           fi
-          
-          if [ -n "$generated_files_for_current_repo" ]; then
-            echo "📁 需要保留在当前仓库的文件: $generated_files_for_current_repo"
+          # 报告当前仓库XML文件（已在epg_safe）
+          if [ "$HAS_CURRENT_REPO_FILES" = "true" ]; then
+            echo "📁 需要保留在当前仓库的XML文件已保存在epg_safe，将在后续步骤移动"
           else
-            echo "ℹ️ 没有需要保留在当前仓库的文件"
+            echo "ℹ️ 没有生成任何XML文件"
           fi
-          
         else
           echo "ℹ️ 以下主脚本执行失败:"
           for failed in "${failed_scripts[@]}"; do
             echo "  - $failed"
           done
-          
-          # 报告依赖脚本状态
           if [ -n "${{ steps.copy-dependencies.outputs.failed_dependencies }}" ]; then
             echo "⚠️ 警告: 以下依赖脚本复制失败: ${{ steps.copy-dependencies.outputs.failed_dependencies }}"
           fi
-          
-          # 如果有脚本失败，退出状态为非零，使工作流标记为失败
+          # 即使有脚本失败，不退出，让流程继续（如果有已保存的XML，仍会提交）
           # exit 1
         fi
 
@@ -494,34 +480,29 @@ jobs:
         rm -rf private_repo_temp
         echo "✅ 临时目录已清理"
 
-    # 步骤12: 创建epg目录并移动XML文件
-    - name: Create epg directory and move XML files
+    # 步骤12: 从安全目录移动XML文件到epg目录（方案二）
+    - name: Create epg directory and move XML files from safe directory
       if: env.HAS_CURRENT_REPO_FILES == 'true'
-      env:
-        CURRENT_REPO_FILES: ${{ env.CURRENT_REPO_FILES }}
       run: |
-        echo "📁 创建epg目录并移动XML文件..."
-        echo "需要移动的文件: $CURRENT_REPO_FILES"
+        echo "📁 从安全目录 epg_safe 移动 XML 文件到 epg..."
         
-        # 创建epg目录
+        # 创建 epg 目录
         mkdir -p epg
         
-        # 移动XML和XML.GZ文件到epg目录
-        IFS=' ' read -r -a files_array <<< "$CURRENT_REPO_FILES"
-        
-        for file in "${files_array[@]}"; do
-          if [ -f "$file" ]; then
-            mv "$file" "epg/"
-            echo "✅ 已移动: $file -> epg/"
-          fi
-        done
-        
-        # 同时查找其他可能的XML文件（以防有遗漏）
-        find . -maxdepth 1 -name "*.xml" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到其他XML文件"
-        find . -maxdepth 1 -name "*.xml.gz" -exec mv {} epg/ \; 2>/dev/null || echo "ℹ️ 没有找到其他XML.GZ文件"
-        
-        echo "📊 epg目录内容:"
-        ls -la epg/
+        if [ -d "epg_safe" ] && [ "$(ls -A epg_safe)" ]; then
+          # 移动所有文件到 epg 目录
+          mv epg_safe/* epg/
+          echo "✅ 已移动所有文件到 epg/"
+          
+          # 显示移动结果
+          echo "📊 epg目录内容:"
+          ls -la epg/
+          
+          # 删除空的安全目录
+          rmdir epg_safe 2>/dev/null || true
+        else
+          echo "ℹ️ epg_safe 目录为空或不存在，没有文件需要移动"
+        fi
 
     # 步骤13: 配置Git用户信息（当前仓库）
     - name: Configure Git for current repository
