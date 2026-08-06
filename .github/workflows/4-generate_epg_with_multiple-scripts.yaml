@@ -70,7 +70,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip  # 升级pip到最新版本
         # 安装Python脚本可能需要的库
-        pip install requests beautifulsoup4 lxml pytz httpx aiohttp loguru
+        pip install requests beautifulsoup4 lxml pytz httpx aiohttp loguru # curl_cffi
 
     # 步骤5: 安装PHP扩展（已注释，如需可取消）
     # - name: Install PHP dependencies
@@ -168,7 +168,7 @@ jobs:
         
         echo "===================================="
 
-    # 步骤8: 定义并执行主脚本数组（含耗时统计，逐脚本即时保存XML）
+    # 步骤8: 定义并执行主脚本数组（含耗时统计，逐脚本即时保存指定后缀的文件）
     - name: Define and execute main scripts
       id: execute-scripts
       run: |
@@ -189,6 +189,9 @@ jobs:
           # "get_tvmao_epg.py"
         )
         
+        # 定义需要保存的文件后缀（可根据实际需要增删）
+        SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
+        
         # 记录执行前的非XML文件列表（用于后续检测.py/.php等需要推送私有仓库的文件）
         echo "📝 记录执行前的文件列表（非XML）..."
         find . -maxdepth 1 -type f \( -name "*.py" -o -name "*.php" -o -name "*.txt" -o -name "*.json" \) | sed 's|^\./||' > .files_before.txt
@@ -201,7 +204,7 @@ jobs:
         # 存储生成的文件信息（仅用于私有仓库的.py/.php等）
         generated_files_for_private_repo=""  # 需要推送到私有仓库的文件
         
-        # 创建安全目录，用于暂存已生成的XML文件（避免后续脚本误删）
+        # 创建安全目录，用于暂存已生成的数据文件（避免后续脚本误删）
         mkdir -p epg_safe
         
         # 循环执行每个主脚本
@@ -219,8 +222,8 @@ jobs:
           # 复制脚本从临时目录到当前工作目录
           cp "private_repo_temp/$script" "./$script"
           
-          # 记录脚本执行前的XML文件列表（用于识别本脚本生成的文件）
-          find . -maxdepth 1 -type f \( -name "*.xml" -o -name "*.xml.gz" \) | sed 's|^\./||' | sort > .xml_before_${script}.txt
+          # 记录执行前的所有文件（不包括目录）
+          find . -maxdepth 1 -type f | sed 's|^\./||' | sort > .files_before_${script}.txt
           
           # 记录开始时间（秒）
           start_time=$(date +%s)
@@ -245,35 +248,41 @@ jobs:
           if [ $exit_code -ne 0 ]; then
             echo "❌ 错误: 脚本 $script 执行失败 (耗时 ${duration} 秒)"
             failed_scripts+=("$script")
-            # 清理临时XML列表
-            rm -f .xml_before_${script}.txt
+            rm -f .files_before_${script}.txt
             echo "::endgroup::"
             continue
           fi
           
           echo "✅ 主脚本 $script 执行成功 (耗时 ${duration} 秒)"
           
-          # ---- 关键改动：即时保存本脚本生成的 XML 文件 ----
-          # 找出执行后新增的 XML 文件
-          find . -maxdepth 1 -type f \( -name "*.xml" -o -name "*.xml.gz" \) | sed 's|^\./||' | sort > .xml_after_${script}.txt
-          # 比较差异，得到新增的文件
-          new_xml=$(comm -13 .xml_before_${script}.txt .xml_after_${script}.txt | grep -v "^$" || true)
+          # ---- 检测新增文件，并只移动匹配后缀的文件 ----
+          find . -maxdepth 1 -type f | sed 's|^\./||' | sort > .files_after_${script}.txt
+          new_files=$(comm -13 .files_before_${script}.txt .files_after_${script}.txt | grep -v "^$" || true)
           
-          if [ -n "$new_xml" ]; then
-            echo "📁 检测到新生成的 XML 文件，立即移动到安全目录 epg_safe/"
-            for file in $new_xml; do
-              if [ -f "$file" ]; then
+          if [ -n "$new_files" ]; then
+            echo "📁 检测到新生成的文件，检查后缀并移动..."
+            for file in $new_files; do
+              # 检查文件是否匹配任何需要保存的后缀
+              should_save=false
+              for ext in "${SAVE_EXTENSIONS[@]}"; do
+                if [[ "$file" == *"$ext" ]]; then
+                  should_save=true
+                  break
+                fi
+              done
+              
+              if [ "$should_save" = true ] && [ -f "$file" ]; then
                 mv "$file" "epg_safe/"
                 echo "  ✅ 已移动: $file -> epg_safe/"
+              else
+                echo "  ℹ️ 忽略非保存文件: $file"
               fi
             done
           else
-            echo "ℹ️ 本脚本未生成新的 XML 文件"
+            echo "ℹ️ 本脚本未生成新文件"
           fi
           
-          # 清理临时XML列表
-          rm -f .xml_before_${script}.txt .xml_after_${script}.txt
-          
+          rm -f .files_before_${script}.txt .files_after_${script}.txt
           echo "::endgroup::"
         done
         
@@ -382,9 +391,9 @@ jobs:
           fi
           # 报告当前仓库XML文件（已在epg_safe）
           if [ "$HAS_CURRENT_REPO_FILES" = "true" ]; then
-            echo "📁 需要保留在当前仓库的XML文件已保存在epg_safe，将在后续步骤移动"
+            echo "📁 需要保留在当前仓库的数据文件已保存在epg_safe，将在后续步骤移动"
           else
-            echo "ℹ️ 没有生成任何XML文件"
+            echo "ℹ️ 没有生成任何数据文件"
           fi
         else
           echo "ℹ️ 以下主脚本执行失败:"
@@ -394,7 +403,7 @@ jobs:
           if [ -n "${{ steps.copy-dependencies.outputs.failed_dependencies }}" ]; then
             echo "⚠️ 警告: 以下依赖脚本复制失败: ${{ steps.copy-dependencies.outputs.failed_dependencies }}"
           fi
-          # 即使有脚本失败，不退出，让流程继续（如果有已保存的XML，仍会提交）
+          # 即使有脚本失败，不退出，让流程继续（如果有已保存的文件，仍会提交）
           # exit 1
         fi
 
@@ -480,11 +489,11 @@ jobs:
         rm -rf private_repo_temp
         echo "✅ 临时目录已清理"
 
-    # 步骤12: 从安全目录移动XML文件到epg目录（方案二）
-    - name: Create epg directory and move XML files from safe directory
+    # 步骤12: 从安全目录移动数据文件到epg目录
+    - name: Create epg directory and move files from safe directory
       if: env.HAS_CURRENT_REPO_FILES == 'true'
       run: |
-        echo "📁 从安全目录 epg_safe 移动 XML 文件到 epg..."
+        echo "📁 从安全目录 epg_safe 移动数据文件到 epg..."
         
         # 创建 epg 目录
         mkdir -p epg
