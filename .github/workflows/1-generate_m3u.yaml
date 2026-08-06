@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@v6
       with:
         token: ${{ secrets.PAT_TOKEN }}   # 使用个人访问令牌
-        fetch-depth: 0
+        fetch-depth: 1
 
     - name: Set up Python
       uses: actions/setup-python@v6
