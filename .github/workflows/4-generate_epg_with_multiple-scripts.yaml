@@ -10,7 +10,7 @@ name: 4 update xml to test repository and scripts to epg_scripts branch of tvepg
 #   - 将生成的Python备份文件推送到私有仓库tvepg的epg_scripts分支
 #
 # 主要特性:
-#   - 支持多语言多脚本（PHP 8.2 + Python 3.13）
+#   - 支持多语言多脚本（PHP 8.2 + Python 3.x）
 #   - 安全的私有仓库访问（使用PAT_TOKEN）
 #   - 自动错误处理和报告机制
 #   - 脚本执行后自动清理，不保留在公共仓库
@@ -56,7 +56,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
-        python-version: '3.13'  # 指定Python 3.13版本
+        python-version: '3.x'  # 指定Python 3.x版本
 
     # 步骤3: 设置PHP环境
     - name: Set up PHP
@@ -222,8 +222,11 @@ jobs:
           # 复制脚本从临时目录到当前工作目录
           cp "private_repo_temp/$script" "./$script"
           
-          # 记录执行前的所有文件（不包括目录）
-          find . -maxdepth 1 -type f | sed 's|^\./||' | sort > .files_before_${script}.txt
+          # 记录执行前的所有文件（不包括目录），并排除临时文件（以 .files_ 开头）
+          find . -maxdepth 1 -type f ! -name ".files_*" | sed 's|^\./||' | sort > .files_before_${script}.txt
+          
+          # 初始化退出码
+          exit_code=0
           
           # 记录开始时间（秒）
           start_time=$(date +%s)
@@ -253,7 +256,8 @@ jobs:
           echo "✅ 主脚本 $script 执行成功 (耗时 ${duration} 秒)"
           
           # ---- 检测新增文件，并只移动匹配后缀的文件 ----
-          find . -maxdepth 1 -type f | sed 's|^\./||' | sort > .files_after_${script}.txt
+          # 记录执行后的所有文件（排除临时文件）
+          find . -maxdepth 1 -type f ! -name ".files_*" | sed 's|^\./||' | sort > .files_after_${script}.txt
           new_files=$(comm -13 .files_before_${script}.txt .files_after_${script}.txt | grep -v "^$" || true)
           
           if [ -n "$new_files" ]; then
