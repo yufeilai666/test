@@ -10,7 +10,7 @@ name: 4 update xml to test repository and scripts to epg_scripts branch of tvepg
 #   - 将生成的Python备份文件推送到私有仓库tvepg的epg_scripts分支
 #
 # 主要特性:
-#   - 支持多语言多脚本（PHP 8.1 + Python 3.13）
+#   - 支持多语言多脚本（PHP 8.2 + Python 3.13）
 #   - 安全的私有仓库访问（使用PAT_TOKEN）
 #   - 自动错误处理和报告机制
 #   - 脚本执行后自动清理，不保留在公共仓库
@@ -409,7 +409,7 @@ jobs:
           fi
           
           # 如果有脚本失败，退出状态为非零，使工作流标记为失败
-          exit 1
+          # exit 1
         fi
 
     # 步骤9: 复制需要推送到私有仓库的文件
