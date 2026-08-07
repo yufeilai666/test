@@ -105,9 +105,9 @@ jobs:
           set +e
 
           scripts=(
-            # "epg_scripts/fetch_preview_cwjd_BaiduOCR.py"
+            "epg_scripts/fetch_preview_cwjd_BaiduOCR.py"
             "epg_scripts/fetch_preview_cwjd_EasyOCR.py"
-            # "epg_scripts/fetch_preview_cwjd_TesseractOCR.py"
+            "epg_scripts/fetch_preview_cwjd_TesseractOCR.py"
           )
 
           failed_full_paths=()
