@@ -82,9 +82,9 @@ jobs:
         ref: epg_scripts  # 指定分支
         path: private_repo_temp  # 检出到指定目录
 
-    # 步骤6.5: 复制依赖文件到临时目录（仅复制存在的，不创建默认文件）
-    - name: Copy dependency files
-      id: copy-deps
+    # 步骤6.5: 创建临时目录，复制依赖文件和主脚本到临时目录
+    - name: Prepare temporary directory and copy scripts
+      id: prepare
       run: |
         # 定义依赖文件数组
         dependency_scripts=(
@@ -95,32 +95,8 @@ jobs:
           # "config.json"
         )
         
-        echo "🎱 依赖文件数量: ${#dependency_scripts[@]}"
-        
-        # 创建临时目录
-        WORKDIR="workdir_$(date +%s)"
-        mkdir -p "$WORKDIR"
-        echo "📁 创建临时工作目录: $WORKDIR"
-        
-        # 循环复制每个依赖文件到临时目录
-        for dep_script in "${dependency_scripts[@]}"; do
-          echo "📋 复制依赖文件: $dep_script"
-          if [ -f "private_repo_temp/$dep_script" ]; then
-            cp "private_repo_temp/$dep_script" "$WORKDIR/"
-            echo "✅ 已复制 $dep_script"
-          else
-            echo "⚠️ 警告: 依赖文件 $dep_script 在 tvepg/epg_scripts 分支不存在，跳过"
-          fi
-        done
-        
-        # 保存临时目录路径供后续步骤使用
-        echo "WORKDIR=$WORKDIR" >> $GITHUB_ENV
-        echo "dependency_count=${#dependency_scripts[@]}" >> $GITHUB_OUTPUT
-
-    # 步骤7: 在临时目录中执行主脚本，并收集生成的数据文件
-    - name: Define and execute scripts in temporary directory
-      run: |
         # 定义要获取并执行的脚本数组（PHP和Python）
+        # 可以轻松添加、移除或注释不需要的脚本
         scripts=(
           # "get_tvmao_epg.py"
           "get_tvbanywhereusa_epg.php"
@@ -141,12 +117,25 @@ jobs:
           "get_gxntv_epg.py"
         )
         
-        # 定义需要保存的数据文件后缀
-        SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
+        # 将主脚本列表存入环境变量（逗号分隔），供执行步骤使用
+        scripts_str=$(IFS=','; echo "${scripts[*]}")
+        echo "SCRIPTS=$scripts_str" >> $GITHUB_ENV
         
-        # 获取临时目录路径
-        WORKDIR="${{ env.WORKDIR }}"
-        echo "📁 使用临时目录: $WORKDIR"
+        # 创建临时目录（使用时间戳确保唯一性）
+        WORKDIR="workdir_$(date +%s)"
+        mkdir -p "$WORKDIR"
+        echo "📁 创建临时工作目录: $WORKDIR"
+        
+        # 复制依赖文件到临时目录
+        echo "📋 复制依赖文件到临时目录..."
+        for dep_script in "${dependency_scripts[@]}"; do
+          if [ -f "private_repo_temp/$dep_script" ]; then
+            cp "private_repo_temp/$dep_script" "$WORKDIR/"
+            echo "  ✅ 已复制依赖文件: $dep_script"
+          else
+            echo "  ⚠️ 警告: 依赖文件 $dep_script 在 tvepg/epg_scripts 分支不存在，跳过"
+          fi
+        done
         
         # 复制主脚本到临时目录
         echo "📋 复制主脚本到临时目录..."
@@ -155,16 +144,27 @@ jobs:
             cp "private_repo_temp/$script" "$WORKDIR/"
             echo "  ✅ 已复制主脚本: $script"
           else
-            echo "⚠️ 警告: 主脚本 $script 在 tvepg/epg_scripts 分支不存在，跳过"
+            echo "  ⚠️ 警告: 主脚本 $script 在 tvepg/epg_scripts 分支不存在，跳过"
           fi
         done
         
-        # 存储失败脚本的数组
-        failed_scripts=()
+        # 保存临时目录路径供后续步骤使用
+        echo "WORKDIR=$WORKDIR" >> $GITHUB_ENV
         
-        # 进入临时目录
+        echo "📍 临时目录已准备就绪: $WORKDIR"
+
+    # 步骤7: 进入临时目录执行所有主脚本（含重试、计时、错误收集）
+    - name: Execute main scripts in temporary directory
+      run: |
+        WORKDIR="${{ env.WORKDIR }}"
         cd "$WORKDIR"
         echo "📍 当前工作目录: $(pwd)"
+        
+        # 从环境变量读取主脚本列表
+        IFS=',' read -r -a scripts <<< "${{ env.SCRIPTS }}"
+        
+        # 存储失败脚本的数组
+        failed_scripts=()
         
         # 重试函数（每个脚本最多3次）
         retry() {
@@ -215,7 +215,31 @@ jobs:
           echo "::endgroup::"
         done
         
-        # ---- 收集生成的数据文件（匹配后缀）并复制到 ../epg/ ----
+        # 记录失败脚本到环境变量（供后续提交信息使用）
+        if [ ${#failed_scripts[@]} -gt 0 ]; then
+          failed_names_str=$(IFS=','; echo "${failed_scripts[*]}")
+          echo "FAILED_SCRIPTS=$failed_names_str" >> $GITHUB_ENV
+          echo "❌ 以下脚本执行失败: $failed_names_str"
+        else
+          echo "✅ 所有脚本执行成功"
+        fi
+        
+        # 返回上级目录（临时目录保留给下一步收集文件）
+        cd ..
+
+    # 步骤8: 收集生成的数据文件并复制到 epg/，然后清理临时目录
+    - name: Collect generated data files and clean up temporary directory
+      run: |
+        WORKDIR="${{ env.WORKDIR }}"
+        echo "📁 使用临时目录: $WORKDIR"
+        
+        # 进入临时目录
+        cd "$WORKDIR"
+        
+        # 定义需要保存的数据文件后缀（可根据实际需要增删）
+        SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
+        
+        # 收集生成的数据文件
         echo "📂 收集生成的数据文件..."
         mkdir -p ../epg
         for ext in "${SAVE_EXTENSIONS[@]}"; do
@@ -230,39 +254,27 @@ jobs:
         # 返回上级目录
         cd ..
         
-        # ---- 清理临时目录 ----
+        # 清理临时目录
         rm -rf "$WORKDIR"
         echo "🧹 临时目录已清理: $WORKDIR"
         
         # 清理私有仓库临时目录
         rm -rf private_repo_temp
         
-        # ---- 设置环境变量 ----
+        # 设置环境变量，指示是否有数据文件生成
         if [ "$(ls -A epg 2>/dev/null)" ]; then
           echo "HAS_EPG_FILES=true" >> $GITHUB_ENV
         else
           echo "HAS_EPG_FILES=false" >> $GITHUB_ENV
         fi
-        
-        # ---- 报告执行结果 ----
-        echo "=== 脚本执行结果 ==="
-        if [ ${#failed_scripts[@]} -eq 0 ]; then
-          echo "✅ 所有脚本执行成功!"
-        else
-          echo "ℹ️ 以下脚本执行失败:"
-          for failed in "${failed_scripts[@]}"; do
-            echo "  - $failed"
-          done
-          # 仅报告，不退出（允许后续步骤继续）
-        fi
 
-    # 步骤8: 配置Git用户信息
+    # 步骤9: 配置Git用户信息
     - name: Configure Git
       run: |
         git config user.name "GitHub Actions"  # 设置提交者名称
         git config user.email "actions@github.com"  # 设置提交者邮箱
 
-    # 步骤9: 拉取当前仓库最新更改（防止推送冲突）
+    # 步骤10: 拉取当前仓库最新更改（防止推送冲突）
     - name: Pull latest changes from current repository
       run: |
         echo "🔄 拉取当前仓库最新更改..."
@@ -271,7 +283,7 @@ jobs:
         }
         echo "✅ 已同步到当前仓库最新状态"
 
-    # 步骤10: 获取北京时间并提交更改到当前仓库
+    # 步骤11: 获取北京时间并提交更改到当前仓库
     - name: Get Beijing time and commit changes to current repository
       run: |
         BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
