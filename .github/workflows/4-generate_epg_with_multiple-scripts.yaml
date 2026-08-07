@@ -1,11 +1,11 @@
-name: 4 update xml to test repository and scripts to epg_scripts branch of tvepg private repository
+name: 4 update xml to current repository and scripts to epg_scripts branch of tvepg private repository
 
 ###############################################################################
 # EPG数据自动生成工作流
 # 
 # 功能概述:
 #   - 从私有仓库获取EPG生成脚本（PHP/Python）
-#   - 自动执行脚本生成XML格式的电子节目指南数据
+#   - 在临时目录中执行脚本，避免污染工作目录
 #   - 将生成的EPG数据推送到当前仓库的epg目录
 #   - 将生成的Python备份文件推送到私有仓库tvepg的epg_scripts分支
 #
@@ -13,10 +13,9 @@ name: 4 update xml to test repository and scripts to epg_scripts branch of tvepg
 #   - 支持多语言多脚本（PHP 8.2 + Python 3.x）
 #   - 安全的私有仓库访问（使用PAT_TOKEN）
 #   - 自动错误处理和报告机制
-#   - 脚本执行后自动清理，不保留在公共仓库
+#   - 脚本执行后自动清理临时目录，不保留任何残留
 #   - 北京时间戳的提交信息
-#   - 可配置的脚本执行列表和依赖脚本列表
-#   - 支持动态和静态依赖文件处理
+#   - 可配置的脚本执行列表和依赖文件列表
 #   - 支持所有生成文件类型（.py, .xml, .xml.gz等）
 #   - 支持双向同步：从私有仓库拉取脚本，并将生成文件推送回私有仓库
 #
@@ -29,8 +28,8 @@ name: 4 update xml to test repository and scripts to epg_scripts branch of tvepg
 #   - 私有仓库tvepg的epg_scripts分支包含所需的EPG脚本
 #
 # 输出结果:
-#   - 生成的XML文件将保存在epg目录中
-#   - 生成的Python备份文件将推送回私有仓库
+#   - 生成的XML文件将保存在当前仓库的epg目录中
+#   - 生成的Python备份文件将推送回tvepg/epg_scripts分支
 #   - 详细的执行日志和错误报告
 ###############################################################################
 
@@ -45,7 +44,7 @@ jobs:
     runs-on: ubuntu-latest  # 使用最新版Ubuntu系统作为运行环境
     
     steps:
-    # 步骤1: 检出当前仓库代码
+    # 步骤1: 检出当前仓库（作为最终推送目标的工作目录）
     - name: Checkout current repository
       uses: actions/checkout@v6
       with:
@@ -78,7 +77,7 @@ jobs:
         # sudo apt-get update
         # sudo apt-get install -y php-curl php-xml php-mbstring        
 
-    # 步骤6: 检出私有仓库的epg_scripts分支
+    # 步骤6: 检出tvepg仓库的epg_scripts分支（用于获取脚本和依赖）
     - name: Checkout private repository (epg_scripts branch)
       uses: actions/checkout@v6
       with:
@@ -87,92 +86,76 @@ jobs:
         ref: epg_scripts  # 指定分支
         path: private_repo_temp  # 检出到指定目录
 
-    # 步骤7: 从私有仓库复制依赖脚本文件
-    - name: Copy dependency scripts from private repository
+    # 步骤7: 从tvepg/epg_scripts分支复制依赖文件（仅复制存在的文件，不存在则报错，不创建默认文件）
+    - name: Copy dependency files from private repository
       id: copy-dependencies
       run: |
-        echo "📁 从私有仓库复制依赖脚本文件..."
+        echo "📁 从 tvepg/epg_scripts 分支复制依赖文件到临时目录..."
         
-        # 定义需要复制的依赖脚本数组
-        # 可以根据需要轻松添加、移除或注释依赖脚本
+        # 定义需要复制的依赖文件数组
+        # 可以根据需要轻松添加、移除或注释依赖文件
         dependency_scripts=(
           # Python依赖脚本
           "bbcable_backup_channels_dict.py"
-          # 可以添加更多依赖脚本
+          # 可以添加更多依赖文件
           "tvmao_channels_list.py"
           # "config.json"
         )
         
-        # 存储成功复制的依赖脚本
+        # 存储成功复制的依赖文件
         copied_dependencies=""
         
-        # 存储失败的依赖脚本
+        # 存储失败的依赖文件
         failed_dependencies=""
         
-        # 记录复制前的文件状态（用于后续检测哪些文件是复制的依赖文件）
-        echo "DEPENDENCY_FILES_START" > .dependencies_marker
-        echo "以下文件是复制的依赖文件:" >> .dependencies_marker
-        
-        # 循环复制每个依赖脚本
+        # 循环复制每个依赖文件
         for dependency in "${dependency_scripts[@]}"; do
-          echo "📋 处理依赖脚本: $dependency"
+          echo "📋 处理依赖文件: $dependency"
           
-          # 检查依赖脚本在私有仓库中是否存在
+          # 检查依赖文件在私有仓库中是否存在
           if [ -f "private_repo_temp/$dependency" ]; then
-            # 复制依赖脚本到当前工作目录
-            cp "private_repo_temp/$dependency" "./$dependency"
-            
-            # 记录这个文件是依赖文件
-            echo "$dependency" >> .dependencies_marker
-            
+            # 先复制到临时目录（稍后统一处理），这里先存到变量，后续在步骤8中复制
+            # 由于我们使用临时目录，这里只记录，不实际复制到根目录
+            # 将依赖文件路径保存到环境变量，供步骤8使用
+            echo "✅ 找到依赖文件: $dependency"
             copied_dependencies="$copied_dependencies $dependency"
-            echo "✅ 已复制依赖脚本: $dependency"
           else
-            echo "❌ 错误: 私有仓库中未找到依赖脚本 $dependency"
+            echo "❌ 错误: tvepg/epg_scripts 分支中未找到依赖文件 $dependency"
             failed_dependencies="$failed_dependencies $dependency"
-            
-            # 对于某些关键依赖文件，可以创建默认文件以允许继续执行
-            if [[ "$dependency" == *"bbcable_backup_channels_dict.py"* ]]; then
-              echo "⚠️ 创建空字典文件以便继续执行: $dependency"
-              echo 'backup_channels_dict = {}' > "$dependency"
-              echo "$dependency" >> .dependencies_marker  # 记录这个生成的默认文件也是依赖文件
-              copied_dependencies="$copied_dependencies $dependency"
-            fi
+            # 注意：不创建任何默认文件，保持原始逻辑
           fi
         done
         
-        echo "DEPENDENCY_FILES_END" >> .dependencies_marker
-        
         echo "===================================="
-        echo "📊 依赖脚本复制结果:"
+        echo "📊 依赖文件检查结果:"
         if [ -n "$copied_dependencies" ]; then
-          echo "✅ 成功复制的依赖脚本:$copied_dependencies"
-          # 将复制的依赖脚本列表保存到环境变量，供后续步骤使用
+          echo "✅ 找到的依赖文件:$copied_dependencies"
+          # 将依赖文件列表保存到环境变量，供后续步骤使用
           COPIED_DEPENDENCIES=$(echo "$copied_dependencies" | sed 's/^ *//;s/ *$//')
           echo "COPIED_DEPENDENCIES=$COPIED_DEPENDENCIES" >> $GITHUB_ENV
           echo "copied_dependencies=$COPIED_DEPENDENCIES" >> $GITHUB_OUTPUT
         else
-          echo "ℹ️ 没有成功复制任何依赖脚本"
+          echo "ℹ️ 没有找到任何依赖文件"
         fi
         
         if [ -n "$failed_dependencies" ]; then
-          echo "❌ 复制失败的依赖脚本:$failed_dependencies"
+          echo "❌ 未找到的依赖文件:$failed_dependencies"
           # 保存失败列表到环境变量
           FAILED_DEPENDENCIES=$(echo "$failed_dependencies" | sed 's/^ *//;s/ *$//')
           echo "FAILED_DEPENDENCIES=$FAILED_DEPENDENCIES" >> $GITHUB_ENV
           echo "failed_dependencies=$FAILED_DEPENDENCIES" >> $GITHUB_OUTPUT
-          echo "⚠️ 警告: 部分依赖脚本缺失，可能会影响后续脚本执行"
+          echo "⚠️ 警告: 部分依赖文件缺失，可能会影响后续脚本执行"
         else
-          echo "✅ 所有依赖脚本复制成功"
+          echo "✅ 所有依赖文件都已找到"
         fi
         
         echo "===================================="
 
-    # 步骤8: 定义并执行主脚本数组（含耗时统计，逐脚本即时保存指定后缀的文件）
-    - name: Define and execute main scripts
+    # 步骤8: 在临时目录中执行所有主脚本，并收集生成的文件
+    - name: Define and execute main scripts in temporary directory
       id: execute-scripts
       run: |
-        # 定义要获取并执行的主脚本数组（PHP和Python）
+        # 定义要执行的主脚本数组（PHP和Python）
         # 可以轻松添加、移除或注释不需要的脚本
         scripts=(
           # "get_bbcable_backup_channels_dict.py"  # 获取BB宽频多个频道的字典
@@ -189,187 +172,187 @@ jobs:
           # "get_tvmao_epg.py"
         )
         
-        # 定义需要保存的文件后缀（可根据实际需要增删）
+        # 定义需要保存到当前仓库 epg 目录的数据文件后缀
         SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
         
-        # 记录执行前的非XML文件列表（用于后续检测.py/.php等需要推送私有仓库的文件）
-        echo "📝 记录执行前的文件列表（非XML）..."
-        find . -maxdepth 1 -type f \( -name "*.py" -o -name "*.php" -o -name "*.txt" -o -name "*.json" \) | sed 's|^\./||' > .files_before.txt
-        echo "执行前文件列表已保存到 .files_before.txt"
-        echo "===================================="
-        
-        # 存储失败脚本的数组，用于错误报告
+        # 存储失败脚本的数组
         failed_scripts=()
         
-        # 存储生成的文件信息（仅用于私有仓库的.py/.php等）
-        generated_files_for_private_repo=""  # 需要推送到私有仓库的文件
+        # 记录将要推送到远程 tvepg/epg_scripts 分支的脚本文件及被修改的依赖文件
+        generated_files_for_private_repo=""
         
-        # 创建安全目录，用于暂存已生成的数据文件（避免后续脚本误删）
-        mkdir -p epg_safe
+        # 创建临时目录（使用时间戳确保唯一性）
+        WORKDIR="workdir_$(date +%s)"
+        mkdir -p "$WORKDIR"
+        echo "📁 创建临时工作目录: $WORKDIR"
+        
+        # ---- 复制依赖文件到临时目录 ----
+        if [ -n "${{ steps.copy-dependencies.outputs.copied_dependencies }}" ]; then
+          COPIED_DEPS="${{ steps.copy-dependencies.outputs.copied_dependencies }}"
+          echo "📋 复制依赖文件到临时目录..."
+          IFS=' ' read -r -a dependency_array <<< "$COPIED_DEPS"
+          for dependency in "${dependency_array[@]}"; do
+            dependency=$(echo "$dependency" | xargs)
+            if [ -n "$dependency" ] && [ -f "private_repo_temp/$dependency" ]; then
+              cp "private_repo_temp/$dependency" "$WORKDIR/"
+              echo "  ✅ 已复制依赖文件: $dependency"
+            fi
+          done
+        else
+          echo "ℹ️ 没有依赖文件需要复制"
+        fi
+        
+        # ---- 复制主脚本到临时目录 ----
+        echo "📋 复制主脚本到临时目录..."
+        for script in "${scripts[@]}"; do
+          if [ -f "private_repo_temp/$script" ]; then
+            cp "private_repo_temp/$script" "$WORKDIR/"
+            echo "  ✅ 已复制主脚本: $script"
+          else
+            echo "⚠️ 警告: 主脚本 $script 在 tvepg/epg_scripts 分支不存在，跳过"
+            failed_scripts+=("$script (不存在)")
+          fi
+        done
+        
+        # ---- 进入临时目录执行所有主脚本 ----
+        cd "$WORKDIR"
+        echo "📍 当前工作目录: $(pwd)"
+        
+        # 重试函数（每个脚本最多3次）
+        retry() {
+          local max_attempts=3
+          local attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            if eval "$@"; then
+              return 0
+            fi
+            echo "⚠️ 第 $attempt 次尝试失败，2 秒后重试..."
+            sleep 2
+            attempt=$((attempt + 1))
+          done
+          return 1
+        }
         
         # 循环执行每个主脚本
         for script in "${scripts[@]}"; do
-          echo "::group::🛠 执行 $script"
-          
-          # 检查脚本在私有仓库中是否存在
-          if [ ! -f "private_repo_temp/$script" ]; then
-            echo "⚠️ 警告: 脚本 $script 不存在，跳过"
-            failed_scripts+=("$script (不存在)")
-            echo "::endgroup::"
+          # 检查脚本是否存在于临时目录（可能之前复制失败）
+          if [ ! -f "$script" ]; then
+            echo "⚠️ 警告: 脚本 $script 不在临时目录，跳过"
             continue
           fi
           
-          # 复制脚本从临时目录到当前工作目录
-          cp "private_repo_temp/$script" "./$script"
-          
-          # 记录执行前的所有文件（不包括目录），并排除临时文件（以 .files_ 开头）
-          find . -maxdepth 1 -type f ! -name ".files_*" | sed 's|^\./||' | sort > .files_before_${script}.txt
+          echo "::group::🛠 执行 $script"
+          echo "=== 开始执行: $script ==="
           
           # 初始化退出码
           exit_code=0
           
-          # 记录开始时间（秒）
+          # 记录开始时间
           start_time=$(date +%s)
           
-          # 根据文件扩展名选择执行方式
-          # 重要：使用 || 捕获退出码，避免触发 set -e 导致整个脚本提前退出
+          # 根据扩展名执行
           if [[ "$script" == *.php ]]; then
             php "$script" || exit_code=$?
           elif [[ "$script" == *.py ]]; then
             python "$script" || exit_code=$?
+          else
+            echo "❌ 不支持的脚本类型: $script"
+            exit_code=1
           fi
           
-          # 执行后删除主脚本文件，不保留在仓库中
           end_time=$(date +%s)
           duration=$((end_time - start_time))
-          rm -f "$script"
           
-          # 检查执行结果
           if [ $exit_code -ne 0 ]; then
-            echo "❌ 错误: 脚本 $script 执行失败 (耗时 ${duration} 秒)"
+            echo "❌ 脚本 $script 执行失败 (耗时 ${duration} 秒)"
             failed_scripts+=("$script")
-            rm -f .files_before_${script}.txt
-            echo "::endgroup::"
-            continue
-          fi
-          
-          echo "✅ 主脚本 $script 执行成功 (耗时 ${duration} 秒)"
-          
-          # ---- 检测新增文件，并只移动匹配后缀的文件 ----
-          # 记录执行后的所有文件（排除临时文件）
-          find . -maxdepth 1 -type f ! -name ".files_*" | sed 's|^\./||' | sort > .files_after_${script}.txt
-          new_files=$(comm -13 .files_before_${script}.txt .files_after_${script}.txt | grep -v "^$" || true)
-          
-          if [ -n "$new_files" ]; then
-            echo "📁 检测到新生成的文件，检查后缀并移动..."
-            for file in $new_files; do
-              # 检查文件是否匹配任何需要保存的后缀
-              should_save=false
-              for ext in "${SAVE_EXTENSIONS[@]}"; do
-                if [[ "$file" == *"$ext" ]]; then
-                  should_save=true
-                  break
-                fi
-              done
-              
-              if [ "$should_save" = true ] && [ -f "$file" ]; then
-                mv "$file" "epg_safe/"
-                echo "  ✅ 已移动: $file -> epg_safe/"
-              else
-                echo "  ℹ️ 忽略非保存文件: $file"
-              fi
-            done
           else
-            echo "ℹ️ 本脚本未生成新文件"
+            echo "✅ 脚本 $script 执行成功 (耗时 ${duration} 秒)"
           fi
-          
-          rm -f .files_before_${script}.txt .files_after_${script}.txt
           echo "::endgroup::"
         done
         
-        # 所有脚本执行完毕后，检查 epg_safe 目录是否有内容，设置环境变量供后续步骤使用
-        if [ "$(ls -A epg_safe 2>/dev/null)" ]; then
-          echo "HAS_CURRENT_REPO_FILES=true" >> $GITHUB_ENV
-          echo "CURRENT_REPO_FILES=epg_safe/*" >> $GITHUB_ENV   # 标识用途，实际移动由步骤12完成
-        else
-          echo "HAS_CURRENT_REPO_FILES=false" >> $GITHUB_ENV
-        fi
-        
-        # ---- 原有逻辑：检测新生成的 .py/.php 等文件（用于推送到私有仓库） ----
-        # 记录执行后的文件列表（仅非XML文件）
-        echo "🔍 检测新生成的脚本/配置文件..."
-        find . -maxdepth 1 -type f \( -name "*.py" -o -name "*.php" -o -name "*.txt" -o -name "*.json" \) | sed 's|^\./||' > .files_after.txt
-        
-        # 识别新生成的文件（执行后存在但执行前不存在的文件，排除依赖标记等）
-        while IFS= read -r file; do
-          if [ -z "$file" ] || [[ "$file" == ".dependencies_marker" ]] || [[ "$file" == ".files_before.txt" ]] || [[ "$file" == ".files_after.txt" ]]; then
-            continue
-          fi
-          if ! grep -qxF "$file" .files_before.txt; then
-            echo "📁 检测到新生成的脚本文件: $file"
-            generated_files_for_private_repo="$generated_files_for_private_repo $file"
-          fi
-        done < .files_after.txt
-        
-        # 检测依赖文件是否被修改（比较内容）
-        echo "🔍 检测依赖文件是否被修改..."
-        if [ -f ".dependencies_marker" ]; then
-          dependency_files=$(sed -n '/DEPENDENCY_FILES_START/,/DEPENDENCY_FILES_END/p' .dependencies_marker | grep -v "DEPENDENCY_FILES" | grep -v "^$")
-          for dep_file in $dependency_files; do
-            if [ -f "$dep_file" ]; then
-              if [ -f "private_repo_temp/$dep_file" ]; then
-                if ! cmp -s "$dep_file" "private_repo_temp/$dep_file"; then
-                  echo "📁 依赖文件被修改: $dep_file"
-                  generated_files_for_private_repo="$generated_files_for_private_repo $dep_file"
-                else
-                  echo "ℹ️ 依赖文件未修改: $dep_file"
-                fi
-              else
-                # 私有仓库中没有对应文件，可能是我们创建的默认文件
-                if [[ "$dep_file" == *"bbcable_backup_channels_dict.py"* ]]; then
-                  file_content=$(cat "$dep_file" 2>/dev/null | tr -d '[:space:]')
-                  if [ "$file_content" = "backup_channels_dict={}" ]; then
-                    echo "ℹ️ 默认依赖文件未修改: $dep_file"
-                  else
-                    echo "📁 默认依赖文件被修改: $dep_file"
-                    generated_files_for_private_repo="$generated_files_for_private_repo $dep_file"
-                  fi
-                fi
-              fi
+        # ---- 收集生成的数据文件（匹配后缀）并复制到 ../epg/ ----
+        echo "📂 收集生成的数据文件..."
+        mkdir -p ../epg
+        for ext in "${SAVE_EXTENSIONS[@]}"; do
+          # 查找当前目录下所有匹配后缀的文件（仅根目录）
+          for file in *"$ext"; do
+            if [ -f "$file" ]; then
+              cp "$file" "../epg/"
+              echo "  ✅ 已复制数据文件: $file -> ../epg/"
             fi
           done
-        fi
+        done
         
-        # 清理临时文件
-        rm -f .files_before.txt .files_after.txt .dependencies_marker
+        # ---- 收集生成的脚本文件并复制到 ../private_repo_temp/ ----
+        # 注意：这里要排除原始的脚本，但因为是临时目录，所有文件都是新复制的，
+        # 我们通过比较文件是否在原始主脚本列表中来判断是否为生成的。
+        echo "📂 收集生成的脚本文件..."
+        for file in *.py *.php; do
+          if [ -f "$file" ]; then
+            # 检查该文件是否在原始主脚本列表中
+            is_original=false
+            for orig_script in "${scripts[@]}"; do
+              if [ "$file" == "$orig_script" ]; then
+                is_original=true
+                break
+              fi
+            done
+            if [ "$is_original" = false ]; then
+              # 这是新生成的脚本文件，复制到 private_repo_temp 以便推送到远程
+              cp "$file" "../private_repo_temp/"
+              echo "  ✅ 已复制生成的脚本: $file -> ../private_repo_temp/"
+              generated_files_for_private_repo="$generated_files_for_private_repo $file"
+            fi
+          fi
+        done
         
-        # 清理复制的依赖文件（但保留被修改的，以备推送）
-        echo "===================================="
-        echo "🧹 清理依赖脚本文件..."
+        # ---- 检测依赖文件是否被修改（内容比较） ----
+        # 只检测步骤7中定义的那些依赖文件
         if [ -n "${{ steps.copy-dependencies.outputs.copied_dependencies }}" ]; then
           COPIED_DEPS="${{ steps.copy-dependencies.outputs.copied_dependencies }}"
-          echo "从步骤输出获取复制的依赖脚本: $COPIED_DEPS"
           IFS=' ' read -r -a dependency_array <<< "$COPIED_DEPS"
           for dependency in "${dependency_array[@]}"; do
             dependency=$(echo "$dependency" | xargs)
             if [ -n "$dependency" ] && [ -f "$dependency" ]; then
-              if [[ ! " $generated_files_for_private_repo " =~ " $dependency " ]]; then
-                rm -f "$dependency"
-                echo "✅ 已清理未修改的依赖文件: $dependency"
+              # 检查该依赖文件是否在 private_repo_temp 中也有（原始版本）
+              if [ -f "../private_repo_temp/$dependency" ]; then
+                if ! cmp -s "$dependency" "../private_repo_temp/$dependency"; then
+                  echo "📁 依赖文件被修改: $dependency"
+                  cp "$dependency" "../private_repo_temp/"
+                  generated_files_for_private_repo="$generated_files_for_private_repo $dependency"
+                else
+                  echo "ℹ️ 依赖文件未修改: $dependency"
+                fi
               else
-                echo "ℹ️ 依赖文件被修改，保留用于推送私有仓库: $dependency"
+                # 如果原始版本不存在，说明是新建的（可能之前不存在），也复制过去
+                echo "📁 新依赖文件: $dependency（原始版本不存在）"
+                cp "$dependency" "../private_repo_temp/"
+                generated_files_for_private_repo="$generated_files_for_private_repo $dependency"
               fi
             fi
           done
-        else
-          echo "ℹ️ 没有从步骤输出获取到依赖脚本列表"
         fi
         
-        echo "✅ 文件清理完成!"
+        # ---- 返回上级目录 ----
+        cd ..
         
-        # 设置私有仓库文件环境变量
+        # ---- 清理临时目录 ----
+        rm -rf "$WORKDIR"
+        echo "🧹 临时目录已清理: $WORKDIR"
+        
+        # ---- 设置环境变量供后续步骤使用 ----
+        # 检查本地 epg 目录是否有内容
+        if [ "$(ls -A epg 2>/dev/null)" ]; then
+          echo "HAS_CURRENT_REPO_FILES=true" >> $GITHUB_ENV
+        else
+          echo "HAS_CURRENT_REPO_FILES=false" >> $GITHUB_ENV
+        fi
+        
+        # 设置私有仓库文件列表
         if [ -n "$generated_files_for_private_repo" ]; then
-          generated_files_for_private_repo=$(echo $generated_files_for_private_repo | sed 's/^ *//;s/ *$//')
+          generated_files_for_private_repo=$(echo "$generated_files_for_private_repo" | sed 's/^ *//;s/ *$//')
           echo "PRIVATE_REPO_FILES='$generated_files_for_private_repo'" >> $GITHUB_ENV
           echo "HAS_PRIVATE_REPO_FILES=true" >> $GITHUB_ENV
         else
@@ -377,24 +360,12 @@ jobs:
           echo "HAS_PRIVATE_REPO_FILES=false" >> $GITHUB_ENV
         fi
         
-        # 报告所有脚本的执行结果
+        # ---- 报告执行结果 ----
         echo "=== 脚本执行结果 ==="
         if [ ${#failed_scripts[@]} -eq 0 ]; then
           echo "✅ 所有主脚本执行成功!"
           if [ -n "${{ steps.copy-dependencies.outputs.failed_dependencies }}" ]; then
-            echo "⚠️ 警告: 以下依赖脚本复制失败: ${{ steps.copy-dependencies.outputs.failed_dependencies }}"
-          fi
-          # 报告私有仓库文件
-          if [ -n "$generated_files_for_private_repo" ]; then
-            echo "📁 需要推送到私有仓库的文件: $generated_files_for_private_repo"
-          else
-            echo "ℹ️ 没有需要推送到私有仓库的文件"
-          fi
-          # 报告当前仓库XML文件（已在epg_safe）
-          if [ "$HAS_CURRENT_REPO_FILES" = "true" ]; then
-            echo "📁 需要保留在当前仓库的数据文件已保存在epg_safe，将在后续步骤移动"
-          else
-            echo "ℹ️ 没有生成任何数据文件"
+            echo "⚠️ 警告: 以下依赖文件未找到: ${{ steps.copy-dependencies.outputs.failed_dependencies }}"
           fi
         else
           echo "ℹ️ 以下主脚本执行失败:"
@@ -402,19 +373,30 @@ jobs:
             echo "  - $failed"
           done
           if [ -n "${{ steps.copy-dependencies.outputs.failed_dependencies }}" ]; then
-            echo "⚠️ 警告: 以下依赖脚本复制失败: ${{ steps.copy-dependencies.outputs.failed_dependencies }}"
+            echo "⚠️ 警告: 以下依赖文件未找到: ${{ steps.copy-dependencies.outputs.failed_dependencies }}"
           fi
-          # 即使有脚本失败，不退出，让流程继续（如果有已保存的文件，仍会提交）
-          # exit 1
+          # 即使有失败，也继续执行（已生成的文件仍会提交）
+        fi
+        
+        if [ "$HAS_CURRENT_REPO_FILES" = "true" ]; then
+          echo "📁 数据文件已保存到本地当前仓库的 epg 目录，准备提交"
+        else
+          echo "ℹ️ 本地当前仓库的 epg 目录为空，没有数据文件需要提交"
+        fi
+        
+        if [ "$HAS_PRIVATE_REPO_FILES" = "true" ]; then
+          echo "📁 需要推送到远程 tvepg/epg_scripts 分支的脚本文件及被修改的依赖文件: $generated_files_for_private_repo"
+        else
+          echo "ℹ️ 没有需要推送到远程 tvepg/epg_scripts 分支的脚本文件或修改的依赖文件"
         fi
 
-    # 步骤9: 复制需要推送到私有仓库的文件
+    # 步骤9: 复制需要推送到远程 tvepg/epg_scripts 分支的脚本文件及被修改的依赖文件到本地副本
     - name: Copy files to private repository directory
       if: env.HAS_PRIVATE_REPO_FILES == 'true'
       env:
         PRIVATE_REPO_FILES: ${{ env.PRIVATE_REPO_FILES }}
       run: |
-        echo "📋 复制文件到私有仓库目录..."
+        echo "📋 复制需要推送到远程 tvepg/epg_scripts 分支的脚本文件及被修改的依赖文件到本地副本..."
         echo "需要复制的文件: $PRIVATE_REPO_FILES"
         
         IFS=' ' read -r -a files_array <<< "$PRIVATE_REPO_FILES"
@@ -428,24 +410,24 @@ jobs:
           fi
         done
 
-    # 步骤10: 推送生成的文件到私有仓库（提交信息附带文件列表）
-    - name: Push generated files to private repository
+    # 步骤10: 推送生成的脚本文件及被修改的依赖文件到远程 tvepg/epg_scripts 分支
+    - name: Push generated scripts and modified dependencies to remote tvepg/epg_scripts branch
       if: env.HAS_PRIVATE_REPO_FILES == 'true'
       run: |
-        echo "🚀 准备推送生成的文件到私有仓库..."
+        echo "🚀 准备推送生成的脚本文件及被修改的依赖文件到远程 tvepg/epg_scripts 分支..."
         
         # 进入私有仓库目录
         cd private_repo_temp
         
-        # 配置Git用户信息（用于私有仓库提交）
+        # 配置Git用户信息
         git config user.name "GitHub Actions Bot"
         git config user.email "actions@github.com"
         
-        # 设置远程URL为包含PAT_TOKEN的格式，确保后续git操作有权限
+        # 设置远程URL为包含PAT_TOKEN的格式
         git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository_owner }}/tvepg.git
         
-        # 拉取最新更改，避免冲突
-        git pull origin epg_scripts
+        # 拉取远程 tvepg/epg_scripts 分支最新更改，避免冲突（自动暂存本地变更）
+        git pull origin epg_scripts --rebase --autostash
         
         # 获取北京时间
         BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
@@ -455,25 +437,39 @@ jobs:
         
         # 检查是否有实际更改需要提交
         if git diff --staged --quiet; then
-          echo "ℹ️ 私有仓库没有更改可提交"
+          echo "ℹ️ 远程 tvepg/epg_scripts 分支没有需要提交的更改"
         else
           # 获取本次实际要提交的文件列表
           FILE_LIST=$(git diff --staged --name-only | tr '\n' ', ' | sed 's/,$//')
           
           # 构建提交信息
           if [ -n "$FILE_LIST" ]; then
-            COMMIT_MSG="🤖 自动更新脚本生成的文件 [北京时间: $BEIJING_TIME] | 变更: $FILE_LIST"
+            COMMIT_MSG="🤖 自动更新生成的脚本文件及被修改的依赖文件 [北京时间: $BEIJING_TIME] | 变更: $FILE_LIST"
           else
-            COMMIT_MSG="🤖 自动更新脚本生成的文件 [北京时间: $BEIJING_TIME]"
+            COMMIT_MSG="🤖 自动更新生成的脚本文件及被修改的依赖文件 [北京时间: $BEIJING_TIME]"
           fi
           
-          # 提交更改，包含北京时间信息和文件列表
+          # 提交更改
           git commit -m "$COMMIT_MSG"
           
-          # 推送更改到远程仓库的epg_scripts分支
-          git push origin epg_scripts
-          
-          echo "✅ 成功推送生成的文件到私有仓库 tvepg/epg_scripts 分支"
+          # 推送更改到远程 tvepg/epg_scripts 分支（含重试）
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            echo "ℹ️ 尝试推送更改到远程 tvepg/epg_scripts 分支 (尝试 $((RETRY_COUNT+1))/$MAX_RETRIES)..."
+            if git push origin epg_scripts; then
+              echo "✅ 成功推送生成的脚本文件及被修改的依赖文件到远程 tvepg/epg_scripts 分支"
+              break
+            else
+              RETRY_COUNT=$((RETRY_COUNT+1))
+              if [ $RETRY_COUNT -eq $MAX_RETRIES ]; then
+                echo "❌ 推送失败，已达到最大重试次数"
+                exit 1
+              fi
+              echo "🔄 推送失败，重新拉取远程 tvepg/epg_scripts 分支最新更改并重试..."
+              git pull origin epg_scripts --rebase --autostash
+            fi
+          done
           
           # 输出推送的文件列表
           echo "📋 推送的文件列表:"
@@ -483,91 +479,58 @@ jobs:
         # 返回工作目录
         cd ..
 
-    # 步骤11: 清理临时目录
+    # 步骤11: 清理私有仓库临时目录
     - name: Clean up temporary directories
       run: |
         # 清理私有仓库临时目录
         rm -rf private_repo_temp
         echo "✅ 临时目录已清理"
 
-    # 步骤12: 从安全目录移动数据文件到epg目录
-    - name: Create epg directory and move files from safe directory
-      if: env.HAS_CURRENT_REPO_FILES == 'true'
-      run: |
-        echo "📁 从安全目录 epg_safe 移动数据文件到 epg..."
-        
-        # 创建 epg 目录
-        mkdir -p epg
-        
-        if [ -d "epg_safe" ] && [ "$(ls -A epg_safe)" ]; then
-          # 移动所有文件到 epg 目录
-          mv epg_safe/* epg/
-          echo "✅ 已移动所有文件到 epg/"
-          
-          # 显示移动结果
-          echo "📊 epg目录内容:"
-          ls -la epg/
-          
-          # 删除空的安全目录
-          rmdir epg_safe 2>/dev/null || true
-        else
-          echo "ℹ️ epg_safe 目录为空或不存在，没有文件需要移动"
-        fi
-
-    # 步骤13: 配置Git用户信息（当前仓库）
+    # 步骤12: 配置Git用户信息（用于当前仓库提交）
     - name: Configure Git for current repository
       run: |
-        git config user.name "GitHub Actions"  # 设置提交者名称
-        git config user.email "actions@github.com"  # 设置提交者邮箱
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
 
-    # 步骤14: 设置当前仓库的远程URL（包含token）并拉取最新更改（避免提交冲突）
-    - name: Set remote URL and pull latest changes
+    # 步骤13: 设置当前仓库的远程URL并拉取最新更改（避免提交冲突）
+    - name: Set remote URL and pull latest changes for current repository
       run: |
-        echo "🔄 设置远程URL并拉取远程仓库最新更改..."
-        # 设置远程URL为包含PAT_TOKEN的格式
+        echo "🔄 设置远程URL并拉取当前仓库最新更改..."
         git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
-        # 使用rebase策略，自动暂存本地更改
         git pull origin ${{ github.ref_name }} --rebase --autostash || {
           echo "⚠️ 拉取失败，可能没有新的更改，继续执行..."
         }
-        echo "✅ 已同步到最新远程状态"
+        echo "✅ 已同步到当前仓库最新状态"
 
-    # 步骤15: 获取北京时间并提交更改到当前仓库（含重试机制，提交信息含变更文件列表）
+    # 步骤14: 获取北京时间并提交更改到当前仓库（仅提交本地有变更的文件）
     - name: Get Beijing time and commit changes to current repository
       run: |
-        # 设置时区为北京时间并获取格式化的时间字符串
         BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
         
-        # 检查epg目录是否存在且不为空
+        # 检查本地工作目录中的 epg 目录是否存在且不为空
         if [ -d "epg" ] && [ "$(ls -A epg 2>/dev/null)" ]; then
-          # 添加epg目录下的所有更改到暂存区
           git add epg/
           
-          # 检查是否有实际更改需要提交
           if git diff --staged --quiet; then
-            echo "ℹ️ 当前仓库没有更改可提交"
+            echo "ℹ️ 本地当前仓库的 epg 目录没有新变更需要提交"
           else
-            # 获取本次实际要提交的文件列表（仅文件名，去掉epg/前缀）
             FILE_LIST=$(git diff --staged --name-only | sed 's#^epg/##' | tr '\n' ', ' | sed 's/,$//')
             
-            # 构建提交信息（如果有文件列表则附加）
             if [ -n "$FILE_LIST" ]; then
               COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME] | 变更: $FILE_LIST"
             else
               COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME]"
             fi
             
-            # 提交更改，包含北京时间信息和文件列表
             git commit -m "$COMMIT_MSG"
             
-            # 尝试推送更改到远程仓库（最多3次）
+            # 推送（含重试）
             MAX_RETRIES=3
             RETRY_COUNT=0
-            
             while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
-              echo "ℹ️ 尝试推送更改 (尝试 $((RETRY_COUNT+1))/$MAX_RETRIES)..."
-              if git push; then
-                echo "✅ 当前仓库Push成功"
+              echo "ℹ️ 尝试推送更改到当前仓库 (尝试 $((RETRY_COUNT+1))/$MAX_RETRIES)..."
+              if git push origin ${{ github.ref_name }}; then
+                echo "✅ 当前仓库推送成功"
                 break
               else
                 RETRY_COUNT=$((RETRY_COUNT+1))
@@ -575,15 +538,14 @@ jobs:
                   echo "❌ 推送失败，已达到最大重试次数"
                   exit 1
                 fi
-                echo "🔄 推送失败，重新拉取最新更改并重试..."
+                echo "🔄 推送失败，重新拉取当前仓库最新更改并重试..."
                 git pull origin ${{ github.ref_name }} --rebase --autostash
               fi
             done
             
-            # 显示提交的文件列表
             echo "📋 提交的文件列表:"
             git show --name-only --pretty="" HEAD
           fi
         else
-          echo "ℹ️ epg目录为空或不存在，没有文件需要提交"
+          echo "ℹ️ 本地当前仓库的 epg 目录为空或不存在，没有文件需要提交"
         fi
