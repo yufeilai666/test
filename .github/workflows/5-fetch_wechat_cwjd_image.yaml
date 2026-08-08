@@ -1,9 +1,15 @@
 name: 5 Fetch WeChat CWJD Article Image (via RSS)
 
 on:
+  workflow_dispatch:
+    inputs:
+      article_url:
+        description: '微信文章链接（可选，留空则从 RSS 自动获取）'
+        required: false
+        default: ''
+        type: string
   # schedule:
     # - cron: '29 12 */4 * *'   # 北京时间 18:20，每4天运行一次（从1号开始每4天）
-  workflow_dispatch:
 
 jobs:
   fetch:
@@ -34,8 +40,10 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
-      # 3. 运行脚本
+      # 3. 运行脚本，将手动传入的文章链接作为环境变量传递
       - name: Run fetch script
+        env:
+          ARTICLE_URL: ${{ github.event.inputs.article_url }}
         run: python ../private_repo/fetch_wechat_cwjd_latest_image.py
         working-directory: current_repo
 
@@ -50,7 +58,7 @@ jobs:
             cd current_repo
 
             export LANG=en_US.UTF-8
-            # 关闭 git 路径转义（可选，但避免路径显示问题）
+            # 关闭 git 路径转义，避免中文路径显示为八进制
             git config --global core.quotepath false
 
             git config --global user.name "github-actions[bot]"
