@@ -89,7 +89,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
-          pip install requests pillow pytesseract easyocr numpy
+          pip install requests pillow pytesseract easyocr numpy rich
 
       # ----------------------------------------------------------
       # 3. 核心：执行所有脚本（带独立重试、计时、错误收集）
