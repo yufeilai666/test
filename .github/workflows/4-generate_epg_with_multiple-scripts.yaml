@@ -115,11 +115,19 @@ jobs:
           "get_mod_epg.py"
           "get_bbcable_epg.py"
           "get_kbro_epg.py"
-          "get_hami_epg.py"
+          # "get_hami_epg.py"
           "get_ctitv_epg.py"
           "get_celestial_epg.py"
           # "get_tvmao_epg.py"
         )
+        
+        # 将依赖文件列表存入环境变量（逗号分隔），供后续步骤排除使用
+        dependency_str=$(IFS=','; echo "${dependency_scripts[*]}")
+        echo "DEPENDENCY_SCRIPTS=$dependency_str" >> $GITHUB_ENV
+        
+        # 将主脚本列表存入环境变量（逗号分隔），供执行步骤使用
+        scripts_str=$(IFS=','; echo "${scripts[*]}")
+        echo "SCRIPTS=$scripts_str" >> $GITHUB_ENV
         
         # 存储成功复制的依赖文件
         copied_dependencies=""
@@ -160,10 +168,6 @@ jobs:
           echo "✅ 所有依赖文件都已找到"
         fi
         echo "===================================="
-        
-        # 将主脚本列表存入环境变量（逗号分隔），供执行步骤使用
-        scripts_str=$(IFS=','; echo "${scripts[*]}")
-        echo "SCRIPTS=$scripts_str" >> $GITHUB_ENV
         
         # 创建临时目录（使用时间戳确保唯一性）
         WORKDIR="workdir_$(date +%s)"
@@ -295,20 +299,30 @@ jobs:
           done
         done
         
-        # ---- 2. 收集生成的脚本文件（排除原始主脚本）并复制到 ../private_repo_temp/ ----
-        # 从环境变量读取原始主脚本列表
+        # ---- 2. 收集生成的脚本文件（排除原始主脚本和依赖文件）并复制到 ../private_repo_temp/ ----
         IFS=',' read -r -a scripts <<< "${{ env.SCRIPTS }}"
+        IFS=',' read -r -a dependency_scripts <<< "${{ env.DEPENDENCY_SCRIPTS }}"
         
-        echo "📂 收集生成的脚本文件..."
+        echo "📂 收集生成的脚本文件（排除主脚本和依赖文件）..."
         for file in *.py *.php; do
           if [ -f "$file" ]; then
             is_original=false
+            # 检查是否为主脚本
             for orig_script in "${scripts[@]}"; do
               if [ "$file" == "$orig_script" ]; then
                 is_original=true
                 break
               fi
             done
+            # 检查是否为依赖文件
+            if [ "$is_original" = false ]; then
+              for dep_script in "${dependency_scripts[@]}"; do
+                if [ "$file" == "$dep_script" ]; then
+                  is_original=true
+                  break
+                fi
+              done
+            fi
             if [ "$is_original" = false ]; then
               cp "$file" "../private_repo_temp/"
               echo "  ✅ 已复制生成的脚本: $file -> ../private_repo_temp/"
@@ -316,8 +330,7 @@ jobs:
           fi
         done
         
-        # ---- 3. 检测依赖文件是否被修改（内容比较） ----
-        # 从步骤7获取依赖文件列表
+        # ---- 3. 检测依赖文件是否被修改（内容比较），只有被修改的才复制 ----
         if [ -n "${{ steps.prepare.outputs.copied_dependencies }}" ]; then
           COPIED_DEPS="${{ steps.prepare.outputs.copied_dependencies }}"
           IFS=' ' read -r -a dependency_array <<< "$COPIED_DEPS"
@@ -352,28 +365,17 @@ jobs:
         else
           echo "HAS_CURRENT_REPO_FILES=false" >> $GITHUB_ENV
         fi
-
-    # 步骤10: 复制需要推送到远程 tvepg/epg_scripts 分支的文件到本地副本
-    - name: Copy files to private repository directory
-      if: env.HAS_PRIVATE_REPO_FILES == 'true'
-      env:
-        PRIVATE_REPO_FILES: ${{ env.PRIVATE_REPO_FILES }}
-      run: |
-        echo "📋 复制需要推送到远程 tvepg/epg_scripts 分支的脚本文件及被修改的依赖文件到本地副本..."
-        echo "需要复制的文件: $PRIVATE_REPO_FILES"
         
-        IFS=' ' read -r -a files_array <<< "$PRIVATE_REPO_FILES"
-        
-        for file in "${files_array[@]}"; do
-          if [ -f "$file" ]; then
-            cp "$file" "private_repo_temp/$file"
-            echo "✅ 已复制: $file -> private_repo_temp/$file"
-          else
-            echo "⚠️ 警告: 文件不存在，无法复制: $file"
-          fi
-        done
+        # 检查 private_repo_temp 是否有文件（需要推送的）
+        if [ "$(ls -A private_repo_temp 2>/dev/null)" ]; then
+          echo "HAS_PRIVATE_REPO_FILES=true" >> $GITHUB_ENV
+          echo "📁 需要推送到 tvepg/epg_scripts 分支的文件已准备就绪"
+        else
+          echo "HAS_PRIVATE_REPO_FILES=false" >> $GITHUB_ENV
+          echo "ℹ️ 没有需要推送到 tvepg/epg_scripts 分支的文件"
+        fi
 
-    # 步骤11: 推送生成的脚本文件及被修改的依赖文件到远程 tvepg/epg_scripts 分支
+    # 步骤10: 推送生成的脚本文件及被修改的依赖文件到远程 tvepg/epg_scripts 分支
     - name: Push generated scripts and modified dependencies to remote tvepg/epg_scripts branch
       if: env.HAS_PRIVATE_REPO_FILES == 'true'
       run: |
@@ -420,19 +422,19 @@ jobs:
         fi
         cd ..
 
-    # 步骤12: 清理私有仓库临时目录
+    # 步骤11: 清理私有仓库临时目录
     - name: Clean up temporary directories
       run: |
         rm -rf private_repo_temp
         echo "✅ 临时目录已清理"
 
-    # 步骤13: 配置Git用户信息（用于当前仓库提交）
+    # 步骤12: 配置Git用户信息（用于当前仓库提交）
     - name: Configure Git for current repository
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
 
-    # 步骤14: 设置当前仓库的远程URL并拉取最新更改（避免提交冲突）
+    # 步骤13: 设置当前仓库的远程URL并拉取最新更改（避免提交冲突）
     - name: Set remote URL and pull latest changes for current repository
       run: |
         echo "🔄 设置远程URL并拉取当前仓库最新更改..."
@@ -442,7 +444,7 @@ jobs:
         }
         echo "✅ 已同步到当前仓库最新状态"
 
-    # 步骤15: 获取北京时间并提交更改到当前仓库（仅提交本地有变更的文件）
+    # 步骤14: 获取北京时间并提交更改到当前仓库（仅提交本地有变更的文件）
     - name: Get Beijing time and commit changes to current repository
       run: |
         BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
