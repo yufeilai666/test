@@ -25,15 +25,15 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
-          pip install pillow pytesseract numpy
+          pip install pillow pytesseract numpy easyocr
 
       - name: 运行解析脚本
-        run: python epg_scripts/fetch_preview_cwjd_TesseractOCR.py
+        run: python epg_scripts/fetch_preview_cwjd_EasyOCR.py
 
       - name: 提交并推送结果
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add epg/cwjd_epg_another.xml
+          git add epg/cwjd_epg_ocr3.xml
           git diff --quiet && git diff --staged --quiet || git commit -m "Bot: 更新节目单 XML [skip ci]"
           git push https://${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
