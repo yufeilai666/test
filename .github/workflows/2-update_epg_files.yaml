@@ -250,9 +250,16 @@ jobs:
         
     - name: Commit and push if changes
       if: steps.check_changes.outputs.changes == 'true'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        CHANGED="${{ steps.changed_files.outputs.changed_files }}"
-        git commit -m "🔄 自动更新 EPG 文件 [${{ steps.beijing_time.outputs.beijing_time }} UTC+8] | 变更: $CHANGED"
-        git push  # 使用 PAT_TOKEN，已在 checkout 中设置
+      uses: nick-fields/retry@v4
+      with:
+        timeout_minutes: 5
+        max_attempts: 3
+        command: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          git add epg/
+          CHANGED="${{ steps.changed_files.outputs.changed_files }}"
+          git commit -m "🔄 自动更新 EPG 文件 [${{ steps.beijing_time.outputs.beijing_time }} UTC+8] | 变更: $CHANGED"
+          git pull origin ${{ github.ref_name }} --rebase --autostash
+          git push  # 使用 PAT_TOKEN，已在 checkout 中设置
