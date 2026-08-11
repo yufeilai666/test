@@ -1016,8 +1016,6 @@ http://r.jdshipin.com/ln4xk
 #EXTINF:-1 group-title="极速港台",咪咕4K-2(限移动网络)
 http://r.jdshipin.com/Lqdwf
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台2",翡翠台
-https://luxiang.nbltv.dpdns.org/?id=%E7%BF%A1%E7%BF%A0%E5%8F%B0
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台2",翡翠台
 http://111.221.137.203:4455/tsfile/live/1008_1.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台2",翡翠台
 http://gd.wsd.gd.cn:1698/hls/92/index.m3u8
@@ -1153,6 +1151,22 @@ http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 http://v2hcdn.jdshipin.com/enew/enew.stream/chunklist_w103.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBJ1.png" group-title="极速港台2",TVBJ1
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立新聞.png" group-title="四季台湾",三立新闻
+https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
+https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="四季台湾",东森新闻
+https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8
+#EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视新闻.png" group-title="四季台湾",中视新闻
+https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视新闻.png" group-title="四季台湾",华视新闻
+https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="四季台湾",民视新闻
+https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="四季台湾",TVBS新闻
+https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/LIVE三立.png" group-title="四季台湾",LIVE三立
+https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
 http://iactive-clink.com:8081/live/888ztxw.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天新闻.png" group-title="四季台湾",中天新闻
