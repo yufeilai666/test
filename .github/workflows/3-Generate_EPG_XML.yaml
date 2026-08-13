@@ -110,7 +110,7 @@ jobs:
           "get_tdm_epg.py"
           "get_macaucable_epg.py"
           "get_hkstv_epg.py"
-          # "get_ofiii_epg.py"
+          "get_myvideo_epg.py"
           "get_gdtv_epg.py"
           "get_fujianhaibotv_epg.py"
           "get_cctv_epg.py"
