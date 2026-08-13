@@ -95,7 +95,7 @@ jobs:
       # 3. 核心：执行所有脚本（带独立重试、计时、错误收集）
       # ----------------------------------------------------------
       - name: 执行所有脚本
-        timeout-minutes: 10  # 整体超时，避免死循环
+        timeout-minutes: 20  # 整体超时，避免死循环
         # 🔑 注入百度 OCR 密钥（供所有 Python/PHP 脚本使用）
         env:
           BAIDU_OCR_API_KEY: ${{ secrets.BAIDU_OCR_API_KEY }}
