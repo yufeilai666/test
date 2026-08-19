@@ -187,7 +187,7 @@ jobs:
           # "get_kbro_epg.py"
           # "get_celestial_epg.py"
           # "get_tvmao_epg.py"
-          "get_myvideo_epg.py"
+          "get_katyushatv_epg.py"
         )
         
         # 定义需要保存的文件后缀（可根据实际需要增删）
