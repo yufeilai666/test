@@ -69,7 +69,7 @@ jobs:
           repository: yufeilai666/tvepg
           ref: epg_scripts
           token: ${{ secrets.PAT_TOKEN }}
-          path: epg_scripts  # 脚本将放在 epg_scripts/ 目录下
+          path: epg_scripts  # 脚本将克隆到当前工作区的 epg_scripts/ 目录下
 
       # ----------------------------------------------------------
       # 2. 环境准备
@@ -96,28 +96,32 @@ jobs:
       # ----------------------------------------------------------
       - name: 执行所有脚本
         timeout-minutes: 20  # 整体超时，避免死循环
-        # 🔑 注入百度 OCR 密钥（供所有 Python/PHP 脚本使用）
+        # 定义本步骤所需的环境变量：
+        #   - 百度 OCR 密钥（供 Python/PHP 脚本使用）
+        #   - SCRIPT_DIR：本地脚本目录，必须与上方私有脚本仓库 checkout 的 path 保持一致
         env:
           BAIDU_OCR_API_KEY: ${{ secrets.BAIDU_OCR_API_KEY }}
           BAIDU_OCR_SECRET_KEY: ${{ secrets.BAIDU_OCR_SECRET_KEY }}
+          SCRIPT_DIR: epg_scripts   # 本地目录名，与检出步骤的 path 相同
         run: |
           # 允许单个命令失败，继续执行后续脚本
           set +e
 
-          # ====== 脚本列表（按需增删，支持 .py 和 .php） ======
+          # ====== 脚本列表 ======
+          # 此处仅写脚本相对于 SCRIPT_DIR 的路径（根目录直接写文件名，子目录则包含子目录名）
+          # 例如：子目录 other/ 下的脚本写为 "other/fetch_preview_cwjd_BaiduOCR.py"
+          # 这样既避免了硬编码完整路径，也消除了“目录名/分支名”的歧义。
           scripts=(
-            "epg_scripts/fetch_preview_cwjd_BaiduOCR.py"
-            "epg_scripts/fetch_preview_cwjd_EasyOCR.py"
-            "epg_scripts/fetch_preview_cwjd_TesseractOCR.py"
-            # "epg_scripts/epg-generator.php"
-            # "epg_scripts/epg-fixer.php"
+            "fetch_preview_cwjd_BaiduOCR.py"
+            "fetch_preview_cwjd_EasyOCR.py"
+            "fetch_preview_cwjd_TesseractOCR.py"
+            # "epg-generator.php"
+            # "epg-fixer.php"
           )
 
           # ---- 用于记录失败脚本 ----
-          # 完整路径（供日志输出）
-          failed_full_paths=()
-          # 仅文件名（供提交信息使用）
-          failed_names=()
+          failed_full_paths=()   # 完整路径（含 SCRIPT_DIR），用于日志
+          failed_names=()       # 仅文件名，用于提交信息
 
           # ====== 自定义重试函数 ======
           # 对每个脚本最多尝试3次，间隔2秒
@@ -137,19 +141,19 @@ jobs:
 
           # ====== 遍历脚本列表 ======
           for script in "${scripts[@]}"; do
-            # 提取文件名（仅用于日志显示）
-            script_name=$(basename "$script")
+            # 拼接完整路径（利用 SCRIPT_DIR 环境变量）
+            full_path="$SCRIPT_DIR/$script"
+            script_name=$(basename "$script")   # 仅用于显示
 
             # GitHub Actions 分组日志，便于阅读
-            # ----- 修改点：只显示文件名，不显示完整路径 -----
             echo "::group::执行 $script_name"
             echo "=== 开始执行: $script_name ==="
 
             # 检查脚本文件是否存在
-            if [ ! -f "$script" ]; then
-              echo "❌ 脚本文件不存在: $script"
-              failed_full_paths+=("$script")
-              failed_names+=("$(basename "$script")")
+            if [ ! -f "$full_path" ]; then
+              echo "❌ 脚本文件不存在: $full_path"
+              failed_full_paths+=("$full_path")
+              failed_names+=("$script_name")
               echo "::endgroup::"
               continue
             fi
@@ -157,13 +161,13 @@ jobs:
             # 根据扩展名决定执行命令
             ext="${script##*.}"
             if [ "$ext" = "py" ]; then
-              cmd="python $script"
+              cmd="python $full_path"
             elif [ "$ext" = "php" ]; then
-              cmd="php -f $script"
+              cmd="php -f $full_path"
             else
               echo "❌ 不支持的脚本类型: $ext"
-              failed_full_paths+=("$script")
-              failed_names+=("$(basename "$script")")
+              failed_full_paths+=("$full_path")
+              failed_names+=("$script_name")
               echo "::endgroup::"
               continue
             fi
@@ -178,8 +182,8 @@ jobs:
               script_end=$(date +%s)
               duration=$((script_end - script_start))
               echo "❌ 脚本重试 3 次后仍然失败 (耗时 $duration 秒)"
-              failed_full_paths+=("$script")
-              failed_names+=("$(basename "$script")")
+              failed_full_paths+=("$full_path")
+              failed_names+=("$script_name")
             fi
 
             echo "::endgroup::"  # 结束分组
