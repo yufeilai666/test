@@ -15,10 +15,10 @@ name: 3 Generate EPG XML
 #   - 脚本执行后自动清理临时目录，不保留任何残留
 #   - 北京时间戳的提交信息
 #   - 可配置的脚本执行列表和依赖文件列表
-#   - 支持任意子目录结构（保留路径复制）       # <-- 新增特性说明
-#   - 自动为Python子目录创建__init__.py         # <-- 新增特性说明
-#   - 递归收集生成的数据文件                     # <-- 新增特性说明
-#   - 提交信息中明确列出失败脚本（用 | 分隔）    # <-- 新增特性说明
+#   - 支持任意子目录结构（保留路径复制）
+#   - 自动为Python子目录创建__init__.py
+#   - 递归收集生成的数据文件，并排除已知的依赖文件、主脚本和辅助文件（如__init__.py）
+#   - 提交信息中明确列出失败脚本（用 | 分隔）
 #
 # 触发条件:
 #   - 定时触发: 每日UTC时间 11:40（北京时间19:40）自动运行
@@ -42,6 +42,10 @@ on:
 jobs:
   generate-epg:
     runs-on: ubuntu-latest  # 使用最新版Ubuntu系统作为运行环境
+    
+    #环境变量配置
+    env:
+      GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
     
     steps:
     # 步骤1: 检出当前仓库（作为最终推送目标的工作目录）
@@ -94,7 +98,7 @@ jobs:
         # 可根据实际需要添加、移除或注释掉依赖文件
         # 注意：如果依赖文件位于子目录，这里的路径需要与私有仓库中的实际路径一致
         dependency_scripts=(
-          # Python依赖脚本（示例：位于config/子目录）
+          # Python依赖脚本（位于config/子目录）
           "config/tvmao_channels_list.py"
           "config/bbcable_backup_channels_dict.py"
           # 可以添加更多依赖文件，例如：
@@ -132,9 +136,11 @@ jobs:
         mkdir -p "$WORKDIR"
         echo "📁 创建临时工作目录: $WORKDIR"
         
-        # 将主脚本列表存入环境变量（逗号分隔），供执行步骤使用
+        # 将主脚本列表和依赖列表存入环境变量（逗号分隔），供后续步骤使用
         scripts_str=$(IFS=','; echo "${scripts[*]}")
         echo "SCRIPTS=$scripts_str" >> $GITHUB_ENV
+        deps_str=$(IFS=','; echo "${dependency_scripts[*]}")
+        echo "DEPS=$deps_str" >> $GITHUB_ENV
         
         # ---- 复制依赖文件（保留完整路径） ----
         # 说明：无论依赖文件在私有仓库的哪个子目录，都会在临时工作目录中重建相同的目录结构
@@ -256,20 +262,38 @@ jobs:
         # 返回上级目录（临时目录保留给下一步收集文件）
         cd ..
 
-    # 步骤8: 递归收集生成的数据文件并复制到 epg/，然后清理临时目录
+    # 步骤8: 先删除已知的依赖文件、主脚本和 __init__.py，再递归收集生成的数据文件并复制到 epg/，然后清理临时目录
     - name: Collect generated data files and clean up temporary directory
       run: |
         WORKDIR="${{ env.WORKDIR }}"
         echo "📁 使用临时目录: $WORKDIR"
         
+        # ---- 删除所有已知的依赖文件、主脚本和 __init__.py（避免误收集） ----
+        cd "$WORKDIR"
+        IFS=',' read -r -a deps <<< "${{ env.DEPS }}"
+        IFS=',' read -r -a scripts <<< "${{ env.SCRIPTS }}"
+        echo "🗑️ 删除已知的依赖文件、主脚本和 __init__.py..."
+        for f in "${deps[@]}" "${scripts[@]}"; do
+          if [ -f "$f" ]; then
+            rm -f "$f"
+            echo "  ✅ 已删除: $f"
+          fi
+        done
+        # 删除所有 __init__.py（自动创建的包标识文件）
+        find . -name "__init__.py" -type f -delete
+        echo "  ✅ 已删除所有 __init__.py 辅助文件"
+        
+        # 返回上级目录，以便收集操作
+        cd ..
+        
+        # ---- 递归收集剩余的数据文件 ----
         # 定义需要保存的数据文件后缀（可根据实际需要增删）
         SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
         
-        # 递归收集生成的数据文件（无论它们在临时目录的哪个子目录）
         echo "📂 递归收集生成的数据文件..."
         mkdir -p ../epg
         for ext in "${SAVE_EXTENSIONS[@]}"; do
-          # 使用 find 递归查找所有匹配的文件，并复制到 epg/ 根目录
+          # 使用 find 递归查找所有匹配的文件（此时依赖和主脚本已删除，不会误匹配）
           find "$WORKDIR" -type f -name "*$ext" | while read -r file; do
             cp "$file" "../epg/"
             echo "  ✅ 已复制数据文件: $(basename "$file") -> ../epg/"
