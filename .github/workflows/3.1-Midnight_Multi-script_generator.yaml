@@ -15,6 +15,10 @@ name: 3.1 Midnight Multi-script generator
 #   - 脚本执行后自动清理临时目录，不保留任何残留
 #   - 北京时间戳的提交信息
 #   - 可配置的脚本执行列表和依赖文件列表
+#   - 支持任意子目录结构（保留路径复制）
+#   - 自动为Python子目录创建__init__.py
+#   - 递归收集生成的数据文件，并排除已知的依赖文件、主脚本和辅助文件（如__init__.py）
+#   - 提交信息中明确列出失败脚本（用 | 分隔）
 #
 # 触发条件:
 #   - 定时触发: 每日UTC时间16:05（北京时间00:05）自动运行
@@ -82,20 +86,22 @@ jobs:
         ref: epg_scripts  # 指定分支
         path: private_repo_temp  # 检出到指定目录
 
-    # 步骤6.5: 创建临时目录，复制依赖文件和主脚本到临时目录
+    # 步骤6.5: 创建临时目录，复制依赖文件和主脚本到临时目录（支持子目录结构）
     - name: Prepare temporary directory and copy scripts
       id: prepare
       run: |
-        # 定义依赖文件数组
+        # ===== 定义依赖文件数组（支持任意子目录和扩展名） =====
+        # 可根据实际需要添加、移除或注释掉依赖文件
+        # 注意：如果依赖文件位于子目录，这里的路径需要与私有仓库中的实际路径一致
         dependency_scripts=(
           # Python依赖脚本
-          "bbcable_backup_channels_dict.py"
-          "tvmao_channels_list.py"
+          "config/bbcable_backup_channels_dict.py"
+          "config/tvmao_channels_list.py"
           # 可以添加更多依赖文件
           # "config.json"
         )
         
-        # 定义要执行的主脚本数组（PHP和Python）
+        # ===== 定义要获取并执行的主脚本数组（支持任意子目录，PHP/Python均可） =====
         # 可以轻松添加、移除或注释不需要的脚本
         scripts=(
           # "get_tvmao_epg.py"
@@ -107,44 +113,62 @@ jobs:
           "get_kankannews_epg.py"
           "get_ofiii_epg.py"
           "get_tvbs_epg.py"
-          "get_hami_epg.py"
           "get_fujianhaibotv_epg.py"
         )
+        # ===========================================================
         
-        # 将主脚本列表存入环境变量（逗号分隔），供执行步骤使用
-        scripts_str=$(IFS=','; echo "${scripts[*]}")
-        echo "SCRIPTS=$scripts_str" >> $GITHUB_ENV
-        
-        # 创建临时目录（使用时间戳确保唯一性）
+        # 创建临时工作目录（使用时间戳确保唯一性）
         WORKDIR="workdir_$(date +%s)"
         mkdir -p "$WORKDIR"
         echo "📁 创建临时工作目录: $WORKDIR"
         
-        # 复制依赖文件到临时目录
+        # 将主脚本列表和依赖列表存入环境变量（逗号分隔），供后续步骤使用
+        scripts_str=$(IFS=','; echo "${scripts[*]}")
+        echo "SCRIPTS=$scripts_str" >> $GITHUB_ENV
+        deps_str=$(IFS=','; echo "${dependency_scripts[*]}")
+        echo "DEPS=$deps_str" >> $GITHUB_ENV
+        
+        # ---- 复制依赖文件（保留完整路径） ----
+        # 说明：无论依赖文件在私有仓库的哪个子目录，都会在临时工作目录中重建相同的目录结构
         echo "📋 复制依赖文件到临时目录..."
-        for dep_script in "${dependency_scripts[@]}"; do
-          if [ -f "private_repo_temp/$dep_script" ]; then
-            cp "private_repo_temp/$dep_script" "$WORKDIR/"
-            echo "  ✅ 已复制依赖文件: $dep_script"
+        for dep in "${dependency_scripts[@]}"; do
+          src="private_repo_temp/$dep"
+          if [ -f "$src" ]; then
+            # 提取目录部分，并在工作目录中创建相同的子目录
+            mkdir -p "$WORKDIR/$(dirname "$dep")"
+            cp "$src" "$WORKDIR/$dep"
+            echo "  ✅ 已复制依赖文件: $dep -> $WORKDIR/$dep"
           else
-            echo "  ⚠️ 警告: 依赖文件 $dep_script 在 tvepg/epg_scripts 分支不存在，跳过"
+            echo "  ⚠️ 依赖文件 $dep 在 tvepg/epg_scripts 分支不存在，跳过"
           fi
         done
         
-        # 复制主脚本到临时目录
+        # ---- 复制主脚本（保留完整路径） ----
+        # 说明：与依赖文件同理，主脚本也可以位于任意子目录
         echo "📋 复制主脚本到临时目录..."
         for script in "${scripts[@]}"; do
-          if [ -f "private_repo_temp/$script" ]; then
-            cp "private_repo_temp/$script" "$WORKDIR/"
-            echo "  ✅ 已复制主脚本: $script"
+          src="private_repo_temp/$script"
+          if [ -f "$src" ]; then
+            # 创建子目录（如果脚本带路径）
+            mkdir -p "$WORKDIR/$(dirname "$script")" 2>/dev/null || true
+            cp "$src" "$WORKDIR/$script"
+            echo "  ✅ 已复制主脚本: $script -> $WORKDIR/$script"
           else
-            echo "  ⚠️ 警告: 主脚本 $script 在 tvepg/epg_scripts 分支不存在，跳过"
+            echo "  ⚠️ 主脚本 $script 在 tvepg/epg_scripts 分支不存在，跳过"
+          fi
+        done
+        
+        # ---- 自动为所有包含 .py 文件的子目录创建 __init__.py ----
+        # 说明：如果 Python 脚本需要从子目录导入模块，则必须保证该目录是 Python 包
+        find "$WORKDIR" -type f -name "*.py" -exec dirname {} \; | sort -u | while read d; do
+          if [ ! -f "$d/__init__.py" ]; then
+            touch "$d/__init__.py"
+            echo "  ✅ 创建包标识: $d/__init__.py"
           fi
         done
         
         # 保存临时目录路径供后续步骤使用
         echo "WORKDIR=$WORKDIR" >> $GITHUB_ENV
-        
         echo "📍 临时目录已准备就绪: $WORKDIR"
 
     # 步骤7: 进入临时目录执行所有主脚本（含重试、计时、错误收集）
@@ -154,10 +178,10 @@ jobs:
         cd "$WORKDIR"
         echo "📍 当前工作目录: $(pwd)"
         
-        # 从环境变量读取主脚本列表
+        # 从环境变量读取主脚本列表（可能包含子目录路径）
         IFS=',' read -r -a scripts <<< "${{ env.SCRIPTS }}"
         
-        # 存储失败脚本的数组，用于错误报告
+        # 存储失败脚本的数组
         failed_scripts=()
         
         # 重试函数（每个脚本最多3次）
@@ -185,14 +209,10 @@ jobs:
           echo "::group::🛠 执行 $script"
           echo "=== 开始执行: $script ==="
           
-          # 初始化退出码
           exit_code=0
-          
-          # 记录开始时间（秒）
           start_time=$(date +%s)
           
-          # 根据文件扩展名选择执行方式
-          # 重要：使用 || 捕获退出码，避免触发 set -e 导致整个脚本提前退出
+          # 根据扩展名选择解释器（支持带路径的脚本）
           if [[ "$script" == *.php ]]; then
             php "$script" || exit_code=$?
           elif [[ "$script" == *.py ]]; then
@@ -202,11 +222,9 @@ jobs:
             exit_code=1
           fi
           
-          # 记录结束时间
           end_time=$(date +%s)
           duration=$((end_time - start_time))
           
-          # 检查执行结果
           if [ $exit_code -ne 0 ]; then
             echo "❌ 脚本 $script 执行失败 (耗时 ${duration} 秒)"
             failed_scripts+=("$script")
@@ -228,31 +246,44 @@ jobs:
         # 返回上级目录（临时目录保留给下一步收集文件）
         cd ..
 
-    # 步骤8: 收集生成的数据文件并复制到 epg/，然后清理临时目录
+    # 步骤8: 先删除已知的依赖文件、主脚本和 __init__.py，再递归收集生成的数据文件并复制到 epg/，然后清理临时目录
     - name: Collect generated data files and clean up temporary directory
       run: |
         WORKDIR="${{ env.WORKDIR }}"
         echo "📁 使用临时目录: $WORKDIR"
         
-        # 进入临时目录
+        # 进入临时目录（此时当前目录为仓库根目录）
         cd "$WORKDIR"
+        
+        # 删除已知的依赖文件、主脚本和 __init__.py（避免误收集）
+        IFS=',' read -r -a deps <<< "${{ env.DEPS }}"
+        IFS=',' read -r -a scripts <<< "${{ env.SCRIPTS }}"
+        echo "🗑️ 删除已知的依赖文件、主脚本和 __init__.py..."
+        for f in "${deps[@]}" "${scripts[@]}"; do
+          if [ -f "$f" ]; then
+            rm -f "$f"
+            echo "  ✅ 已删除: $f"
+          fi
+        done
+        find . -name "__init__.py" -type f -delete
+        echo "  ✅ 已删除所有 __init__.py 辅助文件"
         
         # 定义需要保存的数据文件后缀（可根据实际需要增删）
         SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
         
-        # 收集生成的数据文件
-        echo "📂 收集生成的数据文件..."
+        # 递归收集生成的数据文件，并复制到仓库根目录的 epg/ 下
+        # 注意：当前目录是临时目录，因此 ../epg/ 指向仓库根目录下的 epg/
+        echo "📂 递归收集生成的数据文件..."
         mkdir -p ../epg
         for ext in "${SAVE_EXTENSIONS[@]}"; do
-          for file in *"$ext"; do
-            if [ -f "$file" ]; then
-              cp "$file" "../epg/"
-              echo "  ✅ 已复制数据文件: $file -> ../epg/"
-            fi
+          find . -type f -name "*$ext" | while read -r file; do
+            src_file="${file#./}"   # 去掉开头的 "./"
+            cp "$src_file" "../epg/"
+            echo "  ✅ 已复制数据文件: $src_file -> ../epg/"
           done
         done
         
-        # 返回上级目录
+        # 返回上级目录（仓库根目录）以便后续 Git 操作
         cd ..
         
         # 清理临时目录
@@ -289,7 +320,6 @@ jobs:
       run: |
         BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
         
-        # 检查本地工作目录中的 epg 目录是否存在且不为空
         if [ -d "epg" ] && [ "$(ls -A epg 2>/dev/null)" ]; then
           git add epg/
           
@@ -298,10 +328,18 @@ jobs:
           else
             FILE_LIST=$(git diff --staged --name-only | sed 's#^epg/##' | tr '\n' ', ' | sed 's/,$//')
             
-            if [ -n "$FILE_LIST" ]; then
-              COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME] | 变更: $FILE_LIST"
+            # 获取失败脚本列表（如果有），并用 " | " 分隔
+            FAILED_SCRIPTS="${{ env.FAILED_SCRIPTS }}"
+            if [ -n "$FAILED_SCRIPTS" ]; then
+              FAILED_MSG=" | 失败脚本: $FAILED_SCRIPTS"
             else
-              COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME]"
+              FAILED_MSG=""
+            fi
+            
+            if [ -n "$FILE_LIST" ]; then
+              COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME] | 变更: $FILE_LIST$FAILED_MSG"
+            else
+              COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME]$FAILED_MSG"
             fi
             
             git commit -m "$COMMIT_MSG"
