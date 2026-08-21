@@ -22,6 +22,7 @@ name: test_multiple-scripts
 #   - 自动为Python子目录创建__init__.py
 #   - 递归收集生成的数据文件，并排除已知的依赖文件、主脚本和辅助文件
 #   - 提交信息中明确列出失败脚本（用 | 分隔）
+#   - 自动识别同名依赖文件：生成的文件若与依赖文件同名，自动推送到依赖文件的原位置（含子目录）
 #
 # 触发条件:
 #   - 定时触发: 近似每隔5天的UTC时间 19:30（北京时间3:30）自动运行
@@ -324,15 +325,47 @@ jobs:
           done
         done
         
-        # ---- 4. 递归收集生成的脚本文件（.py, .php）并复制到 ../private_repo_temp/ 保留路径 ----
-        # 此时依赖和主脚本已被删除，剩余的所有 .py/.php 文件都是生成的。
+        # ---- 4. 递归收集生成的脚本文件（.py, .php）并根据依赖路径决定目标目录 ----
+        # 说明：如果生成的文件名与某个依赖文件同名，则视为被修改的依赖文件，
+        #       应放到该依赖文件原来的位置（包括子目录）。
+        #       否则，保留原始路径（通常是根目录）。
         echo "📂 收集生成的脚本文件（.py, .php）..."
+        
+        # 构建依赖文件映射：文件名 -> 完整路径（包括子目录）
+        declare -A dep_full_path_map
+        IFS=',' read -r -a deps_array <<< "${{ env.DEPS }}"
+        for dep in "${deps_array[@]}"; do
+          dep_name=$(basename "$dep")
+          dep_full_path="$dep"  # 完整路径，如 "config/bbcable_backup_channels_dict.py"
+          dep_full_path_map["$dep_name"]="$dep_full_path"
+        done
+        
         find . -type f \( -name "*.py" -o -name "*.php" \) | while read -r file; do
           src_file="${file#./}"
-          target_dir="../private_repo_temp/$(dirname "$src_file")"
+          file_name=$(basename "$src_file")
+          
+          # 检查是否有匹配的依赖文件
+          target_path=""
+          if [[ -n "${dep_full_path_map[$file_name]}" ]]; then
+            # 是依赖文件，使用依赖文件的完整路径（包括子目录）
+            target_path="${dep_full_path_map[$file_name]}"
+            echo "  📍 文件 $file_name 是依赖文件，目标路径: $target_path"
+          else
+            # 不是依赖文件，使用源文件所在的目录
+            target_subdir=$(dirname "$src_file")
+            if [ "$target_subdir" = "." ]; then
+              target_path="$file_name"
+            else
+              target_path="$target_subdir/$file_name"
+            fi
+            echo "  📍 文件 $file_name 是普通生成文件，目标路径: $target_path"
+          fi
+          
+          # 确保目标目录存在
+          target_dir="../private_repo_temp/$(dirname "$target_path")"
           mkdir -p "$target_dir"
-          cp "$src_file" "$target_dir/"
-          echo "  ✅ 已复制生成的脚本: $src_file -> $target_dir/"
+          cp "$src_file" "../private_repo_temp/$target_path"
+          echo "  ✅ 已复制: $src_file -> ../private_repo_temp/$target_path"
         done
         
         # 返回上级目录
