@@ -6,7 +6,7 @@ name: 4 update xml to current repository and scripts to epg_scripts branch of tv
 # 功能概述:
 #   - 从私有仓库获取EPG生成脚本（PHP/Python）
 #   - 在临时目录中执行脚本，避免污染工作目录
-#   - 将生成的EPG数据推送到当前仓库的的epg目录
+#   - 将生成的EPG数据推送到当前仓库的epg目录
 #   - 将生成的Python备份文件推送到私有仓库tvepg的epg_scripts分支
 #
 # 主要特性:
@@ -22,6 +22,8 @@ name: 4 update xml to current repository and scripts to epg_scripts branch of tv
 #   - 自动为Python子目录创建__init__.py
 #   - 递归收集生成的数据文件，并排除已知的依赖文件、主脚本和辅助文件
 #   - 提交信息中明确列出失败脚本（用 | 分隔）
+#   - 自动识别与依赖文件同名的生成文件，并推送到依赖文件的原位置（含子目录）
+#   - 自动识别新生成的脚本文件（.py/.php），并推送到私有仓库根目录
 #
 # 触发条件:
 #   - 定时触发: 近似每隔5天的UTC时间 19:40（北京时间3:40）自动运行
@@ -102,7 +104,7 @@ jobs:
         # 可根据实际需要添加、移除或注释掉依赖文件
         # 注意：如果依赖文件位于子目录，这里的路径需要与私有仓库中的实际路径一致
         dependency_scripts=(
-          # Python依赖脚本
+          # Python依赖脚本（位于config/子目录）
           "config/bbcable_backup_channels_dict.py"
           # 可以添加更多依赖文件
           "config/tvmao_channels_list.py"
@@ -126,6 +128,8 @@ jobs:
           "get_ctitv_epg.py"
           "get_celestial_epg_full.py"
           # "get_tvmao_epg.py"
+          # 可添加带子目录的脚本，例如：
+          # "subdir/get_xxx.py"
         )
         # ===========================================================
         
@@ -134,7 +138,7 @@ jobs:
         mkdir -p "$WORKDIR"
         echo "📁 创建临时工作目录: $WORKDIR"
         
-        # 将依赖文件和主脚本列表存入环境变量（逗号分隔），供后续步骤使用
+        # 将主脚本列表和依赖列表存入环境变量（逗号分隔），供后续步骤使用
         scripts_str=$(IFS=','; echo "${scripts[*]}")
         echo "SCRIPTS=$scripts_str" >> $GITHUB_ENV
         deps_str=$(IFS=','; echo "${dependency_scripts[*]}")
@@ -147,6 +151,7 @@ jobs:
         for dep in "${dependency_scripts[@]}"; do
           src="private_repo_temp/$dep"
           if [ -f "$src" ]; then
+            # 提取目录部分，并在工作目录中创建相同的子目录
             mkdir -p "$WORKDIR/$(dirname "$dep")"
             cp "$src" "$WORKDIR/$dep"
             echo "  ✅ 已复制依赖文件: $dep -> $WORKDIR/$dep"
@@ -164,6 +169,7 @@ jobs:
         for script in "${scripts[@]}"; do
           src="private_repo_temp/$script"
           if [ -f "$src" ]; then
+            # 创建子目录（如果脚本带路径）
             mkdir -p "$WORKDIR/$(dirname "$script")" 2>/dev/null || true
             cp "$src" "$WORKDIR/$script"
             echo "  ✅ 已复制主脚本: $script -> $WORKDIR/$script"
@@ -325,15 +331,49 @@ jobs:
           done
         done
         
-        # ---- 4. 递归收集生成的脚本文件（.py, .php）并复制到 ../private_repo_temp/ 保留路径 ----
-        # 此时依赖和主脚本已被删除，剩余的所有 .py/.php 文件都是生成的。
-        echo "📂 收集生成的脚本文件（.py, .php）..."
-        find . -type f \( -name "*.py" -o -name "*.php" \) | while read -r file; do
+        # ---- 4. 递归收集所有剩余文件，根据文件类型和依赖路径决定目标位置 ----
+        # 说明：
+        #   1. 如果文件与某个依赖文件同名，则视为被修改的依赖文件，
+        #      应放到该依赖文件原来的位置（包括子目录）。
+        #   2. 否则，如果是 .py 或 .php 文件，视为新生成的脚本文件，
+        #      推送到私有仓库的根目录。
+        #   3. 其他类型的文件（非依赖、非 .py/.php）跳过，不收集。
+        echo "📂 收集所有剩余文件..."
+        
+        # 构建依赖文件映射：文件名 -> 完整路径（含子目录）
+        declare -A dep_full_path_map
+        IFS=',' read -r -a deps_array <<< "${{ env.DEPS }}"
+        for dep in "${deps_array[@]}"; do
+          dep_name=$(basename "$dep")
+          dep_full_path="$dep"  # 完整路径，如 "config/bbcable_backup_channels_dict.py"
+          dep_full_path_map["$dep_name"]="$dep_full_path"
+        done
+        
+        find . -type f | while read -r file; do
           src_file="${file#./}"
-          target_dir="../private_repo_temp/$(dirname "$src_file")"
+          file_name=$(basename "$src_file")
+          file_ext="${src_file##*.}"
+          
+          # 检查是否有匹配的依赖文件
+          if [[ -n "${dep_full_path_map[$file_name]}" ]]; then
+            # 情况1：是依赖文件，使用依赖文件的完整路径（包括子目录）
+            target_path="${dep_full_path_map[$file_name]}"
+            echo "  📍 文件 $file_name 是依赖文件，目标路径: $target_path"
+          elif [[ "$file_ext" == "py" ]] || [[ "$file_ext" == "php" ]]; then
+            # 情况2：是新生成的脚本文件（不在依赖列表中），推送到根目录
+            target_path="$file_name"
+            echo "  📍 文件 $file_name 是新生成的脚本文件，目标路径: 根目录"
+          else
+            # 情况3：其他类型文件，跳过
+            echo "  ℹ️ 文件 $file_name 不是依赖文件也不是脚本文件，跳过"
+            continue
+          fi
+          
+          # 确保目标目录存在
+          target_dir="../private_repo_temp/$(dirname "$target_path")"
           mkdir -p "$target_dir"
-          cp "$src_file" "$target_dir/"
-          echo "  ✅ 已复制生成的脚本: $src_file -> $target_dir/"
+          cp "$src_file" "../private_repo_temp/$target_path"
+          echo "  ✅ 已复制: $src_file -> ../private_repo_temp/$target_path"
         done
         
         # 返回上级目录
