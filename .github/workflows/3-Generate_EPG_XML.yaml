@@ -258,7 +258,10 @@ jobs:
         WORKDIR="${{ env.WORKDIR }}"
         echo "📁 使用临时目录: $WORKDIR"
         
+        # 进入临时目录
         cd "$WORKDIR"
+        
+        # 删除已知的依赖文件、主脚本和 __init__.py（避免误收集）
         IFS=',' read -r -a deps <<< "${{ env.DEPS }}"
         IFS=',' read -r -a scripts <<< "${{ env.SCRIPTS }}"
         echo "🗑️ 删除已知的依赖文件、主脚本和 __init__.py..."
@@ -271,18 +274,26 @@ jobs:
         find . -name "__init__.py" -type f -delete
         echo "  ✅ 已删除所有 __init__.py 辅助文件"
         
-        cd ..
-        
+        # 定义需要保存的数据文件后缀
         SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
+        
+        # 递归收集生成的数据文件，并复制到仓库根目录的 epg/ 下
         echo "📂 递归收集生成的数据文件..."
+        # 确保目标目录存在
         mkdir -p ../epg
         for ext in "${SAVE_EXTENSIONS[@]}"; do
-          find "$WORKDIR" -type f -name "*$ext" | while read -r file; do
-            cp "$file" "../epg/"
-            echo "  ✅ 已复制数据文件: $(basename "$file") -> ../epg/"
+          find . -type f -name "*$ext" | while read -r file; do
+            # 去掉开头的 "./"
+            src_file="${file#./}"
+            cp "$src_file" "../epg/"
+            echo "  ✅ 已复制数据文件: $src_file -> ../epg/"
           done
         done
         
+        # 返回上级目录（仓库根目录）以便后续操作
+        cd ..
+        
+        # 清理临时目录
         rm -rf "$WORKDIR"
         echo "🧹 临时目录已清理: $WORKDIR"
         rm -rf private_repo_temp
