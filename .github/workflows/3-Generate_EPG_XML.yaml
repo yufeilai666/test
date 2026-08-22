@@ -279,12 +279,13 @@ jobs:
         find . -name "__init__.py" -type f -delete
         echo "  ✅ 已删除所有 __init__.py 辅助文件"
         
+        echo "**********************************************"
         # 定义需要保存的数据文件后缀（可根据实际需要增删）
         SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
         
         # 递归收集生成的数据文件，并复制到仓库根目录的 epg/ 下
         # 注意：当前目录是临时目录，因此 ../epg/ 指向仓库根目录下的 epg/
-        echo "📂 递归收集生成的数据文件..."
+        echo "📥 递归收集生成的数据文件..."
         mkdir -p ../epg
         for ext in "${SAVE_EXTENSIONS[@]}"; do
           find . -type f -name "*$ext" | while read -r file; do
@@ -297,6 +298,7 @@ jobs:
         # 返回上级目录（仓库根目录）以便后续 Git 操作
         cd ..
         
+        echo "**********************************************"
         # 清理临时目录
         rm -rf "$WORKDIR"
         echo "🧹 临时目录已清理: $WORKDIR"
