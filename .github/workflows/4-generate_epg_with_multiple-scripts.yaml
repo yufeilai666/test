@@ -281,7 +281,7 @@ jobs:
         if [ -n "${{ env.COPIED_DEPS }}" ]; then
           COPIED_DEPS="${{ env.COPIED_DEPS }}"
           IFS=' ' read -r -a dep_array <<< "$COPIED_DEPS"
-          echo "📂 检测依赖文件是否被修改..."
+          echo "🔬 检测依赖文件是否被修改..."
           for dep in "${dep_array[@]}"; do
             dep=$(echo "$dep" | xargs)
             if [ -n "$dep" ] && [ -f "$dep" ]; then
@@ -292,20 +292,21 @@ jobs:
               target_file="$target_dir/$(basename "$dep")"
               if [ -f "$original_file" ]; then
                 if ! cmp -s "$dep" "$original_file"; then
-                  echo "  📁 依赖文件被修改: $dep"
+                  echo "  📝 依赖文件被修改: $dep"
                   cp "$dep" "$target_file"
                 else
                   echo "  ℹ️ 依赖文件未修改: $dep"
                 fi
               else
                 # 原始文件不存在（可能是首次添加），直接复制
-                echo "  📁 新依赖文件: $dep（原始版本不存在）"
+                echo "  📜 新依赖文件: $dep（原始版本不存在）"
                 cp "$dep" "$target_file"
               fi
             fi
           done
         fi
         
+        echo "**********************************************"
         # ---- 2. 删除已知的依赖文件、主脚本和 __init__.py（避免误收集） ----
         IFS=',' read -r -a deps <<< "${{ env.DEPS }}"
         IFS=',' read -r -a scripts <<< "${{ env.SCRIPTS }}"
@@ -319,9 +320,10 @@ jobs:
         find . -name "__init__.py" -type f -delete
         echo "  ✅ 已删除所有 __init__.py 辅助文件"
         
+        echo "**********************************************"
         # ---- 3. 递归收集数据文件（匹配后缀）并复制到 ../epg/ ----
         SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
-        echo "📂 递归收集生成的数据文件..."
+        echo "📥 递归收集生成的数据文件..."
         mkdir -p ../epg
         for ext in "${SAVE_EXTENSIONS[@]}"; do
           find . -type f -name "*$ext" | while read -r file; do
@@ -331,14 +333,16 @@ jobs:
           done
         done
         
+        echo "**********************************************"
         # ---- 4. 递归收集所有剩余文件，根据文件类型和依赖路径决定目标位置 ----
         # 说明：
-        #   1. 如果文件与某个依赖文件同名，则视为被修改的依赖文件，
+        #   1. 先排除数据文件（从 SAVE_EXTENSIONS 动态获取）和 Python 缓存（.pyc, __pycache__）
+        #   2. 如果文件与某个依赖文件同名，则视为被修改的依赖文件，
         #      应放到该依赖文件原来的位置（包括子目录）。
-        #   2. 否则，如果是 .py 或 .php 文件，视为新生成的脚本文件，
+        #   3. 否则，如果是 .py 或 .php 文件，视为新生成的脚本文件，
         #      推送到私有仓库的根目录。
-        #   3. 其他类型的文件（非依赖、非 .py/.php）跳过，不收集。
-        echo "📂 收集所有剩余文件..."
+        #   4. 其他类型的文件跳过，不收集。
+        echo "📥 收集所有剩余文件..."
         
         # 构建依赖文件映射：文件名 -> 完整路径（含子目录）
         declare -A dep_full_path_map
@@ -349,20 +353,47 @@ jobs:
           dep_full_path_map["$dep_name"]="$dep_full_path"
         done
         
+        # 从 SAVE_EXTENSIONS 构建排除后缀列表（方式2：直接匹配文件名后缀，不需要去掉点号）
         find . -type f | while read -r file; do
           src_file="${file#./}"
           file_name=$(basename "$src_file")
           file_ext="${src_file##*.}"
           
-          # 检查是否有匹配的依赖文件
+          # ---- 排除不需要的文件 ----
+          # 1. 跳过数据文件（从 SAVE_EXTENSIONS 动态获取，直接匹配文件名后缀）
+          should_skip=false
+          for ext in "${SAVE_EXTENSIONS[@]}"; do
+            if [[ "$src_file" == *"$ext" ]]; then
+              echo "  ℹ️ 跳过数据文件: $src_file"
+              should_skip=true
+              break
+            fi
+          done
+          if [[ "$should_skip" == "true" ]]; then
+            continue
+          fi
+          
+          # 2. 跳过 Python 缓存文件
+          if [[ "$file_ext" == "pyc" ]]; then
+            echo "  ℹ️ 跳过Python缓存文件: $src_file"
+            continue
+          fi
+          
+          # 3. 跳过 __pycache__ 目录
+          if [[ "$src_file" == *"__pycache__"* ]]; then
+            echo "  ℹ️ 跳过Python缓存目录: $src_file"
+            continue
+          fi
+          
+          # ---- 检查是否是依赖文件或脚本文件 ----
           if [[ -n "${dep_full_path_map[$file_name]}" ]]; then
             # 情况1：是依赖文件，使用依赖文件的完整路径（包括子目录）
             target_path="${dep_full_path_map[$file_name]}"
-            echo "  📍 文件 $file_name 是依赖文件，目标路径: $target_path"
+            echo "  📌 文件 $file_name 是依赖文件，目标路径: $target_path"
           elif [[ "$file_ext" == "py" ]] || [[ "$file_ext" == "php" ]]; then
             # 情况2：是新生成的脚本文件（不在依赖列表中），推送到根目录
             target_path="$file_name"
-            echo "  📍 文件 $file_name 是新生成的脚本文件，目标路径: 根目录"
+            echo "  📌 文件 $file_name 是新生成的脚本文件，目标路径: 根目录"
           else
             # 情况3：其他类型文件，跳过
             echo "  ℹ️ 文件 $file_name 不是依赖文件也不是脚本文件，跳过"
@@ -379,6 +410,7 @@ jobs:
         # 返回上级目录
         cd ..
         
+        echo "**********************************************"
         # ---- 清理临时目录 ----
         rm -rf "$WORKDIR"
         echo "🧹 临时目录已清理: $WORKDIR"
@@ -392,7 +424,7 @@ jobs:
         
         if [ "$(ls -A private_repo_temp 2>/dev/null)" ]; then
           echo "HAS_PRIVATE_REPO_FILES=true" >> $GITHUB_ENV
-          echo "📁 需要推送到 tvepg/epg_scripts 分支的文件已准备就绪"
+          echo "🗃 需要推送到 tvepg/epg_scripts 分支的文件已准备就绪"
         else
           echo "HAS_PRIVATE_REPO_FILES=false" >> $GITHUB_ENV
           echo "ℹ️ 没有需要推送到 tvepg/epg_scripts 分支的文件"
