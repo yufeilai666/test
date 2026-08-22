@@ -114,6 +114,7 @@ jobs:
           "get_ofiii_epg.py"
           "get_tvbs_epg.py"
           "get_fujianhaibotv_epg.py"
+          "get_katyushatv_epg.py"
         )
         # ===========================================================
         
