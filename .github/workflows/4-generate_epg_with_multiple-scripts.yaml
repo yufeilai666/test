@@ -124,7 +124,7 @@ jobs:
           "get_mod_epg.py"
           "get_bbcable_epg.py"
           "get_kbro_epg.py"
-          # "get_hami_epg.py"
+          "get_hami_epg.py"
           "get_ctitv_epg.py"
           "get_celestial_epg_full.py"
           # "get_tvmao_epg.py"
