@@ -1447,6 +1447,10 @@ https://play.wenxiang.cn/live/d15690a84b5ad631f11228268ba8dca8.flv
 http://play.wenxiang.cn/live/0f4b100c9ed81fdd547ba0a1a20dea49.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/港台电视32.png" group-title="今日影视",港台电视32
 http://play.wenxiang.cn/live/1c84d2c289c82f92f588aaa566858174.flv
+#EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="美国UA(挂梯子)",CGTN
+https://english-livebkali.cgtn.com/live/encgtn_1.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CGTN1.png" group-title="美国UA(挂梯子)",CGTN1
+https://live-stream.cgtn.com/event-live/CGTN_1_1PVvR6ZBAZ2/index.m3u8
 #EXTINF:-1 group-title="美国UA(挂梯子)",DHE
 http://108.181.23.41:80/livehttpplay?channel_id=23504
 #EXTINF:-1 group-title="美国UA(挂梯子)",SEÑAL COLOMBIA
