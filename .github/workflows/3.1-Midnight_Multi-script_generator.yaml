@@ -110,11 +110,12 @@ jobs:
           # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
           # "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本 - 当前启用
           "get_asiasatv_epg.py"
-          "get_kankannews_epg.py"
-          "get_ofiii_epg.py"
           "get_tvbs_epg.py"
-          "get_fujianhaibotv_epg.py"
+          "get_ofiii_epg.py"
           "get_katyushatv_epg.py"
+          "get_fujianhaibotv_epg.py"
+          "get_kankannews_epg.py"
+          
         )
         # ===========================================================
         
