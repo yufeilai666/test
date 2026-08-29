@@ -121,6 +121,7 @@ jobs:
           "get_fujianhaibotv_epg.py"
           "get_cctv_epg.py"
           "get_gxntv_epg.py"
+          "get_cztv_epg.py"
           # 可添加带子目录的脚本，例如：
           # "php/epg-fixer.php"
         )
