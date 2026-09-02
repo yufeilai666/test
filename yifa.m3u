@@ -935,7 +935,7 @@ https://168.sryze.cc/163189/hxws
 https://10.fast.hidns.vip/163189/xinghe/
 #EXTINF:-1 group-title="极速港台",天映新加坡
 https://10.fast.hidns.vip/163189/typd/
-#EXTINF:-1 tvg-id="天映经典 (香港)" tvg-name="天映经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="极速港台",天映经典
+#EXTINF:-1 tvg-id="天映经典 (菲律宾)" tvg-name="天映经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="极速港台",天映经典
 https://10.fast.hidns.vip/163189/ccm/
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/华丽翡翠台.png" group-title="极速港台",华丽翡翠台
 https://cdn3.indevs.in/stream/live/hlt/
@@ -955,7 +955,7 @@ https://cdn3.indevs.in/stream/live/hxt/
 https://cdn3.indevs.in/stream/live/iqiyi/
 #EXTINF:-1 tvg-id="天映频道 (新加坡)" tvg-name="天映频道" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映频道.png" group-title="极速港台",天映频道
 https://cdn3.indevs.in/stream/live/typd/
-#EXTINF:-1 tvg-id="天映经典 (香港)" tvg-name="天映经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="极速港台",天映经典
+#EXTINF:-1 tvg-id="天映经典 (菲律宾)" tvg-name="天映经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="极速港台",天映经典
 https://cdn3.indevs.in/stream/live/ccm/
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB星河.png" group-title="极速港台",TVB星河
 https://cdn3.indevs.in/stream/live/tvbxh/
@@ -1449,168 +1449,6 @@ https://play.wenxiang.cn/live/d15690a84b5ad631f11228268ba8dca8.flv
 http://play.wenxiang.cn/live/0f4b100c9ed81fdd547ba0a1a20dea49.flv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/港台电视32.png" group-title="今日影视",港台电视32
 http://play.wenxiang.cn/live/1c84d2c289c82f92f588aaa566858174.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新聞台.png" group-title="今日影视",Now新闻台
-http://yyzb.bhzz.today:61212/5/admin.php?cid=BVZZAQYICgINUVgEUQEDVVQDVggGVgYGAQQAAARWBlI=&token=PlayAuth_秒播
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW财经台.png" group-title="今日影视",Now财经台
-http://yyzb.bhzz.today:61212/5/admin.php?cid=BlEMV1wIA1VSUwlVBVpQBgsCUlpUBlUBUFdRBgICBFo=&token=PlayAuth_秒播
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/Now直播台.png" group-title="今日影视",Now直播台
-http://yyzb.bhzz.today:61212/5/admin.php?cid=BlIPUlQIC1MDUlwOBgAFBlQHVVkHVVZUAgMDUlVUUwc=&token=PlayAuth_秒播
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW华剧台.png" group-title="今日影视",Now华剧台
-http://yyzb.bhzz.today:61212/5/admin.php?cid=VQcAXQQOAgVRBg4DAFEFBwMMV14ABwwEAgQEAl9WVwY=&token=PlayAuth_秒播
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW劇集台.png" group-title="今日影视",Now剧集台
-http://yyzb.bhzz.today:61212/5/admin.php?cid=AwZbBVBaBQJQAVwCAAQHAQsAVQwCAQ1RC1QCUgIGA1s=&token=PlayAuth_秒播
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW紫金国际.png" group-title="今日影视",Now紫金国际
-http://yyzb.bhzz.today:61212/5/admin.php?cid=A1AOXVMLAQAMAwlVVwcHAlQGBQgEBAVVVwBXA1JUB1A=&token=PlayAuth_秒播
-#EXTINF:-1 group-title="今日影视",Now体育台
-http://yyzb.bhzz.today:61212/5/admin.php?cid=AlEMV1deAFhQU1hTAAEBD1dSUQsEVQADAwVWUV8GAVA=&token=PlayAuth_秒播
-#EXTINF:-1 group-title="今日影视",Now星影国
-http://yyzb.bhzz.today:61212/5/admin.php?cid=AwQPXVwIA1cHUwgDA1IBVVdQUQsMAQZcBQoLUV8AAFY=&token=PlayAuth_秒播
-#EXTINF:-1 group-title="今日影视",Now星影粤
-http://yyzb.bhzz.today:61212/5/admin.php?cid=Vl1dAgQKAAMBUAAFBVZQDgIAUwEBDgBTBlQDAF5dCQY=&token=PlayAuth_秒播
-#EXTINF:-1 group-title="今日影视",Now爆谷国
-http://yyzb.bhzz.today:61212/5/admin.php?cid=AFcJUlNZUQNSUQoOBVdUBVQHUF1UD1cBAlYHAFUACFE=&token=PlayAuth_秒播
-#EXTINF:-1 group-title="今日影视",Now爆谷粤
-http://yyzb.bhzz.today:61212/5/admin.php?cid=BlddXFFeVlAAVwoDAQAGUlBSBg5QBwIAAwYHUQJcBFQ=&token=PlayAuth_秒播
-#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="今日影视",鳳凰中文
-http://49.232.143.177:80/pyxg/hmy.php?id=鳳凰中文備&key=***
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="今日影视",鳳凰資訊
-http://49.232.143.177:80/pyxg/hmy.php?id=鳳凰資訊_1&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰香港.png" group-title="今日影视",鳳凰香港
-http://49.232.143.177:80/pyxg/hmy.php?id=鳳凰香港&key=***
-#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="今日影视",鳳凰資訊
-http://49.232.143.177:80/pyxg/hmy.php?id=鳳凰資訊_1&key=***
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="今日影视",翡翠台
-http://49.232.143.177:80/pyxg/hmy.php?id=翡翠台_1&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="今日影视",無綫新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=無綫新聞_1&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="今日影视",TVBPlus
-http://49.232.143.177:80/pyxg/hmy.php?id=TVBPlus_1&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/明珠台.png" group-title="今日影视",明珠台
-http://49.232.143.177:80/pyxg/hmy.php?id=明珠台&key=***
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="今日影视",翡翠台
-http://49.232.143.177:80/pyxg/hmy.php?id=翡翠台備&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="今日影视",TVBPlus
-http://49.232.143.177:80/pyxg/hmy.php?id=TVBPlus備&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="今日影视",無綫新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=無綫新聞備&key=***
-#EXTINF:-1 group-title="今日影视",明珠台b
-http://49.232.143.177:80/pyxg/hmy.php?id=明珠台b&key=***
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/VIUTV.png" group-title="今日影视",ViUTV
-http://49.232.143.177:80/pyxg/hmy.php?id=ViUTV&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/VIUTVSIX.png" group-title="今日影视",ViUTVSix
-http://49.232.143.177:80/pyxg/hmy.php?id=ViUTVSix&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY77.png" group-title="今日影视",HOY77
-http://49.232.143.177:80/pyxg/hmy.php?id=HOYTV&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY78.png" group-title="今日影视",HOY78
-http://49.232.143.177:80/pyxg/hmy.php?id=HOY資訊台&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY76.png" group-title="今日影视",HOY76
-http://49.232.143.177:80/pyxg/hmy.php?id=HOY財經台&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/18台.png" group-title="今日影视",18台
-http://49.232.143.177:80/pyxg/hmy.php?id=18台&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新聞台.png" group-title="今日影视",Now新聞台
-http://49.232.143.177:80/pyxg/hmy.php?id=Now新聞台&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW财经台.png" group-title="今日影视",Now財經台
-http://49.232.143.177:80/pyxg/hmy.php?id=Now財經台&key=***
-#EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVB星河.png" group-title="今日影视",TVB星河
-http://49.232.143.177:80/pyxg/hmy.php?id=TVB星河&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/功夫台.png" group-title="今日影视",功夫台
-http://49.232.143.177:80/pyxg/hmy.php?id=功夫台&key=***
-#EXTINF:-1 tvg-id="天映经典 (香港)" tvg-name="天映经典" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天映經典.png" group-title="今日影视",天映經典
-http://49.232.143.177:80/pyxg/hmy.php?id=天映經典&key=***
-#EXTINF:-1 tvg-id="美亞電影台" tvg-name="美亞電影台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美亞電影台.png" group-title="今日影视",美亚电影台
-http://49.232.143.177:80/pyxg/hmy.php?id=美亚电影台&key=***
-#EXTINF:-1 tvg-id="PopC (香港)" tvg-name="PopC" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/POPC.png" group-title="今日影视",POPC
-http://49.232.143.177:80/pyxg/hmy.php?id=POPC&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国电影.png" group-title="今日影视",中國電影
-http://49.232.143.177:80/pyxg/hmy.php?id=中國電影&key=***
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視.png" group-title="今日影视",中視
-http://49.232.143.177:80/pyxg/hmy.php?id=中視&key=***
-#EXTINF:-1 tvg-id="華視" tvg-name="華視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视.png" group-title="今日影视",華視
-http://49.232.143.177:80/pyxg/hmy.php?id=華視&key=***
-#EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民視.png" group-title="今日影视",民視
-http://49.232.143.177:80/pyxg/hmy.php?id=民視&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民視台灣.png" group-title="今日影视",民視台灣
-http://49.232.143.177:80/pyxg/hmy.php?id=民視台灣&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视第一.png" group-title="今日影视",民視第一
-http://49.232.143.177:80/pyxg/hmy.php?id=民視第一&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台视.png" group-title="今日影视",台視
-http://49.232.143.177:80/pyxg/hmy.php?id=台視&key=***
-#EXTINF:-1 tvg-id="台視綜合" tvg-name="台視綜合" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視綜合.png" group-title="今日影视",台視綜合
-http://49.232.143.177:80/pyxg/hmy.php?id=台視綜合&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/公視.png" group-title="今日影视",公視
-http://49.232.143.177:80/pyxg/hmy.php?id=公視&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中天综合.png" group-title="今日影视",中天綜合
-http://49.232.143.177:80/pyxg/hmy.php?id=中天綜合&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/八大综合.png" group-title="今日影视",八大綜合
-http://49.232.143.177:80/pyxg/hmy.php?id=八大綜合&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/八大第一.png" group-title="今日影视",八大第一
-http://49.232.143.177:80/pyxg/hmy.php?id=八大第一&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森綜合.png" group-title="今日影视",東森綜合
-http://49.232.143.177:80/pyxg/hmy.php?id=東森綜合&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东森电影.png" group-title="今日影视",東森電影
-http://49.232.143.177:80/pyxg/hmy.php?id=東森電影&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來電影.png" group-title="今日影视",緯來電影
-http://49.232.143.177:80/pyxg/hmy.php?id=緯來電影&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立都会.png" group-title="今日影视",三立都會
-http://49.232.143.177:80/pyxg/hmy.php?id=三立都會&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/三立台灣.png" group-title="今日影视",三立台灣
-http://49.232.143.177:80/pyxg/hmy.php?id=三立台灣&key=***
-#EXTINF:-1 tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華偶像.png" group-title="今日影视",龍華偶像
-http://49.232.143.177:80/pyxg/hmy.php?id=龍華偶像&key=***
-#EXTINF:-1 tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华电影.png" group-title="今日影视",龍華電影
-http://49.232.143.177:80/pyxg/hmy.php?id=龍華電影&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龍華經典.png" group-title="今日影视",龍華經典
-http://49.232.143.177:80/pyxg/hmy.php?id=龍華經典&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好萊塢電影.png" group-title="今日影视",好萊塢電影
-http://49.232.143.177:80/pyxg/hmy.php?id=好萊塢電影&key=***
-#EXTINF:-1 group-title="今日影视",TVBS備
-http://49.232.143.177:80/pyxg/hmy.php?id=TVBS備&key=***
-#EXTINF:-1 group-title="今日影视",中天新聞備
-http://49.232.143.177:80/pyxg/hmy.php?id=中天新聞備&key=***
-#EXTINF:-1 group-title="今日影视",東森新聞備
-http://49.232.143.177:80/pyxg/hmy.php?id=東森新聞備&key=***
-#EXTINF:-1 tvg-id="華視新聞" tvg-name="華視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/华视新闻.png" group-title="今日影视",華視新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=華視新聞&key=***
-#EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视新闻.png" group-title="今日影视",中視新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=中視新聞&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視新聞.png" group-title="今日影视",台視新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=台視新聞&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/民视新闻.png" group-title="今日影视",民視新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=民視新聞&key=***
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TVBS新闻.png" group-title="今日影视",TVBS新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=TVBS新聞&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三立新聞.png" group-title="今日影视",三立新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=三立新聞&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/年代新闻.png" group-title="今日影视",年代新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=年代新聞&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/壹新闻.png" group-title="今日影视",壹新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=壹新聞&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="今日影视",非凡新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=非凡新聞&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/镜新闻.png" group-title="今日影视",鏡新聞
-http://49.232.143.177:80/pyxg/hmy.php?id=鏡新聞&key=***
-#EXTINF:-1 group-title="今日影视",環宇台灣
-http://49.232.143.177:80/pyxg/hmy.php?id=環宇台灣&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/緯來體育.png" group-title="今日影视",緯來體育
-http://49.232.143.177:80/pyxg/hmy.php?id=緯來體育&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NBATV.png" group-title="今日影视",NBATV
-http://49.232.143.177:80/pyxg/hmy.php?id=NBATV&key=***
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="今日影视",CCTV5
-http://49.232.143.177:80/pyxg/hmy.php?id=CCTV5&key=***
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东体育.png" group-title="今日影视",广东体育
-http://49.232.143.177:80/pyxg/hmy.php?id=广东体育&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育1.png" group-title="今日影视",ELTA體育1
-http://49.232.143.177:80/pyxg/hmy.php?id=ELTA體育1&key=***
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/ELTA体育2.png" group-title="今日影视",ELTA體育2
-http://49.232.143.177:80/pyxg/hmy.php?id=ELTA體育2&key=***
-#EXTINF:-1 group-title="今日影视",TSNSport1
-http://49.232.143.177:80/pyxg/hmy.php?id=TSNSport1&key=***
-#EXTINF:-1 group-title="今日影视",TSNSport2
-http://49.232.143.177:80/pyxg/hmy.php?id=TSNSport2&key=***
-#EXTINF:-1 group-title="今日影视",TSNSport3
-http://49.232.143.177:80/pyxg/hmy.php?id=TSNSport3&key=***
-#EXTINF:-1 group-title="今日影视",TSNSport4
-http://49.232.143.177:80/pyxg/hmy.php?id=TSNSport4&key=***
 #EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="美国UA(挂梯子)",CGTN
 https://english-livebkali.cgtn.com/live/encgtn_1.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CGTN1.png" group-title="美国UA(挂梯子)",CGTN1
@@ -10831,6 +10669,130 @@ http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
 http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
 #EXTINF:-1 group-title="私密频道_169169",香蕉(挂梯)
 http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
+#EXTINF:-1 group-title="私密频道_169169",Amazing 惊艳成人电影台
+http://lhzb.lmllml.top:8000/play/Njk1NTo3.flv?token=QRm82XRORhpk644nbXuANA&exp=4102444800&sign=689c108528d67dd5f4144377fd6b503a
+#EXTINF:-1 tvg-id="驚豔成人電影台" tvg-name="驚豔成人電影台" group-title="私密频道_169169",惊艳成人电影台
+http://lhzb.lmllml.top:8000/play/Njk1Njo3.flv?token=Bmhw97ZDvo5k05YBIUlP-Q&exp=4102444800&sign=a2e2d998212a39cfa5f4c6f7d648e43b
+#EXTINF:-1 group-title="私密频道_169169",Banana 香蕉台
+http://lhzb.lmllml.top:8000/play/Njk1Nzo3.flv?token=SSEkzFyfu0PJ5wDtpOo4KQ&exp=4102444800&sign=8b2eec1799924ecdebed90d7f717df1b
+#EXTINF:-1 tvg-id="香蕉台" tvg-name="香蕉台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/香蕉台.png" group-title="私密频道_169169",香蕉台
+http://lhzb.lmllml.top:8000/play/Njk1ODo3.flv?token=KRwl3SN2y7dW9if4-0lDBw&exp=4102444800&sign=259c0b527f6795bcc4f860f7748d5233
+#EXTINF:-1 group-title="私密频道_169169",松视 1台
+http://lhzb.lmllml.top:8000/play/Njk1OTo3.flv?token=g_Uz63SvXY4lGN4SriEimw&exp=4102444800&sign=59a955f98fc0fd522cbd02ccc8a9853d
+#EXTINF:-1 group-title="私密频道_169169",松视 1台
+http://lhzb.lmllml.top:8000/play/Njk2MDo3.flv?token=b3LZoWJbHaPSQSBn6wvM2Q&exp=4102444800&sign=4da13ea349fc6e2f6dfe66fa48483f66
+#EXTINF:-1 group-title="私密频道_169169",松视 2台
+http://lhzb.lmllml.top:8000/play/Njk2MTo3.flv?token=IFsicSbpIX_s6Qo7d1H79w&exp=4102444800&sign=ee6c43f039460aa7057978be4aeeeed2
+#EXTINF:-1 group-title="私密频道_169169",松视 2台
+http://lhzb.lmllml.top:8000/play/Njk2Mjo3.flv?token=vUoq6t10JzEr1lM17-atNw&exp=4102444800&sign=d0fd1068a86fc39a224f0bfa35409498
+#EXTINF:-1 group-title="私密频道_169169",松视 3台
+http://lhzb.lmllml.top:8000/play/Njk2Mzo3.flv?token=uA9f5Q2u1zCtZrmxjbshtg&exp=4102444800&sign=5a114e6af79160c58f0de473d2c14e86
+#EXTINF:-1 group-title="私密频道_169169",松视 3台
+http://lhzb.lmllml.top:8000/play/Njk2NDo3.flv?token=yzIMyAO5QV7ZEagt4vSsLA&exp=4102444800&sign=7cd3eda58670a98f7286ad2185885e14
+#EXTINF:-1 group-title="私密频道_169169",LOOK 频道
+http://lhzb.lmllml.top:8000/play/Njk2NTo3.flv?token=m8c5bvcA_wVVzipYay8dKw&exp=4102444800&sign=c75920fbee91f11115f8e53cd1bbcb0b
+#EXTINF:-1 group-title="私密频道_169169",彩虹E频道
+http://lhzb.lmllml.top:8000/play/Njk2Njo3.flv?token=cTnSdhGG635OUK4pSgkMQw&exp=4102444800&sign=170acae399d86307ac97b7266a3b14c0
+#EXTINF:-1 group-title="私密频道_169169",彩虹E频道
+http://lhzb.lmllml.top:8000/play/Njk2Nzo3.flv?token=uxQssse7ohvte5vNb-rdWA&exp=4102444800&sign=a4427926987b3384c6e8ef16d9699875
+#EXTINF:-1 group-title="私密频道_169169",彩虹K频道
+http://lhzb.lmllml.top:8000/play/Njk2ODo3.flv?token=eLo-wcm4afuIFNO6D6ZUGw&exp=4102444800&sign=d9ba673b4a4b300e900f90f3f114065f
+#EXTINF:-1 group-title="私密频道_169169",彩虹K频道
+http://lhzb.lmllml.top:8000/play/Njk2OTo3.flv?token=Ar-QpaWdWN3TrBb-H2sr-A&exp=4102444800&sign=f6eca9e261c578b04ab514b1e694d620
+#EXTINF:-1 group-title="私密频道_169169",彩虹电影台
+http://lhzb.lmllml.top:8000/play/Njk3MDo3.flv?token=pxT4fc6Dvceaycz_4Z2Egw&exp=4102444800&sign=8c1ac32123ee1fd85dca9cbebf291669
+#EXTINF:-1 group-title="私密频道_169169",彩虹电影台
+http://lhzb.lmllml.top:8000/play/Njk3MTo3.flv?token=E3_6gbVCWTJULKyxKd74OQ&exp=4102444800&sign=4285285d3193cec114e27bddeb28087a
+#EXTINF:-1 group-title="私密频道_169169",彩虹R频道
+http://lhzb.lmllml.top:8000/play/Njk3Mjo3.flv?token=tuDocrSpBPTPMcOctxXvJA&exp=4102444800&sign=74b3870aef52f084bca6877154cb3554
+#EXTINF:-1 group-title="私密频道_169169",潘朵啦玩美台
+http://lhzb.lmllml.top:8000/play/Njk3Mzo3.flv?token=yFTceATwWNOFVBsHxyG06Q&exp=4102444800&sign=77d45fef25f11183fc09b6dff00b3498
+#EXTINF:-1 group-title="私密频道_169169",潘朵啦玩美台
+http://lhzb.lmllml.top:8000/play/Njk3NDo3.flv?token=2aVGo3ojNokXCfOplgO_dA&exp=4102444800&sign=cd9e97b1d415cbb8fa4059a0e1d38bb6
+#EXTINF:-1 group-title="私密频道_169169",潘朵拉粉红台
+http://lhzb.lmllml.top:8000/play/Njk3NTo3.flv?token=S68UiwAWL_pJt6e1QldfTg&exp=4102444800&sign=809dba2a6004e58ee2eab5fff1bda31b
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/HAPPY.png" group-title="私密频道_169169",Happy
+http://lhzb.lmllml.top:8000/play/Njk3Njo3.flv?token=AtZ1wcOmF_x0s1CD6wttzQ&exp=4102444800&sign=1ef2abf194ede1da5a232a04c963b38c
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/HAPPY.png" group-title="私密频道_169169",Happy
+http://lhzb.lmllml.top:8000/play/Njk3Nzo3.flv?token=bJFUk-aaf93UBhYi9BCoBw&exp=4102444800&sign=0355848c815ba0c3dcf635959df167f7
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/JStar极限电影台.png" group-title="私密频道_169169",JStar極限電影台
+http://lhzb.lmllml.top:8000/play/Njk3ODo3.flv?token=eCcNXohUGW6neGalBw2Xyw&exp=4102444800&sign=b917b8f8288af5ac9c3547b575acb521
+#EXTINF:-1 group-title="私密频道_169169",極限電影台
+http://lhzb.lmllml.top:8000/play/Njk3OTo3.flv?token=i3MZjnI8Ky_s7pnuiv5uog&exp=4102444800&sign=2cf95c160fbc1d22b0b206531edc9746
+#EXTINF:-1 tvg-id="樂活頻道" tvg-name="樂活頻道" group-title="私密频道_169169",乐活频道
+http://lhzb.lmllml.top:8000/play/Njk4MDo3.flv?token=_sZwI9SaVvMzogMHKLeSVg&exp=4102444800&sign=4ddafe8c6bd163f85982ae0c7a5a4c71
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/频道.png" group-title="私密频道_169169",频道
+http://lhzb.lmllml.top:8000/play/Njk4MTo3.flv?token=N2Tu7vKPKWBzRyqxtS6SMg&exp=4102444800&sign=3e053c8256550605d6660eee2373eda8
+#EXTINF:-1 group-title="私密频道_169169",HOT 频道
+http://lhzb.lmllml.top:8000/play/Njk4Mjo3.flv?token=8d0ZiL7Hn0p7J1KbMzSJfQ&exp=4102444800&sign=5e19ef3d7d24ceb6bfb823b49066877a
+#EXTINF:-1 group-title="私密频道_169169",奥视频道 Ours 1
+http://lhzb.lmllml.top:8000/play/Njk4Mzo3.flv?token=_FwmXj5JNchRmX76AJ3pdw&exp=4102444800&sign=63fddfb7764d3f72c4dd84a4cc5b0dfe
+#EXTINF:-1 group-title="私密频道_169169",奥视频道 Ours 2
+http://lhzb.lmllml.top:8000/play/Njk4NDo3.flv?token=JqdHv4bKJjaV7WIcEVUiag&exp=4102444800&sign=6b8b4639f35d4f24f450b9698ecc86ee
+#EXTINF:-1 group-title="私密频道_169169",奥视频道 Ours 3
+http://lhzb.lmllml.top:8000/play/Njk4NTo3.flv?token=t3ele4k12qics4EvQQhEmQ&exp=4102444800&sign=e691fcc68495809e2fcb83655ee44178
+#EXTINF:-1 group-title="私密频道_169169",Amazing 惊艳成人电影台
+http://lhzb.lmllml.top:8000/play/Njk1NTo3.flv?token=QRm82XRORhpk644nbXuANA&exp=4102444800&sign=689c108528d67dd5f4144377fd6b503a
+#EXTINF:-1 group-title="私密频道_169169",Amazing 惊艳成人电影台
+http://lhzb.lmllml.top:8000/play/Njk1Njo3.flv?token=Bmhw97ZDvo5k05YBIUlP-Q&exp=4102444800&sign=a2e2d998212a39cfa5f4c6f7d648e43b
+#EXTINF:-1 group-title="私密频道_169169",Banana 香蕉台
+http://lhzb.lmllml.top:8000/play/Njk1Nzo3.flv?token=SSEkzFyfu0PJ5wDtpOo4KQ&exp=4102444800&sign=8b2eec1799924ecdebed90d7f717df1b
+#EXTINF:-1 group-title="私密频道_169169",Banana 香蕉台
+http://lhzb.lmllml.top:8000/play/Njk1ODo3.flv?token=KRwl3SN2y7dW9if4-0lDBw&exp=4102444800&sign=259c0b527f6795bcc4f860f7748d5233
+#EXTINF:-1 group-title="私密频道_169169",松视 1台
+http://lhzb.lmllml.top:8000/play/Njk1OTo3.flv?token=g_Uz63SvXY4lGN4SriEimw&exp=4102444800&sign=59a955f98fc0fd522cbd02ccc8a9853d
+#EXTINF:-1 group-title="私密频道_169169",松视 1台
+http://lhzb.lmllml.top:8000/play/Njk2MDo3.flv?token=b3LZoWJbHaPSQSBn6wvM2Q&exp=4102444800&sign=4da13ea349fc6e2f6dfe66fa48483f66
+#EXTINF:-1 group-title="私密频道_169169",松视 2台
+http://lhzb.lmllml.top:8000/play/Njk2MTo3.flv?token=IFsicSbpIX_s6Qo7d1H79w&exp=4102444800&sign=ee6c43f039460aa7057978be4aeeeed2
+#EXTINF:-1 group-title="私密频道_169169",松视 2台
+http://lhzb.lmllml.top:8000/play/Njk2Mjo3.flv?token=vUoq6t10JzEr1lM17-atNw&exp=4102444800&sign=d0fd1068a86fc39a224f0bfa35409498
+#EXTINF:-1 group-title="私密频道_169169",松视 3台
+http://lhzb.lmllml.top:8000/play/Njk2Mzo3.flv?token=uA9f5Q2u1zCtZrmxjbshtg&exp=4102444800&sign=5a114e6af79160c58f0de473d2c14e86
+#EXTINF:-1 group-title="私密频道_169169",松视 3台
+http://lhzb.lmllml.top:8000/play/Njk2NDo3.flv?token=yzIMyAO5QV7ZEagt4vSsLA&exp=4102444800&sign=7cd3eda58670a98f7286ad2185885e14
+#EXTINF:-1 group-title="私密频道_169169",LOOK 频道
+http://lhzb.lmllml.top:8000/play/Njk2NTo3.flv?token=m8c5bvcA_wVVzipYay8dKw&exp=4102444800&sign=c75920fbee91f11115f8e53cd1bbcb0b
+#EXTINF:-1 group-title="私密频道_169169",彩虹E频道
+http://lhzb.lmllml.top:8000/play/Njk2Njo3.flv?token=cTnSdhGG635OUK4pSgkMQw&exp=4102444800&sign=170acae399d86307ac97b7266a3b14c0
+#EXTINF:-1 group-title="私密频道_169169",彩虹E频道
+http://lhzb.lmllml.top:8000/play/Njk2Nzo3.flv?token=uxQssse7ohvte5vNb-rdWA&exp=4102444800&sign=a4427926987b3384c6e8ef16d9699875
+#EXTINF:-1 group-title="私密频道_169169",彩虹K频道
+http://lhzb.lmllml.top:8000/play/Njk2ODo3.flv?token=eLo-wcm4afuIFNO6D6ZUGw&exp=4102444800&sign=d9ba673b4a4b300e900f90f3f114065f
+#EXTINF:-1 group-title="私密频道_169169",彩虹K频道
+http://lhzb.lmllml.top:8000/play/Njk2OTo3.flv?token=Ar-QpaWdWN3TrBb-H2sr-A&exp=4102444800&sign=f6eca9e261c578b04ab514b1e694d620
+#EXTINF:-1 group-title="私密频道_169169",彩虹电影台
+http://lhzb.lmllml.top:8000/play/Njk3MDo3.flv?token=pxT4fc6Dvceaycz_4Z2Egw&exp=4102444800&sign=8c1ac32123ee1fd85dca9cbebf291669
+#EXTINF:-1 group-title="私密频道_169169",彩虹电影台
+http://lhzb.lmllml.top:8000/play/Njk3MTo3.flv?token=E3_6gbVCWTJULKyxKd74OQ&exp=4102444800&sign=4285285d3193cec114e27bddeb28087a
+#EXTINF:-1 group-title="私密频道_169169",彩虹R频道
+http://lhzb.lmllml.top:8000/play/Njk3Mjo3.flv?token=tuDocrSpBPTPMcOctxXvJA&exp=4102444800&sign=74b3870aef52f084bca6877154cb3554
+#EXTINF:-1 group-title="私密频道_169169",潘朵啦玩美台
+http://lhzb.lmllml.top:8000/play/Njk3Mzo3.flv?token=yFTceATwWNOFVBsHxyG06Q&exp=4102444800&sign=77d45fef25f11183fc09b6dff00b3498
+#EXTINF:-1 group-title="私密频道_169169",潘朵啦玩美台
+http://lhzb.lmllml.top:8000/play/Njk3NDo3.flv?token=2aVGo3ojNokXCfOplgO_dA&exp=4102444800&sign=cd9e97b1d415cbb8fa4059a0e1d38bb6
+#EXTINF:-1 group-title="私密频道_169169",潘朵拉粉红台
+http://lhzb.lmllml.top:8000/play/Njk3NTo3.flv?token=S68UiwAWL_pJt6e1QldfTg&exp=4102444800&sign=809dba2a6004e58ee2eab5fff1bda31b
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/HAPPY.png" group-title="私密频道_169169",Happy
+http://lhzb.lmllml.top:8000/play/Njk3Njo3.flv?token=AtZ1wcOmF_x0s1CD6wttzQ&exp=4102444800&sign=1ef2abf194ede1da5a232a04c963b38c
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/taksssss/tv/main/icon/HAPPY.png" group-title="私密频道_169169",Happy
+http://lhzb.lmllml.top:8000/play/Njk3Nzo3.flv?token=bJFUk-aaf93UBhYi9BCoBw&exp=4102444800&sign=0355848c815ba0c3dcf635959df167f7
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/JStar极限电影台.png" group-title="私密频道_169169",JStar極限電影台
+http://lhzb.lmllml.top:8000/play/Njk3ODo3.flv?token=eCcNXohUGW6neGalBw2Xyw&exp=4102444800&sign=b917b8f8288af5ac9c3547b575acb521
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/JStar极限电影台.png" group-title="私密频道_169169",JStar極限電影台
+http://lhzb.lmllml.top:8000/play/Njk3OTo3.flv?token=i3MZjnI8Ky_s7pnuiv5uog&exp=4102444800&sign=2cf95c160fbc1d22b0b206531edc9746
+#EXTINF:-1 tvg-id="樂活頻道" tvg-name="樂活頻道" group-title="私密频道_169169",乐活频道
+http://lhzb.lmllml.top:8000/play/Njk4MDo3.flv?token=_sZwI9SaVvMzogMHKLeSVg&exp=4102444800&sign=4ddafe8c6bd163f85982ae0c7a5a4c71
+#EXTINF:-1 group-title="私密频道_169169",HiPLAY 频道
+http://lhzb.lmllml.top:8000/play/Njk4MTo3.flv?token=N2Tu7vKPKWBzRyqxtS6SMg&exp=4102444800&sign=3e053c8256550605d6660eee2373eda8
+#EXTINF:-1 group-title="私密频道_169169",HOT 频道
+http://lhzb.lmllml.top:8000/play/Njk4Mjo3.flv?token=8d0ZiL7Hn0p7J1KbMzSJfQ&exp=4102444800&sign=5e19ef3d7d24ceb6bfb823b49066877a
+#EXTINF:-1 group-title="私密频道_169169",奥视频道 Ours 1
+http://lhzb.lmllml.top:8000/play/Njk4Mzo3.flv?token=_FwmXj5JNchRmX76AJ3pdw&exp=4102444800&sign=63fddfb7764d3f72c4dd84a4cc5b0dfe
+#EXTINF:-1 group-title="私密频道_169169",奥视频道 Ours 2
+http://lhzb.lmllml.top:8000/play/Njk4NDo3.flv?token=JqdHv4bKJjaV7WIcEVUiag&exp=4102444800&sign=6b8b4639f35d4f24f450b9698ecc86ee
+#EXTINF:-1 group-title="私密频道_169169",奥视频道 Ours 3
+http://lhzb.lmllml.top:8000/play/Njk4NTo3.flv?token=t3ele4k12qics4EvQQhEmQ&exp=4102444800&sign=e691fcc68495809e2fcb83655ee44178
 #EXTINF:-1 group-title="私密频道_169169",Emma White
 http://conecdg.me:80/Andrielly.Silva/Br131221/3932765
 #EXTINF:-1 group-title="私密频道_169169",Eva Elfie
