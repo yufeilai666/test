@@ -2927,7 +2927,7 @@ p3p://fccsen.dyndns.tv:29706/5f90e140000e4e52bec2c31d768f133a
 p3p://167.114.175.6:55331/64577742000d1a6986e1aac95b701e8b
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/FASHIONTV.png" group-title="美国USA",FashionTV
 p3p://fccsen.dyndns.tv:29706/615276c1000841769af1921e0239571f
-#EXTINF:-1 group-title="美国USA",Fashion TV
+#EXTINF:-1 tvg-id="Fashion TV" tvg-name="Fashion TV" group-title="美国USA",Fashion TV
 p3p://fccsen.dyndns.tv:29706/5a43e5ea0002d22c54e2300409a71dad
 #EXTINF:-1 group-title="美国USA",GSN
 p3p://fccsen.dyndns.tv:29706/5bd7adf4000e15bd7e2468267440101a
