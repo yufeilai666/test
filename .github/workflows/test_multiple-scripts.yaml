@@ -127,7 +127,7 @@ jobs:
           # "get_katyushatv_epg.py"
           # "get_cztv_epg.py"
           # "get_hnntv_epg.py"
-          "get_hebrts_epg.py"
+          "get_henantv_epg.py"
           # 可添加带子目录的脚本，例如：
           # "subdir/get_xxx.py"
         )
