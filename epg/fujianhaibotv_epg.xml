@@ -20,6 +20,10 @@
     <display-name>福建文旅·体育频道</display-name>
     <icon src="https://fyfile.fjtv.net/file/storage1-cloudlivemanage/cloudlivemanage/2026/468/a506ae5283b09312.png"/>
   </channel>
+  <channel id="福建新闻频道">
+    <display-name>福建新闻频道</display-name>
+    <icon src="https://fyfile.fjtv.net/file/storage1-cloudlivemanage/cloudlivemanage/2024/468/a8ba93a63f73bd96.png"/>
+  </channel>
   <programme start="20260918070000 +0800" stop="20260918071141 +0800" channel="福建少儿频道">
     <title>中国熊猫之守护传说 (79)</title>
     <category>yufeilai666</category>
@@ -1736,7 +1740,7 @@
     <category>FJTV</category>
   </programme>
   <programme start="20260919184600 +0800" stop="20260919190000 +0800" channel="海峡卫视">
-    <title>全省民族团结进步活动</title>
+    <title>潜行天下</title>
     <category>yufeilai666</category>
     <category>FJTV</category>
   </programme>
@@ -2175,7 +2179,102 @@
     <category>yufeilai666</category>
     <category>FJTV</category>
   </programme>
-  <programme start="20260919225500 +0800" stop="20260920000000 +0800" channel="福建综合频道">
+  <programme start="20260919225500 +0800" stop="20260920002500 +0800" channel="福建综合频道">
+    <title>精选剧场: 鲲鹏击浪</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920002500 +0800" stop="20260920005200 +0800" channel="福建综合频道">
+    <title>重播 福建新闻联播</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920005200 +0800" stop="20260920022700 +0800" channel="福建综合频道">
+    <title>重播 帮帮团</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920022700 +0800" stop="20260920063500 +0800" channel="福建综合频道">
+    <title>凌晨剧场: 烽火太行</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920063500 +0800" stop="20260920070500 +0800" channel="福建综合频道">
+    <title>重播 福建新闻联播</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920070500 +0800" stop="20260920120000 +0800" channel="福建综合频道">
+    <title>流金剧场: 第十二秒</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920120000 +0800" stop="20260920123000 +0800" channel="福建综合频道">
+    <title>午间新时空</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920123000 +0800" stop="20260920124700 +0800" channel="福建综合频道">
+    <title>午间全省天气预报</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920124700 +0800" stop="20260920143200 +0800" channel="福建综合频道">
+    <title>重播 帮帮团</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920143200 +0800" stop="20260920180000 +0800" channel="福建综合频道">
+    <title>流金剧场: 第十二秒</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920180000 +0800" stop="20260920192600 +0800" channel="福建综合频道">
+    <title>帮帮团</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920192600 +0800" stop="20260920193200 +0800" channel="福建综合频道">
+    <title>全省天气预报</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920193200 +0800" stop="20260920193500 +0800" channel="福建综合频道">
+    <title>全省海洋环境预报</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920193500 +0800" stop="20260920200500 +0800" channel="福建综合频道">
+    <title>福建新闻联播</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920200500 +0800" stop="20260920202300 +0800" channel="福建综合频道">
+    <title>时代先锋</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920202300 +0800" stop="20260920211100 +0800" channel="福建综合频道">
+    <title>第一剧场: 好运家 (3)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920211100 +0800" stop="20260920220000 +0800" channel="福建综合频道">
+    <title>第一剧场: 好运家 (4)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920220000 +0800" stop="20260920223300 +0800" channel="福建综合频道">
+    <title>记住乡愁 第十季</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920223300 +0800" stop="20260920225200 +0800" channel="福建综合频道">
+    <title>武夷五宴</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920225200 +0800" stop="20260921000000 +0800" channel="福建综合频道">
     <title>精选剧场: 鲲鹏击浪</title>
     <category>yufeilai666</category>
     <category>FJTV</category>
@@ -2460,8 +2559,138 @@
     <category>yufeilai666</category>
     <category>FJTV</category>
   </programme>
-  <programme start="20260919232500 +0800" stop="20260920000000 +0800" channel="东南卫视">
+  <programme start="20260919232500 +0800" stop="20260920014400 +0800" channel="东南卫视">
     <title>重播 “闽超”第十四轮 龙岩VS泉州</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920014400 +0800" stop="20260920024700 +0800" channel="东南卫视">
+    <title>重播 东南军情</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920024700 +0800" stop="20260920032200 +0800" channel="东南卫视">
+    <title>重播 玩转海岸线</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920032200 +0800" stop="20260920051600 +0800" channel="东南卫视">
+    <title>重播 心中有片海</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920051600 +0800" stop="20260920062700 +0800" channel="东南卫视">
+    <title>早间剧场: 包青天之碧血丹心</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920062700 +0800" stop="20260920065500 +0800" channel="东南卫视">
+    <title>千古风流人物 (第五季)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920065500 +0800" stop="20260920070100 +0800" channel="东南卫视">
+    <title>东南早间天气预报</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920070100 +0800" stop="20260920084000 +0800" channel="东南卫视">
+    <title>早间剧场: 包青天之碧血丹心</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920084000 +0800" stop="20260920115800 +0800" channel="东南卫视">
+    <title>剧场: 穆桂英挂帅</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920115800 +0800" stop="20260920120000 +0800" channel="东南卫视">
+    <title>政绩观短视频: 《蓝图绘就中的政绩观》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920120000 +0800" stop="20260920123500 +0800" channel="东南卫视">
+    <title>海峡午报</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920123500 +0800" stop="20260920123900 +0800" channel="东南卫视">
+    <title>政绩观短视频: 《蓝图绘就中的政绩观》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920123900 +0800" stop="20260920180500 +0800" channel="东南卫视">
+    <title>剧场: 薛平贵与王宝钏</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920180500 +0800" stop="20260920182500 +0800" channel="东南卫视">
+    <title>玩转海岸线</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920182500 +0800" stop="20260920183000 +0800" channel="东南卫视">
+    <title>东南气象快讯</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920183000 +0800" stop="20260920185800 +0800" channel="东南卫视">
+    <title>福建卫视新闻</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920185800 +0800" stop="20260920190000 +0800" channel="东南卫视">
+    <title>政绩观短视频: 《蓝图绘就中的政绩观》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920190000 +0800" stop="20260920193000 +0800" channel="东南卫视">
+    <title>转播 中央台新闻联播</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920193000 +0800" stop="20260920193800 +0800" channel="东南卫视">
+    <title>政绩观短视频: 《蓝图绘就中的政绩观》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920193800 +0800" stop="20260920203800 +0800" channel="东南卫视">
+    <title>东南剧苑: 没有你依然灿烂  第4集</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920203800 +0800" stop="20260920212400 +0800" channel="东南卫视">
+    <title>东南剧苑: 没有你依然灿烂  第5集</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920212400 +0800" stop="20260920212600 +0800" channel="东南卫视">
+    <title>政绩观短视频: 《蓝图绘就中的政绩观》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920212600 +0800" stop="20260920221800 +0800" channel="东南卫视">
+    <title>台湾新闻脸</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920221800 +0800" stop="20260920230900 +0800" channel="东南卫视">
+    <title>海峡新干线</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920230900 +0800" stop="20260920231000 +0800" channel="东南卫视">
+    <title>政绩观短视频: 《蓝图绘就中的政绩观》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920231000 +0800" stop="20260920232500 +0800" channel="东南卫视">
+    <title>东南晚报</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920232500 +0800" stop="20260921000000 +0800" channel="东南卫视">
+    <title>《中国经济圆桌会》</title>
     <category>yufeilai666</category>
     <category>FJTV</category>
   </programme>
@@ -3582,6 +3811,811 @@
   </programme>
   <programme start="20260920235700 +0800" stop="20260921000000 +0800" channel="福建文旅·体育频道">
     <title>闽超精彩瞬间 (文旅)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918000000 +0800" stop="20260918002500 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918002500 +0800" stop="20260918002800 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918002800 +0800" stop="20260918003300 +0800" channel="福建新闻频道">
+    <title>闽超0913进球集锦</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918003300 +0800" stop="20260918012800 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918012800 +0800" stop="20260918015300 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918015300 +0800" stop="20260918020300 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918020300 +0800" stop="20260918020600 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918020600 +0800" stop="20260918023100 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918023100 +0800" stop="20260918032600 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918032600 +0800" stop="20260918035100 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918035100 +0800" stop="20260918040500 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918040500 +0800" stop="20260918043000 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918043000 +0800" stop="20260918052500 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918052500 +0800" stop="20260918053500 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918053500 +0800" stop="20260918054000 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918054000 +0800" stop="20260918060500 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918060500 +0800" stop="20260918070000 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918070000 +0800" stop="20260918072500 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918072500 +0800" stop="20260918072800 +0800" channel="福建新闻频道">
+    <title>《午间天气快报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918072800 +0800" stop="20260918073500 +0800" channel="福建新闻频道">
+    <title>闽超0913进球集锦</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918073500 +0800" stop="20260918074500 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918074500 +0800" stop="20260918084700 +0800" channel="福建新闻频道">
+    <title>福建农村实用技术远程培训</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918084700 +0800" stop="20260918091200 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918091200 +0800" stop="20260918092000 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918092000 +0800" stop="20260918102000 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918102000 +0800" stop="20260918104630 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918104630 +0800" stop="20260918105800 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918105800 +0800" stop="20260918110100 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918110100 +0800" stop="20260918120000 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918120000 +0800" stop="20260918123000 +0800" channel="福建新闻频道">
+    <title>午间新时空</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918123000 +0800" stop="20260918123500 +0800" channel="福建新闻频道">
+    <title>《午间天气快报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918123500 +0800" stop="20260918133241 +0800" channel="福建新闻频道">
+    <title>闽超第十四轮 漳州队VS三明队 上半场</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918133241 +0800" stop="20260918143200 +0800" channel="福建新闻频道">
+    <title>闽超第十四轮 漳州队VS三明队 下半场</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918143200 +0800" stop="20260918152900 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918152900 +0800" stop="20260918154100 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918154100 +0800" stop="20260918154600 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918154600 +0800" stop="20260918161800 +0800" channel="福建新闻频道">
+    <title>午间新时空</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918161800 +0800" stop="20260918171500 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918171500 +0800" stop="20260918172800 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918172800 +0800" stop="20260918180200 +0800" channel="福建新闻频道">
+    <title>午间新时空</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918180200 +0800" stop="20260918190000 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918190000 +0800" stop="20260918200000 +0800" channel="福建新闻频道">
+    <title>《现场》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918200000 +0800" stop="20260918203000 +0800" channel="福建新闻频道">
+    <title>《律师在现场》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918203000 +0800" stop="20260918204500 +0800" channel="福建新闻频道">
+    <title>《福建好味道》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918204500 +0800" stop="20260918210300 +0800" channel="福建新闻频道">
+    <title>海洋季风-玩转海岸线</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918210300 +0800" stop="20260918210700 +0800" channel="福建新闻频道">
+    <title>《福建海洋预报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918210700 +0800" stop="20260918220000 +0800" channel="福建新闻频道">
+    <title>《共享大医生》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918220000 +0800" stop="20260918222700 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918222700 +0800" stop="20260918224700 +0800" channel="福建新闻频道">
+    <title>八闽正春风</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918224700 +0800" stop="20260918230000 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918230000 +0800" stop="20260918232500 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918232500 +0800" stop="20260918233000 +0800" channel="福建新闻频道">
+    <title>《午间天气快报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260918233000 +0800" stop="20260919000000 +0800" channel="福建新闻频道">
+    <title>兴农讲堂之田园公开课 (30分)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919000000 +0800" stop="20260919002500 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919002500 +0800" stop="20260919003500 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919003500 +0800" stop="20260919013000 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919013000 +0800" stop="20260919015500 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919015500 +0800" stop="20260919020500 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919020500 +0800" stop="20260919021000 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919021000 +0800" stop="20260919023500 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919023500 +0800" stop="20260919033000 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919033000 +0800" stop="20260919035500 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919035500 +0800" stop="20260919040500 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919040500 +0800" stop="20260919043000 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919043000 +0800" stop="20260919052500 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919052500 +0800" stop="20260919053500 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919053500 +0800" stop="20260919054000 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919054000 +0800" stop="20260919060500 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919060500 +0800" stop="20260919070000 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919070000 +0800" stop="20260919072500 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919072500 +0800" stop="20260919073200 +0800" channel="福建新闻频道">
+    <title>《午间天气快报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919073200 +0800" stop="20260919073500 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919073500 +0800" stop="20260919074500 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919074500 +0800" stop="20260919084700 +0800" channel="福建新闻频道">
+    <title>福建农村实用技术远程培训</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919084700 +0800" stop="20260919091200 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919091200 +0800" stop="20260919091700 +0800" channel="福建新闻频道">
+    <title>闽超0913进球集锦</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919091700 +0800" stop="20260919092500 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919092500 +0800" stop="20260919102500 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919102500 +0800" stop="20260919105000 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919105000 +0800" stop="20260919110500 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919110500 +0800" stop="20260919111800 +0800" channel="福建新闻频道">
+    <title>《周闻十分》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919111800 +0800" stop="20260919114300 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919114300 +0800" stop="20260919115500 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919115500 +0800" stop="20260919120000 +0800" channel="福建新闻频道">
+    <title>闽超0913进球集锦</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919120000 +0800" stop="20260919123000 +0800" channel="福建新闻频道">
+    <title>午间新时空</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919123000 +0800" stop="20260919123700 +0800" channel="福建新闻频道">
+    <title>《午间天气快报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919123700 +0800" stop="20260919133400 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919133400 +0800" stop="20260919140600 +0800" channel="福建新闻频道">
+    <title>兴农讲堂之田园公开课</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919140600 +0800" stop="20260919150300 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919150300 +0800" stop="20260919150800 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919150800 +0800" stop="20260919152000 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919152000 +0800" stop="20260919161700 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919161700 +0800" stop="20260919164700 +0800" channel="福建新闻频道">
+    <title>午间新时空</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919164700 +0800" stop="20260919165200 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919165200 +0800" stop="20260919175000 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919175000 +0800" stop="20260919185500 +0800" channel="福建新闻频道">
+    <title>《现场》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919185500 +0800" stop="20260919190000 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919190000 +0800" stop="20260919213200 +0800" channel="福建新闻频道">
+    <title>《爱拼闽超赢-兴业银行2026年福建省城市足球联赛-第十五轮 南平VS三明足球赛事》-直播</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919213200 +0800" stop="20260919213600 +0800" channel="福建新闻频道">
+    <title>《福建海洋预报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919213600 +0800" stop="20260919220000 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919220000 +0800" stop="20260919222500 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919222500 +0800" stop="20260919223700 +0800" channel="福建新闻频道">
+    <title>《福见保险》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919223700 +0800" stop="20260919224500 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919224500 +0800" stop="20260919230000 +0800" channel="福建新闻频道">
+    <title>《福建好味道》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919230000 +0800" stop="20260919232500 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919232500 +0800" stop="20260919233000 +0800" channel="福建新闻频道">
+    <title>《午间天气快报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919233000 +0800" stop="20260919234000 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260919234000 +0800" stop="20260920000000 +0800" channel="福建新闻频道">
+    <title>八闽正春风</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920000000 +0800" stop="20260920002700 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920002700 +0800" stop="20260920003000 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920003000 +0800" stop="20260920012500 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920012500 +0800" stop="20260920015000 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920015000 +0800" stop="20260920020000 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920020000 +0800" stop="20260920020500 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920020500 +0800" stop="20260920023000 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920023000 +0800" stop="20260920032500 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920032500 +0800" stop="20260920035000 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920035000 +0800" stop="20260920040000 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920040000 +0800" stop="20260920040500 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920040500 +0800" stop="20260920043000 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920043000 +0800" stop="20260920052500 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920052500 +0800" stop="20260920054000 +0800" channel="福建新闻频道">
+    <title>《新闻启示录》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920054000 +0800" stop="20260920060500 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920060500 +0800" stop="20260920070000 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920070000 +0800" stop="20260920072500 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920072500 +0800" stop="20260920072800 +0800" channel="福建新闻频道">
+    <title>《午间天气快报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920072800 +0800" stop="20260920073100 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920073100 +0800" stop="20260920083300 +0800" channel="福建新闻频道">
+    <title>福建农村实用技术远程培训</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920083300 +0800" stop="20260920085900 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920085900 +0800" stop="20260920090700 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920090700 +0800" stop="20260920100700 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920100700 +0800" stop="20260920104000 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920104000 +0800" stop="20260920110500 +0800" channel="福建新闻频道">
+    <title>《律师在现场》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920110500 +0800" stop="20260920111800 +0800" channel="福建新闻频道">
+    <title>《周闻十分》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920111800 +0800" stop="20260920114300 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920114300 +0800" stop="20260920120000 +0800" channel="福建新闻频道">
+    <title>多彩福茶</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920120000 +0800" stop="20260920123000 +0800" channel="福建新闻频道">
+    <title>午间新时空</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920123000 +0800" stop="20260920123700 +0800" channel="福建新闻频道">
+    <title>《午间天气快报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920123700 +0800" stop="20260920133400 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920133400 +0800" stop="20260920134600 +0800" channel="福建新闻频道">
+    <title>多彩福茶</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920134600 +0800" stop="20260920140800 +0800" channel="福建新闻频道">
+    <title>八闽正春风</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920140800 +0800" stop="20260920150500 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920150500 +0800" stop="20260920153000 +0800" channel="福建新闻频道">
+    <title>《律师在现场》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920153000 +0800" stop="20260920160200 +0800" channel="福建新闻频道">
+    <title>午间新时空</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920160200 +0800" stop="20260920165900 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920165900 +0800" stop="20260920172200 +0800" channel="福建新闻频道">
+    <title>八闽正春风</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920172200 +0800" stop="20260920175200 +0800" channel="福建新闻频道">
+    <title>午间新时空</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920175200 +0800" stop="20260920180200 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920180200 +0800" stop="20260920190000 +0800" channel="福建新闻频道">
+    <title>《现场》 (精华版)</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920190000 +0800" stop="20260920200000 +0800" channel="福建新闻频道">
+    <title>《现场》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920200000 +0800" stop="20260920203000 +0800" channel="福建新闻频道">
+    <title>《律师在现场》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920203000 +0800" stop="20260920204500 +0800" channel="福建新闻频道">
+    <title>《福建好味道》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920204500 +0800" stop="20260920210300 +0800" channel="福建新闻频道">
+    <title>海洋季风-向往的大海 以木为舟 刻海入魂</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920210300 +0800" stop="20260920210700 +0800" channel="福建新闻频道">
+    <title>《福建海洋预报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920210700 +0800" stop="20260920220000 +0800" channel="福建新闻频道">
+    <title>《共享大医生》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920220000 +0800" stop="20260920222700 +0800" channel="福建新闻频道">
+    <title>《福建卫视新闻》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920222700 +0800" stop="20260920224700 +0800" channel="福建新闻频道">
+    <title>八闽正春风</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920224700 +0800" stop="20260920230000 +0800" channel="福建新闻频道">
+    <title>《风物福建-短视频》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920230000 +0800" stop="20260920232500 +0800" channel="福建新闻频道">
+    <title>《福建新闻联播》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920232500 +0800" stop="20260920232800 +0800" channel="福建新闻频道">
+    <title>《午间天气快报》</title>
+    <category>yufeilai666</category>
+    <category>FJTV</category>
+  </programme>
+  <programme start="20260920232800 +0800" stop="20260921000000 +0800" channel="福建新闻频道">
+    <title>兴农讲堂之田园公开课</title>
     <category>yufeilai666</category>
     <category>FJTV</category>
   </programme>
