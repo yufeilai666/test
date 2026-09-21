@@ -1,0 +1,377 @@
+name: 3.4 Morning Multi-script generator
+
+###############################################################################
+# EPG数据自动生成工作流
+# 
+# 功能概述:
+#   - 从私有仓库获取EPG生成脚本（PHP/Python）
+#   - 在临时目录中执行脚本，避免污染工作目录
+#   - 将生成的EPG数据推送到当前仓库的epg目录
+#
+# 主要特性:
+#   - 支持多语言多脚本（PHP 8.2 + Python 3.x）
+#   - 安全的私有仓库访问（使用PAT_TOKEN）
+#   - 自动错误处理和报告机制
+#   - 脚本执行后自动清理临时目录，不保留任何残留
+#   - 北京时间戳的提交信息
+#   - 可配置的脚本执行列表和依赖文件列表
+#   - 支持任意子目录结构（保留路径复制）
+#   - 自动为Python子目录创建__init__.py
+#   - 递归收集生成的数据文件，并排除已知的依赖文件、主脚本和辅助文件（如__init__.py）
+#   - 提交信息中明确列出失败脚本（用 | 分隔）
+#
+# 触发条件:
+#   - 定时触发: 每日UTC时间16:05（北京时间00:05）自动运行
+#   - 手动触发: 可在GitHub Actions页面手动执行
+#
+# 前置要求:
+#   - 在仓库Secrets中设置PAT_TOKEN，具有访问私有仓库的权限
+#   - 私有仓库tvepg的epg_scripts分支包含所需的EPG脚本
+#
+# 输出结果:
+#   - 生成的XML文件将保存在当前仓库的epg目录中
+#   - 详细的执行日志和错误报告
+###############################################################################
+
+on:
+  workflow_dispatch:  # 手动触发 - 可在GitHub Actions页面手动运行此工作流
+  # schedule:
+    # 定时触发 - 每天UTC时间16点04分、（北京时间凌晨0点04分）自动运行
+    # - cron: '04 16 * * *'
+
+jobs:
+  generate-epg:
+    runs-on: ubuntu-latest  # 使用最新版Ubuntu系统作为运行环境
+    
+    steps:
+    # 步骤1: 检出当前仓库（作为最终推送目标的工作目录）
+    - name: Checkout current repository
+      uses: actions/checkout@v6
+      with:
+        token: ${{ secrets.PAT_TOKEN }}  # 使用个人访问令牌进行认证
+        fetch-depth: 1  # 获取最新git历史记录
+
+    # 步骤2: 设置Python环境
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.x'  # 指定Python 3.x版本
+
+    # 步骤3: 设置PHP环境
+    - name: Set up PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'  # 指定PHP 8.2版本
+        extensions: curl, xml, mbstring  # 一键安装所需扩展
+        
+    # 步骤4: 安装Python依赖包
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip  # 升级pip到最新版本
+        # 安装Python脚本可能需要的库
+        pip install requests beautifulsoup4 lxml pytz httpx aiohttp loguru curl_cffi
+
+    # 步骤5: 安装PHP扩展（已注释，如需可取消）
+    # - name: Install PHP dependencies
+      # run: |
+        # sudo apt-get update
+        # sudo apt-get install -y php-curl php-xml php-mbstring        
+
+    # 步骤6: 检出tvepg仓库的epg_scripts分支（用于获取脚本和依赖）
+    - name: Checkout private repository (epg_scripts branch)
+      uses: actions/checkout@v6
+      with:
+        repository: ${{ github.repository_owner }}/tvepg  # 私有仓库
+        token: ${{ secrets.PAT_TOKEN }}  # 使用个人访问令牌
+        ref: epg_scripts  # 指定分支
+        path: private_repo_temp  # 检出到指定目录
+
+    # 步骤6.5: 创建临时目录，复制依赖文件和主脚本到临时目录（支持子目录结构）
+    - name: Prepare temporary directory and copy scripts
+      id: prepare
+      run: |
+        # ===== 定义依赖文件数组（支持任意子目录和扩展名） =====
+        # 可根据实际需要添加、移除或注释掉依赖文件
+        # 注意：如果依赖文件位于子目录，这里的路径需要与私有仓库中的实际路径一致
+        dependency_scripts=(
+          # Python依赖脚本
+          "config/bbcable_backup_channels_dict.py"
+          "config/tvmao_channels_list.py"
+          # 可以添加更多依赖文件
+          # "config.json"
+        )
+        
+        # ===== 定义要获取并执行的主脚本数组（支持任意子目录，PHP/Python均可） =====
+        # 可以轻松添加、移除或注释不需要的脚本
+        scripts=(
+          # "get_tvmao_epg.py"
+          # "epganywhereusa.php"
+          # "epg-fixer.php"          # PHP EPG修复器脚本（从EPG_CONFIG读取配置）- 当前已禁用
+          # "epgguangxi.php"         # PHP 广西EPG脚本 - 当前已禁用
+          # "get_mytvsuper_epg.py"      # Python mytvsuper EPG脚本 - 当前启用
+          # "get_asiasatv_epg.py"
+          # "get_tvbs_epg.py"
+          # "get_ofiii_epg.py"
+          # "get_katyushatv_epg.py"
+          # "get_fujianhaibotv_epg.py"
+          "get_lotustv_epg.py"
+          # "get_kankannews_epg.py"
+          # "get_henantv_epg.py"
+          # "get_hnntv_epg.py"
+        )
+        # ===========================================================
+        
+        # 创建临时工作目录（使用时间戳确保唯一性）
+        WORKDIR="workdir_$(date +%s)"
+        mkdir -p "$WORKDIR"
+        echo "📁 创建临时工作目录: $WORKDIR"
+        
+        # 将主脚本列表和依赖列表存入环境变量（逗号分隔），供后续步骤使用
+        scripts_str=$(IFS=','; echo "${scripts[*]}")
+        echo "SCRIPTS=$scripts_str" >> $GITHUB_ENV
+        deps_str=$(IFS=','; echo "${dependency_scripts[*]}")
+        echo "DEPS=$deps_str" >> $GITHUB_ENV
+        
+        # ---- 复制依赖文件（保留完整路径） ----
+        # 说明：无论依赖文件在私有仓库的哪个子目录，都会在临时工作目录中重建相同的目录结构
+        echo "📋 复制依赖文件到临时目录..."
+        for dep in "${dependency_scripts[@]}"; do
+          src="private_repo_temp/$dep"
+          if [ -f "$src" ]; then
+            # 提取目录部分，并在工作目录中创建相同的子目录
+            mkdir -p "$WORKDIR/$(dirname "$dep")"
+            cp "$src" "$WORKDIR/$dep"
+            echo "  ✅ 已复制依赖文件: $dep -> $WORKDIR/$dep"
+          else
+            echo "  ⚠️ 依赖文件 $dep 在 tvepg/epg_scripts 分支不存在，跳过"
+          fi
+        done
+        
+        # ---- 复制主脚本（保留完整路径） ----
+        # 说明：与依赖文件同理，主脚本也可以位于任意子目录
+        echo "📋 复制主脚本到临时目录..."
+        for script in "${scripts[@]}"; do
+          src="private_repo_temp/$script"
+          if [ -f "$src" ]; then
+            # 创建子目录（如果脚本带路径）
+            mkdir -p "$WORKDIR/$(dirname "$script")" 2>/dev/null || true
+            cp "$src" "$WORKDIR/$script"
+            echo "  ✅ 已复制主脚本: $script -> $WORKDIR/$script"
+          else
+            echo "  ⚠️ 主脚本 $script 在 tvepg/epg_scripts 分支不存在，跳过"
+          fi
+        done
+        
+        # ---- 自动为所有包含 .py 文件的子目录创建 __init__.py ----
+        # 说明：如果 Python 脚本需要从子目录导入模块，则必须保证该目录是 Python 包
+        find "$WORKDIR" -type f -name "*.py" -exec dirname {} \; | sort -u | while read d; do
+          if [ ! -f "$d/__init__.py" ]; then
+            touch "$d/__init__.py"
+            echo "  ✅ 创建包标识: $d/__init__.py"
+          fi
+        done
+        
+        # 保存临时目录路径供后续步骤使用
+        echo "WORKDIR=$WORKDIR" >> $GITHUB_ENV
+        echo "📍 临时目录已准备就绪: $WORKDIR"
+
+    # 步骤7: 进入临时目录执行所有主脚本（含重试、计时、错误收集）
+    - name: Execute main scripts in temporary directory
+      run: |
+        WORKDIR="${{ env.WORKDIR }}"
+        cd "$WORKDIR"
+        echo "📍 当前工作目录: $(pwd)"
+        
+        # 从环境变量读取主脚本列表（可能包含子目录路径）
+        IFS=',' read -r -a scripts <<< "${{ env.SCRIPTS }}"
+        
+        # 存储失败脚本的数组
+        failed_scripts=()
+        
+        # 重试函数（每个脚本最多3次）
+        retry() {
+          local max_attempts=3
+          local attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            if eval "$@"; then
+              return 0
+            fi
+            echo "⚠️ 第 $attempt 次尝试失败，2 秒后重试..."
+            sleep 2
+            attempt=$((attempt + 1))
+          done
+          return 1
+        }
+        
+        # 循环执行每个主脚本
+        for script in "${scripts[@]}"; do
+          if [ ! -f "$script" ]; then
+            echo "⚠️ 警告: 脚本 $script 不在临时目录，跳过"
+            continue
+          fi
+          
+          echo "::group::🛠 执行 $script"
+          echo "=== 开始执行: $script ==="
+          
+          exit_code=0
+          start_time=$(date +%s)
+          
+          # 根据扩展名选择解释器（支持带路径的脚本）
+          if [[ "$script" == *.php ]]; then
+            php "$script" || exit_code=$?
+          elif [[ "$script" == *.py ]]; then
+            python "$script" || exit_code=$?
+          else
+            echo "❌ 不支持的脚本类型: $script"
+            exit_code=1
+          fi
+          
+          end_time=$(date +%s)
+          duration=$((end_time - start_time))
+          
+          if [ $exit_code -ne 0 ]; then
+            echo "❌ 脚本 $script 执行失败 (耗时 ${duration} 秒)"
+            failed_scripts+=("$script")
+          else
+            echo "✅ 脚本 $script 执行成功 (耗时 ${duration} 秒)"
+          fi
+          echo "::endgroup::"
+        done
+        
+        # 记录失败脚本到环境变量（供后续提交信息使用）
+        if [ ${#failed_scripts[@]} -gt 0 ]; then
+          failed_names_str=$(IFS=','; echo "${failed_scripts[*]}")
+          echo "FAILED_SCRIPTS=$failed_names_str" >> $GITHUB_ENV
+          echo "❌ 以下脚本执行失败: $failed_names_str"
+        else
+          echo "✅ 所有脚本执行成功"
+        fi
+        
+        # 返回上级目录（临时目录保留给下一步收集文件）
+        cd ..
+
+    # 步骤8: 先删除已知的依赖文件、主脚本和 __init__.py，再递归收集生成的数据文件并复制到 epg/，然后清理临时目录
+    - name: Collect generated data files and clean up temporary directory
+      run: |
+        WORKDIR="${{ env.WORKDIR }}"
+        echo "📁 使用临时目录: $WORKDIR"
+        
+        # 进入临时目录（此时当前目录为仓库根目录）
+        cd "$WORKDIR"
+        
+        # 删除已知的依赖文件、主脚本和 __init__.py（避免误收集）
+        IFS=',' read -r -a deps <<< "${{ env.DEPS }}"
+        IFS=',' read -r -a scripts <<< "${{ env.SCRIPTS }}"
+        echo "🗑️ 删除已知的依赖文件、主脚本和 __init__.py..."
+        for f in "${deps[@]}" "${scripts[@]}"; do
+          if [ -f "$f" ]; then
+            rm -f "$f"
+            echo "  ✅ 已删除: $f"
+          fi
+        done
+        find . -name "__init__.py" -type f -delete
+        echo "  ✅ 已删除所有 __init__.py 辅助文件"
+        
+        echo "**********************************************"
+        # 定义需要保存的数据文件后缀（可根据实际需要增删）
+        SAVE_EXTENSIONS=(".xml" ".xml.gz" ".json" ".txt" ".dat")
+        
+        # 递归收集生成的数据文件，并复制到仓库根目录的 epg/ 下
+        # 注意：当前目录是临时目录，因此 ../epg/ 指向仓库根目录下的 epg/
+        echo "📥 递归收集生成的数据文件..."
+        mkdir -p ../epg
+        for ext in "${SAVE_EXTENSIONS[@]}"; do
+          find . -type f -name "*$ext" | while read -r file; do
+            src_file="${file#./}"   # 去掉开头的 "./"
+            cp "$src_file" "../epg/"
+            echo "  ✅ 已复制数据文件: $src_file -> ../epg/"
+          done
+        done
+        
+        # 返回上级目录（仓库根目录）以便后续 Git 操作
+        cd ..
+        
+        echo "**********************************************"
+        # 清理临时目录
+        rm -rf "$WORKDIR"
+        echo "🧹 临时目录已清理: $WORKDIR"
+        
+        # 清理私有仓库临时目录
+        rm -rf private_repo_temp
+        
+        # 设置环境变量，指示是否有数据文件生成
+        if [ "$(ls -A epg 2>/dev/null)" ]; then
+          echo "HAS_EPG_FILES=true" >> $GITHUB_ENV
+        else
+          echo "HAS_EPG_FILES=false" >> $GITHUB_ENV
+        fi
+
+    # 步骤9: 配置Git用户信息（用于当前仓库提交）
+    - name: Configure Git
+      run: |
+        git config user.name "GitHub Actions"  # 设置提交者名称
+        git config user.email "actions@github.com"  # 设置提交者邮箱
+
+    # 步骤10: 拉取当前仓库最新更改（防止推送冲突）
+    - name: Pull latest changes from current repository
+      run: |
+        echo "🔄 拉取当前仓库最新更改..."
+        git pull origin ${{ github.ref_name }} --rebase --autostash || {
+          echo "⚠️ 拉取失败，可能没有新的更改，继续执行..."
+        }
+        echo "✅ 已同步到当前仓库最新状态"
+
+    # 步骤11: 获取北京时间并提交更改到当前仓库
+    - name: Get Beijing time and commit changes to current repository
+      run: |
+        BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
+        
+        if [ -d "epg" ] && [ "$(ls -A epg 2>/dev/null)" ]; then
+          git add epg/
+          
+          if git diff --staged --quiet; then
+            echo "ℹ️ 本地当前仓库的 epg 目录没有新变更需要提交"
+          else
+            FILE_LIST=$(git diff --staged --name-only | sed 's#^epg/##' | tr '\n' ', ' | sed 's/,$//')
+            
+            # 获取失败脚本列表（如果有），并用 " | " 分隔
+            FAILED_SCRIPTS="${{ env.FAILED_SCRIPTS }}"
+            if [ -n "$FAILED_SCRIPTS" ]; then
+              FAILED_MSG=" | 失败脚本: $FAILED_SCRIPTS"
+            else
+              FAILED_MSG=""
+            fi
+            
+            if [ -n "$FILE_LIST" ]; then
+              COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME] | 变更: $FILE_LIST$FAILED_MSG"
+            else
+              COMMIT_MSG="🔄 Download EPG数据 [北京时间: $BEIJING_TIME]$FAILED_MSG"
+            fi
+            
+            git commit -m "$COMMIT_MSG"
+            
+            # 推送（含重试）
+            MAX_RETRIES=3
+            RETRY_COUNT=0
+            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+              echo "ℹ️ 尝试推送更改到当前仓库 (尝试 $((RETRY_COUNT+1))/$MAX_RETRIES)..."
+              if git push origin ${{ github.ref_name }}; then
+                echo "✅ 当前仓库推送成功"
+                break
+              else
+                RETRY_COUNT=$((RETRY_COUNT+1))
+                if [ $RETRY_COUNT -eq $MAX_RETRIES ]; then
+                  echo "❌ 推送失败，已达到最大重试次数"
+                  exit 1
+                fi
+                echo "🔄 推送失败，重新拉取当前仓库最新更改并重试..."
+                git pull origin ${{ github.ref_name }} --rebase --autostash
+              fi
+            done
+            
+            echo "📋 提交的文件列表:"
+            git show --name-only --pretty="" HEAD
+          fi
+        else
+          echo "ℹ️ 本地当前仓库的 epg 目录为空或不存在，没有文件需要提交"
+        fi
