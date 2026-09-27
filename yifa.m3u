@@ -1039,8 +1039,8 @@ http://r.jdshipin.com/Lqdwf
 http://gd.wsd.gd.cn:1698/hls/92/index.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台2",翡翠台
 http://211.97.63.3:3443/hls/541/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻.png" group-title="极速港台2",无线新闻
-http://play.wenxiang.cn/live/yifaTV-125.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻台.png" group-title="极速港台2",无线新闻台
+http://school.3class.cc:8088/live/yifaTV-125.m3u8
 #EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/凤凰中文.png" group-title="极速港台2",凤凰中文
 http://bobohome.ignorelist.com:20247/fengshows?id=2.m3u8
 #EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="极速港台2",凤凰资讯
@@ -1333,30 +1333,6 @@ rtmp://f13h.mine.nu/sat/tv731
 rtmp://f13h.mine.nu/sat/tv741
 #EXTINF:-1 group-title="四季台湾",momo'tv
 rtmp://f13h.mine.nu/sat/tv761
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="今日影视",翡翠台
-http://play.wenxiang.cn/live/e240363d284b6f41fcb7136eef507ef6.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBPLUS.png" group-title="今日影视",TVBPlus
-http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY76.png" group-title="今日影视",HOY76
-http://play.wenxiang.cn/live/02267bba92f0f4b8291abefa0560664f.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY77.png" group-title="今日影视",HOY77
-http://play.wenxiang.cn/live/43dc6fc9b1af5af8ec332f3c88b95e4a.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/HOY78.png" group-title="今日影视",HOY78
-http://play.wenxiang.cn/live/cf4526f51988d0ed065b5c3fa4bc925d.flv
-#EXTINF:-1 tvg-id="黃金華劇台" tvg-name="黃金華劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黃金華劇台.png" group-title="今日影视",黄金华剧台
-https://play.wenxiang.cn/live/6071069c620fa62c961d173617efbc33.flv
-#EXTINF:-1 group-title="今日影视",黄金华剧台粤
-https://play.wenxiang.cn/live/08b0fcc45b136a36749c524a3a140efa.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黃金翡翠台.png" group-title="今日影视",黄金翡翠台
-https://play.wenxiang.cn/live/0389d29514f0290d6c774eb18f0d604a.flv
-#EXTINF:-1 group-title="今日影视",美亚电影台粤
-https://play.wenxiang.cn/live/38a106306847b2579080984fab9ca49a.flv
-#EXTINF:-1 group-title="今日影视",美亚电影台国
-https://play.wenxiang.cn/live/d15690a84b5ad631f11228268ba8dca8.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/港台电视31.png" group-title="今日影视",港台电视31
-http://play.wenxiang.cn/live/0f4b100c9ed81fdd547ba0a1a20dea49.flv
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/港台电视32.png" group-title="今日影视",港台电视32
-http://play.wenxiang.cn/live/1c84d2c289c82f92f588aaa566858174.flv
 #EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CGTN.png" group-title="美国UA(挂梯子)",CGTN
 https://english-livebkali.cgtn.com/live/encgtn_1.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/CGTN1.png" group-title="美国UA(挂梯子)",CGTN1
