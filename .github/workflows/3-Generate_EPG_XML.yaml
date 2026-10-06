@@ -6,7 +6,7 @@ name: 3 Generate EPG XML
 # 功能概述:
 #   - 从私有仓库获取EPG生成脚本（PHP/Python）
 #   - 在临时目录中执行脚本，避免污染工作目录
-#   - 将生成的EPG数据推送到当前仓库的epg目录
+#   - 将生成的EPG数据推送到tvepg仓库的main分支的epg目录
 #
 # 主要特性:
 #   - 支持多语言多脚本（PHP 8.2 + Python 3.x）
@@ -15,10 +15,10 @@ name: 3 Generate EPG XML
 #   - 脚本执行后自动清理临时目录，不保留任何残留
 #   - 北京时间戳的提交信息
 #   - 可配置的脚本执行列表和依赖文件列表
-#   - 支持任意子目录结构（保留路径复制）
-#   - 自动为Python子目录创建__init__.py
-#   - 递归收集生成的数据文件，并排除已知的依赖文件、主脚本和辅助文件（如__init__.py）
-#   - 提交信息中明确列出失败脚本（用 | 分隔）
+#   - 支持任意子目录结构（保留路径复制）       # <-- 新增
+#   - 自动为Python子目录创建__init__.py         # <-- 新增
+#   - 递归收集生成的数据文件，并排除已知的依赖文件、主脚本和辅助文件（如__init__.py） # <-- 新增
+#   - 提交信息中明确列出失败脚本（用 | 分隔）   # <-- 新增
 #
 # 触发条件:
 #   - 定时触发: 每日UTC时间 11:40（北京时间19:40）自动运行
@@ -29,7 +29,7 @@ name: 3 Generate EPG XML
 #   - 私有仓库tvepg的epg_scripts分支包含所需的EPG脚本
 #
 # 输出结果:
-#   - 生成的XML文件将保存在当前仓库的epg目录中
+#   - 生成的XML文件将保存在tvepg仓库的main分支的epg目录中
 #   - 详细的执行日志和错误报告
 ###############################################################################
 
@@ -44,11 +44,13 @@ jobs:
     runs-on: ubuntu-latest  # 使用最新版Ubuntu系统作为运行环境
     
     steps:
-    # 步骤1: 检出当前仓库（作为最终推送目标的工作目录）
-    - name: Checkout current repository
+    # 步骤1: 检出tvepg仓库的main分支（作为最终推送目标的工作目录）
+    - name: Checkout private repository (main branch) 
       uses: actions/checkout@v6
       with:
+        repository: ${{ github.repository_owner }}/tvepg
         token: ${{ secrets.PAT_TOKEN }}  # 使用个人访问令牌进行认证
+        ref: main
         fetch-depth: 1  # 获取最新git历史记录
 
     # 步骤2: 设置Python环境
@@ -322,17 +324,17 @@ jobs:
         git config user.name "GitHub Actions"  # 设置提交者名称
         git config user.email "actions@github.com"  # 设置提交者邮箱
 
-    # 步骤10: 拉取当前仓库最新更改（防止推送冲突）
-    - name: Pull latest changes from current repository
+    # 步骤10: 拉取远程 tvepg/main 分支最新更改（防止推送冲突）
+    - name: Pull latest changes from remote
       run: |
-        echo "🔄 拉取当前仓库最新更改..."
-        git pull origin ${{ github.ref_name }} --rebase --autostash || {
+        echo "🔄 拉取远程 tvepg/main 分支最新更改..."
+        git pull origin main --rebase --autostash || {
           echo "⚠️ 拉取失败，可能没有新的更改，继续执行..."
         }
-        echo "✅ 已同步到当前仓库最新状态"
+        echo "✅ 已同步到远程 tvepg/main 分支最新状态"
 
-    # 步骤11: 获取北京时间并提交更改到当前仓库
-    - name: Get Beijing time and commit changes to current repository
+    # 步骤11: 获取北京时间并提交更改到 tvepg/main 分支
+    - name: Get Beijing time and commit changes to tvepg/main branch
       run: |
         BEIJING_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
         
@@ -340,7 +342,7 @@ jobs:
           git add epg/
           
           if git diff --staged --quiet; then
-            echo "ℹ️ 本地当前仓库的 epg 目录没有新变更需要提交"
+            echo "ℹ️ 本地 tvepg/main 分支的 epg 目录没有新变更需要提交"
           else
             FILE_LIST=$(git diff --staged --name-only | sed 's#^epg/##' | tr '\n' ', ' | sed 's/,$//')
             
@@ -364,9 +366,9 @@ jobs:
             MAX_RETRIES=3
             RETRY_COUNT=0
             while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
-              echo "ℹ️ 尝试推送更改到当前仓库 (尝试 $((RETRY_COUNT+1))/$MAX_RETRIES)..."
-              if git push origin ${{ github.ref_name }}; then
-                echo "✅ 当前仓库推送成功"
+              echo "ℹ️ 尝试推送更改到远程 tvepg/main 分支 (尝试 $((RETRY_COUNT+1))/$MAX_RETRIES)..."
+              if git push origin main; then
+                echo "✅ 远程 tvepg/main 分支推送成功"
                 break
               else
                 RETRY_COUNT=$((RETRY_COUNT+1))
@@ -374,8 +376,8 @@ jobs:
                   echo "❌ 推送失败，已达到最大重试次数"
                   exit 1
                 fi
-                echo "🔄 推送失败，重新拉取当前仓库最新更改并重试..."
-                git pull origin ${{ github.ref_name }} --rebase --autostash
+                echo "🔄 推送失败，重新拉取远程 tvepg/main 分支最新更改并重试..."
+                git pull origin main --rebase --autostash
               fi
             done
             
@@ -383,5 +385,5 @@ jobs:
             git show --name-only --pretty="" HEAD
           fi
         else
-          echo "ℹ️ 本地当前仓库的 epg 目录为空或不存在，没有文件需要提交"
+          echo "ℹ️ 本地 tvepg/main 分支的 epg 目录为空或不存在，没有文件需要提交"
         fi
