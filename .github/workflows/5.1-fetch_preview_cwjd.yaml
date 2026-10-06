@@ -143,8 +143,10 @@ jobs:
           }
 
           # 执行每个脚本（只执行当前目录下的脚本）
-          # 由于临时目录中只有复制来的脚本，且扩展名明确，这里按通配符遍历
-          for script in *.py *.php 2>/dev/null; do
+          # ★ 修复：使用 shopt -s nullglob 让不匹配的 glob 自动消失，
+          #        避免在 for 循环中放置无效的重定向语法（2>/dev/null）。
+          shopt -s nullglob
+          for script in *.py *.php; do
             [ -f "$script" ] || continue
             script_name=$(basename "$script")
             echo "::group::执行 $script_name"
