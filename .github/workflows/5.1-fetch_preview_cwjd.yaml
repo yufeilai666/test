@@ -185,13 +185,22 @@ jobs:
             echo "::endgroup::"
           done
 
+          # 记录失败脚本到环境变量
+          if [ ${#failed_names[@]} -gt 0 ]; then
+            failed_names_str=$(IFS=','; echo "${failed_names[*]}")
+            echo "FAILED_SCRIPTS=$failed_names_str" >> $GITHUB_ENV
+            echo "❌ 以下脚本执行失败: $failed_names_str"
+          else
+            echo "✅ 所有脚本执行成功"
+          fi
+          
           # 调试用：列出临时目录中实际生成的文件
-          echo "📂 临时目录中生成的文件："
-          ls -la
+          echo "=================================="
           echo "📂 临时目录 epg/ 中的文件："
           ls -la epg/
 
           # 5. 将生成的所有文件复制到 tvepg_repo/epg/
+          echo "=================================="
           echo "📋 复制生成的文件到 tvepg 仓库..."
 
           # 先创建目标目录
@@ -211,15 +220,6 @@ jobs:
 
           # 返回原目录
           cd ..
-
-          # 记录失败脚本到环境变量
-          if [ ${#failed_names[@]} -gt 0 ]; then
-            failed_names_str=$(IFS=','; echo "${failed_names[*]}")
-            echo "FAILED_SCRIPTS=$failed_names_str" >> $GITHUB_ENV
-            echo "❌ 以下脚本执行失败: $failed_names_str"
-          else
-            echo "✅ 所有脚本执行成功"
-          fi
 
           # 清理临时目录
           rm -rf "$WORKDIR"
