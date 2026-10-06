@@ -81,7 +81,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
-          # ★ 修复1：补上 rich（BaiduOCR 脚本依赖它，否则 import 就失败）
+          # 补上 rich（BaiduOCR 脚本依赖它）
           pip install requests pillow pytesseract easyocr numpy rich
 
       # 核心：在临时目录中执行所有脚本
@@ -102,12 +102,11 @@ jobs:
           mkdir -p "$WORKDIR"
 
           # 2. 复制图片目录到临时目录（保持相对路径 epg/cwjd_image）
-          # ★ 修复2：必须先创建目标父目录，否则 cp -r 源 目标/ 会因目标不存在而失败
-          #        （原代码正是这个原因导致图片目录根本没被复制过去）
+          #    必须先 mkdir 目标父目录，否则 cp -r 源 目标/ 会因目标不存在而失败
           mkdir -p "$WORKDIR/epg"
           cp -r epg/cwjd_image "$WORKDIR/epg/"
 
-          # ★ 新增：显式校验图片目录是否复制成功，避免静默失败后一路跑空
+          # 显式校验图片目录是否复制成功，避免静默失败后一路跑空
           if [ ! -d "$WORKDIR/epg/cwjd_image" ]; then
             echo "❌ 图片目录复制失败: $WORKDIR/epg/cwjd_image 不存在，终止执行。"
             exit 1
@@ -116,7 +115,6 @@ jobs:
 
           # 3. 将需要用到的脚本复制到临时目录
           #    脚本列表仅写文件名（相对于 SCRIPT_DIR），通过 $SCRIPT_DIR 拼接源路径。
-          #    这样列表简洁，且无需关心实际检出目录名称。
           scripts=(
             "fetch_preview_cwjd_BaiduOCR.py"
             "fetch_preview_cwjd_EasyOCR.py"
@@ -153,8 +151,7 @@ jobs:
           }
 
           # 执行每个脚本（只执行当前目录下的脚本）
-          # 使用 shopt -s nullglob 让不匹配的 glob 自动消失，
-          # 避免在 for 循环中放置无效的重定向语法。
+          # 使用 shopt -s nullglob 让不匹配的 glob 自动消失
           shopt -s nullglob
           for script in *.py *.php; do
             [ -f "$script" ] || continue
@@ -188,23 +185,27 @@ jobs:
             echo "::endgroup::"
           done
 
-          # ★ 新增：调试用，列出临时目录中实际生成的文件，便于排查问题
+          # 调试用：列出临时目录中实际生成的文件
           echo "📂 临时目录中生成的文件："
           ls -la
+          echo "📂 临时目录 epg/ 中的文件："
+          ls -la epg/
 
-          # 5. 将生成的所有文件（除了脚本本身和图片目录）复制到 tvepg_repo/epg/
+          # 5. 将生成的所有文件复制到 tvepg_repo/epg/
           echo "📋 复制生成的文件到 tvepg 仓库..."
 
-          # ★ 修复3（关键）：必须先创建目标目录，再执行 find ... -exec cp --parents。
-          #         原代码把 mkdir 放在 find 之后，导致 cp 因目标目录不存在而失败，
-          #         又因为 set +e 被静默吞掉，最终 git add 检测不到任何变更，
-          #         表现为 "没有新变更，跳过推送"。
+          # 先创建目标目录
           mkdir -p ../tvepg_repo/epg
 
-          # 排除脚本（*.py, *.php）和图片目录（epg/），复制其他所有文件
-          find . -type f ! -name "*.py" ! -name "*.php" ! -path "./epg/*" -exec cp --parents {} ../tvepg_repo/epg/ \;
+          # ★ 关键修复：
+          #   1) 只复制 epg/ 顶层的文件（-maxdepth 1），这样不会进入
+          #      epg/cwjd_image/ 子目录，图片目录天然被排除；
+          #   2) 不再使用 cp --parents，避免复制后出现 tvepg_repo/epg/epg/ 的嵌套；
+          #   3) 不再用 ! -path "./epg/*" 排除，那会把整个 epg/ 都过滤掉，
+          #      导致生成的 XML 一个都复制不过去，最终 git 检测不到变更。
+          find epg -maxdepth 1 -type f -exec cp {} ../tvepg_repo/epg/ \;
 
-          # ★ 新增：校验文件是否成功复制到 tvepg_repo/epg/
+          # 校验文件是否成功复制到 tvepg_repo/epg/
           echo "📂 tvepg_repo/epg/ 中的文件："
           ls -la ../tvepg_repo/epg/
 
