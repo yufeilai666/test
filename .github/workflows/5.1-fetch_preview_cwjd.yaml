@@ -81,7 +81,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
-          pip install requests pillow pytesseract easyocr numpy
+          # ★ 修复：补上 rich（BaiduOCR 脚本依赖它）
+          pip install requests pillow pytesseract easyocr numpy rich
 
       # 核心：在临时目录中执行所有脚本
       - name: 在临时目录中执行所有脚本
@@ -101,11 +102,20 @@ jobs:
           mkdir -p "$WORKDIR"
 
           # 2. 复制图片目录到临时目录（保持相对路径 epg/cwjd_image）
+          # ★ 修复：必须先 mkdir 目标父目录，否则 cp -r 源 目标/ 会因目标不存在而失败
+          #        （原代码正是这个原因导致图片目录根本没被复制过去）
+          mkdir -p "$WORKDIR/epg"
           cp -r epg/cwjd_image "$WORKDIR/epg/"
 
+          # ★ 新增：显式校验图片目录是否复制成功，避免静默失败后一路跑空
+          if [ ! -d "$WORKDIR/epg/cwjd_image" ]; then
+            echo "❌ 图片目录复制失败: $WORKDIR/epg/cwjd_image 不存在，终止执行。"
+            exit 1
+          fi
+          echo "✅ 图片目录已复制到 $WORKDIR/epg/cwjd_image"
+
           # 3. 将需要用到的脚本复制到临时目录
-          #    ★ 改动：脚本列表现在仅写文件名（相对于 SCRIPT_DIR），
-          #    不再硬编码路径前缀，通过 $SCRIPT_DIR 拼接源路径。
+          #    脚本列表仅写文件名（相对于 SCRIPT_DIR），通过 $SCRIPT_DIR 拼接源路径。
           #    这样列表简洁，且无需关心实际检出目录名称。
           scripts=(
             "fetch_preview_cwjd_BaiduOCR.py"
@@ -143,8 +153,8 @@ jobs:
           }
 
           # 执行每个脚本（只执行当前目录下的脚本）
-          # ★ 修复：使用 shopt -s nullglob 让不匹配的 glob 自动消失，
-          #        避免在 for 循环中放置无效的重定向语法（2>/dev/null）。
+          # 使用 shopt -s nullglob 让不匹配的 glob 自动消失，
+          # 避免在 for 循环中放置无效的重定向语法。
           shopt -s nullglob
           for script in *.py *.php; do
             [ -f "$script" ] || continue
@@ -183,7 +193,6 @@ jobs:
           mkdir -p ../tvepg_repo/epg
 
           # 排除脚本（*.py, *.php）和图片目录（epg/），复制其他所有文件
-          # 注意：-path 需要完整路径，且要排除 epg 目录本身
           find . -type f ! -name "*.py" ! -name "*.php" ! -path "./epg/*" -exec cp --parents {} ../tvepg_repo/epg/ \;
 
           # 返回原目录
