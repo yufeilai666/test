@@ -11,7 +11,7 @@ http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv003
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv004
 #EXTINF:-1 tvg-id="豬哥亮歌廳秀" tvg-name="豬哥亮歌廳秀" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/猪哥亮歌厅秀.png" group-title="默认分组",豬哥亮歌廳秀
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv006
-#EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="默认分组",中天新聞台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天新闻台.png" group-title="默认分组",中天新聞台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv009
 #EXTINF:-1 tvg-id="非凡新聞台" tvg-name="非凡新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新闻台.png" group-title="默认分组",非凡新聞台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv010
@@ -57,13 +57,13 @@ http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv051
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv052
 #EXTINF:-1 tvg-id="GINX Esports TV" tvg-name="GINX Esports TV" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/GINX Esports TV.png" group-title="默认分组",GINX Esports TV
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv053
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天欢乐台.png" group-title="默认分组",靖天歡樂台
+#EXTINF:-1 tvg-id="靖天歡樂台" tvg-name="靖天歡樂台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天欢乐台.png" group-title="默认分组",靖天歡樂台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv054
 #EXTINF:-1 tvg-id="靖天映畫" tvg-name="靖天映畫" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天映畫.png" group-title="默认分组",靖天映畫
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv055
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台视财经.png" group-title="默认分组",台視財經
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv056
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖洋卡通台.png" group-title="默认分组",靖洋卡通台
+#EXTINF:-1 tvg-id="靖洋卡通台" tvg-name="靖洋卡通台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖洋卡通台.png" group-title="默认分组",靖洋卡通台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv057
 #EXTINF:-1 tvg-id="靖天戲劇台" tvg-name="靖天戲劇台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天戏剧台.png" group-title="默认分组",靖天戲劇台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv058
@@ -75,11 +75,11 @@ http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv061
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv062
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/靖天國際台.png" group-title="默认分组",靖天國際台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv063
-#EXTINF:-1 tvg-id="中視菁采台" tvg-name="中視菁采台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视菁采台.png" group-title="默认分组",中視菁采台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中视菁采台.png" group-title="默认分组",中視菁采台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv064
 #EXTINF:-1 tvg-id="靖天資訊台" tvg-name="靖天資訊台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/靖天资讯台.png" group-title="默认分组",靖天資訊台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv065
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="默认分组",台視
+#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/台視.png" group-title="默认分组",台視
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv066
 #EXTINF:-1 tvg-id="TVBS精采台" tvg-name="TVBS精采台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/TVBS精采台.png" group-title="默认分组",TVBS精采台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv067
@@ -101,11 +101,11 @@ http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv076
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv077
 #EXTINF:-1 tvg-id="ARIRANG阿里郎頻道" tvg-name="ARIRANG阿里郎頻道" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/ARIRANG阿里郎频道.png" group-title="默认分组",ARIRANG阿里郎頻道
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv079
-#EXTINF:-1 tvg-id="中視經典台" tvg-name="中視經典台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视经典台.png" group-title="默认分组",中視經典台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中视经典台.png" group-title="默认分组",中視經典台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv080
 #EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/TRACE Urban.png" group-title="默认分组",TRACE Urban
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv082
-#EXTINF:-1 tvg-id="Mezzo Live" tvg-name="Mezzo Live" group-title="默认分组",Mezzo Live
+#EXTINF:-1 group-title="默认分组",Mezzo Live
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv083
 #EXTINF:-1 tvg-id="國會頻道1台" tvg-name="國會頻道1台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/國會頻道1台.png" group-title="默认分组",國會頻道1台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv084
@@ -117,9 +117,9 @@ http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv101
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv102
 #EXTINF:-1 tvg-id="東森購物2台" tvg-name="東森購物2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森購物2台.png" group-title="默认分组",東森購物2台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv103
-#EXTINF:-1 tvg-id="第1商業台" tvg-name="第1商業台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/第1商业台.png" group-title="默认分组",第1商業台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/第1商业台.png" group-title="默认分组",第1商業台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv104
-#EXTINF:-1 tvg-id="中天亞洲台" tvg-name="中天亞洲台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天亞洲台.png" group-title="默认分组",中天亞洲台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中天亞洲台.png" group-title="默认分组",中天亞洲台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv109
 #EXTINF:-1 tvg-id="東森新聞台" tvg-name="東森新聞台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/東森新聞台.png" group-title="默认分组",東森新聞台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv152
@@ -143,11 +143,11 @@ http://xtvantsc.xyz/litv_ts.php?id=litv-ftv15
 http://xtvantsc.xyz/litv_ts.php?id=litv-ftv16
 #EXTINF:-1 tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/好消息2台.png" group-title="默认分组",好消息2台
 http://xtvantsc.xyz/litv_ts.php?id=litv-ftv17
-#EXTINF:-1 tvg-id="龍華卡通台" tvg-name="龍華卡通台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华卡通台.png" group-title="默认分组",龍華卡通台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华卡通台.png" group-title="默认分组",龍華卡通台
 http://xtvantsc.xyz/litv_ts.php?id=litv-xinchuang01
-#EXTINF:-1 tvg-id="龍華洋片台" tvg-name="龍華洋片台" group-title="默认分组",龍華洋片台
+#EXTINF:-1 group-title="默认分组",龍華洋片台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn02
-#EXTINF:-1 tvg-id="龍華電影臺" tvg-name="龍華電影臺" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华电影台.png" group-title="默认分组",龍華電影台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华电影台.png" group-title="默认分组",龍華電影台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn03
 #EXTINF:-1 tvg-id="博斯魅力台" tvg-name="博斯魅力台" group-title="默认分组",博斯魅力台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn04
@@ -163,23 +163,23 @@ http://xtvantsc.xyz/litv_ts.php?id=litv-longturn08
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn09
 #EXTINF:-1 tvg-id="博斯無限台" tvg-name="博斯無限台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯无限台.png" group-title="默认分组",博斯無限台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn10
-#EXTINF:-1 tvg-id="龍華日韓台" tvg-name="龍華日韓台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华日韩台.png" group-title="默认分组",龍華日韓台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/龙华日韩台.png" group-title="默认分组",龍華日韓台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn11
-#EXTINF:-1 tvg-id="龍華偶像台" tvg-name="龍華偶像台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华偶像台.png" group-title="默认分组",龍華偶像台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华偶像台.png" group-title="默认分组",龍華偶像台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn12
 #EXTINF:-1 tvg-id="博斯無限二台" tvg-name="博斯無限二台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/博斯无限二台.png" group-title="默认分组",博斯無限二台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn13
 #EXTINF:-1 tvg-id="寰宇新聞台" tvg-name="寰宇新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞台.png" group-title="默认分组",寰宇新聞台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn14
-#EXTINF:-1 tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华戏剧台.png" group-title="默认分组",龍華戲劇台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龙华戏剧台.png" group-title="默认分组",龍華戲劇台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn18
-#EXTINF:-1 tvg-id="Smart知識台" tvg-name="Smart知識台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SMART知识台.png" group-title="默认分组",Smart知識台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/SMART知识台.png" group-title="默认分组",Smart知識台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn19
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/ELTA生活英语台.png" group-title="默认分组",ELTA生活英語台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn20
-#EXTINF:-1 tvg-id="龍華經典台" tvg-name="龍華經典台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龍華經典台.png" group-title="默认分组",龍華經典台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/龍華經典台.png" group-title="默认分组",龍華經典台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn21
-#EXTINF:-1 tvg-id="台湾戲劇台" tvg-name="台湾戲劇台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="默认分组",台灣戲劇台
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/台灣戲劇台.png" group-title="默认分组",台灣戲劇台
 http://xtvantsc.xyz/litv_ts.php?id=litv-longturn22
 #EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/Taiwan/寰宇財經台.png" group-title="默认分组",寰宇財經台
 http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv158
