@@ -1053,8 +1053,6 @@ http://bobohome.ignorelist.com:20247/fengshows?id=1.m3u8
 http://bobohome.ignorelist.com:20247/fengshows?id=3.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞.png" group-title="极速港台2",寰宇新闻
 http://128.14.206.166/pull-f5.flive.douyincdn.com/live/hyxw.flv
-#EXTINF:-1 group-title="极速港台2",曼迪台
-http://128.14.206.166/pull-f5.flive.douyincdn.com/live/HKTV_2563.flv
 #EXTINF:-1 tvg-id="Now新聞台" tvg-name="Now新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新聞台.png" group-title="极速港台2",NOW新闻台
 http://psyl11.dyndns.tv:35451/live/axdynowtream/fSlawNmh15/23.ts
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/FIGHTSPORTS.png" group-title="极速港台2",FightSports
@@ -1197,6 +1195,14 @@ http://211.72.174.95:8115/0.ts
 http://211.72.174.95:8112/0.ts
 #EXTINF:-1 tvg-id="東森新聞" tvg-name="東森新聞" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/東森新聞.png" group-title="四季台湾",东森新闻
 http://211.72.174.95:8138/0.ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視經典.png" group-title="四季台湾",中视经典
+http://167.88.62.43:64008/0.ts
+#EXTINF:-1 group-title="四季台湾",中视箐采
+http://167.88.62.43:64009/0.ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/美食星球.png" group-title="四季台湾",美食星球
+http://167.88.62.43:64017/0.ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/非凡新聞.png" group-title="四季台湾",非凡新闻
+http://167.88.62.43:64018/0.ts
 #EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/民视.png" group-title="四季台湾",民视
 rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中視.png" group-title="四季台湾",中视
