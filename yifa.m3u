@@ -572,7 +572,7 @@ https://www.iesdouyin.com/aweme/v1/playwm/?line=0&logo_name=aweme_diversion_sear
 #EXTINF:-1 group-title="欧美music",take me hand
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000clnfk87og65tv4479500&ratio=720p&line=0
 #EXTINF:-1 group-title="欧美music",normal no more
-https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000civ51krc77uceq9j09o0&ratio=720p&line=0
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cvvrm4vog65v9p2sp2hg&ratio=720p&line=0
 #EXTINF:-1 group-title="欧美music",monsters
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000cl270lfog65hf7m2f3j0&ratio=720p&line=0
 #EXTINF:-1 group-title="欧美music",run free
@@ -833,12 +833,16 @@ https://play.modujx16.com/20240830/hhzZN6Th/index.m3u8
 https://vip.dytt-film.com/20250311/12297_35fcfa9e/index.m3u8
 #EXTINF:-1 group-title="AK电影",1990赌侠
 https://play.modujx11.com/20241224/mBSx76B4/index.m3u8
+#EXTINF:-1 tvg-id="翡翠台4K" tvg-name="翡翠台4K" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台（挂梯）",翡翠台
+http://cc.123.rr.kg/163189/fct
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻台.png" group-title="极速港台（挂梯）",无线新闻台
+http://cc.123.rr.kg/163189/wxxwt
+#EXTINF:-1 group-title="极速港台（挂梯）",HOY TV
+https://cc.123.rr.kg/163189/hoy
 #EXTINF:-1 group-title="极速港台（挂梯）",翡翠台4K(字幕)
 https://cdn3.indevs.in/stream/tvb/fct4k/
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰中文.png" group-title="极速港台（挂梯）",凤凰中文
 https://cdn6.cc.cd/163189/fhzw
-#EXTINF:-1 tvg-id="翡翠台4K" tvg-name="翡翠台4K" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台（挂梯）",翡翠台
-http://cc.123.rr.kg/163189/fct
 #EXTINF:-1 tvg-id="翡翠台4K" tvg-name="翡翠台4K" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台（挂梯）",翡翠台
 https://cdn6.cc.cd/163189/fct
 #EXTINF:-1 group-title="极速港台（挂梯）",翡翠台(字幕)
@@ -1053,6 +1057,8 @@ http://bobohome.ignorelist.com:20247/fengshows?id=1.m3u8
 http://bobohome.ignorelist.com:20247/fengshows?id=3.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/寰宇新聞.png" group-title="极速港台2",寰宇新闻
 http://128.14.206.166/pull-f5.flive.douyincdn.com/live/hyxw.flv
+#EXTINF:-1 group-title="极速港台2",TVB Plus
+http://167.88.62.43:64012/0.ts
 #EXTINF:-1 tvg-id="Now新聞台" tvg-name="Now新聞台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/NOW新聞台.png" group-title="极速港台2",NOW新闻台
 http://psyl11.dyndns.tv:35451/live/axdynowtream/fSlawNmh15/23.ts
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/FIGHTSPORTS.png" group-title="极速港台2",FightSports
