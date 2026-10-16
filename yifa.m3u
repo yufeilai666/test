@@ -1049,6 +1049,8 @@ http://211.97.63.3:3443/hls/541/index.m3u8
 http://218.13.139.26:9901/tsfile/live/1079_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻台.png" group-title="极速港台2",无线新闻台
 http://128.14.206.166/pull-f5.flive.douyincdn.com/live/wxxw.flv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/无线新闻台.png" group-title="极速港台2",无线新闻台
+rtmp://school.3class.cc/live/yifaTV-125
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰中文.png" group-title="极速港台2",凤凰中文
 http://bobohome.ignorelist.com:20247/fengshows?id=2.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰資訊.png" group-title="极速港台2",凤凰资讯
