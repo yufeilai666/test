@@ -10,6 +10,9 @@
   <channel id="C18">
     <display-name>C18</display-name>
   </channel>
+  <channel id="C28">
+    <display-name>C28</display-name>
+  </channel>
   <channel id="CCCM">
     <display-name>CCCM</display-name>
   </channel>
@@ -1781,61 +1784,157 @@
     <title>排位焦點</title>
     <desc>從不同賽馬數據, 尋找賽事重心; 並會分析馬房形勢, 看清哪個馬房, 佈下強陣, 準備大舉出撃的「進擊馬房」; 以及哪些騎師手上坐騎, 具備實力成就佳績的「強駒在手」, 亦會為大家介紹初出馬。</desc>
   </programme>
-  <programme start="20261023190000 +0800" stop="20261023194500 +0800" channel="C18">
+  <programme start="20261023190000 +0800" stop="20261023193000 +0800" channel="C18">
     <title>試閘一周</title>
     <desc>一次過看清一周沙田、跑馬地和從化各組試閘</desc>
   </programme>
-  <programme start="20261023194500 +0800" stop="20261023211500 +0800" channel="C18">
+  <programme start="20261023193000 +0800" stop="20261023210000 +0800" channel="C18">
     <title>睇排位 做功課</title>
     <desc>與觀眾一同為賽日做準備, 看清排位形勢、人馬配搭、馬匹配備變動, 並同時參考馬匹過去陣上走勢或近期試閘表現, 以掌握馬匹實力、了解賽事, 助計算馬匹的勝算機會。</desc>
   </programme>
-  <programme start="20261023211500 +0800" stop="20261023213000 +0800" channel="C18">
+  <programme start="20261023210000 +0800" stop="20261023211500 +0800" channel="C18">
     <title>排位焦點</title>
     <desc>從不同賽馬數據, 尋找賽事重心; 並會分析馬房形勢, 看清哪個馬房, 佈下強陣, 準備大舉出撃的「進擊馬房」; 以及哪些騎師手上坐騎, 具備實力成就佳績的「強駒在手」, 亦會為大家介紹初出馬。</desc>
   </programme>
-  <programme start="20261023213000 +0800" stop="20261023221500 +0800" channel="C18">
+  <programme start="20261023211500 +0800" stop="20261023214500 +0800" channel="C18">
     <title>試閘一周</title>
     <desc>一次過看清一周沙田、跑馬地和從化各組試閘</desc>
   </programme>
-  <programme start="20261023221500 +0800" stop="20261023234500 +0800" channel="C18">
+  <programme start="20261023214500 +0800" stop="20261023231500 +0800" channel="C18">
     <title>睇排位 做功課</title>
     <desc>與觀眾一同為賽日做準備, 看清排位形勢、人馬配搭、馬匹配備變動, 並同時參考馬匹過去陣上走勢或近期試閘表現, 以掌握馬匹實力、了解賽事, 助計算馬匹的勝算機會。</desc>
   </programme>
-  <programme start="20261023234500 +0800" stop="20261024000000 +0800" channel="C18">
+  <programme start="20261023231500 +0800" stop="20261023233000 +0800" channel="C18">
     <title>排位焦點</title>
     <desc>從不同賽馬數據, 尋找賽事重心; 並會分析馬房形勢, 看清哪個馬房, 佈下強陣, 準備大舉出撃的「進擊馬房」; 以及哪些騎師手上坐騎, 具備實力成就佳績的「強駒在手」, 亦會為大家介紹初出馬。</desc>
   </programme>
-  <programme start="20261024000000 +0800" stop="20261024004500 +0800" channel="C18">
+  <programme start="20261023233000 +0800" stop="20261024000000 +0800" channel="C18">
     <title>試閘一周</title>
     <desc>一次過看清一周沙田、跑馬地和從化各組試閘</desc>
   </programme>
-  <programme start="20261024004500 +0800" stop="20261024021500 +0800" channel="C18">
+  <programme start="20261024000000 +0800" stop="20261024013000 +0800" channel="C18">
     <title>睇排位 做功課</title>
     <desc>與觀眾一同為賽日做準備, 看清排位形勢、人馬配搭、馬匹配備變動, 並同時參考馬匹過去陣上走勢或近期試閘表現, 以掌握馬匹實力、了解賽事, 助計算馬匹的勝算機會。</desc>
   </programme>
-  <programme start="20261024021500 +0800" stop="20261024023000 +0800" channel="C18">
+  <programme start="20261024013000 +0800" stop="20261024014500 +0800" channel="C18">
     <title>排位焦點</title>
     <desc>從不同賽馬數據, 尋找賽事重心; 並會分析馬房形勢, 看清哪個馬房, 佈下強陣, 準備大舉出撃的「進擊馬房」; 以及哪些騎師手上坐騎, 具備實力成就佳績的「強駒在手」, 亦會為大家介紹初出馬。</desc>
   </programme>
-  <programme start="20261024023000 +0800" stop="20261024031500 +0800" channel="C18">
+  <programme start="20261024014500 +0800" stop="20261024021500 +0800" channel="C18">
     <title>試閘一周</title>
     <desc>一次過看清一周沙田、跑馬地和從化各組試閘</desc>
   </programme>
-  <programme start="20261024031500 +0800" stop="20261024044500 +0800" channel="C18">
+  <programme start="20261024021500 +0800" stop="20261024034500 +0800" channel="C18">
     <title>睇排位 做功課</title>
     <desc>與觀眾一同為賽日做準備, 看清排位形勢、人馬配搭、馬匹配備變動, 並同時參考馬匹過去陣上走勢或近期試閘表現, 以掌握馬匹實力、了解賽事, 助計算馬匹的勝算機會。</desc>
   </programme>
-  <programme start="20261024044500 +0800" stop="20261024050000 +0800" channel="C18">
+  <programme start="20261024034500 +0800" stop="20261024040000 +0800" channel="C18">
     <title>排位焦點</title>
     <desc>從不同賽馬數據, 尋找賽事重心; 並會分析馬房形勢, 看清哪個馬房, 佈下強陣, 準備大舉出撃的「進擊馬房」; 以及哪些騎師手上坐騎, 具備實力成就佳績的「強駒在手」, 亦會為大家介紹初出馬。</desc>
   </programme>
-  <programme start="20261024050000 +0800" stop="20261024054500 +0800" channel="C18">
+  <programme start="20261024040000 +0800" stop="20261024043000 +0800" channel="C18">
     <title>試閘一周</title>
     <desc>一次過看清一周沙田、跑馬地和從化各組試閘</desc>
   </programme>
-  <programme start="20261024054500 +0800" stop="20261023221500 +0800" channel="C18">
-    <title>排位焦點</title>
-    <desc>從不同賽馬數據, 尋找賽事重心; 並會分析馬房形勢, 看清哪個馬房, 佈下強陣, 準備大舉出撃的「進擊馬房」; 以及哪些騎師手上坐騎, 具備實力成就佳績的「強駒在手」, 亦會為大家介紹初出馬。</desc>
+  <programme start="20261024043000 +0800" stop="20261023210000 +0800" channel="C18">
+    <title>睇排位 做功課</title>
+    <desc>與觀眾一同為賽日做準備, 看清排位形勢、人馬配搭、馬匹配備變動, 並同時參考馬匹過去陣上走勢或近期試閘表現, 以掌握馬匹實力、了解賽事, 助計算馬匹的勝算機會。</desc>
+  </programme>
+  <programme start="20261021060000 +0800" stop="20261021090000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261021090000 +0800" stop="20261021120000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261021120000 +0800" stop="20261021150000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261021150000 +0800" stop="20261021181000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261021181000 +0800" stop="20261021230500 +0800" channel="C28">
+    <title>賽事全方位</title>
+    <desc>全方位賽事現場評述, 分析跑道狀況、沙圈馬匹狀態、賠率變動、騎練手影,使觀眾對賽事形勢更透徹了解,  提升勝算把握。 主持亦會因應賽事形勢和賽日變化, 為大家提供即場選擇, 助大家搵胆。</desc>
+  </programme>
+  <programme start="20261021230500 +0800" stop="20261022000000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261022000000 +0800" stop="20261022030000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261022030000 +0800" stop="20261022060000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261022060000 +0800" stop="20261022090000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261022090000 +0800" stop="20261022120000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261022120000 +0800" stop="20261022150000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261022150000 +0800" stop="20261022180000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261022180000 +0800" stop="20261022210000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261022210000 +0800" stop="20261023000000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261023000000 +0800" stop="20261023030000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261023030000 +0800" stop="20261023060000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261023060000 +0800" stop="20261023090000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261023090000 +0800" stop="20261023120000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261023120000 +0800" stop="20261023150000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261023150000 +0800" stop="20261023180000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261023180000 +0800" stop="20261023210000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261023210000 +0800" stop="20261024000000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261024000000 +0800" stop="20261024030000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
+  </programme>
+  <programme start="20261024030000 +0800" stop="20261023193000 +0800" channel="C28">
+    <title>直播賽馬節目稍後播映</title>
+    <desc>直播賽馬節目稍後播映</desc>
   </programme>
   <programme start="20261020060000 +0800" stop="20261020072000 +0800" channel="CCCM">
     <title>天龍八部</title>
@@ -10790,7 +10889,7 @@
   </programme>
   <programme start="20261021193000 +0800" stop="20261021200000 +0800" channel="J">
     <title>東張西望[粵]</title>
-    <desc>《東張西望》星期一至日，緊貼追蹤社會大事、趣聞逸事，並報道娛樂圈最新動態、藝人消息，以及劇集宣傳和花絮。「今日突發」環節為大家追蹤即日熱門新聞；專題環節，深入探討大眾關心的時事、社會及民生問題，並訪問相關的專家。</desc>
+    <desc>數年前，「東張」報道有男子於土瓜灣某後巷違法興建石屋，最終遭當局清拆。節目組近日再接獲市民報料，懷疑該男子故技重施……旺角某大廈住戶指，發現家中食水帶鹹味，懷疑與早前廁所鹹水喉爆裂事件有關。雖然現已恢復供水，事主卻對管理公司未有清楚交代感不滿。涉嫌販賣病假紙的中醫師於報道播出後，疑似銷聲匿跡暫避風頭。梁超怡、陳星妤加入《女神配對計劃2》掀起熱話，面對新登場的強勁競爭對手，阮嘉敏、何沛珈等如何應對？</desc>
   </programme>
   <programme start="20261021200000 +0800" stop="20261021203000 +0800" channel="J">
     <title>黃道益活絡油呈獻：愛．回家之三代同糖#52[粵]</title>
@@ -10832,7 +10931,7 @@
   </programme>
   <programme start="20261022010000 +0800" stop="20261022013500 +0800" channel="J">
     <title>東張西望[粵]</title>
-    <desc>《東張西望》星期一至日，緊貼追蹤社會大事、趣聞逸事，並報道娛樂圈最新動態、藝人消息，以及劇集宣傳和花絮。「今日突發」環節為大家追蹤即日熱門新聞；專題環節，深入探討大眾關心的時事、社會及民生問題，並訪問相關的專家。</desc>
+    <desc>數年前，「東張」報道有男子於土瓜灣某後巷違法興建石屋，最終遭當局清拆。節目組近日再接獲市民報料，懷疑該男子故技重施……旺角某大廈住戶指，發現家中食水帶鹹味，懷疑與早前廁所鹹水喉爆裂事件有關。雖然現已恢復供水，事主卻對管理公司未有清楚交代感不滿。涉嫌販賣病假紙的中醫師於報道播出後，疑似銷聲匿跡暫避風頭。梁超怡、陳星妤加入《女神配對計劃2》掀起熱話，面對新登場的強勁競爭對手，阮嘉敏、何沛珈等如何應對？</desc>
   </programme>
   <programme start="20261022013500 +0800" stop="20261022022000 +0800" channel="J">
     <title>流行都市[粵]</title>
@@ -10952,7 +11051,7 @@
 主持：鍾卓熹、黎在山</desc>
   </programme>
   <programme start="20261022193000 +0800" stop="20261022193500 +0800" channel="J">
-    <title>《滙豐Premier Elite財富滙談》[粵]</title>
+    <title>滙豐Premier Elite呈獻：《滙豐Premier Elite財富滙談》[粵]</title>
     <desc>金融市場瞬息萬變，加上科技發展日新月異，如何影響投資市場？《滙豐Premier Elite財富滙談》，雲集不同行業專家，剖析市場趨勢，講解金融、投資及理財等話題，務求做到深入淺出，聚焦分析不同議題，為大家捕捉市場先機。</desc>
   </programme>
   <programme start="20261022193500 +0800" stop="20261022200000 +0800" channel="J">
@@ -11068,12 +11167,12 @@
     <title>午間新聞[粵]</title>
   </programme>
   <programme start="20261023132000 +0800" stop="20261023132500 +0800" channel="J">
-    <title>《滙豐Premier Elite財富滙談》[粵]</title>
+    <title>滙豐Premier Elite呈獻：《滙豐Premier Elite財富滙談》[粵]</title>
     <desc>金融市場瞬息萬變，加上科技發展日新月異，如何影響投資市場？《滙豐Premier Elite財富滙談》，雲集不同行業專家，剖析市場趨勢，講解金融、投資及理財等話題，務求做到深入淺出，聚焦分析不同議題，為大家捕捉市場先機。</desc>
   </programme>
   <programme start="20261023132500 +0800" stop="20261023141000 +0800" channel="J">
     <title>流行都市[粵]</title>
-    <desc>《流行都市》為觀眾介紹時令產品、健康養生、健體運動、護膚化妝、時尚服飾、嬰幼兒護理、育兒知識、城中美食、飼養寵物等潮流資訊，內容包羅萬有！主持們親身體驗、示範或測試之外，還會邀請嘉賓帶來相關專業知識。烹飪環節方面，多位手勢了得的廚藝專家輪流登場，示範簡單美味的健康美食、家常小菜，替大家解決煮食煩惱。</desc>
+    <desc>望診於中醫學上甚為重要，醫師透過觀察面色、舌象等，便能初步評估病人的身體狀況。醫師指面色發白、發黃、青暗、過紅或發黑，可能反映出不同的臟腑問題，並介紹具舒緩作用的穴位按壓與食療調理資訊。有港人深耕鑽研花式搖搖近三十年，更曾榮獲國際獎項。媽媽是其啟蒙老師，他還試過以媽媽傳授的招式創下世界紀錄！嘉賓分享揚威海外的喜悅，並以不放棄的精神激勵大家勇敢追夢。「睇餸食飯」，Annie師傅示範「韓式肥牛夾包」。</desc>
   </programme>
   <programme start="20261023141000 +0800" stop="20261023144000 +0800" channel="J">
     <title>甜心教室[粵]</title>
@@ -11172,7 +11271,7 @@
   </programme>
   <programme start="20261024013500 +0800" stop="20261024022000 +0800" channel="J">
     <title>流行都市[粵]</title>
-    <desc>《流行都市》為觀眾介紹時令產品、健康養生、健體運動、護膚化妝、時尚服飾、嬰幼兒護理、育兒知識、城中美食、飼養寵物等潮流資訊，內容包羅萬有！主持們親身體驗、示範或測試之外，還會邀請嘉賓帶來相關專業知識。烹飪環節方面，多位手勢了得的廚藝專家輪流登場，示範簡單美味的健康美食、家常小菜，替大家解決煮食煩惱。</desc>
+    <desc>望診於中醫學上甚為重要，醫師透過觀察面色、舌象等，便能初步評估病人的身體狀況。醫師指面色發白、發黃、青暗、過紅或發黑，可能反映出不同的臟腑問題，並介紹具舒緩作用的穴位按壓與食療調理資訊。有港人深耕鑽研花式搖搖近三十年，更曾榮獲國際獎項。媽媽是其啟蒙老師，他還試過以媽媽傳授的招式創下世界紀錄！嘉賓分享揚威海外的喜悅，並以不放棄的精神激勵大家勇敢追夢。「睇餸食飯」，Annie師傅示範「韓式肥牛夾包」。</desc>
   </programme>
   <programme start="20261024022000 +0800" stop="20261024025000 +0800" channel="J">
     <title>甜心教室[粵]</title>
@@ -11459,7 +11558,7 @@
   </programme>
   <programme start="20261021193000 +0800" stop="20261021200000 +0800" channel="JUHD">
     <title>東張西望[粵]</title>
-    <desc>《東張西望》星期一至日，緊貼追蹤社會大事、趣聞逸事，並報道娛樂圈最新動態、藝人消息，以及劇集宣傳和花絮。「今日突發」環節為大家追蹤即日熱門新聞；專題環節，深入探討大眾關心的時事、社會及民生問題，並訪問相關的專家。</desc>
+    <desc>數年前，「東張」報道有男子於土瓜灣某後巷違法興建石屋，最終遭當局清拆。節目組近日再接獲市民報料，懷疑該男子故技重施……旺角某大廈住戶指，發現家中食水帶鹹味，懷疑與早前廁所鹹水喉爆裂事件有關。雖然現已恢復供水，事主卻對管理公司未有清楚交代感不滿。涉嫌販賣病假紙的中醫師於報道播出後，疑似銷聲匿跡暫避風頭。梁超怡、陳星妤加入《女神配對計劃2》掀起熱話，面對新登場的強勁競爭對手，阮嘉敏、何沛珈等如何應對？</desc>
   </programme>
   <programme start="20261021200000 +0800" stop="20261021203000 +0800" channel="JUHD">
     <title>黃道益活絡油呈獻：愛．回家之三代同糖#52[粵]</title>
@@ -11501,7 +11600,7 @@
   </programme>
   <programme start="20261022010000 +0800" stop="20261022013500 +0800" channel="JUHD">
     <title>東張西望[粵]</title>
-    <desc>《東張西望》星期一至日，緊貼追蹤社會大事、趣聞逸事，並報道娛樂圈最新動態、藝人消息，以及劇集宣傳和花絮。「今日突發」環節為大家追蹤即日熱門新聞；專題環節，深入探討大眾關心的時事、社會及民生問題，並訪問相關的專家。</desc>
+    <desc>數年前，「東張」報道有男子於土瓜灣某後巷違法興建石屋，最終遭當局清拆。節目組近日再接獲市民報料，懷疑該男子故技重施……旺角某大廈住戶指，發現家中食水帶鹹味，懷疑與早前廁所鹹水喉爆裂事件有關。雖然現已恢復供水，事主卻對管理公司未有清楚交代感不滿。涉嫌販賣病假紙的中醫師於報道播出後，疑似銷聲匿跡暫避風頭。梁超怡、陳星妤加入《女神配對計劃2》掀起熱話，面對新登場的強勁競爭對手，阮嘉敏、何沛珈等如何應對？</desc>
   </programme>
   <programme start="20261022013500 +0800" stop="20261022022000 +0800" channel="JUHD">
     <title>流行都市[粵]</title>
@@ -11621,7 +11720,7 @@
 主持：鍾卓熹、黎在山</desc>
   </programme>
   <programme start="20261022193000 +0800" stop="20261022193500 +0800" channel="JUHD">
-    <title>《滙豐Premier Elite財富滙談》[粵]</title>
+    <title>滙豐Premier Elite呈獻：《滙豐Premier Elite財富滙談》[粵]</title>
     <desc>金融市場瞬息萬變，加上科技發展日新月異，如何影響投資市場？《滙豐Premier Elite財富滙談》，雲集不同行業專家，剖析市場趨勢，講解金融、投資及理財等話題，務求做到深入淺出，聚焦分析不同議題，為大家捕捉市場先機。</desc>
   </programme>
   <programme start="20261022193500 +0800" stop="20261022200000 +0800" channel="JUHD">
@@ -11737,12 +11836,12 @@
     <title>午間新聞[粵]</title>
   </programme>
   <programme start="20261023132000 +0800" stop="20261023132500 +0800" channel="JUHD">
-    <title>《滙豐Premier Elite財富滙談》[粵]</title>
+    <title>滙豐Premier Elite呈獻：《滙豐Premier Elite財富滙談》[粵]</title>
     <desc>金融市場瞬息萬變，加上科技發展日新月異，如何影響投資市場？《滙豐Premier Elite財富滙談》，雲集不同行業專家，剖析市場趨勢，講解金融、投資及理財等話題，務求做到深入淺出，聚焦分析不同議題，為大家捕捉市場先機。</desc>
   </programme>
   <programme start="20261023132500 +0800" stop="20261023141000 +0800" channel="JUHD">
     <title>流行都市[粵]</title>
-    <desc>《流行都市》為觀眾介紹時令產品、健康養生、健體運動、護膚化妝、時尚服飾、嬰幼兒護理、育兒知識、城中美食、飼養寵物等潮流資訊，內容包羅萬有！主持們親身體驗、示範或測試之外，還會邀請嘉賓帶來相關專業知識。烹飪環節方面，多位手勢了得的廚藝專家輪流登場，示範簡單美味的健康美食、家常小菜，替大家解決煮食煩惱。</desc>
+    <desc>望診於中醫學上甚為重要，醫師透過觀察面色、舌象等，便能初步評估病人的身體狀況。醫師指面色發白、發黃、青暗、過紅或發黑，可能反映出不同的臟腑問題，並介紹具舒緩作用的穴位按壓與食療調理資訊。有港人深耕鑽研花式搖搖近三十年，更曾榮獲國際獎項。媽媽是其啟蒙老師，他還試過以媽媽傳授的招式創下世界紀錄！嘉賓分享揚威海外的喜悅，並以不放棄的精神激勵大家勇敢追夢。「睇餸食飯」，Annie師傅示範「韓式肥牛夾包」。</desc>
   </programme>
   <programme start="20261023141000 +0800" stop="20261023144000 +0800" channel="JUHD">
     <title>甜心教室[粵]</title>
@@ -11841,7 +11940,7 @@
   </programme>
   <programme start="20261024013500 +0800" stop="20261024022000 +0800" channel="JUHD">
     <title>流行都市[粵]</title>
-    <desc>《流行都市》為觀眾介紹時令產品、健康養生、健體運動、護膚化妝、時尚服飾、嬰幼兒護理、育兒知識、城中美食、飼養寵物等潮流資訊，內容包羅萬有！主持們親身體驗、示範或測試之外，還會邀請嘉賓帶來相關專業知識。烹飪環節方面，多位手勢了得的廚藝專家輪流登場，示範簡單美味的健康美食、家常小菜，替大家解決煮食煩惱。</desc>
+    <desc>望診於中醫學上甚為重要，醫師透過觀察面色、舌象等，便能初步評估病人的身體狀況。醫師指面色發白、發黃、青暗、過紅或發黑，可能反映出不同的臟腑問題，並介紹具舒緩作用的穴位按壓與食療調理資訊。有港人深耕鑽研花式搖搖近三十年，更曾榮獲國際獎項。媽媽是其啟蒙老師，他還試過以媽媽傳授的招式創下世界紀錄！嘉賓分享揚威海外的喜悅，並以不放棄的精神激勵大家勇敢追夢。「睇餸食飯」，Annie師傅示範「韓式肥牛夾包」。</desc>
   </programme>
   <programme start="20261024022000 +0800" stop="20261024025000 +0800" channel="JUHD">
     <title>甜心教室[粵]</title>
@@ -19018,7 +19117,7 @@
   </programme>
   <programme start="20261021090000 +0800" stop="20261021100000 +0800" channel="CJAZ">
     <title>Lets Focus</title>
-    <desc>Designed for viewers seeking context, depth and clarity, Lets Focus unpacks the U.S. midterm elections and treats audiences as citizens rather than spectators.</desc>
+    <desc>Who pays for American elections and what do they get? Josh Rushing puts it to reformer Lawrence Lessig and campaign finance sceptic Bradley Smith.</desc>
   </programme>
   <programme start="20261021100000 +0800" stop="20261021110000 +0800" channel="CJAZ">
     <title>Newshour</title>
@@ -19038,7 +19137,7 @@
   </programme>
   <programme start="20261021123000 +0800" stop="20261021130000 +0800" channel="CJAZ">
     <title>Al Jazeera Explains</title>
-    <desc>Al Jazeera Explains goes beyond the headlines to bring clarity, context and the bigger picture to the stories shaping the world today.</desc>
+    <desc>Who really holds power at the UN, why can five countries block action, and who holds the organisation accountable when it falls short?</desc>
   </programme>
   <programme start="20261021130000 +0800" stop="20261021133000 +0800" channel="CJAZ">
     <title>News Live</title>
@@ -19108,13 +19207,9 @@
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
   </programme>
-  <programme start="20261022000000 +0800" stop="20261022003000 +0800" channel="CJAZ">
+  <programme start="20261022000000 +0800" stop="20261022010000 +0800" channel="CJAZ">
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
-  </programme>
-  <programme start="20261022003000 +0800" stop="20261022010000 +0800" channel="CJAZ">
-    <title>Echoes Of A Lost Gaza</title>
-    <desc>Documentary filmmaker Mariam Shahin looks back at how the blockade and successive conflicts have reduced the hopes and dreams of people in Gaza to rubble.</desc>
   </programme>
   <programme start="20261022010000 +0800" stop="20261022013000 +0800" channel="CJAZ">
     <title>News Live</title>
@@ -19128,13 +19223,9 @@
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
   </programme>
-  <programme start="20261022030000 +0800" stop="20261022033000 +0800" channel="CJAZ">
+  <programme start="20261022030000 +0800" stop="20261022040000 +0800" channel="CJAZ">
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
-  </programme>
-  <programme start="20261022033000 +0800" stop="20261022040000 +0800" channel="CJAZ">
-    <title>The Listening Post</title>
-    <desc>A government at war with its critics - from young protestors to the media. Plus, Brazils evangelical political influencers.</desc>
   </programme>
   <programme start="20261022040000 +0800" stop="20261022050000 +0800" channel="CJAZ">
     <title>Witness</title>
@@ -19238,7 +19329,7 @@
   </programme>
   <programme start="20261022200000 +0800" stop="20261022210000 +0800" channel="CJAZ">
     <title>Lets Focus</title>
-    <desc>Designed for viewers seeking context, depth and clarity, Lets Focus unpacks the U.S. midterm elections and treats audiences as citizens rather than spectators.</desc>
+    <desc>Who pays for American elections and what do they get? Josh Rushing puts it to reformer Lawrence Lessig and campaign finance sceptic Bradley Smith.</desc>
   </programme>
   <programme start="20261022210000 +0800" stop="20261022220000 +0800" channel="CJAZ">
     <title>Newshour</title>
@@ -19250,19 +19341,15 @@
   </programme>
   <programme start="20261022223000 +0800" stop="20261022230000 +0800" channel="CJAZ">
     <title>Al Jazeera Explains</title>
-    <desc>Al Jazeera Explains goes beyond the headlines to bring clarity, context and the bigger picture to the stories shaping the world today.</desc>
+    <desc>Who really holds power at the UN, why can five countries block action, and who holds the organisation accountable when it falls short?</desc>
   </programme>
   <programme start="20261022230000 +0800" stop="20261023000000 +0800" channel="CJAZ">
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
   </programme>
-  <programme start="20261023000000 +0800" stop="20261023003000 +0800" channel="CJAZ">
+  <programme start="20261023000000 +0800" stop="20261023010000 +0800" channel="CJAZ">
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
-  </programme>
-  <programme start="20261023003000 +0800" stop="20261023010000 +0800" channel="CJAZ">
-    <title>Witness</title>
-    <desc>Inspirational and provocative stories providing a fresh and informative insight into the worlds key events as they impact on the lives of ordinary people.</desc>
   </programme>
   <programme start="20261023010000 +0800" stop="20261023013000 +0800" channel="CJAZ">
     <title>News Live</title>
@@ -19276,13 +19363,9 @@
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
   </programme>
-  <programme start="20261023030000 +0800" stop="20261023033000 +0800" channel="CJAZ">
+  <programme start="20261023030000 +0800" stop="20261023040000 +0800" channel="CJAZ">
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
-  </programme>
-  <programme start="20261023033000 +0800" stop="20261023040000 +0800" channel="CJAZ">
-    <title>Talk to Al Jazeera</title>
-    <desc>Polands Foreign Minister addresses growing concerns that Russias war in Ukraine could spill over into neighbouring NATO members and spread regionally.</desc>
   </programme>
   <programme start="20261023040000 +0800" stop="20261023050000 +0800" channel="CJAZ">
     <title>Head to Head</title>
@@ -19362,7 +19445,7 @@
   </programme>
   <programme start="20261023163000 +0800" stop="20261023170000 +0800" channel="CJAZ">
     <title>Al Jazeera Explains</title>
-    <desc>Al Jazeera Explains goes beyond the headlines to bring clarity, context and the bigger picture to the stories shaping the world today.</desc>
+    <desc>Who really holds power at the UN, why can five countries block action, and who holds the organisation accountable when it falls short?</desc>
   </programme>
   <programme start="20261023170000 +0800" stop="20261023173000 +0800" channel="CJAZ">
     <title>News Live</title>
@@ -19404,13 +19487,9 @@
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
   </programme>
-  <programme start="20261024000000 +0800" stop="20261024003000 +0800" channel="CJAZ">
+  <programme start="20261024000000 +0800" stop="20261024010000 +0800" channel="CJAZ">
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
-  </programme>
-  <programme start="20261024003000 +0800" stop="20261024010000 +0800" channel="CJAZ">
-    <title>Business of War</title>
-    <desc>Hind Hassan tracks the spread of the global weapons trade beyond the battlefield – to the militarised police on our streets.</desc>
   </programme>
   <programme start="20261024010000 +0800" stop="20261024013000 +0800" channel="CJAZ">
     <title>News Live</title>
@@ -19424,17 +19503,13 @@
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
   </programme>
-  <programme start="20261024030000 +0800" stop="20261024033000 +0800" channel="CJAZ">
+  <programme start="20261024030000 +0800" stop="20261024040000 +0800" channel="CJAZ">
     <title>Newshour</title>
     <desc>Latest news and in-depth analysis from around the world.</desc>
   </programme>
-  <programme start="20261024033000 +0800" stop="20261024040000 +0800" channel="CJAZ">
-    <title>Counting the Cost</title>
-    <desc>Counting the Cost provides background to the economics stories that shape our world and impact the lives of ordinary people.</desc>
-  </programme>
   <programme start="20261024040000 +0800" stop="20261024050000 +0800" channel="CJAZ">
-    <title>Lets Focus</title>
-    <desc>Designed for viewers seeking context, depth and clarity, Lets Focus unpacks the U.S. midterm elections and treats audiences as citizens rather than spectators.</desc>
+    <title>Al Jazeera Investigates</title>
+    <desc>Al Jazeera Investigates the links between a right-wing political movement in the UK and an armed paramilitary who can arrange murders for money.</desc>
   </programme>
   <programme start="20261024050000 +0800" stop="20261023213000 +0800" channel="CJAZ">
     <title>Newshour</title>
@@ -21772,52 +21847,238 @@
     <title>《名醫話養生》(69):粉紅絲帶月 乳腺癌手術該如何選擇?</title>
   </programme>
   <programme start="20261022070000 +0800" stop="20261022090000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+    <title>看東方</title>
   </programme>
-  <programme start="20261022090000 +0800" stop="20261022120000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022090000 +0800" stop="20261022100100 +0800" channel="DTV">
+    <title>一路前行(7)—淨海</title>
   </programme>
-  <programme start="20261022120000 +0800" stop="20261022150000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022100100 +0800" stop="20261022101400 +0800" channel="DTV">
+    <title>探秘中國民居之美—上海石庫門</title>
   </programme>
-  <programme start="20261022150000 +0800" stop="20261022180000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022101400 +0800" stop="20261022105000 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(1)</title>
   </programme>
-  <programme start="20261022180000 +0800" stop="20261022210000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022105000 +0800" stop="20261022112300 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(2)</title>
   </programme>
-  <programme start="20261022210000 +0800" stop="20261023000000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022112300 +0800" stop="20261022113500 +0800" channel="DTV">
+    <title>探秘中國民居之美—四川羅城船型古鎮</title>
   </programme>
-  <programme start="20261023000000 +0800" stop="20261023030000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022113500 +0800" stop="20261022120000 +0800" channel="DTV">
+    <title>《名醫話養生》(48):開學調整作息,全家安穩睡眠</title>
   </programme>
-  <programme start="20261023030000 +0800" stop="20261023060000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022120000 +0800" stop="20261022122700 +0800" channel="DTV">
+    <title>午間30分</title>
   </programme>
-  <programme start="20261023060000 +0800" stop="20261023090000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022122700 +0800" stop="20261022123000 +0800" channel="DTV">
+    <title>形象片:上海,靈感之城</title>
   </programme>
-  <programme start="20261023090000 +0800" stop="20261023120000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022123000 +0800" stop="20261022124200 +0800" channel="DTV">
+    <title>ShanghaiEye(4K)(438)</title>
   </programme>
-  <programme start="20261023120000 +0800" stop="20261023150000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022124200 +0800" stop="20261022133600 +0800" channel="DTV">
+    <title>未來中國第二季(3)</title>
   </programme>
-  <programme start="20261023150000 +0800" stop="20261023180000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022133600 +0800" stop="20261022142800 +0800" channel="DTV">
+    <title>未來中國第二季(4)</title>
   </programme>
-  <programme start="20261023180000 +0800" stop="20261023210000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022142800 +0800" stop="20261022145300 +0800" channel="DTV">
+    <title>尋味(286)「老鋪尋香」第五集:邸席食韻</title>
   </programme>
-  <programme start="20261023210000 +0800" stop="20261024000000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022145300 +0800" stop="20261022151800 +0800" channel="DTV">
+    <title>尋味(287)「老鋪尋香」第六集:味煥新章</title>
   </programme>
-  <programme start="20261024000000 +0800" stop="20261024030000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022151800 +0800" stop="20261022154300 +0800" channel="DTV">
+    <title>愛上海(4K)(91):舞劇《棟梁》致敬百年前中國文人風骨</title>
   </programme>
-  <programme start="20261024030000 +0800" stop="20261023193000 +0800" channel="DTV">
-    <title>頻道尚未提供當日節目表</title>
+  <programme start="20261022154300 +0800" stop="20261022162000 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(1)</title>
+  </programme>
+  <programme start="20261022162000 +0800" stop="20261022165300 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(2)</title>
+  </programme>
+  <programme start="20261022165300 +0800" stop="20261022172900 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(3)</title>
+  </programme>
+  <programme start="20261022172900 +0800" stop="20261022173500 +0800" channel="DTV">
+    <title>了不起的寶藏·探寶上博(21)弘一法師遺墨</title>
+  </programme>
+  <programme start="20261022173500 +0800" stop="20261022180000 +0800" channel="DTV">
+    <title>《名醫話養生》(48):開學調整作息,全家安穩睡眠</title>
+  </programme>
+  <programme start="20261022180000 +0800" stop="20261022185800 +0800" channel="DTV">
+    <title>東方新聞</title>
+  </programme>
+  <programme start="20261022185800 +0800" stop="20261022191000 +0800" channel="DTV">
+    <title>ShanghaiEye(4K)(438)</title>
+  </programme>
+  <programme start="20261022191000 +0800" stop="20261022193500 +0800" channel="DTV">
+    <title>尋味(286)「老鋪尋香」第五集:邸席食韻</title>
+  </programme>
+  <programme start="20261022193500 +0800" stop="20261022200000 +0800" channel="DTV">
+    <title>尋味(287)「老鋪尋香」第六集:味煥新章</title>
+  </programme>
+  <programme start="20261022200000 +0800" stop="20261022202500 +0800" channel="DTV">
+    <title>愛上海(4K)(91):舞劇《棟梁》致敬百年前中國文人風骨</title>
+  </programme>
+  <programme start="20261022202500 +0800" stop="20261022212600 +0800" channel="DTV">
+    <title>一路前行(7)—淨海</title>
+  </programme>
+  <programme start="20261022212600 +0800" stop="20261022222000 +0800" channel="DTV">
+    <title>未來中國第二季(3)</title>
+  </programme>
+  <programme start="20261022222000 +0800" stop="20261022231300 +0800" channel="DTV">
+    <title>未來中國第二季(4)</title>
+  </programme>
+  <programme start="20261022231300 +0800" stop="20261022233800 +0800" channel="DTV">
+    <title>東方新娛樂(2026-10-21)</title>
+  </programme>
+  <programme start="20261022233800 +0800" stop="20261023000300 +0800" channel="DTV">
+    <title>《名醫話養生》(48):開學調整作息,全家安穩睡眠</title>
+  </programme>
+  <programme start="20261023000300 +0800" stop="20261023003900 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(1)</title>
+  </programme>
+  <programme start="20261023003900 +0800" stop="20261023011300 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(2)</title>
+  </programme>
+  <programme start="20261023011300 +0800" stop="20261023012500 +0800" channel="DTV">
+    <title>ShanghaiEye(4K)(438)</title>
+  </programme>
+  <programme start="20261023012500 +0800" stop="20261023022300 +0800" channel="DTV">
+    <title>東方新聞(4K)(2026-10-22)</title>
+  </programme>
+  <programme start="20261023022300 +0800" stop="20261023025900 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(3)</title>
+  </programme>
+  <programme start="20261023025900 +0800" stop="20261023040800 +0800" channel="DTV">
+    <title>2026夢想改造家第十三季第四期《一間房的選擇》</title>
+  </programme>
+  <programme start="20261023040800 +0800" stop="20261023051800 +0800" channel="DTV">
+    <title>因Ai相約(1)</title>
+  </programme>
+  <programme start="20261023051800 +0800" stop="20261023060000 +0800" channel="DTV">
+    <title>一路前行(7)—淨海</title>
+  </programme>
+  <programme start="20261023060000 +0800" stop="20261023062000 +0800" channel="DTV">
+    <title>一路前行(7)—淨海</title>
+  </programme>
+  <programme start="20261023062000 +0800" stop="20261023063500 +0800" channel="DTV">
+    <title>探秘中國民居之美—山西王家大院</title>
+  </programme>
+  <programme start="20261023063500 +0800" stop="20261023070000 +0800" channel="DTV">
+    <title>《名醫話養生》(48):開學調整作息,全家安穩睡眠</title>
+  </programme>
+  <programme start="20261023070000 +0800" stop="20261023090000 +0800" channel="DTV">
+    <title>看東方</title>
+  </programme>
+  <programme start="20261023090000 +0800" stop="20261023095900 +0800" channel="DTV">
+    <title>一路前行(8)—家園</title>
+  </programme>
+  <programme start="20261023095900 +0800" stop="20261023111500 +0800" channel="DTV">
+    <title>極限挑戰寶藏行-和美鄉村季(8)</title>
+  </programme>
+  <programme start="20261023111500 +0800" stop="20261023112000 +0800" channel="DTV">
+    <title>了不起的寶藏·探寶上博 第二季(4)商父乙觥</title>
+  </programme>
+  <programme start="20261023112000 +0800" stop="20261023113500 +0800" channel="DTV">
+    <title>探秘中國民居之美—福建土樓</title>
+  </programme>
+  <programme start="20261023113500 +0800" stop="20261023120000 +0800" channel="DTV">
+    <title>《名醫話養生》(50):孩子頻繁眨眼聳肩,警惕兒童抽動症</title>
+  </programme>
+  <programme start="20261023120000 +0800" stop="20261023122700 +0800" channel="DTV">
+    <title>午間30分</title>
+  </programme>
+  <programme start="20261023122700 +0800" stop="20261023123000 +0800" channel="DTV">
+    <title>形象片:上海,靈感之城</title>
+  </programme>
+  <programme start="20261023123000 +0800" stop="20261023124200 +0800" channel="DTV">
+    <title>ShanghaiEye(4K)(439)</title>
+  </programme>
+  <programme start="20261023124200 +0800" stop="20261023133400 +0800" channel="DTV">
+    <title>未來中國第二季(4)</title>
+  </programme>
+  <programme start="20261023133400 +0800" stop="20261023142700 +0800" channel="DTV">
+    <title>未來中國第二季(5)</title>
+  </programme>
+  <programme start="20261023142700 +0800" stop="20261023145700 +0800" channel="DTV">
+    <title>家國萬裡(4)</title>
+  </programme>
+  <programme start="20261023145700 +0800" stop="20261023152700 +0800" channel="DTV">
+    <title>家國萬裡(5)</title>
+  </programme>
+  <programme start="20261023152700 +0800" stop="20261023164200 +0800" channel="DTV">
+    <title>極限挑戰寶藏行-和美鄉村季(8)</title>
+  </programme>
+  <programme start="20261023164200 +0800" stop="20261023170700 +0800" channel="DTV">
+    <title>下一站(衛視文件化)(243)視聽交響</title>
+  </programme>
+  <programme start="20261023170700 +0800" stop="20261023171000 +0800" channel="DTV">
+    <title>形象片:上海,靈感之城</title>
+  </programme>
+  <programme start="20261023171000 +0800" stop="20261023173500 +0800" channel="DTV">
+    <title>東方新娛樂(2026-10-22)</title>
+  </programme>
+  <programme start="20261023173500 +0800" stop="20261023180000 +0800" channel="DTV">
+    <title>《名醫話養生》(50):孩子頻繁眨眼聳肩,警惕兒童抽動症</title>
+  </programme>
+  <programme start="20261023180000 +0800" stop="20261023185800 +0800" channel="DTV">
+    <title>東方新聞</title>
+  </programme>
+  <programme start="20261023185800 +0800" stop="20261023191000 +0800" channel="DTV">
+    <title>ShanghaiEye(4K)(439)</title>
+  </programme>
+  <programme start="20261023191000 +0800" stop="20261023194000 +0800" channel="DTV">
+    <title>家國萬裡(4)</title>
+  </programme>
+  <programme start="20261023194000 +0800" stop="20261023204000 +0800" channel="DTV">
+    <title>一路前行(8)—家園</title>
+  </programme>
+  <programme start="20261023204000 +0800" stop="20261023213300 +0800" channel="DTV">
+    <title>未來中國第二季(4)</title>
+  </programme>
+  <programme start="20261023213300 +0800" stop="20261023222500 +0800" channel="DTV">
+    <title>未來中國第二季(5)</title>
+  </programme>
+  <programme start="20261023222500 +0800" stop="20261023225000 +0800" channel="DTV">
+    <title>東方新娛樂(2026-10-22)</title>
+  </programme>
+  <programme start="20261023225000 +0800" stop="20261023231500 +0800" channel="DTV">
+    <title>《名醫話養生》(50):孩子頻繁眨眼聳肩,警惕兒童抽動症</title>
+  </programme>
+  <programme start="20261023231500 +0800" stop="20261024003000 +0800" channel="DTV">
+    <title>極限挑戰寶藏行-和美鄉村季(8)</title>
+  </programme>
+  <programme start="20261024003000 +0800" stop="20261024005500 +0800" channel="DTV">
+    <title>下一站(衛視文件化)(243)視聽交響</title>
+  </programme>
+  <programme start="20261024005500 +0800" stop="20261024010700 +0800" channel="DTV">
+    <title>ShanghaiEye(4K)(439)</title>
+  </programme>
+  <programme start="20261024010700 +0800" stop="20261024020600 +0800" channel="DTV">
+    <title>東方新聞(4K)(2026-10-23)</title>
+  </programme>
+  <programme start="20261024020600 +0800" stop="20261024023100 +0800" channel="DTV">
+    <title>尋味(286)「老鋪尋香」第五集:邸席食韻</title>
+  </programme>
+  <programme start="20261024023100 +0800" stop="20261024025600 +0800" channel="DTV">
+    <title>尋味(287)「老鋪尋香」第六集:味煥新章</title>
+  </programme>
+  <programme start="20261024025600 +0800" stop="20261024032100 +0800" channel="DTV">
+    <title>愛上海(4K)(91):舞劇《棟梁》致敬百年前中國文人風骨</title>
+  </programme>
+  <programme start="20261024032100 +0800" stop="20261024035700 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(1)</title>
+  </programme>
+  <programme start="20261024035700 +0800" stop="20261024043100 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(2)</title>
+  </programme>
+  <programme start="20261024043100 +0800" stop="20261024050700 +0800" channel="DTV">
+    <title>加油!小店—人間煙火季(3)</title>
+  </programme>
+  <programme start="20261024050700 +0800" stop="20261023213700 +0800" channel="DTV">
+    <title>一路前行(8)—家園</title>
   </programme>
   <programme start="20261020060000 +0800" stop="20261020062500 +0800" channel="LN4">
     <title>動物感官世界 #4</title>
