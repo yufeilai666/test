@@ -1,12 +1,14 @@
 #EXTM3U
-#EXTINF:-1 group-title="抖音K歌",朴彩英-APT
-https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v02f52g10003css23uiljht5d6b6mnq0&ratio=720p&line=0
-#EXTINF:-1 group-title="抖音K歌",wonder girls-Nobody
-https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000c6loblbc77u7hd3mel20&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",街道办GDC/欧阳耀莹-春娇与志明
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200f890000bt2sn535j22kbcal83p0&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",街道办GDC/欧阳耀莹-春娇与志明
 https://vd3.bdstatic.com/mda-nm2jiq3rts9e996m/cae_h264/1670140421381860308/mda-nm2jiq3rts9e996m.mp4
+#EXTINF:-1 group-title="抖音K歌",朴彩英-APT
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v02f52g10003css23uiljht5d6b6mnq0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",朴彩英-APT
+https://vd3.bdstatic.com/mda-qm6huzfife1qmywr/576p/youjia_clip_normal_sv/1733576017477697961/mda-qm6huzfife1qmywr.mp4
+#EXTINF:-1 group-title="抖音K歌",wonder girls-Nobody
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000c6loblbc77u7hd3mel20&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",handsome lau/HYPEEZY/冯泳-梦醒
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cd2h8erc77u41qn32org&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",欧阳耀莹-戒不掉
@@ -77,6 +79,8 @@ https://vd2.bdstatic.com/mda-ne8jy8yvzvi2p4cb/cae_h264/1652115706096178729/mda-n
 https://vd2.bdstatic.com/mda-mkqbg07d6zkm3b4g/cae_h264/1637832871144462528/mda-mkqbg07d6zkm3b4g.mp4
 #EXTINF:-1 group-title="抖音K歌",潘玮柏/弦子-不得不爱
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000ct4mq2vog65i8p1hflg0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",潘玮柏/苏芮-我想更懂你
+https://vd2.bdstatic.com/mda-se9ym92gxcpmzgyq/hd/cae_h264/1778454284731642733/mda-se9ym92gxcpmzgyq.mp4
 #EXTINF:-1 group-title="抖音K歌",葛东琪-悬溺
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cg7gf7rc77ufgvikae50&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",周杰伦-七里香
@@ -453,6 +457,10 @@ https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v1e00fgi0000csmuo9fog65j0839
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000ctari87og65ksgs0rnpg&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",张韶涵-12首合集
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000ct7cdovog65o09j282vg&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",徐良-10首合集
+https://vd3.bdstatic.com/mda-sjnch7hdtmyea6jc/hd/cae_h264/1792747425753239847/mda-sjnch7hdtmyea6jc.mp4
+#EXTINF:-1 group-title="抖音K歌",许嵩-10首合集
+https://vd3.bdstatic.com/mda-sdse5tr8hzzpca53/hd/cae_h264/1777289112645471917/mda-sdse5tr8hzzpca53.mp4
 #EXTINF:-1 group-title="清风DJ",女孩DJ
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v1e00fgi0000d2aa0qfog65vmvgg5sjg&ratio=720p&line=0
 #EXTINF:-1 group-title="清风DJ",gamgamDJ
@@ -8013,6 +8021,122 @@ http://173.208.212.130:8181/720p/jsws.m3u8
 http://173.208.212.130:8181/1080p/jsws.m3u8
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="央视频6",浙江卫视
 http://173.208.212.130:8181/720p/zjws.m3u8
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="央视频6",CCTV1
+http://sagrad.org:8181/3m1080p/cctv1.m3u8
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="央视频6",CCTV2
+http://sagrad.org:8181/3m1080p/cctv2.m3u8
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV3.png" group-title="央视频6",CCTV3
+http://sagrad.org:8181/3m1080p/cctv3.m3u8
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV4.png" group-title="央视频6",CCTV4
+http://sagrad.org:8181/3m1080p/cctv4.m3u8
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV5.png" group-title="央视频6",CCTV5
+http://sagrad.org:8181/3m1080p/cctv5.m3u8
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV6.png" group-title="央视频6",CCTV6
+http://sagrad.org:8181/3m1080p/cctv6.m3u8
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV7.png" group-title="央视频6",CCTV7
+http://sagrad.org:8181/3m1080p/cctv7.m3u8
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV8.png" group-title="央视频6",CCTV8
+http://sagrad.org:8181/3m1080p/cctv8.m3u8
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV9.png" group-title="央视频6",CCTV9
+http://sagrad.org:8181/3m1080p/cctv9.m3u8
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV10.png" group-title="央视频6",CCTV10
+http://sagrad.org:8181/3m1080p/cctv10.m3u8
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV11.png" group-title="央视频6",CCTV11
+http://sagrad.org:8181/3m1080p/cctv11.m3u8
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV12.png" group-title="央视频6",CCTV12
+http://sagrad.org:8181/3m1080p/cctv12.m3u8
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV13.png" group-title="央视频6",CCTV13
+http://sagrad.org:8181/3m1080p/cctv13.m3u8
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV14.png" group-title="央视频6",CCTV14
+http://sagrad.org:8181/3m1080p/cctv14.m3u8
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV15.png" group-title="央视频6",CCTV15
+http://sagrad.org:8181/3m1080p/cctv15.m3u8
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV16.png" group-title="央视频6",CCTV16
+http://sagrad.org:8181/3m1080p/cctv16.m3u8
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV17.png" group-title="央视频6",CCTV17
+http://sagrad.org:8181/3m1080p/cctv17.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卡酷少儿.png" group-title="央视频6",北京卡酷少儿
+http://sagrad.org:8181/3m1080p/btvkk.m3u8
+#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/嘉佳卡通.png" group-title="央视频6",嘉佳卡通
+http://sagrad.org:8181/3m1080p/gdjjkt.m3u8
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/金鹰卡通.png" group-title="央视频6",金鹰卡通
+http://sagrad.org:8181/3m1080p/hnjykt.m3u8
+#EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/优漫卡通.png" group-title="央视频6",优漫卡通
+http://sagrad.org:8181/3m1080p/ymkt.m3u8
+#EXTINF:-1 tvg-id="天元围棋" tvg-name="天元围棋" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Guizhou/天元围棋.png" group-title="央视频6",天元围棋
+http://sagrad.org:8181/3m1080p/gztywq.m3u8
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖南卫视.png" group-title="央视频6",湖南卫视
+http://sagrad.org:8181/3m1080p/hnws.m3u8
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/浙江卫视.png" group-title="央视频6",浙江卫视
+http://sagrad.org:8181/3m1080p/zjws.m3u8
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江苏卫视.png" group-title="央视频6",江苏卫视
+http://sagrad.org:8181/3m1080p/jsws.m3u8
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/重庆卫视.png" group-title="央视频6",重庆卫视
+http://sagrad.org:8181/3m1080p/cqws.m3u8
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东方卫视.png" group-title="央视频6",东方卫视
+http://sagrad.org:8181/3m1080p/dfws.m3u8
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/东南卫视.png" group-title="央视频6",东南卫视
+http://sagrad.org:8181/3m1080p/dnws.m3u8
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/广东卫视.png" group-title="央视频6",广东卫视
+http://sagrad.org:8181/3m1080p/gdws.m3u8
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/甘肃卫视.png" group-title="央视频6",甘肃卫视
+http://sagrad.org:8181/3m1080p/gsws.m3u8
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/贵州卫视.png" group-title="央视频6",贵州卫视
+http://sagrad.org:8181/3m1080p/gzws.m3u8
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/湖北卫视.png" group-title="央视频6",湖北卫视
+http://sagrad.org:8181/3m1080p/hbws.m3u8
+#EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/厦门卫视.png" group-title="央视频6",厦门卫视
+http://sagrad.org:8181/3m1080p/xmws.m3u8
+#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山西卫视.png" group-title="央视频6",山西卫视
+http://sagrad.org:8181/3m1080p/sxws.m3u8
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河南卫视.png" group-title="央视频6",河南卫视
+http://sagrad.org:8181/3m1080p/haws.m3u8
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/河北卫视.png" group-title="央视频6",河北卫视
+http://sagrad.org:8181/3m1080p/hews.m3u8
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/四川卫视.png" group-title="央视频6",四川卫视
+http://sagrad.org:8181/3m1080p/scws.m3u8
+#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/陕西卫视.png" group-title="央视频6",陕西卫视
+http://sagrad.org:8181/3m1080p/snws.m3u8
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安徽卫视.png" group-title="央视频6",安徽卫视
+http://sagrad.org:8181/3m1080p/ahws.m3u8
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/北京卫视.png" group-title="央视频6",北京卫视
+http://sagrad.org:8181/3m1080p/bjws.m3u8
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/黑龙江卫视.png" group-title="央视频6",黑龙江卫视
+http://sagrad.org:8181/3m1080p/hljws.m3u8
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/吉林卫视.png" group-title="央视频6",吉林卫视
+http://sagrad.org:8181/3m1080p/jlws.m3u8
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/江西卫视.png" group-title="央视频6",江西卫视
+http://sagrad.org:8181/3m1080p/jxws.m3u8
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/辽宁卫视.png" group-title="央视频6",辽宁卫视
+http://sagrad.org:8181/3m1080p/lnws.m3u8
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东卫视.png" group-title="央视频6",山东卫视
+http://sagrad.org:8181/3m1080p/sdws.m3u8
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/青海卫视.png" group-title="央视频6",青海卫视
+http://sagrad.org:8181/3m1080p/qhws.m3u8
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/新疆卫视.png" group-title="央视频6",新疆卫视
+http://sagrad.org:8181/3m1080p/xjws.m3u8
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/西藏卫视.png" group-title="央视频6",西藏卫视
+http://sagrad.org:8181/3m1080p/xzws.m3u8
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/海南卫视.png" group-title="央视频6",海南卫视
+http://sagrad.org:8181/3m1080p/lyws.m3u8
+#EXTINF:-1 tvg-id="三沙衛視" tvg-name="三沙衛視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/三沙卫视.png" group-title="央视频6",三沙卫视
+http://sagrad.org:8181/3m1080p/ssws.m3u8
+#EXTINF:-1 tvg-id="深圳衛視" tvg-name="深圳衛視" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/深圳卫视.png" group-title="央视频6",深圳卫视
+http://sagrad.org:8181/3m1080p/szws.m3u8
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/天津卫视.png" group-title="央视频6",天津卫视
+http://sagrad.org:8181/3m1080p/tjws.m3u8
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/云南卫视.png" group-title="央视频6",云南卫视
+http://sagrad.org:8181/3m1080p/ynws.m3u8
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/兵团卫视.png" group-title="央视频6",兵团卫视
+http://sagrad.org:8181/3m1080p/btws.m3u8
+#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/宁夏卫视.png" group-title="央视频6",宁夏卫视
+http://sagrad.org:8181/3m1080p/nxws.m3u8
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/内蒙古卫视.png" group-title="央视频6",内蒙古卫视
+http://sagrad.org:8181/3m1080p/nmgws.m3u8
+#EXTINF:-1 tvg-id="延边卫视" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/延边卫视.png" group-title="央视频6",延边卫视
+http://sagrad.org:8181/3m1080p/ybws.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/农林卫视.png" group-title="央视频6",农林卫视
+http://sagrad.org:8181/3m1080p/snnl.m3u8
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV1.png" group-title="央视频7",CCTV1
 http://51.75.118.151:20299/cctv1.m3u8
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CCTV2.png" group-title="央视频7",CCTV2
@@ -17085,92 +17209,6 @@ https://jkunnzyx.com/20230301/5KWwQUfH/hls/index.m3u8
 https://t33.cdn2020.com/video/m3u8/2019/07/24/4b2df664/index.m3u8
 #EXTINF:-1 group-title="私密频道2_169169",IPX-484 彼女 楓カレン
 https://t33.cdn2020.com/video/m3u8/2023/06/24/ba6bd43c/index.m3u8
-#EXTINF:-1 group-title="私密频道3_169169",AMATEUREURO
-http://xionggroup.uk:2347/livehttpplay?channel_id=18209
-#EXTINF:-1 group-title="私密频道3_169169",BlondeTeen
-http://xionggroup.uk:2347/livehttpplay?channel_id=18210
-#EXTINF:-1 group-title="私密频道3_169169",BlondeTeen2
-http://xionggroup.uk:2347/livehttpplay?channel_id=18211
-#EXTINF:-1 group-title="私密频道3_169169",Brazzers
-http://xionggroup.uk:2347/livehttpplay?channel_id=18212
-#EXTINF:-1 group-title="私密频道3_169169",FakeAgent
-http://xionggroup.uk:2347/livehttpplay?channel_id=18213
-#EXTINF:-1 group-title="私密频道3_169169",FakeHostel
-http://xionggroup.uk:2347/livehttpplay?channel_id=18214
-#EXTINF:-1 group-title="私密频道3_169169",FAKEhubFullScene
-http://xionggroup.uk:2347/livehttpplay?channel_id=18215
-#EXTINF:-1 group-title="私密频道3_169169",FilthyKings
-http://xionggroup.uk:2347/livehttpplay?channel_id=18216
-#EXTINF:-1 group-title="私密频道3_169169",FilthyTaboo
-http://xionggroup.uk:2347/livehttpplay?channel_id=18217
-#EXTINF:-1 group-title="私密频道3_169169",HOTWIFEXXX
-http://xionggroup.uk:2347/livehttpplay?channel_id=18218
-#EXTINF:-1 group-title="私密频道3_169169",princess
-http://xionggroup.uk:2347/livehttpplay?channel_id=18219
-#EXTINF:-1 group-title="私密频道3_169169",princess1
-http://xionggroup.uk:2347/livehttpplay?channel_id=18220
-#EXTINF:-1 group-title="私密频道3_169169",princess2
-http://xionggroup.uk:2347/livehttpplay?channel_id=18221
-#EXTINF:-1 group-title="私密频道3_169169",PublicAgent
-http://xionggroup.uk:2347/livehttpplay?channel_id=18222
-#EXTINF:-1 group-title="私密频道3_169169",ASIA
-http://xionggroup.uk:2347/livehttpplay?channel_id=18223
-#EXTINF:-1 group-title="私密频道3_169169",ASIA2
-http://xionggroup.uk:2347/livehttpplay?channel_id=18224
-#EXTINF:-1 group-title="私密频道3_169169",asia3
-http://xionggroup.uk:2347/livehttpplay?channel_id=18225
-#EXTINF:-1 group-title="私密频道3_169169",asia4
-http://xionggroup.uk:2347/livehttpplay?channel_id=18226
-#EXTINF:-1 group-title="私密频道3_169169",asia5
-http://xionggroup.uk:2347/livehttpplay?channel_id=18227
-#EXTINF:-1 group-title="私密频道3_169169",asia6
-http://xionggroup.uk:2347/livehttpplay?channel_id=18228
-#EXTINF:-1 group-title="私密频道3_169169",asia7
-http://xionggroup.uk:2347/livehttpplay?channel_id=18229
-#EXTINF:-1 group-title="私密频道3_169169",asia8
-http://xionggroup.uk:2347/livehttpplay?channel_id=18230
-#EXTINF:-1 group-title="私密频道3_169169",asia9
-http://xionggroup.uk:2347/livehttpplay?channel_id=18231
-#EXTINF:-1 group-title="私密频道3_169169",asia10
-http://xionggroup.uk:2347/livehttpplay?channel_id=18232
-#EXTINF:-1 group-title="私密频道3_169169",asia11
-http://xionggroup.uk:2347/livehttpplay?channel_id=18233
-#EXTINF:-1 group-title="私密频道3_169169",asia12
-http://xionggroup.uk:2347/livehttpplay?channel_id=18234
-#EXTINF:-1 group-title="私密频道3_169169",asia13
-http://xionggroup.uk:2347/livehttpplay?channel_id=18235
-#EXTINF:-1 group-title="私密频道3_169169",asia14
-http://xionggroup.uk:2347/livehttpplay?channel_id=18236
-#EXTINF:-1 group-title="私密频道3_169169",asia15
-http://xionggroup.uk:2347/livehttpplay?channel_id=18237
-#EXTINF:-1 group-title="私密频道3_169169",asia16
-http://xionggroup.uk:2347/livehttpplay?channel_id=18238
-#EXTINF:-1 group-title="私密频道3_169169",asia17
-http://xionggroup.uk:2347/livehttpplay?channel_id=18239
-#EXTINF:-1 group-title="私密频道3_169169",asia18
-http://xionggroup.uk:2347/livehttpplay?channel_id=18240
-#EXTINF:-1 group-title="私密频道3_169169",asia19
-http://xionggroup.uk:2347/livehttpplay?channel_id=18241
-#EXTINF:-1 group-title="私密频道3_169169",asia20
-http://xionggroup.uk:2347/livehttpplay?channel_id=18242
-#EXTINF:-1 group-title="私密频道3_169169",asia21
-http://xionggroup.uk:2347/livehttpplay?channel_id=18243
-#EXTINF:-1 group-title="私密频道3_169169",CUS
-http://xionggroup.uk:2347/livehttpplay?channel_id=18244
-#EXTINF:-1 group-title="私密频道3_169169",HMN
-http://xionggroup.uk:2347/livehttpplay?channel_id=18245
-#EXTINF:-1 group-title="私密频道3_169169",MDYD
-http://xionggroup.uk:2347/livehttpplay?channel_id=18246
-#EXTINF:-1 group-title="私密频道3_169169",MSD2
-http://xionggroup.uk:2347/livehttpplay?channel_id=18247
-#EXTINF:-1 group-title="私密频道3_169169",PONDO
-http://xionggroup.uk:2347/livehttpplay?channel_id=18248
-#EXTINF:-1 group-title="私密频道3_169169",PONDO2
-http://xionggroup.uk:2347/livehttpplay?channel_id=18249
-#EXTINF:-1 group-title="私密频道3_169169",XKG
-http://xionggroup.uk:2347/livehttpplay?channel_id=18250
-#EXTINF:-1 group-title="私密频道3_169169",MSD
-http://xionggroup.uk:2347/livehttpplay?channel_id=18251
 #EXTINF:-1 group-title="JAV點播_169169",10周年紀念特別篇著名演員
 https://t33.cdn2020.com/video/m3u8/2024/10/03/922abb2b/index.m3u8
 #EXTINF:-1 group-title="JAV點播_169169",18歲美少看似清純實際很蕩
