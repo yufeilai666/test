@@ -1629,9 +1629,9 @@ https://play.kankanlive.com/live/1724065906329286.m3u8
 https://rmplive.hljtv.com/live/gannan.m3u8#https://masterpull.hljtv.com/live/YbFyF4Jb.m3u8
 #EXTINF:-1 group-title="📡青海频道",青海综合
 http://lmt.scqstv.com/live1/live1.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青海经视.png" group-title="📡青海频道",青海经视
+#EXTINF:-1 tvg-id="青海经视" tvg-name="青海经视" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青海经视.png" group-title="📡青海频道",青海经视
 http://stream.qhbtv.com/qhsh/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青海都市.png" group-title="📡青海频道",青海都市
+#EXTINF:-1 tvg-id="青海都市" tvg-name="青海都市" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/青海都市.png" group-title="📡青海频道",青海都市
 http://stream.qhbtv.com/qhds/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/安多卫视.png" group-title="📡青海频道",安多卫视
 http://stream.qhbtv.com/adws/playlist.m3u8

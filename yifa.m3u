@@ -2481,7 +2481,7 @@ http://111.29.9.33:6610/000000001000/1000000002000031451/index.m3u8?channel-id=b
 http://111.29.9.33:6610/000000001000/1000000002000029441/index.m3u8?channel-id=bestzb&Contentid=1000000002000029441&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="海南移动",中国教育1台
 http://111.29.9.33:6610/000000001000/5000000002000002652/index.m3u8?channel-id=bestzb&Contentid=5000000002000002652&livemode=1&stbId=3
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="海南移动",中国教育4台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="海南移动",中国教育4台
 http://111.29.9.33:6610/000000001000/5000000011000031126/index.m3u8?channel-id=bestzb&Contentid=5000000011000031126&livemode=1&stbId=3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/超级電視剧.png" group-title="海南移动",超级电视剧
 http://111.29.9.33:6610/000000001000/1000000001000008139/index.m3u8?channel-id=bestzb&Contentid=1000000001000008139&livemode=1&stbId=3
@@ -3047,11 +3047,11 @@ http://120.87.19.109:80/PLTV/88888973/224/3221225701/100001000000000600000000003
 http://120.87.19.109:80/PLTV/88888973/224/3221226633/10000100000000060000000001621392_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3x6iBhAwilvpTcjNRj3bE8mgWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="广东联通(内网)",中国教育2台
 http://120.87.19.109:80/PLTV/88888973/224/3221226588/10000100000000060000000001558064_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xAOgOny0U+I4iH5W0uXjKmgWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="广东联通(内网)",中国教育4台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="广东联通(内网)",中国教育4台
 http://120.87.19.109:80/PLTV/88888973/224/3221226583/10000100000000060000000001558067_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xmB+8P5VnQBZewRteiH/94AWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/中国教育1台.png" group-title="广东联通(内网)",中国教育1台
 http://120.87.19.109:80/PLTV/88888973/224/3221226675/10000100000000060000000002070301_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xG7fwTwSKdxXrDOKgio9QFgWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="广东联通(内网)",中国教育4台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="广东联通(内网)",中国教育4台
 http://120.87.19.109:80/PLTV/88888973/224/3221226638/10000100000000060000000001977379_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xnB0x7qH8oMgPwgp9Rx5I3gWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
 #EXTINF:-1 tvg-id="国学频道" tvg-name="国学频道" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Henan/国学频道.png" group-title="广东联通(内网)",国学频道
 http://120.87.19.109:80/PLTV/88888973/224/3221226152/10000100000000060000000001091886_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xLmjl3wapWOmUFufQ092DbAWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
@@ -3171,7 +3171,7 @@ http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226712/1.m3u8
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226718/1.m3u8
 #EXTINF:-1 tvg-id="中国教育3台" tvg-name="中国教育3台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育3台.png" group-title="广东移动(内网)",中国教育3台
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226722/1.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="广东移动(内网)",中国教育4台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="广东移动(内网)",中国教育4台
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226724/1.m3u8
 #EXTINF:-1 group-title="广东移动(内网)",咪咕4K-1
 http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226938/1.m3u8
@@ -3825,7 +3825,7 @@ http://bobohome.ignorelist.com:20247/migu?id=614961829
 http://bobohome.ignorelist.com:20247/migu?id=923287154
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="咪咕央视2",中国教育2台
 http://bobohome.ignorelist.com:20247/migu?id=923287211
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="咪咕央视2",中国教育4台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="咪咕央视2",中国教育4台
 http://bobohome.ignorelist.com:20247/migu?id=923287339
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东教育.png" group-title="咪咕央视2",山东教育
 http://bobohome.ignorelist.com:20247/migu?id=609154353
@@ -4071,7 +4071,7 @@ http://xch819.cn:7788/959986621
 http://xch819.cn:7788/923287154
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="咪咕央视2",中国教育2台
 http://xch819.cn:7788/923287211
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="咪咕央视2",中国教育4台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="咪咕央视2",中国教育4台
 http://xch819.cn:7788/923287339
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东教育.png" group-title="咪咕央视2",山东教育
 http://xch819.cn:7788/609154353
@@ -4321,7 +4321,7 @@ http://mg.cttv.vip/959986621
 http://mg.cttv.vip/923287154
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="咪咕央视2",中国教育2台
 http://mg.cttv.vip/923287211
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="咪咕央视2",中国教育4台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="咪咕央视2",中国教育4台
 http://mg.cttv.vip/923287339
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东教育.png" group-title="咪咕央视2",山东教育
 http://mg.cttv.vip/609154353
@@ -4575,7 +4575,7 @@ http://175.24.134.198:1234/614961829
 http://175.24.134.198:1234/923287154
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="咪咕央视2",中国教育2台
 http://175.24.134.198:1234/923287211
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="咪咕央视2",中国教育4台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="咪咕央视2",中国教育4台
 http://175.24.134.198:1234/923287339
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/山东教育.png" group-title="咪咕央视2",山东教育
 http://175.24.134.198:1234/609154353
@@ -4803,7 +4803,7 @@ http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/cetv2.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="中国教育3台" tvg-name="中国教育3台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育3台.png" group-title="央视频",中国教育3台
 http://38.75.136.137:98/gslb/dsdqpub/cetv3.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="央视频",中国教育4台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="央视频",中国教育4台
 http://38.75.136.137:98/gslb/dsdqpub/cetv4.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="早期教育" tvg-name="早期教育" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/早期教育.png" group-title="央视频",早期教育
 http://38.75.136.137:98/gslb/dsdqpub/zqjy.m3u8?auth=testpub
@@ -4997,15 +4997,15 @@ http://38.75.136.137:98/gslb/dsdqpub/gxys.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/gxzy.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北经视.png" group-title="央视频",湖北经视
 http://38.75.136.137:98/gslb/dsdqpub/hbjs.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北教育.png" group-title="央视频",湖北教育
+#EXTINF:-1 tvg-id="湖北教育" tvg-name="湖北教育" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北教育.png" group-title="央视频",湖北教育
 http://38.75.136.137:98/gslb/dsdqpub/hbjy.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北垄上.png" group-title="央视频",湖北垄上
+#EXTINF:-1 tvg-id="湖北垄上" tvg-name="湖北垄上" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北垄上.png" group-title="央视频",湖北垄上
 http://38.75.136.137:98/gslb/dsdqpub/hbls.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北生活.png" group-title="央视频",湖北生活
 http://38.75.136.137:98/gslb/dsdqpub/hbty.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北影视.png" group-title="央视频",湖北影视
+#EXTINF:-1 tvg-id="湖北影视" tvg-name="湖北影视" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北影视.png" group-title="央视频",湖北影视
 http://38.75.136.137:98/gslb/dsdqpub/hbys.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北综合.png" group-title="央视频",湖北综合
+#EXTINF:-1 tvg-id="湖北综合" tvg-name="湖北综合" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北综合.png" group-title="央视频",湖北综合
 http://38.75.136.137:98/gslb/dsdqpub/hbzh.m3u8?auth=testpub
 #EXTINF:-1 group-title="央视频",青岛新闻综合
 http://38.75.136.137:98/gslb/dsdqpub/sdqdtv1.m3u8?auth=testpub
@@ -5523,15 +5523,15 @@ http://107.150.60.122/live/gxds.m3u8
 http://107.150.60.122/live/gxxw.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Guangxi/广西国际.png" group-title="央视频3",广西国际
 http://107.150.60.122/live/gxgj.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北综合.png" group-title="央视频3",湖北综合
+#EXTINF:-1 tvg-id="湖北综合" tvg-name="湖北综合" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北综合.png" group-title="央视频3",湖北综合
 http://107.150.60.122/live/hbzh.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北经视.png" group-title="央视频3",湖北经视
 http://107.150.60.122/live/hbjs.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北影视.png" group-title="央视频3",湖北影视
+#EXTINF:-1 tvg-id="湖北影视" tvg-name="湖北影视" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北影视.png" group-title="央视频3",湖北影视
 http://107.150.60.122/live/hbys.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北教育.png" group-title="央视频3",湖北教育
+#EXTINF:-1 tvg-id="湖北教育" tvg-name="湖北教育" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北教育.png" group-title="央视频3",湖北教育
 http://107.150.60.122/live/hbjy.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北垄上.png" group-title="央视频3",湖北垄上
+#EXTINF:-1 tvg-id="湖北垄上" tvg-name="湖北垄上" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北垄上.png" group-title="央视频3",湖北垄上
 http://107.150.60.122/live/hbls.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北生活.png" group-title="央视频3",湖北生活
 http://107.150.60.122/live/hbty.m3u8
@@ -5759,15 +5759,15 @@ http://192.151.150.154/live/gxds.m3u8
 http://192.151.150.154/live/gxxw.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Guangxi/广西国际.png" group-title="央视频3",广西国际
 http://192.151.150.154/live/gxgj.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北综合.png" group-title="央视频3",湖北综合
+#EXTINF:-1 tvg-id="湖北综合" tvg-name="湖北综合" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北综合.png" group-title="央视频3",湖北综合
 http://192.151.150.154/live/hbzh.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北经视.png" group-title="央视频3",湖北经视
 http://192.151.150.154/live/hbjs.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北影视.png" group-title="央视频3",湖北影视
+#EXTINF:-1 tvg-id="湖北影视" tvg-name="湖北影视" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北影视.png" group-title="央视频3",湖北影视
 http://192.151.150.154/live/hbys.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北教育.png" group-title="央视频3",湖北教育
+#EXTINF:-1 tvg-id="湖北教育" tvg-name="湖北教育" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北教育.png" group-title="央视频3",湖北教育
 http://192.151.150.154/live/hbjy.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北垄上.png" group-title="央视频3",湖北垄上
+#EXTINF:-1 tvg-id="湖北垄上" tvg-name="湖北垄上" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北垄上.png" group-title="央视频3",湖北垄上
 http://192.151.150.154/live/hbls.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北生活.png" group-title="央视频3",湖北生活
 http://192.151.150.154/live/hbty.m3u8
@@ -5995,15 +5995,15 @@ http://198.204.228.26/live/gxds.m3u8
 http://198.204.228.26/live/gxxw.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Guangxi/广西国际.png" group-title="央视频3",广西国际
 http://198.204.228.26/live/gxgj.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北综合.png" group-title="央视频3",湖北综合
+#EXTINF:-1 tvg-id="湖北综合" tvg-name="湖北综合" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北综合.png" group-title="央视频3",湖北综合
 http://198.204.228.26/live/hbzh.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北经视.png" group-title="央视频3",湖北经视
 http://198.204.228.26/live/hbjs.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北影视.png" group-title="央视频3",湖北影视
+#EXTINF:-1 tvg-id="湖北影视" tvg-name="湖北影视" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北影视.png" group-title="央视频3",湖北影视
 http://198.204.228.26/live/hbys.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北教育.png" group-title="央视频3",湖北教育
+#EXTINF:-1 tvg-id="湖北教育" tvg-name="湖北教育" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北教育.png" group-title="央视频3",湖北教育
 http://198.204.228.26/live/hbjy.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北垄上.png" group-title="央视频3",湖北垄上
+#EXTINF:-1 tvg-id="湖北垄上" tvg-name="湖北垄上" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北垄上.png" group-title="央视频3",湖北垄上
 http://198.204.228.26/live/hbls.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北生活.png" group-title="央视频3",湖北生活
 http://198.204.228.26/live/hbty.m3u8
@@ -6459,7 +6459,7 @@ http://by4.nty.tv189.cn/live/tm-dxxzws-4000k.m3u8
 http://by4.nty.tv189.cn/live/tm-yszgjy1-4000k.m3u8
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育2台.png" group-title="天翼有线",中国教育2台
 http://by4.nty.tv189.cn/live/tm-yszgjy2-4000k.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="天翼有线",中国教育4台
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/中国教育4台.png" group-title="天翼有线",中国教育4台
 http://by4.nty.tv189.cn/live/tm-yszgjy4-4000k.m3u8
 #EXTINF:-1 group-title="天翼有线",东方综合
 http://by4.nty.tv189.cn/live//tm-xpxwzhws-4000k.m3u8
