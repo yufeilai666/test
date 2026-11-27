@@ -4923,21 +4923,21 @@ http://38.75.136.137:98/gslb/dsdqpub/ynwshd.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/zjwshd.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆文体娱乐.png" group-title="央视频",重庆文体娱乐
 http://38.75.136.137:98/gslb/dsdqpub/cqyl.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆社会与法.png" group-title="央视频",重庆社会与法
+#EXTINF:-1 tvg-id="重庆社会与法" tvg-name="重庆社会与法" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆社会与法.png" group-title="央视频",重庆社会与法
 http://38.75.136.137:98/gslb/dsdqpub/cqds.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆新农村.png" group-title="央视频",重庆新农村
+#EXTINF:-1 tvg-id="重庆新农村" tvg-name="重庆新农村" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆新农村.png" group-title="央视频",重庆新农村
 http://38.75.136.137:98/gslb/dsdqpub/cqgg.m3u8?auth=testpub
 #EXTINF:-1 group-title="央视频",重庆重广融媒
 http://38.75.136.137:98/gslb/dsdqpub/cqjc.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆红叶.png" group-title="央视频",重庆红叶
+#EXTINF:-1 tvg-id="重庆红叶" tvg-name="重庆红叶" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆红叶.png" group-title="央视频",重庆红叶
 http://38.75.136.137:98/gslb/dsdqpub/cqkj.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/重庆汽摩.png" group-title="央视频",重庆汽摩
 http://38.75.136.137:98/gslb/dsdqpub/cqqm.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆少儿.png" group-title="央视频",重庆少儿
+#EXTINF:-1 tvg-id="重庆少儿" tvg-name="重庆少儿" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆少儿.png" group-title="央视频",重庆少儿
 http://38.75.136.137:98/gslb/dsdqpub/cqse.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆红岩文化.png" group-title="央视频",重庆红岩文化
+#EXTINF:-1 tvg-id="重庆红岩文化" tvg-name="重庆红岩文化" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆红岩文化.png" group-title="央视频",重庆红岩文化
 http://38.75.136.137:98/gslb/dsdqpub/cqss.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆新闻.png" group-title="央视频",重庆新闻
+#EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆新闻.png" group-title="央视频",重庆新闻
 http://38.75.136.137:98/gslb/dsdqpub/cqxw.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Chongqing/重庆影视剧.png" group-title="央视频",重庆影视剧
 http://38.75.136.137:98/gslb/dsdqpub/cqys.m3u8?auth=testpub
@@ -5535,7 +5535,7 @@ http://107.150.60.122/live/hbjy.m3u8
 http://107.150.60.122/live/hbls.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北生活.png" group-title="央视频3",湖北生活
 http://107.150.60.122/live/hbty.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南娱乐.png" group-title="央视频3",湖南娱乐
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-name="湖南娱乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南娱乐.png" group-title="央视频3",湖南娱乐
 http://107.150.60.122/live/hnyl.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南教育.png" group-title="央视频3",湖南教育
 http://107.150.60.122/live/hnjy.m3u8
@@ -5771,7 +5771,7 @@ http://192.151.150.154/live/hbjy.m3u8
 http://192.151.150.154/live/hbls.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北生活.png" group-title="央视频3",湖北生活
 http://192.151.150.154/live/hbty.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南娱乐.png" group-title="央视频3",湖南娱乐
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-name="湖南娱乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南娱乐.png" group-title="央视频3",湖南娱乐
 http://192.151.150.154/live/hnyl.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南教育.png" group-title="央视频3",湖南教育
 http://192.151.150.154/live/hnjy.m3u8
@@ -6007,7 +6007,7 @@ http://198.204.228.26/live/hbjy.m3u8
 http://198.204.228.26/live/hbls.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTVnew/main/TVlogos/China/Hubei/湖北生活.png" group-title="央视频3",湖北生活
 http://198.204.228.26/live/hbty.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南娱乐.png" group-title="央视频3",湖南娱乐
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-name="湖南娱乐" tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南娱乐.png" group-title="央视频3",湖南娱乐
 http://198.204.228.26/live/hnyl.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/湖南教育.png" group-title="央视频3",湖南教育
 http://198.204.228.26/live/hnjy.m3u8
