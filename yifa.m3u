@@ -865,6 +865,16 @@ https://play.modujx16.com/20240830/hhzZN6Th/index.m3u8
 https://vip.dytt-film.com/20250311/12297_35fcfa9e/index.m3u8
 #EXTINF:-1 group-title="AK电影",1990赌侠
 https://play.modujx11.com/20241224/mBSx76B4/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW爆谷.png" group-title="极速港台（挂梯）",NOW爆谷
+rtmp://pull-mpeg-hs-cny-f5.douyincdn.com/live/xiangjiaoge-baogu
+#EXTINF:-1 group-title="极速港台（挂梯）",NOW星影
+rtmp://pull-mpeg-hs-cny-f5.douyincdn.com/live/xiangjiaoge-xingying
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW华剧.png" group-title="极速港台（挂梯）",NOW华剧
+rtmp://pull-mpeg-hs-cny-f5.douyincdn.com/live/xiangjiaoge-huaju
+#EXTINF:-1 group-title="极速港台（挂梯）",NOW紫金
+rtmp://pull-mpeg-hs-cny-f5.douyincdn.com/live/xiangjiaoge-zijin
+#EXTINF:-1 tvg-id="CM+ (新加坡)" tvg-name="CM+" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/CM+.png" group-title="极速港台（挂梯）",CM+
+rtmp://pull-mpeg-hs-cny-f5.douyincdn.com/live/xiangjiaoge-cmjia
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰中文.png" group-title="极速港台（挂梯）",凤凰中文
 https://cc.123.rr.kg/163189/fhzw
 #EXTINF:-1 tvg-id="翡翠台4K" tvg-name="翡翠台4K" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/翡翠台.png" group-title="极速港台（挂梯）",翡翠台
@@ -917,14 +927,6 @@ https://cc.123.rr.kg/163189/ylxw
 https://cc.123.rr.kg/163189/tvbxh
 #EXTINF:-1 group-title="极速港台（挂梯）",华丽翡翠台(硬字幕)
 https://cc.123.rr.kg/163189/jade
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW爆谷.png" group-title="极速港台（挂梯）",NOW爆谷
-rtmp://pull-mpeg-hs-cny-f5.douyincdn.com/live/xiangjiaoge-baogu
-#EXTINF:-1 group-title="极速港台（挂梯）",NOW星影
-rtmp://pull-mpeg-hs-cny-f5.douyincdn.com/live/xiangjiaoge-xingying
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sparkssssssssss/epg/main/logo/NOW华剧.png" group-title="极速港台（挂梯）",NOW华剧
-rtmp://pull-mpeg-hs-cny-f5.douyincdn.com/live/xiangjiaoge-huaju
-#EXTINF:-1 group-title="极速港台（挂梯）",NOW紫金
-rtmp://pull-mpeg-hs-cny-f5.douyincdn.com/live/xiangjiaoge-zijin
 #EXTINF:-1 group-title="极速港台（挂梯）",翡翠台4K(字幕)
 https://cdn3.indevs.in/stream/tvb/fct4k/
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/yufeilai666/myepg/logo_info/logo/鳳凰中文.png" group-title="极速港台（挂梯）",凤凰中文
